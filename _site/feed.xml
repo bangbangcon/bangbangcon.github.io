@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Hack and Tell Seattle meetups</title>
+		<description>An RSS feed of HaTS meetups as they are scheduled</description>
+		<link>http://seattle.hackandtell.org</link>
+		<atom:link href="http://seattle.hackandtell.org/feed.xml" rel="self" type="application/rss+xml" />
+		2
+		
+			<item>
+				<title>Meetup 2</title>
+				<description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset='utf-8'&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;chrome=1&quot;&gt;
+    &lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; title=&quot;Hack and Tell Seattle meetups&quot; href=&quot;http://seattle.hackandtell.org/feed.xml&quot;&gt;
+    &lt;link href='https://fonts.googleapis.com/css?family=Helvetica:900' rel='stylesheet' type='text/css'&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;stylesheets/stylesheet.css&quot; media=&quot;screen&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;stylesheets/pygment_trac.css&quot; media=&quot;screen&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;stylesheets/print.css&quot; media=&quot;print&quot; /&gt;
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src=&quot;//html5shiv.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+    &lt;title&gt;Hack and Tell Seattle&lt;/title&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;div id=&quot;container&quot;&gt;
+      &lt;div class=&quot;inner&quot;&gt;
+
+        &lt;section id=&quot;main_content&quot;&gt;
+          &lt;center&gt;
+            &lt;h3&gt;&lt;a name=&quot;next-meetup&quot; class=&quot;anchor&quot; href=&quot;#next-meetup&quot;&gt;&lt;span class=&quot;octicon octicon-link&quot;&gt;&lt;/span&gt;&lt;/a&gt;Next meetup: November 14&lt;/h3&gt;
+            &lt;p&gt;RSVP &lt;a href=&quot;http://www.meetup.com/Hack-and-Tell-Seattle/events/145242542/&quot; target=&quot;_rsvp&quot;&gt;here&lt;/a&gt;. Sign up to present &lt;a href=&quot;https://docs.google.com/forms/d/1nsZEmfoaJqraVWnNsMGgfV9hkNW7Ay02YjB02DRbixE/viewform&quot; target=&quot;_present&quot;&gt;here&lt;/a&gt;. Location is &lt;a href=&quot;http://www.jigsawrenaissance.org/&quot; target=&quot;_venue&quot;&gt;Jigsaw Renaissance&lt;/a&gt;, at 815 Seattle Boulevard South, Room 112, Seattle, WA 98134.&lt;/p&gt;
+          &lt;/center&gt;
+          
+        &lt;/section&gt;
+
+        &lt;footer&gt;
+          &lt;a href=&quot;docs.html&quot;&gt;About us&lt;/a&gt; • Hosted on &lt;a href=&quot;https://github.com/hackandtellseattle/hackandtellseattle.github.io&quot; target=&quot;_source&quot;&gt;GitHub Pages&lt;/a&gt; • Get notified of upcoming meetups via &lt;a href=&quot;feed.xml&quot;&gt;RSS feed&lt;/a&gt;.
+        &lt;/footer&gt;
+
+        
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+				<pubDate>Thu, 14 Nov 2013 00:00:00 -0800</pubDate>
+				<link>http://seattle.hackandtell.org/meetup-2.html</link>
+				<guid isPermaLink="true">http://seattle.hackandtell.org/meetup-2.html</guid>
+			</item>
+		
+			<item>
+				<title>Meetup 1</title>
+				<description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset='utf-8'&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;chrome=1&quot;&gt;
+    &lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; title=&quot;Hack and Tell Seattle meetups&quot; href=&quot;http://seattle.hackandtell.org/feed.xml&quot;&gt;
+    &lt;link href='https://fonts.googleapis.com/css?family=Helvetica:900' rel='stylesheet' type='text/css'&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;stylesheets/stylesheet.css&quot; media=&quot;screen&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;stylesheets/pygment_trac.css&quot; media=&quot;screen&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;stylesheets/print.css&quot; media=&quot;print&quot; /&gt;
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src=&quot;//html5shiv.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+    &lt;title&gt;Hack and Tell Seattle&lt;/title&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;div id=&quot;container&quot;&gt;
+      &lt;div class=&quot;inner&quot;&gt;
+
+        &lt;section id=&quot;main_content&quot;&gt;
+          &lt;center&gt;
+            &lt;h3&gt;&lt;a name=&quot;next-meetup&quot; class=&quot;anchor&quot; href=&quot;#next-meetup&quot;&gt;&lt;span class=&quot;octicon octicon-link&quot;&gt;&lt;/span&gt;&lt;/a&gt;Next meetup: October 10&lt;/h3&gt;
+            &lt;p&gt;RSVP &lt;a href=&quot;http://www.meetup.com/Hack-and-Tell-Seattle/events/142781902/&quot; target=&quot;_rsvp&quot;&gt;here&lt;/a&gt;. Sign up to present &lt;a href=&quot;https://docs.google.com/forms/d/1hbpNPypvJ8l61Di_4o9xbvwGxYRevCiUqpo4KPhdt84/viewform&quot; target=&quot;_present&quot;&gt;here&lt;/a&gt;. Location is &lt;a href=&quot;http://www.jigsawrenaissance.org/&quot; target=&quot;_venue&quot;&gt;Jigsaw Renaissance&lt;/a&gt;, at 815 Seattle Boulevard South, Room 112, Seattle, WA 98134.&lt;/p&gt;
+          &lt;/center&gt;
+          
+        &lt;/section&gt;
+
+        &lt;footer&gt;
+          &lt;a href=&quot;docs.html&quot;&gt;About us&lt;/a&gt; • Hosted on &lt;a href=&quot;https://github.com/hackandtellseattle/hackandtellseattle.github.io&quot; target=&quot;_source&quot;&gt;GitHub Pages&lt;/a&gt; • Get notified of upcoming meetups via &lt;a href=&quot;feed.xml&quot;&gt;RSS feed&lt;/a&gt;.
+        &lt;/footer&gt;
+
+        
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+				<pubDate>Thu, 10 Oct 2013 00:00:00 -0700</pubDate>
+				<link>http://seattle.hackandtell.org/meetup-1.html</link>
+				<guid isPermaLink="true">http://seattle.hackandtell.org/meetup-1.html</guid>
+			</item>
+		
+	</channel>
+</rss>

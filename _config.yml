@@ -1,0 +1,5 @@
+permalink: /:title.html
+
+name: Hack and Tell Seattle meetups
+description: An RSS feed of HaTS meetups as they are scheduled
+url: http://seattle.hackandtell.org
