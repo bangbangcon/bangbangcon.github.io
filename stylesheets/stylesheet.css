@@ -295,7 +295,6 @@ h1 {
 } 
 
 h2 {
-  font-family: 'Helvetica'; font-weight: 900;
   letter-spacing: 0px;
   font-size: 40px;
   line-height: 0.9;
@@ -324,7 +323,6 @@ h6 {
 } 
 
 p {
-  font-weight: 300;
   margin-bottom: 20px;
 }
 
