@@ -106,6 +106,10 @@ header h3 {
   line-height: 0.9;
 }
 
+h1,h2,h3,h4 {
+    font-family: "Nordic";
+}
+
 #container {
 /*  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat; */
   min-height: 595px;
