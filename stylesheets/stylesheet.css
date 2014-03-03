@@ -1,19 +1,19 @@
-@font.face {
+@font-face {
     font-family: 'Nordic';
     src: url('fonts/PTF-NORDIC-Rnd.ttf');
 }
 
-@font.face {
+@font-face {
     font-family: 'PT Sans Narrow';
     src: url('fonts/PTN57F.ttf');
 }
 
-@font.face {
+@font-face {
     font-family: 'Varela';
     src: url('fonts/VarelaRound-Regular.ttf');
 }
 
-@font.face {
+@font-face {
     font-family: 'Lato';
     src: url('fonts/Lato-Reg.ttf');
 }
@@ -128,7 +128,7 @@ header h3 {
 }
 
 h1,h2,h3,h4 {
-    font-family: "PTF Nordic Rnd";
+    font-family: "Nordic";
     color:#ffe4ff;
 }
 
