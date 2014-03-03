@@ -1,3 +1,18 @@
+@font.face {
+    font-family: 'Nordic';
+    src: url('fonts/PTF-NORDIC-Rnd.ttf');
+}
+
+@font.face {
+    font-family: 'PT Sans Narrow';
+    src: url('fonts/PTN57F.ttf');
+}
+
+@font.face {
+    font-family: 'Varela';
+    src: url('fonts/VarelaRound-Regular.ttf');
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,15 +61,21 @@ table {
 	border-spacing: 0;
 }
 
+/*
+dark maroon: #6b182b
+gossamer pink: #ff97c0
+bleached thistle: #ffe4ff
+
+*/
 /* LAYOUT STYLES */
 body {
   font-weight: 300;
   font-size: 1.3em;
   line-height: 1.5; 
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  color: #5d5d5d;
+  background: #6b182b url(../images/grid-blanco-cien-10.png) 0 0 repeat;
+  font-family: "PT Sans Narrow", Helvetica, Arial, serif;
+  text-shadow: 0 1px 0 black);
+  color: #ff97c0;
 }
 
 b {
@@ -63,14 +84,15 @@ b {
 }
 
 a {
-  color: #5d5d5d;
+  color: #eeff8e;
   text-decoration: none;
-  border-bottom: 2px dotted #999;
+  border-bottom: 2px dotted thistle;
   /*color: #d5000d;*/
 }
 a:hover {
-  color: #c5000c;
+  color: #8efeff;
 }
+
 
 header {
   padding-top: 35px;
@@ -86,7 +108,6 @@ header h1 {
 }
 
 header h2 {
-  font-family: 'Helvetica'; font-weight: 900;
   letter-spacing: 0px;
   font-size: 20px;
   color: #888888;
@@ -94,15 +115,19 @@ header h2 {
 }
 
 header h3 {
-  font-family: 'Helvetica'; font-weight: 900;
   letter-spacing: 0px;
   font-size: 40px;
   color: #303030;
   line-height: 0.9;
 }
 
+h1,h2,h3,h4 {
+    font-family: "PTF Nordic Rnd";
+    color:#ffe4ff;
+}
+
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+/*  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat; */
   min-height: 595px;
 }
 
@@ -270,23 +295,19 @@ h1 {
 } 
 
 h2 {
-  font-family: 'Helvetica'; font-weight: 900;
   letter-spacing: 0px;
   font-size: 40px;
-  color: #303030;
   line-height: 0.9;
 } 
 
 h3 {
   color: deeppink;
-  font-size: 30px;
   font-weight: bold;
   margin-bottom: 8px;
 } 
  
 h4 {
   font-size: 30px;
-  color: #303030;
   font-weight: bold;
   margin-bottom: 8px;
 } 
@@ -302,7 +323,6 @@ h6 {
 } 
 
 p {
-  font-weight: 300;
   margin-bottom: 20px;
 }
 
@@ -341,14 +361,14 @@ footer {
   padding-top: 20px;
   padding-bottom: 40px;
   font-size: 13px;
-  color: #999;
+  color: thistle;
 }
 
 footer a {
-  color: #666;
+  color: gainsboro;
 }
 footer a:hover {
-  color: #444;
+  color: #87cefa;
 }
 
 /* MISC */
