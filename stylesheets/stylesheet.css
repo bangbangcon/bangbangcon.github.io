@@ -361,14 +361,14 @@ footer {
   padding-top: 20px;
   padding-bottom: 40px;
   font-size: 13px;
-  color: #999;
+  color: thistle;
 }
 
 footer a {
-  color: #666;
+  color: gainsboro;
 }
 footer a:hover {
-  color: #444;
+  color: #87cefa;
 }
 
 /* MISC */
