@@ -138,9 +138,10 @@ h1,h2,h3,h4 {
 }
 
 #main_content {
-  padding: 15px;
+  padding: 2.5em;
   background-color: #3f0c1a;
   border: 1px solid #692a3a;
+  font-size: .875em;
 }
 
 .inner {
