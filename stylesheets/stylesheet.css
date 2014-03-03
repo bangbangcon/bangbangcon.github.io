@@ -1,21 +1,21 @@
-@font.face {
+@font-face {
     font-family: 'Nordic';
-    src: url('fonts/PTF-NORDIC-Rnd.ttf');
+    src: url('../fonts/PTF-NORDIC-Rnd.ttf');
 }
 
-@font.face {
+@font-face {
     font-family: 'PT Sans Narrow';
-    src: url('fonts/PTN57F.ttf');
+    src: url('../fonts/PTN57F.ttf');
 }
 
-@font.face {
+@font-face {
     font-family: 'Varela';
-    src: url('fonts/VarelaRound-Regular.ttf');
+    src: url('../fonts/VarelaRound-Regular.ttf');
 }
 
-@font.face {
+@font-face {
     font-family: 'Lato';
-    src: url('fonts/Lato-Reg.ttf');
+    src: url('../fonts/Lato-Reg.ttf');
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -68,7 +68,7 @@ table {
 
 /*
 dark maroon: #6b182b #581224
-gossamer pink: #ff97c0
+gossamer pink: #ff97c0, #ffb4d1
 bleached thistle: #ffe4ff
 
 */
@@ -80,7 +80,7 @@ body {
   background: #581224 url(../images/grid-blanco-cien-10.png) 0 0 repeat;
   font-family: 'Lato', "PT Sans Narrow", Helvetica, Arial, serif;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
-  color: #ff97c0;
+  color: #ffb4d1;
 }
 
 b {
@@ -127,7 +127,7 @@ header h3 {
 }
 
 h1,h2,h3,h4 {
-    font-family: "PTF Nordic Rnd";
+    font-family: "Nordic";
     color:#ffe4ff;
 }
 
