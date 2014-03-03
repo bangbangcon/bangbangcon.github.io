@@ -13,6 +13,11 @@
     src: url('fonts/VarelaRound-Regular.ttf');
 }
 
+@font.face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Reg.ttf');
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
