@@ -296,6 +296,13 @@ form {
   
 }
 
+form input {
+    border: 1px solid #FFFFFF;
+    padding: 8px;
+    width: 200px;
+    -moz-border-radius: 15px;
+    border-radius: 5px;
+}
 
 /* GENERAL ELEMENT TYPE STYLES */
 
