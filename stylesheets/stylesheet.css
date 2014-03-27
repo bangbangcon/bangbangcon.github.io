@@ -77,12 +77,14 @@ body {
   font-weight: 300;
   font-size: 1.3em;
   line-height: 1.5;
-  background: #581224 url(../images/grid-blanco-cien-10.png) repeat;
-  background-position:center;
+/**  background: #581224 url(../images/grid-blanco-cien-10.png) repeat; 
+  background-position:center; **/
+  background-color: #3f0c1a;
   font-family: 'Lato', "PT Sans Narrow", Helvetica, Arial, serif;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
   color: #ffb4d1;
 }
+
 
 b {
   font-weight: 600;
@@ -140,7 +142,7 @@ h1,h2,h3,h4 {
 #main_content {
   padding: 2.5em;
   background-color: #3f0c1a;
-  border: 1px solid #692a3a;
+ /** border: 1px solid #692a3a; **/
   font-size: .875em;
 }
 
@@ -439,3 +441,67 @@ input.button {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+
+
+
+h4 {
+  display: inline-block;
+  background-color: #360a16;
+  padding: 0.06em 0.6em;
+  font-weight: normal;
+  color: #ffbeff;
+}
+
+strong {
+  color: #ffd7e6
+}
+
+p a {
+  font-weight: normal;
+}
+
+input.required.email {
+  border-radius: 10px;
+  background-color: #692739;
+  color: #ff759b;
+  font-size: 16px;
+  width: 150px;
+  border: none;
+  font-style: italic;
+  font-family: 'georgia', sans-serif;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #c01140;
+  color: #ff759b;
+  font-style: italic;
+    text-shadow: 1px 1px 1px #3f0c1a;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #c01140;
+  color: #ff759b;
+  font-style: italic;
+    text-shadow: 1px 1px 1px #3f0c1a;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #c01140;
+  color: #ff759b;
+  font-style: italic;
+    text-shadow: 1px 1px 1px #3f0c1a;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #c01140;
+  color: #ff759b;
+  font-style: italic;
+    text-shadow: 1px 1px 1px #3f0c1a;
+}
+
+
+form input {
+  border: none;
+  background-color: #7c4050;
+  color: thistle
+  width: 100px;
+  border-radius: 10px;
+}
