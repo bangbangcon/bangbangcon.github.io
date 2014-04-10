@@ -18,7 +18,7 @@
     src: url('../fonts/Lato-Lig.ttf');
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -31,8 +31,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -43,7 +43,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -76,13 +76,15 @@ bleached thistle: #ffe4ff
 body {
   font-weight: 300;
   font-size: 1.3em;
-  line-height: 1.5; 
-  background: #581224 url(../images/grid-blanco-cien-10.png) repeat;
-  background-position:center; 
+  line-height: 1.5;
+/**  background: #581224 url(../images/grid-blanco-cien-10.png) repeat; 
+  background-position:center; **/
+  background-color: #3f0c1a;
   font-family: 'Lato', "PT Sans Narrow", Helvetica, Arial, serif;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
   color: #ffb4d1;
 }
+
 
 b {
   font-weight: 600;
@@ -140,7 +142,7 @@ h1,h2,h3,h4 {
 #main_content {
   padding: 2.5em;
   background-color: #3f0c1a;
-  border: 1px solid #692a3a;
+ /** border: 1px solid #692a3a; **/
   font-size: .875em;
 }
 
@@ -159,7 +161,7 @@ h1,h2,h3,h4 {
 
 a.button {
   -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;                     
+  -webkit-border-radius: 30px;
   border-radius: 30px;
   border-top: solid 1px #cbcbcb;
   border-left: solid 1px #b7b7b7;
@@ -173,7 +175,7 @@ a.button {
   display: block;
   float: left;
   width: 179px;
-  margin-right: 14px;  
+  margin-right: 14px;
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
@@ -286,14 +288,13 @@ th {
 
 td {
   border: 1px solid #ebebeb;
-  text-align: center; 
+  text-align: center;
   font-weight: 300;
 }
 
 form {
   background: #f2f2f2;
-  padding: 20px;
-  
+  padding: 20px 0;
 }
 
 form input {
@@ -308,7 +309,7 @@ form input {
 
 h1 {
   font-size: 32px;
-} 
+}
 
 h2 {
   letter-spacing: 0px;
@@ -321,23 +322,23 @@ h3 {
   color: deeppink;
   font-weight: bold;
   margin-bottom: 8px;
-} 
- 
+}
+
 h4 {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 8px;
-} 
+}
 
 h5 {
   font-size: 1em;
   color: #303030;
-} 
+}
 
 h6 {
   font-size: .8em;
   color: #303030;
-} 
+}
 
 p {
   margin-bottom: 20px;
@@ -428,8 +429,80 @@ footer a:hover {
   }
 }
 
+.email {
+  margin: 0 10px;
+}
+
+input.button {
+  margin: 10px;
+}
+
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+
+
+
+h4 {
+  display: inline-block;
+  background-color: #360a16;
+  padding: 0.06em 0.6em;
+  font-weight: normal;
+  color: #ffbeff;
+}
+
+strong {
+  color: #ffd7e6
+}
+
+p a {
+  font-weight: normal;
+}
+
+input.required.email {
+  border-radius: 10px;
+  background-color: #692739;
+  color: #ff759b;
+  font-size: 16px;
+  width: 150px;
+  border: none;
+  font-style: italic;
+  font-family: 'georgia', sans-serif;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #c01140;
+  color: #ff759b;
+  font-style: italic;
+    text-shadow: 1px 1px 1px #3f0c1a;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #c01140;
+  color: #ff759b;
+  font-style: italic;
+    text-shadow: 1px 1px 1px #3f0c1a;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #c01140;
+  color: #ff759b;
+  font-style: italic;
+    text-shadow: 1px 1px 1px #3f0c1a;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #c01140;
+  color: #ff759b;
+  font-style: italic;
+    text-shadow: 1px 1px 1px #3f0c1a;
+}
+
+
+form input {
+  border: none;
+  background-color: #7c4050;
+  color: thistle
+  width: 100px;
+  border-radius: 10px;
+}
