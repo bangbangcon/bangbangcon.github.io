@@ -117,6 +117,45 @@
 
 		  <div style="float: right; margin-left: 10px; margin-bottom:
 		  10px; "><img height="100" width="100"
+		  src="images/speakers/placeholder.png" alt="Mark Jason Dominus"
+	      style="border: 1px solid deeppink;" /></div>
+
+		  <h3>Mark Jason Dominus</h3>
+
+		  <p><strong><em>Help! Help!</em></strong></p>
+
+		  <p>This catalog of Perl introspection techniques will amaze,
+		  confound, or disgust you!  A Perl method call like
+		  <code>$object->fgsfds()</code> emits an unhelpful message
+		  about an unknown method, without any advice about what
+		  <em>would</em> have worked.</p>
+
+		  <p>We will see the internals of <code>Help.pm</code>, a Perl
+		  module which catches an attempt to call an undefined method,
+		  and emits a helpful list of valid method names.</p>
+
+		  <p>First, we will see how the <code>Help</code> module
+		  forcibly inserts itself into the inheritance hierarchy for
+		  the target module, so that failed method lookups will be
+		  dispatched to <code>Help</code> when normal inheritance
+		  fails. Then we will see Perl's <code>AUTOLOAD</code>
+		  feature, the method of last
+		  resort. The <code>AUTOLOAD</code> method
+		  in <code>Help</code> will then search the inheritance
+		  hierarchy synthetically, using Perl's symbol table
+		  interface, to locate methods of interest. Finally, the
+		  <code>AUTOLOAD</code> method will emit a report about what
+		  was found.</p>
+
+		  <p><strong>Mark</strong> first became interested in
+		  programming in the mid-1970s from watching his mom do it. He
+		  likes sending network packets because they make amazing
+		  things happen in faraway places.</p>
+
+		  <hr /> <!------------------------------------->
+
+		  <div style="float: right; margin-left: 10px; margin-bottom:
+		  10px; "><img height="100" width="100"
 		  src="images/speakers/rafik-draoui.png" alt="Rafik Draoui"
 		  style="border: 1px solid deeppink;" /></div>
 
