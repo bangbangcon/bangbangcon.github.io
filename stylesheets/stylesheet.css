@@ -450,9 +450,6 @@ input.button {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
 
-
-
-
 h4 {
   display: inline-block;
   background-color: #360a16;
@@ -505,11 +502,21 @@ input.required.email {
     text-shadow: 1px 1px 1px #3f0c1a;
 }
 
-
 form input {
   border: none;
   background-color: #7c4050;
   color: thistle
   width: 100px;
   border-radius: 10px;
+}
+
+/* Homepage speaker pictures */
+.speaker-pic {
+  float: left;
+  margin-right: 17px;
+  margin-bottom: 17px;
+}
+
+.speaker-pic img {
+  border: 1px solid deeppink;
 }
