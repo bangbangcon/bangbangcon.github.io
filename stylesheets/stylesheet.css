@@ -261,7 +261,7 @@ ul, ol, dl {
 .scheduletable {color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
 .scheduletable th {background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
 .scheduletable tr {background-color:#ffffff;}
-.scheduletable td {border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+.scheduletable td {border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;text-shadow:none;}
 .scheduletable tr:hover {background-color:#ffff99;}
 
 
