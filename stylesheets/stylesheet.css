@@ -511,12 +511,20 @@ form input {
 }
 
 /* Homepage speaker pictures */
-.speaker-pic {
+.speaker-pic-row div:not(:last-child){
   float: left;
   margin-right: 17px;
   margin-bottom: 17px;
 }
 
-.speaker-pic img {
+.speaker-pic-row div:nth-last-child(2){
+  margin-right: 0;
+}
+
+.speaker-pic-row img {
   border: 1px solid deeppink;
+}
+
+.speaker-pic-row a {
+  border: none;
 }
