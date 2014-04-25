@@ -261,7 +261,7 @@ ul, ol, dl {
 .scheduletable {color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
 .scheduletable th {background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
 .scheduletable tr {background-color:#ffffff;}
-.scheduletable td {border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+.scheduletable td {border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;text-shadow:none;}
 .scheduletable tr:hover {background-color:#ffff99;}
 
 
@@ -450,9 +450,6 @@ input.button {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
 
-
-
-
 h4 {
   display: inline-block;
   background-color: #360a16;
@@ -505,11 +502,29 @@ input.required.email {
     text-shadow: 1px 1px 1px #3f0c1a;
 }
 
-
 form input {
   border: none;
   background-color: #7c4050;
   color: thistle
   width: 100px;
   border-radius: 10px;
+}
+
+/* Homepage speaker pictures */
+.speaker-pic-row div:not(:last-child){
+  float: left;
+  margin-right: 17px;
+  margin-bottom: 17px;
+}
+
+.speaker-pic-row div:nth-last-child(2){
+  margin-right: 0;
+}
+
+.speaker-pic-row img {
+  border: 1px solid deeppink;
+}
+
+.speaker-pic-row a {
+  border: none;
 }
