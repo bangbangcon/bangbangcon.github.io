@@ -101,6 +101,15 @@ a:hover {
   color: #8efeff;
 }
 
+/* links in schedule need to be different because of light background */
+td a {
+  color: #943;
+}
+
+td a:hover {
+  color: #444;
+}
+
 
 header {
   padding-top: 35px;
