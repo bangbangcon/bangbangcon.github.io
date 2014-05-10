@@ -563,6 +563,7 @@ form input {
   width: 170px;
   height: 110px;
   border: 1px solid #360a16;
+  border-radius: 10px;
   background-color: #fff;
   margin-bottom: 20px;
 }
