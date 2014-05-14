@@ -560,8 +560,8 @@ form input {
 .sponsor {
   display: inline;
   float: left;
-  width: 170px;
-  height: 110px;
+  width: 226px;
+  height: 166px;
   border: 1px solid #360a16;
   border-radius: 10px;
   background-color: #fff;
@@ -569,7 +569,7 @@ form input {
 }
 
 .sponsor img {
-  padding: 10px;
+  padding: 38px;
   width: 150px;
   height: 90px;
 }
