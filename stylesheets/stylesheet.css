@@ -264,7 +264,7 @@ pre code {
 }
 
 ul, ol, dl {
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .scheduletable {color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
