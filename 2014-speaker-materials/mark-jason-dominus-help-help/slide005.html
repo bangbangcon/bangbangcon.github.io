@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE>[[use Help … ]]</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+pre {
+  background-color: #ecd2ea;
+  font-size: 16pt;
+}
+
+li {
+  font-size: 14pt;
+}
+
+a.next {
+  text-decoration: none;
+}
+
+.topbar, .botbar {
+  font-size: 24pt;
+  color: purple;
+}
+
+</style><META NAME="generator" CONTENT="txt2html v1.25">
+<LINK REL='start' HREF='slide001a.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='first' HREF='slide001a.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='last' HREF='slide014.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='next' HREF='slide006.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='previous' HREF='slide004.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='contents' HREF='TABLE_OF_CONTENTS.html' TYPE='text/html; charset=utf-8'>
+</HEAD>
+<BODY BGCOLOR="#ffffff"><FONT SIZE=4>
+
+<table class="topbar" width='100%' cellpadding=0 cellspacing=0 border=0>
+<tr bgcolor='white'>
+    <td align=left width='25%'><a class="next" href="slide006.html">☞</a></td>
+    <td align=center width='50%' >Help! Help!</td>
+    <td align=right width='25%'><b>5</b></td>
+</tr>
+</table>
+<hr>
+
+
+
+<H1><A NAME="section-1"><TT>use Help … </TT></A></H1>
+
+<PRE class="code">
+        use Help 'Horrible::Thing';     
+</PRE>
+
+<UL>
+  <LI><p> This calls <FONT COLOR="purple"><B><TT>Help-&gt;import('Horrible::Thing')</TT></B></FONT>:</LI></p>
+
+
+</UL>
+<PRE class="code">
+        package Help;
+        
+        sub <FONT COLOR="purple"><B><TT>import</TT></B></FONT> {
+          my ($selfclass, @classes) = @_;      
+          for my $class (@classes) {
+            my $isa_var = $class . "::ISA";
+<FONT COLOR="purple"><B><TT>           push @{$isa_var}, $selfclass;
+</TT></B></FONT>          }
+        }
+</PRE>
+
+<P>
+<p align=center><img src="help-inherit.png"></p>
+
+
+<br clear=all>
+<hr>
+
+<table class="botbar" width='100%' cellpadding=0 cellspacing=0 border=0>
+<tr bgcolor='white' ><td align="left" width='33%'><a class="next" href="slide006.html">☞</a></td>
+    <td align=center width='33%' ><a href="sigils.html"><img border=0 src="small-sigils.gif"></a></td>
+    <td align="right" width='33%'><a class="next" href="slide006.html">☞</a></td>
+</tr>
+</table>
+</FONT></BODY>
+</HTML>

@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE>Error message</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+pre {
+  background-color: #ecd2ea;
+  font-size: 16pt;
+}
+
+li {
+  font-size: 14pt;
+}
+
+a.next {
+  text-decoration: none;
+}
+
+.topbar, .botbar {
+  font-size: 24pt;
+  color: purple;
+}
+
+</style><META NAME="generator" CONTENT="txt2html v1.25">
+<LINK REL='start' HREF='slide001a.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='first' HREF='slide001a.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='last' HREF='slide014.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='next' HREF='slide010a.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='previous' HREF='slide008.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='contents' HREF='TABLE_OF_CONTENTS.html' TYPE='text/html; charset=utf-8'>
+</HEAD>
+<BODY BGCOLOR="#ffffff"><FONT SIZE=4>
+
+<table class="topbar" width='100%' cellpadding=0 cellspacing=0 border=0>
+<tr bgcolor='white'>
+    <td align=left width='25%'><a class="next" href="slide010a.html">☞</a></td>
+    <td align=center width='50%' >Help! Help!</td>
+    <td align=right width='25%'><b>9</b></td>
+</tr>
+</table>
+<hr>
+
+
+<H1><A NAME="section-1">Error message</A></H1>
+
+<PRE class="code">
+        sub AUTOLOAD {
+          …
+    
+          warn "Unknown method '$method' called on object of class $bottom_class\n";
+          warn "Perhaps try:\n";
+          for my $name (sort keys %known_method) {
+            warn "  $name " . 
+              ($known_method{$name} eq $bottom_class 
+               ? ""
+               : "(via $known_method{$name})") .
+                "\n";
+          }
+    
+          croak "Aborting";
+        }
+</PRE>
+
+
+<br clear=all>
+<hr>
+
+<table class="botbar" width='100%' cellpadding=0 cellspacing=0 border=0>
+<tr bgcolor='white' ><td align="left" width='33%'><a class="next" href="slide010a.html">☞</a></td>
+    <td align=center width='33%' ><a href="sigils.html"><img border=0 src="small-sigils.gif"></a></td>
+    <td align="right" width='33%'><a class="next" href="slide010a.html">☞</a></td>
+</tr>
+</table>
+</FONT></BODY>
+</HTML>
