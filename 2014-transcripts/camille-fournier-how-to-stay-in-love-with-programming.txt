@@ -1,0 +1,654 @@
+ >> All right. You came back!
+
+(applause)
+
+ >> Hurray! Before we get started, I
+want to make a couple of administrivial
+announcements. For those who weren't
+here yesterday or for those who just
+forgot, we have Wi-Fi. The password is
+nevergraduate!, with an exclamation
+point at the end. And it's also on the
+white board over there. We have a
+restrooms over there, and there's
+usually a line during breaks, so please
+be patient. What else? We have quiet and
+loud rooms. So Hopper over here is the
+quiet room, and Babbage, Church, and
+Lovelace are the loud rooms. So feel
+free to use those as you will. And last
+but not least, we have a code of
+conduct, and it's on the website, at
+bangbangcon.com. So please familiarize
+yourself with the code of conduct, if
+you haven't already. With that, I think
+we're ready to get started with our
+keynote talk.
+
+Oh, and... Once again... I'm sorry. What
+did you want me to announce? Oh, thank
+you, Erty for doing AV.
+
+(applause)
+
+And on that note, I think I should also
+thank our amazing sponsors, once again.
+So...
+
+ >> Yay! Thank you, sponsors!
+
+ >> And we have six sponsors for the
+conference. Hacker School of course gave
+us this space and a fair amount of their
+time, and our other sponsors, Etsy and
+Venmo, both helped support food, and
+Venmo is supporting our amazing realtime
+transcription, done by Mirabai. Perka, I
+believe, also donated food. Mandrill
+made our T-shirts possible, and Stripe
+is sponsoring an ice cream break this
+afternoon. So let's give them all a
+hand.
+
+And I'm of the understanding that
+they're hiring, so, you know, there are
+various people here who are from these
+companies. So you have an in to talk to
+them now. You can say -- hey, I hear you
+like sponsoring things. Maybe you'd like
+to sponsor me! So today it's my
+privilege to introduce our keynote
+speaker, Camille Fournier. She is a
+major contributor to Apache ZooKeeper,
+VP of engineering at Rent the Runway,
+and as a personal note, we were really
+excited to get Camille as a keynote
+speaker. When we started organizing this
+conference, we didn't know how to
+organize a conference, and we had a list
+of people we thought we might want to
+invite as speakers, and we agonized over
+how to write the email to invite them,
+and I wrote an email that was almost
+apologetic, like... You know, our
+conference has a really silly name, but
+we hope you might want to give a talk at
+it anyway. And Camille wrote back really
+quickly, saying -- sure, sounds cool.
+And so we were really touched, and
+excited that she wanted to be part of
+this. So let's welcome Camille.
+
+(applause)
+
+ >> All right. Come on. There we go! All
+right! Good morning, everybody. You will
+have to forgive me if I start coughing
+or doing other disgusting things. I'm
+suffering from a little bit of a cold.
+But I am super excited to be here!
+Talking to all of you. And this is my
+first keynote as well. So I'm a little
+nervous, but I'm sure it'll be fine. My
+talk is "How to Stay in Love with
+Programming". And it is a personal
+history. So... We are all here because
+we are passionate people.
+
+And programming is our passion. Or
+technology. What have you. Programming
+is also one of the few passions that you
+can really easily carry into a pretty
+freaking awesome career, if I do say so
+myself. On the other hand, there is the
+saying that the quickest way to lose
+interest in something is to make it your
+job. So I've been thinking a lot
+about... How do you maintain that
+passion and joy that you feel, you know,
+sort of early in your career, when you
+first start really learning programming?
+And I figured that I would share the
+story of my journey.
+
+So write what you know. I'm so happy
+that Mike's keynote is a very... Sort of
+a little bit his journey. Right? Mike
+and I have slightly different journeys
+into programming and slightly different
+interests, and I think in many ways, our
+talks are a little bit of a yin and
+yang. We have some core things in common
+and some things very, very different.
+Mike's talk was all about obsession. My
+talk is a little bit more about
+observation. That's been sort of my key
+to advancement. But I hope that you --
+between the two of us, you guys will get
+something out of these talks. Because,
+you know, programming is magic. I mean,
+it really is. It's like the closest
+thing to feeling like a wizard, I think,
+in this modern day, is programming.
+We've seen all of these amazing talks
+yesterday, more today. It's just like --
+you did what with what? You made that?
+You used awk and you made sound? Like...
+All these other amazing things. Like,
+that's really, really awesome.
+Programming is one of the few things
+that you can do, where you can touch so
+many people with relatively little
+effort.
+
+So it's pretty awesome. But truth be
+told, nothing is easy. And it can be
+extremely discouraging at times. And I
+have had many ups and downs in my
+career. Not only the sort of micro-ups
+and downs of cursing at code, which
+everyone here who has worked with me
+has heard me do many, many times, but
+also sort of the ups and downs of --
+what am I doing? Why am I doing this? Am
+I any good at it? What's going on here?
+So... What's the secret to staying in
+love?
+
+Through good times and bad, richer and
+poorer, sickness and health, 'til death
+do you part? Right? Because the secret
+of programming is that programming
+doesn't love you back. That's true,
+right? You love programming. Programming
+does not love you back.
+
+(applause)
+
+So it has to be about you. It has to be
+about your own personal journey to love.
+Because that's the only way you're going
+to maintain this. So what's my personal
+journey? Well, we begin at the
+beginning. And, you know, the beginning
+of love is generally infatuation, and in
+my case, also frequently frustration.
+For me, falling in love was relatively
+easy. So I've been, you know, a nerd for
+a long time. I like to say that I fell
+in love with computers in, like, third
+grade, doing LOGO, and I started
+learning a little bit in high school,
+and, you know, I went to college for
+computer science. I went to college at
+Carnegie Mellon, where you apply and you
+go to the School of Computer Science.
+And I was bound and determined to be a
+computer scientist. As of my freshman
+year of college. And I fell in love...
+You might say more with the idea of
+programming than with programming
+itself. Because especially when I was in
+college, programming was really hard.
+It's gotten slightly easier, I think, in
+the time since I learned to program. I
+was thinking... I forgot to look this
+up, but I suspect that the time between
+now and when I started is almost as long
+as when I started and when C++ was
+invented. Maybe even C. So it's a
+long... Programming has hopefully
+evolved several notches in that interim
+period.
+
+But I fell in love with many different
+ideas of programming. So first I thought
+I would be an AI person, because I read
+a lot of cyberpunk. I really loved
+Neuromancer, Snow Crash, I'm like... I'm
+going to make intelligent computers! And
+then I took an AI course. Maybe not so
+much. Theory and algorithms? No. I was
+at Carnegie Mellon, so programming
+languages. Definitely the thing. I'm not
+good at them. I wasn't bad, I took a lot
+of classes in it, but I wasn't that good
+at it. I got to the end of my undergrad
+and I was like... Compilers. I'm pretty
+good at low level stuff, and this is
+fine. So this is what I'm going to be
+into.
+
+And I took a job doing sort of
+compilers, debugging tools. That was
+cool. I kind of got through undergrad
+partly through sheer determination, and
+took this job and floundered badly for a
+year and a half. I basically did not...
+I would say I did not get much done. And
+it was really hard, actually. Looking
+back, I didn't have great mentorship in
+that job, but I was like... Oh my God.
+Maybe this is scary. So I was like...
+That's fine. I'm going to go to grad
+school. I can be a grad student. I'm
+smart. I had some research interests.
+I'm going to go to grad school, work in
+compilers, and it'll be awesome. I got
+to grad school and it was like... All
+right. Compilers, compilers. Wasn't good
+at that. So I was like... I'm going to
+switch to computer architecture and a
+little bit of operating systems, and I
+was pretty good at a course called
+distributed systems. But they were not
+cool when I was in grad school. It was
+not an interesting area to pursue at the
+time, so I thought. So I got to the end
+of a masters degree and I'm like... This
+is not good. I'm not a good grad
+student. I didn't do well in this job.
+I've had countless internships that have
+all been fine, but what do you really
+get out of that? I was beginning to
+wonder if I had made a terrible mistake.
+
+And maybe programming and tech was just
+not for me. So I did a very drastic
+thing, was I took the LSATs and thought
+about going to law school. Fortunately,
+I'm a practical person. I'm not going to
+jump from grad school to law school. Got
+to give it one more shot. So I moved to
+New York City. I didn't care all that
+much where I worked, as long as I'm
+working someplace I can get paid enough
+to live in New York City. This was
+amazing. I got a job at Goldman Sachs,
+which I hadn't heard of until I
+interviewed with them. You have to tell
+them how awesome they are, when you
+interview. I don't think that's true
+anymore. But it was when I interviewed.
+So I took this job at Goldman Sachs. And
+I did something sort of very lucky.
+Which was that I didn't know anything
+about finance, and I had kind of hit
+bottom with my own sort of
+self-confidence. Oh, I'm not good at any
+of these things that I feel like I
+should be good at. So here's what I'm
+going to do.
+
+I just let go of my assumptions. And I
+went into this job and I was like... I'm
+going to be dumb. I'm going to ask a lot
+of dumb questions. If I don't understand
+something perfectly, I'm going to ask
+questions until I do. And this turned
+out to be kind of an amazing thing. So
+if you've ever studied Buddhism, you're
+probably familiar with the concept of
+beginner's mind. This is my son, by the
+way. Beginner's mind is like the mind of
+a child, first learning. It's this mind
+where you're sort of an empty vessel,
+and all you're doing is observing, and
+taking things in, without prejudice,
+without thinking that you know what's
+right or what's wrong. Just sort of
+observing and learning, and being open
+to new ideas.
+
+And for me, this was incredibly freeing,
+because up until this point in my
+career, I feel like I had been dominated
+by shoulds. I should be good at
+programming languages. I should be a
+good grad student. I should be able to
+do it all without help. I should know
+everything. I should be working in C,
+C++, doing awesome tech company stuff.
+And I was like... You know what? None of
+those things were working out for me. So
+I'm just going to give this a shot. And
+in reality, what I discovered when I did
+this was that I had no idea what I
+wanted to do. I had no idea. All these
+"shoulds" had been making me miserable.
+And I had been judging myself. I had no
+idea what was hard and what wasn't, what
+was cool and what wasn't. Distributed
+systems, that class I was good at in
+graduate school, ended up being
+something that I worked on in this job
+and is now the hotness. Right?
+
+I'm coincidentally -- happen to be very
+good at this thing that now everybody
+thinks is really cool. But that was
+totally accidental for me. I discovered
+that actually I really like working in
+an iterative way, which was very
+different at the time from, like,
+traditional tech company -- I was
+working at Microsoft earlier, where you
+are building software that's going to
+ship in all one big bang, for years and
+years and years you're building. I love
+this iterative style of building. I
+loved building with a business purpose
+in mind, actually. I really enjoyed
+that. And this was really freeing for
+me, because I actually discovered what I
+was good at and what I enjoyed.
+
+It also let me focus a lot. So I
+discovered that I sort of liked it, and
+I started to focus on what I was doing.
+All right. This is actually kind of
+cool. I'm actually kind of good at this.
+I'm focusing on it. I started to really
+learn my tools. I learned the
+intricacies of Java. I like to say that
+unit testing saved my life. Until this
+job, no one had ever taught me how to
+test anything. And I still cannot
+believe that. It still blows my mind to
+this day that it took until 2005 for me
+to learn about testing. How did anybody
+ever get anything done before that?
+
+(applause)
+
+Like, you had to have it all in your
+head. Oh, debugging. I did a lot of
+that. I still do a little bit of that.
+But all of a sudden unit testing freed
+me to actually get things done. I
+learned... You know, all about garbage
+collection, how to use an IDE and make
+it useful. And if you're writing Java
+code, a good IDE is really useful. I had
+some good mentors along the way who
+helped me with this focus. And a few
+years into that job, something amazing
+happened. I found this confidence that I
+had not had before. You know, Julie
+Andrews -- I have confidence in
+sunshine. Right? The obstacles between
+me and problems stopped being me. And I
+achieved something that I think is
+incredibly important -- for me, at
+least, in staying in love with
+programming, which is mastery. What is
+mastery? What does it look like? The
+thing I will say about mastery is it
+does not come fast or cheap. You are not
+guaranteed it because you have a great
+undergrad or graduate degree or
+anything. It took me ten years to
+achieve. I'm not saying that's how
+long it'll take anyone, but for me it
+took a long time. It took a long time
+and a lot of focus.
+
+Mastery, in my mind, looks like -- it
+manifests itself as confidence. But to
+achieve it, it looks like really, really
+learning your tools. Taking the time to
+pick some language or a couple of
+languages, and really just understanding
+them. Soup to nuts, in a way that lets
+you get shit done really well. It means
+understanding the memory model,
+understanding the garbage collector or
+the standard template library to a level
+that most people don't really care that
+much. Right? Understanding what the
+global interpreter lock means for your
+programs. Understanding enough that you
+have to do a minimal amount of yak
+shaving to get any new thing done in a
+particular language.
+
+Mastery to me is really important, and
+really valuable, because it will sustain
+you throughout your career. So, you
+know, I was introduced as an
+Apache ZooKeeper person, which is true,
+and a manager of engineering. I do not
+write code very much now. Maybe in
+extreme anger. I fix alerts. That's the
+limit of my programming these days. But
+I feel confident because I have this
+mastery. If I have to go back into
+programming, I can do it. Nobody is
+going to tell me -- Camille, you're not
+technical enough. Nobody would say that
+to me, because I have this experience
+and this mastery. And I think that
+achieving mastery -- and you will
+achieve it, if you keep at it -- is one
+of the key parts to staying in love with
+programming, because it just gives you
+-- it's just sort of the bedrock of
+love.
+
+But it's key, but it's not the only
+thing. So as you continue in your
+career, other things are going to become
+important. In a way that they aren't
+when you're still in this rapid growth
+early stage. And those two things in my
+mind are authenticity and purpose. So...
+More recently, in my career, I had
+achieved mastery. I was at Goldman, I
+was doing some awesome things. This was
+the period of time I was building giant
+systems and ZooKeeper and working on
+big technical problems. I was also
+miserable. My friends and I refer to
+that as the bitchy years. I was taking
+it out on everyone around me in a way
+that... We kind of had to have an
+intervention for me.
+
+And it's weird, because I was working on
+generally speaking things I liked, but I
+was just very unhappy, and so I did a
+lot of introspection and tried to figure
+out what was going on, and I realized
+that I had a fundamental value
+misalignment with Goldman Sachs. So
+anyone who has ever worked with me or
+for me knows that one of my biggest core
+values is transparency. I am a
+transparent person. I want to work in
+public. I want to talk about what I work
+-- I want to be able to do Open Source
+programming, I want to be able to tweet
+random shit, write blog posts about what
+I'm doing, and share that with the
+world. I am a citizen of the world. I'm
+not a citizen of any particular company.
+
+And finance is not a great place for
+that. They actually were very... They
+let me. I worked in Open Source, at
+Goldman, but not everybody could do
+that. That bothered me. I wanted to be
+somewhere where anyone could do that. So
+I was at this value misalignment at
+Goldman, and I realized -- you know
+what? I need to find someplace where I
+can be more aligned with what I valued.
+So finding my values and actually sort
+of going towards them was important for
+me in being happy.
+
+It's important that everybody realize
+that you are allowed to be you. You've
+got to do you. You cannot do anything
+but you. In particular, you're allowed
+to be creative in your own way. The
+other thing I realized -- in literally
+the last couple of years -- I am a
+creative person. For a long time, I
+really thought that I wasn't, because
+I'm not an inventor. I'm not a blank
+canvas creator. I'm not an amazing side
+projects person. So many of you here
+just open up your editor and create
+something amazing from scratch. That is
+not me.
+
+I am a creative problem solver. Mike's
+keynote yesterday was super awesome, and
+I wished that I could be like that guy
+Harry. I wish I could be like Mike,
+frankly. Because man... That's like a
+really cool creative inventive sort of
+way to be. But I'm not that person. I am
+a problem solver. And I have to accept
+that. But I also have to accept that you
+don't have to be original to be
+creative. You can be creative in your
+own way.
+
+So be yourself. Right? You're allowed to
+be yourself. You're allowed to be a
+little cynical if you want to be a
+little cynical. Not too cynical, but a
+little cynical. Right? You should expose
+yourself to new things, so that you're
+continuing to learn new things. That you
+don't just sort of stand on the old
+stuff you know. But sometimes exposing
+yourself to new things is mostly about
+reminding yourself how the old stuff
+isn't that bad. And the last thing I
+want to say, in the context of being
+free to be you, is that side projects is
+not a requirement. You don't have to
+work in Open Source if you don't want
+to. You don't have to do side projects.
+You don't. It's really, really not
+required. It doesn't mean you're a bad
+programmer. I know a million amazing
+programmers who have never done a side
+project. They have other things they
+like to do in their spare time. It
+doesn't mean that people who do side
+projects aren't good programmers either.
+Everybody can be a good programmer, but
+you have to be a good programmer in your
+own way. A lot of people when I asked
+how you stay in love with programming,
+they did say side projects. But it isn't
+a requirement for everyone. So finally,
+I think the last thing I will say about
+staying in love is that it's really
+important to find purpose in what you
+do.
+
+Now, what do I mean by this? You do not
+have to work for a company whose purpose
+you love. You don't have to work for
+Spotify if you love music. You can love
+music and work for a company that does
+nothing related to music. Right? It's
+great if you do, but you don't have to
+align yourself with the purpose of your
+company. But you should figure out what
+motivates you in terms of your actual
+job. And find places where it's great to
+do that. So for me, I like to build
+software that moves a business forward.
+That is just what I enjoy doing. I'm a
+practical, pragmatic person. I like to
+see problems and be able to move things
+forward.
+
+That doesn't mean that I loved finance.
+I didn't. I actually don't care at all
+about finance. But I had a great career
+at Goldman. I like fashion a little bit
+more, but fashion is not the reason I'm
+at Rent the Runway. I'm at Rent the
+Runway because the purpose of my job
+there is great and I'm aligned with the
+values of the company that I'm working
+for. It's more important that you figure
+out what your purpose is. Whether if
+it's that you like to find secrets in
+data and use those to create direction.
+Maybe you like to help developers do
+their jobs better. You can do that
+inside of a lot of companies. You don't
+have to work at a company that's making
+an IDE to help developers do their jobs
+better. You might love to make beautiful
+interfaces that people love to use, or
+many other things. Right?
+
+But I think it's easy early in your
+career to confuse the idea that the
+things that you love have to be the
+thing that... The company that you work
+for does. I love tech, but I don't have
+to work for a hardcore tech company to
+continue to work in something that I
+find purposeful and meaningful. The
+other thing I will say is that I think
+it's really valuable, especially later
+in your career, to find purpose
+externally in higher order work. Which
+means things like... Teaching, writing
+blog posts, giving talks at conferences
+like this, mentoring, contributing to
+Open Source, if that is something that
+interests you.
+
+Doing these things that force you to go
+outside of yourself help you to build
+empathy with other people, help you to
+see the world through other people's
+eyes. And I think that that's really
+valuable, and becoming a senior
+engineer, becoming someone who is able
+to sort of jump into any situation and
+see both sides of the story. Right?
+Because it's very, very rare that
+everything is as black and white as you
+might think in... You know, in reading
+blog posts or looking at Twitter. Oh,
+this software is bad. And this software
+is good. It's like -- no, in reality,
+everything is about the circumstances
+under which it's built. Not just the
+choices made in those circumstances.
+
+So finding that purpose outside of your
+job and working with other people,
+mentoring, teaching, is really very
+valuable in just helping you build up
+that empathy and helping you see
+different perspectives. So as I said,
+programming is magic. And if you want to
+stay in love with programming, rely on
+growth to give you confidence.
+Authenticity to align your values and be
+true to yourself, and purpose to direct
+your passions and go outside yourself
+and see the world through others' eyes.
+And I believe these things can help you
+stay in love with programming and have
+an amazing career throughout the years.
+Thank you very much.
+
+(applause)
+
+ >> Thank you! That was awesome. We're
+going to take a short break from now
+until 11:30. Have some coffee.

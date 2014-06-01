@@ -1,0 +1,280 @@
+ >> Hey, everyone. As much fun as ice
+cream is -- hey, ice cream, woo! We are
+going to start into the next and I think
+last round of talks. So please mosey on
+back to your seats.
+
+ >> Hi, everyone. We're experiencing
+some minor technical difficulties, so
+we'll be live as soon as we can.
+
+ >> Hello. Are you having a good !!Con?
+All right. And... I think that we all
+maybe want to thank Stripe for the ice
+cream. Thank you, Stripe!
+
+(applause)
+
+ >> One small announcement is that, for
+those of you who have been listening to
+music either here in the space or on the
+stream, that was Creative Commons
+licensed music by Dr. Vox. Thank you
+very much, Dr. Vox.
+
+(applause)
+
+ >> Due to minor temporary technical
+difficulties, we are switching the order
+of the first two talks in this session.
+This is the last talk block of !!Con
+2014. And there will be four talks, and
+instead of the first talk being about
+brainwaves on your computer, that will
+be the second talk. And the first talk
+is proofs about programs, proofs as
+programs, and programs as proofs, by
+Katherine Ye. Please welcome Katherine
+Ye.
+
+(applause)
+
+ >> All right. Hello, everyone. I'm
+Katherine, and I will be telling you
+about these three things. Proofs about
+programs, proofs as programs, and
+programs as proofs. And as a bonus, you
+will also learn why there is a giant
+rooster on this slide. So consider these
+two images. This is the -- the left one
+is from 1967. The right one is from
+today, basically. And it's not that
+important what the text says, but I want
+to kind of walk you through the
+development of -- hey, I wrote an entire
+paper about proving this compiler,
+versus -- hey, I used a computer to
+prove all of my transformations correct.
+So let's say you're a compiler. Great.
+
+So imagine being a compiler. And you get
+someone's code to look at and optimize.
+And so you see this strange piece of...
+This strange snippet of code inside that
+person's code, and you think -- well,
+this could probably be optimized. So it
+looks like this. And you think -- well,
+I don't really want to do the null
+operation. If I switch to the null
+operation, and switch to (inaudible),
+it'll save me time. It'll be the same.
+So you want to convince yourself that
+these two pieces of codes are equal. So
+let's just say for every input, the
+output is the same for the two pieces of
+code. So for all intents and purposes,
+they're equal, even though there might
+be mutation going on. So if you're here,
+you can probably already do the proof
+for yourself in your head, but I want to
+walk people through it, just to see if
+we're right or wrong about these two
+being equal. So actually, let's just
+think about it first. So this x less
+than c condition here can be true or
+false. Let's do a case analysis. If it's
+true, then great. If it's false, then
+great. It looks like they do return the
+same thing. So looking at the truth
+table, if you look down the true column,
+they both return end2. On the false
+column, they both return end1. So we've
+convinced ourselves that these two
+statements are equal. So this has an
+application in the real world. Compiler
+optimizations. Sometimes it's not this
+easy. You might have pointers or
+mutations or something, but when you
+just want to consider the simpler case,
+it'll generalize. So remember, you're
+still a compiler. All we did was
+convince our human selves on paper this
+was probably correct. We want a computer
+to check if we're actually correct.
+Here's where the rooster comes in. So
+Coq is an interactive theorem system.
+It's called Coq, because it was written
+by French people, and they love
+roosters. It's the national mascot. One
+great thing about Coq is according to
+category theorists, it's the world's
+best computer game. So you'll see we'll
+now prove that our code is the same. So
+do you guys need the font to be larger?
+
+ >> Yes.
+
+ >> Considerably.
+
+ >> I actually don't know how to do
+that.
+
+ >> Command plus.
+
+ >> Good? Okay. Great. So... A quick
+refresher. We assert that these two are
+equal. Coq will prove -- we analyze the
+two cases. Don't worry about what this
+says. It's for later materials. So let's
+look at the actual set of the theorem.
+We assert that for all these variables,
+then basically exactly the same
+things... For the notation, the less
+than, just ignore the primes. They had
+to redefine some things. So great. I'm
+not going to talk while I'm doing this
+proof, so you guys can focus on reading
+it. So I know the text on the right is a
+bit small, but we will probably need the
+whole buffer for that. So... On the
+right, we have the state. Like, what we
+have introduced so far. And on the
+bottom is what we want to prove,
+currently. So we've got our first case
+done. The purple is checking that
+everything you've done so far is
+correct. And that's the video game
+aspect of it.
+
+ >> Ooh!
+
+ >> So great. Everything is... From the
+context. Which means that we can write
+every mathematician's favorite word
+here, and it works. We've proven it.
+Great!
+
+(applause)
+
+ >> So yes, that was our interlude. So
+the first time I saw this, my mind was
+blown. And I wanted to know what is
+actually going on behind the scenes.
+What is the internal representation of
+the math inside? How does it know how to
+simplify things or check that -- oh,
+this had this condition, so I can just
+simplify it to end1 or whatever. So
+let's take a look at the internals,
+briefly. How does Coq work? First, the
+name is based on CoC, and CoC stands for
+calculus of constructions. Don't worry
+too much about what that is. It's a
+generalization of a correspondence that
+we want to talk about here. So this
+correspondence... Well, there's an
+interesting way that you can interpret
+your proofs as programs. And your
+programs as proofs.
+
+So let's talk about kind of the most
+well known part of this, or the most
+general part. So we have a type
+corresponds to a proposition. I'm using
+corresponds to in kind of a colloquial,
+non-rigorous way, so think of it as --
+you have a one to one correspondence.
+Can match each one, and one set with
+each one and another set, and the
+function that does this preserves the
+structure in some way.
+
+So let's consider a type. A to a. So
+this means if you know about Haskell,
+you'll be familiar with this. If not, it
+means it's a function that takes
+something with a type a and returns
+something with a type a. Maybe your
+function takes 3 and just returns 3 or
+something, so it would be from int to
+int. So one kind of function that might
+live inside this type would be, say, if
+I just -- if you gave me something of
+type a, and I always return the same
+thing of type a, then clearly that does
+that, and this function is inhabited, or
+something lives inside of it. So great.
+Let's just say we have the identity
+function. And on the other hand, how are
+we going to interpret this as a
+proposition? So proposition in math
+terms -- or actually, in more colloquial
+terms, is, if you have a bunch of
+hypotheses, and you want to have some
+kind of ending goal -- so one
+proposition might be if it's raining
+outside, then I will get wet. That's one
+thing. And so if you'll interpret arrows
+here as implication, then you would
+say... If a is true, then a is true. Or
+if a, then a. So great.
+
+We basically have a corresponding
+proposition for this type. This is
+possibly a very simple example of the
+existing work. So considering a more
+specific example, inside this a to a, we
+have something that lives inside it. A
+program actually does that. That's the
+fx equals x. Similarly, for a to a, we
+have a proof that lives inside it, and
+it's just kind of like tautology. Like,
+we assume a is true, so it's true.
+
+Great. So let's actually inspect our own
+code. And see kind of what it looks
+like. Sorry about it being small. But
+yes. So over here, we have our proof in
+a kind of tactic language that Coq has
+to make things easy, and on the right is
+the interpretation in Gallina, which is
+what it looks like in Coq's internals,
+and it's a language very similar to ML,
+so you can actually see function -- some
+arguments, natural number, and then some
+expressions that return things. So it's
+great. There's a proof embedded inside
+it.
+
+Some possible future directions, if
+you're interested in this -- oh, by the
+way, yes, the fancy name is the
+Curry-Howard isomorphism. I didn't want
+to say it at first, because I didn't
+want to scare anyone off, but yes,
+there's future work here. I would love
+to do a talk about each of these, maybe,
+but I have 23 seconds left, so... Yes.
+The most interesting application of Coq
+is that... Not application, but
+implication is that it's based on this
+interesting new kind of mathematics, and
+you should check out homotopy type
+theory. And I would like to assert that
+the most important application of Coq is
+writing the game 2048, which exists...
+And let me show you that first. Huh.
+Okay. I can actually show people who
+come up to me later, but it's great. You
+have this statement that says there
+exists a sequence of moves such that
+2048 is solvable. And then your proof is
+a sequence of moves, like left, right,
+up, down, and once you've gotten to
+2048, you can say QED, and it'll
+complete. So that's very clear -- it's
+not a perfect example of Curry-Howard,
+but it's kind of an example of how a
+proof can be a program. Thanks.
+
+(applause)

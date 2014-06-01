@@ -1,0 +1,222 @@
+ >> Yeah, I know. It sounds like not
+really the best. So we have two talks,
+both of which are going to be great, and
+then we're going to do ice cream. And
+Paul Khuong is going to talk first. He's
+going to talk about LZ77. How do you
+pronounce that? LZ77? Refactors program
+traces.
+
+(applause)
+
+ >> All right. All right. I'm Paul
+Khuong. I wrote about -- this blog post,
+about how you can apply LZ77, and it's
+a compression algorithm for strings, and
+use it in a compilation context. Now I'm
+going to talk about something that's
+more fundamental, which is why would you
+want to do that. So first I think the
+first thing to do is what are traces? So
+here's a program. On your left... So
+this is your typical BASIC program.
+Print hi, then your next statement is
+looped back to the previous statement.
+The corresponding trace would be just
+history of what the program did. So, for
+instance, here would be an endless
+sequence of print hi. And what's
+interesting about program traces is that
+compiling them is super easy and really
+fun.
+
+So all sorts of interesting
+transformations that are really hard in
+general become trivial. Not trivial, but
+simple, like polynomial, even linear
+type, usually, once you're working with
+program traces or expression trees. But
+there's a general reason for that.
+Basically, dynamic programming always
+works, but that's getting awful close to
+my thesis topic, so let's move on. So my
+dream compiler would be something like
+-- you feed in a program, you enumerate
+all the possible traces, all the
+possible execution traces for that
+program, you run your magic on the
+traces, you make it super tight, and
+then you compress everything back into
+object code. Sadly, that can't work, if
+only because the number of traces is...
+Very large. Often pretty much infinite.
+So we would spend a lot of time with the
+first step. So when we think about
+general compilation passes -- it's that
+we kind of try to squash the compression
+into magic phases, so that something,
+something, morphism, and you compress,
+they annihilate one another, and you're
+left with a souped up version of your
+magic transformation pass. It's cool.
+But I don't see how to do that in
+general, and it's a lot of hard work.
+What if instead we could brute force our
+way through that? So if you take your
+typical recursive function, F, here, and
+you want to make it quicker, what's the
+easiest way? You just increase the size
+of your base case.
+
+So for instance, here you could say --
+well, all right. I'm doing F, cause F,
+cause F. Instead I could just kind of
+squish together the bottom two levels. I
+get program trace. Do some magic on
+that, make it a lot quicker, and call
+that F prime, and now instead of having
+F cause F cause F, have F cause F prime,
+that is super quick. So hopefully the
+whole program will be a lot quicker as
+well. So yeah. This only works for
+recursing. If you try to do it on loops
+or (inaudible) recursion, you will fail.
+And it also works on mu benchmarks. You
+take these ten lines of code and turn it
+into something like a dozen or a hundred
+kilo bytes of machine code, that's going
+to blow your cache, everything will be
+slow, and that's the only thing you do
+in a program that runs matrix
+multiplications. Not practical. And yet,
+clearly there's some stricture here. You
+had a very small program, generated huge
+output from it, so there must be some
+redundancy. I traced some stuff there
+and tried to identify use. Sadly, what
+happened is mostly you would find loops
+with two iterations. Not very useful.
+Not enough compression either. You could
+also try to find duplicated patches and
+turn that into subroutines. That worked
+kind of, ish. But it would often get
+complex between patches, so that you get
+subroutines, but you would have hidden
+away the rest of your redundancy. And
+that was where I got stuck five years
+ago, until one morning, this March, as I
+was going through the RSS feed for
+archive, as one does in the morning, I
+stumbled on this. Artur Jez, which is
+called a really simple approximation of
+smallest grammar. So in that paper, what
+Jez tries to do is -- you take a string
+and you want to convert it into a very
+tiny grammar. As small as possible. So
+the basic way to do it would be to say
+-- well, take your first string here.
+It's abcdabf. And you just pair
+terminals to get new terminals. So you
+have this first pair, ab, call that G,
+second pair, cd, call that F, and third
+pair, ab... Oh, I've seen this before.
+This is still G. Finally F, and now you
+get a smaller string with a mix of
+terminals and non-terminals. GH, GF, and
+you do that again. So that's kind of
+interesting. Because if you go back to
+program traces, you can say... Well,
+non-terminals, called letters, are
+actually statements. Vm code, machine
+instructions. Sorry, that's terminals.
+Then when you create new production
+rules, that's a new subroutine, and when
+you have non-terminals, that's actually
+a call to your subroutine. However,
+doing this naively, just pairing stuff
+when you see them, doesn't always work.
+For instance here, you have abcabcda.
+There's some redundancy here. Repeated
+abc. Yet if you pair things, you just
+get ab. Ca. Bc. Da. And there is not a
+single repetition there.
+
+Not cool. So... What Jez said is well...
+We've really got algorithms to find
+redundant patches and strings. LZ77 is
+a very good one. It's also very simple.
+And what it does is it tries to describe
+a string in terms of what you've seen
+before. So if you have abcabc, you would
+describe it as abc and a backreference
+of length 3, starting at a. So you have
+abc, you define a new function, and
+rather than repeating abc, you call the
+function that emits abc. You can also do
+loops, so you have dedede. What happens
+is you actually emit de, and then you
+copy that for a length of 4 characters.
+That's kind of strange. I only have 2
+characters. What happens is you
+basically end up reading what you just
+wrote before. So that's a repeat loop.
+
+So yeah, you could try to take your LZ77
+compression or factorization, as they
+call it, and turn it into a program.
+Sadly, that does not work, because the
+tracers that -- the patches that it
+refers to make themselves be generated
+by mixing multiple patches together, and
+nothing nests correctly, and you're
+screwed. So what Jez says is... All
+right. We can't use the factorization
+directly, but we can use it as an
+auricle to help us determine when we
+should or should not pair characters or
+make subroutines. So you find the
+factorization and pair things up, except
+when that would break into another
+factor. So if you have abcabc, you would
+do -- all right, I'm going to pair ab,
+call that d, c, I cannot pair with the
+next character, because it's a different
+patch, so I'll leave it alone, then
+start again, ab. All right. That's D
+again. And then c. So the nice thing
+here is that you get some redundancy,
+and even better, you preserved it, so
+you can do it again, because now abc has
+become DCDC. So if you do that, until
+finally you get a single subroutine
+call. So Jez does a lot of work to show
+how that's within a factor (inaudible)
+of optimal. I'm not concerned with that.
+But what I'm going to do is use it on
+real programs.
+
+So here's what happens when you try to
+draw something in PostScript and you
+don't know for loops. So you have this
+line that draws a square. And you just
+repeat it 8 times, 'til you have this
+ring of squares. So let's see what
+happens when I push that into my
+program, to see if it could find
+redundancy, and yes, it does. It has
+factored in my 157 token program into 58
+plus 14 curly braces that don't really
+count. So the only sad thing here is
+that it doesn't really make sense. It
+found a loop, but it's kind of weirdly
+rotated. It ends by pushing something to
+the stack. But yeah. So... To summarize,
+if you had nothing to do on a rainy day,
+consider optimizing traces. It's really
+fun. Instead of being uber-hard, it's
+just a nice logic puzzle. And
+compression is basically about finding
+hidden structures, even in program code.
+Thank you.
+
+(applause)

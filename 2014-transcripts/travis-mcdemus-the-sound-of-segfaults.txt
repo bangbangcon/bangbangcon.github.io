@@ -1,0 +1,276 @@
+>> Hey, everyone! We're getting
+underway with the first session of
+lightning talks. And it is my privilege
+to introduce three talks, four amazing
+speakers. By the pigeonhole principle,
+two of them are giving one talk. So
+first up in the session we'll have
+Travis McDemus, giving a talk on "The
+Sound of Segfaults!" Travis is a musician
+and programmer, and we're all really
+excited about this talk. After that, we
+have Danielle Sucher, and Darius Bacon,
+talking about poetry generation and
+detection, and then finally we have
+David Turner, giving a talk entitled "Now
+You're Thinking with PCMPISTRI!" Which is
+an assembly instruction. He can explain.
+So first we have Travis. So let's give
+him a warm welcome.
+
+(applause)
+
+ >> So while I'm plugging this in, I
+work at Perka.
+
+ >> Can you have the mic near your
+mouth? Much better. Thank you.
+
+ >> So I also work at Perka. We have a
+table set up in the corner. Take a card
+and a cookie. Are we live? Oh! Yay. So
+image attributions. Thanks to these
+people from Creative Commons, who helped
+make this talk possible. The sound of
+segfaults. So I'm Travis. I like
+programming, I like music, and I wanted
+to make tools I can make my own music
+with. Here's one by-product. I take a
+sound file, and I map it over this top
+row of buttons. It's going to loop
+indefinitely when I hit this play
+button, and it can jump around the
+playback position of the file just by
+hitting these buttons. That's really
+cool. I think it's really neat, and I
+screwed up a ton of stuff while building
+it. So I'd like to walk you through the
+stack of digital audio, how it works,
+how it doesn't work, and show you what
+happens when we break some of it. So how
+does digital audio work? We need to
+start with a sound source, this guy,
+which gets picked up by a microphone or
+transducer. Which takes the sound wave
+and converts it into electrical voltage.
+And we take electrical voltage and take
+samples of it. It's stored as numbers on
+a computer. This is your sound file. And
+playing it back is the exact reverse
+process. Take the stored data, run it
+through a digital to analog converter,
+and drop it. What's the data we're
+actually storing? 40 different audio
+file formats on Wikipedia. There's a ton
+of subvariants. Let's focus on one
+called the pulse code modulation. You
+might be familiar with this format
+in .wav files. You may even have bought
+it in physical pieces of plastic. So
+it's an extension of .riff, which is
+resource interchange file format. That
+means we store data in chunks and mark
+it with headers. So if we go into what
+the wav header looks like, we've got
+chunk IDs and sizes. There's three
+important numbers in here. We have
+samples per second, how many samples
+represent one second of the audio we
+started with, and the bits per second,
+which is our precision. How do we play
+it back? We start with the sound card,
+the ADC and DAC, a sound card driver,
+like ASIO or ALSA, a low level program
+that talks to the physical hardware
+connections and communicates on the
+operating system level. We need an OS
+API to talk to that driver and, surprise,
+it's different on every major platform.
+We've got core audio, OSX, ALSA user
+space library, and windows core audio.
+So how do we actually parse this stuff
+and chunk it out into those libraries?
+There might be someone out there who can
+help us. Yes, it's PortAudio. This is
+cross platform, it has some popularity,
+and it's in C. So that should be quick
+and easy to deal with, right? So what
+does hello world in PortAudio look
+like? We're going to start by making
+some basic sine wave data and store that
+in a table. Then we initialize the sound
+card device. This is getting hairy. Next
+we have to make a callback function to
+buffer the data out to the stream. This
+doesn't look too bad, but the parameters
+are structs that point to other structs.
+Then we need to initialize the stream
+and point at the callback. So let's hear
+what this things sounds like, as we
+sleep for five seconds while running the
+program. Sleep sounds awesome right now.
+
+(humming noise)
+
+All right. Cool. So that wasn't that
+much work, right? Pretty easy. No! No, I
+forgot exclamation points on the slide.
+Just kidding. So how do we play back
+data from a wav file? We're just
+generating sound from raw math
+calculations there. There's some more C
+libraries out there for this. I wanted
+to actually get down and learn how a wav
+file works, so I wrote some libraries in
+Go. It's not that bad. We read through a
+spec and reread that spec to make sure
+we don't goof it up and define these
+structs, so when we open the file we do
+one operation to chunk all of it into
+these structs and from these numbers we
+read the rest of the data. Why are these
+numbers and headers so important and
+what happens when you screw them up?
+Let's disregard them for a second. I'm
+going to play a normal sound file for
+you, 16 bit, same as CD quality.
+
+(funk music)
+
+ >> All right, cool. So that bits per
+sample we saw in the header. What
+happens when we totally disregard that
+and throw in a 24 bit 44.1 kilohertz
+sound file? Same sound.
+
+(hissing)
+
+ >> That's white noise. The amplitudes
+are screwed up. We wrote in the wrong
+bytes and put them in at the wrong point
+in time. That's bad. Don't do the other
+thing either. If you have too little
+bits, you'll get a buffer overflow and
+crash out. So what happens when we have
+a higher sample rate than expected? Same
+sound file.
+
+(slower quiet funk music)
+
+ >> Okay. Interesting. That's a little
+bit slower. Why? Because we've got more
+sound data than we expected and we're
+buffering it out to the audio card
+slower than the header wanted us to. So
+higher sample rate, lower pitch. And
+conversely, and we go with a lower
+sample rate,
+
+(fast funk music)
+
+ >> All right, really cool. So we've got
+a lot less sound data than expected,
+buffering it out much faster than the
+header wanted us to. Lower sample rate,
+higher pitch. What about the number of
+channels? When I said we need to read in
+data afterwards, when the wav data says
+you've got two channels, it starts
+chunking in the left channel from one
+sample, then right, then left, then
+right. Why would you do that? Makes
+sense if you're a laser like a discman
+or something. So when we screw up some
+of that interweaving... Same sound file
+again.
+
+(slow weird funk music)
+
+ >> So that's ridiculously slower.
+Because we're taking both the channels
+for left and right and instead of
+stacking them together and playing them
+through time we're interweaving them and
+playing them through one channel so it's
+half the speed and pitch. Cool. So I've
+got... Great. So there's this other bug
+I want to show you, involving
+interweaving. But I have to do a quick
+aside as I'm hitting these buttons. So I
+wrote some Go MIDI libraries. There's
+not a lot going on here. We've got
+clips, which are just a collection of
+wav files, hash map, we've got a pointer
+to a port audio stream, and the
+important thing, we've got the ring
+buffer. They're a really cool data
+structure. You care about them when
+there's data in the future. You don't
+care about data in the past. If there's
+one example of a Buddhist data
+structure, it's this one. So this tells
+its length, and you can give step
+function and things like that. So we
+write at the current index, keep going
+until we get to the end and keep writing
+at the beginning. And when we're dumping
+things to the sound card, we write where
+we're at and increment with the step
+function. So let's hear a bad ring
+buffer. I'm going to play a sample file
+first and this one is normal. It's got a
+correct ring buffer. Everything is
+working great.
+
+(female vocalist with guitar)
+
+ >> Take me in and...
+
+ >> Okay, very nice. Low on time. If we
+actually play that with a bad ring
+buffer...
+
+(out of sync vocals)
+
+ >> Okay, kind of weird. What's
+happening there? Basically, I screwed
+up making the rink buffer, because I was
+working between mono and stereo files.
+So I made the thing half the length it
+needed to be. It needed to be the total
+length of the inter TKW-LS laced audio
+challenge. So it was writing faster than
+the audio card to read it out. So you're
+hearing both bars of the music stacked
+together at each time. It sounds cool.
+It was a weird bug to find. I documented
+it a year ago. It was really great. So
+can we do anything else cool with that
+ring buffer? When you screw up this
+stuff, you can have really nice effects
+with it. So I'm going to go back to the
+patch I showed you and put a bad rink
+buffer on that. It's going to sound
+glitchy.
+
+(glitchy funk music)
+
+Cool. Okay. And I've got 52 seconds. So
+someone is doing a talk on awk. I think
+that's awesome. So I'm going to show you
+this awk function that spits out dev
+data and dumps it to (inaudible). This
+is randomly generating. This is just the
+power of being able to control some
+digital audio. And I think it sounds
+beautiful.
+
+(pretty ambient music)
+
+I could listen to that totally all day.
+It's great. So yeah. To actually live up
+to the title of the talk, I told you
+it's the sound of segfaults. Let's
+actually hear what that sounds like.
+Duh. It segfaulted. It's silent. All
+right. Thanks.

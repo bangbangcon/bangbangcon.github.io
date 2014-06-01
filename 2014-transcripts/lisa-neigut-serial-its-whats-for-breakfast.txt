@@ -1,0 +1,246 @@
+ >> Good morning, everyone. Great! So
+after that pretty amazing opening
+keynote, we will launch right into our
+first batch of talks today, which we're
+also really excited about. So this will
+be great. First up we have Lisa Neigut
+on serial and serial ports, all this
+awesome stuff that we'll all learn
+about. So without further ado. Let's
+give it up!
+
+ >> Howdy, y'all! I'm Lisa. I work at
+Etsy. Talking about serial today. So
+maybe some of you have used serial
+before. So this may or may not extend
+your knowledge of serial. You get a file
+descriptor. You have a number,
+initialize the serial object, write some
+stuff to it, read some stuff. Cool.
+That's awesome. That's serial. But what
+is a serial object? It kind of was
+getting into... I wanted to
+understand... What is serial? It's not
+cereal, as in like... Cereal you eat in
+the morning. Maybe it's like serial, as
+in, like, serial killer. But actually,
+yeah, it's kind of a good definition for
+it.
+
+Serial is a way of describing a thing
+that's not parallel. So it's one thing
+that comes after another. So, like,
+parallel kind of refers to the way the
+data in your computer processor gets
+processed. It's passed around in blocks.
+Eight bits will be processed at a time
+in a register. Or eight or 32 or 64.
+Kind of depending what kind of
+architecture you have in your computer.
+It looks like this.
+
+It's like... If you're used to schematic
+diagrams, it's an eight bit
+register, which is cool. Serial, you
+just do one at a time. So you're just
+doing one bit of data at a time, down
+the line. Cool! So it's one piece of
+data at a time. How does this work? So
+here's a classic serial port connector
+pin connection diagram. Basically what
+is a pin? Connection points between two
+computers. Really just wires. Wiring two
+pieces of metal together, connecting
+them with this pin thing. So what are
+all these things like... Number 9 says a
+ring indicator? I have no idea what a
+ring indicator is. Pins! What the fuck?!
+So it turns out there's only five things
+that are really important for serial. RX
+and TX, data transmission lines, ground,
+to figure out base voltage, and RTS and
+CTS, which are control flow signals. So
+that guy we had going down the line,
+he's on the RX or TX lines. So what does
+it look like? It's one at a time, kind
+of ends up looking like a wave, a sine
+form, you're sending one bit at a time.
+A high voltage, 12 volts is the space
+00, negative voltage for a period of
+time is a one bit. So you get this wave
+form, like high bits and low bits, going
+down. And this is the wave form for the
+letter G, for granola.
+
+Yeah. So the zero line running through
+the middle is what that ground pin is
+for. That tells you where the baseline
+ground is. So now I've got some data I
+want to send. Eight bits in a line. How
+I do send it? We're going to put it in
+something called a frame. I'm going to
+pack it up into this thing called a
+frame. Three parts. First is data, then
+parity bit, last is stop bit. So you put
+together your bytes of data, called the
+frame size, so you kind of need to
+specify how big... How much data you're
+sending in a frame. There's four
+different things on mine that I can
+specify that as. 5, 6, 7, or 8 bits. So
+that's a data bit. The next is the
+parity bit. Data integrity. It checks
+the data of the bits that came before
+it. You can call it odd, even, mark,
+which is the number of 1, space, the
+number of zeroes, or 9. Just a single
+bit. It's a count of whatever the number
+of options you pick. I'm not sure
+exactly how this works, 100%. But
+usually it's just set to none. And the
+last bit is the stop bit. The delimiter.
+Hey, you've reached the end of a frame.
+There's a few options for this. Can be
+one bit, one and a half bits, or two.
+Which is cool. So all this together,
+you're talking about a serial port, how
+it's configured, you have a short hand
+that you're teaching for it. So 8N1
+means 8 bits, no parity, and 1 stop bit.
+5E2 would be five bits, even parity and
+2 stop bits. So now we know what we're
+sending down the wire. But how fast are
+we sending it? Speed. This is also
+referred to as the baud rate. The
+maximum oscillation rate of an electric
+signal. How fast each of those up and
+down waves that you're sending is going
+to be present for. The default that
+pretty much everyone's MAC is set to is
+9600bps or bits per second. The upper
+limit that most machines can get on
+serial specification is 150,200 bits per
+second. So now we know what that 9600
+number was at the front. So now you've
+got a file descriptor, and that's the
+baud rate for how fast your computer is
+going to be sending it down the wire.
+Cool.
+
+So how does this all work? Put it
+together. Basically you have two
+computers that are talking to a modem.
+Let's say that I'm sending a letter to
+my granola supplier about how awesome
+their granola is. So there's this modem
+in the middle. It's got a buffer of
+about 8 kilobytes, so that's about
+64,000 bits. And I'm super fast. I talk
+really fast. I've got a fast connection
+to the modem. It's going at maximum
+speed, 115, 200 bits per second. And the
+granola guy is just sending and
+receiving it at 9600 bits per second. So
+if you know how speed works, we have a
+small problem here. Right? That fast
+connection is going to fill that buffer
+in a little over 0.5 seconds. The normal
+connection is going to take 6.66 seconds
+to empty it. So it's kind of like...
+Looks a little something like this. The
+data gets sent and then it's not really
+getting sent to the other computer.
+They're going to start dropping in the
+middle. Like, when you fill that buffer
+up, that buffer has no... It's just
+going to drop. You're dropping packets.
+So my little love letter that I send to
+my granola supplier ends up looking like
+this. He's confused. It's like... 33 is
+less than... 42? It would be nice if
+there were some way that the modem can
+signal that it is in fact full.
+
+Which is actually what we have those
+extra two lines for. Control flow. So
+remember I said five lines? The last two
+were RTS and CTS. These stand for ready
+to send, which means I have data. I'm
+ready to send, and CTS, which is clear
+to send. For the love of god, stop
+sending data! These two lines are pins.
+This is the hardware control flow. So
+that actually means you're just using
+the pin connectors to signal that this
+will actually be on or off, whenever
+it's sending stop or send. You can
+actually get rid of these two lines. So
+you can do serial with only three lines
+of connections, using a TX, RX, and
+ground. Using something called software
+control flow. Which is where instead of,
+like, signaling with these extra out of
+band lines, you have these specific
+ASCII characters through the data lines
+instead, called XON and XOFF. These are
+ASCII characters. 17 is the ASCII
+character for XON and 18 is the ASCII
+character for XOFF. So you put these in
+as a data packet. So put it as a packet,
+send it down the line, and okay, you've
+got to stop now. It's cool. I'll wait.
+
+Sweet! So how? What does this all look
+like? I want to write a serial port
+driver. Where should I go look? Cool!
+This is the default configure option of
+all of your computers right now.
+Basically each of these big things...
+Like... That are... What do you call
+them? Constants? Constants for integer
+numbers, XORred together, and then you
+set it as a setting or a data structure.
+You can see somewhere. Some of the cool
+things to kind of point out here that we
+talked about earlier -- you see the very
+bottom one? That's the speed. You can
+see it's the default setting, 9600 bits
+per second, the baud rate. The one above
+it -- the one in the middle, it's a CS8.
+So the normal bit package that you're
+sending is 8 bits. The first line,
+there's something that says IMAXBEL.
+Basically that means whenever the buffer
+is full, it'll send a way that
+signals back to whoever is listening on
+that line. It puts a bell character
+inside of it, when you're typing in the
+terminal, a bell pops up. Like... That's
+the bell. Anyways... So it sends the
+bell when it gets full. Cool!
+
+So if you're kind of interested in
+looking at more of these data
+structures, these are two files on the
+computer. You can look at the man page
+for termios. It's cool. Serial is cool.
+As I was digging through all of this, I
+got into this, because I was working on
+writing some sort of serial thing for
+this microprocessor thing, which is
+totally a work in progress. But I came
+to realize that serial is kind of more
+than this obsolete protocol for
+communicating with microprocessors. In
+fact, it's a thing that I use every day.
+
+You can almost say it's as integral to
+my life as a bowl of cereal in the
+morning. It turns out the process of
+taking one ASCII character and
+communicating that into parallel for a
+microprocessor is actually used... In
+your terminal. Super useful! Cool. So...
+Yeah. Mmmmmmm, tasty serial.
+
+(applause)

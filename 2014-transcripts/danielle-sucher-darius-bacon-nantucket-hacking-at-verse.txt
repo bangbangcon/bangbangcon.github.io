@@ -1,0 +1,204 @@
+ >> Does this actually work? Okay. Cool.
+Um... We're good? We're starting? And
+we're up there. Okay. Well, hi. My name
+is Danielle and this Darius, and I'm up
+here because I really love poetry. I
+know this is a conference for people who
+love coding. I'm into that too. Don't
+get me wrong. But let's focus on poetry.
+Darius and I are doing this together
+because we separately wrote some
+programs where we found or created
+poetry, and we found some similar things
+along the way. I guess I'm supposed to
+do this one. So we did stuff with
+accidental poetry, which is poetry
+that's either detected in or generated
+from existing texts. My project was
+called Nantucket, and I looked for
+limericks in books. You look for rhyming
+and syllable count and see it happens to
+be a limerick. Darius did Markov chain
+stuff where he created poetry. Which was
+better.
+
+ >> (inaudible) gets more and more
+interesting results. You don't need
+fancy theory.
+
+ >> So this is an example of one of the
+accidental limericks that I found. This
+is in Helen Keller's autobiography, the
+story of my life, where she happened to
+write... (on screen)
+
+ >> This is from a Markov chain from a
+19th century cookbook.
+
+(on screen)
+
+ >> So we both started with something
+like this. Take the CMU pronouncing
+dictionary, look words up in it, and
+check against some approximation of
+meter and rhyme. So here's the
+dictionary. You get pronunciations, one
+per line, and here are two of the lines.
+Pronunciations for the same word, on the
+left. On the right, the way to say it,
+two different phonemes. Ah-dress and
+ah-DRESS. You can see the different
+stress. AH-dress and A-DRESS. So
+naturally it goes like... Reclaimer,
+spare that tree. With this, we get
+reclaim er spare that tree. So start.
+
+ >> So we have to deal with a lot of
+words that aren't in the CMU dictionary.
+So you have some choices. How do you
+deal with that? You can ignore those
+words and only pay attention to words
+you find in the dictionary, which is
+kind of boring. You miss out on a lot.
+You can do really complicated stuff, and
+that sounds fun, but sometimes you want
+to play, or you can have hacky ways of
+guessing pronunciation. You can guess
+which one of us did. I played around
+with finding rhyming in words that
+weren't in the CMU dictionary. Even if
+the word wasn't in the dictionary, maybe
+the last syllable of that word was in
+words that were in the dictionary. So I
+built my own pronunciation dictionary
+that was just last syllables of words.
+So I had to find the last syllable worth
+of characters in a string. This is
+horrible. I wrote it a few years ago,
+and this was my first Python, so I
+apologize. But I wrote this crazy
+regular expression. I swear, I haven't
+updated it in years. But the basic idea
+is I'm looking for one or two
+consonants, followed by any number of
+vowels, followed by optionally some
+conscious
+es, maybe e or ed, because those don't
+add syllables at the end of the word.
+Let's move on and never look at that
+again. So you can find the last syllable
+worth of phonemes to follow with that
+sound. So I just have to look at the
+vowel sounds. We know it's a vowel sound
+because it ends in a digit or stress as
+Darius was saying. So I find a digit at
+the end. Anything after that, great. So
+that let me find -- words like this,
+from the insect world by a guy whose
+last name I can't pronounce. The
+chrysalis or pupa the perfect insect
+orthoptera... (on screen)
+
+And also, just one more from the King
+James bible.
+
+(on screen)
+
+So... Darius also played around with the
+King James bible.
+
+ >> (on screen)
+
+ >> So technically speaking, rhyming
+depends on more than just the
+pronunciation of the last syllable of
+each word. You're supposed to pay
+attention to the last stressed syllable,
+not use repeated words, but if I limited
+myself too much I wasn't going to get as
+much fun. So I have bad rhymes, but I
+get these cool limericks like from
+Dracula. (on screen)
+
+ >> Okay. Meter in verse means a regular
+pattern of beats and here we mark the on
+and off beats. Reclaimer, spare that
+tree. The pattern is not there in the
+CMUdic but we get the right amount of
+syllables by counting the vowel sounds
+and some of these ones and zeroes
+correspond to on is off beats, one for
+on, zero for off. Some of them are on
+off beats. We could say -- a one can
+match an offbeat if it's the only
+syllable. But that's too permissive. It
+would say that this is perfect iambic
+pentameter. (on screen)
+
+Most of it sounds almost that bad.
+Ultimately we want fancy machine
+learning, and honestly, that would have
+made way more sense than my little pile
+of hacks, but there's an addictive
+quality to doing what you can and seeing
+what comes out. (inaudible) Lord of the
+Rings. (on screen)
+
+ >> So another thing we both had to deal
+with was counting syllables. Again, it's
+super easy for words in the CMU
+dictionary. Syllable -- just count the
+number of vowel sounds. They end in
+integers, count the number of phonemes
+that end in integers. Great. Four
+syllables in concatenate. What about
+those not in the CMU dict? You can count
+the number of vowels, but it wouldn't
+work for room and board, that have
+multiple vowels that make one vowel
+sound. We could count the contiguous
+groupings of vowels. But this has
+problems with words like uglier and
+contiguous. Where you have groupings of
+vowels with multiple vowel sounds. So
+what do you do? We counted the number of
+contiguous groupings of vowel sounds and
+(inaudible) for each digraph. Pairs of
+vowels that usually form a single vowel
+sound. A little fuzzy, going to screw it
+up sometimes, but good enough for
+government work. There are other things
+we messed around with, like ious is one
+vowel sound. Or maybe even an
+apostrophe. That adds a vowel found.
+This is a really short talk. So ignoring
+various restrictions and really giving
+ourselves permission to have bad rhymes,
+bad meter, something that's close
+enough, let's get a lot more interesting
+stuff. Especially looking for accidental
+verse, where I have a very limited
+resource. I didn't reject rhymes that
+use exactly the same word, so I got ones
+like this one, from the Count of Monte
+Cristo.
+
+(on screen)
+
+And I also didn't require that I have an
+AABBA rhyme scheme. I was okay if every
+single line rhymed. Which is a terrible
+limerick. But it helped me get these
+from the Just So Stories.
+
+(on screen)
+
+I'm really okay with anything that lets
+me say frouzly in front of all of you.
+And one last fabulous one from Darius.
+
+(on screen)
+
+ >> Thank you.
+
+(applause)

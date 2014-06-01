@@ -1,0 +1,258 @@
+ >> Hi. How are all of you doing? How
+was lunch? So I heard that there was no
+vegetarian protein at lunch. I also
+observed this myself. If you are still
+feeling hungry, because of that, we have
+leftovers from yesterday still. So
+there's a bunch of grilled tofu, and
+please -- absolutely feel free to go
+grab one. There's also extras in the
+fridge that's labeled don't go into it.
+So just go into it and take that out, if
+this applies to you. And please,
+absolutely feel free to grab that. We're
+going to get started here shortly. Do I
+have any other announcements? I forget.
+Anything, Julia? Okay. Cool. So we have
+three talks, and then we're going to
+have a 15 minute break and then we're
+going to have two talks, and then we're
+going to eat ice cream. Pretty great. So
+first up, we're going to hear from Rafik
+Draoui, and he's going to talk about
+making music with floppy drives, and an
+exercise in yak shaving. Two of my
+favorite things.
+
+(applause)
+
+ >> Hello!
+
+ >> Hello!
+
+ >> It works! Hello, everyone. I'm
+Rafik. I'm going to speak about floppy
+drive music and my adventure -- actually
+leading to other projects from there. So
+if you're not familiar with the term yak
+shaving, that's one definition. Any
+seemingly pointless activity which is
+actually necessary to solve a problem
+which solves a problem which, several
+levels of recursing later, solves the
+real problem you're working on. So you
+have a project, and in order to do it,
+you do something else, and by the end of
+the day, you're mucking around with
+config files and writing scripts, and
+someone asks you... What are you doing?
+What does it look like? And... Yeah.
+Usually you want to minimize yak
+shaving.
+
+So you want to minimize that. It's time
+wasting or at best, productive
+procrastination. But... It can be a good
+thing if you just want to learn things.
+If you want to move on to other projects
+and keep the excitement of programming
+alive. So... One of my projects was
+making music with floppy drives. So how
+does that even work? So sound -- someone
+mentioned yesterday -- just air moving
+at some frequency, and every sound has a
+frequency, so middle A would be 440
+hertz, for example. And this is a floppy
+drive. With the top removed. And where
+the arrow points, it's the end. This is
+the data. This moves back and forth. So
+you don't have to make sound of that.
+You just have to make the motor move at
+the right frequency, and you'll hear
+something that sounds kind of like the
+note it's supposed to sound like. And
+what you do is that... This is the back,
+with some pins, and you send the right
+voltage, to the right pin at the right
+time, then the motor will move. So I
+used an Arduino to do that. Turns out
+you only need three of these pins to
+control the motor. And basically you
+just... The song is like a list. It's a
+note, play that note for that many
+seconds, play that note for that many
+seconds, and so on. But Arduino doesn't
+have much memory. Doesn't have an OS or
+any file system. So kind of the only way
+to do it is to put some bytes in memory.
+Like, have some bytecode, and... This is
+like Mary had a little lamb. So this
+is... Like, the first few lines, the
+length of the song, and hold note 64 for
+that many milliseconds, and so on and so
+on. Needless to say, this is not very
+user friendly. If I think about some
+other song I want to play, I would have
+to sit down and try to encode it like
+that. It doesn't work.
+
+So I thought... There's all this music
+around. Maybe I can use some other
+format and convert it to that. So
+there's MIDI files, MIDI protocol,
+standard protocol for describing music,
+and before the internet, 15 years ago,
+the background music on some web pages,
+mostly MIDI files playing. So they're
+all over. I said I'm going to write the
+program. Somehow I wrote it in C. Today
+I would make a different choice,
+probably. But this is an example with
+the many, many lines of code. And this
+works pretty good. It's all right.
+
+But there were so many edge cases that I
+didn't get. And if I think about a song,
+I have to find that song. I'm not a
+musician. I cannot just take a keyboard
+and play my songs. So I needed to do
+something else. So yeah, I cannot play
+music, but I know how to whistle. I can
+whistle a sound or two. So I thought...
+Maybe I can just record myself whistling
+a tune and have a program -- extract the
+melody from it and then convert it. So
+this is my next thing. So how does it
+work?
+
+There's a thing called discrete Fourier
+transform. It's amazing. Just take a
+signal, and then you can convert between
+time and frequencies. So it's easier. On
+the left, it's like a signal. Some sound
+you can see -- it's like a lower --
+mountains, lower frequency. And when you
+put it through the machine, like the
+Fourier transform, you get what's on the
+right. You see the dominant frequency.
+The lower one, that's dominant, and the
+other one. And so I know the frequency.
+So I can just take my recording and run
+it through the Fourier transform and
+gets the notes. At least, that's the
+main idea.
+
+So start with some waveform. Spit it
+into Windows, as small as you want to
+go, and you want to Fourier transform
+it. And you get the dominant frequency
+of the note. By the way, the algorithm
+to do that is called a fast Fourier
+transform. One of the most amazing
+algorithms of the 20th century. Ties up
+lots of computer science. Recursing,
+not like, n square complexity, but it
+goes to n log n. So check it out.
+
+And then this frequency -- you kind of
+normalize them -- to mention that MIDI
+files, every note is a number from 0 to
+127. So this is a standard for the music
+industry. Maybe I should do that as
+well. So I kind of round up or down all
+the notes. And then you can aggregate...
+Like, consecutive notes. And then you
+get a list of pairs, which is pretty
+close to what we want. Play note 62 for
+four units of time. And so on. And this
+is not quite perfect.
+
+The output... It's very noisy. So
+there's... Like, this is the one -- I
+would say it only lasts for one. And you
+might think that it might be an error.
+Maybe it's really 64, but by going from
+the higher note to the other one,
+it's... It just picks up... My whistle
+was out of tune, maybe. So you might
+want to... Or maybe you want to... It's
+too fast, and you want to make it
+slower, so maybe you want to double the
+duration of all the notes.
+
+But this is a pretty cool simple little
+structure. List of pairs. So we can just
+filter it. Pass some functions and
+compose them. So as long as it takes a
+list of pairs and outputs a list of
+pairs, you can compose these functions.
+So I guess the filter is that -- you
+know, for example, drop the short notes
+and double the duration, and you use
+whatever functions you need to get
+whatever you want. And then finally you
+just... You can emit it to the back end,
+the MIDI file, a floppy, or to json,
+because you can.
+
+And yeah. So this works. And, I mean,
+it's way better than encoding by hand
+already. So... But it's not... You know,
+sometimes there's a note that's a bit...
+It's a bit out of tune. And you just...
+It would be so easy... It's a graphical
+interface. Just click on it and move it
+up a bit. And it would be it. But with
+these functions, you need to... You
+know. So I thought maybe I could do a
+graphical interface.
+
+And I didn't know anything about, like,
+(inaudible) or HTML 5 stuff. I didn't
+know anything about any of these things
+before as well. So that's an early kind
+of screenshot of how it kind of looked.
+No drag and drop yet. We have to click
+and press a button so it moves. But
+basically I used some library, and I
+customized it a lot to do what I wanted,
+and when things didn't really work out
+properly, I tried to... You know, just
+do some random calls like -- (inaudible)
+and it worked. So I was like... Oh, it's
+fine. And now I'm... I got to a point
+where I'm... I'm really stuck. Like,
+I've kind of done myself into a hole
+with all these careless hacks and
+"fixes", so I cannot reproduce an
+example to get help or to debug. So
+that's where I'm at now. It's a bit of
+anticlimax. But... Yeah.
+
+So it still hasn't been... You know,
+I've got lots of plans for this... I
+want a whole orchestra. I want to maybe
+make it interactive, and have all these
+ideas, and I'm nowhere close. I've just
+been doing all these other things
+instead. But it's... I think it's a
+really cool thing that I did that,
+because I learned lots of new things. I
+was at PyCon, and I learned things like
+-- iPython notebook, or do some things
+with graphics, and I've been told that
+karaoke file editors are MIDI. Maybe I
+can do karaoke floppy drives. So I'm
+stuck for now, but if you have any
+ideas, I'm happy to get some help. 30
+seconds. So... Yeah. So... Do stuff that
+you don't know about, and just keep on
+going. And it's on GitHub. It's called a
+flopkestra. It's not quite an orchestra
+yet. Because Arduino -- it can't process
+in Arduino. Gazouilli is my process.
+It's a pun in French. You can ask me
+later. And there's a video there. A
+small teaser. And check it out.
+
+(applause)

@@ -1,0 +1,261 @@
+ >> Hi! I'm Julia. I need to, like, find
+my slides. Just a second. Okay. I'm
+really excited that you're all here.
+
+ >> Us too!
+
+ >> Okay. Uh... Oh, it works. Oh, good.
+Wow, amazing. Computers! Who knew? Okay,
+cool. So yeah, I'm Julia. I'm going to
+be talking about one of my favorite
+things. Which is strace. And I'm going
+to explain to you what that is. So...
+Let's get started. The first disclaimer
+is that strace is Linux only. I use
+Linux. You may not use Linux. There will
+be alternatives for you at the end, and
+the concepts map to things that are not
+Linux, but strace is only for Linux.
+Linux. So...
+
+We write programs. We debug things.
+Normally, when you debug a program, you
+will do things like look at the source
+code. Or, like, add print statements, or
+use a debugger, or know the programming
+language that your program is running
+in. Strace is a debugging tool that
+requires none of these things.
+
+(applause)
+
+Like, so you can have a random program,
+and you can run it, and you can learn
+what it's doing. Am I a wizard? Strace
+lets you be a wizard. So let's break
+this down a little bit more. Because we
+believe that the world is ultimately
+logical. Maybe. Right. So the way this
+works is I have a computer. And in that
+computer, there's, like, a hard drive.
+Right? And there are sometimes -- I'll
+open a file with Python and I'll be like
+f=open file. And then I'll read the data
+from it. And things I do not worry about
+include... How to write IDE driver...
+But specific details of a file system
+I'm working with. And a bunch of other
+things. Right? So... And the thing that
+deals with all of these things, like
+writing data to the network, like... All
+of your hardware, all of your file
+system, is your operating system. Which
+could be Linux or OSX or Windows. And we
+use a lot of web APIs. But your
+operating system also has an API for
+things like reading files, communicating
+over the network, the TCP/IP protocol is
+implemented in your operating system,
+and system calls are your operating
+system's API. So what strace does, and
+the reason that it's, like, magical, is
+it lets you see which system calls your
+program is calling. And the only way to
+open a file is by calling the open
+system call.
+
+Which is almost true. But, like, yeah.
+Right. So I'm going to be talking about
+some of my favorite system calls. One of
+them is open. Which, like, opens files.
+One of them is execve, which starts
+programs, and I'm going to talk a little
+bit about sendto and recvfrom, which are
+for sending data over the network. So
+the first thing I want to explain is --
+how do I even strace? Right? So there
+are a few ways. One way is you run a
+program to the command line, and then
+you put strace in front. And then
+suddenly you're spying on your program.
+
+And it'll start printing out things. So
+you'll see that this starts with execve.
+Execve is the name of the system call.
+So the very first thing that happens
+when you start Google Chrome is it
+starts Google Chrome. Which is kind of
+like tautological. But, like, this makes
+sense. If you're starting a program, the
+operating system has to start the
+program. And then there are more things.
+Something to be wary of is that when you
+run strace, you'll see a lot of output,
+like this.
+
+And this is a little bit difficult to
+read. To say the least, right? But you
+can see things that you might recognize.
+You might be like -- oh, vorbis. That's
+like ogg vorbis. That's some kind of
+audio driver. I guess Chrome wants to
+have a library for this audio driver.
+That seems logical. What else do we have
+here? I don't really know. More ogg. I
+don't know what this means. But I know
+it's something like that. I've already
+learned something about Chrome. So when
+I usually run strace, I'll limit it to a
+specific set of system calls. I'll be
+like... Which system call do I really
+want to know about?
+
+So let's say I wanted -- I was really
+suspicious of my Google Chrome, and I
+thought it was, like, spying on me, and
+on my files. I could use strace and be
+like... Show me every time Google Chrome
+opens a file! I want to know all of
+them, and I need to audit Google Chrome.
+So I could do that. And I often do a lot
+of filtering, so it'll open libraries
+and stuff, which I don't care about. So
+I straced Google Chrome, and I said...
+Let's look at the things in my home
+directory. And then I was like...
+Consent to send stats. What is it? What
+have I consented to? I don't know!
+Right? So I went and looked at that
+file. And I found some kind of key. And
+I was like... Okay. I guess... And maybe
+I did... I probably clicked yes at some
+point, right?
+
+But that's cool. We learned that Chrome
+is doing that. So the next thing I was
+thinking of... I was like oh, well, so I
+know that Chrome runs these, like, sand
+box processes. Like, it starts one
+process for each tab or maybe they're
+grouped together if there are a lot of
+tabs. I'm not a Chrome developer. I
+don't totally know. But we can look at
+that. So I straced it, and said just
+show me what processes it starts. And I
+added the-f flag, which follows forks
+and will trace all of the processes. You
+can trace everything. It's the best. And
+we see that this key here... That's,
+like, one of the arguments to Chrome's
+sandbox, is the thing from before. So
+it'll open that file and use it as a
+parameter. I don't really know. But
+that's a thing it did. So that's pretty
+great. And we can find out, like, how
+many processes... Like, how many copies
+of itself Chrome started. If we wanted
+to know.
+
+That would be easy. And so another thing
+I did is... I was trying to understand
+how, like, a distributed file system
+worked the other day. And so I was
+like... Using the client, and I was like
+-- oh, what data is it sending and
+receiving over the network? So I ran
+strace, because strace is like legit my
+favorite thing. I can, like... I was on
+the train from Montreal to New York and
+I was like... I don't have any internet.
+It's not working. But I'll just strace
+some stuff. It's really fun. It's really
+fun. It's like... A problem. Maybe I'll
+tell you about that another time.
+
+So... I started looking at it, and I
+looked at connect. I was like -- oh, the
+connect system call will connect to an
+IP address on some port. That totally
+makes sense. And then it would send to
+that -- this BP thing is the pool ID for
+the file in HTFS, so this is something
+that I recognized, even though it might
+be totally meaningless. I was like --
+oh, man, this is actual stuff, and I can
+see what it's sending over the network,
+without knowing how the program works at
+all, and it doesn't matter if it was
+written in Java or in Python or
+whatever. I can just look at it. And it
+was storing some data from Wikipedia,
+and when it came back, it came in the
+recvfrom system call and there was
+English in it. And I was like -- oh
+yeah, that's the data I saw. It came
+over the network and I can see it! And
+you can do this if you're communicating
+over http, that has to go over a socket.
+It will be in a system call. There is no
+alternative. If it's over https, it'll
+all be encrypted and it'll look like
+nonsense, and you're kind of stuck with
+that. Because if you're using SSL,
+hopefully it's being encrypted. You see
+what gets sent over the wire. Whether
+that's useful or not to you.
+
+But yeah! This is really cool. Another
+one of my favorite system calls is
+write. So you might have a process
+which, like, is logging data somewhere.
+And you might not know where, and you
+might, like, look at the documentation,
+but instead we are wizards! So you can
+strace it! And you can attach a running
+process and you'll be like... Where are
+you writing, Apache? And you'll see the
+write system calls. There's no other
+option. There's no other way to write to
+a file. You have to go through the
+operating system. You don't have a
+choice.The operating system does
+everything.
+
+That's not quite true, actually. Right?
+If you're just doing some computations,
+if you're adding up a bunch of numbers,
+that doesn't go through a system call.
+Right? That's not part of the API. But
+yeah, that's what I have to say. I have
+some advice for you. One piece of advice
+is to strace everything, because it's
+really fun. If you have Linux and you
+want to know how this works, just start
+stracing. Be like -- what does it mean?
+What is that system call? And sometimes
+I go down that road and it's a huge
+mistake. I'll be out working. I'll
+strace this. What does that mean? I'm
+really not doing my job right now. It's
+like... Not good. And then hopefully I
+stop and go back to doing work and not
+try to do that or whatever. Don't do it.
+Or do -- at home! There's a tool on OSX
+and Windows called sysdig, and also on
+Linux. It's kind of new. It has a pretty
+web page. I haven't tried it yet. Maybe
+try it if you're not on Linux. It seems
+to have a nice command line interface,
+and you can attach Lua scripts to it and
+stuff. I made some notes for this talk.
+I've written, like, seven blog posts
+about strace. It's really bad. That's
+me. Thank you!
+
+(applause)
+
+ >> Okay! So now we have a break for you
+to try all those neat strace things.
+That Julia just showed you. The break is
+15 minutes long, actually! Yeah, sorry.
+We'll call you back.

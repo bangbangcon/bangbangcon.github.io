@@ -1,0 +1,270 @@
+ >> No worries. So the next group of
+three talks, then we'll have another
+break, starting with Bjorn Roche, and
+the title of this talk is "How I used
+knowledge of code and music to fight
+fires!". I can't read my own writing. Then
+it's Chloe Weil with "Tasty Stacks!", and I
+don't know if you've read this abstract,
+but the title is... There's a little
+more to it. And then it's Julia Evans
+with "Spying on programs using strace!!!". So
+without further ado, Bjorn Roche.
+
+ >> Hi! Okay. So that is my talk title,
+and this is my official talk title. With
+all the requisite... So I'd like to
+start by talking a little bit about
+myself. This morning, we had a talk
+about obsession. And I am obsessed... I
+am a contract developer who's obsessed
+with music and audio. And DSP, digital
+signal processing. So I've developed
+software for, like, music startups,
+recording studios, that kind of thing.
+That's what I do. I'm going to skip this
+other stuff, except I will mention my
+current project is an app that allows
+users to create music videos. It's
+really cool. It's called Shimmeo. So I
+was surprised when this company called
+edispatches contacted me about their
+thing for firefighters. So this talk is
+about what I did for them.
+
+So the way... Is anybody here a first
+responder or has been a first responder,
+like a volunteer firefighter, EMS,
+anything like that? No. Okay. Then you
+won't know if I got anything wrong, I
+guess. So... The way first responders
+respond to emergencies in a lot of
+areas... I don't think this happens in
+big cities, but I don't really know...
+Is the fire station receives a call,
+they need to send out first responders,
+so they have a radio station inside the
+fire station that sends out a message,
+people are carrying pagers, they're
+called pagers. They're not really
+pagers. They're really radios. And they
+hear a little message that says...
+
+(static)
+
+It's about as clear as the New York City
+subway used to be. And somehow they
+understand what it says, and they run
+off to the fire or whatever it is. The
+messages themselves are audio messages.
+They start with tone sets. That sound
+like...
+
+(singing)
+
+Doo-deet. And those tone sets encode for
+each pager. So the tones I just made
+might be encoded for the green pagers,
+and there might be other tone sets that
+are encoded for other pagers. So when
+the tone set goes, then a particular
+pager says -- oh, that's me, and turns
+on. So the green pager turns on when it
+hears the green tone set, and it'll
+actually -- the person with that pager
+will actually hear that blue tone set,
+and whatever else happens, and then
+they'll hear the message. So it's
+actually a little speaker. It's not text
+or anything fancy. They carry a little
+pager with a speaker on it, and they
+have to actually hear that message. And
+I have a sample here, which... You'll
+probably hear.
+
+(tone sets)
+
+That's the first tone set. So what you
+just heard part of was two tone sets,
+somebody talking, and then some noise,
+which is something you always get. So
+the system works. And they've been doing
+it for years this way, all over the
+country, all over -- I don't know where
+else, but at least North America. But
+the problem is people need to carry
+these pagers. So you've got your phone,
+you've got your pager. The pager uses a
+lot of battery, so you need to charge it
+regularly, remember to charge it more
+than your phone. It has a limited range.
+
+The messages are just played once, so
+you hear the message, and if you're a
+volunteer firefighter, and also a
+construction worker, and you miss it, or
+you didn't understand one, two, three
+evergreen terrace... Is that what they
+said? You're out of luck. You don't know
+where to go. And many first responders
+are also construction workers and stuff
+like that. So... And another problem is
+they need to buy all these extra pagers,
+and each pager needs to be programmed
+for the specific message, so the
+individual who has it gets the right
+message. So it would be pretty awesome
+if we could just say... Hey, fire
+station, send out a message to the
+internet, and the internet will
+magically deploy to all the right
+places.
+
+But in the real world, we don't live
+that way. Everybody is really invested
+in this radio system deployment. So the
+edispatches folks figured out that it
+would be better than reinventing the
+wheel -- to attach a new wheel, so they
+developed this system that I'm going to
+show you and that I worked on, to
+connect -- basically they added a second
+radio receiver that acts like a pager,
+and something they call a detector, but
+is actually this little computer here.
+We used to call these embedded
+computers. What do you call them now?
+
+I don't know. Is there a name for this?
+Embedded computers. Okay. Still call
+them that? All right. So it's just a
+Linux box with some... With an audio
+input on one side, and Ethernet on the
+other, and it has a bunch of other
+things that don't get used, and here's
+the radio receiver. It's just a standard
+short wave radio receiver. And so that's
+what the radio receiver and detector
+are, and then the wire here that you're
+all familiar with, the Ethernet wire,
+goes to the internet, and they have a
+system that connects it all to
+everybody's phones.
+
+So the key, really, that I worked on, is
+the detector part, which I'll talk a
+little bit about, and yes, I still have
+five minutes! Wow. And so the way that
+works... These are the main parts. The
+main parts of the software. And I don't
+have to talk about the first step,
+because there was another talk earlier
+today all about reading audio, using
+PortAudio. Which is really awesome. So
+that's how the analog input gets read.
+It's just audio. It's just sound. That's
+what's coming out of the radio. The next
+step is... Automatic gain control.
+Basically this detects any distortion
+that might come from a level mismatch
+between the two devices.
+
+And adjusts the input level as
+necessary. This was one of the easiest
+things I did, but it probably made the
+biggest difference. Because before they
+had a special cable with an attenuator
+in it, and it, like, adjusted... And oh,
+that seems to work. Well... It seems to
+work better if we turn it two times
+around, rather than three. And it was
+very haphazard. And then there are some
+filters. So if you've ever played... Who
+here has played guitar? Yes. Okay. So no
+first responders, but lots of
+guitarists. So if you've played guitar,
+you've played guitar through an
+amplifier. Like... We've got one over
+there. Is that a Fender? Yes. And the
+amplifier distorts, so the sound coming
+out of the guitar sounds nice and pure.
+Doot! But when it goes to the amp, it
+sounds like... Durrr! And we like that
+sound, for whatever reason. Our ears
+love that sound.
+
+And what that sound is caused by is...
+Extra frequencies being added, that are
+higher frequency than the original. So
+what this filter does is reduce some of
+that high frequency distortion that
+comes through the radio, just like it
+does through the guitar amp. It's a
+natural process. And the next step is...
+We'll really determine what frequencies
+are there. How much 200 hertz, how much
+210 hertz, how much 220 hertz, and so
+on. And we pass that information on to
+something I call the analyzer, which
+keeps a history of all that information,
+and figures out if an actual tone has
+been played. So there's some statistics
+going on there. But it's not too
+complicated.
+
+And then if an actual tone has been
+played, it starts recording, and sends
+the message off to the lovely internets.
+All right. So we're going to do the
+demo real quick. And this is the part of
+the system that I'm actually going to be
+demonstrating. So let's see. So this
+here, my computer is my fire station.
+It's going to play the tone. And the
+message. This is my transmitter. My
+fancy radio station. This is the
+receiver. And then this is the detector.
+And then you'll see the output of the
+detector up here. And if you blink,
+you'll miss it, so don't blink.
+
+What you'll see is the gain... Well,
+I'll show you the results, and I'll do
+it again. Because it's so quick. All
+right.
+
+(tones)
+
+ >> The first tone.
+
+ >> This is HSH. This is a test.
+
+ >> Hopefully it got both of them. Yeah.
+So you can see the first line there, the
+automatic gain control says -- whoa,
+that's too loud. It turns it down a
+little bit. And then hit one, it detects
+those first set of tones, which are 1901
+hertz, followed by 350 hertz, and then
+it tries to notify the server, but we're
+not connected to the internet. And then
+the second one -- it detects the second
+set of tones, and that time it's 350,
+followed by 1985. And I'll do it one
+more time, so that now you know what's
+going on, you can see it.
+
+(tones)
+
+(this is HSH. This is a test.)
+
+ >> And those tones sound so beautiful.
+So that's how the system works. If you
+want to know more, I know I'm out of
+time... You want to know more, here's
+some stuff about -- the green parts of
+the diagram there are Open Source. They
+came from a guitar tuner I made. And
+there's more info here.
+
+(applause)

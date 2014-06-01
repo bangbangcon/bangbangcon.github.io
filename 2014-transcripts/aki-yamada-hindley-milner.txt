@@ -1,0 +1,262 @@
+ >> Amazing! Next up, we have Aki
+Yamada, who is giving a buzzfeed type
+talk! Just look at the humongous type
+that Hindley-Milner infers for this tiny
+program!
+
+(alarm beeping)
+
+ >> Hi, everyone. I'm Aki, and actually,
+that's a great intro, because the
+alternate title for this was...
+Something like... Look at this one weird
+trick that makes GHC totally hang or
+GHCs hate, or something. So my name is
+Aki. I was at Hacker School last summer.
+I work at Rent the Runway on warehouse and
+fulfillment software right now. I'm not
+going to talk about that. I'm going to
+talk about this crazy type that
+Hindley-Milner infers for this program.
+I'm going to give you a crash course in
+the lambda calculus as quickly as
+possible. If you have some familiarity
+with Hindley-Milner languages, Haskell,
+standard ML, you'll be able to follow
+along. But for everyone else, I'll run
+through the syntax that I'll be using.
+This is the grammar for the lambda
+calculus. If you know one of those
+ML-like languages, you will be able
+to... This is sort of... You can think
+of this as a subset of your favorite
+Hindley-Milner language. If you don't
+know one of those languages, just
+consider it like a mini-functional
+language. There's four different kinds
+of terms in the language. The first one
+is variables. The second one is
+functions, which are defined with this
+lambda symbol and take a single
+argument, in this case named x, and have
+a body containing some other expression.
+The period here is just syntax to
+separate those two. Third we have
+function application, which is just the
+function applied to an argument, and
+they're just put next to each other.
+I'll use parentheses a little bit later
+for precedence, and finally we have let,
+which is just a way of introducing a
+local variable, in this case again named
+x, binding it to an expression E, and
+then evaluating some body. So this
+programming language has no types.
+There's no type annotations here, and
+that's where Hindley-Milner comes in.
+It's a classic inference algorithm that
+was invented/discovered twice, once in
+the '60s, once in the '70s. It's used in
+standard ML, OCaml, F#, and
+Haskell. It's not used in Scala. It has
+a different system and is slow for
+different reasons.
+
+So usually this algorithm is described
+as fast enough. Which means people don't
+complain about GHC the way they complain
+about scalac, but the truth is a little
+more complicated. There are two features
+I want to talk about, before I get to
+this sort of worst case scenario with
+Hindley-Milner. The first is called
+let-polymorphism. So it supports something
+called parametric polymorphism. This is
+a polymorphic identity function, which
+takes a value of a type A and returns
+the same value on changing it. So the
+type of this function is A to A. Here's
+the sort of familiar map, our lambda
+calculus doesn't have lists, but you
+have lists in Haskell and so on, but
+this is an example of a parametric
+polymorphic value. So let's get back to
+let. There's two ways of introducing
+local variables in our lambda calculus.
+The first one is let and the second one
+is lambda. In let, we call a variable
+bound in a let -- in this case, it's x,
+as a let... We call it a let-bound
+variable, and in the lambda, we call it
+a lambda-bound variable. If you're
+coming from a LISP, which is where I
+was, there's this relationship between
+let and lambda. Which is familiar. You
+see this as the first macro you might
+learn, because you can implement let as
+a macro, in terms of lambda and function
+applications. So here's a let, a tilde
+arrow thing is suggesting that we can
+transform this into a lambda that's
+being applied to the expression. Both of
+these were a local variable named x,
+binding it to e, and evaluate thing the
+body. JavaScript programmers call this
+immediately invoked function
+expressions, and it's due to the way
+JavaScript does scoping. There's a
+crucial difference with the way let-bound
+and lambda-bound variables are
+typed in Hindley-Milner languages.
+Here's an example of a program using
+let. We're introducing this polymorphic
+identity function, binding it to id, and
+calling it with 3 and true. And I'm sort
+of cheating here, using a tuple, and
+these literals. But this checks with
+Hindley-Milner without any problem.
+Here's the same example if you
+transformed it using a macro. We're
+applying a function to an anonymous
+identity, binding it to id and binding
+it to 3 and true. This doesn't type
+check under Hindley-Milner. Lambda bound
+variables are not allowed to have
+polymorphic values, but let bound are.
+This is the error we get. So it turns
+out that let is this important feature
+of these languages. It's not just
+syntactic sugar, and it's called "let-polymorphism".
+The way we type check this
+in a naive way is to literally copy and
+paste the code, so the compiler will
+generate an int and a Boolean version of
+the identity and apply them in the right
+place in the body. There's other ways to
+implement this that are not naive and
+kind of stupid, but think is I think
+conceptually easy to understand. The
+second thing I want to talk about is
+exponential function composition. This
+is just something that falls out from
+just the way let works. Effectively, let
+allows us to concisely express
+exponential function composition. Here's
+another little program that uses let. X0
+is bound to the identity function we had
+earlier, X1 just takes an argument and
+applies X0 to that argument and applies
+x0 again. This isn't that interesting.
+X1 is the identity again, but getting
+somewhere in a little bit. Here's the
+other program. It's the same, but has
+another level of nesting. So x2 is just
+calling x1 twice with some argument y.
+You can probably see where this is
+going. Each step of nesting, we're
+doubling the number of times we compose
+x0, so once we do another level of
+nesting, x3 is going to compose x0 eight
+times. So let allows us to succinctly
+express function composition, and now
+we're ready for this pathological case.
+So it turns out that Hindley-Milner in
+the worst case takes an exponential
+amount of time in the size of the source
+program to infer types for that program.
+There's these two features, let
+polymorphism and exponential
+composition, that conspire together to
+degrade the performance this badly.
+
+Without let, you can do type inference
+in linear time, and so it's kind of
+interesting to me that there's this
+feature that... It doesn't just change
+it by an order of magnitude or
+something. It's like really, really bad.
+So here's another program similar to the
+last one where we changed x0. X0 is the
+pair function from the lambda calculus.
+The details are not that important, but
+essentially this is how to simulate a
+pair constructor when all you have is
+functions. The rest of the program is
+the same. We're composing x0 an
+exponential number of times. You can see
+this is basically the same. We just
+changed the initial version of x0. I've
+translated this to standard ML so I can
+put it in the repl, and the way ML and
+all these ML derived languages do top
+level bindings is very similar to let
+and the values can be polymorphic, and
+this can let us inspect the types of
+each of these xs as we enter them into
+the repl. So this is not that bad. It's
+got two type variables, a function that
+takes a value, takes a value, returns
+another value. I've written some small
+and medium sized programs that use types
+this large. Maybe you have to pick it
+apart. You have to read the Docs. In the
+worst case, you have to read the paper
+that the library is based on, but you
+can imagine figuring this out. X2 is
+starting to get a little intimidating
+and starting to look like something is
+going wrong. But at least the type fits
+on one slide. This is the type of x3 and
+is completely absurd. This is just an
+eight times function composition of the
+lambda calculus pair and this is just
+the first page of the type. This is the
+second page. This is the third page. And
+finally, this is the last page. So you
+can imagine what x4 would look like. And
+it turns out that when I experimented
+with this in standard ML, OCaml and
+Haskell, for some reason they can't
+handle a nesting deeper than 3 or 4.
+With standard ML type checking x4 took
+10 hours on my Mac. It's kind of a toy
+computer but builds don't take that
+long. GHC gets up to 9 or 10 before it
+kind of hangs. So this is really
+interesting. I don't understand why this
+happens, but it's the combination of
+polymorphic let and the exponential
+function composition that sort of
+conspire in this way, and there's just a
+lot more for me to dig into. I just want
+to talk about one of the references. So
+I learned about this on Stack Overflow.
+There's this great question and answer
+that sort of demos this thing. But this
+paper is what I want to touch on briefly
+in my last minute, because -- so this is
+from 1990. There are a couple of
+different people who sort of hit upon
+this idea, and figured out that, like,
+how to prove that ML typing was
+exponential in the worst case. This is
+this other feature that's really, really
+interesting. The way they proved this --
+in the paper -- one of the authors'
+colleagues suggested they call it
+something different. How to compile
+Turing machines to ML types. They
+effectively take a Turing machine, embed
+it inside ML's type system, and -- if
+you're familiar with Prolog and pattern
+matching -- they use unification to
+drive the Turing machine to go through
+its steps. I feel like there's a whole
+bunch of other talks that I should be
+looking into writing for this, but
+anyway, if you want to talk more about
+this, please see me, and maybe download
+this paper and read it, so you can help
+me figure it out. Thanks. 
+
+(applause)

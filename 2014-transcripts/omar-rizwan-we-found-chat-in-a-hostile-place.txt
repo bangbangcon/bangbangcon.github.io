@@ -1,0 +1,239 @@
+ >> Thanks! That was great. So Omar
+Rizwan is going to speak next about...
+"We found chat in a hostile place!"
+
+(applause)
+
+ >> Hi! I'm Omar. I'm going to talk
+about security and Chrome extensions, or
+maybe insecurity, and I'm going to use
+some examples from a Chrome extension I
+wrote a few months ago. So first off,
+obligatory disclaimer with any talk
+about security. This is excerpted from
+davidad's blog. I don't know anything
+about security. You don't know anything
+about security. I wouldn't use this in
+production. It hasn't been audited. Et
+cetera, et cetera. This is just fun talk
+about some problems.
+
+So what's the problem we're trying to
+fix? So if we use Facebook chat to talk
+to someone, which I do pretty often,
+Facebook and its employees can see what
+we're saying, people who have access to
+Facebook's back end can see what we're
+saying, governments can see what we're
+saying, even if they're not watching us
+directly, they could be logging us
+long-term, could be analyzed. Whatever.
+But we don't want to move away from
+Facebook chat. We're lazy. We want to
+create a channel within Facebook chat
+from which we can communicate securely.
+We want something like this.
+
+So how can we fix this problem within
+Facebook without having to change our
+own behavior? How can we just do this in
+software? So I have an idea. There's a
+browser extension called Mailvelope that
+allows me to encrypt my email within
+Gmail, without having to leave the
+interface. And lets me decrypt it as
+well. So can we make an analog that
+seamlessly encrypts Facebook chats in a
+similar way, as a browser extension? So
+here's the behavior I want. Things in
+the green outline should be protected
+from Facebook. So Sandra and Barbara
+have the extension installed, Barbara
+types her Social Security number in, it
+gets encrypted, transferred over
+Facebook, and decrypted on the other
+side. To the users, it just seems like a
+normal chat.
+
+So how do we implement this in a Chrome
+extension? So here is -- let's talk
+about how Chrome extensions work. So
+Facebook has JavaScript code that
+operates on the document object model,
+which is what you see on the screen.
+JavaScript prints your chat messages
+out, reads the chat input in, that kind
+of thing. So now we want our extension
+to sit inside Facebook.com and intercept
+some of Facebook's JavaScript code and
+do things to the chat inside this. So
+you might be familiar with user scripts.
+User scripts basically just append your
+code. Concatenate it onto the site's
+existing code. Just like the code that's
+already there. Running in the exact same
+execution context. You can access all
+Facebook's objects. Vice versa. This is
+not how Chrome extensions work. This is
+not how we're doing. If you think about
+this, this makes sense. Because if
+Chrome extensions work this way, you
+would have no place to hide from
+Facebook's code. There would be no way
+for us to store private information and
+keep it safe from Facebook.
+
+So instead, if you write a Chrome
+extension, your JavaScript will execute
+in a separate execution context. So if
+we make a global variable, it's not
+accessible to Facebook, and Facebook's
+global variables are not directly
+accessible to us. But we both have
+access to the document object model. And
+if we do want to access Facebook's data,
+one way, there is a trick we can use. We
+can just inject a script into the DOM
+and it gets executed at part of
+Facebook's JavaScript. So we have the
+advantage here, over Facebook. When I
+say Facebook, it's sort of short hand
+for Facebook or the enemy that has
+co-opted Facebook, by the way. So let's
+put this to work. So I made a function
+called run in page context. Which takes
+the callback that you send it and
+injects into Facebook.com. So I actually
+ran Facebook's JavaScript through a
+beautifier, so I decompiled it to figure
+out what I needed to hook into to
+intercept chat messages. It's
+surprisingly easy to root. They did not
+do a good job obfuscating them. So we
+replace this try send function, when you
+try to send a chat message, and encrypt
+the message first. Makes sense. We call
+the original message sending function,
+but now it's sending an encrypted
+message. So that gets us half our
+functionality. Right?
+
+Well, sort of. So... It gets us half our
+functionality, but it's not actually
+secure. So we inject this try send thing
+into Facebook's JavaScript. So one
+obvious problem is that Facebook can
+just cut this back out, because they can
+restore their original method after five
+minutes or whatever. But there's
+actually a deeper issue. Which is: where
+does the chat message content that we
+want to secure come from? Where does the
+user type it in? Well, it comes from the
+DOM. The same DOM which is directly
+accessible by Facebook's JavaScript all
+the time. So all Facebook has to do is
+wait for you to type something and send
+it and record it before you even send
+the message, and you've lost the game
+already. So there you go.
+
+So we cannot take any input from the
+DOM. At least, not this DOM. So you may
+think this is like an obvious
+architectural problem. Right? Why would
+you rely on Facebook's DOM? Why would
+you rely on a DOM that you can't trust?
+It was not as obvious to the people who
+wrote the fire GPG extension that
+bungled it for several years. So they
+summarized this problem too. Fire GPG
+design incorrectly assumes this is safe,
+but it is not since JavaScript running
+on the page can still control and
+observe much of what is happening on the
+page. You can send the contents of
+whatever you're typing in every few
+seconds if you're the enemy. So
+suggestion number two. Let's use an
+iframe. So what is an iframe? Basically,
+we have this separate window that we
+control, with a separate page and a
+separate DOM, and it's only answerable
+to our extension. It has this Chrome
+extension URL, which means only we can
+communicate with it. And it embeds the
+window inside the Facebook page. So
+Facebook cannot trust it. It's cross
+domain. So you have to duplicate
+Facebook's chat UI in this iframe. This
+is all rendered in the extension. So
+this is our new model. Much nicer. These
+two DOMs are not touching. There's a
+small interface we have to worry about
+between Facebook and our extension. We
+should be good.
+
+Well, no. So there's not much surface in
+theory between these two DOMs, but in
+practice, there's a huge problem. So...
+Basically, Facebook can do a phishing
+attack on us. I've also heard this
+called clickjacking or UI readdress. We
+have our UI, which is secure. If we type
+into this, we're okay. But Facebook can
+just put a clone of it on top, and the
+user won't have any idea, and as long as
+we have... Even if we put a lock
+watermark, the enemy can just make their
+own lock watermark, so they can put it
+on top or destroy our iframe and replace
+it, or whatever.
+
+So... The only solution I could find...
+And Mailvelope uses a similar one, is to
+construct some private information
+within the extension and tell the user
+what it is, and identify things in the
+extension, using this private token, and
+then the user has to do the work of
+figuring out what to trust. So let's see
+this interaction. Hopefully this works.
+Okay. So as you can see, there are these
+tokens here and here and here, so that
+Facebook can't do anything on top. If
+you don't see them, you're in trouble.
+So you can see here that these messages
+are all encrypted. And yeah, so... This
+is what they look like to Facebook. All
+right. So... I think I'm almost out of
+time. But some additional problems,
+which I didn't mention -- encryption I
+just totally glossed over. That's not
+really the topic -- Facebook can be
+focus-stealing. So the parent of an
+iframe can at any time take focus from
+an iframe. You could be typing and in
+the middle of your typing it goes to
+Facebook. Profile pictures is an
+interesting side note. You can't just
+use the profile picture, the image tag,
+because it goes to Facebook. They can
+tell you're making the request, so you
+have to render it into a canvas and send
+the bitmap data over to your thing and
+re-render it. The Chrome extension
+messaging model. So you need your
+multiple instances of the extension in
+different pages to be synchronized. So
+you need a central dispatcher. And
+finally, brittleness. Facebook can break
+this any time by changing the names of
+functions in their API. But we just want
+to avoid breaches of trust in this case.
+That's all. Thanks for watching.
+
+(applause)
+
+ >> That was super cool. Now you can go
+get ice cream.

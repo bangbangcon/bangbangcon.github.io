@@ -1,0 +1,294 @@
+ >> Great! Thank you. And now for the
+last talk in this pre-lunch session.
+Emily Reese, and her talk is called "The
+Artist and the Programmer", except it's
+in French. I'm not going to say it in
+French. The artist and the programmer.
+
+(applause)
+
+ >> I can just hold it too. That's fine.
+
+ >> The microphone is tricky. I told you
+it's tricky.
+
+ >> Is there a shortcut to get the
+presenter notes up? In Keynote? Oh,
+nope. Just trying to figure out how to
+get my cursor up... Sorry, y'all. Yes!
+Cool, thank you. Okay! Hi. Um... Am I
+okay with the mic? Should I go any
+closer? You're good? Okay, cool. It's
+really hard to gauge that in here. So
+I'm Emily Reese. I'm here to talk about
+the arts and programming and how we can
+build things as programmers for artists.
+
+I am eclairereese everywhere on the
+internet, and I made these first few
+slides to really live by my words. I
+made my art in an iOS app. So how can we
+use our programmatical knowledge and
+technical ways of thinking to help all
+the cool creative stuff that's happening
+on seemingly the other side of the
+cultural fence? I work at Kickstarter,
+as a Ruby on Rails engineer, and I
+really live out these principles every
+day. They're very important to me. And I
+started at Kickstarter two years ago.
+Not as an engineer. I didn't know how to
+code. I have an undergrad in arts,
+masters in arts, and working with
+creators every day and seeing how they
+used the tools in Kickstarter made me
+want to understand how these tools
+worked. And I asked if I could get the
+code on my computer, our operations
+engineer had to problem with that, and I
+taught myself how to program and
+eventually moved over to the engineering
+team last year.
+
+So that's me. And if we take a step
+back, and think about the arts world in
+general, the world that I came from
+originally, before starting at a tech
+company, you imagine something like
+this. It's a white cube sort of space,
+kind of uncomfortable in it. Feel like
+you're not welcome, and scarcity is
+everything in the art world, which is
+kind of terrifying, whereas when we
+build tools on the web, we think anybody
+can use this, if you have an internet
+connection or a computer. You can have
+your friend help you learn how to
+program. It's all very accessible.
+Luxury art has its place in culture, but
+it wasn't my scene. That's not to say
+it's a bad thing, but I don't know if
+anybody in this room necessarily agrees
+with the principles of scarcity. And
+inaccessibility.
+
+So at the same time that this art world
+exists, I feel now we live in a time
+where we can take back that creative
+energy a little bit, and this is fueled
+by artists and makers and hackers,
+probably a lot of whom are present in
+this room. I definitely identify with
+this. That want to break down the
+barriers between art and the people that
+consume art and audiences and the
+ability to make art.
+
+So... Not only are there similarities in
+terms of mentality between art
+production and writing code -- I think
+-- but also there are all these
+psychological darknesses as well. That
+artists feel -- that I definitely felt
+when I was studying art that I also feel
+when writing code. You can say... Yeah,
+I carry a sketch pad around with me all
+the time and I like to draw in my free
+time but I can't draw. I know how to
+write a Rails app, HTML, CSS, I can get
+a web page up, but no, I can't code. You
+say this super excited thing about this
+world you participate in and this thing
+you love and then you bring yourself
+down a notch because everybody feels
+imposter syndrome. I always feel that
+the code I write is not up to par. And
+in this sense -- I know I keep harping
+on that these worlds are so similar, but
+that's because they are. I want to spend
+the rest of my talk talking about ideas
+-- if you're not sure how to enter the
+world of art or the world of code,
+people have done a good job of fusing
+the two.
+
+So the first idea -- real life things
+that people have already made. A
+database of prints to keep things
+central and to help researchers identify
+artwork. As you know, prints -- there
+can be any number of prints that an
+artist makes. The thing about prints is
+that they're reproducible. So how can
+you keep track of all these prints that
+exist at all these institutions all over
+the world, what year they were printed
+and so forth -- super complicated. But it
+need not be. The technology between the
+example I want to give is the
+ukiyo-e.org website. In short, the site he
+built... John Resig, creator of JQuery,
+huge woodblock fan. He made a site with
+an enormous database of prints and uses
+these crazy analysis tools I don't
+understand. I saw a talk about it once,
+but I would love to know more about it.
+If you want to talk about that, I would
+love to hear it during a break. He
+collects samples from institutions all
+over the world, museums, galleries,
+places that have prints, puts it
+together in one database and runs image
+analysis -- you can upload, run it on
+the site, and see what other things
+exist. It's a way of negating art world
+scarcity, here's the web doing its
+thing, for an art world that wouldn't
+otherwise be able to do it. And it's
+translated in English and Japanese for
+researchers all over the world. I have a
+habit of naming my screenshot pictures
+-- I preface them with very cool... Like
+backer tool or something like that. To
+here's a screenshot from that, the
+image, the original thing we're looking
+at... This says it's from the Met, and
+all the other prints that exist similar
+to this are down below. And the
+institutions at which they appear.
+
+So that's great and awesome. So next
+up... An art game. I don't know how many
+game developers are in this room. I
+would assume at a programming conference
+about enthusiasm and making cool stuff
+and programming there would be some.
+Huh?
+
+ >> Sorry, nothing.
+
+ >> It's okay. So this game is called
+"Art Game", which is pretty actually
+described for this talk -- by a guy
+named Pippin Barr. He makes a lot of
+great stuff. All 8 bit, and pretty
+great. I won't read this whole paragraph
+to you, but most important to me are...
+Follow your dreams, be a star of the art
+world, be a horrible failure, be an
+artist. Which is generally how it works
+out for artists. You're either crazy
+successful and rake in millions of
+dollars or you're less than successful
+and you're waiting for your big break.
+So the technology -- here's all the
+stuff he used, Art Game was written in
+ActionScript 3, using Flash Builder,
+and a shout out for the person who made
+it. You can play this game in the
+browser. You don't have to be on Steam
+or anything like that. You choose your
+artist. I always choose the French
+person. As you saw, my title was in
+French too. I speak French. So I've
+never been anyone else and I've never
+played the two player version. That's a
+challenge for you. You head into MoMA
+and meet the curator, and the curator is
+like... I want to you to produce some
+work for MoMA. This is a great
+opportunity, right? And you play snake
+to make the painting. It's really great.
+As soon as you lose snake, your head
+hits your tail accidentally, the
+painting is over. So I obviously didn't
+make it very far in this painting,
+because it's not a complicated snake.
+But it's done. You can throw a title in
+there. "Untitled" feels very artsy to me.
+So then your painting is propped up
+against the wall and you can press enter
+to call the curator and be like... My
+work is done here. The curator comes and
+rejects this particular painting. I've
+never had a painting be accepted.
+
+Yeah, it's really fun. It's just in the
+browser, so simple, and I love this,
+because it gives 8 bit form and a super
+programmatic feel to something that is
+hard to put into words about art. It
+articulates this sort of horrible
+rejection, but also great potential for
+success. You've just got to make a
+thing. So next up, a robot that draws a
+picture from a computer. And this is
+similar to a 3D printing sort of thing,
+where you give a robot something you
+want the robot to make and it makes that
+thing for you.
+
+The technology... Oh my God. I'm a Rails
+developer, so Node freaks me out, but
+this is written in Node, and one of our
+other developers at Kickstarter it
+behind this, and he worked on it with
+two of our other developers. So the
+source is up on GitHub if you want to
+check it out. These are some images of
+the robot doing its thing. Surely there
+are other iterations of this. But these
+three people made this thing in twelve
+hours. And yeah. On the left, you can
+see... I don't know. These images are
+kind of small, because I took them on
+the fly, so the quality is not that
+high. But you can see the images on the
+computer and the robot is printing it
+out in the middle, and all their hacky
+supplies are on the right. This is a
+maker version of this intersection of
+art and technology. And everything
+maker-y has that at its core. Finally
+back to the woodblocks. These previous
+examples were things that were more
+technologically oriented, and they were
+portraying art. It's going in the other
+direction -- how can art portray
+technology? Japanese woodblocks are a
+super old art form, honed in terms of
+precision and technique. And you've seen
+stuff like the wave crashing that
+everybody knows, and illustrations of
+Mount Fuji. So I'm sorry for the
+Wikipedia quote.
+
+Here's somebody making a print. But
+so... To modernize the woodblock print,
+you add video game characters to it. So
+since Japanese culture has made amazing
+video games, and Japanese culture has
+also done great woodblock printing,
+combine the two. This was a Kickstarter
+project, probably my favorite one that
+has ever been on the site. Jed Henry and
+Dave Bull made these things. My video
+game parlance is not quite up to speed,
+but I know Pikachu when I see it, and a
+Pokemon scene on the right. I love it so
+much. So even if code isn't your thing,
+you can definitely take elements of code
+and programming and add them to your art
+or whatever creative thing that you do.
+Long story short, the Japanese games we
+love are a new chapter in an ancient and
+enduring culture. This is true of art
+and technology. Here's my last
+illustration and my intense code snippet
+for my talk. Science and technology can
+add this entirely new dimension to art
+and creativity and free technology from
+its more objective constraints, so let's
+make more stuff like this.
+
+(applause)

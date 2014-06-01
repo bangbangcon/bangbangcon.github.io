@@ -1,0 +1,280 @@
+ >> Thank you for showing us your brain!
+And showing us how to understand more
+about ours. Well... Coming up, we
+have... The third of four talks. In this
+block. I am pleased to introduce...
+Da-da-da da! I'm just waiting for it to
+show. I'm pleased to introduce my friend
+Adam Parrish, who will be speaking on
+the topic of Scrabble sucks! Towards
+higher order word games.
+
+ >> Hi, everybody.
+
+ >> Hi, Parrish.
+
+ >> How is it going?
+
+ >> Good afternoon, sir.
+
+ >> Okay, so... For the purposes of this
+talk, I'm going to assume you know what
+Scrabble is. If you don't, I give you
+permission to look it up on your phone
+on Google or whatever. I'm going to
+assume that you know what Google is as
+well. This is me. I am a computer
+programmer and experimental poet and a
+game designer. The title of my talk
+today is Scrabble sucks, but the thing
+with Scrabble is that lots of people
+have fun playing it, and there's an
+amazing culture surrounding it in the
+competitive scene or whatever. Obviously
+people think it's fun so I want to
+revise the statement down a little bit
+and say instead this. So what I'm going
+to talk about in this talk is... Sort of
+what I think is wrong with Scrabble and
+some games that I've designed that work
+differently and I hope better. So there
+will be a little bit of computer
+programming along the way.
+
+First of all, I want to explain what
+evil Scrabble visited upon me that made
+me hate it so much. And that is that
+once I was visiting my family in Utah
+over the holidays and we decided to play
+a board game. We picked Scrabble, and
+this is basically how the game went. My
+mom played the word North, which is
+fine, 24 points, my sister played
+fireman, which is great, 26 points, and
+I look at my rack and think -- it's my
+term to play. And I don't want to be an
+insufferable smart-ass, but what can I
+do? So I end up playing qoph, qi, and pe
+and hm. This is perfectly legal
+Scrabble, and it's worth 66 points, but
+is it worth the contention and strife it
+caused? Not one, but four weird words in
+one turn. This had a very deleterious
+effect on our fun. Everybody thought I
+was engaging in ostentatious brain show
+boating, and I kind of was. But it
+wasn't fun for anybody, so eventually we
+decided to stop playing Scrabble and
+play something else. So basically this
+is why I hate Scrabble.
+
+(applause)
+
+Now, a nicer way to phrase this might
+be... Competitive Scrabble playing
+requires a lot of arcane knowledge. You
+have to memorize a lot of words, both
+tiny and large, so when you're playing
+with people who don't have that
+hermetic, monk-like knowledge of all the
+things you need to know to play
+competitive Scrabble, it can lead to
+hurt feelings, that aren't fun. Other
+games aren't like this. If I win at a
+game of soccer or Street Fighter or
+something, nobody thinks I'm a
+smart-ass. It's something particular to
+Scrabble. So it's easy to chalk these
+problems up to the culture of Scrabble,
+or my personal inability to keep my
+smart-assery in check for more than 30
+seconds at a time. But there are
+important structural problems with the
+game that are important to mention. It's
+based on unigram frequency, which means
+moving parts whose value and commonality
+are determined by frequency of letters
+in the English language. More As and As
+are worth less, one Z and the Z is worth
+a lot. Letters are put into play by
+drawing them randomly one at a time.
+Another important aspect. Now, there are
+advantages to this model. One is it's
+easy for people to understand. We get
+that E is a very common letter so there
+should be fewer of them and they're
+worth less, but Z is a very uncommon
+letter so you should get more points for
+playing them. The model is very familiar
+and used over and over in many word
+games. One issue is that our intuitive
+understanding of how words are put
+together doesn't stop at just knowing
+the frequency of letters. We also know
+things like the sequence ING is common,
+specifically, but the ends of words --
+the letter K is frequently preceded by
+C, and re is a sequence of letters you
+can put in front of a word to give you
+another word. Scrabble doesn't reward
+that knowledge. It rewards having a big
+arcane vocabulary. So my
+hypothesis/hunch/things I'm operating on
+as an assumption is that if valuable
+letters in a game are associated with
+higher scores and there are fewer
+valuable letters and those letters are
+drawn at random, the most valuable plays
+are going to be shorter words with rarer
+letters, which tend to be those
+smart-ass vocabulary test words that we
+were talking about earlier, that stop
+you from being able to have fun playing
+a game with your family.
+
+So it doesn't have to be this way. I
+don't think that people should have to
+memorize long lists of words or have
+extensive vocabularies in order to enjoy
+and be competitive at word games. As
+a linguist and poet, I'm sensitive to
+the fact that everybody is a fluent
+speaker of their own idiom, has an
+intuitive understanding of how words are
+put together, and everybody wants to
+play with that and have fun with it and
+come away without the feeling that
+they're unintelligent. It breaks my
+heart that somebody could play with
+words, something we all understand and
+like, and come away thinking they're not
+smart. So here are some of my
+experiments in game design that I think
+might address some of those problems,
+that specifically don't use unigram
+frequency as their model.
+
+This first game is called Rewordable. I
+designed this with my friends Adam Simon
+and Tim Szetela. The basic idea of this
+game is -- what if the pieces of the
+game, instead of unigrams were bigrams
+and trigrams. This is a deck of 160
+words -- some of them are single
+letters, but most of them are bigram or
+trigram sequences of two or three
+letters that were selected based on
+their frequency in English. So the idea
+is that because the units are larger,
+players are going to be able to form
+longer, more satisfying words. We're
+still kind of working on the rules of
+this, but I think it kind of goes a ways
+to accomplishing the goals I was talking
+about before. We're going to do a
+Kickstarter for this soon, so keep your
+eyes out for that. A second game is
+called Characterror. That I made a few
+years ago. You play as this sort of
+ASCII ship on the right with the letters
+trailing behind it. The idea is that you
+select one of the slots on the left and
+then you kind of fire the letters from
+the right into the slot to make words.
+And then you can press a button that
+will score the word. Kind of bank it. So
+the trick of this is that the letters to
+the right there are generated with a
+Markov chain, instead of just being
+selected...
+
+ >> Woo!
+
+ >> Instead of just being selected
+randomly, based on frequency or
+something like that. So now some of you
+are probably saying... Wait, Markov?
+What does that even mean? Probably very
+few of you are saying that. But I just
+kind of wanted to explain, give my very
+brief explanation of how a Markov chain
+works. So let's start with a corpus
+consisting of a single string, the word
+condescendences. Which is what this talk
+consists of. If you find all the unique
+bigram sequences of two letters in this
+word we end up with a list like this.
+But what a Markov chain does is in
+addition to having a list of bigram, it
+finds for each bigram what letters
+follow each bigram and builds a
+probability table. We see that the
+bigram de half the time is followed by s
+and half the time is followed by n.
+
+If we were to continue and make a
+probability chart like that for all of
+the letters, it would look something
+like this. So this is a statistical
+model of what the text in that corpus
+looks like. Now, Markov chains are
+famously used for generating amusing
+text. So if we recursively feed our
+prediction back into the prediction
+making thing, we end up with new
+sequences of letters that
+statistically resemble but are not
+identical to the original source text,
+so that's like this. Condendescencesces.
+This is generated by the chain
+condescendences. Imagine if we had a
+Markov model of all the words in the
+English language. Then we would be able
+to create a way of giving people letters
+in word games that will be useful to
+them, based on what's already in play.
+So another game I made to sort of play
+with this is a game called Lexcavator.
+This is kind of a cross between Boggle
+and Mr. Driller. You select words and
+that allows you to let your guy go
+further down into the infinite well of
+words here. So to ensure that the words
+you find are interesting and fun, the
+board is generated actually with Markov
+chains sort of moving in two directions,
+and I kind of made like a tiny diagram
+of how that works.
+
+So, like, each one of these slots, going
+from left to right, is going to be
+filled in -- that character is going to
+be filled in with a Markov chain based
+on the probability that it would come
+after some word either directly above or
+diagonally above, across the columns.
+And that would just get repeated for
+each one of these things. So what that
+ends up with doing -- what that ends up
+doing is giving you sort of more sure
+ways to precede downwards, and also
+longer words that are slightly, like,
+not quite as arcane. So the question,
+then, arises with the remaining 30
+seconds... Is does this actually work?
+And I did a corpus analysis of Scrabble
+games, versus Lexcavator games. This is
+a histogram which shows word frequency,
+word commonality in English versus word
+frequency in both games. So you can see,
+I pointed out sort of on these graphs
+where Lexcavator has more words than
+Scrabble, and you can see they're kind
+of bunched up here to the left, which
+means basically yes. In Lexcavator, you
+have words that are more common, instead
+of in Scrabble, where the words are more
+spread out across the whole thing.
+Anyway, that's all the time I have.
+
+(applause)

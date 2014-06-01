@@ -1,0 +1,272 @@
+>> That was definitely Leah Albaugh. What
+else did she make? Leah actually
+designed your T-shirts too, because
+she's awesome! Yeah. Like, legit my
+favorite person right now. Okay, so
+first up is Jennifer Shin, with "High
+Schoolers vs. Robots!!!!", and second up
+is "Computer vision and archaeology! Can
+computers assemble ceramic artifacts?"
+Maybe. Kamelia Aryafar.
+
+ >> Okay. Cool. Put this down. Because
+I'm really short. Okay. All right. All
+right. Hi. I'm Jennifer Shin. I work as
+a full stack developer for Gilt Tech,
+and to give you a bit of background
+information, we're an online shopping
+website and we provide members only
+access to fashion, home decor, and
+activities. To give you a bit of our
+scale, we have 8 million users worldwide
+and ship to 188 countries. One of the
+unique challenges we face is because our
+sales go live at noon, we have a huge
+traffic spike then, so we have a lot of
+concurrency and load balancing issues.
+So that's really, really fun to deal
+with. Or to handle. But one of the
+things that I personally really like
+about working for Gilt Tech is that
+we're really involved in the community,
+so we host not only a ton of meetups and
+we have free classes, but we also do a
+lot of volunteer work in the community.
+So last year one of the events we did is
+we teamed up with girls who code, and
+hosted the girls from Base high school.
+And apparently the girls had so much fun
+working with us that the boys at their
+high school got jealous. And had the
+privilege of hosting 50 or 60 boys.
+Which takes you to what I'm talking
+about today. BASE stands for Bronx
+Academy of Software Engineering,
+designed to bring high-tech classes to
+underserved neighborhoods. And this is
+the first year in the Harlem chapter, so
+the 9th graders joining us were the
+first and only students to attend the
+school so far. With the girls, we did
+some cool stuff. They designed and
+programmed their own web page, and since
+they seemed to have generated all of
+this hype with the kids around them,
+we're like... Okay, we have to really
+live up to the experience and make it
+above and beyond this time. So my boss
+in this stroke of genius was like --
+let's program some robots. It was
+really, really cool. That's exactly what
+we did. The technology that we used was
+Arduino. I don't know if anybody has
+heard of it here. It's super, super
+awesome. It's an Open Source prototyping
+platform, consists of really easy to
+assemble hardware and software. So it's
+programmed in C. It's very, very simple.
+And you can hook up an Arduino to a wide
+variety of receivers. So you can see an
+example on the right side, I guess, is
+an example with LED lights. This is one
+thing that we did with the kids. But
+then another and the coolest part ever,
+of course, was making the robots do
+whatever we wanted them to do. So that
+was really cool. Let's see. This is a
+close-up snapshot of the Zumo robots,
+the robots that we used to program with.
+They're actually called Zumos because
+they're built for sumo wrestling. That
+shovel in the front is built to push
+other robots aside, and whoever remains
+on top wins or something like that.
+
+But the cool part is that Zumo comes
+with all of these Open Source libraries,
+so you can do really cool stuff pretty
+easily, so it can play music, you can
+make it move around, and also, if the
+robot is on a light surface, and you
+tape down a dark track on it, you can
+make the robot follow that dark path. So
+to give you a little code snippet of
+what it actually looks like, here's a
+super short code snippet. You can see a
+reference to motors over there, a delay,
+and button. So motors and button --
+those are actually references to classes
+that come inherently in the Zumo
+library. Like I said, you can download
+that off of GitHub. And then with that,
+you can see right off the bat, you do
+some really easy stuff with it. So for
+instance, you can make it go straight by
+setting the left and right speeds to the
+same speed, and then you can also make
+one side slower to make it turn, you can
+make it twirl, I can let you think about
+that a little bit. To see how you make
+it do that. And then there's also a
+delay. So for however long you actually
+want to make the robot do its thing for.
+
+So then what did we do with the kids?
+Let's see. So first we gave them some
+code that had some really basic
+functionality. And then it was their job
+to tweak the speeds, make the robots go
+in reverse, forward, do some cooler
+stuff than what it was already doing.
+And this was the part that I was kind of
+scared about, because it's pretty
+involving. We have high school freshmen.
+They don't really know how to code. Some
+of them do. Some don't. But they have to
+try to figure out what the code was
+doing, how it was doing it, and then try
+to make it better.
+
+But the kids really, really got into it.
+So the thumbnail is really bad. I don't
+know why the thumbnail is so bad. But
+here's an example of what the kids did
+with it.
+
+ >> Oh, that was so cool!
+
+ >> All right, cool. So you can't really
+see very well. I'm sorry that I don't
+have a better snippet of what we
+actually did, but they did a whole bunch
+of crazy stuff with it. They made the
+robots go in reverse and see which one
+would always win. It turns out that it's
+always the one that's coming from a
+higher surface, because it has the
+momentum of gravity with it. Let's see.
+They also put their cell phones on top
+of the Zumo, so they got some really
+cool video of the robot's perspective,
+going through the track, which was
+something we had never thought of. But I
+think one of the coolest parts was when
+the last exercise for the kids -- was
+actually to make the robots dance. And
+they actually got really into it.
+
+They got the whole twirl thing right
+away, so how to get that going. That was
+really awesome. And then we said --
+okay, now that you know how to do that,
+do it whatever way you want. Make the
+robots dance in your own style. So one
+of the kids that was working with me in
+the kind of way -- in that kind of
+excitement that you only get from kids,
+was like -- oh my God, let's make them
+do the Dogie. And I have to say... This
+was my reaction at first. So I learned
+something that day as well. Not just the
+kids.
+
+Apparently... They taught us some steps,
+and in case you don't know, it's...
+Apparently, according to them, it's left
+right left left, then right left right
+right. And don't quote me on that,
+because they could have just been
+pulling my chain. I don't really know.
+But that's... What's really awesome is
+that's what we made the robots do. So we
+uploaded the same program to all four
+robots and got kind of an N Sync version
+of a robotic dance team.
+
+ >> Ready? All right.
+
+ >> You guys ready?
+
+ >> You want to count to three?
+
+ >> One... Okay. It's going to be one,
+two, three, go. Okay? So just do it on
+go.
+
+ >> One, two, three, go.
+
+(applause)
+
+ >> So the kids were pretty awesome. And
+we just had so much fun. We had so much
+fun and they had so much fun. But I
+think the great thing about this clip is
+that it shows that -- I mean, we were
+teaching them to program in C, but it's
+like -- they didn't learn it out of a
+textbook and they weren't just reading
+dry material. They actually were able to
+take that and kind of make it their own
+and really apply it into their own
+world. Which was, like, really, really
+cool. Now, of course, no knowledge
+sharing session is ever complete with
+mutual knowledge sharing, going back and
+forth. So I learned about the Dogie
+that day, and also learned about
+something else that gives me nightmares
+until today. I don't know if you've
+heard about the commercials for little
+baby's ice cream. But it's absolutely
+horrendous. It's disgusting. And it's on
+YouTube, if you're kind of into that...
+Basically being disturbed for life. But
+of course... It's really bad, I know.
+
+Let's see. But of course, I wouldn't be
+standing here today if it was only
+little baby's ice cream and the Dogie
+that I learned. Right? Near the end of
+the day, our CEO came in to talk to the
+kids, answer any questions they had, and
+I was kind of thinking initially -- what
+does the CEO of a company that has a
+thousand employees going to talk and
+connect with to high school boys? But it
+was amazing. They asked her a ton of
+questions about the future for tech in
+New York City. They were really, really
+engaged. They had a great back and
+forth. And when I saw that connection, I
+thought -- that was the same feeling, if
+not more so for us engineers. They're
+not typically people that I would be
+spending Wednesday afternoon with, but
+it was kind of an amazing feeling to be
+helping kids that don't necessarily have
+the same advantages that we might have
+had. But also just have a connection
+with people that you might never would
+have otherwise. And that's when I
+realized one really great thing about
+technology. Technology -- you kind of
+feel like that big generation gap
+between us and our parents' generation
+or grandparents' generation. But now
+it's completely different. And I don't
+want to sound canned or anything, but I
+really felt like it enabled us to bridge
+the gap between these two crazy
+different worlds. Not only
+educationally. We have something really
+tangible and valuable to impart to the
+student population. But also culturally.
+They showed me what the Dogie was, and
+that high school boys still like
+watching disgusting things on the
+internet, and it empowered us to go
+beyond the daily 9 to 5 and make an
+impact in unexpected but meaningful
+ways. So it was pretty cool.
+
+(applause)

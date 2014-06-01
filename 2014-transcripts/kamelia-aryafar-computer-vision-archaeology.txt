@@ -1,0 +1,203 @@
+ >> Hi, everyone. I'm Kamelia. I'm a
+data scientist at Etsy. I'm going to
+talk about computer vision, archaeology,
+and try to see if computers can help to
+assemble ceramic artifacts. This was a
+project I worked on from 2009 to 2011.
+So I was really interested in
+archaeology when I was in grad school,
+and I love this quote about it. That
+says -- study the past if you would
+define the future. So when you think
+about archaeology, this might come into
+your mind. That you're going to come up
+with some cool artifact that is going to
+do something magical. Like Indiana
+Jones. But in reality, the
+archaeological sites look like this, and
+these are the items that are recovered.
+So there are a ton of items that are
+shattered, and we cannot even tell what
+is what. And these are the artifacts
+that are discovered in Philadelphia in
+the national historic park, and there
+were a ton of these artifacts that were
+excavated for over two years, and there
+were a large group of archaeologists
+that would go through these items
+manually, and try to detect different
+patterns, and assign by numbers, and try
+to assemble these so they can come up
+with a historical point of view for
+these artifacts. So this is where we got
+involved. And we had this interesting
+idea that -- what if the computer can
+help to assemble these artifacts for
+them and help them? So this is what they
+had before.
+
+And there's a ton of storage. And
+there's a collection of all the data
+that they have on different pieces. This
+is what they would catalog for different
+pieces that they have. So they would
+write the cell number, the pattern they
+detected, how many pieces, and what's
+the excavation time and which era is it
+from. So we took a closer look at this
+and we decided to help them first
+classify and see if we can come up with
+a pattern classification for them. So we
+isolate which is what and what patterns
+belong to the same group, and then try
+to assemble the artifacts together. So
+how did we do this?
+
+If you take a picture of all these
+artifacts together, it doesn't have to
+be from a simple class, but this is an
+example for the classification training
+part of it. These are the different
+patterns that you have in your data set.
+So you can see there are different types
+of them. I don't know the names of them.
+But they just look different. So this is
+one example of them. And it doesn't have
+to belong to the same class, but this is
+just an example. So if you take this
+picture into account, you can detect
+interesting stuff in it. So one of the
+features that the computer vision uses
+is sift features. These features are
+invariant to illumination, noise, image
+transfer, and other kinds of stuff we
+can do with images and they're usually
+really good for classification and
+pattern detection. So we started these
+images for them first, and then we
+decided sift features, surf features are
+other types of features that are also
+good for classification, and we helped
+them create a 2D mask and you're going
+to see later on how we're going to use
+this mask to come up with assembly
+processes.
+
+So for an image like that, we're going
+to extract a convex hull and inside it
+are going to be image features. And you
+can see different scales of those
+features. So the bigger that circle is,
+the more distinct that feature and the
+more relevant it is to the pattern that
+we're extracting. So now let's see if we
+can first classify this pattern. Because
+if you have a ton of shards from
+different objects, you're first
+interested to see which one of them
+belong to the same object and then go
+and assemble it. We don't want to mix
+and match it. So this is a simple
+classification, and this is not the real
+code for this project. This was an NSF
+grant. Just showing simple code that I
+wrote with open CV for the demo. So you
+can see to do this, the first part, the
+classification, you can extract a bunch
+of key points, and descriptors, and
+descriptors are defined as sift
+descriptors, and then you get a set of
+training data to train the dictionary.
+And then the dictionary is just going to
+be defined as a set of features. And
+then just a glossary on top of that. And
+for any other image in the data set, you
+can extract the features and you're
+going to decompose it in the dictionary
+space, and eventually you can use a kd
+tree to choose the top words from that
+visual dictionary that you defined from
+your training data set, so you can do
+classification on top of this. This
+helps improve your classification
+accuracy. So then for the classification
+part, you can just use any type of
+classifier off the shelf and do a
+classification. So this turns out to be
+pretty accurate for a classification of
+the patterns, and that wouldn't be an
+issue anymore. So we created a whole
+automatic process for them, that will
+get the images, extract features,
+assemble the mask, and then we'll just
+fill out how many pieces were found for
+these objects. So you can see there are
+a ton of different examples for that.
+Now let's look at the interesting part.
+The assembling of this. So we said we
+had a 2D convex hull that presents the
+features inside each shard, but that's
+not really useful. You can do a jigsaw
+kind of assembling from the 2D images,
+but in reality, these images might have
+some curvature, so it might be false and
+stuff.
+
+So you might want to come up with a 3D
+convex hull. So there's another group --
+this is actually what they were doing.
+They were extracting markings on the
+surface of these objects and then come
+up with a 3D convex hull. So if you have
+these 3D convex hulls, you can go in --
+because you know which one of them
+belong to which pattern class, you can
+try to minimize the overlap between all
+these convex hulls where you can have
+smooth edges. So you're trying to solve
+an optimization problem on top of this.
+And it will show you where the pieces
+are actually belonging. So these are the
+three pieces that were belonging in
+three different parts of this.
+
+So this is a combination of work from
+different people, and all of this work
+is public, and it's published. And you
+can see the data and download a lot of
+images and the features for them, so you
+can play with them and do
+classification. Anything like that. But
+I guess the main take-away that I had
+from this project and why I like it so
+much is because it really helped for,
+like, a process that would otherwise
+take years -- to be done much faster,
+and more than that, it helped a lot of
+people to actually see a new side of
+computer science. So the archaeologists
+that I was working with were a lot older
+than us, and they had no idea how to use
+computers at all. So they would just,
+like, take pictures, and then we sat
+down together and went through all those
+algorithms, and I explained things about
+them. And they were really impressed,
+and we really helped them. And I guess
+this is something that we should all
+think about, how to actually help other
+people from other fields, besides people
+who know how to use computers to do
+their work better. And enjoy computers
+more. Like us.
+
+(applause)
+
+ >> Okay. So I think now we have a break
+for 30 minutes. So... And then we're
+going to have four more talks, and
+that's it for the day. So yeah. Do we
+have any other announcements? I think
+that's it. Okay. So go talk to people.
+Talk to the people who spoke. This is
+all interesting stuff, right?

@@ -1,0 +1,233 @@
+ >> So hi. I'm David Turner, and I love
+programming. Recently I was hacking on
+git. And I wanted to sort a list of
+paths. There was a constraint. The paths
+had to be sorted topologically. So that
+foo comes before foo/bar comes before
+foo/bar/baz. And nothing comes between
+the first and the last one. Dash comes
+before slash, (inaudible) this is
+relatively straightforward to solve. We
+just reorder the alphabet a bit so slash
+is second immediately after zero, which
+is used to indicate end of string and
+everything from one up to slash would
+move up to make room. So we can do it
+with a couple of if/else statements. We
+can also use a lookup table, which is
+slightly faster, but it wasn't fast
+enough. The comparisons were a hot spot
+in my code. So I decided to change the
+code entirely so I didn't need to sort.
+But what I considered first was to use
+the single instruction of multiple data
+instructions. Available on modern
+processors. This is the crazy fun way to
+make code fast. So processors store data
+that they're working on in
+registers. These are your processor's
+version of variables. Ordinarily one
+variable holds one value. On a 64 bit
+processor that's a single 64 bit value.
+But with SIMD instructions they can be
+treated as an array of independent
+values. So for example, you can treat
+128 bits as four 32 bit integers or 8 16
+bit or 16 bytes. So each register stays
+independent. So if you're adding two
+arrays of bytes and one byte overflows,
+it doesn't carry into its neighbor. So I
+can process one byte of my string at a
+time. Because strings are a little bit
+complicated, let's walk through an
+example of SIMD with pixels. So imagine
+we have an image which has 32 bit
+pixels, 8 bits each for red, green, and
+blue, and 8 bits of padding. So here's
+the code to do that. Let's unpack that.
+First we'll load four pixels into a
+register to work on them. And to read
+this we'll start with move which means
+copy data, dq means 16 bites, and a
+means aligned to 16 byte boundary, which
+is faster. rdi is this ordinary 64 bit
+register and by convention it's used to
+pass the first argument to a function
+and the parentheses mean to get data
+from that address, like a pointer
+reference in C. And this is the first of
+our registers. So we pass the point into
+this function, deregister it and put
+into the function. Easy. We also need
+the data to lighten it. That's going to
+be 40 ten times. Our data takes a second
+argument which points to this. So we can
+do 40 in four red channels, so we're
+going to add this lightning data right
+in. Right? And again, this is a
+complicated chunk here, but to read it
+out -- p for packed, add, u for
+unsigned, s for saturated, b for bytes.
+So saturated means if we hit the top,
+right 255, we don't wrap around to zero
+as we would ordinarily do. We stay at
+255. That's what we want. Or our pixels
+as bright as it's going to get,
+lightening it won't do anything. Now we
+have rsi. Which is the second argument
+to the function. Here's the result. You
+guys can actually see that up there.
+Good. And of course, we need to put that
+pixel back into memory. And that's just
+the same as the first instruction with
+the operands swapped. So we transformed
+four pixels in three instructions. Not
+bad!
+
+But our string function is more
+complicated. It didn't just have
+addition. It also had an if statement.
+And so we're going to look at a
+simplified case here, which is just to
+replace all the slashes with ones. So
+how does your processor do an if
+statement? You do a comparison which
+sets some flags and do a jump, a goto,
+that's conditional on those flags. But
+we can't do that with SIMD, because some
+comparisons might be true and others
+false. We can't both jump and not jump.
+We have to get the effect of if then
+else without doing jumps. So we have to
+do bit-wise arithmetic. I'm going to
+show you this visually. So we take ones
+are true and zeroes everywhere else.
+Here ones are white and zeroes are
+black. Recall that or giveth and and
+taketh away. And with zeroes gives you
+zeroes. You and the else value with the
+inverse of the mask. And then you use or
+to combine them. Notice that the
+operands to the or each has black zeroes
+where the other has color. We or them to
+create a complete image. Oring with zero
+gives you that back. So think of a
+dovetail. So implement this piece of our
+string function this way. We have some
+register containing 16 bytes of our
+string. We want to contain a one where
+the bytes previously contained a slash.
+Let's assume we have a register xmm7
+that holds a slash repeated 16 times,
+and we have 1 repeated, xmm6, and xmm5,
+and finally have our string in xmm0.
+We're going to save a copy of our
+string, and we'll do this byte-wise
+comparison between our register and the
+register with all the slashes. Packed,
+compare, for equality, b for bytes. It's
+only got two arguments between the
+things that it's comparing. Where does
+the output go? It's a good thing we made
+a copy. Any byte where they're equal
+gets filled up with all ones and where
+they differ gets filled up with all
+zeroes. So we started with the string
+foo/bar (inaudible) and zeroes
+everywhere else. Which is good. Now
+we're going to copy that mask. And we'll
+build the part of the final value that
+contains the ones. Remember that xmm...
+Remember that xmm6 contained the one
+bytes. So we use and. And now xmm2 has
+one bites where the slashes were. And
+now we need to build the other part of
+the final values. We need the opposite
+of that mask. There's no SSE not
+instruction. So we need to use XOR. XOR
+with 1 inverts so that's what we want.
+Now we're going to end that with our
+original string, which was xmm0, and now
+xmm0 has zeroes where the slashes were.
+Right? So you'll notice that xmm0 has
+zeroes, holes, exactly where xmm2 has
+ones. Notches, let's say. And that's
+what we want. Right? So we can use or to
+put them right back together. And now
+we've reached our goal. The slashes were
+replaced by ones. We only have seven
+instructions to process 16 bytes. The
+one wrinkle in all this is we're using C
+style zero terminated strings, so if
+we're comparing two strings, we need to
+know when either of them ends. And
+conveniently, Intel has given us an
+instruction that does precisely that.
+PCMPISTRI. So that's packed, compare,
+implicit, returning index. It can be
+explicit if you happen to know the
+length of your string. This is an
+instruction designed explicitly for the
+strcomp function. It's got bells and
+whistles that you can use for more
+advanced things. So you want to find the
+difference, but only if the difference
+is before the first zero in the string.
+And we want to find if the other string
+has a zero in it. Conveniently,
+PCMPISTRI does this all for us. Puts the
+index of the first real difference into
+on ordinary register, by real here, I
+mean before a zero. So inside the actual
+strings. And then sets some flags. Carry
+flags through... Carry flag if there are
+any real differences. And the zero
+assigned flags if there are any zeroes
+in the arguments. In our case, any of
+those flags should be enough to get us
+into the routine that tells us which
+string is data. If none of them are set
+we can move to the next 16 byte block of
+our string. So this a little bit
+complicated, because we have the values
+in the SSE registers but we need to
+extract the byte where the first one is.
+We have the index of that byte. But
+there's not an instruction that gives us
+the byte for the index. So after some
+searching... Sorry. My slide notation
+has gotten messed up. I found a thread
+where some people figured out how to do
+it, with the shuffle instruction.
+Unfortunately I'm going to run out of
+time to show you the details, but if
+you're interested, look up these slides
+online and keep watching past the
+credits. So this ANDOR thing and the
+shuffle trick are the sort of weird
+creativity that Intel's wacky
+instruction set encourages. So it's a
+perversely pleasurable way to program,
+because you end up with this
+tremendously efficient code, but you
+have to really fight for it, and you can
+actually get even deeper, when you
+consider the timing of instructions. So
+what happens when one instruction
+depends on data computed by another
+instruction? Maybe it has to wait, and
+in that gap while it's waiting, you can
+start processing the next chunk of
+pixels, and now you're interleaving the
+two computations and you start to run
+out of registers, so you have to be
+clever about reusing registers. Thank
+you!
+
+(applause)
+
+ >> Thanks, everyone. We now have some
+unconferencing time, in which you should
+seek out the speakers and ask them
+questions, and there will be lunch at
+1:15.

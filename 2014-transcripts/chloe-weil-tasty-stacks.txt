@@ -1,0 +1,163 @@
+>> Hello!
+
+ >> Hi!
+
+ >> I taste words. When I hear a word,
+the flavors and textures of foods and
+sometimes non-food items can be vividly
+felt and tasted on my palate, as if I'm
+experiencing the sensation of eating
+them. Words have always tasted like
+things, and I never suspected I was
+weird. This is because I have
+synesthesia. Synesthesia is an anomaly
+of association. It's when something you
+experience stimulates an unrelated
+sense. The most common form is graphene
+color synesthesia, where words are
+experienced as having colors.
+(inaudible) who developed the world wide
+web designed its logo as being green
+because to him W is green. A rare form
+is chromosthesia, where sounds and music
+trigger colors. My type of synesthesia
+is lexical gustatory synesthesia, which
+causes words to trigger flavors and
+textures. The associations between words
+and tastes that they evoke are formed in
+childhood and are unique to the
+synaesthete. They don't change over
+time. My all time favorite word,
+sneaker, tastes like an Italian cookie I
+haven't tasted since childhood. I think
+because I used to have pink sneakers. To
+another synaesthete, the word will taste
+differently. Words frequently evoke
+things I haven't eaten in decades. I was
+tasked with prototyping something using
+the Instagram API, and I was losing my
+mind over the taste of Dunkaroos, which
+is what Instagram triggers. I haven't
+had them in years. The words don't have
+to be in English. They come from the
+sound, rather than the meaning. Some
+however taste like things that are
+semantically related. So the meaning
+can't be totally excluded. Sounds of
+words share sounds of flavors that I
+experience very literally. My
+synesthesia isn't exactly triggered.
+It's constantly experienced, alongside
+all the other things I'm experiencing.
+It's like another sense that's being
+stimulated. Like being able to see and
+hear at the same time.
+
+Much like your sense of taste is being
+activated while you eat, mine is being
+activated while I listen or read. I'm
+going to take an intermission to tell
+you a little more about myself. My name
+is Chloe Weil. My last name tastes like
+pickles. I was born in Brooklyn. Which
+tastes like broccoli. I just moved back
+to New York, fun size Snickers Twix
+bars, after living in Portland, Oregon,
+chewed bubble gum (inaudible) peanut
+butter. Because my synesthesia touches
+every aspect of my life, it has a way of
+always being there. As developers, we
+may focus in one language, system, or
+role, but we are all generalists in one
+degree. From angular to Zepto, there are
+a million frameworks, libraries,
+platforms, and tools designed to help
+developers work in a more modular way.
+I'm a front end developer, which is at
+its core HTML, CSS, and JavaScript. But
+I've worked on the back end, which
+tastes like Hershey's chocolate, on
+Rails, which tastes like warm Sprite out
+of a can. Nothing is more delicious than
+Ruby. On Jekyll, the process triggers
+cravings for sliced sandwich pickles. My
+latest project is a mean stack
+application. That's Mongo, express,
+angular, and node. So depending on which
+aspect I'm focusing on, I could be
+fixated on dried mango, coffee flavored
+hard candy, Laffy taffy with sprinkles
+or spaghetti-Os. Being familiar with
+markup and HTML 5 elements is one of my
+responsibilities as a developer. HTML 5
+has given us a broader way to describe
+content, from articles to sections or
+the in addition of the new nav element,
+which enhances accessibility. We can
+also use ARIA for additional support in
+assistive technology. But my favorite is
+figure. And there are web components
+that enables developers to extend HTML
+in order to express more complicated UI
+widgets. The HTML of a custom element is
+written inside of a template and uses
+the shadow to offer encapsulation from
+external JavaScript. Many commands
+activate my synesthesia and cause me to
+fixate on whatever item it triggers.
+Apt, brew, curl, and git. Spending an
+afternoon in merge conflict hell can
+turn into an afternoon wanting a stack
+of sliced American cheese.
+
+Unless rebase is involved. Then I feel
+like I'm licking a basketball. Not all
+words have actually edible associations.
+Deployment and automation tools are not
+my area of expertise, but I've been a
+spectator in several conversations about
+them. Capistrano versus puppet. Again.
+Not my area, but I'm obsessed with
+canned soup served at room temperature
+with grape popsicles and not listening
+to the conversation. In JavaScript,
+everything is an object, which means
+everything tastes like soggy toast
+crunch cereal that has lost its bite
+after sitting in milk for too long.
+JavaScript tastes like vomit, and so do
+variables and most things that begin
+with V, but actual variable scope... You
+know, this? This tastes like sinking
+your teeth into an entire brick of
+Philadelphia cream cheese. I've been
+trying to manipulate my synesthesia to
+help me become a better developer
+through mnemonics. Since I've already
+built associations for many words that
+describe programming concepts all I have
+to do is marry them in a meaningful way
+and then I'm brilliant. That doesn't
+actually work. I basically have a really
+useless superpower.
+
+There is absolutely no value in knowing
+that these McDonald's chicken nuggets
+are also pieces of cereal floating in
+milk. But objects are pretty powerful.
+What if we crush one up and turned it
+into pie crust? And we added some
+properties which tasted like dried
+apricots or wrote some methods that
+tasted like crumbly cheddar cheese? The
+result is a cinnamon apricot cheddar
+pie. Which sounds amazing. JavaScript is
+delicious. Relying on memorization or
+analogies is probably not the most
+constructive way to get better at
+something. Building something you'll
+actually use might be. Even if your
+superpowers cause you to want to eat all
+of your tools. Sneaker!
+
+(applause)

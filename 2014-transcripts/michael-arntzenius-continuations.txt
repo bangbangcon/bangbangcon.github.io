@@ -1,0 +1,260 @@
+ >> Cool. So next up, we have Michael
+Arntzenius, who's going to talk about
+continuations, or how to travel through
+time!
+
+ >> Yeah. Okay. Oh... Okay. Um... So my
+name is rntz. Can everybody hear me? I'm
+hear to talk about continuation passing
+style, or how to travel through time.
+So... Continuation passing style at its
+core is just a programming technique,
+but the thing that excites me about it
+is not so much it as a programming
+technique. It's all of the different
+areas of computer science that it ends
+up being connected to. It's really quite
+surprising, and it's kind of like a
+microcosm of computer science. So part
+of this talk is going to be about tbs as
+a programming technique and part is
+going to be about all the things it's
+connected to and why I find those cool.
+Okay.
+
+So obviously the first question I have
+to answer is what is CPS. And I'm going
+to punt on this question for a while and
+instead describe CPS to you. The first
+thing I'm going to say about it is that
+it's actually secretly really boring.
+It's just a particular use of higher
+order functions. It's not magical. It'll
+not make you a wizard. But the upside is
+if you can understand higher order
+functions, you can understand
+continuation passing style. And I
+mention this because there's a culture
+of mystification around this. And I want
+to push back about that and demystify
+continuation passing style. The second
+thing is completely opposite. It's
+completely bizarre. It lets you write
+programs that play with their own
+futures and travel through time. Never
+met a wizard who could do that. And the
+next three things I want to tell you is
+all the things that CPS and
+continuations are connected to.
+
+So if you've ever played around with
+Scheme, you may or may not have
+encountered this funky control operator
+called call/cc. If you haven't, take it
+from me. It's a funky control operator.
+I like to call it the mother of all
+control flow constructs. Coroutines,
+functions -- they can all be done using
+call/cc. CPS is kind of like the manual
+version of call/cc. It's like if you
+took this and did it yourself. So you
+can do everything with CPS, at the cost
+of having to uglify your entire program.
+But conceptually, they're very
+connected.
+
+Also, we're going to have a talk
+tomorrow, I think, by Katherine Ye,
+about the Curry-Howard correspondence,
+and what that says in two sentences is
+that everything you know about proofs is
+secretly something about programs and
+everything you know about programs is
+secretly something about proofs. So
+call/cc and CPS are programming
+constructs and programming techniques.
+What do we do when we interpret them as
+proof constructs and proof techniques?
+The answer is they give you a bridge
+between these two seemingly separate
+worlds. So I could yak your head off for
+an hour about this. I'm not going to do
+it until the end if we have time. This
+is what I personally think is cool about
+this. And then there's this completely
+separate connection. Which is -- if
+you've ever hacked on LDM, there's an
+internal representation it uses called
+static (inaudible) assignment form. It
+makes it easier to optimize imperative
+code. Turns out CPS is exactly the same
+thing for functional code. If you take
+functional code and turn it into CPS
+form it becomes easier to optimize, and
+there's an entire book on this. By
+(inaudible). And I'm not going to have
+time to talk about it, which is good,
+because I don't fully understand it.
+
+So the example I'm going to use to help
+you understand communication passing
+style, is this. This is the world's
+tiniest regexp library. That's it.
+That's all of it. It doesn't actually
+match all the regular expressions.
+That's why it gets to be so tiny. But it
+captures the core of what regular
+expression matching is about. And if you
+want a version that has comments that
+can explain what's going on, you should
+visit that. And if you want a Python
+version that has comments, you should
+visit that. That GitHub repo. I'm not
+going to explain everything on there.
+Even though there are like ten of them.
+I'm just going to explain why
+continuation passing style is useful to
+the problem of matching a string. So
+this is the function we want to
+implement. It takes a regular
+expression, it takes a string, it tells
+us whether they match. Obvious, right?
+Except implementing it isn't so obvious.
+If I try and write this directly, I run
+into a problem. The problem is: what if
+my regular expression consists of two
+parts? The first part is match zero or
+more As, A*. The second part is match
+an A. Right? And I want to write this
+function recursively, because I'm a good
+functional programmer, but I run into a
+program. In order to match this
+composite regular expression, which has
+two parts, I need a prefix that matches
+the first part and a suffix that matches
+the second part. The function I have up
+there doesn't do that. It tells me
+whether the whole string matches. That's
+the interface I expect it to have. I can
+iterate over every prefix of the string.
+But that's going to be slow and ugly.
+One or other of slow and ugly is okay.
+Both? Not okay. So I'm going to
+generalize the problem so it gets easier
+to solve. I need to find a suffix
+corresponding to the prefix I matched.
+So instead, I'm going to write a
+function that takes a regular
+expression and a string and try to find
+a prefix that the regular expression
+matches. If it does, it gives me back
+the suffix so I can match the rest of
+the string. If it doesn't, it gives me
+back nothing. So it takes a regular
+expression, a string, and maybe gives me
+back a string. Maybe it says... Sorry,
+couldn't match. But this is still wrong,
+because a regular expression can match a
+string in many ways. Okay. That's just
+an overgeneralization.
+
+I'll get back a list of all the
+suffixes. And the problem with this
+is... Well, there isn't actually a
+problem with this. This works. But it
+only works in Haskell, in a language
+with lazy evaluation built in, or in a
+language where you can build lazy
+strings yourself. The reason being -- I
+don't want to find all possible matches.
+I want to find the first match and see
+whether that match works. If that match
+doesn't work, then and only then do I
+want to backtrack and try something
+else. So in a language which doesn't
+have lazy lists, giving back a list of
+all of them lead to an exponential
+explosion. I don't want to have to keep
+track of all of them. Just one until I
+can find the second.
+
+There is another way, though, and that
+way is continuation passing style. So
+the idea here is you still take a regexp
+and a string and you take a
+continuation. And what the continuation
+represents is the rest of the work to be
+done. So in this case, it represents
+trying to match the rest of the string.
+So instead of trying to give control
+back to the person who called you, by
+returning some data structure that
+represents what you found, you give
+control to the person you call, by
+telling them this is what I want you to
+do next. And the person you call -- in
+this case, the matcher -- can then call
+that continuation once they're done.
+
+Or they can call it multiple times.
+Which is what we're doing here. Right?
+When I find some prefix that matches, I
+call the continuation on the suffix. And
+then if that works, great. If not, maybe
+I find another prefix that matches, and
+call the continuation again. And that's
+how continuation passing style helps you
+solve regexp matching in like ten lines
+of code. So what's the big deal? That's
+just a programming technique. It works.
+It solves the problem you wanted it to.
+Well, one thing I'd like to emphasize is
+there isn't such a big deal. It's just a
+programming technique. It just helps you
+solve certain problems. On the other
+hand, there are all those connections I
+talked about that I still haven't gotten
+to, and I find the best way of
+introducing those connections is to ask
+a question. And the question is -- what
+if you wrote your whole program in
+continuation passing style? So
+previously we passed in something that
+represented what was to be done next in
+the problem of regular expression
+matching. Now what if we pass in
+something that represents what is to be
+done next in the whole program? Like,
+the whole program's future. What it does
+next, until it stops. Well, then...
+Every function could manipulate its own
+future. So... It could return multiple
+times. That's exactly what we're doing
+in the regexp case. Right? We were
+returning once for every prefix match
+that we found.
+
+This in general gives you backtracking
+search. This is a lot like a list monad,
+if you've ever used that. But that's not
+the only thing you can do. You can also,
+since your continuation is just a
+function, you can call it whenever you
+like. So you can take some previous
+function continuation, and call that
+instead of your own continuation. And
+this gives you early exit, which is what
+you need for, say, writing exceptions.
+You just call the exception handler. Or
+you can switch back and forth between
+continuations. And this gives you
+coroutines and generators and threading.
+I'm running out of time. But remember
+call/cc? This is just an automatic
+version of this. It gives you all these
+things without you having to rewrite
+your program. I don't have enough time
+to discuss this, but here are some
+questions.
+
+(applause)

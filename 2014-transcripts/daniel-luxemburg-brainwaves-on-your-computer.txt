@@ -1,0 +1,180 @@
+ >> Thank you very much, Katherine. I've
+never played 2048, but if I can make a
+program do it for me... Then maybe that
+would be fun. Let's just wait for that
+to show up. Great. So now our next talk
+is the talk that was going to be the
+first one in this block. It's Daniel
+Luxemberg talking about brainwaves on
+your computer!
+
+(applause)
+
+ >> Okay. So... I thought we could get a
+little more rigorous about the whole
+exciting thing. What gets excited when
+we get excited? Brains! Excited how?
+With electricity. Which we can measure.
+So electroencephalography. Electric
+brain writing. Also known as EEG, less
+creatively. It's a measure of electrical
+activity along the scalp that reflects
+neural activity, first done with a human
+in 1934, and by the 40s was being used
+to diagnose epilepsy and probe
+underlying brain activity like seizures.
+It remains an important tool for
+research. This is a Neurosky MindWave.
+It's a consumer EEG device, not terribly
+sophisticated, but it works.
+
+There we go. That is me. It's a little
+more jagged than it usually is.
+
+ (laughter)
+
+What exactly is happening? The cells
+inside my head are interacting
+synchronously, activating, becoming
+excited, if you will, millions of times
+all at once. At particular frequencies.
+This requires that electrically charged
+ions be pushed out of the cells and
+these ions repel each other, creating a
+wave of charged ions that eventually
+reaches the surface of my scalp and can
+be detected. I've glossed over some
+details. Just know all our heads are
+pulsing with electricity at all times.
+This pulse happens at particular
+frequencies, so detected changes in
+charge along the scalp occur at regular
+intervals. These intervals can be
+measured and recognized, and we get a
+pattern. It's multiple overlapping
+patterns at different frequencies and
+amplitudes, which can be difficult to
+untangle. There are purpose built
+microchips for this that are part of the
+machine. This gives us... Okay.
+
+Activity bands! Oh, right. We have to go
+back and forth between the raw and not
+raw. Activity bands! This is the
+relative amplitude or intensity of
+different frequencies. The frequencies
+are helpfully labeled with colors. Right
+now it looks like the machine thinks I'm
+mostly delta. Maybe a little bit of
+theta. Let's see if that makes sense.
+It's not an exact science.
+
+ (laughter)
+
+Neither is this. This is Neurosky's
+proprietary translation of these values,
+that they encourage developers to use as
+the basis for apps in games and what
+have you. It's a little questionable.
+But anyway, programming. All of this is
+about screens, including this. Which is
+enough to get at what we're looking at.
+You can actually just -- it's
+JavaScript. Or Node.js and says open a
+connection and pipe it out. It's super
+simple, and that's part of what is
+exciting. We open a connection on the
+port that the little Neurosky demon
+exposes data on as it grabs it from the
+Bluetooth connection and pipes it to
+standard out. And there it is.
+
+Doot doot doot. So that's great. Now,
+slightly longer, we pipe it to a web
+socket connection. You'll see why that
+happens. Web socket connection, instead,
+so that we can beam it down to the
+browser and make little graphs. In
+addition to making little graphs... Hold
+on... Boom! We'll do it again. Uh...
+It's pretty much cheating. The
+electrical discharge associated with a
+blink is actually an artifact caused by
+muscle contraction around my eyes. I'd
+rather not do it by controlling the
+reading of a particular frequency. But
+this doesn't seem like the best time to
+rely on my ability to control those
+levels. To get to a place where EEG
+controlled presentations is less risky,
+we're going to need better machines.
+We'll have them. A company called
+Emotive makes something called the
+Epoch, which is a bit more expensive.
+It's kick started well beyond its
+funding goals. The interaction Muse is
+another one. Melon, kick started by
+thousands of people. I think the kick
+starting of these things is neat because
+it demonstrates other people are also
+excited about them. Most neat of all is
+the open BCI project, also kick started,
+which is an Open Source machine based on
+Arduino. Their headset is more
+aggressive looking, but having more
+programs to figure out where synchronous
+activity is coming from, allowing more
+precise correlations between intentional
+thoughts and EEG results, enabling
+things like... Flying a drone through
+a...
+
+ (laughter)
+
+ >> Stop blinking!
+
+ >> You have to blink twice in rapid
+succession.
+
+ >> Flying a drone through an obstacle
+course of balloons using only your mind.
+This is a project by a team at the
+University of Minnesota, and what's so
+exciting about it to me is that in
+addition to being awesome, I can at
+least understand how the parts fit
+together. It's an elaboration or an
+expansion of things that I can already
+touch, as opposed to something totally
+foreign and magical. And that is what
+I'm excited about. The way being able to
+program with something like that makes
+the subject matter feel closer and more
+accessible. I was interested in brains
+before I learned to code. I like reading
+books about them. This... Certainly
+isn't the cutting edge of neuroscience,
+but playing around with programming it
+gave me a way to make an abstract
+interest into an active hobby. I think
+the way programming does this is by
+training us to think of things, all
+sorts of things, in terms of compatible
+interfaces. It's capable of connecting
+one or more of the same sort of thing.
+The interface we get for our electric
+brain writer is the same one we get for
+other network connections, and this
+makes sense to us. We're just piping
+data from one thing to another.
+Sometimes it's electrical discharge
+across the skin of your head, sometimes
+it's a web socket. Whatever. This
+attitude is incredible. It lends itself
+to demystifying things that might seem
+obscure or intimidating and gives us
+tools to explore and interact with them,
+and that's what excites me most about
+programming. Thanks!
+
+(applause)

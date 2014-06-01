@@ -1,0 +1,243 @@
+ >> Amazing! Next up, we have Allie
+Jones, who is going to talk about
+weaving and programming. Which you might
+not have thought were related. But they
+are!
+
+(applause)
+
+ >> Okay. So... Before I was a
+programmer, who loved fiber arts, I was
+a textile designer who really loved
+computers. And while I was studying
+textile design, I learned that the
+history of weaving technology is
+actually totally critical to the
+development of computers, the way we use
+them today. And if you've never gotten
+to experience learning that two things
+that you really like are actually really
+closely related when you thought they
+didn't have anything to do with each
+other, it's a really awesome feeling and
+super exciting. So what I'm hoping to do
+is explain a little bit about how
+weaving works and why I think weaving is
+cool, so you can understand the
+relationship between weaving and
+programming and get to experience a
+little bit of this excitement for
+yourself.
+
+So what is weaving in the first place?
+So weaving is one of the most common
+ways that you can take yarn and turn it
+into fabric. Knitting is the other one.
+It uses one really long piece of string
+and loops and makes it stretchy. Weaving
+uses lots of pieces of string and makes
+it not stretchy. So your jeans are made
+out of woven fabric and your T-shirts
+are made out of knitting. There we go.
+So a woven fabric has two categories of
+yarn. There's the warp, which goes up
+and down and is highlighted in blue
+here, and there are lots of those. They
+run parallel to each other along the
+length of the fabric. And there's the
+weft, which is one long piece of thread,
+to make different colors, that goes back
+and forth and interlaces between the
+warp threads. If you've done this craft
+project with construction paper, that's
+basically weaving, and making this
+fabric called plain weave. That's the
+simplest way to make a woven fabric. And
+this is the simplest loom you can have.
+Called a tapestry loom. And if you look
+at this picture, you can get an idea of
+how slow and tedious making something on
+a tapestry loom can be. You're taking
+your hands or maybe a fork or something.
+And you can make incredible things this
+way, but it'll take a really long time
+and be really tedious.
+
+So people tried to invent looms that
+were faster and allowed you to make more
+complicated fabrics more easily. So this
+is a loom with harnesses, which are
+basically frames that hold a bunch of
+warp threads together in a loop and
+those frames are connected to pedals, so
+you can press the pedals in a specific
+order, and it'll allow you to lift the
+threads. But you're still limited in the
+complexity, because mechanically, you
+can't have that many frames and you're
+limited in the number of warp threads
+you can lift at a time. But in a loom
+like this, you can draw out a plan for
+how you're going to make a fabric. This
+is source code for a fabric, called a
+draft.
+
+In the center of the draft, you have a
+grid, and that represents -- each square
+is an intersection of a warp and a weft
+thread. The horizontal is a weft, and
+the vertical is a warp. The weft is on
+top if it's red. Red is on top if it's
+weft. And a woven fabric is represented
+by binary. All you need to know is -- if
+the warp is on top here, or is it the
+weft? The top part of this diagram is
+telling you which harnesses the thread
+should be connected to. So each
+horizontal row is a harness. The top
+left part is how you connect the
+harnesses to the pedal. That's something
+you can change depending on the fabric
+you're trying to make. And the left side
+tells the weaver what order to press the
+pedals. So you can make complicated
+fabrics this way. There's a lot of
+things that are possible. But each time
+you want to change it, you have to
+reconfigure the loom. Hooking up the
+pedals a different way, or taking off
+the thread and rethreading it which is
+tedious. And you can't get something as
+detailed as a tapestry fabric. A lot of
+people tried to improve this. But this
+is the most successful. This is Joseph
+Marie Jacquard. This is still called the
+Jacquard loom. It used a series of punch
+cards to record which thread should be
+connected in a pattern. If a hook could
+control through a pattern in a card,
+that was lifted. So you could change
+each one differently, and you could
+change the entire pattern you were
+weaving by swapping out cards, without
+having to make any changes to the loom.
+And that picture I showed you of
+Jacquard is a Jacquard fabric. So this
+took 24,000 cards to weave. And I think
+it was about this tall. But you can see
+in this close-up that there are
+interesting parallels between bitmap
+rastered images we make on computers
+today. There's a pixel happening here.
+There's dithering. And if you have
+multiple fabrics, you can make an
+illusion of having more colors than you
+really do. So if you're familiar with
+how computers work, you might see where
+this connection is coming together. So
+here we have Charles Babbage, the
+English scientist and inventor. And he
+loved this portrait of Jacquard. He
+loved to show it to party guests and ask
+how it was made and laugh at them when
+they got it wrong. So in 1822, he
+started developing this machine called
+the difference engine, which can
+basically do arithmetic. It was totally
+mechanical and a lot like early looms,
+you had to kind of reconfigure the
+entire machine to do a different
+calculation. And this picture and the
+next picture -- he never managed to
+finish these, but people have created
+replicas of them in modern times, and
+they actually do work. So he wasn't
+happy with that. In 1837, he started
+this new project called the Analytical
+Engine which would be much more general
+purpose. It also used punch cards for
+input, and Babbage wrote that he was
+directly inspired by Jacquard's looms
+using punch cards as well. The
+Analytical Engine used two different
+kinds of punch cards. One was the
+variable and the other was the
+operation. So you could change the input
+and the operation. Ada Lovelace was also
+really interested in the looms. She
+translated an Italian paper on the
+Analytical Engine and wrote a lot of
+notes that ended up being longer than
+the paper itself. Her notes wound up
+being the first computer program. And
+she mentioned Jacquard looms (inaudible)
+also this quote. We may say most
+aptly that the Analytical Engine was
+(inaudible) (on screen)
+
+But then there's kind of a pause in the
+development of computers for a while.
+Charles Babbage lost funding and never
+finished either of his machines and Ada
+Lovelace died young, so nothing happened
+for about 100 years. But then we have
+this guy, Herman Halloran, whose brother
+owned a Jacquard loom in New York. And
+he invented this machine called the
+tabulating machine that used punch cards
+to record information and calculate
+assumption. So it was used in the 1890
+census, and each person would have a
+card and you could feed this into the
+machine and it would tell you how many
+people were male or female and do all
+this much faster than previous, which
+was just done by clerks, hundreds of
+clerks in a room for months and months.
+So he sold this machine to a company
+called the computing tabulating
+reporting company. But it turned out
+that this machine he built was the most
+successful product they had and they
+decided to change their name to a
+company that will probably be more
+familiar to you, IBM.
+
+So IBM sold punch card machines for a
+really long time. Well into the 1980s.
+And in the '30s, they were selling 3
+billion punch cards a year. And the
+machines could process 30,000 cards an
+hour. As an aside, if you've ever
+wondered why 80 characters is the
+default width for a terminal, it's
+because these punch cards have 80
+columns on them. After that, there's a
+lot of other advances in computing that
+you're probably familiar with. That's
+ENIAC, the personal computer, smart
+phones, and all that other stuff. But
+actually, we can bring things back to
+weaving again, because once computers
+existed, then computers would be brought
+back to help weavers make more awesome
+things too. So in 1983, the first
+computerized Jacquard loom was invented.
+This picture does not do justice to
+how gigantic this is. If you look at the
+ladder, that's twice the height of a
+person. The looms run their own versions
+of UNIX and have hard drives and all
+this stuff. There's super elaborate CAD
+software that allows you to design
+fabrics like this.
+
+And the combination of weaving and
+computers together allows you to make
+really beautiful, complicated things,
+like you could never make with those two
+things separate. So I hope you enjoyed
+this little bit of computing history and
+fiber nerdery. Thank you!
+
+(applause)

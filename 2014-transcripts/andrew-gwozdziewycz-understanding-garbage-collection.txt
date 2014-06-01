@@ -1,0 +1,281 @@
+ >> Awesome! Thank you. That was great.
+So now... We have Andrew Gwozdziewycz,
+presenting -- "Understanding Garbage
+Collection through visualizing a One
+Pass Real Time Generational Mark-Sweep
+Garbage Collector!" And that is my
+description of his talk.
+
+ >> So I don't have nearly as much
+energy as... Um... All right. Now I can
+go like this, maybe. All right! So...
+Where did my... All right. Maybe not.
+Um... I don't want to mirror. Because I
+want the speaker notes. Whatever. Maybe
+you guys can just... Not... All right.
+That'll work. Okay. Great. So...
+
+Does anybody know what these are?
+
+ >> Animals?
+
+ >> They're mallocs, and they should be
+free. So... Memory management is kind of
+difficult, and most of us probably don't
+think a lot about it, because we use
+Java or Python or Ruby or some other
+language which does it for us. And
+there's a reason for this. It's really
+kind of difficult. It's difficult to get
+right, and affects the entire program
+that we have. And in most cases, we just
+want to get work done and we just don't
+care. Give me some memory and I'll do
+something with it.
+
+ >> Can you move the mic closer to your
+mouth?
+
+ >> Yes. Is this better? Is this better?
+Okay. I will talk like this, then.
+
+ >> You can move the mic.
+
+ >> Like...
+
+ >> Take it off the stand and hold it up
+to your face.
+
+ >> Okay. Sorry. So if you look at
+Firefox, you'll know that this is true,
+because Firefox is full of memory leaks
+and all this other stuff, and this has
+kind of historically been accurate. But
+there are smart people that are working
+on things called garbage collectors. And
+when we talk about garbage collection,
+we're talking about a program that
+basically manages our memory for us.
+Which has usually got a... It's usually
+scrutinized for being pretty slow, but
+it doesn't have to be the case. So if we
+think about how to manually manage
+memory, you think about it in terms of
+-- acquire some memory, do something
+with that memory, and then eventually
+throw it away. And we're pretty good at
+acquiring stuff. We're pretty good at
+processing stuff, but we're not very
+good at giving stuff back.
+
+And so that leads to memory leaks, it
+leads to segfaults, and various other
+problems that are kind of hard to debug.
+So there's a simple algorithm for this.
+It's called the naive mark sweep
+algorithm. And it works very simple. So
+it looks at all the references that
+you're currently using, so-called roots.
+These are the things that -- these are
+the memory references or the pointers,
+rather, in registers, or on the stack,
+and it just goes through all of them,
+recursively, and says -- mark this thing
+as being used. It's the mark part of
+this. And then in a separate phase, it
+goes through the entire stack, or the
+entire heap, rather, and frees anything
+that is not marked. Very, very simple.
+
+So essentially the mark phase binds all
+the things that are in use, the sweep
+phase eliminates all the things that
+aren't in use. But mark sweep stops the
+world. And while it's running, your
+program isn't running. Your program has
+to wait. And maybe that's not so good.
+But we can make this better by using a
+more sophisticated algorithm.
+Unfortunately, I only have seven minutes
+left, so we'll try to get there. But
+let's think of some ideas. So what can
+we do to make this better? Well, we can
+combine the mark and sweep phase. If we
+do that, then we are only going through
+all of this stuff once. Right?
+
+And if we mark everything in a naive
+mark sweep, we have to... If we mark
+everything that's in use on the heap,
+mark sweep is going to have to go
+through everything, but it's not going
+to retrieve anything. It's not going to
+free anything. And in the opposite case,
+if we don't mark anything, we still have
+to go through the heap. So if we can do
+it just once, you know, we save lots of
+time in all these cases.
+
+And another idea. So maybe we can do
+only part of the work. Some of the time.
+Right? So if we do part of the work more
+often, we don't have to pause so much.
+So that's kind of the idea of
+incremental garbage collection. So
+there's another thing we can do. So...
+Or there's another thing that we get if
+we can do this sort of shorter pauses by
+doing more work... Doing less work more.
+We can get these sort of realtime
+guarantees. That is to say that we can
+say... We're going to collect memory...
+Or do garbage collection for ten
+nanoseconds. Which might be enough to
+give us properties of a garbage
+collector that we can use in a realtime
+system, or at least a soft realtime
+system. And then there's this other idea
+of generational collection, and David
+Ungar has this thing called the weak
+generational hypothesis, that states --
+most objects die young. If you think
+about it, if you allocate some temporary
+thing, you throw it away pretty quickly.
+So it seems to be kind of true, and
+empirically, it seems to be true.
+
+And all these things exist in a
+realtime... Or sorry, in a garbage
+collector near you. But if you're
+building a toy language, you probably
+don't want to mess with this, because
+it's complicated, and it's tricky. But
+if you do build a successful programming
+language that you need a real garbage
+collection engine for, just let someone
+else do it, because they probably know
+how to do it better. And they'll want to
+do it. But there is this really cool
+paper that Joe Armstrong and Robert
+Virding produced in 1995, and I'm not
+going to reproduce that thing.
+
+But we can get some of these properties
+rather simply. The first thing that we
+can do is we have this heap here. And if
+we always allocate memory... If we
+allocate memory from the low end to the
+high end, saying that we always get it
+from the top of the heap... Or... Well,
+sort of. Anyway... If we always get it
+from there, and we always say that no
+pointer can point into the future,
+meaning it always has to point backwards
+into the lower end of the heap, we can
+do something really cool. And the
+algorithm is very similar to mark all
+this and find in the garbage. It's
+literally that. While this scavenger,
+which is this thing on the left, is not
+at the low end of the heap, if it's
+marked, just mark the things that this
+object refers to.
+
+Mark the pointers within that object
+only. So it doesn't do so recursively.
+And then it just keeps going. It's just
+an iterative process. But that's not
+very useful. Because we can't reclaim
+any of the objects there. Because that
+would violate our core invariant that we
+can't have objects point into the
+future. Only to the past. But we can
+simulate this heap organization just by
+adding an extra pointer to all of our
+objects. Which points to the previous
+thing that was allocated in the system.
+
+So when we get a new object, we just
+have to do some bookkeeping. And all
+this is -- we set the previous pointer
+to the thing that was allocated before
+us, and then we update the allocated --
+the most recently allocated thing to the
+thing that we just allocated. And then,
+when we want to garbage collect -- this
+is the entire algorithm right here --
+and the most important thing is the
+bottom here. Because all that you're
+doing to free things is you're swapping
+the pointer of... You're swapping the
+last allocation, which is basically the
+thing that you processed before, in this
+scavenger, this thing, and you're just
+setting that previous pointer to what
+you're currently scavenging. And you're
+throwing away this temporary variable,
+the thing that the scavenger is pointing
+to. Super simple. But wait -- there's
+more!
+
+Because this actually turns out to be
+something that you can make incremental,
+really quickly. There was that while
+loop condition. Right? Let's say that
+you wanted to process only a portion of
+the heap. You can do that. Like, our
+invariant protects us from being able to
+screw ourselves up. As long as we're
+only pointing to memory that was
+allocated before us, that's no big deal.
+This is generational. In much the same
+way. We can modify the loop conditional
+to say -- only allocate... Or only go
+through some part of the heap.
+
+And it turns out that the pointer
+swapping thing, when we free stuff,
+means that older objects move to the
+lower end of the heap. Which is exactly
+this... Which is exactly an encoding of
+this... Young objects... Or new objects
+die young. Whatever I was saying before.
+That I've now totally forgotten. But
+it's the exact encoding of that. So we
+get this generational property. But is
+this practical? Well, I mentioned that
+Armstrong and Verding wrote this in '95.
+It served as the garbage collector for
+Erlang for a while. I don't know exactly
+how long it did. But it did. And the
+algorithm does have some practical
+advantages. Over mark sweep, at least,
+it's extremely simple. Mark sweep has
+this property that I didn't get into,
+that you have to recursively mark
+things. So once you find the one thing
+that you're marking, you recursively go
+and mark the rest of what that points
+to.
+
+Which is tricky, and if you're on the
+stack, you're allocating stuff on the
+stack, and you don't have any memory,
+why are you allocating more stuff?
+Right? It's kind of weird. There's an
+ease of extension. The basic algorithm
+-- I just extended to do incremental
+and generational collection. And objects
+can be used much more quickly, because I
+can go only so far into the heap, and
+say -- that's it. I'm only collecting
+that much. Or the fact that I'm just
+doing one pass means that I'm already
+going faster than mark sweep.
+
+But don't use this. Because there are
+much better algorithms out there that
+take into consideration a lot more
+stuff. Thanks!
+
+(applause)

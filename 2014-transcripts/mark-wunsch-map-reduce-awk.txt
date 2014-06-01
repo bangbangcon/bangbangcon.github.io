@@ -1,0 +1,257 @@
+ >> That was super fun. So next we have
+Mark Wunsch talking about map, reduce,
+awk!
+
+ >> Give me one second. That was a
+really cool talk. Fast GPD, too. Okay.
+Everyone hear me okay? Okay. I'm Mark.
+I'm going to talk about mapping, and
+reducing, and doing them both together
+at the same time with a tool that I
+really like to use, named awk. So to
+start, I have a log file from Amazon S3.
+And whoa... You see that number? Wow,
+that's a lot of bytes. That's, like,
+that many bytes. That's big data, right?
+
+I'm like... Wow, for big data, I'm going
+to need some kind of Hadoop or something
+like that. Now, I'm not a data
+scientist. I'm going to need to brush up
+on my reading. So... All of these books
+with animals on the cover... In order to
+do data science. Because it's a well
+established vocabulary and tool set for
+doing big data. And I'm really ready to
+spin up an elastic map reduce cluster.
+Because apparently that's a thing.
+
+But I've been misled. Apparently, 13
+megabytes is not big enough to be
+considered big data by the kinds of
+people who determine these sorts of
+things. I've mistakenly assessed the
+problem. I'm in a big data fog, and I'm
+overwhelmed by so many options. So I
+almost invested in learning this entire
+pantheon, in order to figure out how
+many people downloaded my podcast.
+
+So this is overwhelming. Um... Small
+data is almost always miscategorized by
+developers, because we want to try the
+new shiny technology. And it's easy to
+understand why, because companies are
+interested in little things, right? Big
+data is like Big Oil, Big Tobacco, Big
+Money. Nobody wants small potatoes,
+small fry, small fish. But it's
+rudimentary to think that big data is
+better. You badly want it to be big. How
+do you know it's small? Receptors go off
+in your head to say -- this is too much
+work. There's a scientific term for
+this. It's called a sinking feeling. So
+I want us to escape the psychic prison
+of big data. So once you've accepted
+that your data is small, what tools do
+you have to analyze it? So you can use
+Python, you can use Ruby, you can use R,
+Matlab, maybe. But those are all general
+purpose tools that are quite large, and
+all have their own unique dependency
+hell. So this is small data. Let's stay
+small. And small data's deliverance is
+here, with the awk programming language.
+So awk is a language that is designed
+for analyzing data streams, and it's
+been mentioned a few times at this
+conference now. So where did awk come
+from? So these three gentlemen named the
+language after themselves. You might
+recognize some of those names. These
+guys worked for a funky, cool company
+named Bell Labs. You might recognize
+them from such hits as UNIX. So in the
+late 1970s, awk made its big debut in
+version 7 UNIX. It's been around a
+while. This is what the a of awk had to
+say about it. And we can summarize it
+like this. It's a language for
+processing text files, where each line
+of the input is a record. The record is
+broken up into a series of fields, and
+an awk program is made up of pattern
+action statements, where if the line of
+the record matches the pattern, the
+action will be executed. So it looks
+kind of like this. Pretty simple.
+Lowercase awk -- I've been talking about
+uppercase AWK for now. Lowercase awk is
+the interpreter that runs the AWK
+program. And there are many different
+variations of that, and they're all kind
+of subtle and unique in their own ways,
+but we can gloss over that for the
+purposes of this talk. But here's the
+big reveal -- everybody in the audience
+today is going home with an awk! You get
+an awk. You get an awk. You get an awk!
+And that's because you already have one!
+An awk interpreter is one of the
+utilities required by the single UNIX
+specification, which means you are
+pretty much guaranteed to have a version
+of awk on your system.
+
+It's already there. You don't need to
+worry about Ruby gems or easy install or
+CPAN or anything. So let's use it. So
+when I take a closer look at my S3 logs,
+this is the Amazon server access log
+format. It describes 18 fields, it's a
+bunch of stuff there. I'd like to work
+with something a little bit simpler. I'd
+like to work in the Apache combined log
+format. And this way I can treat my S3
+buckets just like they're a web server,
+and this way I can also Google for
+stupid little things I can do with that.
+
+So this is the mapping between the S3
+fields and the Apache combined log
+fields. So let's talk about map. So map
+in map reduce is the transformation
+procedure, filtering, sorting, that kind
+of thing. So if we look at an awk
+program where there's a condition and
+action, we're going to ignore the
+condition for now, because we want this
+program to apply to every line of my log
+file. And a perfectly reasonable action
+is print. This is a valid awk program.
+Print, by itself, will just print the
+input line again. It's like a no-op.
+Well, what do we do next? Well, looking
+at a line of my Amazon S3 file here,
+it's quite long. But we need to break
+this up into a series of fields. And to
+do that, we're going to use what awk
+calls the FS variable. Or field
+separator. Which defaults to white
+space, to tab and space characters.
+
+And what's going to happen is this field
+separator is going to explode out this
+line of program, and break our line into
+several different fields, and you can
+see some of them break up into different
+parts. So the time stamp breaks into two
+separate fields. So we have 21 fields
+here. And then I can just rearrange
+these to basically print out the Apache
+combined log format. And I'm done. I've
+mapped from one format to another. This
+is a valid program. It works. But
+there's a bug. Anybody spot it? It's
+right there. So what's the bug?
+
+User agent strings are pretty tricky,
+when you're thinking about Amazon web
+service, web requests, all that stuff.
+The user agent field is
+non-deterministic, and awk doesn't know
+about single quotes, double quotes, what
+the semantics of those are. So every
+time the field separator comes in, it's
+going to break this up. So we never have
+a deterministic amount of fields per
+line. That's okay, because awk has for
+loops. So what we can do is set the user
+agent to a string. I always know that
+the user agent comes before the last
+field of that server log format.
+
+And I can loop through, and I can say --
+as long as i is less than nf, which is
+number of fields, I can continue
+looping, and concatenate the space
+character in an awk program.
+Concatenation -- and build back up my
+user agent string. So that's it. We did
+it. It's done. Great. This is a valid
+program. I can copy and paste this, and
+put it right into the command line, and
+run it as such, or I can put on a little
+shebang here, and make this executable.
+Now, what can I do once I have my awk
+program in this format?
+
+Well, then I can do things like change
+the field separator to be a quote. And
+pipe that output of that program into
+this program. And say -- for everything
+that requests the feed.xml, print field
+6, which is the user agent string. I can
+also do this on the command line, with
+the f option, that says override the
+field separator to be a double quote
+character. And then what I can do after
+that is run it through some good old
+UNIX utilities, sort, unique, sort
+again. And I end up with a descending
+number of unique user agents that
+requested my feed.xml. Super simple.
+This brings us to reduce. The reduce
+step.
+
+So reduce function does summation,
+accumulation, et cetera. So we already
+got a little sneak peek of that. So
+here's a program. 9, in the Apache
+combined log format, is the status code.
+206 is a partial content response. And
+you will see that when you try to
+request, say, a large mp3 file. The
+request will say -- give me just a range
+of bytes. And you'll get 206 partial
+content responses.
+
+Now, awk has associative arrays. So what
+I'm going to do next is I'm going to
+store the IP address, which is field
+number one, and the number of bytes
+downloaded, which is field number 10,
+and I'm going to keep adding them to
+this... To the IP address in the array.
+And I'm not going to do anything in this
+main block. Instead, I'm going to wait
+'til the end of this block, and I'm
+going to loop through all of the IP
+addresses, and in my array here... And
+I'm going to print a pair of IP
+addresses, and the bytes downloaded. So
+this gives me total number of bytes
+downloaded per unique IP address.
+
+I can then output that, and get the
+total number of bytes downloaded, and
+just sum it all up in one awk program.
+So this just pipes into the next one.
+And now I can have the total number of
+bytes downloaded from my S3 server, for
+my podcast, I can now estimate pretty
+well the number of... What my bill is
+going to be, from Amazon. So that's the
+reduce step. Other things that do the
+reduce step are these little UNIX
+utilities. Sort, unique, word count. So
+in this talk, we've learned about map,
+we've learned about reduce, and we've
+learned how to do it in a little program
+called awk. Read the man page if you're
+interested in more. It's a great
+utility. I love awk. Thanks very much
+for listening.
+
+(applause)
