@@ -160,7 +160,7 @@ and Tim Szetela. The basic idea of this
 game is -- what if the pieces of the
 game, instead of unigrams were bigrams
 and trigrams. This is a deck of 160
-words -- some of them are single
+cards -- some of them are single
 letters, but most of them are bigram or
 trigram sequences of two or three
 letters that were selected based on
