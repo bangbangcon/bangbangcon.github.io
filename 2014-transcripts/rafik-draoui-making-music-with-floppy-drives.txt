@@ -32,25 +32,25 @@ favorite things.
 
  >> It works! Hello, everyone. I'm
 Rafik. I'm going to speak about floppy
-drive music and my adventure -- actually
-leading to other projects from there. So
+drive music and my adventure yak shaving
+my way to other projects from there. So
 if you're not familiar with the term yak
 shaving, that's one definition. Any
 seemingly pointless activity which is
 actually necessary to solve a problem
 which solves a problem which, several
-levels of recursing later, solves the
+levels of recursion later, solves the
 real problem you're working on. So you
 have a project, and in order to do it,
 you do something else, and by the end of
 the day, you're mucking around with
 config files and writing scripts, and
-someone asks you... What are you doing?
-What does it look like? And... Yeah.
+someone asks you: "You're supposed to work on that project"
+What does it look like I'm doing? And... Yeah.
 Usually you want to minimize yak
 shaving.
 
-So you want to minimize that. It's time
+So you want to minimize that. At worst it's time
 wasting or at best, productive
 procrastination. But... It can be a good
 thing if you just want to learn things.
@@ -64,10 +64,10 @@ at some frequency, and every sound has a
 frequency, so middle A would be 440
 hertz, for example. And this is a floppy
 drive. With the top removed. And where
-the arrow points, it's the end. This is
-the data. This moves back and forth. So
-you don't have to make sound of that.
-You just have to make the motor move at
+the arrow points, it's the head. This is
+what reads the data. This moves back and forth. So
+you only have to... to make sound of that,
+you just have to make the motor move at
 the right frequency, and you'll hear
 something that sounds kind of like the
 note it's supposed to sound like. And
@@ -78,7 +78,7 @@ time, then the motor will move. So I
 used an Arduino to do that. Turns out
 you only need three of these pins to
 control the motor. And basically you
-just... The song is like a list. It's a
+just... The song is like a list of pairs. It's a
 note, play that note for that many
 seconds, play that note for that many
 seconds, and so on. But Arduino doesn't
@@ -101,7 +101,7 @@ around. Maybe I can use some other
 format and convert it to that. So
 there's MIDI files, MIDI protocol,
 standard protocol for describing music,
-and before the internet, 15 years ago,
+if you were on the internet, 15 years ago,
 the background music on some web pages,
 mostly MIDI files playing. So they're
 all over. I said I'm going to write the
@@ -128,37 +128,38 @@ work?
 There's a thing called discrete Fourier
 transform. It's amazing. Just take a
 signal, and then you can convert between
-time and frequencies. So it's easier. On
+time and frequencies. So it's easier with an image. On
 the left, it's like a signal. Some sound
 you can see -- it's like a lower --
-mountains, lower frequency. And when you
-put it through the machine, like the
+mountains, lower frequency, and a higher one. And when you
+put it through the machine of the
 Fourier transform, you get what's on the
 right. You see the dominant frequency.
 The lower one, that's dominant, and the
 other one. And so I know the frequency.
-So I can just take my recording and run
+As you remember, a note is just a frequency,
+so I can just take my recording and run
 it through the Fourier transform and
 gets the notes. At least, that's the
 main idea.
 
-So start with some waveform. Spit it
-into Windows, as small as you want to
-go, and you want to Fourier transform
-it. And you get the dominant frequency
-of the note. By the way, the algorithm
+So start with some waveform. Split it
+into windows, like a tenth of a second or
+as small as you want to go, and you run the Fourier transform
+on all these windows. And you get the dominant frequency,
+the note. By the way, the algorithm
 to do that is called a fast Fourier
 transform. One of the most amazing
 algorithms of the 20th century. Ties up
-lots of computer science. Recursing,
-not like, n square complexity, but it
+lots of computer science fun: Dynamic Programming, recursion,
+takings something that -- it's naively, n square complexity, but it
 goes to n log n. So check it out.
 
 And then this frequency -- you kind of
-normalize them -- to mention that MIDI
+normalize them -- forgot to mention that MIDI
 files, every note is a number from 0 to
-127. So this is a standard for the music
-industry. Maybe I should do that as
+127. So if this is a standard for the music
+industry, maybe I should do that as
 well. So I kind of round up or down all
 the notes. And then you can aggregate...
 Like, consecutive notes. And then you
@@ -168,8 +169,8 @@ four units of time. And so on. And this
 is not quite perfect.
 
 The output... It's very noisy. So
-there's... Like, this is the one -- I
-would say it only lasts for one. And you
+there's... Like, this is the one, the third one,
+it only lasts for one. And you
 might think that it might be an error.
 Maybe it's really 64, but by going from
 the higher note to the other one,
@@ -180,7 +181,7 @@ too fast, and you want to make it
 slower, so maybe you want to double the
 duration of all the notes.
 
-But this is a pretty cool simple little
+But this is a pretty cool simple data
 structure. List of pairs. So we can just
 filter it. Pass some functions and
 compose them. So as long as it takes a
@@ -189,7 +190,7 @@ pairs, you can compose these functions.
 So I guess the filter is that -- you
 know, for example, drop the short notes
 and double the duration, and you use
-whatever functions you need to get
+whatever functions you need to get to
 whatever you want. And then finally you
 just... You can emit it to the back end,
 the MIDI file, a floppy, or to json,
@@ -208,7 +209,7 @@ know. So I thought maybe I could do a
 graphical interface.
 
 And I didn't know anything about, like,
-(inaudible) or HTML 5 stuff. I didn't
+canvas or HTML 5 stuff. By the way I didn't
 know anything about any of these things
 before as well. So that's an early kind
 of screenshot of how it kind of looked.
@@ -218,13 +219,13 @@ basically I used some library, and I
 customized it a lot to do what I wanted,
 and when things didn't really work out
 properly, I tried to... You know, just
-do some random calls like -- (inaudible)
-and it worked. So I was like... Oh, it's
+do some random calls like -- `canvas.renderAll()`
+and it "worked". So I was like... Oh, it's
 fine. And now I'm... I got to a point
 where I'm... I'm really stuck. Like,
-I've kind of done myself into a hole
+I've kind of dug myself into a hole
 with all these careless hacks and
-"fixes", so I cannot reproduce an
+"fixes", so I cannot reproduce a minimal
 example to get help or to debug. So
 that's where I'm at now. It's a bit of
 anticlimax. But... Yeah.
@@ -250,7 +251,7 @@ you don't know about, and just keep on
 going. And it's on GitHub. It's called a
 flopkestra. It's not quite an orchestra
 yet. Because Arduino -- it can't process
-in Arduino. Gazouilli is my process.
+in Arduino. Gazouilli is my process to extract.
 It's a pun in French. You can ask me
 later. And there's a video there. A
 small teaser. And check it out.
