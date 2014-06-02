@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE>Depth-first search</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+pre {
+  background-color: #ecd2ea;
+  font-size: 16pt;
+}
+
+li {
+  font-size: 14pt;
+}
+
+a.next {
+  text-decoration: none;
+}
+
+.topbar, .botbar {
+  font-size: 24pt;
+  color: purple;
+}
+
+</style><META NAME="generator" CONTENT="txt2html v1.25">
+<LINK REL='start' HREF='slide001a.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='first' HREF='slide001a.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='last' HREF='slide014.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='next' HREF='slide009.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='previous' HREF='slide007.html' TYPE='text/html; charset=utf-8'>
+<LINK REL='contents' HREF='TABLE_OF_CONTENTS.html' TYPE='text/html; charset=utf-8'>
+</HEAD>
+<BODY BGCOLOR="#ffffff"><FONT SIZE=4>
+
+<table class="topbar" width='100%' cellpadding=0 cellspacing=0 border=0>
+<tr bgcolor='white'>
+    <td align=left width='25%'><a class="next" href="slide009.html">☞</a></td>
+    <td align=center width='50%' >Help! Help!</td>
+    <td align=right width='25%'><b>8</b></td>
+</tr>
+</table>
+<hr>
+
+
+
+<H1><A NAME="section-1">Depth-first search</A></H1>
+
+<PRE class="code">
+        sub AUTOLOAD {
+          …
+          my @stack = ($bottom_class);
+          while (@stack) {
+            my $class = pop @stack;
+    
+            next if $class eq __PACKAGE__;
+</PRE>
+
+<UL>
+  <LI><p> <TT>__PACKAGE__</TT> is a compile-time constant for <TT>Help</TT> itself</LI></p>
+
+</UL>
+<PRE class="code">
+            my $isa_var = $class . "::ISA";    
+            push @stack, @{$isa_var};
+</PRE>
+
+<PRE class="code">
+            my $symbol_table = $class . "::";    
+            for my $name (keys %{$symbol_table}) {
+              my $func_name = $class . "::" . $name;
+              next unless defined &amp;{$func_name};
+              $known_method{$name} ||= $class;
+            }
+          }
+</PRE>
+
+
+<UL>
+  <LI><p> <TT>%Horrible::Thing::</TT> is the symbol table for the class</LI></p>
+
+  <UL>
+    <LI><p> It maps names to “globs”  (don't ask)</LI></p>
+
+  </UL>
+  <LI><p> <TT>defined <FONT COLOR="purple"><B><TT>&amp;</TT></B></FONT>{Horrible::Thing::fgsfds}</TT> asks if there is a <B>function</B> with that name</LI></p>
+
+  <UL>
+    <LI><p> Why <TT>&amp;</TT>?  (don't ask)</LI></p>
+
+  </UL>
+</UL>
+<PRE class="code">
+         …
+       }
+         
+</PRE>
+
+<br clear=all>
+<hr>
+
+<table class="botbar" width='100%' cellpadding=0 cellspacing=0 border=0>
+<tr bgcolor='white' ><td align="left" width='33%'><a class="next" href="slide009.html">☞</a></td>
+    <td align=center width='33%' ><a href="sigils.html"><img border=0 src="small-sigils.gif"></a></td>
+    <td align="right" width='33%'><a class="next" href="slide009.html">☞</a></td>
+</tr>
+</table>
+</FONT></BODY>
+</HTML>
