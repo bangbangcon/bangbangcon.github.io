@@ -14,6 +14,10 @@ There is also a blog post on the same subject at:
 
 http://blog.plover.com/prog/perl/Help.pm.html
 
+Complete source code for the `Help` module described herein is in 
+
+http://perl.plover.com/yak/HelpHelp/samples/Help.pm
+
 All original materials in this folder are copyright © 2014 Mark
 Dominus and may be shared and adapted under the terms of the Creative
 Commons Attribution NonCommercial 3.0 license as described at
