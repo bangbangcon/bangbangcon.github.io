@@ -53,7 +53,7 @@ languages) and all decendants of
 Grand Master Prolog. The
 defining abstraction is the relation.
 That brings you back to high school. The
-days when you would learn that a
+days when you would learned that a
 function is an association of a pair of
 input and output, and if you want to
 have two different output for the same
