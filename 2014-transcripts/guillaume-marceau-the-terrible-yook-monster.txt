@@ -29,7 +29,7 @@ which programming language should I use?
 Should I use maybe a programming
 language that is machine inspired? That
 is expressing its inner Turing
-machine-ness, something that has its
+machine-ness, something that has as its
 main defining abstraction the step? And
 the ruthless destruction of the content
 of a memory cell? Or maybe should I use
@@ -46,39 +46,41 @@ Well, I would advance of course that
 this is a small silly logic puzzle, and
 so we should kill this mosquito of a
 logic puzzle with a bazooka of a
-programming language. We're going to use
-a descendant of (on screen), all known
-as modeling or searching programming
-languages. Grand master Prolog. The
-defining abstraction is the relation
-that brings you back to high school. The
+programming language, Alloy. We're going to use
+a descendant of OCL, B, VDM, FDR, Z (also known
+as "modeling" or "searching" programming
+languages) and all decendants of
+Grand Master Prolog. The
+defining abstraction is the relation.
+That brings you back to high school. The
 days when you would learn that a
 function is an association of a pair of
 input and output, and if you want to
 have two different output for the same
 input, that's okay. You call it a
 relation and you move on. But it does
-mean that it becomes legit to ask. I
-have this output. What is the input that
-corresponds with it. In comparison, the
+mean that it becomes legit to ask: I
+have this output, what is the input that
+corresponds with it? In comparison, the
 functional programming languages are
 missing out. And the second defining
-abstraction is our good friend
-mimetics, universal and existential
+abstraction is our good friends
+from mathematics, universal and existential
 quantification. Now, to put that into a
-wholly programmer perspective of what
+wholly programmer's perspective of what
 these two are, I'm going to say they're
-a little bit like a for loop that loops
+a little bit like a for-loop that loops
 over all things in the universe.
 
 And you would tell me... Guillaume,
 that's impossible. You know this. And
 I'm going to tell you that's exactly the
 same thing that they said about garbage
-collection! Before careful programming
+collection before it was invented! 
+Before careful programming
 language design made it possible. And so
 in logic programming, the design of the
-programming language will take home...
+programming language will take over...
 Check this out. This is an
 exclamation mark put into the form of a
 slide. Ptuh! It becomes the
@@ -87,16 +89,16 @@ language to find time efficient bounds
 for loops. Okay?
 
 Whoa. I have over here the IDE for the
-programming language. We're going to be
+programming language Alloy. We're going to be
 defining a sig, Anouki. A class, Anouki.
 Anoukis exist, and they can be either
 truthful or not. I have six Anouki. They
 all extend Anouki, and then I have a few
 facts to say about the relationship. If
-FoFo said true, then you go mo is true.
+FoFo said true, then GoMo is true.
 If Kumu tells the truth, either one of
 these tell the truth, and so on and so
-forth. And I also know -- that's part of
+forth. And I also known -- that's part of
 the problem -- that there is only one
 that is lying.
 
@@ -113,7 +115,7 @@ universe. Now, here there's only six of
 them. Who can be lying? So I press
 control E. It loops over all the
 possibilities, find the one that abides
-to the fact. Aroo! Aroo is lying!
+to the facts. Aroo! Aroo is lying!
 
 All right. Second example. I'm going to
 introduce the second example with a
@@ -136,10 +138,10 @@ drives me wild. Because now I have the
 strangest case you ever saw. As husband
 of my grandmother, I am my own grandpa.
 
- >> How can this be possible? Let's ask.
-I have a person who had a father and a
+How can this be possible? Let's ask Alloy.
+I have a person who has a father and a
 mother. Maybe not. A man is a person who
-has a wife. Pre-marriage equality. A
+has a wife (This is pre-marriage equality.) A
 woman has a person who has a husband.
 Fact of biology. There is no person who
 is in the transitive closure of their
@@ -165,8 +167,8 @@ men. My own grandpa is... A man, p, who
 is in the set of his own grandpas. How
 can this be possible? Oh! There is a
 solution with four people. The song
-needlessly makes this complicated! And
-it finds the simplest solution. If it
+needlessly makes things complicated! And
+Alloy finds the simplest solution. If it
 finds more, it shows you the simplest
 solution first. In this case, I have a
 man who is married to a widow, who has a
@@ -180,22 +182,22 @@ grandpa.
 stepfatherhood, stepmotherhood, is
 crucial to making this happen. Because
 if I redefine parenthood without the
-steps, and I say enumerate over the
-inverse with 60 people...
+steps, and I say enumerate over a universe
+with 60 people...
 
 Pause for effect. No instance found!
 What has just happened? There are 30
 ways of choosing a father, 30 ways of
 choosing a mother, 30 ways of choosing a
 husband or a wife, one possibility for
-having all of these things. We have just
+not having each of these things. We have just
 integrated over 10^164 permutations per
 second. I have a 2.7gigahertz CPU. We
-did 10^145 permutation instance check
+did 10^145 permutation instance-check
 per clock cycle, one googol's worth of
 checking. I have either the world's
-fastest GPU, or it's very clever about
-the compilation. It does not go to
+fastest GPU, or Alloy is very clever about
+its compilation strategy. It does not go to
 bytecode. It does not go to assembly. It
 goes to SAT. It compiles to SAT. SAT of
 course is one of the foundational
@@ -203,22 +205,23 @@ problems in computer science. The first
 problem to be identified as an NP
 complete problem. Of course, since the
 1960s, a humongous amount of effort has
-gone into doing SAT software as fast as
-possible. And it uses 55 years of
+gone into making SAT-solving software as fast as
+possible. And so Alloy uses 55 years of
 research in finding good search bounds.
 That's why it is so amazingly fast.
-We've used it to do logic problems in
+
+Though we've used it to do logic problems in
 the book by Daniel Jackson, at MIT, what
 this is used for is to find bugs in
 programs before you even begin writing
 them. This is not a proof checker. This
-is a proof breaker! Who will find
+is a proof breaker! that will find
 problems before you begin writing code
 at all. He gives an example with a cache
 system, another one with a security hole
 in the protocol that hotels use to put
 their keys on. Thank you very much. I
-have a book with me, if you want to ask
+have the book with me, if you want to ask
 more questions.
 
 (applause)
