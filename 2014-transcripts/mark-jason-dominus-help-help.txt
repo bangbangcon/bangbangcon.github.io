@@ -1,4 +1,7 @@
- >> Thank you very much, Adam. I've
+
+== Sumana Harihareswara
+
+>> Thank you very much, Adam. I've
 learned more about how to make games
 more fun and I incidentally no longer
 feel bad about a specific Scrabble game
@@ -8,16 +11,24 @@ confound, or disgust you. And it has to
 do with Perl. So our final talk, after
 which...
 
+== Mark Dominus
+
  >> Agh! Sorry. Somebody changed the
 resolution on the projector since this
 morning. What are we going to do? Hold
 on. That's the wrong way, right?
 
+== Sumana Harihareswara
+
  >> Can you fix it with Perl? I hear
 there's more than one way to do it.
 
+== Mark Dominus
+
  >> Oh, it's good. It's all good. All
 right.
+
+== Sumana Harihareswara
 
  >> So... For our last talk, before the
 closing remarks by the organizers, with
@@ -29,11 +40,13 @@ Jason Dominus.
  >> Hi, I've been doing this for 20
 years and I still get terrible stage
 fright. It always takes me ten minutes
-to warm up. Boy, Adam's talk really
+to warm up.
+
+Boy, Adam's talk really
 struck a note for me, because I used to
 play Scrabble with my wife once a year
 on her birthday, and then one year, she
-played Qigong, and I refused to play
+played ‘QIGONG’, and I refused to play
 with her after that. And so it was
 actually a strain on our marriage. And
 maybe Adam will... Anyway. So...
@@ -46,26 +59,27 @@ along in Perl for some reason, and...
 
 You have constructed some object from
 some horrible class that you got off of
-the CPAN, and you're like -- you don't
+the CPAN, and then you're like -- you don't
 want to consult the manual, because
 nobody does that. Right? You want to
 call a method on it. Oh yeah, I think
-this thing has a previous sibling
+this thing has a “previous sibling”
 method, and you call the previous
 sibling method, and then your program
-crashes, and says --  can't locate object
-method, blah-blah-blah blah! So how do
-you figure out what method you meant to
+crashes, and says `can't locate object
+method prev_sibling blah-blah-blah
+blah!` So how are you possibly  going to
+figure out what method you meant to
 call? At this point, you might have to
 look in the manual and all the cool kids
 are going to laugh at you.
 
-So somebody asked me -- well, why
-doesn't it do what tickle does and give
-you a list of the methods that you could
-have called? So the purpose of this talk
-is -- we're going to describe a module
-called help. And if you say use help,
+So somebody asked me, “well, why
+doesn't it do what TCL does and give
+you a list of the methods that you *could*
+have called?” So the purpose of this talk
+is: we're going to describe a module
+called `Help`. And if you say `use Help`,
 and then the name of some class, it will
 adjust the objects in that class, so
 that bad method calls then emit a report
@@ -79,99 +93,122 @@ really the issue here, and I'm sure
 everybody could figure out ways they
 could format this better. The important
 part is the internals, and that's what
-the talk is about. So it's done depth
+the talk is about. 
+
+So method dispatch in Perl is
+done depth
 first. If you've got some horrible
-class, and inherits from b1, b2, b3, and
-b1 inherits from c2, you call a method
+class, and inherits from classes `B1`, `B2`, `B3`, and
+`B1` inherits from `C1` and `C2`, 
+Perl will search *depth-first* up the
+inheritance tree looking for methods --
+you call a method
 here, it'll look here and then here and
-here, and then look in b2 and b3 and in
-d. And the way that's set up in Perl is
-this variable called isa, horrible thing
-isa B1, B2, and B3. And in B1, it says
-isa C1 and C2. People used to laugh when
+here, and then look in `B2` and then
+it'll look in `B3` and then in `D`.
+
+And the way that's set up in Perl is
+this variable called `ISA`,
+which says that a `Horrible::Thing`
+‘is a’ `B1`, is a `B2`, and is a `B3`. And in `B1`, 
+there's a `ISA` variable that  says `B1`
+is a C1 and a C2.
+
+People used to laugh when
 I was teaching Perl classes and said
-isa. People were like... What does it
-stand for? Is a. And then you can have
-the full name, class name, double colon,
-and the variable name. So the full name
-is a variable. Here is variable colon
-colon thing colon colon isa. So moving
+isa. People were like... What does `ISA`
+stand for?  Its “is a”.
+
+And then variables in Perl you can spell out the
+the full nam, which has the class name, a double colon,
+and then the variable name. So the full name of the horrible thing's 
+`ISA` variable, here is `Horrible::Thing::ISA`.
+So moving
 along here.
 
-So when you say in Perl use help
-horrible thing, this use does two
-things. First, it locates help and loads
-and compiles the code for help. And then
-it calls a compile time called import,
+So when you say in Perl `use Help Horrible::Thing`,
+this `use` does two
+things. First, it locates `Help` and loads
+and compiles the code for `Help`. And then
+it calls a compile-time hook called `import`,
 that's actually a class method in the
-help package. So it calls help import,
+`Help` package. So it calls `Help::import`,
 and it passes this guy here, as an
-argument. And what does our import do?
-Normally import is set up so you use
+argument. And what does our `import` do?
+Normally `import` is set up so you use
 some module and it makes its functions
 available in your namespace. So that's
 why it's called import, even though what
-it does is export. That's Perl for you.
+it does is actually export. That's Perl for you.
 
 But here we're going to do something a
 little bit weird. We use the import hook
 and we get control and then this is the
-name of help. That's the class we're
+name of `Help`. That's the class we're
 calling it on. And here's the list of
 arguments we got, which in this case is
-just horrible thing. And then we're
+just `Horrible::Thing`. And then we're
 going to loop over them. We're going to
-construct the name of the isa variable.
-There's this horrible thing, and then
+construct the name of the `ISA` variable
+for each of those classes, that's
+`Horrible::Thing::ISA`, and
 into the array with that name we'll push
 the name of our class. So we've taken
-the horrible thing isa tree, and then
-when we said horrible thing, we inserted
-this at the end. So now horrible thing
-is going to inherit from help also.
+the `Horrible::Thing` ISA tree
+that was set up in the normal way,
+and then
+when we said `use Help Horrible::Thing`,
+we inserted ourself here at the end.
+So now `Horrible::Thing`
+is going to inherit from `Help` also.
 Everybody happy? All right.
 
 So now we call some horrible object. We
-call fgsfds, and it's going to go
-searching up here and here and here, and
-presumably there is no actual fgsfds
-method. If there is, it'll find it and
+call `fgsfds`, and it's going to go
+searching up and is't gonna search here and here, and
+presumably there is no actual `fgsfds`
+method, right?. If there is, it'll find it and
 run it normally. Which is what we want.
 But if it isn't there, as a last resort,
-it's going to wind up looking in help.
-And the lookup of fgsfds in help is
+it's going to wind up looking in `Help`.
+And the lookup of `fgsfds` in help is
 going to fail also, because we don't
-have help fgsfds. There was a time when
+have `Help::fgsfds`.
+
+There was a time when
 this image was the number one Google hit
-when you search for fgsfds. I was proud
+when you searched for `fgsfds`. I was so proud
 because I manufactured this one. I
-thought it was the perfect one. I'm
+thought it was the perfect one. But -- I'm
 sorry. I'm wasting my ten minutes. So...
 It doesn't find it there either. Perl
 does something a little weird, because
 it's Perl. It has to do everything a
 little weird. After it doesn't find
-fgsfds, it does the same thing over
+`fgsfds`, it does the same thing over
 again but looks for a method called
-autoload, all capitals. And if any of
-these guys has an autoload, it's a
+`AUTOLOAD`, all capitals. And if any of
+these guys has an `AUTOLOAD`, `AUTOLOAD`'s kinda the
 method of last resort. It's supposed to
-handle failed method calls. If it has an
-autoload, it gets called as normal, but
-if none does, we end up in help
-autoload, and there is a help autoload,
-and now we're going to see it. It gets
+handle failed method calls. If one of these guys has an
+`AUTOLOAD`, then it gets called as normal,
+as if we hadn't used `Help`, but
+if none of them does, we end up in `Help`,
+we end up in `Help::AUTOLOAD`, and there *is* a `Help::AUTOLOAD`,
+and now we're going to see it.
+
+It gets
 called with the name of the class or the
 object... What's going on here? That's
-not right. This autoload variable is set
+not right. This `$AUTOLOAD` variable is set
 to the name of the method that Perl was
 trying to find in the first place that
 wasn't found. We do a pattern match on
-it and get the name of the class we try
+it and get the name of the class that we were trying
 to find it in and then the name of the
-method. It's set to horrible class
-fgsfds, and this guy gets horrible class
-and this guy gets fgsfds, and it's going
+method. In this case it's set to `Horrible::Class::fgsfds`,
+and this guy gets `Horrible::Class`
+and this guy gets `fgsfds`, and it's going
 to populate this hash of known methods
 by groveling over the symbol table to
 give away a little bit, and then it's
@@ -187,21 +224,23 @@ depth first search with a base class --
 sorry, actually, it's a bottom class,
 but it's not the base class. It's
 actually the derived class. Anyway, the
-bottom most class in that tree, the root
+bottom-most class in that tree, the root
 of the tree. And then we run over the
 stack, we pop an item off the stack.
+
 This is a little bit of code that's --
 oh, and if you actually are looking at
-help itself, skip over it.
-
+`Help` itself, skip over it.
 Because you don't want to look at that,
 because we are playing a trick here,
 pretending we're not really there. This
-underscore package is a compile time
+`__PACKAGE__` is a compile time
 constant for the package that we're
-actually in right now. And then let's
-see. We put together the name of the isa
-variable, and then take all of the
+actually in right now.
+
+And then let's
+see. We put together the name of the `ISA`
+variable, and then we take all of the
 classes that the current class is
 inheriting from and push them onto the
 stack, so we'll search them later, and
@@ -216,8 +255,8 @@ want to know about called globs.
 Fortunately we only need the names here.
 And then we're going to loop over the
 names and we'll put together the name of
-hopefully a function. Class, colon
-colon, and then the name of the
+hopefully a function. Class, `::`,
+and then the name of the
 function.
 
 And then this is Perlese for checking to
@@ -234,58 +273,66 @@ we're building up. So we're building up
 this hash where the keys are the
 function names and the values are the
 classes where we found the function. So
-that's moving along. Let's see. And then
+that's moving along.
+
+Let's see. And then
 I think we're almost done. And then
 we're done! Because all we have to do
 now is we've got this hash that has a
 list of all the names in it and we just
 have to produce a report. So we issue
-warning message, unknown method blah,
-maybe try and then we loop over the
+warning message, “unknown method blah,
+maybe try…” and then we loop over the
 function, the method names that we
 found, and issue a warning with each
 one, and we mention -- oh, if it's in
 the base class, we don't say anything
-extra. But if it's in some class from by
+extra. But if it's in some class from which
 this bottom class is inheriting, we
 mention it. and then we finally issue a
-fatal error. That's croak. Isn't it
-funny? Ha-ha. Croak. All right. An
+fatal error. That's `croak`. Isn't it
+funny? Ha-ha. ‘Croak’. All right.
+
+An
 alternative, of course, we don't have to
 print out a report. We can do fuzzy
-matching, and use a fuzzy matching
-module. We can print out this huge list.
-You probably meant previous sibling. And
-oh yeah. Okay. Or we could do something
-even cooler. Once you do the fuzzy
+matching, right? And use a fuzzy matching
+module. And say, instead of printing out this huge list,
+“Oh, you probably meant `previous_sibling`.” And
+“Oh yeah. Okay!” Or we could do something
+even cooler. Once we do the fuzzy
 match, if it's good, we could just call
-that method, and...
-
-Just pretend that you never made a
+that method, and
+just pretend that you never made a
 mistake at all, because that's not crazy
-at all, is it? No! And... Let's see. So
-there's the summary. We've got these isa
-variables that do inheritance, import is
-module load time hook, autoload is
-method of last resort if something
-doesn't work, passage is a compile time
-constant for the current name space,
-variable that ends in a colon is a
-symbol table, and you look at it like
-any other hash and if this is name of a
+at all, is it? No!
+
+And... Let's see. So
+there's the summary. We've got these `ISA`
+variables that do inheritance, `import` is
+compile-time hook for modules, `AUTOLOAD` is
+method of last resort, it gets control if something
+doesn't work, `__PACKAGE__` is a compile time
+constant for the current namespace,
+a hash
+variable that ends in a double colon is a
+symbol table in Perl, and you look at it like
+any other hash and then if this is name of a
 variable we can ask about the function
 with that name or the array with that
-name dynamically, which is a useful
-thing to be able to do, and I've got 30
+name dynamically, which is really a useful
+thing to be able to do.
+
+And I've got 30
 seconds left. So here's something else
 you can do. There's a universal class in
 Perl, which is considered to be a base
 class of absolutely everything. It's not
-used for much. It implements can and isa
+used for much. It implements `can` and an `isa`
 method that tells if one object is
 inheriting from another. And you can say
-use help in universal to make universal
-inherit from help, and so now this does
+`use Help` in `UNIVERSAL` to make `UNIVERSAL`
+inherit from `Help`, and so now this does
 this, and yeah, I don't know.
 
  (laughter)
@@ -297,6 +344,8 @@ And thank you very much. The slides are
 online.
 
 (applause)
+
+== Sumana Harihareswara
 
  >> Well... That was our closing
 session. Thank you so much to Daniel,
