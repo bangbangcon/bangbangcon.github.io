@@ -20,19 +20,24 @@ Linux. So...
 
 We write programs. We debug things.
 Normally, when you debug a program, you
-will do things like look at the source
-code. Or, like, add print statements, or
-use a debugger, or know the programming
-language that your program is running
-in. Strace is a debugging tool that
-requires none of these things.
+will do things like 
+- look at the source code. 
+- Or, like, add print statements,
+- or use a debugger, 
+- .... or know the programming language 
+  that your program is running in. 
+
+strace is a debugging tool that
+requires NONE of these things.
 
 (applause)
 
 Like, so you can have a random program,
 and you can run it, and you can learn
-what it's doing. Am I a wizard? Strace
-lets you be a wizard. So let's break
+what it's doing. AM I A WIZARD? strace
+lets you be a wizard! 
+
+So let's break
 this down a little bit more. Because we
 believe that the world is ultimately
 logical. Maybe. Right. So the way this
@@ -40,17 +45,17 @@ works is I have a computer. And in that
 computer, there's, like, a hard drive.
 Right? And there are sometimes -- I'll
 open a file with Python and I'll be like
-f=open file. And then I'll read the data
+f=open(file). And then I'll read the data
 from it. And things I do not worry about
-include... How to write IDE driver...
-But specific details of a file system
+include... How to write an IDE driver,
+or specific details of a file system
 I'm working with. And a bunch of other
 things. Right? So... And the thing that
 deals with all of these things, like
 writing data to the network, like... All
 of your hardware, all of your file
-system, is your operating system. Which
-could be Linux or OSX or Windows. And we
+systems, is your operating system. Which
+could be Linux or OS X or Windows. And we
 use a lot of web APIs. But your
 operating system also has an API for
 things like reading files, communicating
@@ -67,10 +72,10 @@ system call.
 Which is almost true. But, like, yeah.
 Right. So I'm going to be talking about
 some of my favorite system calls. One of
-them is open. Which, like, opens files.
-One of them is execve, which starts
+them is "open". Which, like, opens files.
+One of them is "execve", which starts
 programs, and I'm going to talk a little
-bit about sendto and recvfrom, which are
+bit about "sendto" and "recvfrom", which are
 for sending data over the network. So
 the first thing I want to explain is --
 how do I even strace? Right? So there
@@ -81,7 +86,7 @@ suddenly you're spying on your program.
 
 And it'll start printing out things. So
 you'll see that this starts with execve.
-Execve is the name of the system call.
+'execve' is the name of the system call.
 So the very first thing that happens
 when you start Google Chrome is it
 starts Google Chrome. Which is kind of
@@ -142,7 +147,7 @@ tabs. I'm not a Chrome developer. I
 don't totally know. But we can look at
 that. So I straced it, and said just
 show me what processes it starts. And I
-added the-f flag, which follows forks
+added the '-f' flag, which follows forks
 and will trace all of the processes. You
 can trace everything. It's the best. And
 we see that this key here... That's,
@@ -173,14 +178,14 @@ fun. It's like... A problem. Maybe I'll
 tell you about that another time.
 
 So... I started looking at it, and I
-looked at connect. I was like -- oh, the
+looked at 'connect'. I was like -- oh, the
 connect system call will connect to an
 IP address on some port. That totally
-makes sense. And then it would send to
+makes sense! And then it would send to
 that -- this BP thing is the pool ID for
-the file in HTFS, so this is something
+the file in HDFS, so this is something
 that I recognized, even though it might
-be totally meaningless. I was like --
+be totally meaningless to you. I was like --
 oh, man, this is actual stuff, and I can
 see what it's sending over the network,
 without knowing how the program works at
