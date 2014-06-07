@@ -9,10 +9,12 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/archives.css" media="screen" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <script type="text/javascript" src="./javascripts/videos.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./javascripts/archives.js"></script>
     <title>!!Con</title>
   </head>
 
@@ -26,9 +28,20 @@
 
           <hr />
 
-          <section id="main_content">
-            <!-- Filled in with JS -->
+          <h2>Talk Archives</h2>
+
+          <section id="talk_container">
+
           </section>
+
+          <div id="talk-template" style="display:none" class="talk">
+            <h3 class="talk-info"></h3>
+            <div class="talk-youtube-thumb"></div>
+            <div class="talk-youtube"></div>
+            <div class="talk-embed"></div>
+            <div class="talk-transcript"></div>
+            <div style="clear:both"></div>
+          </div>
 
           <footer>
             Hosted on

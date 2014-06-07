@@ -1,0 +1,25 @@
+.talk {
+	margin-bottom: 20px;
+}
+
+.talk-info strong {
+	margin-left: 20px;
+}
+
+.talk-youtube-thumb {
+	float: left;
+	margin-right: 40px;
+}
+
+.talk-embed a {
+	cursor: pointer;
+}
+
+.talk-youtube-thumb a {
+	text-decoration: none;
+	border: none;
+}
+
+.talk-youtube-thumb img {
+	border: 1px solid deeppink;
+}
