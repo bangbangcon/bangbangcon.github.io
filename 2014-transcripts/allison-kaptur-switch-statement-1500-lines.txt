@@ -1,223 +1,156 @@
->> Awesome, thank you. So I'm Allison
-Kaptur, as Julia mentioned. I'm a
-facilitator here at Hacker School. So if
-you have questions about Hacker School,
-I would love to talk to you about those.
-Today we're going to see how a 1,500
-line switch statement powers your
-Python. Quick comment about the word
-your. I'm going to talk about CPython
-today, which is the reference
-implementation. If you don't know what
-Python you use, it's probably CPython.
-I'm also going to talk about Python 2.7.
-Many details in different versions and
-implementations are slightly different,
-but the main ideas hold. So to get to
-this 1500 line switch statement we're
-going to go deep into the internals of
-the Python interpreter. There are steps.
-Lexing, parsing, compiling, and
-interpreting. Today we're going to talk
-about the interpreter. Since Python is
-not a quote-unquote compiled language...
-Most languages that people don't think
-of as compiled do include a compiled
-step. It just doesn't do as much work as
-a compiled language would. So another
-way to think of that is that the
-interpreter is left with a lot of work
-to do. So Python compiles down to
-bytecode, and bytecode is the internal
-representation of Python to the
-interpreter. You also hear bytecode
-referred to as intermediate
-representation because it's between the
-top level and the low level
-implementation. So let's make this
-concrete. Let's get our hands on some
-bytecode. Here's a function we can use
-to poke around. Python exposes a
-boatload of internal implementation
-details at run time so this is not that
-hard. So this is a simple function --
-mods one against the other, and returns
-the result. So we'll get a handle on the
-function object, the code object, and
-the bytecode. The bytecode is not the
-same as the code object. It's one level
-down. So let's take a look. So that was
-not especially enlightening, just to
-print the thing. One thing we can tell
-just by doing this is a bytecode is a
-series of bytes. It looks weird because
-some are printable and others are not
-printable. We can do better by saying
-let's look at the ordinals instead of
-the printable or non-printable values.
-Now we have a series of numbers which is
-slightly more intelligible. So there's a
-bytecode disassembler. You want a
-disassembler any time you have assembly
-or some low level thing and you want to
-make it more readable. You never see
-this in a production system, and many
-are bad ideas and I'd love to talk about
-them later. So running our function
-through the disassembler, we get this,
-which is more intelligible. So the first
-is the line number, second is the index,
-the third is the instruction. Mapped to
-be more human readable. So we said load
-fast or binary_modulo. So the number of
-arguments, not the arguments themselves,
-and then the hint about what the
-arguments mean. The fifth column are not
-technically part of the bytecode but
-they're on the code object. So
-binary_modulo does not take any
-arguments, and that might break our
-mental model of what a binary function
-is. We think it takes two arguments. So
-to find out why this behaves this way,
-we need to dive into the virtual
-machine. You'll hear people use the
-terms virtual machine and interpreter
-interchangeably. This is a reasonable
-thing to do when it comes to Python. And
-virtual machine is just a program that
-is pretending to be a computer. So most
-of the work that the virtual machine is
-doing is manipulating the virtual
-machine stack. So when we look at the
-code we see lots of instructions that do
-things like push to the stack and pop
-from the stack and manipulate the stack
-in other ways. Here's an example with
-how our function mod works. We
-load_fast, these two arguments, A and B,
-push them onto the stack, then we binary
-mod, pops them, performs the
-calculation, and pushes the result back
-onto the stack. So this is why
-binary_modulo doesn't take arguments.
-It's a binary operation that mods
-whatever happens to be on the stack. If
-it's not in the right state, this
-returns garbage. I promised you a 1500
-line switch statement. This is it. This
-is the main loop of the CPython
-interpreter in all its glory. Taking
-each instruction, using the switch
-statement to find the right thing to do,
-doing that thing, and moving on to the
-next instruction. Here's it zoomed in a
-little bit, if the last slide was hard
-to read. This file is ceval.c. It's fun
-to read. It seems like such an obvious
-solution in some ways. You can think of
-being Guido and thinking -- okay, each
-function maps to a set of things that
-should happen. I'm writing c. So maybe
-for now I'll write a switch statement
-and it'll be a lot of cases. And then
-that's actually the solution and it
-works. Which is really surprising. 1500
-lines is a lot and not all c compilers
-can actually handle this. So in this
-file, ceval.c, is a switch that you can
-flip... I shouldn't say switch, but a
-flag you can flip if your compiler
-chokes and in the middle it falls down
-into a second switch statement so you
-can break it in half. This is really the
-code.
+>> Awesome, thank you. So I'm Allison Kaptur, as Julia mentioned. I'm a
+facilitator here at Hacker School. So if you have questions about Hacker
+School, I would love to talk to you about those. Here are some places you can
+find me - github and twitter.
 
-So back to that bytecode. Take a look at
-the instructions we generated. In
-particular, load_fast and binary_modulo.
-We won't have time for the others. So
-load_fast is the first instruction
-that's defined, the most commonly
-executed bytecode in most Python
-programs. The c is hard to read. Depends
-if you know c or not. I don't. You can
-see we've got a macro, get local, which
-takes the argument to the instruction,
-and then we push the result of that,
-whatever that does, onto the stack. How
-about this unbound local error. Hands up
-if you've raised one in Python? So this
-happens if you have a +=1 in a function
-body when a isn't local. And here's the
-code that generates that error. So cool.
-So here's binary_modulo. This fits with
-our mental model. We popped the first
-things off the stack. In practice we're
-using a slightly different macro that
-keeps the thing on the stack. Don't
-worry about that. Do stuff, calculate
-the results, and push the result back on
-the stack. So one thing you hear about
-Python is it's a dynamic language, and
-one of the things that dynamic means in
-this context is that a lot is happening
-at run time and a lot is not happening
-at compile time. The compiler doesn't
-know much and the interpreter has to do
-a lot of work. So actually calling this
-function -- this is the normal way you
-would call the function. It's pretty
-obvious what's going on. How about this?
-Guesses for what this will return? It's
-almost like you expect a trick question.
-Exactly. !!Con. And you've seen this
-before. You've seen it in this format,
-probably. When you do print with the
-percent symbol, you're actually modding
-two strings into each other.
+Today we're going to see how a 1,500 line switch statement powers your Python.
+Quick comment about the word "your". I'm going to talk about CPython today,
+which is the reference implementation. If you don't know what Python you use,
+it's probably CPython. I'm also going to talk about Python 2.7. Many details
+in different versions and different implementations are slightly different,
+but the main ideas hold.
+
+So to get to this 1500 line switch statement we're going to go deep into the
+internals of the Python interpreter. When you run a Python program, you can
+think about there being four steps. There's lexing, there's parsing, there's
+compiling, and there's interpreting. Today we're only going to talk about the
+interpreter. And we'll spend just a minute here on what it means for a Python
+program to be compiled, since Python is not a quote-unquote compiled
+language... Most languages that people don't think of as compiled do include a
+compile step. It just doesn't do as much work as a compiled language would. So
+another way to think of that is that the interpreter is left with a lot of
+work to do.
+
+So Python compiles down to bytecode, and bytecode is the internal
+representation of Python to the interpreter. You also hear bytecode referred
+to as an intermediate representation because it's between Python, the top
+level, and the low level implementation.
+
+So let's make this concrete. Let's get our hands on some bytecode. Here's a
+function we can use to poke around. Python exposes a boatload of internal
+implementation details at run time so this is actually not that hard. So this
+is a simple function - it takes two arguments, mods one against the other, and
+returns the result. So we'll get a handle on the function object, the code
+object, and the bytecode. The bytecode is not the same as the code object -
+the bytecode is one level down. So let's take a look. So that was not
+especially enlightening, just to print the thing. One thing we can already
+tell just by doing this is a bytecode is a series of bytes. It looks weird
+because some are printable and others are not printable. We can do a little
+bit better by saying let's look at the ordinals instead of the printable or
+non-printable values. Now we have a series of numbers which is slightly more
+intelligible.
+
+So there's a great tool in the standard library called dis, which is a
+bytecode disassembler. You want a disassembler any time you have assembly or
+some low level instruction and you want to make it human readable. Dis never
+targets a machine, so You very rarely see this in a production system, there
+are some exceptions, and many of them are bad ideas and I'd love to talk about
+them later. So running our function through the disassembler, we get this,
+which is more intelligible. Breaking this down, the first is the line number,
+second column is the index in the bytecode, the third column is the
+instruction name mapped to be more human readable. So instead of saying 124 we
+said load fast, instead of saying 22 we say binary_modulo. The third [EDIT:
+FOURTH] column is the arguments to the byte, the argument to the instruction,
+and it's not the number of arguments, it's the arguments themselves, and then
+the fifth column is a hint about what those arguments actually mean. The fifth
+column and the first column are not technically part of the bytecode but
+they're on the code object.
+
+So one thing you might notice is that binary_modulo does not take any
+arguments, and that might break our mental model of what a binary function is.
+We think it takes two arguments. So to find out why this behaves this way, we
+need to dive into the virtual machine.
+
+You'll sometimes hear people use the terms virtual machine and interpreter
+interchangeably. This is a reasonable thing to do when it comes to Python. And
+a virtual machine is just a program that is pretending to be a computer. So
+most of the work that the virtual machine is doing is manipulating the virtual
+machine stack. So when we look at the code we'll see lots of instructions that
+do things like push to the stack and pop from the stack and manipulate the
+stack in other ways.
+
+Here's an example with how our function mod works. We load_fast, these two
+arguments, A and B, push them onto the stack, then we binary mod, which pops
+the top two things off the stack, performs the calculation, and pushes the
+result back onto the stack. So this is why binary_modulo doesn't take
+arguments. It's a binary operation that mods whatever happens to be on the top
+of the stack. If the stack is not in the right state, this returns garbage.
+
+I promised you a 1500 line switch statement. This is it. This is the main loop
+of the CPython interpreter in all its glory. It's effectively taking each
+instruction, using the switch statement to find the right thing to do, doing
+that thing, and moving on to the next instruction.
+
+Here's it zoomed in a little bit, if the last slide was hard to read. This
+file is ceval.c. It's really fun to read and you should go check it out later.
+I love this because it seems like such an obvious solution in some ways. If
+you're sitting there, you can imagine yourself being Guido van Rossum and
+thinking -- okay, I have a string of numbers, and each number maps to an
+instruction, a set of things that should happen, and I'm writing C. So maybe
+for now I'll write a switch statement and there'll just be a lot of cases. And
+then that's actually the solution and it works. Which is really surprising.
+1500 lines is a lot and not all C compilers can actually handle this. So in
+this file, ceval.c, is a switch that you can flip... I shouldn't say switch,
+but a flag you can flip if your compiler chokes and in the middle it falls
+down into a second switch statement so you can break it in half if you need
+to. This is really the code.
+
+So back to that bytecode. Let's take a look at the instructions we generated.
+In particular, load_fast and binary_modulo. We won't have time for the others.
+So load_fast is the first instruction that's defined, it's the most commonly
+executed bytecode in most Python programs. The C is somewhat hard to read.
+Depends if you know C or not. I don't. You can see that we've got a macro, get
+local, which takes the argument to the instruction, the oparg, and then we
+push the result of that, whatever that does, onto the stack. How about this
+unbound local error. Hands up if you've raised an unbound local error while
+programming Python? So this happens if you have a +=1 in a function body when
+a isn't local. And here's the code that generates that error. So cool. So
+here's binary_modulo. This now fits with our mental model. We popped the first
+two things off the stack. (In practice we're using a slightly different macro,
+that TOP, that keeps the thing on the stack. Don't worry about that.) We do
+some stuff, calculate the results, and push the result back on the stack.
+
+So one thing you hear about Python is it's a dynamic language, and one of the
+things that dynamic means in this context is that a lot is happening at run
+time and a lot is not happening at compile time. The compiler doesn't know
+very much and the interpreter has to do a lot of work. So let's look at
+actually calling this function -- this is the normal way you would expect to
+call this function. It's pretty obvious what's going on. How about this?
+Guesses for what this will return? It's almost like you all expect this is a
+trick question. Exactly. !!Con. And you've seen this before, but you've seen
+it in this format, probably. When you do print with the percent symbol, you're
+actually modding two strings against each other.
 
  >> What?!
 
- >> So this is slightly less obvious
-than it appears to be. The first thing
-we check is to see if it's a string and
-dispatch to string formatting if it is.
-This is speed optimization. We don't
-have to do this, because the compiler's
-ignorance is even deeper than this. This
-is Python, so we can write a mod
-function on an object that defines what
-it means to calculate a modulus. And
-I've written something that's side
-affecting. So it knows what it means to
-mod one thing against another at run
-time, and the compiler that emitted that
-binary_modulo thing has no idea what's
-going to happen at run time. So the
-conclusion (inaudible) so you have no
-type information. And don't have any
-idea what's going to happen had a
-fundamental level. So even if you had
-something that was... Appeared to be
-obvious, like we're repeating a
-calculation, we're doing the
-binary_modulo of A and B twice, right
-next to each other in the code, surely
-you can just do that calculation once
-and store the result. You can't, because
-you don't have that knowledge about what
-the bytecode is actually doing. There's
-so much more to this, but ten minutes is
-not a lot of time. This first blog is a
-really awesome blog about the Python
-internals and I go through and read it
-about every six months and learn new
-things every time. I'm also working on a
-Python interpreter written in pure
-Python. We're currently stuck in
-nested generators, which is... I don't
-know the solution to that yet. And
-here's my blog. So thank you!
+ >> Yes! Or in this case a string and a tuple. So if we look back at
+binary_modulo, this is slightly less obvious than it appears to be. The first
+thing we do is we check is to see if v is a string and then we dispatch to
+string formatting if it is. This is speed optimization. We don't strictly have
+to do this, because the compiler's ignorance is even deeper than this. This is
+Python, so we can write a __mod__ function on a custom object that defines
+what it means to calculate a modulus. And I've written something that's side
+affecting, because hey, why not. So the interpreter will resolve what it means
+to mod one thing against another at run time, and the compiler that emitted
+that binary_modulo instruction has no idea what's going to happen.
+
+So there's this great paper by Russell Power and Alex Rubinsteyn, "How Fast
+Can We Make Interpreted Python?" Their conclusion, using the strategies that
+they employed, was "not very." And one of the reasons why this is so
+challenging is because you have no type information. And so you don't have any
+idea what's going to happen on a very fundamental level. So even if you had
+something that was... Appeared to be obvious, like we're repeating a
+calculation, we're doing the binary_modulo of A and B twice, right next to
+each other in the code, surely you can just do that calculation once and store
+the result. You can't, because you don't have that knowledge about what the
+bytecode is actually doing.
+
+There's so much more to this, but ten minutes is not a lot of time. This first
+blog is a really awesome blog about the Python internals and I go through and
+read it about every six months and learn new things every time. I'm also
+working on a Python interpreter written in pure Python with Ned Batchelder.
+If you'd like to contribute to that, I'd love to talk to you - we're currently
+stuck on nested generators, which is... I don't know the solution to that yet.
+And here's my blog. So thank you!
 
 (applause)
