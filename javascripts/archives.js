@@ -193,14 +193,14 @@
 		newTalk.find('.talk-info').html('<a href="./speakers.html#' + talk.authorslug + '">' + talk.author + '</a><strong><em>' + talk.title + '</em></strong>');
 		if (talk.youtube) {
 			newTalk.find('.talk-youtube-thumb').html('<a href="http://youtube.com/watch?v=' + talk.youtube + '"><img src="http://img.youtube.com/vi/' + talk.youtube + '/1.jpg" alt="" /></a>');
-			newTalk.find('.talk-youtube').html('<a href="http://youtube.com/watch?v=' + talk.youtube + '">View on Youtube!</a>');
+			newTalk.find('.talk-youtube').html('<a href="http://youtube.com/watch?v=' + talk.youtube + '">View on YouTube!</a>');
 			newTalk.find('.talk-embed').html('<a>View right here!</a>').click(function(evt) {
 				embed($(evt.target).parents('.talk'), talk.youtube)
 			});
 		} else {
 			newTalk.find('.talk-youtube').text('Unfortunately, the recording of this talk was lost due to a technical issue.');
 		}
-		newTalk.find('.talk-transcript').html('<a href="./2014-transcripts/' + talk.transcript + '.txt">Read the Transcript!</a>');
+		newTalk.find('.talk-transcript').html('<a href="./2014-transcripts/' + talk.transcript + '.txt">Read the transcript!</a>');
 		newTalk.show();
 		return newTalk;
 	}
