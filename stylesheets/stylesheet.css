@@ -77,8 +77,6 @@ body {
   font-weight: 300;
   font-size: 1.3em;
   line-height: 1.5;
-/**  background: #581224 url(../images/grid-blanco-cien-10.png) repeat; 
-  background-position:center; **/
   background-color: #3f0c1a;
   font-family: 'Lato', "PT Sans Narrow", Helvetica, Arial, serif;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
@@ -144,7 +142,6 @@ h1,h2,h3,h4 {
 }
 
 #container {
-/*  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat; */
   min-height: 595px;
 }
 
@@ -216,19 +213,6 @@ a.button span {
   padding-left: 50px;
   display: block;
   height: 23px;
-}
-
-#download-zip span {
-  background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
-}
-#download-tar-gz span {
-  background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
-}
-#view-on-github span {
-  background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
-}
-#view-on-github {
-  margin-right: 0;
 }
 
 tt {
