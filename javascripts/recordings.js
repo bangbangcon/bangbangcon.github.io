@@ -97,7 +97,7 @@
 			authorslug: "cfournier",
 			title: "How to Stay in Love with Programming",
 			youtube: "sc8sc-ELMhA",
-			transcript: " camille-fournier-how-to-stay-in-love-with-programming",
+			transcript: "camille-fournier-how-to-stay-in-love-with-programming",
 		},
 		{
 			author: "Lisa Neigut",
