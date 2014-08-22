@@ -170,11 +170,11 @@
 			transcript: "daniel-luxemburg-brainwaves-on-your-computer",
 		},
 		{
-			author: "Adam Parrish",
+			author: "Allison Parrish",
 			authorslug: "aparrish",
 			title: "Scrabble sucks! Toward higher-order word games",
 			youtube: "N9FRaxbiR_8",
-			transcript: "adam-parrish-scrabble-sucks-toward-higher-order-word-games",
+			transcript: "allison-parrish-scrabble-sucks-toward-higher-order-word-games",
 		},
 		{
 			author: "Mark Jason Dominus",

@@ -4,6 +4,6 @@ This directory contains a growing collection of materials that accompany the 201
 
 ## Links to speakers' own blog posts, repos, etc.
 
-  * Adam Parrish: [Blog post: "Scrabble sucks: my talk at !!Con"](http://www.decontextualize.com/2014/05/scrabble-sucks-my-talk-at-con/)
+  * Allison Parrish: [Blog post: "Scrabble sucks: my talk at !!Con"](http://www.decontextualize.com/2014/05/scrabble-sucks-my-talk-at-con/)
   * David Turner: [Slides and code from "Now you're thinking with PCMPISTRI!"](https://github.com/novalis/thinking-with-pcmpistri)
   * More to come...
