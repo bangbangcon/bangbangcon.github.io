@@ -258,8 +258,8 @@ glitchy.
 Cool. Okay. And I've got 52 seconds. So
 someone is doing a talk on awk. I think
 that's awesome. So I'm going to show you
-this awk function that spits out dev
-data and dumps it to (inaudible). This
+this awk function that spits out pcm
+data and dumps it to /dev/dsp. This
 is randomly generating. This is just the
 power of being able to control some
 digital audio. And I think it sounds
