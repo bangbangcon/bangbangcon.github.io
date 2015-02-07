@@ -80,7 +80,7 @@ that is super quick. So hopefully the
 whole program will be a lot quicker as
 well. So yeah. This only works for
 recursing. If you try to do it on loops
-or (inaudible) recursion, you will fail.
+or tail recursion, you will fail.
 And it also works on mu benchmarks. You
 take these ten lines of code and turn it
 into something like a dozen or a hundred
@@ -190,7 +190,7 @@ you can do it again, because now abc has
 become DCDC. So if you do that, until
 finally you get a single subroutine
 call. So Jez does a lot of work to show
-how that's within a factor (inaudible)
+how that's within a factor log(n)
 of optimal. I'm not concerned with that.
 But what I'm going to do is use it on
 real programs.
