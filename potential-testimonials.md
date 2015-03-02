@@ -19,8 +19,8 @@ https://twitter.com/DanielleSucher/status/468148788310183936
 "The best thing I did in 2014" -- @mrb_bk
 https://twitter.com/mrb_bk/status/551075451075317760
 
-"Diverse and inspiring talks, friendly people and enlightening unconferencing. A weekend well spent!" -- @graue
-https://twitter.com/graue/status/468189545549549570
+"Diverse and inspiring talks, friendly people and enlightening unconferencing. A weekend well spent!" -- Scott Feeney
+https://scott.mn/
 
 "@bangbangcon was amazing! Got to speak in public for the 1st time, met great people, learned a lot and got tons of new ideas!" -- @rfkdr
 https://twitter.com/rfkdr/status/468396126563880965
