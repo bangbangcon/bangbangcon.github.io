@@ -77,7 +77,7 @@ What do we do when we interpret them as
 proof constructs and proof techniques?
 The answer is they give you a bridge
 between these two seemingly separate
-worlds. So I could yak your head off for
+worlds of constructive and classical logic. So I could yak your head off for
 an hour about this. I'm not going to do
 it until the end if we have time. This
 is what I personally think is cool about
@@ -85,14 +85,14 @@ this. And then there's this completely
 separate connection. Which is -- if
 you've ever hacked on LDM, there's an
 internal representation it uses called
-static (inaudible) assignment form. It
+static single assignment form. It
 makes it easier to optimize imperative
 code. Turns out CPS is exactly the same
 thing for functional code. If you take
 functional code and turn it into CPS
 form it becomes easier to optimize, and
 there's an entire book on this. By
-(inaudible). And I'm not going to have
+Andrew Appel. And I'm not going to have
 time to talk about it, which is good,
 because I don't fully understand it.
 

@@ -64,9 +64,9 @@ This strange snippet of code inside that
 person's code, and you think -- well,
 this could probably be optimized. So it
 looks like this. And you think -- well,
-I don't really want to do the null
-operation. If I switch to the null
-operation, and switch to (inaudible),
+I don't really want to do the not
+operation. If I get rid of the not
+operation, and just switch end1 and end2,
 it'll save me time. It'll be the same.
 So you want to convince yourself that
 these two pieces of codes are equal. So
