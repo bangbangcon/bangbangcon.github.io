@@ -11,13 +11,13 @@ https://twitter.com/silentbicycle/status/468190712534925312
 "I had so much fun at #bangbangcon—great concept for a conference and I met lots of rad people!" -- @aparrish
 https://twitter.com/aparrish/status/468378289783181313
 
+"Seriously, you put on a hell of an event." -- @daniellesucher
+https://twitter.com/DanielleSucher/status/468148788310183936
+
 ## Still need to get permission
 
 "The best thing I did in 2014" -- @mrb_bk
 https://twitter.com/mrb_bk/status/551075451075317760
-
-"Seriously, you put on a hell of an event." -- @daniellesucher
-https://twitter.com/DanielleSucher/status/468148788310183936
 
 "Diverse and inspiring talks, friendly people and enlightening unconferencing. A weekend well spent!" -- @graue
 https://twitter.com/graue/status/468189545549549570
