@@ -5,7 +5,6 @@ body {
     color: #6B1834;
     font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
     line-height: 1.3;
-    /*text-align: justify;*/
 }
 
 a {
@@ -51,8 +50,6 @@ a:hover {
 .inner {
     max-width: 750px;
     margin: 0 auto;
-/*    padding-top: 3em;
-    padding-bottom: 3em;*/
     padding:3em;
 }
 
@@ -76,7 +73,6 @@ p, ul {
 }
 
 .speaker {
-    /*width: 375px;*/
     text-align: center;
     display:inline-block;
     padding: 0 3em;
@@ -113,7 +109,6 @@ footer {
     color: beige;
     text-align: center;
     font-family: "PT Sans Narrow", sans-serif;
-
     background: #6B1834; 
 }
 
