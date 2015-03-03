@@ -17,14 +17,15 @@ a:hover {
 
 .header {
     margin: 0;
-    padding: 30px;
+    padding: 0px 0px 50px 0px;
     color: beige;
     text-align: center;
     font-family: "PT Sans Narrow", sans-serif;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
     background: #6B1834; 
+    line-height: 1;
 
 }
+
 
 #container {
     background-color: beige;
@@ -37,7 +38,7 @@ a:hover {
 }
 
 .header p {
-    font-size: 180%;
+    font-size: 190%;
     margin: 0;
     padding: 0.25em;
 }
@@ -47,10 +48,15 @@ a:hover {
     text-decoration: none;
 }
 
+.header img {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
 .inner {
     max-width: 750px;
     margin: 0 auto;
-    padding:3em;
+    padding:4em;
 }
 
 h1 {
@@ -122,4 +128,22 @@ footer a {
 
 footer a:hover {
     color:#F2F289;
+}
+
+
+@media (max-width: 650px) {
+    .header span {
+        display:block;
+        padding: 0px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 95%;
+    }
+    .inner {
+        padding: 2em 3em;
+    }
 }
