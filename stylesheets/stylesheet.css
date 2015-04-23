@@ -15,6 +15,10 @@ a:hover {
   color: #AF2754;
 }
 
+hr {
+    border-style: solid;
+}
+
 .header {
     margin: 0;
     padding: 0px 0px 50px 0px;
