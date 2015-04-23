@@ -17,6 +17,7 @@ a:hover {
 
 hr {
     border-style: solid;
+    margin: 3em 0;
 }
 
 .header {
@@ -75,6 +76,8 @@ h2 {
 
 h3 {
     font-size: 180%;
+    margin-bottom: 0em;
+    line-height: 1;
 }
 
 p, ul {
@@ -102,9 +105,9 @@ p, ul {
 
 .speaker-img {
     float: right;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-bottom: 1em;
 }
 
 .speaker img, .speaker-img img {
@@ -114,7 +117,7 @@ p, ul {
 }
 
 .speaker-bio {
-    color: black;
+    /*color: black;*/
 }
 
 #mc_embed_signup {
