@@ -141,6 +141,25 @@ p, ul {
     border-bottom: 6px #6d0019 double;
 }
 
+/* Homepage speaker pictures */
+.speaker-pic-row div:not(:last-child){
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 1px;
+}
+
+.speaker-pic-row div:nth-last-child(2){
+  margin-right: 0;
+}
+
+.speaker-pic-row img {
+  border: 1px solid #6d0019;
+}
+
+.speaker-pic-row a {
+  border: none;
+}
+
 #mc_embed_signup {
     font-size: 120%;
     text-align:center;
