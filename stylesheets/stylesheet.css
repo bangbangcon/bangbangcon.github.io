@@ -113,6 +113,7 @@ p, ul {
     width:100px;
     height:100px;
     border: 1px solid #6d0019;
+    background-color: #6B1834;
 }
 
 .speaker-info {
@@ -142,28 +143,22 @@ p, ul {
 }
 
 /* Homepage speaker pictures */
-.speaker-pic-row {
-  margin-left: auto;
-  margin-right: auto;
-  width: 534px;
+.speaker-pics {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-
-.speaker-pic-row div:not(:last-child){
-  float: left;
-  margin-right: 6px;
-  margin-bottom: 1px;
+.speaker-pics div {
+    display: inline-block;
 }
 
-.speaker-pic-row div:nth-last-child(2){
-  margin-right: 0;
-}
-
-.speaker-pic-row img {
+.speaker-pics img {
   border: 1px solid #6d0019;
+  background-color: #6B1834;
 }
 
-.speaker-pic-row a {
+.speaker-pics a {
   border: none;
 }
 
