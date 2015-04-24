@@ -17,7 +17,7 @@ a:hover {
 
 hr {
     border-style: solid;
-    margin: 3em 0;
+    margin: 2em 0 3em;
 }
 
 .header {
@@ -104,9 +104,8 @@ p, ul {
 }
 
 .speaker-img {
-    float: right;
-    margin-top: 2em;
-    margin-left: 1em;
+    float: left;
+    margin-right: 1em;
     margin-bottom: 1em;
 }
 
@@ -116,8 +115,30 @@ p, ul {
     border: 1px solid #6d0019;
 }
 
-.speaker-bio {
-    /*color: black;*/
+.speaker-info {
+    /*border: 1px green solid;*/
+}
+
+.speaker-info h3 {
+    margin: 0;
+}
+
+.speaker-info p:nth-of-type(2) {
+    clear: both;
+}
+
+#keynotes h2, #speakers h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#speakers h2 {
+    margin-top: 1.5em;
+}
+
+#keynotes {
+    padding-bottom: 2em;
+    border-bottom: 6px #6d0019 double;
 }
 
 #mc_embed_signup {
@@ -163,5 +184,17 @@ footer a:hover {
     }
     .inner {
         padding: 2em 3em;
+    }
+    .speaker-img {
+        text-align: center;
+        float: none;
+        margin: 0 auto ;
+    }
+    .speaker-info h3 {
+        text-align: center;
+    }
+
+    .speaker-info p:nth-of-type(1) {
+        text-align: center;
     }
 }
