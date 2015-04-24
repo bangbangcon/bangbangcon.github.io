@@ -142,6 +142,13 @@ p, ul {
 }
 
 /* Homepage speaker pictures */
+.speaker-pic-row {
+  margin-left: auto;
+  margin-right: auto;
+  width: 534px;
+}
+
+
 .speaker-pic-row div:not(:last-child){
   float: left;
   margin-right: 6px;
