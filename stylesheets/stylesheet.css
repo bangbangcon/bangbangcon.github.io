@@ -188,10 +188,13 @@ p, ul {
 .sponsor-list > hr {
     width: 70%;
     margin: 1em auto;
+    margin-bottom: 1.5em;
 }
 
 .sponsor {
     display: inline-table;
+    position: relative;
+    top: -1em;
 }
 
 .sponsor .logo{
@@ -199,9 +202,15 @@ p, ul {
     height: 6em;
     padding: 1em;
     margin: 2px 2px;
+    margin-top: -1em;
     border: 1px solid #6d0019;
     background-color: white;
     border-radius: 10px;
+}
+
+.sponsor .magic {
+    visibility: hidden;
+    height: 0px;
 }
 
 .sponsor img {
