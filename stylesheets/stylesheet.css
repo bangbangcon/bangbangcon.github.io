@@ -220,6 +220,8 @@ p, ul {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     /*http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/*/
 }
 
