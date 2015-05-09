@@ -80,6 +80,12 @@ h3 {
     line-height: 1;
 }
 
+h4 {
+    font-size: 120%;
+    margin-bottom: 0em;
+    line-height: 1;
+}
+
 p, ul {
     font-size: 150%;
     margin-top: 0.5em;
@@ -168,6 +174,58 @@ p, ul {
     position: relative;
     top: -1em;
 }
+
+/*sponsors listing*/
+
+.sponsor-list {
+    text-align: center;
+}
+
+.sponsor-list h3 {
+    margin: 0.5em 0;
+}
+
+.sponsor-list > hr {
+    width: 70%;
+    margin: 1em auto;
+    margin-bottom: 1.5em;
+}
+
+.sponsor {
+    display: inline-table;
+    position: relative;
+    top: -1em;
+}
+
+.sponsor .logo{
+    min-width: 10em;
+    height: 6em;
+    padding: 1em;
+    margin: 2px 2px;
+    margin-top: -1em;
+    border: 1px solid #6d0019;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sponsor .magic {
+    visibility: hidden;
+    height: 0px;
+    font-size: 0px;
+}
+
+.sponsor img {
+    max-width: 13em;
+    max-height: 5em;
+    /*outline: 1px red solid;*/
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    /*http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/*/
+}
+
 
 footer {
     margin: 0;
