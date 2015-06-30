@@ -4,7 +4,7 @@ This directory contains live transcriptions of the talks at !!Con
 2014.  Our real-time captioner was the amazing [Mirabai
 Knight](http://stenoknight.com/).
 
-# Transciption syncing
+# Transcription syncing
 
 2014 !!Con’s talks are all [up on YouTube](https://www.youtube.com/channel/UC2kxl-dcUYQQvTCuQtfuChQ), which is great. But all of us, together, can collaborate to take these talks to the next level by syncing up these *great* transcripts with those *great* videos!
 
