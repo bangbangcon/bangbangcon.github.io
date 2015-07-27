@@ -5,4 +5,4 @@ This directory contains a growing collection of materials that accompany the 201
 ## Links to speakers' own blog posts, repos, etc.
 
   * Speaker Name: [Speaker's talk title!](http://example-link-to-talk-materials)
-  * Peter Boothe: [QUINE + TAR = QUININE!!! (coed and slides)](https://github.com/pboothe/quinine)
+  * Peter Boothe: [QUINE + TAR = QUININE!!! (code and slides)](https://github.com/pboothe/quinine)
