@@ -6,3 +6,4 @@ This directory contains a growing collection of materials that accompany the 201
 
   * Speaker Name: [Speaker's talk title!](http://example-link-to-talk-materials)
   * Peter Boothe: [QUINE + TAR = QUININE!!! (code and slides)](https://github.com/pboothe/quinine)
+  * Simon Sapin: [Cross-platform file names in Rust. WTF-8: a wonderful and horrifying hack! (Slides with notes)](http://exyr.org/2015/!!Con_WTF-8/slides.pdf)
