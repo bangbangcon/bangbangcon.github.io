@@ -9,4 +9,5 @@ This directory contains a growing collection of materials that accompany the 201
   * Kiran Bhattaram: [Bending the Laws of Physics! Or, How Wi-Fi Keeps Getting Faster.](http://www.kiranbot.com/images/wifi/slides.pdf)
   * Max Veytsman: [i'm in ur javaz haxxing ur codez!](http://blog.ontoillogical.com/assets/files/bangbangcon2015.pdf)
   * Sasha Laundy: [Spinning Metal Platters in the Cloud!!!](https://speakerdeck.com/slaundy/my-con-talk)
+  * Ashley Blewer: [Don't know about you, but I'm feeling like SHA-2!: Checksumming with Taylor Swift](http://ablwr.github.io/taylorswift/#/)
   * (add yours here)
