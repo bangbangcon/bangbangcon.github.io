@@ -1,0 +1,170 @@
+KEVIN:  All right.  Cool.  All right.  Can you hear me okay?  
+Yeah?  So for a long time, for a couple years I had this great 
+phone that Motorola made for the Third World called the 
+MotofoneF3.  So you can't actually make exclamation points on 
+there so that's why it says II con there there.  But that's the 
+only downside.  It lasted for several weeks.  It's 
+indeinstructable. but unfortunately, AT&T shut down their 2G 
+network so I had to get a new phone.  So my options at the time 
+were to get some kind of smartphone but I find these distracting 
+and annoying and stuff, or to get another dumb phone but all of 
+these are sort of cheap and plastic and stuff.  And so I decided 
+to pursue the obvious solution, which is to build my own phone.  
+And in particular what I wanted was a phone that matched the 
+rest of the stuff that that I have or use every day.  Things 
+like a bike, sunglasses, or a watch.  All of these things have a 
+purpose but they have all sort of -- they had this aesthetic 
+quality was that they were nice, and in ten years, they're still 
+going to be nice.  It's not just like a gadgety technology 
+thing.  So that's what I wanted to have out of a phone.  There's 
+three things that I'm going to talk about.  There's some 
+electronics stuff, some software stuff, and then some industrial 
+design stuff.  All right.  So it's a phone.  Obviously you're 
+going to need some electronics.  Luckily while I was in college 
+I had a one-semester lab about electronics.  And --
+[ Laughter ]
+-- and as an example from my work at the time, I don't know if 
+you can see my work down here, it says G minus.  So G minus is 
+the kind of grade you get at a liberal arts college.  It stands 
+for "good minus."  And its scale, it went through VG for "very 
+good" and E for "excellent."  So G minus is basically a "D."  So 
+this is actually how I made the electronics for this phone.  I 
+knew that I needed some kind of cellular computer chip thingy to 
+talk to the cell network and so I Googled around.  And I found 
+this guy.  This is actually a photo from the press release.  So 
+I mean, it's obviously going to be sick!
+[ Laughter ]
+So it came with, like, hundreds of pages of documentation.  So 
+I'm kind of scrolling through this stuff and you can see that 
+there's a lot of words...
+          There's, like, these diagrams and these chip have all 
+these pins and colors and stuff.  But you keep diving in, 
+there's actually some kind of example, helpful example circuits. 
+ So this is an example schematic for connecting two SIM card.  
+And so the module is on the left and there's some resistors and 
+stuff, and then some capacitors and then you connect them to the 
+SIM card and I saw this schematic and was like, "looks good!" 
+And then the same thing for the other stuff.  This is the 
+antenna documentation.  This one's cooler because it has these 
+blob things.  I have no idea what the fuck those are.  But you 
+scroll down.  And you find this schematic.  So that's how I made 
+those schematics.  I just copy and pasted everything.  I need a 
+speaker and I, like, media microphone and here's an example of 
+an application and I was like,"Looks good."  Of course that's 
+only half the battle.  Once you have the schematic you have to 
+have a circuit board and lay it out schematically.  So how I did 
+this, I played Daft Punk really loud.  This is actually fun.  
+You lay all these things out on a grid, and draw all these wires 
+and connect them up and then you pay nice people 50 bucks and 
+you get in the mail, some nice circuit boards.  So this was 
+wire, this was just copper and fiberglass.  This was tricky 
+because the components are really small.  This is a picture of a 
+resistor on a quarter.  So the way that I did this, I got some 
+tweezers.  So this is -- I just printed out, like, a map of the 
+circuit board and then I kind of took all the components out of 
+the really tiny packages and then put them on this map and then 
+I sort of unpacked everything.  And it was really important, "Do 
+not sneeze!" I'll never find these things again.  They're so 
+small and what you do is, you get, like, this lead paste and 
+it's actually like in this syringe.  So you syringe this on the 
+exposed pads.  And this stuff is like this gooey stuff.  And 
+it's sticky.  And you place them on lead glue.  But of course 
+you have to solder it.  There's two schools of thought with 
+this.  I went with the frying pan school of thought.  Some 
+people use toaster ovens.  It was, like, super ghetto but it 
+totally worked.  So that's how I made the hardware.  You just 
+connect a bunch of things.  They don't necessarily do anything 
+yet.  To do anything, you have to of course, add a tiny 
+computer.  So the tiny computer has various responsibilities, 
+detecting the button presses, having these chats about this 
+other tiny computer like there's incoming calls and stuff like 
+that.  So this is a tiny computer that I used.  It's actually 
+related to a lot of the arduino stuff.  I'll point out a couple 
+of things.  They're $8 in quantities of one.  If you buy a 
+thousand, it's only $4.  I run it another 11 megahertz, which if 
+you're running physical stuff, it's different.  You're running 
+11 million things.  It's not slow in computer world but if 
+you're thinking, I need to blink these lights on and off..."  
+And then I needed 128 kilobytes of programming space, which is 
+enough for about 1.4 jQuerys.  Of course, it's small, there's no 
+operating system.  There's no thread.  There's no garbage 
+collection unless you write your own garbage collector.  You 
+can't run sweep because of course, you know, nothing else will 
+happen.  You won't have call-backs.  So it's kind of a hostile, 
+hostile environment.  So before I started programming I sort of 
+planned all this stuff out using state charts.  This is a little 
+picture of my notebook and I was basically just thinking 
+through, if you're familiar with finance statement sheet 
+diagrams it's a very similar kind of thing.  Just planning out, 
+okay, the phone is idle.  And maybe an incoming phone happens, 
+and it's going to transition into this lit state and then the 
+ringing happens and then I press a button.  Or whatever.  So 
+that's how I planned it out.  There's a great book I found about 
+writing it out.  So if you're interested in this, I highly 
+recommend this book.  So once you're at the software, you don't 
+have a phone.  This is just a machine that will get you turned 
+out of an airport.  You gotta put, like, this in a box, right?  
+So that's the last part of my talk which is the industrial 
+design stuff.  And again I started by just sketching out some 
+stuff that I want in a phone and I don't actually have 
+woodworking skills or anything like that.  And I said I wanted 
+to keep it simple and basically I had a little box that would be 
+made out of walnut and then would wrap the buttons with leather 
+and to draw that out, I used this parametric design software.  
+And it's really cool because you make a 2D sketch and then you 
+extrude that sketch to make a 3D object.  And then paste new on 
+that face.  And then you can extrude that again or cut that 
+again and so you kind of go through this process of sketching 
+and then building out features until you make a full 3D model of 
+what you want.  And this stuff is really cool.  This was the 
+first time I that played with this.  But it sort of makes emacs 
+and Vim look really like kid's toys.  So anyway, I made this 
+model.  But, you know, this is just a model on a computer.  I 
+actually need to make this thing but you know, before anyone 
+says, "3D printer."  I want to make this out of wood, which you 
+can't print...
+          If this is -- if there's any 1990 this project where I 
+went to full on "crazy town" it would be here because this is 
+when I bought a CNC.  It's basically like a robot drill.  I 
+guess the speakers are not plugged in.  But it sounds exactly 
+what you think it would -- it's like "wrr, wrr, wrr."  And 
+supposedly it's accurate to, like, 6 microns which is insane.  
+And of course, I'm working with wood.  But the best part of this 
+machine was that it came with a hat!  I got this model and 
+there's this whole nother world which is really cool about cam 
+software about how you actually move this tool around to, like, 
+rip out the different parts of material and, you know, if you 
+have different sizes of tools there's different constraints 
+about the stuff you can do.  It took me a while to sort of 
+figure this stuff out.  So a lot of busting through different 
+kinds of wood and I broke some of these really expensive drill 
+bits but eventually I made a little model of this thing.  And 
+this is MDF, which is -- and I was working with MDF because it 
+was cheap.  And then I started working with bamboo and walnut 
+and I think last week, this was basically to the point where I 
+was at.  But thanks to the motivational power of conference 
+talks, I managed to laser print, or, like, laser cut the surface 
+and do some stuff out of walnut.  So if you want to see this 
+come see this, and I have some other busted pieces and stuff.  
+But I'm about 350 hours into this project, which, according to 
+Malcom Gladwell that makes me a 3.5% expert.  Artisanal cell 
+phones.  And from this position of authority, I want to leave 
+y'all with one thing, which is that, making stuff is hard.  
+Making stuff is really hard.  And it's been really cool learning 
+about all these different things 'cause, like, now out in the 
+world I kind of look at stuff in a different way about how did 
+they make this thing?  How did they make this do that, and 
+whatever.  And it's easy to get lost in the weeds with whatever. 
+ There's all this stuff here, all this stuff there.  Things 
+break and fly out of machines really fast.  But when you're out 
+and deep and lost in the weeds one thing that I want to remind 
+you guys to do is to just celebrate your victories.  So 
+occasionally just try and step back, and, you know, look around 
+and be pleased with yourself.  I was so pleased when I made 
+those lights blinked.  That was the best thing ever.  I used 
+this machine and I used it to cut this larger piece of wood to 
+three smaller pieces of wood.  It's awesome.  So I want everyone 
+here to try and go make something crazy and reach far but when 
+you do that, when you get lost in the weeds, make sure you take 
+time and step back and pat yourself on the back.  Thanks.
+[ Applause ]

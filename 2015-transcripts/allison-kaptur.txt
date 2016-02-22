@@ -1,0 +1,284 @@
+ALLISON:  I think I'm the 15th microphone test today?  How's the 
+sound?  Not good.
+LEO:  It's surprising how much it actually doesn't help.
+ALLISON:  How much the...?
+LEO:  How much the mic holder doesn't help the way that you 
+want.  Putting it here...
+ALLISON:  How is here and I just project?  Still no?
+AUDIENCE MEMBER:  No, project.
+ALLISON:  Having my lapel and then I project?  That's okay?  
+That's okay.  I'll go for the projecting.  Now, for the next 
+kind of projecting.  Okay.  Hi.  I'm Alison Kaptur and I work at 
+Dropbox in San Francisco.  I used to work at the Recurse Center 
+when it was Hacker School.  Today I want to talk about the 
+recursion limit in Python without recursion or any limits.  
+That's the two pieces.  So recursion, a recursive function is 
+one that calls itself.  Here's factorial for n of one, it 
+returns one, and otherwise we'll take n and multiply it by the 
+result of calling the factorial n - 1.  So it works the way that 
+you would expect, here's factorial ten, here's factorial of 500. 
+ Here's factorial of 999.  How about a thousand?  No, that does 
+not work.  So instead, Python is throwing an exception that the 
+maximum recursion depth has been exceeded.  What's going on 
+here?  Well, in Python there's a recursion limit that governs 
+home levels of recursion that you can have, and that limit is 
+thousand and so we tried thousand it doesn't work.  It's 
+recursion but hang on a minute, we can set the recursion limit 
+in runtime, and here's a screenshot of the doc saying a user may 
+have to set the limit higher when she has a program that 
+requires deep recursion.  That's me!  Great!  So let's set it to 
+be really big in case we needed really big factorials, like 100 
+million, let's say.  So we calculate factorial of 100,000 and it 
+works, great.  Let's try factorial of a million!
+[ Laughter ]
+So now, instead of throwing an error, Python crashes.  It's 
+insightful and sending information to Apple pops up.  So that's 
+not better.  Although I will say, say, segfaulting Python is 
+really fun.  And any day we fault Python is a good day in my 
+book.  So yeah, what happened?  So if we look back at this 
+documentation there's stuff that we ignored like, causing an 
+overflow of the C stack and then crashing Python.  So at some 
+point, the c stack gets too big and the point at which that 
+happens depends on your system, so it might be on my computer 
+than on yours.  Fun.  So here's a question:  We know that the 
+Python recursion limit is a thousand by default and we tried to 
+calculate a factorial of a thousand and this function requires 
+one level of recursion per n.  So a thousand should work, right? 
+ Why did we get the limit -- why did we hit the limit on 
+thousand, instead of a thousand and one?  So the first thing 
+that you might think is there's an off by one error and the 
+limit is enforcing less than a thousand.  But we can check this 
+in the source code and it's definitely not.  This is the 
+relevant snippet.  Depth greater than the limit, so that's not 
+the error.  So where's this extra level of recursion coming 
+from?  So in fact, what's going on is that the recursion limit 
+in Python -- I have to put scare quotes around that -- is not a 
+limit on recursion per se, it's a limit on the total number of 
+stack frames now, we get one stack frame for each recursive call 
+we made, but in this case it could have been a rebel, or a 
+module, or a function, or somewhere else.  In fact we don't 
+actually need to have any recursive calls at all.  Python will 
+through a recursion limit, will throw this limit when you hit 
+the number of stack frames you specify regardless whether or not 
+any of them were recursive.  So someone mentioned it involves 
+user dictionary words.  So I experimentally, that you can hit 
+the recursion limit this way definitely?  Put so you'll get this 
+exception whenever you reach the recursion limit in the number 
+of calls in the stack without any recursion.  So that's part 
+one.  The recursion without any recursion.  Now, let's do part 
+two, the recursion without any limits.  So if you're a fan of 
+recursion, you might be familiar with TCO.  Tail call 
+optimization.  And tail call optimization is an optimization in 
+some languages that says, "if we don't need to keep these lying 
+around, we might as well not build the call stack in the first 
+place, we'll just toss the frames and we'll just have this one 
+frame not using a huge amount of memory and not crashing 
+Python."  And so in our example there is work to do while 
+unwinding the stack.  We said recurs down to n of one as we 
+build up the stack and then as we unwind do that multiplication 
+and so we're doing data on that stack, and all these and we need 
+that around to do the multiplication.  The formal way to put 
+this is that:  The recursion is not in the tail position put we 
+can fix this.  And all we have to do is move the multiplication 
+to precede the recursion instead of following it.  So here we're 
+keeping it an accumulated product and when we get to n (1) we're 
+done. so now we've moved into recursion, and there's no extra 
+work to be done, we're unwinding the call stack.  Great, so now 
+that the factorial function is not recursive, we don't have to 
+worry about the recursion anymore, right?  Not exactly.  In 
+fact, not at all.  We've written our function with recursion in 
+the tail position but the compiler doesn't care about that.  The 
+compiler is doing almost exactly the same thing that it was 
+doing before and it's going through the entire giant call stack 
+and we have a problem again.  Python doesn't support tail call 
+optimization.  What follows here is some of the goofiest and fun 
+Python that I've ever written and I have to give red credit to 
+my co-conspirators to it to Paul Dimonteand Claire Acleve 
+(phonetic).  Tail here's the idea, tail call optimization is 
+basically turning it into a loop.  What we want is Python when 
+it gets to the recursive call at the end, update that -- so we 
+want to go too, basically.  But that's silly because there's no 
+go-to in Python.
+           There's not a go-to in Python but there is a go-to in 
+Python byte code.  Byte code is the language that the 
+interpreter speaks that the compiler generates and our beef 
+today is with the compiler doing the wrong thing.  So the 
+interpreter will step through the instructions that it's given 
+and if they're well formed then it's great, and if not, then 
+it's false.  In Python there are jump instructions and this is a 
+really fundamental thing because jump instructions are how you 
+implement things like loops and if-statements.  The compiler 
+says, now, jump back and do these instructions again or skip 
+these instructions under certain circumstances.  Those are loops 
+and conditions.
+           So this is the existing byte code for the function.  
+I notice this is kind of small, the details are not important.  
+I want to draw your attention to three things.  The first one is 
+that there's a jump instruction in this byte code already, the 
+pop, jump, and false, that's the conditional.  So we're 
+interested today in two other instructions.  The first is load 
+global which is the one that loads up that recursive call and 
+then here closer at the bottom of 33 is call function which, you 
+know, actually calls the function.  So we can use load global to 
+see if we're making the recursive call and then use the call 
+function to try to make that jump and in trying to go from here 
+to here basically instead of load global don't, and instead of 
+call function, jump.  So not too much of a difference.  Okay.  
+So how can we do this?  So the first delightful surprise is that 
+it's trivial to replace the code object associated with a Python 
+function.  You can literally just swap them out.  Please never 
+do this in real life.  It totally works.  It's also not hard to 
+make a code object given an existing code object.  So all we 
+need to do is figure out how to change the byte code.  Here's 
+how to write our own byte code.  Again you can ignore the 
+details of this.  I've included this to show that the janky 
+version of this really requires less than 20 lines and this 
+basically says that if the instruction is load global and the 
+name that we're loading is our own name then don't.  And if 
+we're calling a function, then store the arguments of the 
+function, so the arguments of n in the accumulator and then jump 
+back to the byte code.  Again, if you like faulting Python I 
+highly recommend hacking byte code.  Here we're calculating 
+factorial of a thousand, and it totally works.
+AUDIENCE MEMBER:  Yay!
+ALLISON:  Now, let's try a million.  This also works... 
+eventually.  I timed this.  It took 23 minutes.  I didn't 
+include the result on the slide because it is 5.5 million digits 
+long.  So it didn't fit... so that's part two.  Recursing with 
+no limit in Python with hacking byte code.  In the last minute 
+that I have here I want to tell you about a really fun corner 
+that I painted myself into while preparing for this doc, and 
+that's when you set the Python recursion limit to one.  A 
+recursion of one means that you can only have one frame on the 
+call stack.  So that means... unlike other things the call 
+function's -- so here we've succeeded setting the recurs limit 
+to one, because we can call functions again but then we can't 
+unset it and it's actually even better than that.  Python can't 
+print the message associated with this runtime error because 
+that takes a frame.  After that Python also can't gave a 
+traceback because that also takes frames and so we're in a bit 
+of a pickle here.  And it gets even worse than that not only can 
+we not call functions we can't do anything at all because 
+executing a line of code in the referrer requires a frame and so 
+we're totally stuck here.  There's no way out of this without 
+putting in Python, and in fact...
+[ Laughter ]
+[ Applause ]
+  Is a recursion of one and thankfully Python is smart enough to 
+ignore that when it's hitting the recursion limit and does let 
+us quit the program and get back to bash.  Thank you.
+LEO:  Now that I know how to get stuck -- we're moving on to I'm 
+in ur javaz haxxing ur codez.
+>> My voice is kind of dead.  Can you hear me now?  We're good?  
+Cool.  So this is I'm in your Javas, hacking your codes.  So the 
+first thing that I want to talk about is a public speaking hack. 
+ This is the most UK photo of myself that I can find, I'm 13 
+years old and I'm showing you this now because nothing say in 
+this sentence is going to be more embarrassing than that.  So 
+onwards, about a year ago, I've seen this dialogue pop-up.  And 
+this is from a program called Little Snitch which is a Mac 
+firewall and you set it up and any time your program in your 
+computer makes a connection, it says, hey, this program is 
+trying to connect here.  And it's trying to connect to 
+repo.maven.apache.org... and for some context, maven is a Java 
+tool.  And maven, central, which is what repo.maven.apache.org 
+is, ask the central for what maven is.  So if you're using STP 
+for Scala, you're pulling some stuff from there.  And there's 
+this company called Sonotype.  That hosts maven central which is 
+an expensive thing to do.  There's, like, 900,000 different Java 
+artifacts on there and it's probably a lot of megabytes of 
+space.  And they have this policy where, if you wanted to 
+download stuff encrypted over SSL, you had to give them $10.  
+The $10 would then be donated to the Apache Foundation.  I don't 
+know why they had this policy and I like to yell at the 
+Internet.  And they said that all features of all products are 
+not free.  SSL is offered with Nexus Pro and OSS, for those 
+wishing for security, we offer that.  Okay.  That made me sad.  
+So I decided to do something about it.  And there's, like, a 
+"well actually" here that you might be thinking.  You're 
+downloading Java libraries, maybe they're all cryptographically 
+signed so even though they're being downloaded over HTTP, we'll 
+still check the signature and that's just not true.  Some of 
+them are signed.  Some of them are signed.  But then the 
+signature's not really checked by maven.  So we're all good.  So 
+here's what we want to do.  I want to somehow, like, proxy when 
+I download a new library.  I decided to start a new project, I 
+downloaded a bunch of new libraries, I want to proxy that.  And 
+then I want to put evil stuff in those jars and I want to, like, 
+make sure that the evil stuff actually runs on your machine and 
+I want it to, like, not break things too much.  I mean, I want 
+to break things, but I want to not "really" break things.  So 
+first of all, we need to, like, somehow proxy the developer when 
+they're downloading a new library.  You could, like, set up a 
+router, you know, in a place where there's a lot of programmers. 
+ And you use IP tables to forward all the traffic to a program 
+that you wrote, which you can do.  There's, like, what I did is 
+there's an XML file that maven uses and you can set the proxy.  
+So there's this amazing library -- there's this amazing tool 
+called MITMProxy.  You point your browser at it, and it takes 
+all the requests and you can edit them.  And they have a library 
+they released as well which makes it this literally this easy to 
+modify traffic.
+           You write one method and it gets this flow object and 
+that has the request and I look at the request and I say if it's 
+coming from repo.maven.apache.org and it's a jar, put something 
+evil there.  So then we want to get our code to execute.
+           So let's say I wrote some evil Java.  Like, you know, 
+I've made a package, I could do something evil.  To get it in a 
+jar that I intercepted is pretty easy.  A jar is just a zip 
+file.  So all I have to do is just compile that Java into a 
+class, take that class, put it in a zip file and send that file 
+along.  So the next step is I need to somehow modify the other 
+code in that jar in order to get it to run.  So there's this 
+library called Krakatau which is a Python/Java decompiler 
+disassembler, assembler.  The GitHub author username is 
+storyyeller.  But storyyeller.com is the website of Melvil 
+Dewey, hip hop superstar.  And that's Melvil Dewey's first 
+album, Papercuts.  So this is how you use it.  It's a really 
+nice library.  It's really not written to be used as anything 
+other than a command line tool.  And so I just copied and pasted 
+a bunch of code but what really matters is you just disassemble 
+some Java and you put more of Jasmine in and you assemble it 
+back and what Jasmine is, it's a way of writing Java byte code 
+in a way that looks like assembly syntax.  So this is the evil 
+Java that we want.  And how many of you have seen that static 
+thing just like that, bare in Java 'cause I never did and it 
+took me, like, three days to figure out how to do this because 
+what I really want is, I don't know what class you're going to 
+load and when you load some class into memory I want it to 
+execute my code without, like, you actually having to call a 
+function.  And I really wanted a class initializer, which in 
+Java are called static blocks which some of you know, which I 
+didn't, and it took me forever to find that.  But I figured it 
+out and so whenever you import the class and you load it into 
+memory, that static block gets executed and in Java, it 
+invocation static in that method.  So -- it invokes static in 
+that method.  I also inject a little bit of Java byte code into 
+that class that you're going to use when you use the library 
+that I've backdoored.  Which class?  All of the classes.  So I 
+just put that byte code in every single class in the jar for the 
+best.  You'll probably use one of them if you're using the jar.  
+I don't want to break things too much, though.  To in my evil 
+backdoor, I just check if it ran and if it did, I don't do 
+anything but I do it at least once.  Is this going to work?  So 
+I wrote an awesome "hello world" that uses joda time to print 
+the time, and also hello world and I'm typing really slowly for 
+some reason.  And so it runs, and you can see on the bottom of 
+the screen it says the current local time and it says "hello 
+world."  And then I'm going to open a terminal and delete joda 
+time from, like, my system as I slowly type out what I'm doing.  
+But my apologies.  I recorded this video, like, without a talk 
+and I can't really do this anymore as you'll find out soon.  So 
+I have to use this video.  And so I delete it, and I go back to 
+teleJay -- I do a maven install, so it's going to tell this 
+thing.  And you can see I'm backdooring every single class.  One 
+of them is the one that I used to, like, figure out what time it 
+is, to tell you when I tell you hello world.  When I go and I 
+run this code again.  There it is, it's loaded again.  Run 
+mistakes!  Run the code!  Stop typing!  They already know!  Why 
+are you so slow?  Yes!  So...
+[ Applause ]
+So we successfully put a LOLCat in Java updates.  So the 
+epilogue is, HTTPS/SSL support now!  And that post was July 8th, 
+and this post was August 4th, so it was an extremely short 
+turnaround time.  So it was a good job.  Thank you.

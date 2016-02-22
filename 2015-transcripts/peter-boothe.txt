@@ -1,0 +1,149 @@
+PETER:  Thanks.  So if I clip it here, am I still coming through?
+AUDIENCE MEMBER:  Yup.
+PETER:  Excellent.  So okay.  In my talk proposal, I wrote a lot 
+of checks.  And so I first gotta tell you what I promised, and 
+then I gotta do what I promised, and then at the end, hopefully 
+we can all agree.  Quine + tar = Quinine.  Quines are 
+self-printing programs.  And every program can be made to print 
+out its own source code.  And storage has become exceedingly 
+cheap.  So we've introduced Quinine, a library that uses fixed 
+points, analytic philosophy and tape storage tools to make 
+analytic programs that carry source code themselves.  It's 
+available in my repo in GitHub under Quinine.  I promised to 
+talk about quines.  I promised to talk about storage being 
+cheap.  Fixed points, analytic philosophy and all this other 
+stuff.  So let's see if I can do this.  Quinine named after 
+floor, Willard Van Orman Quinine.  There is really good for 
+analytic philosophers because they use logic to represent the 
+world, which we know in computer science kind of works.  And 
+quines allow them to talk about -- and since cognition, a large 
+part of cognition is thinking about thinking, it would be great 
+if we could have logic that represented itself without ever 
+using the word "this."  Right, because this is problematic.  
+Which "this" are you referring to?  Oh, gosh.  So quines are a 
+way of doing that because they are things that reproduce 
+themselves.  So, they are fixed points in the compile and run 
+function, that is, they are things when you put into the compile 
+and run function, you get out exactly what you've put in.  So 
+it's a fun challenge, actually to write a program that prints 
+out on its own source code.  Usually the quotation marks are the 
+tricky part depending on which language you're working in, but 
+it's a fun challenge and honestly the first time I did it, I 
+probably have seen examples before, but I still had to reinvent 
+it, because I don't remember the examples.  But to spoil the 
+challenge a little bit, but not to spoil it too much -- so in 
+English, you want to say the following quotation twice, the 
+second time in quotes.  Notice that at no point, do I say 
+"this?"  These are all back-references here.  They're all 
+forward references.  This is embodied in this program which is 
+actually valid Python and will print out itself which is kind of 
+neat.  And let's make sure that it does.  I totally thought I 
+had -- there we go.  So, I have this program, pyquine.py.  It's 
+exactly what you saw up there.  So if I run it, I should get 
+myself out, right?  So let me clear the screen and we will cat 
+pyquine.py, so that's just looking at the file and then we're 
+going to run it.  And it looks pretty much exactly the same.  We 
+started off with the quotes, we started -- it works, hurray!  
+But let's, rather than using your eyes which lie to us, let's 
+use technology.  And so we will run pyquine.py and we will pipe 
+the output through Python.  Pipe that output.  And we get it 
+back.  So it really is... and we can actually pipe this through 
+diff and we will look at the difference between dash, which is a 
+fancy name meaning standard input and we will look at the 
+difference between standard input and pyquine.py, and there is 
+no difference.  So it really does reproduce itself.  It really 
+is a fixed point in the analytic cycle.  Let's do some bad 
+hacks.  Every program can be quinified.  Said my theoretical 
+computer science teacher a long time ago.  You can care about 
+this, but mostly I just wanted this slide so I can tell you how 
+to pronounce kleene.  We never know how to pronounce it, is it 
+clean star?  "clain star?"  We never know how to pronounce his 
+name.  It turns out, it's "clean-y."  Now we all know.  It's 
+disconnect in all languages, according to his son.  So let's 
+talk about cheater quines.  Things that are kind of quines, but 
+you don't feel good about having them be quines, maybe.  So for 
+languages which print out their final value.  They evaluate to 
+something and then they print it out automatically.  All values 
+are quines, right, because the whole program's just that one 
+value.  So some variants of scheme print out their final value.  
+So the string "hello" or the symbol hello, or nil, these are 
+quines in their languages but you don't feel good about that.  
+It doesn't feel like you did the tricky thing.  Similarly for 
+compiled languages, I said it was the fixed point in the compile 
+and run cycle.  Well, let's hijack the compile part and put 
+error messages in and we'll just keep putting the same error 
+message in until we get the same error message out that people 
+put in, and then that's a quine!  That's fun.  So in -- in a 
+clang on OSX, this is a quine.  These undefined symbols for 
+architecture.  You don't feel good about it but it kind of 
+counts.  And now in Python because I did something in Python, 
+this is a cheater quine because Python indents its error 
+messages which means that the first thing that the Python sees 
+are the error messages.  So no indentation, error.  So it's a 
+quine.  And for interpreted languages you can cheat because 
+interpreted languages often carry their source code with them so 
+you can just read the file that's in rv0, and and that doesn't 
+feel particularly great because you're using operating system 
+stuff.  We're going to cheat a little bit but we're not going to 
+cheat this much.  Storage has become super cheap.  This is the 
+price per byte of storage.  A dollar per megabyte of storage and 
+mostly what I just want you to see is it's a log scale and it's 
+going hella down.  And "hella down" in log scale is "really 
+down."  And this particular curve going down it doesn't actually 
+show the very, very, very cheapest form of storage, which is 
+tape.  Tape is so friggin' cheap.  It's a giant pain to work 
+with, but it is super cheap.  So tapes can only store one big 
+file.  One long file.  So we built a tool called the "tape 
+archiver" which takes many files and turns them into one file, 
+now you know what "tar" stands for.  And so we just write one 
+big file to the tape but it's a tar file and so it contains 
+multitudes so that's nice.  So let's talk about Quinine.  
+Quinine is a program that quinifies your entire code base.  It 
+will produce Quinine.h, Quinine.c if you're asking for C code, 
+it will produce Quinine.py, if you're in in a Python context.  
+It creates a string that reproduces the surrounding code base so 
+it's an automatic thing for creating that library function so if 
+you do your command line processing right, you can say hey, if I 
+get the dash, dash sourced option, print out the source code.  
+That's kind of cool.  So how do we make one string represent 
+multiple files?  Tar!  Okay.  I said the problem was usually 
+quotes, right?  How do we deal with quotes?  We could do it that 
+fancy way with the Python making it all small and elegant or we 
+can cheat.  And this is where I get this feeling of cheating.  
+That's where base 64 comes in.  Base 64 will encode arbitrary 
+binary files and put them into a thing with no quotes, with 
+printable characters.  We've turned one file into one file of 
+tar.  We can turn problematic quotes into just data with base 64 
+code, so let's do it.  And by the way, this is all in pursuit of 
+a Middling pun at best.  Quinine can be produced from coal tar, 
+it was a big thing in the mid-20th century, because at first you 
+had to get it from bark and stuff.  So if you look in this 
+repository, I have a program called program.c.  Program.c 
+doesn't do much.  So when I say that, will it fit?  It will fit. 
+ And you can say, this is actually almost the entire file.  
+There's an usage message that says if you print help, if you 
+print this message, if you print source it will print the source 
+for the program.  And then all there is in main, and this is the 
+whole file now, it just says, "Get the options and then if it 
+has to print out the usage do that, if it has to print out the 
+source, otherwise, print out "hello world."  It really is that 
+silly of a program.  Well, as part of the make process.  These 
+are the only files.  There's Quinine.sh, and program.c.  Notice 
+Quinine.sh.  So now, when I run it, let me... so now, I've 
+created, like, I just said, Quinine.c, Quinine.h, if I run 
+program, it will print out hello world.  If I run program, I 
+think it was dash -- source -- dash, dash, source.  
+Program-source, this is not helpful.  But remember, base64, 
+antar.  So base64, dash D for D code.  And then pipe it through 
+tar.  And wait, you can't see this.  Let's fix that.  So let's 
+program base64, dash D for D code, and for now, just look at the 
+table and you can see yeah, it contains the makefile, and 
+Quinine.sh, and -- so that's true, let's make a directory temp.  
+So now, we'll run program, and we'll pipe it through tar xv.
+AUDIENCE MEMBER:  Dot dot.
+>> Oh, cd temp.  Thank you.  We've made it.  There we are.  
+We've got program.c again.  Just so... ctrl + L.  We've got 
+program.C, Quinine.sh, and makefile just as promised.  Ta-da, 
+we've made a quinifier.  So Quinine is quines made from tar.  
+Thank you very much.
+[ Applause ]

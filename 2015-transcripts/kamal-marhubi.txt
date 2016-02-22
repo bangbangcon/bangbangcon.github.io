@@ -1,0 +1,270 @@
+MAGGIE:  Five minutes!  Talk amongst yourselves!  Hey!  You 
+know, it's funny that I'm louder without it, but I feel like if 
+I were to bellow into this, it might hurt our ears, but maybe 
+we'll get quieter faster.  Here's Kamal.  And Kamal's going to 
+talk about what the clock.
+KAMAL:  Hello, am I being amplified?  My name is Kamal a and I'm 
+here to talk about what the clock.  I was with my parents.  And 
+I thought I wanted to contribute to something open source-ish 
+and I'm really interested in the Rust Language, and I have been 
+following around for a while, and I found this list of libraries 
+that hadn't been implemented yet, and I found this robust 
+date-time library.  And I thought, maybe I could do that.  In my 
+defense, I don't jump into things without thinking about them a 
+little bit.  So I went and read some of the code literature.  In 
+particular, people from the Java world -- I'm seeing little 
+clapping hands and nodding -- Joda Time, or JSR-310, or 
+java.time, I think the author's name is Stephen Colbern, and I 
+think he wrote about this topic.  This topic is incredibly 
+confusing.  And yeah.  So the number of libraries I've 
+implemented stands at zero, but reading up on this stuff took me 
+down a crazy rabbit hole and I wanted to share some of that with 
+you.  So here's a really fun thing.  This happened four weeks 
+ago.  This happened on the 20th of April.  They announced in 
+Egypt, DST that year was canceled.  And DST was going to be the 
+first of May and the final announcement and the decree by the 
+President of the 24th of April.  And yesterday someone told me 
+that if you say time zones and people cringe, they're 
+programmers.  This should make you cringe extra double.  It's 
+terrible.  So this seems a bit crazy but that was actually the 
+fourth update this year to the time zone database.  The fourth 
+update.  And we're what?  We're in May?  Every year, there are 
+typically nine or ten updates to the time zone database.  So if 
+you have a system that's showing times to humans somewhere in 
+the world, which most of us do, it's important that your time 
+zones are up-to-date.  So just as an example requests, this is 
+what the diff looks like, Egypt's minister's cabinet just 
+announced, dot, dot, dot that it will cancel DST for 2015.  And 
+above the emacs list code, it was added 20 days earlier, so it 
+had to be added really fast again.  So it can be frustrating.  
+Reading the time zone database files is really interesting.  
+There are people who are really, really meticulous.  Very, very, 
+very meticulous about having everything just right.  There are 
+people who call little Hamlets in north western territories 
+every March to see whether or not they observe daylight savings 
+time every year.  There's some towns somewhere in northern 
+Canada the federal parts are in daylight savings time, and some 
+are not, and they celebrated new year's twice, one hour apart.  
+And I actually going on there and looking at the zone info.  But 
+this brings us to how long is a day.  And I'm going to 
+specifically be talking about a  UTC day.  I'm not going to talk 
+about the -- I was going to talk about the civil day which is 
+the kind of day that we look at on our clocks which can be 24 
+hours, or 23, or 25 because of daylight savings time, or 22, or 
+26 because of weirder daylight savings time, or 24, or 24 hours, 
+and 20 minutes because of still weirder daylight savings time 
+but I'm talking about the UTC day.  And the UTC day is the 
+modern Greenwich time.  And we know that it has 86400 seconds, 
+except for this die, which has 86,000 -- it has this far not had 
+86,349 seconds, but they've not ruled that out.  But this is 
+what UTC looks like tonight.  So tonight we're going to get get 
+23:59:57, 59.  And then we get beyond the 17 and we know this.  
+And UTC in June is going to look like this, 58, 59, 60, and then 
+it will be the next day.  There's this whole extra second here 
+and that's the leap second.  And this is inserted into UTC to 
+keep the UTC time, which is, read off of atomic clocks in-sync 
+with our, like, you know, the stupid planet and its rotation and 
+the sun and stuff.  So if they didn't insert these, then we'd 
+slowly drift.  And it continues.  Time doesn't stop at midnight. 
+ So each seconds are inserted or deleted -- thus far, none have 
+been deleted, to keep UTC close to solar time.  Solar time being 
+the time the sun is in the same place in the sky.  Since they 
+were introduced in 1972, there have been 25 leap seconds 
+introduced, the next was at the end of June, there'll be some 
+fear mongering articles on the news, and some Internet company 
+will screw this up, and there'll be some embarrassment, 
+guaranteed.  But so -- a nicer way to think about this is if you 
+go back to 1972 and when they first started having leap seconds 
+and you said I'm going to start a countdown to the year 2000, if 
+you didn't take into account leap seconds, you would have been 
+celebrating a whole 22 seconds earlier than your friends if you 
+didn't count leap seconds.  So it adds up.  Over the next 
+second, this June not a big deal, but over the next ten, hundred 
+years, you would be a few years.  And that would be bad.  
+Astronomers.  So what we use typically is Posix, and what Posix 
+does it steps back compared to the leap second.  And so if we 
+compare June 2nd, and Posix is our 1.4 billionish seconds since 
+1970 and then we have the next second -- and then we get the 
+next second which is still the same but actually it's not still 
+the same.  If we look in between the seconds, what's actually 
+happening is, it is progressing 200.5 but then it just goes 
+backwards.  Yay, Posix.  And you know, this could be, you say, 
+what's the big deal, the deal is, you can't translate from Posix 
+time to UTC, there's a second here that's ambiguous.  This is 
+what it looks like when you have a stop clock and you're 
+watching your Posix clock, as time progresses linearly along the 
+bottom there's this sudden jump backwards.  And that's not the 
+best if you have systems that rely on timestamps for correctness 
+and that happens, there's going to be some incorrectness.  This 
+is the stuff to look out for on July 1 in the news.  So another 
+way to handle this -- so there we step backwards in time.  The 
+NTP, which is the network time protocol standard, protocol way 
+of dealing with the leap second is we just stop the clock for 
+that second.  So it just doesn't -- we just don't move.  So 
+instead of stepping backwards, we have this flat plateau, which 
+is great because now we don't have this ambiguousness but again 
+there's this whole second where nothing's happening.  And so 
+there's this whole big issue.  So every time the system is asked 
+for time of day, it asks for it for a minimal increment, a 
+microsecond or a nanosecond.  And then when it gets past the 
+nanosecond, it waits for the next second that the new time 
+catches up and says, "Okay, now we can continue."  And so it's 
+like, okay... I have no answers for you here.  I have no 
+answers.  And this is okay except that now during the second, 
+the times don't match between different systems.  And so there's 
+this crypto person called DJ B who happens to use without time 
+seconds.  Google uses the previous 24 hours that if you think 
+about one in 86th adjustment that you spread all over the day.  
+There's actually going to be a vote this November whether the 
+leap second remains with us.  So it's going to be decided in 
+November.  Except they were going to have this vote in 2012 and 
+they postponed it for three years, and so they may decide the 
+fate in November and this is again, DJ B and he writes, the main 
+obstacle is Posix, fortunately the Posix rules are so outragely 
+dumb, for example they require that 2100 be a leap year, 
+contradicting the Gregorian calendar that no self-respecting 
+engineer would obey them.  And just when you thought that you've 
+solved this, and DJ says, well, Einstein, 1912, 1915, general 
+relativity, the worst, the Hafele–Keating experiment confirmed 
+that if you fly around the world, you can gain up to 275 
+nanoseconds.  So and then there are these other clocks that 
+would be able to detect the difference in time rate at 
+2-centimeter height differences.  2 centimeters, time flows 
+different speeds.  So seriously:  What the clock?  Thank you.
+KIRAN:  Hi.  I'm Kiran and I'll be talking about how Wi-Fi has 
+gotten faster over the last 20 years.  When the first -- when 
+the IAAA put out the first Wi-Fi standard in 1987, it had a max 
+upper speed of 20 megabits per second.  The newest amendment is 
+a new transmission of 3.39 gigabits.  Per second.  That's a 17 
+fold increase in the last 20 years.  We talk a lot about Moore's 
+Law, and its two times transistory density.  So it's a grab bag 
+of magic tricks that we've thrown together to make this happen.  
+So this is how Wi-Fi works.  We get data in, and we get 
+estimated data out.  So the first thing we do is compression.  
+This is how JZITS works and then you run this through channeling 
+algorithms and then this throws in redundancy and error 
+correcting.  It's kind of thinking about uncompression where you 
+take your data and think about it three times over.  But it's 
+not quite.  It's more like complicated checksums that sends the 
+in the end.  So once you have the bits you're sending, you take 
+your bits and you, like, mess with the sine wave to turn it into 
+information you can send.  And then you just mess it up 
+completely.  You send it over the air which is a totally noisy 
+channel.  There are people talking all the time.  There's 
+microwaves which are the worst.  And then you repeat the whole 
+process in reverse.  You demoed late, you decode, you 
+decompress.  So I'm going to concentrate on demoedlation and 
+compression.  Which is the least programy part of this but this 
+is where we've seen most increases happen.  So let's talk about 
+why this is hard.  So there's a theorem that says, for a given 
+noise contamination there's a maximum rate of data transmission 
+that you can send error free.  So this, the bandwidth, the 
+channel capacity in bits depends on your analogue bandwidth.  
+The number of frequencies that you can talk over and your signal 
+to noise ratio which is the signal that you're transmitting 
+compared to the background noise and so on.  So we've been 
+squeezing out both variables.  So getting more on with 
+bandwidth.  If you have more space, you can encode more 
+information in.  And so let's do a quick overview of modulation. 
+ You may have heard of AM, or FM radio, amplitude modulation, or 
+frequency modulation.  The method Wi-Fi uses, you adjust your 
+phase in amplitude in order to encode a different number of bits 
+in.  So RF engineers represent this as a constellation diagram.  
+You can see that as polar coordinates, as a phase-off in this 
+direction and then the amplitude that you're changing.  So the 
+way that we've been doing is to make that information denser.  
+You can have different values for each of these things.  So we 
+saw a 8-piece constellation here.  This is 16 and we've gone up 
+to 256.  That's super density.  That's 16 bits per symbol that 
+you're sending out in a four nanosecond per second space and 
+it's crazy that we can actually detect those changes at such a 
+small level.  So this again, noise.  Noise is hard.  And noise 
+knocks out the symbols that you see into different places and so 
+the separation between these symbols gives you your noise 
+tolerance and if you can't tell what the symbol originally was, 
+you can't really decode it.  So what happens -- we use something 
+called link adaptation to do this.  If you see that your 
+channel's especially noise youy, you can back up and make your 
+modulation less dense which is one of the reasons that as you 
+back away from your router, things get slower and slower and 
+slower, you go down to a lower modulation.  So these conditions 
+are highly dependent on your signal to noise ratio.  So another 
+way that you can optimize more bandwidth is by having more 
+bandwidth.  So you take a 20 megahertz channel and you can split 
+that into 52 streams that are talking independently at once.  
+The newest draft protocol uses 186 megahertz channels so you can 
+send things eight times as quickly.  So your transmission speeds 
+increase almost linearly with your bandwidth because you can 
+just split it up into more channels.  The issue here is 
+interference.  You can think about slicing off a piece of 
+bandwidth for yourself as getting a table at a restaurant.  
+There's a lot of stuff going on at 2.4 gigahertz.  So move up 
+into the spectrum to five gigahertz where not many people use 
+it, or up to 60 gigahertz, which is the wild west, there's no 
+one up there, partially because there's no one with it.  So we 
+might see seeing faster Internet but you can't use it, like, 
+across your five-story house which I wish I had.  So we'll talk 
+about getting more out of your signal to noise ratio, as we were 
+talking before, your signal to noise ratio depends on how 
+tightly you can modulate things.  So basically if you're 
+speaking louder, you can speak faster and we can't fix 
+background noise.  There is noise in the air and our signal 
+power is limited by the FCC at 1 watt maximum.  
+So you can't really, like, keep sending more information out and 
+turning up the power partially because you might mess up with 
+people in your area, and partially because of FCC.  And so we'll 
+talk about tricky tricks about increasing our power in localized 
+points instead of the average power.  One of these is 
+beamforming.  It's kind of like throwing stones in a pond and 
+seeing this warped checker board pattern go out with different 
+power levels.  And so I'm going to use quantum mechanics to 
+explain this because you may have seen the double slit bit.  
+It's silly relying on that as a tool that people understand... 
+but, you can use this interference to double the intensity at 
+points.  So you can see here that there are -- this is the same 
+intensity at both points.  On both diagrams but there are some 
+points where you have double the power and some points where you 
+have no power.  And so you end up with a watt on average.  And 
+this is directional.  By changing the phase difference between 
+the two antennas, you can send it out to particular points.  
+This is kind of like how your ears hear direction where one of 
+the transmitters, the receiver sends out a synchronization 
+pulse, and the transmitter listens on multiple antennas and 
+shoots a signal back with a phase offset.  They were kind of 
+like yeah, people will figure out how to do feedback for 
+beamforming.  But now it's something that's baked in.  And so we 
+might see this soon.  And that's why you have antennas on your 
+routers, it's not because they look cool, but that's one thing.  
+And I promised you some cheating of Shannon's Law.  And as I 
+said before, it's not really sheeting.  You just account for 
+more variables being thrown in.  So this is another form that 
+you can use multiple antennas to deal with things.  This is 
+called spatial multiplexing, and you hope that the channel's 
+different enough for each transmission because of things that 
+are bouncing off of places that you can't resolve where the 
+stream is coming from at the original point.  So one way to kind 
+of think about this is, like, your -- is like the lens in your 
+eye being able to distinguish between things at multiple places 
+and seeing streams coming from multiple places but this is 
+really wild and the math is crazy.  And this only really works 
+in some very small cases but this is one way where you can send 
+multiple streams out at the same frequency, using the same 
+channel and still be able to resolve it at the end.  So this is 
+what exists now in the protocols we have now.  In the future, we 
+might see more crazy things.  One of the most exciting things to 
+me is multiuser MIMO, which is multiuser using many antennas.  
+This is kind of like the beamforming that we saw before where 
+instead of -- but here instead of talking to one station at a 
+time, you can talk to multiple stations by relying on 
+beamforming to increase intensity at some points and null at 
+others.  So I can have four conversations with four people at 
+once by directing who exactly I'm talking to, and expecting it 
+to null out elsewhere, which is insane.  We're going from being 
+able to use one antenna at one time to one person, so utilizing 
+the channel to talk to many, many people.  And the other thing 
+that I was alluding to earlier was having more bandwidth.  If 
+you go up to 60 gigabits which was what was proposed, you can 
+still carve out to two gigabits and still be okay, and that's 
+still a huge bandwidth increase both in the analogue and digital 
+sense.  So, thanks.
+[ Applause ]

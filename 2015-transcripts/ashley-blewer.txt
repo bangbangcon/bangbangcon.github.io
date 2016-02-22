@@ -1,0 +1,129 @@
+ASHLEY:  I'll breathe but just not audibly.  No magic here.  
+Okay.  How do I do this multitask?  This needs to come over 
+here.  All right.  Yeah, and just give me -- if I see a 
+thumbs-up that means "volume up" in the back.  And maybe volume 
+down and I won't be offended or delighted either way, I'll just 
+know what to do.  So hello.  I gave this talk about a month ago 
+and I managed to do 20 slides and 20 lyrics in five minutes.  
+And so for this talk, I was shooting for 40 slides and in ten 
+minutes but I'm at 40 for each.  So I'll be moving quickly but 
+this time I'm telling you, I'm telling you, side note:  That 
+unless you're like me, and you love Taylor Swift and checksums 
+you'll at least be 50% confused.  It'll be fun.  It'll like Bill 
+Nye the Science Guy.  Or Beakman's World.  So nice to meet you, 
+I'll show you incredible things by using Taylor Swift to explain 
+cryptographic hashing functions.  She's nice.  This talk is, I 
+don't know about you but I'm feeling like SHA-2.  And I wasn't 
+kidding about the amount of Taylor Swift lyrics.  Uh... 
+checksumming.  It's difficult but it's reel.  What do people 
+mean when they're like, bro, are you salting that hash?  It's 
+magic madness, heaven, sin, but I think we can get to a common 
+baseline of understanding fairly easily.  Taylor Swift helps 
+with that.  This is the golden age.  And this is the golden age 
+of gits and slides, too.  So I don't want to know everything 
+about you.  It's pretty much a string of nonsense.  It's 
+beautiful, it's wonderful, don't you ever change.  So as long as 
+the string is the same as it is, when you check up on it it's 
+good.  Except for malicious hackers, which is haters are going 
+to hate.  Next chapter, that's a thinly veiled reference.  But 
+first I want to talk about a concepts.  I want talk about 
+whether this is a heart or an invisible cheeseburger.  Talk to 
+me afterwards.  I don't know.  But anyway, checksums are used to 
+prevent a man in the middle attack.  And I've tried this before 
+and it works fine.  So you can see in crypto passwords and other 
+sensitive information can pass through a network without that 
+information being compromised.  I talk to my friends, talk to 
+me.  We broke up, you're a jerk, and I don't want to see you.  
+Anyway.  The way this is successful though is information is 
+passed through channels but never directly so it doesn't matter 
+if hackers are standing by you, waiting at your backdoor, your 
+data will be safe because the plaintext information happens 
+safely, and the obfuscation happens transparently.  So I 
+mentioned salting.  Salt is a random string that's linked to a 
+password hash that's linked again for an extra layer of 
+protection just like you would be protected from bad exes by 
+your friends.  And you can encrypt that information but without 
+each other, that information cannot be unencrypted.  So you can 
+shake it off and not worry about your passwords being stolen.  A 
+collision attack would be when an attempt to find two arbitrary 
+outputs that output the same hash value is causing a collision, 
+a simple complication, miscommunication leads to fall-out.  Two 
+files existing at the same value.  There's a vulnerability here 
+like, if someone can fake your checksum they can get to your 
+information that they want.  Or maybe more so, someone can 
+inject that information into your files because if you're 15 and 
+someone tells you that they love you, you're going to believe 
+them and when that salt certificate reads green, you want to 
+believe it.  But you want to look out for security breaks all 
+the time like heartbreakers.  Security-wise, these things don't 
+last forever and always.  And you'll hear, this format is broken 
+like in SHA1.  It can be corrupted.  If she l if the algorithm 
+can be decrypted by computers.  This is slow and treacherous, 
+under or the path is -- time and money to cause that break to 
+happen.  If an algorithm would take a modern computer multiple 
+computers years and years to decrypt, it's still pretty secure 
+but it's still, like, my Achilles heel, another thinly veiled 
+reference.  It follows a sort of Moore's Law pattern, that it 
+gets faster and cheaper every day.  Information is sort of a 
+moving target.  These walls will fall down so when you're 
+shipping this into production or you're investigating what might 
+be a good fit Friday, maybe you were thinking they were forever 
+ever, and I used to say never say never, but these things get 
+broken every day.  And I'm just, this is exhausting, you know.  
+Girl, I know.  I know.  Anyway, we're going to switch it up and 
+talk about some algorithms that we use out in the wild.  CRC.  
+Don't make me laugh.  Stands for cycle redundancy check.  This 
+is serious stuff.  We were both young when I first saw you.  I 
+say that because CRC was developed by W Wesley Peterson back in 
+1991.  And 232, still growing up now.  It's a lot older and a 
+lot more basic of a process, and so obviously there's a lot more 
+limitations here, but it is used for file format verification.  
+The tresco files are an example of this.  They use CRC32 as a 
+check he like many.  And then we have SHA.  It was developed by 
+the standards of information technology as an information 
+processing standard.  But it gets a little complicated because 
+there are different numbers and they mean different things.  
+It's a roller coaster kind of rush.  The lower, less secure 
+versions like SHA0 and one -- so get used to the SHA1 so that 
+you have unique commit messages.  More complex algorithms are 
+used in other things.  HTTPS used to use SHA one, but that's 
+been broken for a while, so how could you not know about 
+baby,-y-y.  That algorithm's basically the same, but there are 
+different versions of it and it determines if you're 
+legitimately on the website that you intend to be on.  And then 
+we have MD5.  We see MD5 a lot in archives which is my field.  
+So you look like my next mistake.  That's at least how I feel 
+because sometimes it works.  It also uses MD5 for fixity and 
+integrity.  I think I know when you belong.  MD5 stands for 
+message digest algorithm five because computer scientists are 
+great at naming things, by Ronald Rivest in 1991 so replace the 
+old MB standard, guess what that stands for.  It's also broken.  
+But I work in the archives field for the most part.  Security 
+isn't an issue.  And so cave sums aren't broken from a security 
+standpoint.  Nothing's not going to change not for me and you, 
+not because I knew how much I had to lose.  File integrity, file 
+authentication.  I love this gif.  Are they what they used to 
+be.  Are they what they say they are?  Isn't this easy?  You 
+could also use checksums as a structure for quicker access for 
+validation like when you said you needed space, what?  But if 
+you're thinking of using checksums for security you just gotta 
+go in head first, fearless but the core principle still stands 
+that regardless if you're working in information security or if 
+you're working in digital preservation you want assurance the 
+file is not changed in any way, even in ways that seem 
+invisible, at least that's what people say -- eh, eh.  So that's 
+why this stuff is so important.  So from a digital preservation 
+stance, you really want to back up, baby, back up.  But for 
+security, things are more like it's 2:00 a.m. and I'm cursing 
+your name and you spend more time dreaming instead of sleeping, 
+or maybe weary of people who are doing so.  So we're not out of 
+the woods yet.  I don't have time to get into the details and 
+the problems with checksums but you can summarize by saying that 
+it's, "Trouble, trouble, trouble."  Or maybe it's like trying to 
+solve a crossword puzzle and there's no right answer.  So 
+anything in cryptography is incredibly complex mathematically, 
+and it should be left to experts.  And it's complicated stuff.  
+Is this in my head?  I don't know what to think but since you're 
+already out in the wild, just know that your battle's in your 
+hands now.  And that is the end.
+[ Applause ]

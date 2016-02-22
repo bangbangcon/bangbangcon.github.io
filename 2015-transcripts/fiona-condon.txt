@@ -1,0 +1,153 @@
+FIONA:  Thanks.  I'm going to try to put it on the stand.  How 
+does this sound?  Am I okay?  Sorry.  This is the setup.  So I 
+want... okay.  Cool.  Just turn on the thing.  Okay.  Sorry.  Hi 
+there.  I'm Fiona and I'm a search engineer and I'm going to 
+talk to you about search engines and nail polish.  So explain a 
+little bit about how those are connected.  I used to have a 
+nailer problem.  This photo was from the peak of my nailer 
+phase, when I get 100 Pinterest posts on my nails.  I was 
+spending too much time on my nails, and too much money on nail 
+polish.  And my cuticles were destroyed.  I had my browser block 
+my subreddit.  I had a diary, which is stuff like this, tips and 
+tricks and stuff about nail polish that would totally just 
+remind me about how much I like it, and I would stumble upon it 
+accidentally on purpose, when I was missing my hobby, but I 
+didn't want to delete them entirely for posterity.  And so I 
+wrote a search repository in Python called Acetone.  These are 
+stored in file directories in plaintext.  And it doesn't use 
+anything like Solar or ElasticSearch.  And my goal is to not 
+impress you that I made it from scratch but that search engines 
+are really beautiful and simple.  So what's a search engine?  I 
+put in a text query, and I get documents.  But unlike grep, it 
+doesn't scan documents for every query, it leverages a 
+preprocessing step called indexing to create files, or a set of 
+files to -- I don't really care about performance for these 
+really local plaintext files but I'll be taking advantage of 
+this preprocessing stuff to hide some of the nail polish stuff 
+from myself.  So imagine that we are indexing some nail polish 
+names.  So what this preprocessing step actually does is that it 
+kind of steps through every document and it looks at every term 
+and then it creates a mapping from the term to the list of 
+document IDs that contain that term.  And I use this example 
+because nail polish names are both very short and they're also 
+very weird and hilarious.  These are all real nail polish names. 
+ So once it's done this, and built out these lists, now, we have 
+a mapping from -- so like about is in documents one, three, and 
+four, and so you see a list of one, three, and four.  And then 
+same thing for pink, two and three.  So now when I look those 
+up, I see pink and I return those two documents.  And it's not 
+much harder to handle two terms.  So for a query like pink 
+about.  We just grab both lists and we do a set intersection and 
+now, we have that one document that matches both the words 
+"pink" and "about."  Cool.  So, the one thing that is not so 
+great about this system is that there's really two documents 
+here that are relevant to the query of pink and about.  Both 
+that pink about it, which returned pinking about you.  A lot and 
+this is kind of a contrived example but in general you kind of 
+have this problem where you have something that's pluralized in 
+the text, but you search for the singular or vice versa, you're 
+not going to retrieve that because we only have these kind of 
+naïve document mappings with the original term.  So we've got to 
+do some text normalization.  So this is called the analysis 
+chain.  
+So back to my original entry.  What we've got here is just a big 
+blob of natural language text and then the first step in the 
+analysis chain is called tokenization and that just takes that 
+big text blob and makes it a stream of words.  So now we have a 
+nice stream of individual tokens so the second step is stop 
+words which drops out less common less semantically meaningful 
+words, like is, too, I, and that keeps the index size manageable 
+without affecting that many queries.  And then finally we do 
+stemming which is the heavy lifting of text normalization.  So a 
+stemmer is a rule that iteratively strips off suffixes and tries 
+to find the essence of the root of the word.  So pinking which 
+was that problem from the nail polish example becomes pink.  So 
+now, we can look this up for pink.  So this step has to happen 
+to both of the tokens in the document as it happens to the 
+indexer, and to the token in the query, and I would get pinks, 
+that would be match anything because it got dumbed down to pink. 
+ So we've got this nice chain and then we've got this 
+robot-ready text that's ready for indexing.  So now I'm going to 
+talk about the mods that I've done to make this safe search mode 
+for nail polish.  So the goal of number one is I know some words 
+that I shouldn't be searching.  Acetone, topcoat, and SCI, those 
+are nail polish terms that I shouldn't be searching them.  Soy 
+might as well not be looking at them.  Stock words in the 
+analysis chain, I can put those in the four.  But I think we can 
+actually do one better.  Especially words like nail polish 
+brands like SE and OPI are often followed by the full nail 
+polish name and I shouldn't be searching for that.  So I'm going 
+to intervene on the tokenizing step and if I see something like 
+acetone I'm going to drop it, but if I see something like SE, 
+I'm also going to drop the next three tokens.  So this is how 
+this stream would be transformed and this is the code.  So this 
+is the original tokenizer and it's super simple thanks to the 
+generator pattern in Python.  I just read in a line, break out 
+the white space and then now I have a nice stream of tokens that 
+I can use in the indexer.  So now what I'm going to mix in here 
+is a blacklist that iterates how long I should drop a word after 
+the tokenizers.  Now the tokenizers are complex but it's still 
+fairly simple so if it sees something in the blacklist -- it 
+sets a discount starts counting down and it only begins yielding 
+tokens again once it's reached zero so this gets us to the 
+original tokenized document looking like this.  And post this 
+step it looks like this.  So we've dropped top coat, acetone, 
+but we've also dropped the full nail polish name.  So this is 
+pretty good but I still see some terms in there like glitter and 
+chip that are not nail polish specific but pretty nail polish 
+relevant.  So I don't want to totally remove them from the index 
+but I do want to make it a little bit harder for myself to find 
+them.  And so I was really inspired by this Ciara video where 
+she changes her ex's name into "old news" on her phone.  But I 
+really liked this example by making this a cautionary alias for 
+the stemmer.  So basically what I'm going to do is use alias 
+terms that I'm moderately confident are about nail polish in a 
+way, to a rhyming scheme that will be queried in the time of 
+alias.  So I've got is this rhyming scheme, that contains terms 
+that reminds me not to make me too nostalgic.  So it would rhyme 
+lacquer with whacker, and -- and the key insight is that this 
+time, unlike every other stemming thing which needs to happen 
+both at query time and at index time, I only wanna do a this 
+transformation at index time because if I did it in both, then I 
+would search lacquer, it would get transformed to whacker, and 
+it would transform those mappings and I wouldn't have changed 
+those results at all.  So now the post stemming document looks 
+like this.  And after the aliasing step we've got these aliases 
+requesting litter, quaint, whatever.  So I won't be able to look 
+these things up without remembering the alias.  Cool.  So this 
+brings me to the final modification.  So, so maybe you haven't 
+noticed that I have gotten even close to the terms "nail" and 
+"polish" which are the most relevant terms.  And that's because 
+I have documents like this, that contains the word "nail," and a 
+document like this like polish, or Polish.  So what I need is a 
+way to blacklist a phrase and not a word but I can't really do 
+that when all I have is maps from terms to sets of IDs.  I won't 
+know where the document -- the terms actually appear.
+           So what I really want to be able to do is something 
+like this when I have a query, I want that query and not any 
+documents containing the phrase, nail polish.  So now, I need to 
+refer to the tokenizer again, so refer to the position in the 
+document.  So I'm going to yield as a tuple as an integer in the 
+context of the document and the token itself and construct a, 
+kind of modified postings list where instead of a term mapping 
+to a list of IDs, I have a tell me mapping to a dictionary from 
+that ID, the document ID to the list of positions in the 
+document.  So now e--nuf shows up at positions one and three, 
+and "is" is at position two.  And so, this complicates the 
+searcher step a little bit, because now, doing an intersection 
+of sets was fine but doing an intersection of dictionaries just 
+doesn't make that much sense.  This is not going to work.  So 
+I'm not going to linger too much on this because it's somewhat 
+complicated but with the right abstractions with iterating 
+through a list and matching predicate, this list can be actually 
+pretty simply we've got that phrase merge across when you have 
+more than two terms.  And then now it works something like this. 
+ Well, I'll wait for it to restart but it used to be when I 
+searched for "nail," I would see both documents, including the 
+nail polishy one, but adding back in that code, all of a sudden, 
+I'm able to limit it to the document that -- that I'm safe to 
+look at.
+           So thank you so much for listening.  I'll be around 
+if you have any questions about search engines or if you want to 
+know my pick for the greatest quick dry top coat ever.  So thank 
+you.

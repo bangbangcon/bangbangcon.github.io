@@ -1,0 +1,146 @@
+POLINA:  Okay.  Can everyone hear me?  Good?  No.  All right.  
+I'm just going to hold it.  All right.  Can everyone hear me 
+now?  Hello, everyone, I'm Polina Giralt.  I'm a data engineer.
+ANITA:  Hi, I'm Anita, and I'm a data scientist.
+POLINA:  And we're super psyched to be here to talk to you and 
+Measuring Virality at BuzzFeed.  So.
+ANITA:  This is what we're hoping to cover today.  We're going 
+to give you an overview of BuzzFeed in case nobody has heard of 
+us.  I like the reaction.  I'm going to tell you a crazy story 
+about a dress and Anita is going to show you some amazing graph 
+data visualizings that we've come up with, we're going to talk 
+to you about challenges and key takeaways.
+ANITA:  Okay.  Who are we?  So BuzzFeed is a tech media company 
+that was founded in 2006 as an RND lab to understand how content 
+goes viral.  Today, we're home to all kinds of addictive 
+content, so cat lists, memes, investigative journal, and long 
+form video.  As of earlier this year we see about 200 million 
+unique views per month and we have 900 employees around the 
+world.  So when Polina and I tell people that we work another 
+BuzzFeed, a common question that we get is this.  It's kind of 
+cute.  It's also kind of true.  We do care about page views and 
+clicks.  That's not all.  We're much more interested in shares.  
+Specifically although it's practical to trick people into 
+clicking -- think clickbait, it's way more difficult to trick 
+people into sharing.  It's really difficult to force a meme.  
+What's cool about BuzzFeed is that over 75% of our traffic comes 
+from share referrals.  Great.  So we want to encourage users to 
+share.  But how do we measure a share?  Hold onto that question, 
+we're going to come back to that in a second, but Polina is 
+going to give you a real-life example.
+POLINA:  Okay.  Cool.  So is there anyone here who's never seen 
+this picture?  Anyone?  Anyone?  Seriously?  Leo, what color is 
+this dress?
+LEO:  It's white and gold.
+POLINA:  Right answer.  Who else sees white and gold?  All 
+right.  Who sees blue and black?  All right.  Does anyone see 
+other colors?  Okay.  So on February 26th, at 6:00 p.m. on the 
+east coast, Kate published a heated question and asked readers 
+to settle this, that simple question becomes a singular moment 
+in global culture, the largest traffic day ever for BuzzFeed.  
+Celebrities debated it publicly, usually on Twitter and couples 
+and friends argued right on their mobile phones.  By 8:30...
+[ Laughter ]
+By 8:30, alerts were going off in a dedicated Flack channel.  
+But sysops was on it.  The gif on the right shows what peak and 
+offpeak traffic looks like at BuzzFeed.  On the left, this is 
+Google analytics and from each address at 10:00 p.m. showing 
+over 670,000 concurrent users.  That's at the same time.  By 
+10:30 we've got a couple of posts that are getting backed up 
+from publishing but half an hour later, we've published them and 
+by the end of this, we've actually added 40% more capacity to 
+our servers.
+           So we definitely have a culture of when something's 
+blowing up, we swarm it.  So as a result, we quickly translated 
+this into five different languages and in less than 24 hours 
+people from all -- every corner of the world were looking at 
+each other's phones about this dress, you know, trying to figure 
+out what color is it.  And by the way, this really awesome map, 
+Anita made that.  And our record-breaking win was that readers 
+never really had any technical problems at all either looking at 
+the post or taking that poll.  Okay, so next, Anita's going to 
+talk about graphs and what kind of statistics this data looks at.
+ANITA:  Cool.  Thanks, Polina.  Sorry.  Guys.  I'm having issues 
+here.  Here we go.  Here we go.  Sorry -- sorry about that.  So 
+let's talk about data.  So this is an example of some 
+traditional web analytics data.  Say I share a piece of content 
+and I'm interested in what social media platforms it's been 
+shared on.  And I'm also interested in, say, the time of day 
+during which those shares occurred.  This provides us with a 
+really limited view of the social web.  This is an example of 
+the type of data that we're working out of at BuzzFeed.  So a 
+graph.  Suppose, for example, I share an article about Taylor 
+Swift on Twitter and one of my followers decides to pick it up 
+and decides to share it on Facebook.  That information, that 
+share is captured by this directed arrow.  So some quick graph 
+theory 101?  The circles represent nodes of the graph, those are 
+views.  And the arrows are the edges, so all of a sudden we have 
+the ability to study things like diffusion and propagation to 
+answer old questions in new ways and to answer new questions 
+altogether but what does this look like in practice?  This is an 
+example of a cascade, a process that shows information being 
+successfully passed on.  In this case, a piece of information 
+refers to a view.  The cascade is rooted at our original 
+Facebook post, "rooted" meaning that the original head node is 
+at the Facebook post.  This cascade shows 8.6 million views for 
+the dress.  This is just one cascade of many.  So what exactly 
+is this graph showing us?  Let's look at another graph, it's a 
+little bit smaller but we can interpret the colors more easily.  
+So this one's rooted at our official BuzzFeed Twitter account, 
+it has about 975,000 views and the colors of the nodes 
+correspond to the time in which the view occurred, so gray is 
+dark social, so chat, hale, and white a blogs and other 
+publications.  The green corresponds to the edges, i.e., the 
+shares between the nodes.  But we can zoom in.  So let's say we 
+zoom in on this subcascade.  This is potentially a journalist 
+who I don't know, picked up our link on Twitter and shared his 
+or her publication.  This is a closeup of it from a couple of 
+different angles and we can continue to zoom in.  Notice that 
+the nodes mostly appear to be light blue.  Zoom in on that and 
+we can zoom in some more.
+           So the cool thing about this is that possibly, for 
+the first time in history we have the ability to see millions of 
+shares across multiple social media platforms.  That's pretty 
+cool.  Okay.  So now, I'm going to hand it off to Polina to talk 
+about the technology that's underlying this.
+POLINA:  All right.  Cool.  So those are really totally sweet 
+graphs that Anita just showed just to emphasize that.  But how 
+did our team measure those shares?  So one of the projects that 
+we get to work on is called Pound.  It is a backronym.  It 
+actually stands for the hashtag, obviously.  Pound allows us to 
+collect and aggregate data so that we can study their diffusion 
+and content propagation across the social web with the pound 
+data, our data scientists can measure, study visualize virality, 
+and give teams gain insights into their work.  Of course, like 
+any good project it comes with a share of technical challenges.  
+So as we've been designing and iterating and architecturing 
+this, we've changed a whole bunch of stuff.  We've gone from 
+processing logs with MQ to real-time NSQ data streams.  We added 
+a redis caching layers everywhere.  Data obfuscation because 
+privacy is super important.  All the data is anonymized and 
+aggregated and there's no personal identifiable information 
+whatsoever and we're always validating the data that we're 
+collecting which I think is one of the hardest problems in 
+computer science.  So what's next for us?  We want to continue 
+building our tools because we want to keep showing our viewers 
+larger and wider range of content and we do this by machine 
+learning and other cool data science projects.  And since 
+sharing is caring, we're also sharing our research with 
+researchers who are studying networks.  And you can check our 
+blog for more information on what we've been up to.
+ANITA:  So if there are four main points that you should take 
+away from this presentation it's the following:  We optimize 
+sharing.  The dress is an example of a piece of content that 
+went viral and we have the ability and the technology, 
+especially using pound to capture graph data that enables us to 
+answer old questions in new ways and to solve new problems 
+altogether.  But most importantly testing and learning is key to 
+everything we do.  Essentially, we iterate and we iterate a lot. 
+ The analysis that our data scientists use inform engineering 
+decisions, which in turn allows us to do even more analysis.  
+And before we conclude, we just wanted to give a huge shout-out 
+to our amazing team without whom none of this would have been 
+possible.  And that's pretty much it.  Once again, this is 
+Polina, I'm Anita.  Yay, data!
+POLINA:  And that's data!
+[ Applause ]

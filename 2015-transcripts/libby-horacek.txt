@@ -1,0 +1,113 @@
+LIBBY:  So open source should be like roller derby.  I don't 
+mean this.  This is the 1970s derby.  In the '70s it was a 
+no-holds barred, race around the track.  Problem no problem, 
+just grab their hair and take them down.  A little too fast, 
+knock them in the head.  Fortunately a lot -- this version of 
+the sport kind of died out when people stopped being paid to 
+play roller derby.  And you can still play it in a few places 
+but generally, skaters aren't interested because it seems really 
+scary and dangerous.  And I would say, yeah, there are analogues 
+in open source but no, I'm talking about flat-track derby.  
+Modern flat-track derby.  And it's a real spot.  It's 
+fast-paced, full contact, and it has rules to help people stay 
+safe and it also has a really awesome collaborative culture.  
+Derby culture's awesome.  Like open source, it's mostly 
+volunteers.  It's by the skaters for the skaters.  There's no, 
+like, CEO directing everything.  It's always very inclusive.  
+Open source projects can learn from on you roller derby 
+encourages beginners, values teamwork and empowers participants. 
+ Roller derby is really great at supporting beginners, and 
+that's something that I started to think about as a beginner to 
+open source.  Like open source, roller derby can be kind of 
+intimidating.  So it's really important for us to help beginners 
+get started.  And -- but the thing is, beginner still can't 
+practice with a team right away.  That would be like letting 
+someone who wasn't good at all just run around in your 
+production code base, except in our case, you can literally 
+break a leg.  It also sets the beginner up for failure, which is 
+no fun.  Instead, beginners are shown the skills that they need 
+and a path for acquiring those skills.  My league actually had 
+weekly classes to teach people how to skate but probably most 
+open source projects don't want to teach people to code from 
+scratch.  But still, they can help beginners by having lots of 
+documentation, being clear about how to contribute, and giving 
+back feedback and communicating.  Playing roller derby has 
+taught me a lot about teamwork on and off the track and it's 
+really helpful I think with open source, too.  Pairing is really 
+powerful.  In this gif here you can pretend that the girl in 
+black is a really tricky bug.  And the skaters in white are 
+managing to isolate here and eliminate her.  Unfortunately in 
+derby, that bug's just going to come back around and re-emerge 
+but unfortunately, that happens in real life, too.  Also when 
+you're working with others, you can push your teammates to write 
+clear and maintainable code.  But the thing to remember is, in 
+derby, when we're pushing people through the pack like this, 
+we've practiced pushing each other safely so that you don't just 
+knock somebody over.  And you can think about that in open 
+source as not being like, "Wow your code sucks."  By instead 
+being like, "Here's how you can improve it."  Sorry, I like 
+stretching metaphors so much.  You can also give each momentum 
+when you're feeling burnt-out.  Roller derby also has teamwork 
+off the track.  Skaters share the responsibilities of organizing 
+the league, doing the paperwork and stuff like that that doesn't 
+involve hitting people.  But it also means that the bus factor 
+is really high.  You can have one of your skaters get pregnant 
+and it's still okay.
+          There's also a lot of mentorship in roller derby.  
+Individual skaters, and at least in my league were assigned a 
+derby mom.  And so if they had any questions about what their 
+role was in the league or if they had any issues, then they had 
+a single person that they could go to and they didn't have to 
+feel nervous about talking to them, but regional leagues also 
+had mentor leagues.  And so our league mentored smaller towns, 
+and we had other leagues -- and other leagues copied models from 
+each other.  And I thought it would be cool for open source to 
+have one-on-one mentoring not just for contributors but also for 
+maintainers.  When people talk about why they play roller derby 
+and why they love roller derby, they often talk about how 
+empowering it is.  People play roller derby who never felt 
+comfortable playing a sport in their lives.  One thing that you 
+hear over and over again is that the reason they feel empowered 
+is that they believe able to do things that they never thought 
+they could do.  So here's me down here on the floor during the 
+first game, and believe it or not it was a huge step for me so 
+even get here.  I never thought that I would actually play 
+roller derby and I joined up.  I just thought, "I just want to 
+skate.  I thought that sounds fun.  I'll just quit as soon as I 
+have to hit people."  But my teammates were like, but you're 
+awesome at hitting people!" So I stuck around.  And I'm glad I 
+did because eventually I spent less time on the floor and 
+started taking leadership roles.  So here, I'm the person who's 
+scoring points.  This is a huge moment for me because that 
+person back there is "Hemorrhoidal Rage."  He was an amazing 
+skater, and I never would have thought that a few years before I 
+could ever be passing her on the track.  But the key thing is, 
+the reason that I could pass her on the took is my teammate here 
+who helps me out.  And so that's, like -- a constant theme is, 
+like, you have to support each other, especially when you're 
+talking about somebody who doesn't think that they can do it but 
+you know they can.  You gotta give them that verbal 
+encouragement.  And you also gotta challenge them a little bit 
+to go outside of their comfort zone by saying, "I know you can 
+do it."  And you also have to be trustworthy.  You have to know 
+that if the same person who's saying, "You can do it" is going 
+to also support you when I inevitably mess up.  I'm wondering 
+can open source be empowering like that?  Maybe it seems like a 
+bit of a stretch.  But starting a career is really hard when 
+you're starting in a group that's marginalized in tech or if you 
+don't have a CS background, and open source could be a way for 
+us to get started but instead they feel intimidated and they 
+feel that they couldn't do it and they need some extra help.  
+This remote thing isn't working.  So what does it look like when 
+an open source project embodies these values, they encourage and 
+support beginners, make contributing less intimidating.  And 
+they help contributors increase their skills and they're 
+radically inclusive.  I did say that roller derby was inclusive 
+but there are areas where it could be better.  And there's no 
+reason where it couldn't be even more inclusive.  That's what 
+technology is for, right?  So I want to give a shout out to the 
+first project I ever contributed to, which is Dreamwidth which 
+is a forked-up Livejournal.  They're really super friendly 
+community that basically held my hand through my first patch and 
+they're really open to beginners.  In conclusion open source 
+good but we can make it better if we really tried.  Thank you.

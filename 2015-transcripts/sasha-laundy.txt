@@ -1,0 +1,173 @@
+>> There's adaptors up here.  Fantastic.  So second entails from 
+the production server.  We have Spinning Metal Platters in the 
+Cloud by Sasha Laundy.
+>> Do you want me to hit the next button for you?  Sasha Laundy.
+[ Applause ]
+SASHA:  Hi.  So today I have a story for you when I was young 
+and foolish, or I should say more young and foolish than I am 
+today.  Not quite this young though.  Two years ago I just left 
+the Recurse Center and I wanted to try data science and I had a 
+background in physics and in programming so I had done some math 
+and I had the technical skills to, like, give it a go.  I did 
+not have a very strong background in computer science.  I had 
+taken one computer science course before and I had been 
+assistant admin in college and that's it.  So this is great 
+because it means that sometimes I'll learn things that is, like, 
+blows my mind that other people take for granted because they 
+learned a long time ago.  And this is one of those stories.  So 
+at that time I was looking around and I was like, how do I do 
+data science, I have no idea and I met this guy maimed mistakes 
+max, he was OkCupid's first data scientist and he pulled a lot 
+of numbers that were in that blog series and so he was doing 
+solo consulting and needed some extra help and so I started 
+working for him.  And around that time I thought books were 
+super boring.  You put data in the database, you get data out, 
+why do we need to talk about the details?  And ever what I've 
+learned since that if a lot of smart people think something's 
+interesting and I don't, that probably means I don't know enough 
+yet.  And that was certainly true for databases.  And pig is 
+this very high level language.  You get to ignore all that icky 
+assembly and the hardware and the byte code, we don't have to 
+worry about all that stuff at all.  Here's an example of pig 
+script.  So it's actually a pipeline.  So you load up your data 
+in the green there.  Trim off the columns that you're interested 
+in, in this particular example and then you take trims and then 
+you group it by user ID and sort into relation groups and then 
+for each grouped item you generated the user ID and then a count 
+of how many different websites they visited and so this is a 
+very trivial example of a pipeline but this is what pig looks 
+like to write, at the time I was using this tool called Mortar, 
+and Mortar is great because you write one command and it spins 
+up a hadoop cluster for you, beeps and boops for you, and then 
+stores the cluster in S3 and so it's awesome.  If you feel a 
+little bit like a wizard because you just push a button and then 
+this army of robots comes and does the work for you.  And so you 
+do a lot of stuff for free, you get mapping and reducing, you 
+get HDFS and bits and bytes.  And you get clusters and nodes, 
+and you get a query plan that makes everything go super fast.  
+And so I felt like Mickey before things went terribly really 
+wrong.  And this was kind of my understanding of pig when I was 
+-- I started writing with it.  I could make graphs.  That's 
+really all I understood.  And so I had a bug one day and it 
+wasn't really like a mistake kind of a bug.  It was more like 
+this kind of a bug.  I was doing something that I thought would 
+be really fast and it was really slow and I had no idea why.  I 
+don't actually remember the specific thing that I was trying to 
+too, that's been lost to the sands of time but I was probably 
+doing something like this where I was taking this huge data set 
+and trying to trim it do you know so I could, like, develop 
+quickly and then it run it on the whole thing so I was probably 
+doing something like give me 500 rows that I care about.  And so 
+this is really slow.  It was really crawlin' and I was why is it 
+so slow.  I Googled around and I couldn't find any answers that 
+helped.  And so I asked Max and he said this, well, seeking is 
+slower than reading.  And I said what?  Because I didn't know 
+what hell that meant.  And I've also since meant that confusion 
+is a sign that you're about to learn something, that your mental 
+model is either wrong... it's a sign that your mental model is 
+either wrong or is missing.  And you're about to learn, you're 
+about to get it corrected for you.  And so we started talking 
+about hard drives.  I did not expect the conversation to go in 
+that conversation because we wanted to avoid all that icky stuff 
+-- I actually don't think it's icky,ism it for the dramatic 
+effect.  So they do something like this where they take each 
+row, and so this is a name, age and location and they 
+concatenate them altogether, they mash them into binary and they 
+write it to a disk to something like this.  And when you want to 
+retrieve that data off a disk, you have to have a little needle 
+that goes off and finds it.  And so you have to have one is 
+reading, and reading off a contiguous section off of memory 
+where you can read it really fast, which is great.  There's also 
+seeking, which is grabbing scattered sections of data around the 
+disk because it's spread out and so what he said was seeking was 
+slower than reading and so basically what I was forcing my 
+computers to do was jump around on this disk and find all the 
+different bits of information 'cause remember I was asking it to 
+do that, give me five rows where the age meets a certain 
+condition and so I was making it go 50, is it less than find 55. 
+ Okay, more, yes.  And so I had to go find and seek each age in 
+each row and so that's why it was running slower than I 
+expected.  So this sounds really straightforward but it blew my 
+mind.  Because, remember I'm writing this high level pig script 
+here and I have to think about how a little metal needle in 
+AWS's datacenter in Virginia is moving to write efficient 
+scripts.  I was like, "What?" so this is really cool.  It's like 
+under which to work at this level of abstraction and then like 
+this one, right?  And they actually connect and I thought that 
+was pretty rad.  So this really changed how I looked at 
+databases, too because this book suddenly start looking a lot 
+more interesting because there are all sorts of different ways 
+you need to get data in and out of something and different sorts 
+of constraints that you might have and you guys know what those 
+are?
+AUDIENCE MEMBER:  Finishes.
+>> Specifically Darwin's finches, and basically when you want to 
+get something in and out of something, these basically fill 
+those these days.  So you might not want to really commit to a 
+particular schema, or store documents, you might want to use 
+Mongo, if you want to retrieve something really quickly, you can 
+just index the crap out of everything and use ElasticSearch.  Or 
+you can use a penned lated database like DATOMIC, I'm into 
+DATOMIC, and if you want really fast analytics, you can use 
+Redshift.  And so it's not optimized to use information really 
+quickly but if you want to make a copy of your database for your 
+data team to play with, they'll be really happy with you.  And 
+here's why, analytic means a lot of aggregation.  You count 
+things, average things but across multiple rows which sounds 
+slow, right?  Because that sounds like a lot of seeking gosh 
+darn it!  But what if we moved all those edges so that they're 
+next to each other on the disk.  And then you grab all those 
+ages and you check them all, you go read that section in the 
+middle.  That sounds a lot faster -- yay!  So we changed seeking 
+to reading by doing this and this has a fancy name, it's called 
+columnar storage which means storing all the in one column on 
+the disk.  And this has a lot of benefits one of which is that 
+you can do compression, right?  So if your age column's all 
+integers then you can do integer-specific compression on it and 
+get a lot of speed benefits there, too.  But what's faster than 
+reading and seeking?  Ignoring data you don't need to read, 
+right?  So they don't actually do indexing in Redshift but they 
+do do metadata so each block and I totally made up these 
+numbers, each block has a metadata that says the minimum and 
+maximum value for the column in that block.  So if I'm -- so 
+block one has a minimum value of one and a maximum of six and so 
+on and so forth.  So if I need to find someone whose age is more 
+than 15 what do I need to do?  Which blocks do I need to read?
+AUDIENCE MEMBER:  Just three.
+>> Just three, I get to skip one and two, that's so much faster 
+than paying any attention to them.  So that's really cool.  
+There's nodes you can run things in parallel with that robot 
+army that I was telling you about earlier.  There are query 
+plans that's based on the contents of your data.  So if your 
+data changes, your query data changes.  It's actually a managed 
+data service warehouse on the cloud.  It's kind of awesome.  And 
+so fast.  How fast you might be saying to yourself.  So I was a 
+little lazy and so I found an example on the Internet but I'm 
+sure it's fine.  Someone who had 21 million rows in their 
+database in production and they had in postgres, and they wanted 
+to run it in Redshift so they did count star which for all 
+non-data people in the room which in SQL is tell me how many 
+rows you you have?  The answer was 21 million.  This took 21 
+minutes in postgres to run.  Guess how many minutes it took in 
+Redshift.  It took 1.5 seconds to run in Redshift.  Like no 
+optimizations.  There's all sorts of stuff that you can do to 
+make that even faster.  That is 376 times faster just out of the 
+box, which is pretty cool.  But you know what's even more cool?  
+10,000 times faster.  This is a crazy story but I really like 
+it.  Max was the guy that I mentioned earlier.  He was doing 
+some kind of a problem and he was trying to do it in native 
+Python.  It was really slow.  Like, it was going to take years 
+to run.  Like, really slow.  And so he was like ah-hah, what if 
+I use a matrix instead and so he had an 100x speed up from that. 
+ So he was doing really big matrices which is really 
+computationally intensive and so he was like hm this is slow and 
+he used this thing called OpenBlast.  And BLAS stands for basic 
+linear algebra subprograms.  And it's hand tuned to the 
+architecture of your computer to make it faster so it runs 
+different on different architectures and it's from the '80s or 
+'90s.  It's like a very old library.  And that got him a 10x 
+speed up.  And that comes from threading.  And so he got a 
+10,000x speed up for his program from knowing how his hardware 
+worked.  And so this can be very powerful depending on what 
+you're trying to do.  So in sum, Redshift is real fast, hardware 
+matters and databases are really cool.  Thank you.

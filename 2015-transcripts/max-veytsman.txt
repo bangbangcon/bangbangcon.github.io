@@ -1,0 +1,113 @@
+MAX: My voice is kind of dead.  Can you hear me now?  We're 
+good?  Cool.  So this is I'm in your Javas, hacking your codes.  
+So the first thing that I want to talk about is a public 
+speaking hack.  This is the most UK photo of myself that I can 
+find, I'm 13 years old and I'm showing you this now because 
+nothing say in this sentence is going to be more embarrassing 
+than that.  So onwards, about a year ago, I've seen this 
+dialogue pop-up.  And this is from a program called Little 
+Snitch which is a Mac firewall and you set it up and any time 
+your program in your computer makes a connection, it says, hey, 
+this program is trying to connect here.  And it's trying to 
+connect to repo.maven.apache.org... and for some context, maven 
+is a Java tool.  And maven, central, which is what 
+repo.maven.apache.org is, ask the central for what maven is.  So 
+if you're using STP for Scala, you're pulling some stuff from 
+there.  And there's this company called Sonotype.  That hosts 
+maven central which is an expensive thing to do.  There's, like, 
+900,000 different Java artifacts on there and it's probably a 
+lot of megabytes of space.  And they have this policy where, if 
+you wanted to download stuff encrypted over SSL, you had to give 
+them $10.  The $10 would then be donated to the Apache 
+Foundation.  I don't know why they had this policy and I like to 
+yell at the Internet.  And they said that all features of all 
+products are not free.  SSL is offered with Nexus Pro and OSS, 
+for those wishing for security, we offer that.  Okay.  That made 
+me sad.  So I decided to do something about it.  And there's, 
+like, a "well actually" here that you might be thinking.  You're 
+downloading Java libraries, maybe they're all cryptographically 
+signed so even though they're being downloaded over HTTP, we'll 
+still check the signature and that's just not true.  Some of 
+them are signed.  Some of them are signed.  But then the 
+signature's not really checked by maven.  So we're all good.  So 
+here's what we want to do.  I want to somehow, like, proxy when 
+I download a new library.  I decided to start a new project, I 
+downloaded a bunch of new libraries, I want to proxy that.  And 
+then I want to put evil stuff in those jars and I want to, like, 
+make sure that the evil stuff actually runs on your machine and 
+I want it to, like, not break things too much.  I mean, I want 
+to break things, but I want to not "really" break things.  So 
+first of all, we need to, like, somehow proxy the developer when 
+they're downloading a new library.  You could, like, set up a 
+router, you know, in a place where there's a lot of programmers. 
+ And you use IP tables to forward all the traffic to a program 
+that you wrote, which you can do.  There's, like, what I did is 
+there's an XML file that maven uses and you can set the proxy.  
+So there's this amazing library -- there's this amazing tool 
+called MITMProxy.  You point your browser at it, and it takes 
+all the requests and you can edit them.  And they have a library 
+they released as well which makes it this literally this easy to 
+modify traffic.
+           You write one method and it gets this flow object and 
+that has the request and I look at the request and I say if it's 
+coming from repo.maven.apache.org and it's a jar, put something 
+evil there.  So then we want to get our code to execute.
+           So let's say I wrote some evil Java.  Like, you know, 
+I've made a package, I could do something evil.  To get it in a 
+jar that I intercepted is pretty easy.  A jar is just a zip 
+file.  So all I have to do is just compile that Java into a 
+class, take that class, put it in a zip file and send that file 
+along.  So the next step is I need to somehow modify the other 
+code in that jar in order to get it to run.  So there's this 
+library called Krakatau which is a Python/Java decompiler 
+disassembler, assembler.  The GitHub author username is 
+storyyeller.  But storyyeller.com is the website of Melvil 
+Dewey, hip hop superstar.  And that's Melvil Dewey's first 
+album, Papercuts.  So this is how you use it.  It's a really 
+nice library.  It's really not written to be used as anything 
+other than a command line tool.  And so I just copied and pasted 
+a bunch of code but what really matters is you just disassemble 
+some Java and you put more of Jasmine in and you assemble it 
+back and what Jasmine is, it's a way of writing Java byte code 
+in a way that looks like assembly syntax.  So this is the evil 
+Java that we want.  And how many of you have seen that static 
+thing just like that, bare in Java 'cause I never did and it 
+took me, like, three days to figure out how to do this because 
+what I really want is, I don't know what class you're going to 
+load and when you load some class into memory I want it to 
+execute my code without, like, you actually having to call a 
+function.  And I really wanted a class initializer, which in 
+Java are called static blocks which some of you know, which I 
+didn't, and it took me forever to find that.  But I figured it 
+out and so whenever you import the class and you load it into 
+memory, that static block gets executed and in Java, it 
+invocation static in that method.  So -- it invokes static in 
+that method.  I also inject a little bit of Java byte code into 
+that class that you're going to use when you use the library 
+that I've backdoored.  Which class?  All of the classes.  So I 
+just put that byte code in every single class in the jar for the 
+best.  You'll probably use one of them if you're using the jar.  
+I don't want to break things too much, though.  To in my evil 
+backdoor, I just check if it ran and if it did, I don't do 
+anything but I do it at least once.  Is this going to work?  So 
+I wrote an awesome "hello world" that uses joda time to print 
+the time, and also hello world and I'm typing really slowly for 
+some reason.  And so it runs, and you can see on the bottom of 
+the screen it says the current local time and it says "hello 
+world."  And then I'm going to open a terminal and delete joda 
+time from, like, my system as I slowly type out what I'm doing.  
+But my apologies.  I recorded this video, like, without a talk 
+and I can't really do this anymore as you'll find out soon.  So 
+I have to use this video.  And so I delete it, and I go back to 
+teleJay -- I do a maven install, so it's going to tell this 
+thing.  And you can see I'm backdooring every single class.  One 
+of them is the one that I used to, like, figure out what time it 
+is, to tell you when I tell you hello world.  When I go and I 
+run this code again.  There it is, it's loaded again.  Run 
+mistakes!  Run the code!  Stop typing!  They already know!  Why 
+are you so slow?  Yes!  So...
+[ Applause ]
+So we successfully put a LOLCat in Java updates.  So the 
+epilogue is, HTTPS/SSL support now!  And that post was July 8th, 
+and this post was August 4th, so it was an extremely short 
+turnaround time.  So it was a good job.  Thank you.
