@@ -1,0 +1,111 @@
+SIMON:  So hi, everyone.  I'm Simon Sapin.  I work at Mozilla 
+Research on which is a new rendering engine and it's written in 
+Rust and as you heard, Rust was released as 1.0 just this 
+Friday, and when you open a file in Rust, the way that the file 
+name is represented in memory is a bit unusual and I think it's 
+interesting so I want to talk about that.
+           But let me give you some background on how to deal 
+with text.  All CPUs know numbers but don't really know how to 
+deal with text so we need a convention to deal with text with 
+numbers.  And of course there's more than one way to do it.  And 
+in the early days, most of these encodings include could only 
+support some sets of writing systems.  So if I wanted to write 
+Japanese I had to use a Japanese encoding and I could probably 
+not had Korean in the same document.  So what can we do with 
+that, of course, we make a new one that supports everything and 
+that's exactly what Unicode did when I was 1-year-old.  And they 
+decided to have 16 bit characters which allows up to 65,000, and 
+some characters.  And I say "character" here but it's a bit more 
+complicated than that in Unicode.  You need unique components of 
+characters and gives that references symbols.  And even at the 
+time, there were some concern that 16 bits would not be enough.  
+But the Unicode Community really wanted to keep it simple and 
+even on page two of the first entry of the chapter in the book, 
+because it was a book at the time, they had this diagram that 
+says, here's a bunch of the space that we use for allocated 
+characters, and how much we have left.  And they say, we have 
+space for future foreseeable expansion.  Guess what happened.  
+So meanwhile, Unicode goes updating many systems.  And these 
+systems use two bytes per character because that was the good 
+thing to do.  And at the time that was really what we called 
+"Unicode."  But later, Unicode became more than just encoding so 
+now we call that particle encoding with two bytes per character, 
+UCS-2.  Meal meaningful people didn't like this two bytes per 
+character, and they came up with UTF-8.  Each one of the 
+characters is represented by one of these byte characters.  And 
+what's interesting is that it's variable by size.  So that 
+allows up to 31 bits of space.  And in Unicode version two, they 
+finally realized that it's really not good enough for 16 bits 
+and so they introduced this system called UTF-16 which is really 
+like using UCS-2, so much that you don't really have to do 
+anything in your software to use UCS-2.  The idea was that there 
+were these range of values that were not used that we now called 
+lead surrogates and trail surrogates and when you have lead 
+followed by trail it's a surrogate pair and together that pair 
+represents a single character.  And that goes up to a million 
+and some characters.  But the thing is, Unicode version two did 
+not allocate any characters to the new supplementary characters. 
+ So there was no incentive to really looking at it.  And really 
+even if you do it right, most code doesn't need it either.  It's 
+only when you need to run text in different fonts.  And the 
+problem is what happens when you have a surrogate that's not in 
+the pair?  That doesn't really represent anything.  But no one 
+really knows what you should do in that case.  So in many cases, 
+nothing happens.  You just have something that's not text.
+           And so also in Unicode version two, they generalized 
+the mechanism of having abstract characters assigned to numbers 
+and that's separated from the way that these numbers are encoded 
+into bytes and there are multiple encodings in Unicode, UTF-8, 
+UTF-16, and these other encodings were artificially restricted 
+to encode as values of UTF-16.  So even though Unicode can go up 
+to 31 bits, it was restricted to have this range of use.  And in 
+particular this range in the middle are used for surrogates that 
+cannot be used in Unicode so when you have this byte sequence in 
+UTF-8 that would have been a character previously but now it's 
+considered ill formed, it's not a valid character.  Let's go 
+back to Rust.  This is actually a finished string time in the 
+Rust directory.  It contains eight bits of assigned integers, 
+and that is private so you have to use the API to access it, and 
+the API enforces that they're in UTF-8.  And that's really good 
+when dealing with international text to do things correctly so 
+you don't have emoji, or character encodings arising in your 
+programs but when talking to the outside world, it's not so 
+nice.  In particular in the operating system APIs, any strings 
+like filenames, and all that stuff does not do well in Unicode.  
+Unix doesn't really care, it's always bytes but on modern 
+systems it's almost always UTF-8.  And in Windows, it was once 
+UTF two once upon a type of.  But now it's UTF-16, but not 
+always.  You can see sometimes you'll have the filename in your 
+file system is a surrogate, and not a character.  We want this 
+to be cross platform so when you apply, you don't have to care 
+about these differences between platforms.  So how can we do 
+that and how can we support any kind of filenames, for example?  
+So Rust has this type called OSString that contains any value 
+that the OS can give you or you can give to it, and again it's 
+just bytes.  And in Windows, you could have vectors of 16 bit 
+digits which is what happens in the OSCPI's but we would rather 
+have something closer to UTF-8 to have cheaper conversions to 
+and from the native string time.  And and we have if you devote 
+a lot of memory to copying, that's also not good.  So why use 
+UTF-8 for this?  When you have a normal character, it's only two 
+bytes in UTF-16 that's fine to convert into UTF-8.  If you have 
+a supplementary character that's surrogate pair, that's 
+essentially fine.  The problem is when you have a surrogate 
+that's not in the pair.  But again, in the early days of UTF-8, 
+that was capable of encoding that values.  So what if we did 
+anyway?  So that wouldn't really be UTF-8, so we should really 
+give it another name.  And someone came up with that name, which 
+I really like.  Someone called it that.  And this is a superset 
+of UTF-8 where you can also have surrogates but only if they are 
+paired which means that when you concatenate two strings, in 
+case that you would have lead surrogates at the end of the first 
+and a trail at the beginning of the other one, that would form 
+pair, and we don't want that to happen.  So you have to have a 
+special case here to transform that into a single supplementary 
+character.  And I think this existed before in Scheme 48 and in 
+Racket, but it was a probably not fine.  And so I wrote a spec.  
+It defines everything with proper definition, all the edge 
+cases.  And that's the UTF-8.
+[ Applause ]
+So I'll be here if you want to talk about this Unicode, Rust, or 
+the things.  This is my username.

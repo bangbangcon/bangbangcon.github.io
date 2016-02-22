@@ -1,0 +1,171 @@
+JOSH:  So I'm Joshua.  They introduced me so you know my name 
+already.  And I work for NVIDIA but they didn't pay for me to 
+come here, so that's all you'll hear about that.  But anyway, 
+also I'm trying this experimental thing where I'm just going to 
+draw as I talk, as opposed to coming up with slides beforehand.  
+And in order to make this work the organizers all just had to, 
+like, go through all of this whole heroic, like, last-minute 
+thing to find me a mini HDMI cable.  So can you just give them 
+all a round of applause?  But yeah, thanks, guys.  You guys have 
+made this just so much easier and I think this is going to be 
+fun.  But anyway, let's get into the meat of this.  A while ago 
+I got into this -- I had this bad habit, okay?  I started 
+carrying SD cards around in my laptop.  Like, I would shoot a 
+whole bunch of photos and I'd -- and so I'd, just shove the SD 
+card in my laptop and then I would suck them off of the library 
+and then I would never actually bother to put them back into my 
+laptop again.  And this was good until I was traveling 
+somewhere, I was on an airplane, anyway, but the other thing you 
+should know about me, by the way is that I'm clumsy, and so I 
+drop the laptop on its side and it landed on the SD card and the 
+result was that.  And so you could imagine my dismay.  And also, 
+the other thing?  Is that I don't believe in backups.
+[ Laughter ]
+So there I am, anyway.  And I get home and I pull the thing out, 
+but actually, if you look on the inside of it here, right, if 
+you've never seen the inside of an SD card this is what they 
+look like.  And so the thing to note is, so here's the 
+controller chip and you'll note that the board is, like, split 
+in half, right?  But the actual flash memory heart that actually 
+contains all the data is still there.  And so, I thought -- and 
+so I went through this kind of expedition, right, and I built 
+some hardware to do this.  I don't really have time to talk 
+about it.  But the takeaway there anyways is that there exists 
+stuff that makes soldering surface-mount devices easier like 
+this Schmartboard thing.  You don't actually have to be a 
+magician to do this.  You heard about this yesterday that it's 
+really less insane to do that kind of thing than you would 
+think.  But anyway, I use an FPGA to talk to the the flash 
+memory part and I love hardware and that's a totally different 
+talk.  But, anyway, the meat of this talk, anyway, is that flash 
+memory's really weird.  And I wanted to talk to you about kind 
+of how SD cards work and it turned out into me talking about how 
+NAND flash memory works.  NAND flash, right?  And so, but in 
+order to get there, I want to talk about storage briefly anyway. 
+ It's kind of this long trip around.  When we first built 
+storage media, it kind of, it kind of looked like this, here's a 
+tape, and on tape we had, you know, individual sectors, right?  
+There are these little blocks of data and they have this nice 
+property that you can go to any sector and you can read and you 
+can write any sector, right?  Except it takes a long time when 
+you have all on tape.  And so we put it all on rotating media.  
+So here is kind of this drive and you can see, it's kind of 
+split up like a pizza so now, all the sectors are in order here. 
+ And actually you can do a little bit better because it doesn't 
+take an entire pizza slice in order to store like 512 bytes, 
+right?  So you can divide it into concentric sectors.  So these 
+are cylinders and sectors, and that's how you address them.  And 
+this is hard drives, by the way that I'm talking about.  So 
+later, you might actually want to stack them up, so there are 
+cylinders, and sectors -- so I'm going into -- did I ever tell 
+you that I'm a terrible artist.  But if I go into the BIOS of 
+ancient sectors, and what sector is this?  That's what it's 
+talking about.  So we designed this whole world around this.  So 
+now we pretend that everything is just a really big, fast tape 
+and you can talk -- and you talk about it just like zero to a 
+zillion, right?  And so we designed a whole world around this.  
+It's really nice to write file systems this way and you have a 
+handful of properties about this, right?  Like you can write a 
+sector just one sector at a time, right?  You know, you write to 
+that one sector and everybody else is still happy here.  And you 
+know, you can write whatever you like to one sector.  And, you 
+know, if you want to write to a sector, you can write to it as 
+much as you like and you can just keep writing to it, no 
+problem, all day long.  And other interesting -- you know, 
+something that you wouldn't think of as something that you care 
+about so much is that when you write something to a sector on 
+this kind of old weird media, or old not-weird media, I should 
+say, then when you read it back, you'll read the same data back. 
+ It's nice, right?  It's really easy to design a file system 
+this way, okay?  You know, you can have pointers and you can 
+have data structures in it.  It behaves just like one, big, slow 
+piece of memory.  And so now, we have this solid-state medium 
+and we actually don't want magnetic media because it's slow.  
+And so we started building media out of silicon.  And NAND flash 
+is what we use and so here is the basic building element here, 
+right, it's a transistor.  And for those of you who like 
+transistors, it's got an extra gate in the middle and you 
+actually trap electrons there.  But NAND flash is interesting 
+because it actually doesn't provide any of those properties.  So 
+anyway, here's a basic -- here's the core of NAND flash, right?  
+And you connect it to some read-out logic, right?  And you 
+program it -- so right now it's reading zero here, right?  And 
+you program it by, like, loading it full of electrons, right?  
+You just trap a whole bunch of electrons in the middle there and 
+now, it's reading a one, right?  And that's nice.  And how do 
+you get it back to a zero?  You can erase it by just pulling all 
+the -- by removing all the electrons and now, it's reading a 
+zero.  So NAND flash is cool because it's a very, very in 
+contrast to read, as you know, SSD's, everything boots real fast 
+these days.  And so that was a one, that one's a zero.  So now, 
+we have this problem, though, that if you program and erase NAND 
+flash enough times that row then electrons get stuck inside, 
+right?  And so now I'm going to go in and erase it, and I just 
+can't erase it enough and now, I have a transistor that reads 
+1/2.  So 1/2 is not a bit.  That is a big problem for us.  And 
+also, there's this other irritating thing about erasing NAND 
+flash, anyway, that NAND flash, you don't want just one, right?  
+I'm really terrible at these.  But you don't want just one.  You 
+can't actually just erase one at a time.  You can program one at 
+a time.  But when it comes time to erase them you have to go 
+erase, like, 4 megabytes worth of data at a time, right?  So you 
+can write a 512 byte sector, but you can't erase less than 4K 
+and so the solution to this, by the way, is this class of 
+algorithms called device management, or aware leveling.  And the 
+idea is, you actually start looking at it like a logged file 
+structure system.  It's like you write a journal and you have to 
+go replay to figure out -- it's like a file system on top of a 
+file system, it's like a very "yo', dawg" type of affair.  So 
+here's the other irritating thing about NAND flash.  So I talked 
+about this read-out logic but if you have another read-out logic 
+on the chip, it would be really, really expensive, right?  The 
+whole idea that you throw down a whole bunch of these NAND flash 
+transistors and they're cheap but what we actually do is we 
+build this totem pole of NAND flash, and by the way, this is why 
+it's called NAND flash.  Old NOR flash used to have, you know, 
+all of the transistors connected individually to the read out 
+logic but in NAND flash you stack them up.  And by the way, I 
+drew what -- five here?  There's actually, like, 4,000 in a row. 
+ But the idea is when you're reading, when you want to read out 
+a transistor, you actually bypass the ones that you're not 
+trying to read, right?  So that means if I have all these 
+bypassed, now, I can read what this one's up to.  Except for the 
+problem that sometimes -- so let's say we'll program that to a 
+zero, there's a one, zero, zero, zero, the problem is sometimes 
+you can't actually bypass them well enough, right?  Sometimes, 
+if everything is different than one single one then you get the 
+wrong value out.  And so you read this value out and I'm 
+expecting a one but it's actually, like, a 0.02, right?  And the 
+solution to this is data decorrelation, and data whitening.  And 
+it's a random number generator and people actually do this and 
+you might say, that doesn't actually solve the problem.  You 
+could say, you could just write the random number generator out 
+and you would break out of the NAND flash and the answer to that 
+is:  Uh-huh, uh-huh.  So I'm running out of time but I have one 
+final kind of irritating problem here.  And that is, you know 
+how we say we store electrons in NAND flash and one of the nice 
+things that you really expect about storage is that when you 
+store something that you can keep reading it, right?  But 
+actually when you read it, some of the electrons leak away.  And 
+actually, even if you don't read it, sometimes it just, like, 
+forgets.  Like, NAND flash just forgets.  It doesn't store 
+sometimes at me.  And the solution to this, by the way is that 
+you hope not so much forgets all at once and you use 
+error-correcting codes.  I think Kiran talked about this in the 
+context of 802.11.  And the more math that you want to throw at 
+it, the better you can get.  So anyway these are things that I 
+spent a while reverse-engineering and I wanted to tell you about 
+them because it's kind of cool, I think that these things are 
+cool and it's amazing how much technology we wrap around this 
+really crappy material in order to make it usable for storage 
+and it's really in this really cheap SD card.  So the other 
+thing about this, by the way is that NAND flash is totally 
+terrifying and the cheaper the SD card controller, the more 
+terrifying it can be.  I don't really mind SSDs, but I don't 
+want to use an SD card more than once.  Another takeaway from 
+this lesson is if you read Wikipedia and if you have any vaguely 
+rudimentary knowledge on the subject, anything is possible!  So 
+anyways the code is all on the web and there's a whole write-up 
+behind this.  And oh, and you should make backups yourself.  
+Thanks, everyone.
+[ Applause ]

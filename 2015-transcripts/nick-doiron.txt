@@ -1,0 +1,121 @@
+JULIA:  Next up we're going to have Nick who's going to push us 
+from paradise, adding a remote island alphabet to Wikipedia.
+NICK:  Can you hear me okay?  All right.  Can you hear me all 
+right again?  All right.  Thanks.  Thanks for waiting for that.  
+Hi, my name is Nick Doiron and in real life I work for the 
+Museum of Modern Art but I've done some other projects and this 
+is some crazy project that I've gotten involved in for one 
+laptop for child.  So I got started with this group, the 
+Ministry of Education for the Majuro islands.  So Majuro Atoll 
+is this group way out in Pacific, if you go from California to 
+Hawaii and then out that distance again, you get there.  And you 
+get there, and it's this spaghetti string of land out in the 
+middle of the Pacific and it's this island paradise.  And at the 
+same time this bizarre thing of nature which, I don't know 
+enough about geology to tell you how this could exist but it 
+definitely does exist and they sent me because they bought a 
+thousand laptop per child laptops.  And it's at this De La Sol 
+Elementary School (phonetic).  And they had these laptops and 
+they run Linux and they wanted to know how we could run Word, 
+and PowerPoint, and Excel on them, which we cannot.  So instead 
+we had these different alternatives.  We had some teacher 
+training, we let the kids try them out?  And it was really just 
+set up at a few different schools and the kids really love them. 
+ And they're in English, but especially with the younger kids 
+you want to have some stuff in their local language.  So I had 
+to read up a little bit on their local language which is called 
+Marshallese.  So the thing about the Marshallese Language is 
+that it has, like, this different alphabet that has been, kind 
+of developed over the last hundred years and then they revised 
+in the '80s.  Anyways, some words that you can learn in 
+Marshallese, Yokwe is like hello, or aloha, and then there are a 
+couple of other phrases, “ejeeh ahm moore,” how are you doing, 
+and “noonniep” is a mythical creature that eats snapper.  I 
+asked if it eats other fish and that was, like, the dumbest 
+question.  And then there's this other word, “konnoblok.”  
+You'll notice that there are a lot of vowels and commas and 
+other letters.  
+So there are all these different words that are very hard to 
+encode and so they would ask me, we want to do a quiz on these 
+laptops where kids would answer questions like, "What are these 
+different kinds of fruits" and things like that and the problem 
+was that everyone was getting all the answers wrong because 
+there's actually two ways of writing the letters.  If you think 
+about how characters work, there's the letter and the accent and 
+then there's the combined letter.  So people were always getting 
+them wrong and so I had to come up come up a string thing that 
+would compare it to them, and then whichever answer they had 
+would be correct.  It would say that it was correct.  So these 
+are all the letters in their alphabet.  One of the issues, as I 
+said in the '80s and the '90s, they had a linguist come over.  
+They were using like the ene, the Spanish letter with the tilde 
+-- and every letter they have an accent there was a secondary 
+letter that was okay up until the '80s.  So there was actually 
+four different ways that you can type every single letter that 
+has an accent in the Marshallese alphabet.  And the way this all 
+comes together, this actually comes back to Unicode.  So the 
+thing about Unicode is it's kind of like our Rosetta Stone for 
+computers.  Every character that can be written from our own 
+alphabet to really essential emoji like "kissing cat face" is 
+really encoded in this Unicode spec.  And someone yesterday 
+talked about how time zones are this fascinating, detailed, 
+nerdy political kind of thing that people talk about.  And 
+Unicode is very much that way, as well.  There are all sorts of 
+conflicts.  North Korea tried to get Kim Jong Il's name in 
+there.  And they said no.  And that's why everyone in North 
+Korea doesn't like us.  But actually, the Marshal Islands have 
+actually what I call the Latvia problem, which means that some 
+of their comma letters, they didn't really make them, they 
+appropriated them from Latvian.  And so there was some debate 
+over the last few years, should, the Marshallese language secede 
+from Latvia, and use their own letters?  So now, I have to add 
+all these other letters because there's so many ways to type out 
+these letters in the Marshallese alphabet.  
+And so I started to get emails from them when I started getting 
+emails from the web, and I had things like “lxjy,” and there was 
+no way that was a Marshallese word.  And it turned out that they 
+were using a font that would render if everyone were using the 
+Marshallese font.  So they weren't even using Unicode on their 
+own internal stuff.  They were using this special font, which I 
+asked for it, and I asked, can it work on a Mac and they said I 
+don't know.  So really we need ways of putting these unusual 
+alphabets onto the web and emails, and more compatible things.  
+And Wikipedia has this problem, too.  I mean, I'm just doing is 
+this in one place, but Wikipedia needs to be able to do this 
+with every language ever or else someone will complain about 
+them.  So my question was, is there a solution to this problem 
+that we're having.  So Wikipedia has some really good language 
+tools if you dig around and one thing that I latched onto was 
+the jQuery IME, which was the jQuery plug in, which every time 
+you go into the text area, there's a dropdown and it lets you 
+select what language you want to type in.  Some of them are 
+completely different alphabets and this one is just a keyboard 
+mapping where it would add the same letters as the Marshallese 
+Marshallese letters, and you'll be able to type on Wikipedia, or 
+you can actually have this as a Chrome extension, and you can 
+type on the web the way that they're familiar with their font.  
+And actually type it in the universally compatible Unicode 
+system.  And so I went up and I did a pull request.  And I'm 
+sure there are people who haven't contributed to open source 
+yet, it's a thrill, it's fascinating and it's an amazing feeling 
+when you know that you've put some commits up there in GitHub or 
+something and then they merge it into the system, so if you ever 
+want to type in Marshallese, you can use this plug-in and it 
+actually works.  And it was actually difficult to send stuff up 
+to GitHub because I was on a remote island.  When you're an ISP 
+and you see something like this in your backyard, and you go, 
+"Oh, no."  I'm sending all this stuff off to space.  They had a 
+cable or something, but it was really slow, and expensive unless 
+I was piggybacking on the Ministry of Education.  And why get 
+people on the Internet if they're not on the Internet yet?  I 
+mean this is one region that's gone through a lot. World War II 
+atomic bomb testing were performed on the Marshallese Islands.  
+And global warming, their culture is in threat because their 
+island can disappear, or other islands have already been 
+irradiated, and it's just this one thing and it's this one 
+island that's a problem. But there are so many countries that I 
+don't even know about that this problem is a problem.  So it's 
+definitely worthwhile to go out there into the world and find 
+these places that want to get online and want their language to 
+be shared and, like, make it compatible, put it into Unicode and 
+try to make it into more things.  So yeah, thanks.

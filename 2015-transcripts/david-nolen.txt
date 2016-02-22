@@ -1,0 +1,274 @@
+DAVID:  Check, check, check.  Hello, hello.  I'll project.  
+Okay.  Hi, I'm David Nolen.
+AUDIENCE MEMBER:  Hi.
+[ Applause ]
+Okay.  And so this talk is called, "Invent the future you want 
+to live in" so this is really kind of more of a personal 
+narrative and it's not really about inventing the future for 
+everybody.  You can't invent the future for everybody, but 
+perhaps it's worth inventing the future for a small community 
+that you care about.  So, again this is kind of a personal 
+narrative but hopefully, you get some ideas or some 
+inspirations, or new perspectives on each and how they use 
+computers and how things come about.  So the very first thing 
+that I'm going to start with, though, may not even seem having 
+to do anything with computers at all.  Raise your hand if you've 
+ever read -- no -- no -- raise your hand if you've ever heard of 
+Moby Dick.  And that's amazing.  Nearly every single person in 
+this room raised his hand.  When her man Melville in the 1750's, 
+it was universally paneled.  So how can a book that people hated 
+-- I can be in a room in New York and everyone raises their 
+hand.  And it's been translated into many languages.  How does 
+that come to be?  Well, one person believed that he didn't want 
+there to exist a future in which people didn't appreciate this 
+book, this is called Van Doren, I think in 1920 he wrote an 
+essay where he said, "This is one of Melville's greatest works." 
+ And this came back people reassessing it, and people 
+re-evaluating where it sat in American literature. now people 
+don't question it.  It's one of the greatest American novels.  
+In fact, Moby, Dick people could say, that it was written too 
+soon.  Sometimes you have a big idea and people don't have -- 
+really, the means to understand it.  And that may very well be a 
+cultural thing that's at play.  So this is one idea in my talk.  
+I'm starting out with a couple of things that frame my talk.  A 
+couple of things that's at the center of my talk is probably one 
+of my first loves which is drawing.  I don't do as much drawing 
+as I used to, but one thing that I do now, or that I appreciate, 
+or that I just involved in, that drawing is a very tactile 
+thing.  Everybody that gets into drawing loves the fact that you 
+get your hand on the paper, and you really get to see the result 
+and the other really great thing about drawing is, if it's 
+something that you want to draw well, it's beautiful, over time, 
+you can see yourself improve.  So that's something that's 
+fantastic about drawing that I think a lot of things that 
+involve technology don't really have this sense yet.
+          I'm a musician as well.  And instruments are 
+important.  I think people know this intuitively, although, I 
+think sometimes our standard for whether the instruments in 
+terms of the technology we pick or use, whether or not we're 
+more discerning.  As a musician I don't want to play this.  I 
+really want to play something like this, right?  Instruments 
+matter a lot.  It's not that -- the beautiful thing about a 
+musician and you have a musical sense, you can play anything.  
+But if you ask anyone who works as a living as a musician 
+there's a deeper appreciation for well designed instruments.  
+But it's not just about the instruments, right?  Often people 
+confuse that you can get somewhere just by having a great 
+instrument.  Music is a social phenomenon, right?  It doesn't 
+matter if it's just you playing your thing.  There's a whole 
+element of communication at play.  So, this is an image of Sun 
+Ra who's a fantastic free jazz artist.  And some of you may be 
+like, "Well, I hate free jazz."  And that's great.  Again I 
+think there's an obsession in the tech community that this thing 
+needs to scale and everybody needs to use this thing.  And I 
+think it's ridiculous.  Free jazz is a beautiful artform and not 
+everybody likes it, and that's okay.  But the people who 
+understood it as artists, we have to create an audience here, 
+that means finding collaborators who believe in your music, 
+making recordings, doing wild performances so that people are 
+blown away.  These are all important things to consider in 
+trying to sort of evangelize your idea.  So those are the big 
+framing ideas for my talk.  Now, let's get into sort of my 
+personal evolution with computing and you'll see how this ties 
+back to the earlier slides.  So my -- so the very first computer 
+that I ever used was an Apple 2GS.  My father bought that in 
+1987, it was a huge investment.  A great little machine.  I 
+really loved this machine.  Raise your hand -- did anybody else 
+here have an Apple 2GS?  There's like, two, three?  Not so many 
+of you but it was a really great machine.  And it was relatively 
+fast.  I mean, the really great thing about it was the high 
+resolution display but there was all this awesome software that 
+was mind-blowing for a kid.  So Fantavision.  So flash, it 
+basically morphs vectors.  And so, Fantahigh pressure vision had 
+this in '80s hardware.  It was awesome.  If you have haven't 
+seen Fantavision, check it out.  And the other thing that I 
+loved was where in the world was car men San Diego.  I was 
+obsessed with all these beautiful pixel graphics, I don't know 
+who did this, it was amazing.  So for my brother and I, it was a 
+window into a whole universe.  In this machine was an entire 
+reality.  So as kids, computing was so cool.  It seemed like you 
+could do anything.  Eventually my father said well, if you 
+really like computers why don't you learn how to program the 
+thing.  So this sort of got me, my brother was ten, I was nine.  
+And he started messing around with Basic and this goes back to 
+my slide about drawing.  The amazing thing about Apple 2GS 
+was... okay.  Whoops, sorry.  One second.  So if you held the 
+let set button down on an Apple 2GS, what would happen is, you 
+would be immediately dropped into a Basic prompt, right?  So 
+when you boot the machine, you would hold down the reset button 
+and you would immediately be able to start programming, right?  
+And so for a kid, it's like, this is like, a piece of paper.  My 
+computer's a piece of paper!  I can boot it and I can start 
+writing code.  Right, so I can go...
+[ Applause ]
+That's totally awesome.  This is how computing should be, right? 
+ My brother and I would waste hours, hours, hours, it was so 
+simple.  You could set statements.  You could change your 
+program.  You could write it down if you wanted to.  It was so 
+immediate.  There was immediacy here.  So for me the future of 
+programming that I wanted to live in always involves sort of 
+deep appreciation for immediacy.  Okay.  So... okay.  So I ended 
+up -- I was a teenager and I was, like, "Well, I love 
+computers."  But I didn't really want to be a video game 
+programmer and at the time I didn't know that much about the 
+history of computing, or all this other stuff and so I was, 
+like, well, I sort of catered to the liberal arts side of me and 
+I studied film and I actually have no background in computer 
+science.  Besides using them, I never went to school for 
+computer science.  I and so I spent some time exploring film.  I 
+actually got into experimental film which is not what most of 
+the people in my program was excited about, but this was this 
+amazing world.  An underappreciated artform.  Quite a few 
+interesting experimental filmmakers in the U.S., but I ended up 
+being involved in something called cinematexus, that was a 
+collection of people who said, we don't want to live in a world 
+where experimental cinema is not celebrated and people could 
+come all over the place, all of these criminals, filmmakers 
+would come together.  And it would be like !!Con for 
+experimental film.  It was awesome.  Communities really matter, 
+even if it's something again, maybe a lot of people don't 
+appreciate.  That is okay.  I got into film, but I realized -- I 
+was excited about experimental film and there's no money in 
+experimental film.  It's something that someone do out of love.  
+Not to make money.  There's no money in it.  I loved watching 
+it, but I didn't want to do it.  But I got excited.  And what 
+got me excited again about computers after my stint in film was 
+because of John Meta (phonetic) who was a well known artist and 
+designer and he was doing great things in the '90s where he 
+started combining computational ideas with a deep aesthetic 
+sense.  This sort of kickstarted a whole world of people who 
+were fascinated with combining creativity and computing.  And so 
+I got inspired by this and this led me to want to know.  I was 
+like, okay, I'm excited about computers again.  So Meta went to 
+MIT, and I have to read the book that Meta did.  And I didn't 
+know anything about Lisp.  My background was Basic, Pascal, C++. 
+ But this book was a shock.  Everything that I thought I knew 
+about computers was wrong.  I didn't know anything at all.  And 
+that's a great feeling.  When you find something that says, you 
+thought you knew what computing is about.  And it says, you 
+don't know anything at all.  And they barely know what it is.  
+And they're showing this stuff.  And I distinctly remember 
+opening up this book of code and thinking, "This looks like 
+abstract poetry.  This does not look like a computer program."  
+And so I got so excited and I said, I gotta understand this 
+stuff.  And at the end, I was so blown away.  Because I was, 
+like, this seems like this is so cool with computers but I 
+looked around the industry and, and no one was using this 
+scheme.  No one was using Lisp.  How could something that was so 
+great get to little real world use?  So this is me, the seed is 
+planted in my brain.  So maybe we could change that.  I moved to 
+New York City.  I got a graduate degree in new media, and I 
+ended up getting jobs, in various forms of computer programming 
+and while I was do, I did quite a bit of Objective C.  For those 
+of you who haven't done Objective C, it's like someone trashed 
+SmallTalk with C.  And it's probably in some ways, a little bit 
+antiquated now, but really what was awesome was that OSX was 
+really just a reboot of Next.  And what was really great about 
+Next was that they were trying to get commodity on -- that the 
+Altos were, you need the stuff to work on commodity hardware.  
+So next was bringing the SmallTalk idea.  And if you've never 
+used Objective C and interface builder, it is quite powerful.  I 
+think there are tools that surpass it.  But this was futuristic 
+stuff.  They were taking ideas that were taken less than a 
+decade earlier as Xerox and using them as an industry.  What was 
+interesting, Doom, one of the most finals games of all time, the 
+entire Doom editor was built on a nexus machine, but that's 
+important again, right, the immediacy of the system that Next 
+gave developers, it was an important property.  So after school, 
+I ended up doing Javascript, this was, like, 2005.  Raise your 
+hand if you don't need Javascript.  Wow that's a lot of people.  
+Almost as many people that heard of Moby Dick.  This was in the 
+dark days of Javascript, though.  We had to support IE6.  Alert 
+debugging was the state of the art.  And it really was, like, 
+wow I can't believe that it was so bad.  This is like the 
+anti-thesis of small talk of immediacy and visibility.  You 
+could crash Internet Explorer six and you would have no 
+information.  This is what you would see.  This is it.  Now 
+what?  How do you debug this program?  Anyways I think many of 
+you experienced things like this in computer.  And it should be 
+very familiar to you.  A lot of our systems don't work quite as 
+well as we like.  So I did that for you know, four years, and 
+after that, I love Javascript by I gotta, like, take a break, so 
+in the summer of 2008, I took a three month sebatacle and I 
+said, I'm going to go back to the Lisp thing.  I think hack -- 
+there was a lot of enthusiasm for Lisp, and it seemed like a lot 
+of new developers were excited about the potential of Lisp.  And 
+so I was, like, I did, you know, the sick pea stuff, and I was 
+like, what was the state of Lisp today.  Common Lisp is really 
+cool, but the hard thing was that it was really hard to set up 
+and the community was, I would say, like, I mean, it's -- it's 
+actually gotten a little bit better but the it community wasn't 
+taking it seriously.  Communicating the benefits of the system 
+and making it sort of easy to get set up with it.  So as awesome 
+as it was, it was hard to get going.  And then I chanced upon 
+this website, and it had his weird Lisp and was for the JBM.  
+I'm going to download this JAR, and then I had a repo 
+immediately.  So I could download it and I could run it.  And it 
+was interesting because I was already interested with 
+processing.  And processing runs in the JVM.  It was a fun, way 
+to experience computer programming.  So if you know Lisp, you 
+can see that oh, if I take a graphic programming environment, 
+and I add a Lisp to it, I can recover live programming.  So, 
+like, live-coding the system.  It's not hard if you have late 
+binding the way that Lisp, SmallTalk, and as well.  This is 
+verbatim from structured programs.  And they say, this is a 
+powerful strategy of synthesis, wishful thinking.  I think this 
+is just wanting, and wanting it better, and thinking about it, 
+and even acting on it.  So a lot of things started coming 
+together.  I feel like I was interested in Lisp and I was able 
+to use Clojure, and take advantage of the JBM.  And be part of 
+the ecosystem that people were already invested in, but I could 
+also use all of the stuff that I love from this book at MIT.  
+And this blew me away when Fred Fickter (phonetic) did his talk, 
+what was fascinating about this talk was that I honestly thought 
+that nobody was going to be able to convince people that small 
+talk or the Lisp way of doing things was ever going to come 
+back.  People sort of lost that ideal as a goal, and Fred did a 
+great job of saying, this is a huge idea here, and this is an 
+old idea and I'm going update so that it's palatable to an 
+audience.  Old amazing idea, it may seem radical, it's actually 
+not.  People know about it.  And then he updates it so that 
+people don't forget.  I think that's very important.  So me, I 
+actually do lots of things but one thing that's been really 
+rewarding and really, really fun is that as a Javascript 
+developer I got involved in Clojure script because Clojure 
+script was a dialect that allowed me to Javascript.  And again, 
+this allows me to interface with a much broader world for people 
+that write Javascript and produce Javascript and Clojurescript 
+is just a way for us to get these nice Lisp semantics back into 
+our development, into our workflow.  So to wrap it up.  So it 
+took a long time.  So I started poking around with Clojure in 
+2008.  Clojure's now 8 years old.  So I think it actually takes 
+a long time.  You may have a wishful thought and it take take 
+you long time to get to where you want to be.  But I would say 
+this was in the back of my mind back in 2003.  This was my Lisp 
+editor machine.  This is an editor here that can understand Lisp 
+syntax and the fact that what was happening with other browsers, 
+you can view the list, and step through it.  And this is so 
+cool, right?  I had this thought that one day I'll be able to 
+program the computer the way that I want to program the 
+computer.  I never lost site of the, sort of, joy and immediacy 
+that I liked for my Basic programming.  But that's really all I 
+had.  And I'm probably out of time.
+AUDIENCE MEMBER:  We can take a couple minutes.
+LINDSEY:  We're not doing Q&A though.
+DAVID:  Okay.  Good.  Thanks.
+LINDSEY:  All right.  So I just told David that we're not doing 
+Q&A, however, in lieu of Q&A we have lots of breaks and time.  
+And so we have a 15 minute break now in which you can ask him 
+all the questions during Q&A had we had it.  So with that, we're 
+going to break for 15 minutes.  There are restrooms back that 
+way, next to the kitchen.  And we'll resume in 15 minutes with 
+the first session, which is called, "Traveling swiftly through 
+time."
+MAGGIE:  While you're taking a break in addition to getting 
+water, using the bathroom and stretching and stuff, if you would 
+like to, you can take a look at your unconference sheets, 
+they're where you got your name tags this morning.  There are 
+three unconference sessions that are one hour long where you can 
+say what you're interested in talking to each other about.  I've 
+put up an example.  And the example I have no idea what it would 
+feel like, but if someone wants to lead an unconference example 
+I will come.  Because I'm the conference architect and you!  So 
+they're right behind the glass doors.  See you in 15 minutes, 
+otherwise.

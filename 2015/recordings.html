@@ -7,9 +7,12 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" />
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/recordings.css" media="screen" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/recordings.js"></script>
     <title>Recordings - !!Con</title>
   </head>
 
@@ -24,12 +27,21 @@
 
       </div>
       <div class="inner">
-        <section id="main_content">
-          
-          <p>We've been posting the !!Con 2015 videos on <a href="https://www.youtube.com/channel/UC2kxl-dcUYQQvTCuQtfuChQ">our YouTube channel</a>!  Eventually, this page will list them all, along with live transcripts.</p>
+        <h2>Talk Recordings and Transcripts</h2>
 
-        </section>
-        
+          <section id="talk_container">
+
+          </section>
+
+          <div id="talk-template" style="display:none" class="talk">
+            <h3 class="talk-info"></h3>
+            <div class="talk-youtube-thumb"></div>
+            <div class="talk-youtube"></div>
+            <div class="talk-embed"></div>
+            <div class="talk-transcript"></div>
+            <div style="clear:both"></div>
+          </div>
+
       </div>
       <footer>
         <p>Hosted on <a href="https://github.com/hausdorff/bangbangcon.github.io" target="_source">GitHub Pages</a>.  Previously: <a href="2014/">!!Con 2014</a>.</p>

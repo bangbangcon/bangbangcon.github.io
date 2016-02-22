@@ -1,0 +1,130 @@
+JOSH:  Excellent.  Okay.  I am first going to remind you how 
+terrible the debugging experience can be and then I'm going to 
+introduce you to a future of rainbows and unicorns and you'll 
+love it.  Let's definitely so when you're using a source code 
+debugger.  Often you have two main concerns, either you 
+interrupt the program too late and you miss the parts of it that 
+made it important for resolving the problem, in which case you 
+have to restart, or you stop it too early and then you waste 
+time getting to the parts that do matter.  And if you end up 
+making a mistake, you still have to restart all over again.  
+This is unpleasant.  This is even worse if your error isn't 
+actually consistent because then if you restart there's no 
+guarantee that you'll actually catch the error again.  It's a 
+really bad cycle.  So let's talk about the specter of 
+non-determinism in programs.  So what that means is that your 
+program relies on factors besides the initial state of the 
+program and any initial inputs provided to it in order to decide 
+how it behaves.  So here are two simple example programs that 
+both, initialize a random number generator and then take the 
+first random number and then decide what to do based on it.  The 
+one on the left is deterministic.  That means that if you 
+provide the same seed number on the command line to it, every 
+time it will behave exactly the same way.  The one on the right 
+initializes the random number generator based on the current 
+time and that means that if you run the program over and over, 
+it'll have a different seed every time.  That is 
+non-deterministic.  So other causes include things like user 
+input or the way the kernel schedules your tasks, or, you know, 
+external signals, things like this.  So I want to tell you about 
+a tool called rr which stands for "record and replay."  And what 
+that does it actually records the non-deterministic behavior of 
+your program, it notices what is non-deterministic, records 
+that, and later allows you to replay previous executions in an 
+exact same way in a deterministic fashion, which is pretty cool. 
+ So in practice, that means that your debugger is an Elefant.  
+That means that it can now remember all previous knowledge of a 
+presume and that means that if you restart, everything can be 
+exactly the same any non-deterministic behavior will behave 
+exactly the same way in subsequent restarts of the process.
+          That means that memory addresses will be exactly the 
+same.  And that means that, like, any watchpoints, any 
+breakpoints that you leave will still be valid any subsequent 
+times you run your debugger. also you can travel in time, and 
+that's really cool.  So let's see what that means in practice.  
+So I have a very simple web server which, occasionally, when you 
+refresh it, instead of showing you a directory listing that 
+actually has a bad request and that's no good.  But it's also 
+mysterious.  So if you look at the output, you notice that it 
+sometimes prints out a useful message saying, "There was a 
+problem."  So let's go and take a look at this replay of the 
+recording that I took of this in the past.  And this can be 
+hooked up to any GDB front end.  So I'm going to do it in emacs. 
+ So first I'll set the breakpoint that printed out the error.
+AUDIENCE MEMBER:  Bigger font?
+JOSH:  I don't think I can.  It's a video.  So we're sitting on 
+the break point.  Right there.  So this happens after the actual 
+error has occurred.  So that doesn't necessarily help us because 
+we want to know what caused it.  So let's go backwards in time.  
+We're now at the previous if-statement.  So it's based on a 
+variable called error flag.  So let's take a look at where 
+that's stored in memory and we get a pointer out of it.  And 
+we'll then set a watchpoint on this pointer, which means, "We'll 
+get a breakpoint whenever that value's changed."  Now, let's run 
+the program backwards and see what happens.  And we go to the 
+line that changes the zero to one.  And that's really cool.  So 
+now we can move around in time in program state and we can go 
+forwards to see what happens afterwards or we can go backwards 
+again and we can keep going backwards.  If we want to dig into 
+what happened before us, we want to step into functions, so we 
+can go back in time, and a bit more.  But we decide we're not 
+actually interested in that, we can reverse finish and go back 
+to the color.  So from here, I think we'll step back a little 
+bit more to see what the problem was.  Not the if-statement, 
+that's just getting us into where the error was flagged.  Let's 
+just go to try_parse here.  Eventually we notice there's this 
+mallet call, an allocation that turns out that it failed.  And 
+that says, close connection immediately.  So that looks like our 
+problem.  And so we were able to figure out the cause based on 
+the effects, which is a radical notion.  And if you rerun the 
+debugger, the watch point is still valid and he can see that it 
+goes forward.  Every time you restart your replay session.
+          So, that is what rr looks like using it.  So when you 
+think, like, how's this happening?  So there's a few tricks.  
+One is that all multithreading gets scheduled into one single 
+thread so that means that you can control how the actual 
+interruption of -- preemption of threads happens.  You'll have 
+to trust me on that, there are reasons.  And then almost all 
+non-deterministic behavior here ends up happening through the 
+system calls the kernel which means that the program can 
+intercept the system call and notice the resulting output when 
+recording and then when it's replaying, when it has the system 
+call again, ignore it and then just replace the output you would 
+get with the recorded one and then you use something called 
+hardware performance counters to get a specific point in time 
+that you can associate with these events and in this manner, you 
+then have a trace of programming behavior over time that you can 
+just replay over and over, which is neat.  So why is rr 
+especially in particular is that it has special low overhead 
+compared to other tools.  It's nothing new.  Like, this isn't an 
+idea that's been around since the earlier 2000's, and there's a 
+bunch of tools out there.  This one is a new one that's aiming 
+for production quality.  We use it at FireFox regularly.  It's 
+of new use to us good it can't deal with giant programs and also 
+we don't want any kernel modules, we don't want any hardware.  
+There is any stock 32 or 64 bit Linux system that can do this 
+with it.  And it's all open source, so it's pretty fun.  So what 
+else can you do with this?  You can travel back in time.  It's 
+fun.  But imagine if all your testing infrastructure ran in rr.  
+If you have less than two times overhead, often that means 1.2 
+times.  That means a ten minute suite will now take two times.  
+Every time you notice a flaky test that occasionally fails, you 
+can be just like oh, I'll just grab the recording from another 
+server and log in there and take a look whenever I have the 
+time.  That's pretty nice.  And also this works in optimize 
+builds in that if you're ever debugging something in GDB, and 
+this object that I'm trying to inspect optimizes out, you can 
+figure out where that that value came from and eventually you 
+can point a point where it's not optimize out.  So additionally 
+this is super helpful for debugging products.  For audio video 
+stuff, we have an engineer who's debugging wireframe drops.  And 
+when you have GDB, you can say, when was the last time we ran 
+this code?  If you were running GDB normally, maybe it was 60 
+seconds ago.  But with rr, it has a fixed point in time that 
+would be the same point in time, and you can actually run logic 
+against that.  So that's it.  This is a really fun tool to play 
+with, and record and replay makes my life so much better when I 
+use it.  And I love it.  Come talk to me more about how it 
+works.  Thank you.
+MAGGIE:  How amazing were all of these?
+AUDIENCE MEMBER:  Super amazing!

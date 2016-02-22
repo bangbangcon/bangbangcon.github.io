@@ -1,0 +1,165 @@
+LEA:  I stick to physical things in the real world.  Okay, how 
+about that?
+>> Can it go higher?
+LEA:  That's a really great sound.  Okay.  How about now?  In 
+the back?
+ALEX:  Maybe lean in?  Sorry --
+[ Applause ]
+[ Laughter ]
+All right.  On that note.  Okay.  Hi.  I'm Lea.  I do a lot of 
+stuff with code and textiles and so sometimes I I do stuff with 
+computation mixed into the final product.  So that's a cocktail 
+dress mixed with microcontrollers on the inside.  But right now 
+I work with a research lab, so I work with industrial machines 
+that make the fabric itself and then the machines are controlled 
+by the code that I write.  One of the awesome machines that I 
+work with with a knitting machine.  Knitting, for those of you 
+who haven't met it, it's a way of turning a yarn into a surface 
+through careful intermeshing.  The path of the yarn zig zags 
+from the bottom to the top and then the loops are connected by 
+being knit continuously by a continuous string and then the 
+loops stack vertically by a line and then each loop is held in 
+place by another line that's held above it.  That's important.  
+Another loop that's not put through it is thought of as alive or 
+unstable.  So this one is held by friction and you could unravel 
+it with the thread as you walk away.  In handknitting.  The 
+lives are held next to each other by one needle and then the new 
+ones are -- and in machine knitting each loop is allocated to 
+its own hook-shaped needle which is capable of pulling through a 
+single new loop like the animation.  Here's the formation of a 
+new loop.  I also have this sweet hand-crank version if you want 
+to come play with it after the talk.  You turn the crank.  It 
+knits.  So the knit stitch is the most important atomic 
+operation that it can a do.  The second most important atomic 
+operation is the tuck stitch.  Pulling the loop through without 
+dropping the previous one.  You can use these for textural 
+effects, for adding elastic, or doing color work if you're using 
+two different colored yarns for example.  Just to throw it out 
+there topologically, the first row you knit is a tough row 
+because there's no loop there.  A third atomic operation is the 
+transfer.  There are thousands of these hook-shaped needles and 
+they're tiny and they're called beds.  So there are both beds in 
+the picture and they meet at a 90-degree angle.  And any of 
+those can transfer to the needle that's directly on the other 
+bed and so we can transfer from the front bed to its 
+corresponding needle on the the back bed and vice versa.  We can 
+also change the alignment, and this is called racking the back 
+bed and it moves the back bedside ways.  And so those are four 
+things that we can do.  And how are they useful?  Four things.  
+Let's look at some swatches.  Rectangles are really easy.  We 
+can just make some stitches with one row, make another row and 
+note this slide we're reading from the bottom to the top because 
+that's how the stitches are formed.  Gravity makes it so.
+          Okay.  How about lace, though?  That's kind of 
+complicated looking, right?  A lace is any fabric with a pattern 
+made of holes.  So there are actually lace making methods for 
+all of the textile processes.  In knitting when we want to make 
+a hole we can't just drop a stitch, right, because every stitch 
+has to be held by at least one other stitch because all of its 
+predecessors will drop.  You can move a stitch out of the way by 
+transferring it to its neighbor.  We move the bed one way or the 
+other and then we transfer back up to its original bed and then 
+note the stitch above, that hole is a tucked stitch because it 
+doesn't have anything to pull through.  Okay what if we move a 
+whole chunk of stitches over?  And like, maybe all the way to 
+the edge?  We have a fabric that is now slightly narrower.  Or 
+conversely we could move some fabric outwards and we would have 
+a fabric that's slightly wider.  Okay, this is kind of my Julia, 
+this sounds kind of boring but I tell you it's really amazing!
+[ Laughter ]
+Because fabric that is slightly narrower or wider is how we make 
+complicatedly three-dimensionally shaped fabrics for our 
+complicated three-dimensionally shaped bodies.  So we've got the 
+ability to make these arbitrarily shaped surfaces out of these 
+four atomic operations and these are machines that exist right 
+now in the industry.  And I think we can probably assume there's 
+some really cool UI that fancy designers and law spaces that are 
+telling what these machines what to do?  No.  Right.  Here's the 
+proprietary programming language that is used by the company 
+that made the machine that I use.  It's a 2D array of color 
+values, AKA, pixel art.  You read it from the bottom to the top, 
+and each horizontal line of the pattern corresponds to a pass of 
+the carriage.  The carriage is what actual articulates the 
+needles.  Because they're so tiny there's not like a solenoid 
+hooked up to each one, they follow a cam path in this physical 
+hurdle that articulates from side to side and articulates them.  
+This is just one pattern because they get tall very quickly.  So 
+let's zoom in.  Okay, stuff in the middle is essentially 
+stitch-by-stitch instructions.  Most of stitch combinations are 
+shorthands for the combinations that we went over before.  So 51 
+and 52, pale pink and pale green, correspond to -- knitting at 
+two, again, obviously and then the over purply colors lower down 
+are transfers forward and back.  The streaky lines up the side 
+are called option lines and they carry machine instructions for 
+that entire pass and so the rack value that's moving side to 
+side set by that line which is a lie because it's set by two 
+lines, it's set by the mauve and purple line, and they interact 
+in kind of an inexplicable way.  And and you can do repeat 
+blocks as well.  Had so yeah, this is pretty easy to read but it 
+gets complicated really quickly when we're talking about 
+something more like a glove, for example.  I've spent about six 
+months learning to read these.  This is a real system that we 
+really actually use in industry.  I'm pretty sure that we can do 
+better.  A large part of doing better is doing physical 
+simulations of the object because that's kind of one of the 
+better ways to do UI in my opinion but we also need to think 
+about what kind of abstractions we're going to build on top.  So 
+one thing that we can right off the bat, we can do some loops as 
+a joke, because knitting's all about loops.  So this is 
+straightforward.  This is a nested loop and it's drawing a 
+rectangle and this is oversimplified because it turns out we 
+care about directionality we care whether the yarn is going 
+leftwards, you are right wards, back to the front, or front to 
+back.  And back to front and front to back is determined by 
+which loop we're using, so we really want something more like 
+this because we're alternating rows going left and right, we 
+need two at a time.  So this is actually what it looks like to 
+knit a rectangle actually.  So how about that business with 
+moving the stitches around with all the transfers and the wraps. 
+ So this is basically a pseudocode version of what I showed you 
+earlier.  We're transferring back, and then coming forward and 
+then -- and it's a good idea to set your rack back to zero so 
+that you're set up for the next time around.  This is great.  
+This is all we need if we're transferring just one stitch 
+around.  Something that we haven't talked about yet is knit time 
+efficiency.  Yeah.  Something -- one of the nice things about 
+this format is that they make visible something that's actually 
+really important especially in industry.  I said earlier that 
+each horizontal line corresponds to a physical pass of the 
+carriage.  It's a thing that takes time to do.  So there's 
+actually a direct correlation between the height of this drawing 
+and how long it's going to take to knit something.  And one of 
+the things that will get you really quickly is the transfers 
+because the transfers have to happen in a row all by themselves 
+and remember we can only set the rack value per line.  So this 
+thing that I just coded up takes a minimum of two passes which 
+is great if you only want to do one transfer, right, or one 
+sideways movement but if we're talking about a lace where we've 
+got 300 stitches in a row that all want to go over by one, and 
+we just naïvely call this thing three times, we're talking about 
+600 passes for a single, this tall row of knitting and it's 
+probably a bad idea.  So we want to do something more like this 
+instead.  Transfer all our stitches back at the same time and 
+rack it, and then transfer them all forward at the same time 
+again.  Yeah, this looks really good.  But what if the stitches 
+are going to go to different locations; they're not all going 
+plus one.  Maybe one of them's going minus one, and one of them 
+is going plus one.  Or maybe they're swapping places if it's a 
+cable knit or maybe we want to knit it evenly across its width.  
+The ones in the middle are moving quite a lot and the ones in 
+the end are moving just a little bit.  Here's a fun one.  The 
+has a maximum amount that it can rack over.  It's a physical 
+piece of metal that has to stay inside a bigger physical piece 
+of metal.  So what if we wanted to rack over more than the bed 
+can actually move, and what if we wanted to do all of these 
+things at the same time?  Ehh -- ah, mmm.  I've actually written 
+all of these cases specifically but actually haven't written a 
+function that combines them altogether because I actually have 
+no idea.  This is one of those talks where I'm like, "I have no 
+idea but we're accepting interns."  So in the meantime, though, 
+I'm having a really good time turning this nonsense, which kind 
+of looks familiar to you into something that looks more like 
+this.  Look at this awesome thing that is -- these look the 
+same, right?  Yeah!  All right.  I'm out of time.  Come talk to 
+me.  We can talk about modular arithmetic in short rows.
+[ Applause ]

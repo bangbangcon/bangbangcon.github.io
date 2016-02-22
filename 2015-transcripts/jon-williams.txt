@@ -1,0 +1,166 @@
+JON:  Hi, my name is Jon Williams.  I'm going to talk about 
+light painting with robots in Javascript.  And there's going to 
+be a live demo.  So say your prayers to whichever deity's in 
+charge of live demos for you.  Can you hear me in the back?
+AUDIENCE MEMBER:  Yes!
+JON:  All right.  If I get to seven minutes -- person that's in 
+charge of time... and I'm still -- I was going to ask -- okay, 
+great.  I'm Jon Williams.  I've been doing online front end 
+something or other under shove media for 15, 20 years, it seems 
+like.  When I was a kid, I had one of these guys.  Anybody have 
+one of these?  Hell yeah!  This is the Armatron.  The Armatron 
+was a badass robot.  So I had dreams of hooking this up to a 
+robot, or a remote controlled car and I took this apart and 
+found out that these enjoy sticks are not electrical.  There's a 
+series of concentric gears and when you press on an joy stick it 
+engages a clutch into that thing, and there's one motor in there 
+that makes all this noise and it's the most ingenious thing that 
+I've ever seen and you can't hook it up to a computer.  So this 
+is the U-arm.  This thing showed up on Kickstarter.  $250, I 
+think.  That's a suction cup on the end and it's able to pick up 
+about a pound.  This is sped way up.  And you can control it 
+with a mouse.  I can't get to -- how do I go back?  Not that far 
+back.  You gotta watch the intro again.  I'm sorry.  All right.  
+So, I bought this thing, decided what am I going to do with it?  
+I'm going to try to paint with light.  So this is an early test. 
+ I'm actually filming with my phone.  The computer screen, I did 
+this in After Effects.  I just threw in a green LED on the end 
+of this thing.  And used After Effects to get the paint effect 
+'cause I didn't have a proper camera and this was sort of the 
+first result.  The first program that I wrote, I'm attempting to 
+draw a doughnut.  And you will see that theme.  This is a still 
+using a different After Effects technique.  It's adding up all 
+the brightest pixels that it was able to find.  It was awful, 
+and it was at this point that I decided I needed a proper 
+camera.  The blue and red at the back, is the lights on the back 
+of the robot.  And so it's like swiveling on its base.  So 
+you're seeing it sweep out that arc in the back.  Yeah, no.  You 
+can see that, first of all it's really tweaky and it's drunk.  
+And if you look closely, you can see that it's sort of pinched 
+at the back on the right-hand side.  It's not properly doing the 
+geometry.  This was before I had the polar coordinates math 
+sorted out.  This is the same program, different lighting 
+conditions.  And then this, I've been joking that all electronic 
+artists are required, by law, to use the Mona Lisa.  And so this 
+was the first picture that I made that you could, sort of, tell 
+hey, this is working.
+          So at this point, I had not built the iris that's on 
+the front of this thing that allows me to control the size of 
+the dot.  It was just kind of like a raw LED just kind of 
+floating out front.  This is one of the best shots I got.  So 
+lower your expectations to about here.  You can see that it 
+leaves gaps.  The mechanical addressability is not very awesome. 
+ We're going to come back to that.  Trying to figure out a way 
+to deal with those gaps in a minute.  So one of my first tests, 
+though, to try to deal with that was to give the arm a little 
+wiggle to get it across.  That totally didn't work.  I got this, 
+though.  And this is my favorite shot of all of them.  It's like 
+"Tweaky Lisa."  This is Starry Evening.  Which did not come out 
+at all like what I wanted but there you go.  All right.  So then 
+I decided, like, okay, let's gets serious, let's build an iris.  
+Let's control our light a little bit better and I drilled a hole 
+and stuck it there.
+          This, I used one of the leftover plastic parts.  And 
+this is black construction paper, and, sort of, like, early 
+prototyping.  This is me gluing pieces of bent metal and I'm 
+using the quarters as a weight.  As a vice because I don't have 
+proper anything.  This is an early working prototype.  This is, 
+like, prototype number three.  This actually worked.  And I was 
+really excited but this didn't actually work when it attached to 
+the servo.  And you see like hot-melt glue and wooden dowels and 
+I've drilled the holes for those -- I'm losing my words because 
+I've been up too late.  Anyway, yes.  So this is one of the 
+earlier tests.  Like, can we draw with a controlled iris?  Yes, 
+we can.  Yes, we can.  This is supposed to be a spiral but you 
+can see, like, again, that mechanical addressability is not 
+quite what we would like.
+          This is a -- if you go on Wikipedia and look for a 
+Vogel Spiral, Vogel figured out this mathematical arrangement of 
+sunflower seeds, I'm using that to create a couple of images.  
+And again with that.  Sorry.  I was going to show you code.  
+We're running out of time.  So all right.  How does this work?  
+I put all this on GitHub so we're going to just really quickly 
+talk about.  It's a serial port.  This is on the arduino side.  
+And it's a little state machine and we look for certain bits.  
+Whoa, that's not... so we're looking for a 255 here.  The basic 
+code here was part of the code that came with the robot arm.  
+But when I tried to talk to it with node, I couldn't figure out 
+how to get those numbers to actually go down the wire and so I 
+did want to show you the secret sauce.  And the secret sauce is 
+buffer.  So I build these arrays of data that I want to go down 
+the line.  And you can see me making a new buffer that, where I 
+concat, if we're talking about the position we're going to send 
+the robot next plus the positions where I built up here... 
+right, we're just doing not too fancy.  Come talk to me if you 
+want to know how this works.  If we write that out to the U-arm, 
+and if there's an error, we log it.  You're looking at the 
+state-of-the-art in error-handling right there.  All right.  So 
+then I wrote some more programs.
+[ Applause ]
+And this was within 24, 48 hours of finding out that my 
+acceptance to !!Con had gone to my spam folder.  This is another 
+one.  I'm reading the fill color and that's what's setting the 
+-- so this is coming out of Illustrator, so it's an SVG file, 
+which is awesome!  Let's back.  I tried to draw planet Earth.  
+This is an SVG file from Wikipedia that I hand-drew very 
+meticulously and the robot screwed it up.  That's Africa.  I 
+don't know if you could tell.  It's painting the front and the 
+back, so some of the mess-up is your perception is, like, you 
+can't tell the front from the back.  North Carolina -- sorry, 
+that's where I'm from.  North America is up top, South America 
+sort of fills up the bottom right quadrant.  That's, like, India 
+is top center, I think.  And I decided to animate.
+          So this is actually a STL file where I'm pulling the 
+coordinates and I'm doing matrix rotations using an awesome node 
+library called Sylvester.  But again, the mechanical repeated of 
+the revise is really bad.  And so I wanted to try to figure out 
+a way to get rid of those rectilinear rows in the Mona Lisa and 
+so I'm painting the red channel at one angle and then the green 
+channel at another angle and the blue channel at another angle.  
+And I spent a lot of time trying to get this to work, and I 
+thought this was a really good idea -- and this is the best one 
+of that series.  So... all right.  So the same thing with the 
+sunflower seeds.  I was like, you know, it would be sort of the 
+artistic thing to do would be able to use the sunflower seed 
+layout routine to paint van Gogh's sunflowers.  This is van 
+Gogh's sunflowers did not work.  And they're telling me I'm out 
+of time.
+          GitHub, Shout Media.  And can I play this awesome 
+video of other work that's totally not mine?  This is the guy, 
+Yurg Lenny did Hector in 2002.  This is a spray paint robot, and 
+he also did paper.sun yat sen, which allowed me to do appoint 
+some distance percentage along a path.  It's awesome same -- 
+Yuri Lenny also did Victor in 2006.  I'm totally jealous of the 
+quality here.  This next one is my favorite.  Has anybody seen 
+this guy?  This is Robo Rainbow.  I want to be this guy when I 
+grow up.  He's connected his robot to a bicycle trailer.  Those 
+are spray paint cans.
+AUDIENCE MEMBER:  Oh, my God!
+JON:  Yeah!  Yeah!
+[ Applause ]
+If anybody knows who this guy is, like, I want to buy him all 
+the drinks.  And if you've not seen Batin Dali (phonetic), this 
+is industrial robots moving.  So this is projection mapping, 
+this is 3D animation, this is, like, mind-blowing stuff.  Yes, 
+there are mechanical repeatability is a lot better than mine.  
+So this is really cool.  They take Maya and they make virtual 
+CAT scans of 3D objects, turn that into a Quicktime movie, sweep 
+the iPad through physical space and this is the pixel stick.  
+It's a rod of LEDs which they upload an image or an made the gif 
+and they open up the shutter on the camera and they wave it 
+through.  And I was supposed to do the demo.  I was supposed to 
+do the demo while I was doing this.  So did anybody see it 
+running a second ago?  All right.  Anybody see this?
+LEO:  Yeah.
+JON:  The camera just opened, it's painting.  Can anybody guess 
+what's drawing?
+AUDIENCE MEMBER:  Bang-bang logo?
+JON:  This will take 30 seconds.
+AUDIENCE MEMBER:  It's so cute!
+JON:  We're going to transfer that back to the file system.  
+Please let it be there, it is.
+[ Applause ]
+AUDIENCE MEMBER:  Aww!
+AUDIENCE MEMBER:  That's so cool!
+JON:  Thank you guys so much.  If you guys have any questions, 
+come find me.  I'll talk about it forever, as you can tell.

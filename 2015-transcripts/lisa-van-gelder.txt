@@ -1,0 +1,130 @@
+LISA:  So can I do a quick mic check?  Is that good?  Can you 
+hear me?  What a setup!  I have to make you laugh now.  How 
+awful.  I'm VP of engineering at Stride which is a consultancy 
+company here in New York.  And before stride I was at The 
+Guardian newspaper for many years.  I think pretty much all my 
+disasters have been caching things and I'm going to tell you 
+about the worst ones.  Pretty soon after starting to at The 
+Guardian, the website would go down at lunchtime.  It wasn't 
+particularly high traffic.  It wasn't higher than the week 
+before.  There's no particular reason that it should be going 
+down every day.  So a bunch of us got together, and we decided 
+to look at what the cache stats looked like.  And what we 
+decided was that the cache is being completely cleared right 
+before lunchtime.  Right before it went down.  So at this point, 
+the guardian was serving about 2,000 pages per second, it was 
+doing that on 12 servers and so the only way that you could 
+serve that wasn't is relying very heavily on caching.  So if you 
+take cache down, the server just simply can't cope with the 
+load.  So we know great, the caches are being cleared but why.  
+We started going through the locks of what was going on.  We 
+started to noticed that right before the caches were cleared, 
+someone submitted a poll.  It's like on a burning issue of who's 
+got the best hair, Jennifer Aniston or Justin Bieber.  And 
+actually, the poll was in numbers and percentages.  So is it a 
+bug?  The bug went, right, 25 people vote for Justin Bieber, I'm 
+the 26th, I clicked Justin Bieber, the number did not go up by 
+one because of caching.  And so the bug fix we developed, we're 
+going to clear the cache, the numbers are going to go up, and at 
+peak time, someone submitted a poll and the website went down.  
+And so we learned two very important lessons from here.  The 
+first is caching is important.  Monitor it.  And spending a week 
+to work on caching is kind of embarrassing.  And the second one 
+is never build a clear cache system.  Partly because by building 
+a clear cache system is what you're doing undoing you're 
+building a big red button that somebody can push to take down 
+your website and if you have that button, someone's going to 
+push that button.  And also because caching is complicated and 
+you don't want a complicated cache.  If caching is rightly 
+important to you and really hard to test then you want it to be 
+as simple as possible.  The other very important lesson is to 
+cache for the smallest amount of time you can get away with.  So 
+quite often when you ask people about caching systems they say I 
+can cache for a long time, the longer the better.  But you have 
+to think, how long is it okay to store data for if you cache for 
+one day you're potentially resharing bad data.  So you have to 
+think about that.  And so we built a three-day cache.  This was 
+a good idea, right?  This was going over it will terrible 
+queries.  We had queries that's built up of lists of articles on 
+the website, this was the kind of things that it was doing.  And 
+the queries, they were finding really old articles that didn't 
+change very much.  And so to protect ourselves from the horrible 
+line of the line of queries.  FM every now and then, one of 
+those articles would get taken down from the website, it would 
+get deleted for legal reasons.  And when that happens, the 
+server would say, to just remove that one article from the 
+cache.  So there came a time when that message got missed and so 
+an article got deleted from the cache -- so it got deleted but 
+the three-day cache didn't know that it had gotten deleted.  So 
+it's a hibernate cache.  So it can give you objects back at the 
+end.  If you think hibernate can deliver gracefully something 
+that you've deleted, you're wrong.  Our whole website needed 
+hibernate to load.  So at this point half the website is showing 
+sorry things.  This would have been bad enough if there were a 
+one minute cache or a five minute cache we were still showing 
+sorry pages for five minutes.  It would have been set 
+automatically.  But this was a three day cache.  We can't show 
+"sorry" for three days.  Luckily there was 4:00 in the 
+afternoon, so just clearing cache didn't take the website down 
+so that was a good start.  But all those truly horrible queries 
+that we were trying to protect ourselves against with the three 
+day cache, running those queries all at the same time, for our 
+website was terrible.  Cache poison.  The lesson here is fix 
+your SQL.  Don't try and take over a terrible SQL with caches 
+because at some point it's going to go horribly wrong.  And it's 
+not going to save you.  Anybody know this guy?  This is the 
+creator of WikiLeaks.  And in 2010 we had a live Q&A with him on 
+the website.  And so our caching is much simpler, we have a one 
+minute really simple HTML fragment cache.  And so we're feeling 
+good about ourselves, everything is great.  So the live Q&A 
+kicks off and pretty soon, response time is terrible.  It's 
+getting worse and worse.  And weird well a bunch of database 
+queries.  It was really strange.  In fact it got so bad the rest 
+of the website was in danger.  There were synchronous comment 
+systems.  So if the comment system is slow, the rest of the 
+website slows down.  Ordinarily the comment system is the least 
+important part of the system so you could just turn it off.  But 
+we got told by a tutorial, by this Q&A, that the comment system 
+is the most important thing on the website.  And so we turned 
+everything else off to keep this commenting system going.  But 
+the rest of the website went stale we stayed up, and at the end 
+of it, we were like what the hell.  Why didn't caching save us?  
+Why was this so terrible?  We had left to see what was 
+serverring from the comment cache.  What we discovered was that 
+it was a commenting cache.  We didn't know that the other ones 
+were deployed.  There's a database query looks up what the 
+system should go -- so effectively we wouldn't doing one 
+database call per every comment.  This is a terrible idea.
+           We're serving from cache, you're able to serve very, 
+very quickly if you're doing any kind of processing for any kind 
+of cached content that you are serving is going to slow you 
+down, it's not going to work.  If you're doing a database call 
+for every bit of content that you're serving, you're done.  Your 
+cache is not going to save you.  It's really -- only cache 
+static content.  And I'm going to finish with a woolly rat.  You 
+see, everybody has a woolly rat.  And BuzzFeed it was the dress. 
+ This is just a piece of content that suddenly just goes crazy 
+viral.  It drives crazy traffic.  It could be days or months of 
+the initial guest content published.  But suddenly it goes 
+everywhere.  This is an URs (phonetic) it's a species of rat -- 
+and it went crazy.  The good thing this content though is yeah, 
+sure it's crazy traffic but it's crazy traffic to one piece of 
+content so this is actually a brilliant task of caching system.
+           Your cache should eat this for breakfast in fact if 
+you get this kind of crazy content and your servers are not 
+dealing with it.  Hey, check your cache something's gone wrong.  
+For us it didn't work with with the woolly rat but it was 
+manual, someone had to turn it on when we were about to get high 
+traffic.  And there's no one to flip the switch and suddenly 
+everyone's being paged to come turn it on.  So after that, we 
+made sure that the cache was automatic.  So after a certain 
+amount of painless were reached, the response time got slower 
+and it had to become automatic.  So you may have noticed that 
+all the dates in this talk were a few years old.  That was 
+parking lot because I don't work for The Guardian newspaper 
+anymore and it's also partly because we've learned our listen.  
+We kept caching much simpler, and caching slower.  And so far we 
+haven't had caching disasters.  So in conclusion, do these 
+things, and you too will avoid Great Caching Disasters.  Thank 
+you.
+[ Applause ]

@@ -1,0 +1,135 @@
+IGOR:  Hi, everyone.  My name is Igor and I'm going to talk 
+about Pokémon, specifically, MissingNo, which looks like this.  
+So Pokémon has everything to do with programming, and here's 
+why.  This is my day job.  Whoops.  There we go.  But first of 
+all, what even is Pokémon?  So Pokémon is a super violent video 
+game, it's a dystopia where humans trap Pokémon, and trap them 
+in Poke balls for their own amusement.  Pokémon can only say 
+their own name.  One of the cutest and probably the most popular 
+Pokémon is Pikachu which has given us academy award winning 
+lines like, "Pikachu," "pikipi."  The first generation ran on 
+the Nintendo Game Boy Console which was my first computer. which 
+sounds like this when you start the game.  Give me a second.  
+Can you hear that?
+AUDIENCE MEMBER:  That's the best sound ever.
+IGOR:  Let me just turn that off.  There we go.  So at the 
+beginning of the game, you must choose between one of these 
+three Pokémon, Bulbasaur, Charmander, and Squirtle which is 
+regarded as the most important decision of your life.  It's a 
+generational thing.  So there's 151 Pokémon in the first 
+iteration of the game but there's this spectacular glitch that 
+allows you to encounter Pokémon that doesn't exist.  So you go 
+to the old man who explains the Pokémon, after the tutorial 
+sequence, you fly to Cinnabar Island, and soon enough, you'll 
+encounter MissingNo, which is this strange Pokémon.  You're not 
+going to believe this.  The Nintendo is a computer, it has a CPU 
+and memory, well, not that much memory.  It's only 8K and so 
+when you start the tutorial sequence, the name of the player is 
+temporarily replaced with the string, "Old man."  And for this, 
+the player's name has to be backed up into memory somewhere, and 
+so it's stored normally in the place where you can find the 
+Pokémon in grass.  So this data is not cleared so after you 
+finished the tutorial sequence, it stays there, and this is 
+known as the "Old Man Glitch."  
+So next, you fly to Cinnabar Island, which has no grass tiles, 
+so the name stays in memory, and there's a glitch called the 
+left-facing shore tile glitch which makes the east shore tiles 
+behave like grass.  So normally surfing in this area, you would 
+encounter the Pokémon that you would find in the grass of the 
+previous area that you visited but because of the old man 
+glitch, that information's actually been replaced by the 
+player's name, which means that the name, or the game will 
+interpret your name as the index numbers of the levels of the 
+Pokémon that you can encounter, which means that depending on 
+the name that you picked at the beginning of the game, you'll be 
+able to find MissingNo and other strange Pokémon.  There are 
+other different types of Pokémon that you can encounter this 
+way.  There's MissingNo and there's M.  On examining the dumped 
+ROM, there's a table of Pokémon, the table that stores all of 
+the Pokémon in the game, so in addition to the 151 that are 
+officially part of the game, you have 39 extra Pokémon in there 
+that all have the name "MissingNo."  And incidentally, MissingNo 
+stands for "missing number."  So these were supposed to be 
+actual Pokémon but they were then deleted or just replaced with 
+blank data.  So they're really just placeholder values that you 
+wouldn't be able to get normally.  So the player's name will 
+index into these tables and hit one of these forgotten entries, 
+right?  But what's even more interesting is that it's also 
+possible to index outside of the table.  So you can overflow and 
+get way more glitched-up Pokémon and one example of that is M, 
+which looks like MissingNo but behaves very differently.  So I 
+mean, the first thing is the name, which looks interesting.  But 
+when you trade this to the Yellow Edition, it will actually 
+transform to a Pokémon called 3trainer Pokedollar.  A nice name. 
+ But the best part of this glitch, though is that it will 
+actually -- so if you overflow the table it will set the 
+encounter bit in a memory area that stores the user's items 
+because right at the table of the table of Pokémon are the 
+user's items which means that every time you see one of these M 
+Pokémon, you will actually get 128 of a particular item, which 
+means you can duplicate very rare items, which is pretty useful 
+in the game.  So that's MissingNo.  The second glitch I want to 
+share is Glitch City.  So there's a special area in the Pokémon 
+game known as the Safari Zone, and upon entering this area 
+there's a step counter that starts and after 500 steps, you get 
+teleported back to the entrance of the zone.  However, flying 
+outside of the zone will not reset the counter which means that 
+it will keep running, so after 500 steps, even if you're no 
+longer in the Safari Zone, it will attempt to warp to the warp 
+location four, which is contextual.  So the Safari Zone, that 
+location is the entrance.  But for other areas of the map, that 
+can be anything, right?  So there are different values for this, 
+and it turns out that a lot of cities don't actually have a warp 
+location four, which means that when attempting to warp from one 
+of those cities, you will -- it will execute some code that will 
+transform the current city into Glitch City and just mess up the 
+entire map and rearrange the tiles.  But you can actually still 
+walk around in it, which is pretty sweet.
+          Now, the collision map is completely different to the 
+tiles.  And if you -- if you look closely you see that there's 
+just numbers lying around on the floor, which I find most 
+profound.
+[ Laughter ]
+So if you actually walk into, if you collide into something and 
+you can't actually see the things that you're colliding with, 
+then you will get stuck and you can't move anymore.  So you can 
+do at that point is pause the game, at which point all of your 
+surroundings will turn into water and then you'll start swimming 
+around but you're not going to get anywhere.  So the only way to 
+actually escape is to use a Pokémon flying ability to fly out.  
+Also, in the Yellow Edition of the game, you have this Pikachu 
+that follows you around everywhere.  And in Glitch City, it 
+simply turns around and walks away.
+[ Laughter ]
+          So that's Glitch City.  Now in the first generation of 
+the Pokémon games was released as two editions, red and blue, 
+and they're mostly the same, but there's certain Pokémon that 
+you can only find in either one exclusively which is really only 
+just a way to get you to buy both of them.  So to "catch them 
+all" you would have to trade between the games by connecting two 
+Game Girls using a link cable.  So this was my first distributed 
+system, two-node cluster.  And so during the trading process, 
+it's possible to disconnect the link table which cancels the 
+transaction.  But with good timing, it's possible to disconnect 
+it right after one side has acknowledged.  Resulting in the 
+trade succeeding on one side but not on the other.  So this way 
+you get to actually clone the Pokémon and keep it on both sides. 
+ So this was my first network partition.  It resulted in losing 
+rights.  So this is an example of a fundamental problem in 
+instrumental consensus known as the two generals problem where 
+you have two generals who want to attack a city but they need to 
+know when to do so.  And so because it's impossible to know when 
+one side has received an acknowledgement, you have this constant 
+regress of acknowledging acknowledgement, not reaching the 
+consensus status.  You might say cool story, bro, why should I 
+care?  So what is the significance of this?  And I would say, 
+well, we depend on technology, right?  If we want to own our 
+devices and if we want to be creators, we need to understand how 
+they work.  And taking things apart is just a really good way of 
+doing that.  And of learning about the inner workings and 
+limitations of the computing machines that we use every single 
+day.  And you can subvert the system which is great.  So in 
+closing I would like to thank these amazing sources that have 
+documented all of these glitches in way too much detail.  And 
+thanks to all of you for listening.
+[ Applause ]

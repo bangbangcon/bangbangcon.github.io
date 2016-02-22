@@ -1,0 +1,488 @@
+MARY:  Is that better?  How about that?  Okay?  Medium?  
+Terrible?  Just raise your hand if you can't hear me at any 
+point and I will talk louder.  I'm going to talk about git from 
+the inside out.  And yeah.  Also, quick overview of the talk 
+structure.  Quick overview of the talk structure, git ultimately 
+is a graph and it's this graph that dictates this behavior so if 
+you understand this graph, you understand git.
+           So we're going to run a bunch of commands on our git 
+repository and then observe how those commands change the git 
+graph.  So this started my creative project.  I'm going to make 
+a directory called alpha to create the project and then cd into 
+that directory.  I'm going to make a directory called data 
+inside that directory and then inside that creative file called 
+letter.txt, it contains the letter A.  So quick overview, I've 
+got an alpha directory that contains our whole repo, and inside 
+that, a data directory, and then inside that, a letter.txt that 
+has the letter A.  So let's initialize this git repository.  So 
+we had git in it.  So here's what we had before, the working 
+copy, and the working copy is the letter.txt file.  And then 
+this dot git directory that's not our stuff, that's git's stuff, 
+that contains everything that git needs to do its job.  So let's 
+add files to git.  So I'm going to add letter.txt.  So stuff has 
+changed.  So we have git directory but now we've got a new 
+folder called 2e and inside that we've got a file called 65, so 
+what the hell is that?  So a quick digression about hashes, or 
+hashes in general.  So a hash is a way of taking large pieces of 
+information and piecing it down to a unique identifier.  So for 
+example you could take a novel character and hash it, and create 
+a 40 character string and get Anna Karenina.  And git uses 
+hashes extensively to identify pieces of information.  So for 
+example if we use git to hash the character contents of the 
+letter.txt file and then we get the hash 2e65.  So like I said, 
+hashes are about four characters long, but I've just shortened 
+them to four characters for the clarity of this presentation.  
+So this is making a little more sense now I've got the 2o folder 
+which is the first part of the hash and then the file which is 
+the second part inside the directory.  This is not helpful.  
+It's compressed but we can use this super cool command called 
+Giotto cat file which you just give it the hash of something in 
+your directory.  So for example, 2e65, the hash we presented 
+originally and it will give you a human readable form of 
+whatever you've saved away.
+AUDIENCE MEMBER:  Whoa...
+MARY:  So the second part to adding a file to the index, and 
+remember this all started with git add.  The second part we've 
+added a blob object that stores the contents of the letter.txt 
+file.  Now we make an entry in the index.  And so here's the 
+index file and unfortunately when you cut it, you don't get 
+anything super helpful but you can use the ls files command to 
+give you a human-readable version of the index.  So you can see 
+our index has one entry and the first part of the entry is the 
+file part, or the file that we have in it.  And then the second 
+part is the hash content at the moment that we've added to it so 
+there's our old friend, 2o65.  So let's readd a file to our 
+repository.  So this is a sort of notional representation of the 
+git graph so on the left we've got the working copy which has 
+one thing in it, the letter.txt file and that points at the 
+content, A.  And that gray square represents the content of the 
+letter.txt file.  So our working copy file and then on the 
+right, then there's the representation of the index so again 
+there's one entry and it points at that A blob blob that's in 
+the objects directory.  So the blue blob represents the blob 
+that's inside our directory file that we've created.  So let's 
+create a numbers.txt and put one, two, three, four in it.  Now 
+let's git add number.txt.  And a new entry added to the index 
+which points at that blob, okay?  Now let's change number to be 
+one, so it did read one, two, three, four.  And now on the left 
+bottom copy, we've updated that to one.  Of course we can read 
+to in the existing entry.  So the old one, two, three, blob.  
+Nobody's pointing at that now the index entry for number.txt has 
+been repointed, the new one blob.  So now let's make a commit.  
+So I'm going to do a commit of message A1, so all the messages 
+will look like this.  So I'll have a message A, which represents 
+the contents of the letters file, and the number one, which 
+represents the contents of the number file.  So here's our graph 
+again without the working copy or the index.  So we've got these 
+two ultimately, the A blob and the one blob.  And when we 
+committed that, a bunch of things happened.  A bunch of objects 
+got created and here's our first customer.  First object was 
+hash 00eed.  It's got two entries.  Number one it says, hey, 
+it's got a blob.  It's got this hash, and it represents this.  
+So this of course represents the letter.txt file inside our 
+working copy.  So what we're trying to do here is we're trying 
+to represent the contents of our working copy and its structure. 
+ So we've successfully saved the contents of those files, which 
+is great but there's no indication those two files existed in 
+those two files, or 22 pieces of files existed in letter.txt and 
+there's no indication that they were inside a data directory of 
+anything like that.  So these two files, they all represent 
+that.  So we can see this first file represents the contents of 
+the data directory, okay, so it's got two entries, one for 
+letter and one for number and now that's in the objects 
+directory.  Now, there's another new file which has one entry in 
+it which is a tree which is called data.  So this, of course, 
+represents the contents of the alpha directory, the top level of 
+the tree.  So let's add that to our graph so what we're doing 
+like I said, is representing the structure as objects.  Now, 
+there's another file that's in the commit object.  So we can 
+just count that as inside the objects directory just like 
+everything else and it's forgot a few interesting things.  
+Number one it's got a pointer to the top of that tree graph that 
+we've authored.  It's got the author, the time stamp and it's 
+got the commitment stage.  So let's add that to our git graphs.  
+So now we've got things shaping up to the pink object, A1, which 
+points at its content.  Next step three of committing, we cap 
+head.  Now, that's totally fine.  It's inside the dot git 
+directory, it's called head.  We can see that it contains 
+ref/heads/master.  So let's cat that file.  So we get dot 
+git/refs/heads/master.  So okay, so this represents the disk.  
+And it represents the master branch.  So now we can add a 
+pointer to the master branch to the graph.  So we've got master 
+which points at the A1 commit and then the A81 commit points at 
+its content, okay?  Let's pop back to head for a second and then 
+head is making a little more sense.  Head just tell us what just 
+checked out.  Therefore, head points another master and master 
+points at commit and so on.  Okay?  Now, let's make a commit 
+that is not broken.  So here's where we were just a quick 
+summary I've added back in the working copy in the index so the 
+working copy, the two separate files there.  Notice how the 
+index points at the two blobs that we've got okay.  Now let's 
+change number it won't be two.  And let's do git add.  So when 
+we change number it won't be two then the entry in the working 
+copy in the bottom left there, that gray box changed from one to 
+two.  Now, when we add that file to git then of course, we're 
+going to add the index again.  Now, the index points at that new 
+two blob that got created as part of the add step.  So here's 
+where we we are.  Now let's do another commit.  Let's do the A2 
+commit.  So let's again let's follow through those commit steps 
+number one make the contents of the index.  Psh take the index 
+and turns it into objects, okay, so here it looks pretty 
+similar.  It totally is pretty similar, except this time the 
+data object tree points at A but the original A blob and this 
+new two blob.  Okay?  Now step two create the commit object.  
+The main interesting thing here is that it's got a parent.  So 
+the A2 commit on the bottom right there, points at its parent, 
+the A1 commit and we'll see that's handy in a second.  Next 
+step, point head at the new commit.  Now, we're not actually 
+repointing head.  Head just stays pointing at master because we 
+stay on the master branch but what gets changed, is master, 
+master is just a change that contains the hash.  That used to be 
+the one hash now it's the A2 hash.  So what have we learned from 
+this?  Number one, content is stored as trees.  And this means 
+that the objects database stores diffs.  So we were able to 
+reuse that A blob from the A1 commit in the content of the A2 
+commit and you would imagine that the use would be way more 
+pervasive for each commit.  Next repository containers o 
+contains a parent which means that the stores a history of the 
+project.  This means that commits can be given meaningful names. 
+ So the A1 message or the A2 message, that's a fine message.  
+It's helpful.  It tells us what that commit does.  It doesn't 
+really tell us what that commit's place is in the whole 
+repository whereas master, it's great.  It's telling us, this is 
+the state-of-the-art of this repository right now.  Next, 
+objects are mutable meaning content is edited not deleted.  
+Those objects mostly just stay inside the directory objects and 
+so you can always find it eventually, usually.
+           Next the refs are unlike objects mutable.  Which 
+means that refs can change.  But in the future pointer A5 maybe 
+and that would be the new state-of-the-art of our repo.  Now, 
+let's check out a commit.  Normally one checks out branches.  
+We're going to check out a commit.  So we give it the hash we 
+want it to check out.  So this is the hash of the A2 commit.  
+This is weird because we've got we've already got the A2 commit 
+checked out, right?  So what's the point of this, we're on the 
+A2 master branch and now we're on A2 directly.  That has some 
+funny ramifications.  Check out step one, we write the commit 
+tree to the working copy so we just take whatever the content of 
+the commit we're trying to check out is and we just write it to 
+the working copy now there's no changes because we're just 
+staying on the A2 commit so the working copy stays on A and two. 
+ Next write commits to the A2 index.  No changes here because 
+the A2 is still on the commit so it's still A and two next we 
+check out the thing that was checked out.  You see when I count 
+head it has a hash in it.  It doesn't the ref/head/master 
+anymore.  And this is what it means to have a master.  Which 
+means that your head doesn't have a branch, it points directly 
+at that commit.  So we can see in our git graph our masters are 
+are happening in A2, and head points directly at A2 rather than 
+an A2 by master.  Okay that's cool.  Let's change number to be 
+three and we can commit that.  We still attached to the state 
+which makes sense when you think about it.  It so look how now 
+head points directly at A3 rather than A2.  Now, let's create a 
+branch because that A3 commit though that's fine work, it's not 
+on a branch which means it's easy to lose track of it.  So we 
+don't want to do that.  So we can create a branch to solve this 
+problem and so we create a branch called deputy.  And deputy is 
+just another file on disk just like master.  So it just contains 
+a commit hash.  It's super easy.  So that is the hash of the A3 
+commit.  So now we've got in our git graph we've got diff 
+pointing at A3 as well as head which means that A3 is safely in 
+a branch.  We're still in detached head state though.  So what 
+have we learned from this?  Well, branches are just refs and 
+refs are just files.  And that's why people say git branches are 
+lightweight because whenever you want to branch essentially a 
+new branch is created and the hash, is put inside that file and 
+that's it.  So that's insanely fast.  
+Now let's check out a branch.  So let's check out master.  So 
+before we checked out a commit we've checked out a branch and 
+let's follow through those checkout steps again.  So here there 
+is a change to the working copy.  It did read A and three, now 
+it reads A and two because we're moving to the two which is 
+where the master is on and then we write the commit tree to the 
+index again we've got a change here from A and three to A and 
+two.  Next point head at the thing that was checked out.  We 
+just point head at master which means we're back at the branch 
+which means that our head is no longer detached.  Now let's do 
+some merging.  Let's merge an ancestor.  So I'm going to check 
+out deputy just as prep for this.  So the important point here 
+is that we're on the A3 commit we're going to try to merge A2.  
+It and so we're on A3, we're going to merge A2.  It's already 
+up-to-date so nothing happens.  So there's been nothing at all 
+to the git repo and the reason for this a commit is a set of 
+changes so if you cast your mind back to when we were on the A1 
+commit then we made some nice changes to the working copy, and 
+then we committed them to produce the A2 commit.  So we used a 
+set of changes to produce a new commit now, given that we're now 
+in A3 and we're trying to bring in A2, what does that really 
+mean?  It means we're trying to bring in some sets of changes, 
+A1 and A2 changes but they're already in our history.  So that 
+doesn't make sense to headache any changes.  We've already got 
+those changes incorporated into our graphs.  So why bother and 
+that's why git, if an ancestor is merged into a descendant then 
+git does nothing.  Now let's merge a descendant.  So let's 
+checkout master just as prep.  No now, we're on the A2 commit.  
+That's the important point.  And we're going to merge to A3.  So 
+there was a change there, did anyone see that so what's happened 
+is I'll fast forward and ultimately a fast forward means that 
+there's already a commit that has the changes I want therefore, 
+I can just fast forward my ref to that new place.  So the master 
+used to point at A2 now it points at A3.  Now, let's just think 
+through why that is.  So we're still on A2, we're on master and 
+we're about to merge on A3.  So, so a commit is a set of 
+changes.  
+So there were some changes that were on A2 and we've made some 
+changes back in the day.  And produced the A3 commit that's what 
+all happened before and now, we're trying to merge the A3 
+commit.  But the thing is though, there's already a commit that 
+embodies the changes that we want to make, it's just the A3 
+commit so we can just repoint our master at that commit and say, 
+"This is where master is now."  There's no need to meddle around 
+with the commit history or create any new commits or anything 
+like that.  So that's why this is a fast forward commit which is 
+to say if a descendant is merged into an ancestor, history isn't 
+changed, only commits, but head is changed.  So head got 
+repointed to this new commit, to the existing commit, I'm sorry. 
+ Now, let's just change number to be four and commit that.  And 
+then check out deputy and change -- sorry, letter to be B and 
+commit that.  So I know we've whizzed through this fast, but 
+that's okay, we'll step through.  So we were on A3 before now, 
+we've got two new commits.  There's B3 where our letter is B, 
+and number is three.  Then there's A4 where letter is A and 
+number is four.  So the important point here is that in one new 
+commit, letter was changed and in the other new commit, number 
+was changed, okay?  And we're on deputy, coincidental, on the B3 
+commit now, what allows this?  Commits can check parents which 
+means that new linkage I can't change can be created.  So this 
+is how this is allowed.  So B3 and A4, they both have the same 
+parent which is just A3.  Now let's merge two commits from 
+different lineages.  So this is where we're going.  We're going 
+here.  So we've got the B4 commit Cher going to create as a 
+result of the merge and the reason this is allowed is because 
+lineages can be joined with a merge commit.  So B4 is going to 
+have two parents.  A -- sorry, B3 and A4, and that's what joins 
+these lineages together.  And now let's do the merge.  So we say 
+just merge.
+>> Seems to go okay.  What are our steps?  So this is where 
+we're going.  Let's walk it through.  Commits have parents which 
+means that it's possible to find the point at which two lineages 
+diverge.  So the B3 commit and the A4 commit they're both the 
+start of two separate new lineages but they did come from the 
+same place; they came from the A3 commit and it possible to find 
+that if, like, most recent common ancestor it's sometimes 
+called, or base commit.  So now, let's bring the three actors on 
+stage.  So we've got the base commit, the A3 commit where both 
+of our commits from merging came from, we've got the receiver 
+commit, which is the one that we're on, and the giver commit A4, 
+which is what we're bringing in.  So first we want to generate 
+the diff that combines the changes given by the giver.  So we 
+want to take the thanks the receiver made, take the changes that 
+the giver made and bring those together.  And so just to recap, 
+the receiver changed letter from A to B, and the giver changed 
+number from three to four.  We just want to merge those two sets 
+of changes together.  And so, if we considered the changes made 
+to letter, then, A was -- sorry, letter -- A in the base, B in 
+the receiver, and A in the giver.  Now, a merge is a raised 
+commit as we've seen.  Which means that git can automatically 
+resolve the merge of the file that has changed the base in only 
+the receiver or the giver.  So this is exactly the case that we 
+were basing here.  So A changed in the receiver, but it stayed 
+the same in the giver which means that the new diff is just 
+changed letter to B.  Super easy.  Same story for number.  This 
+time it was the giver that made the change but that doesn't 
+matter.  The diff is just hey, let's change from three to four 
+in number.  Now, step two of a merge.  Apply the diff to the 
+working copy.  Super easy, we just follow the instructions in 
+the diff, which is to say, change letter to B and number to 
+four.  
+And then, step three of the merge, apply the diff to the index, 
+super easy, just change the entry to B and four.  The hash is 
+off, obviously.  Now, the updated index is committed, the main 
+thing to note here, two parents.  So the B4 commit has B3 and 
+A4.  And then next finally just point head at the new commit, so 
+now deputy is on the B4 commit, okay?  So that was merging two 
+ancestors from two different lineages.  Now, let's merge commits 
+from different lineage so the same thing that we just did before 
+but where the commits modify both files.  So there's something 
+terrible coming.  So we're just going to check out master and 
+then merge in deputy just to bring ourselves up to date.  So the 
+point is, both the master and deputy are in the B4 commit.  So 
+check out master, change number so six and commit that.  So 
+here's our two new friends.  We've got B6 where number is six 
+and then we've got B5 where number is five.  So the point here 
+is number was changed in both of them, which is what I want.  
+Now let's merge deputy and we've got a conflict.  So it says 
+hey, there's a conflict in number.txt.  So let's just follow 
+those steps again, nice and easy.  So we generate the changes 
+that were made by the receiver and the giver.  So the letter 
+file, easy-peasiy.  We're locked down.  So there's no diff.  
+Number.txt, the story's different.  So, in the base, it's four.  
+In the receiver, it's six and in the giver it's five.  Okay?  So 
+let's think about what git wants to do at this point.  It just 
+says, hey, I'm going to write a diff where number is changed 
+from four to six.  That seems pretty okay?  And oh hey, I'm 
+going to write a diff where number is changed from four to five. 
+ That seems pretty okay, too, but unfortunately those two 
+changes aren't compatible.  So that what produces a conflict.  
+So the diff is, let's change number to six and let's change 
+number to five which obviously, doesn't work.  So this git just 
+kind of merrily marches on, just trying to apply the process to 
+the working copy and that sets number.txt to look like this, 
+which I expected before.  So git is going to give you both 
+versions and just let you sort that stuff out, yeah?  And then 
+git applies the diff to the index as well.  So here's what the 
+index looked like before the merge and I kind of lied to you a 
+little bit when I said that index entry is just a file path and 
+a hash.  That was true but it's also a number.  And that number 
+is called the stage.  And every time, up until now, all of our 
+index entries had a stage of zero so everything's been 
+absolutely fine.  Stage of zero means unconflicted.  So this is 
+what letters look like.  Letters is fine.  It's still a stage of 
+zero but numbers has entered in three times, so it's got a stage 
+of one, where the hash is entered in the base.  It's got a stage 
+two -- where the content is the content of the giver.  It's the 
+presence of these three entries that tells git that it's the 
+same conflict.  Let's carry on, their solution is to just say, 6 
++ 5 = 11.  
+So I'm going to set the number to be 11.  And then, the user is 
+also asked to call in the index, and the way they do that is 
+just git add.  And so in this context, git add means hey, 
+resolve these conflicts, everything is fine now.  So here's 
+after resolving the conflicts.  So now, the letter entry is the 
+same, is safely zero which means it's unconflicted and that 
+hashes the 11 content.  So now the user commits the merge.  And 
+everything's okay.  So that's the B commit bringing those 
+lineages together.  Now, let's remove a file.  So here we were 
+after the B commit, the working copy had a B and 11 in it.  And 
+the index had a B and 11 in it.  The user runs git rm, and this 
+removed the file from the working copy so it just deletes the 
+file of this, so letter.txt is just gone and it also removes an 
+entry fallout file from the index, or an entry from the index so 
+now the index just points at the content of number which means 
+that, excuse me, when the user commits then, remember how a 
+commit works?  It just walks the index and produces a tree 
+graphs of its content so that index no longer has an entry for 
+letter.txt which means that the entry is going to be completely 
+missing so now the new tree graph points at 11; it doesn't point 
+at letter.txt anymore.  Okay?  So let's copy to our repository 
+so we're going to use cp for this, not git.  So we're going to 
+cp into the directory above and then cp to a new alpha bravo.  
+So now bravo has exactly the same thing.  So this is a complete 
+facsimile.  Let's connect a repository to another repository.  
+So, cd back into alpha.  Only to git remote add.  And git remote 
+add says hey, git, remote, alpha.  It turns out there's another 
+repo that's a lot like you, it's called bravo and it lives here. 
+ So that's just a relative far apart.  So what's the change?  So 
+config would change.  So there's just a couple new lines that 
+would say, hey, remote, there's a new one bravo, it's at this 
+URL.  Let's branch from our remote directory is basically saying 
+what's going on in this other repository.  Let me get that 
+stuff, bring it over here, but not integrate into my stuff yet.  
+So let me just put it in this separate location and just keep it 
+separate for now.  So let's cd into bravo and let's change 
+number to 12 and commit that.  So here's where we are.  Bravo's 
+in the 12th commit and bravo is still in the stage in the 13th 
+commit.  Step one, find the head commit on the repository being 
+factored which is possibly the 12th commit on bravo that we're 
+bringing in.  Step two, copy that commit and all its dependent 
+objects over to alpha.  Okay, so now alpha has the 12th commit 
+in its tree graph and all that good stuff.  
+But notice how alpha's master is still pointing at 11, right, so 
+though it's got the new objects, it hasn't updated itself to 
+point at the new commit, okay can?  So all intents and purposes, 
+if you look to alpha then it would look the same it's just got 
+these new objects.  Step three, point the refuse for the remote 
+branch at the fetched commit.  What does that mean?  So inside 
+that there's a new folded called bravo, and inside that there's 
+a new file called master which contains the hash of the 12th 
+commit.  So we've managed to super secretly say say the contents 
+thousand local repository, which is what fetching is all about.  
+So let's add that refuse to our branch.  So notice that alpha's 
+master is still on the 11, but we've got this record of bravo 
+master pointing at 12, okay?  Next we point something called the 
+fetch head at the fetch commit.  So let's just add that to the 
+graph, also pointing at 12 and the fetch head is ultimately just 
+a record of the last time you fetched.  So it says, hey, I've 
+got this record of bravo, and it's got this hash.  Hey, that's 
+lovely.  So there's the hash of the 12th commit.  So what have 
+we learned from this?  Objects can be copied.  Which means that 
+they can be shared between repositories.  Which means a 
+repository can record locally, the state of a branch on a 
+remote.  Now let's merge fetch_head.  So we do merchandise head 
+and fast forward.  So fetch head ultimately resolves to please 
+change your bar to this commit.  So in our case, it's please 
+change your master to this commit hash that I've got here.  So 
+that's the 12th commit hash.  So the result is, before merging 
+fetch head master is pointing at 11 now it gets fast forwarded 
+to 12.  Okay?  So let's pull a branch from a merge and we do git 
+pull bravo master and already says up-to-date no change at all 
+and the reason for this is because pull is just shorthand for 
+fetch and then merge fetch_head, okay?  Let's clone our 
+repository.  So we're going to clone cd into the directory 
+above, and then clone alpha called Charlie.  So new repo called 
+repository.  So the next steps.  Number two, cd into it.  Number 
+three, call git in it to create in it, I'm sorry, a dot git 
+directory for Charlie.  Number four, then check out whatever 
+branch was checked out in alpha.  So master was checked out on 
+alpha.  That's the thing that we're cloning.  So we just check 
+out master on Charlie, and then five, do a pull so that 
+Charlie's master is in the same state as alpha's master.  So 
+again, there's our old friend, the 12th commit.  So we can see 
+that -- I'm sorry, the master is now pointed at the 12th commit 
+or Charlie.  So that's pretty similar to the cp that we did, 
+it's a little more efficient but ultimately, it's the same 
+result.  So now let's cd back to alpha, let's create a new 
+commit, 13 and let's add Charlie as a remote on alpha and let's 
+do push.  So let's do git push Charlie master.  So what that 
+says is let's push the state of alpha over to Charlie.  Now, 
+something good happens.  Writing objects happens.  So we've kind 
+of seen this happen before.  Here's before the push.  
+Alpha's on the 13 and Charlie's on the 12.  So after the push, 
+Charlie's on the new 13 push but again alpha is still on 12 so 
+something didn't happen and what did happen was git said, hey, 
+I'm refusing to update the checked-out branch because it will 
+make the working copy inconsistent.  So what's happening here.  
+So let's say I'm making some changes to Charlie and I'm making 
+some existing changes to my working copy on Charlie and suddenly 
+someone pushes alpha over to me.  So now, a push is effectively 
+a checkout so what's going to happen is it's going to send some 
+new objects which is great but it's also going to say hey, your 
+working copy it now needs to reflect whatever commit was just 
+pushed so my working copy change is just gone away, gone, that's 
+terrible.  And in a similar fashion, the same thing happens but 
+if I were to make some changes to the index, by staging some 
+stuff then again my index is going to be blown away by the 
+contents of the hash of the commit that was just pushed.  So 
+that's no good.  So git won't push to things that are currently 
+checked-out in the repo but that doesn't make sense because we 
+push all the time, we push to GitHub.  How does that happen?  
+That happens with bare repositories.  So let's clone a bare 
+repository and see how that works.  So we're going to clone a 
+create a new repository called delta that's a complete clone of 
+alpha now notice when I look inside the delta directory of our 
+new repo, there's no git directory.  The contents of the top 
+directory have been just puked into the top level.  So what does 
+that mean?  It means there's no working copy.  There's nothing 
+for poor delta and Charlie.  So this poor bare repo has no 
+working copy.  So the version on 13, alpha and delta on the 13 
+commit.  So let's cd back to the alpha.  And back into delta as 
+a remote.  And this is all recap.  Let's make a new one called 
+14.  So let's commit that.  So alpha is on the 14th commit and 
+delta is still on the 13th commit and then we do get push delta 
+master and this totally works.  Everything is fine.  So the 
+objects get pushed over so now the delta repository has the 14th 
+commit.  And then, master gets updated to pointer 14 so it's got 
+the new stuff.  Phew.  Git is a graph.  This graph dictates 
+git's behavior which means if you understand this graph then you 
+understand graph.  Thank you.
+
+[ Applause ]
+
+LINDSEY:  That was extremely cool.  Thank you, Mary.  And by the 
+way, one reason why Mary has so much knowledge of git is because 
+she wrote an implementation of git in Javascript, which is 
+called gitlet and you can find be it on her website, which is 
+maryrosecook.com we're going to have a short break and then 
+reconvene in 15 minutes.
+           
+ [ Short Break ]    

@@ -1,0 +1,154 @@
+JULIA:  Our fourth and final talk is by Allison Nelson who's 
+going to talk about dissecting a bestseller, the art and science 
+of storytelling, which I understand is, when you answer the 
+question:  Is there some magical formula for book success?
+ALLISON:  So can you guys hear me?
+AUDIENCE MEMBER:  Not real well.
+ALLISON:  All right.  Let's see.  Is my mic working?  Yes.  So 
+all right, everyone. Hi, my name is Allison, and I'm going to 
+talk today about books, writing, bestsellers and science.  So 
+I've talked to some friends and sometimes they tell me, you 
+know, I've got this idea for a story.  I want to write a book 
+one day.  All these things.  And I ask them, well, why haven't 
+you done it?  And they say, well, it's a lot of work.  I don't 
+know if it'll be any good.  And I just don't think that it will 
+get published.  And you'll hear about all these popular books, 
+they get rejected over and over before they finally find 
+success, and so it's really discouraging for someone like you 
+and I if you have a book and want to publish to say, "I don't 
+know if that can happen to me."  Publishers in their minds look 
+sort of like this.  So that's discouraging but along came the 
+Internet, Kindles, iPads, smartphones, and there's a lot of ways 
+that people can access digital content now.  So there are 
+services for self-publishing and digital content marketing where 
+more people than ever before can get their ideas out into the 
+world.  You can publish your work without having to go through 
+agents or publishers and that's pretty awesome.  So if you're an 
+author or you have some kind of work that you want to publish 
+what can you do to get it leg up in the marketplace?
+           Well, we have the technology to look at this.  So 
+what do you do?  You go to Amazon, one of the top bestsellers -- 
+book sellers around.  And what I did was I looked at the top 100 
+books on the Kindle store.  The data that I have here is from 
+middle of last week.  And one of the things that I noticed when 
+I was looking at that top 100 is that there are a lot of 
+different genres up there.  There's a lot of things that people 
+are interested in, there was everything from literary fiction to 
+young adult, so mystery and fantasy.  Since there's a lot of 
+people in the world, a lot of people have a lot of different 
+interests and it really kind of or encouraged me that whatever 
+story you want to tell, there's probably someone out there that 
+wants to read it.  So these are the things that I did to get 
+this data.  I went and scraped the top 100 with a service called 
+import.io, which is super easy and simple, and doing a deeper 
+dive on the books themselves, I collected a variety of books to 
+analyze, compared them to plaintext files with Calibre and then 
+you get to do the fun analysis.  And then some examples of 
+simple stuff that I did, and that I'm going to show you how to 
+do, too, is you can look at ngrams, collocations, I'm going to 
+explain what those are.  And also you can look at word clouds 
+and look at most frequent words and themes.  And there's a lot 
+of really cool and really easy things that you can do to look at 
+your own books and look at other people's books as well.  So 
+I've used some Python libraries called nltk and textstat.  Nltk 
+is a very popular natural language processing library for Python 
+that has a lot of different algorithms and features that you 
+should definitely check out.  And if you want to make some super 
+simple word clouds that are pretty versatile and pretty cool, 
+you can get them from that GitHub down there.  So I'm going to 
+go through some basic stats here, stuff that I found, and you 
+can look at some more examples on my GitHub or ask me about them 
+after the talk.  So some basic things that I've found were, I 
+looked at the words in the titles, first of all to say, you 
+know, maybe is there some common naming scheme.  I found out 
+that people use the words book, novel, and series a lot within 
+their bestsellers, which said to me that, you know, people like 
+reading books in series.  They want to find out what the next 
+chapter in a story is.  
+And if you've ever been really invested in a series, then 
+whenever the next book comes out, you want to go and get it as 
+soon as possible.  So that can really launch an author up the 
+ranks, if you've got a lot of people expecting your next work.  
+Another thing that I looked at that I thought was kind of cool 
+was, there were also some words that I felt like were sort of 
+emotionally charged as well.  Never was in four different 
+titles. "Love" was in four different titles.  And you look at 
+these things and that's just a small selection but it's -- you 
+want a title that's evocative of something, that people can 
+relate to.  Another thing that I noticed, which was kind of 
+impressive to me, was that, if you're already sort of an 
+established author, I found out that there are a couple authors 
+that have multiple books in the top 100 right now, which is 
+pretty impressive.  And you might think well, they're already 
+famous authors.  They can do it but maybe I can't.  But what's 
+interesting is that there's also, every day, a lot of new 
+authors coming and going from the list, self-published, 
+traditionally published.  I mean, I have friends of mine that 
+are just out of nowhere, they wrote a book and it turned out 
+that people really liked it and they made a lot of money and it 
+was great.  And, you know, they just did that -- publishing it 
+from their own home.  And down here, that's just a simple way 
+that I did this up here.  You can get a frequency distribution 
+about the words in your titles, your books, et cetera.  A really 
+good algorithm.  Also, reviews are important as with any product 
+that you buy, you go and look at the reviews.  Here's a graph of 
+the reviews for the top 100 books.  As you can see, they're 
+mostly, you know, in the four and above star range, which is 
+reasonable to expect but I thought it was kind of a cool graph.  
+There's one book that didn't have very good reviews but a lot of 
+people were still buying it, which, I thought was strange.
+AUDIENCE MEMBER:  What was it?
+ALLISON:  I mean -- I don't know.  Right at this second but...
+AUDIENCE MEMBER:  Sorry.
+ALLISON:  But I can get back to you later.  Also another thing 
+that I noticed that was really interesting is that you can see 
+some localized price points around 4.99, 2.99 and 99 cents 
+which, if you're going to publish a book, it kind of said to me 
+that can, you know, of course, number one, people like cheap 
+things.  And Amazon pays out different loyalties based on 
+pricing tiers.  So that's another reason people might price in 
+this range.  But you can use this info to find out what would be 
+a popular price point for your book.  So here's some examples of 
+collocations.  They're great, they allow you to see common 
+phrases that are seen together and are not seen commonly apart 
+and they're super easy to generate with nltk.  So here's some 
+collocations for The Girl on the Train which is currently the 
+bestseller on Amazon.  If you look at the words in bold, what's 
+really cool about this, you can get a general gist of what the 
+book is about, without having read the book.  When I look at it 
+I see, especially if you look at the words in bold, years ago, 
+you see don't remember, police station, went missing.  When I 
+look at this I say, this has to do with some kind of mystery.  
+Someone went missing.  They're at the police station.  They're 
+trying to recount all these different events that happened.  And 
+then I went and looked at the book and it actually is pretty 
+accurate that, you know, that that's what it's talking about.  
+So this is a really useful tool.
+           Here's another one for the book:  Outlander.  You can 
+see again if you look at standing stones, Clan Mac McKenzie, if 
+you look at what these are all about, it was really neat.  
+Here's you see the Hobbit.  You see Lonely Mountain, Thorin 
+Oakenshield.  And the way this works is, it goes through, breaks 
+down the text similar to the search engine talk and it does that 
+frequency analysis that I talked to you about before, and you 
+want to find ones that occur together and not apart.  So that's 
+how it does that.
+           So I guess the ending question is:  Can I write a 
+bestseller with science?  And not really, yet.  It's not really 
+something -- I thought it would be a cool idea.  After my 
+research, there's a lot of factors that go into it.  It's not 
+really something that you can put a bunch of Legos together, and 
+then suddenly a best-selling book comes out but what I did find 
+was that there's some really simple and easy tools out for you 
+to analyze your books, analyze other books and that can 
+definitely give you a leg up on the competition to know what's 
+out there.
+           There are a couple people doing National Novel 
+Generation Month, which is a challenge to generate a novel in a 
+month which is super cool.  It's gaining more interest from 
+people in the field and with some of the AI research that's 
+going on, it really leaves you to wonder:  Will machines write 
+our novels in the future, or is our ability to tell a story 
+something that makes us uniquely human?  Thank you.
+
+[ Applause ]

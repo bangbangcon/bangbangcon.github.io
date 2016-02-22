@@ -1,0 +1,152 @@
+BONNIE:  All right.  Hi, everyone.
+AUDIENCE MEMBER:  Hi!
+AUDIENCE MEMBER:  Hello!
+BONNIE:  I'm going to talk to you about music programming and 
+arduino at me all the exclamation points, also known as building 
+electronic interfaces to create awesome.  So before we begin, a 
+little bit about myself.  Hi, I'm Bonnie, you can find me on the 
+interwebs there.  I'm a software engineer at Codecademy.  And so 
+I work in software in my day job, but I have a bit of a hardware 
+habit.  I started arduino in 2013, and then I started music 
+about a year ago and I find this stuff really cool and really 
+fun.  So I like building electronic musical instruments.  As I 
+say that, people are usually not along with me.  And they 
+usually look at me funny because we're used to two of the 
+phrases in here but usually not all of them together, right?  
+Everyone has an idea of what electronic music is, yeah, we all 
+have an idea of what musical instruments are, whether that's the 
+violin, the drums, the human voice, we all have an idea of what 
+musical instruments are, or should be.  But we usually don't see 
+them put together, and part of that is the way of creating 
+electronic music right now, a lot of people the way that they 
+perform it, interact with it is through interfaces like with 
+buttons and sliders, and knobs and all this stuff that's weirdly 
+unexpressive.  And I find that very strange because electronic 
+music, right, like you're literally shaping sound out of 
+nothing.  You have this huge huge range of things that you can 
+produce.  And yet, we don't usually get the same expressive 
+interface that you get from a normal musical instrument. -- 
+"normal," right?  So I like building electronic musical 
+instruments.  I'm going to show you some two quick videos of 
+some of mine.  I did not do the live demo route because the live 
+demo gods do not always smile upon me.  So here's one.  This is 
+called, "Love Music."
+          Yeah!
+[ Applause ]
+Thanks.  So as you can see, that one uses what I think is a 
+pretty natural gesture right:  Touching the water.  And you get 
+sound.  And there's no magic there.  This is safe.  And that's 
+doing touch sensing.  This is another one.  This is my lumiphone 
+and this is a light based one.  Also stolen from a coffee house. 
+ Okay.  I'm going to stop there.  So, this one is, you know, it 
+uses light and it lets you control pitch, volume, and vibrato 
+based on how you wave your hands to the air.  So you can 
+literally reach out and grab the sound and move it around, 
+right?  So with both of these projects I've had some fun leaving 
+them in public places and watching people interact with them.  I 
+left this on a cafeteria table and just saw what people did, 
+which was great and I've also posted some videos on YouTube and 
+got some great reactions.  This is something that I kind of want 
+to frame up on my wall which is weird.  I could literally wave 
+my hands over rocks to this music and make it look like I was 
+playing ROCKS!  Which, as far as what YouTube comments, it was 
+not what I was expecting.  So, when I build these kinds of 
+things, I really like them because they get, partly because they 
+get good reactions.  People react with excitement or disbelief.  
+And, you know, I think it's kind of magical.
+          If you're like me, maybe you like programming because 
+you think it's kind of magical, right?  It's like, "I can make 
+my computer do things."  That's definitely why I like 
+programming.  And if that's true, I think hardware projects, at 
+least for me, are doubly magical.  Because with these kinds of 
+things, you're literally taking in the real world, like, calling 
+it into your computer through sensors, doing something 
+processing through it and then pushing sound back out.  And so 
+you get this fun feedback loop where suddenly, like, yeah, the 
+programming is really awesome, but then it, kind of, just 
+disappears and suddenly I have this interaction where I'm just 
+like literally waving my hands in the air, I could be playing 
+rocks!  And, like, I really like that.  So I didn't get up here 
+today, though, to say that makes me feel like a wizard.  I got 
+up here to be like, "And you can do it too!" So ingredients in 
+these spells.  Nursing home, arduino.  Raise your hand if you've 
+heard of arduino before.  So arduino has been massively 
+successful over the last few years.  The first being that it's 
+affordable and this is huge for barrier of entry.  Your average 
+arduino board costs between ten and $30 now and you can just get 
+started.  The sensors that I used.  In that mug, that's $2 worth 
+of sensors.  In the cup, that's $6 worth of sensors.  These are 
+not -- you can actually afford to play with these.  They're 
+great toys.  And the other two, which are super, super important 
+and echo with some of the keynotes today is that it's 
+accessible.  So the arduino community has put so much effort in 
+making these things approachable.  You don't need electrical 
+experience.  You don't even really need programming experience.  
+When I do workshops, we've taken people with zero knowledge and 
+gotten them to the blinking lights stage at the end, which is 
+great.  So arduino, it's wonderful.  And what it does, it's a 
+physical computing platform so it lets you deal with input and 
+output, right, in the real world.  And so you have all these 
+sensors for musical instruments.  This is of course, super 
+important.  You want to build an interface.  So you've got 
+light, touch, water, GPS, motion, lots of stuff.  And I included 
+this gif because, you know, kind of feels like you too, can 
+master the four elements.  Except I guess instead of bringing 
+balance to the world or making music, or whatever -- minor 
+details.  So that's great.  And then the second one, and this is 
+one that I think far fewer people will have heard of.  Raise 
+your hand if you've heard of ChucK.  Oh, yay.  That's exciting.  
+So ChucK is a musical programming language and it was developed 
+at Princeton and it's designed for use by musicians and that 
+means, like, the primitive things that you work with in ChucK 
+relate to things like time and sound and so you can get started 
+making things pretty quickly.  It's free.  And it's 
+cross-platform.  And it's not some fancy software that you're 
+going to pay money for.  So making sound in ChucK is pretty 
+simple.  This is "hello world."  Yeah, you have to start the 
+virtual machine yourself.  That's kind of weird.  Sorry about 
+that.  That was kind of loud.  So yeah, this is all it takes to 
+get started with ChucK.  You say I have a sine wave, send it to 
+my speakers and then wait one second.  That's what you will that 
+says.  And then if you want to do something like input.  I'll do 
+something with 440 unless anyone objects.  Yeah, and then I can 
+mess around with this, right?  So we all know frequency, 
+doubling make octaves happen.  Yay!  So that's, like, ChucK 
+very, very briefly.  I really like ChucK because the fact that 
+it's so easy to now program sound means that you can just like 
+use whatever parameters you want, right?  We're programmers, we 
+know how to take things and make them do other things.  So how 
+do you combine these?  Music, and programming, and arduino 
+somehow work together?  It's actually more straightforward than 
+you might think.  So we take a sensor, in this case a light 
+sensor, it costs a dollar.  Plug it into an arduino board, and 
+now it gives you a value.  Let's say, zero through 100.  Now 
+you've got the state of it, what do you do with it?  Well, you 
+can literally if you're lazy like me, you can take an USB cable 
+and plug your arduino into your computer and send it over serial 
+and it turns out that that's really, really straightforward and 
+easy and cheap.  I like the combination of these things.  And 
+then you can just process the data in ChucK, right?  And then 
+again that means that you can make it do whatever you want.
+          I'm obviously handwaving a lot of stuff away here.  If 
+you want to try making this stuff and see what actually goes 
+into it, and want to confirm for yourself that I'm not, like, 
+telling lies... these are three of my projects including the 
+first two, the ones that I showed off on YouTube.
+          I also think they retweeted the slide deck so you can 
+get that later.  And I have all the code, I have all the circuit 
+diagrams if you build them yourself.  Piano stairs are something 
+that I didn't show off but they're a really good beginner 
+project.  So go make things.  And I'm going to end on this great 
+meme, anything is possible if you use your imagination.  Because 
+the cool thing about providing these ingredients is that 
+anything is possible.  Like the lumiphone that you could control 
+like this, you could use it for vibrato for music.  Or shadow, 
+so you make a piano key.  You could also, like, imitate the 
+Apple watch and, like, stick one on a wristband, right, and get 
+a really poor man's pulse sensor, and get one that changes a 
+piece of music with how agitated the user is with a sensor that 
+costs a dollar.  And there's a lot more that you can do.  So 
+literally, the barrier of entry keeps falling and it's gotten to 
+the point where you can just mix and match these things and come 
+up with wacky stuff.  So on that note, thank you.
