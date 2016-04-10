@@ -3,8 +3,6 @@ layout: default
 title: !!Con
 ---
 
-<section id="main_content">
-
 <p style="text-align: center;">
     **Quick Links:**
     <a href="venue-accessibility.html">Venue</a>
@@ -126,6 +124,4 @@ are required to observe.
 Interested in sponsoring !!Con? Read about our sponsor opportunities
 on our [sponsorship page](sponsors.html), or get in touch with
 [Leo](mailto:lfranchi@gmail.com) for more information.
-
-</section>
 

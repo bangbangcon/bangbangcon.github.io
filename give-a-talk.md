@@ -3,8 +3,6 @@ layout: default
 title: Call for Proposals! - !!Con
 ---
 
-<section id="main_content">
-
 ## The !!Con 2016 CFP is closed.
 
 We received a record number of submissions this year!  Thank you so
@@ -93,5 +91,3 @@ Because submissions are reviewed anonymously, requesting financial
 assistance will not affect a proposal's chances of acceptance.
 
 Thanks for submitting to !!Con!
-
-</section>

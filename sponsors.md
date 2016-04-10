@@ -2,8 +2,6 @@
 layout: default
 title: Sponsorship - !!Con
 ---
-
-<section id="main_content">
           
 Thank you for your interest in sponsoring !!Con 💜
 
@@ -45,5 +43,3 @@ Leo Franchi: [lfranchi@gmail.com](mailto:lfranchi@gmail.com)
   * Verbal thanks during conference
   * Logo on welcome slide
   * Logo on website
-
-</section>

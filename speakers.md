@@ -3,8 +3,6 @@ layout: default
 title: Speakers - !!Con
 ---
 
-<section id="main_content">
-
 <a name="keynotes" id="keynotes"></a>
 
 ## Keynote Speakers
@@ -33,7 +31,7 @@ work at [www.cattsmall.com](http://www.cattsmall.com).
 
 **_The Unfortunate Value of Failure_**
 
-**Ramsey Nasser** is a Lebanese computr scientist, game designer, and
+**Ramsey Nasser** is a Lebanese computer scientist, game designer, and
 educator based in Brooklyn. He researches programming languages by
 building tools to make computation more expressive and implementing
 projects that question the basic assumptions we make about code
@@ -48,5 +46,3 @@ vintage motorcycles.
 ## Speakers
 
 Stay tuned to find out who will be speaking at !!Con 2016!
-
-</section>

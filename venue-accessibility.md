@@ -3,8 +3,6 @@ layout: default
 title: Venue and Accessibility Information - !!Con
 ---
 
-<section id="main_content">
-
 <div style="float: right">
 <img src="images/2016-venue.jpg" style="border:1px solid #999; margin: 0px 0px 10px 24px;" alt="Our 2016 venue: The Hall at MP in Brooklyn, NY" />
 <br />
@@ -16,7 +14,7 @@ title: Venue and Accessibility Information - !!Con
 We're excited to announce !!Con 2016's venue:
 [the Hall at MP](http://thehallbrooklyn.com/) in Brooklyn, NYC!
 
-## Getting there
+### Getting there
 
 The Hall is at **470 Driggs Avenue** in Brooklyn, NYC.  It is 0.2
 miles from the Bedford Avenue subway station
@@ -37,7 +35,7 @@ Detailed
 [subway and driving directions](http://thehallbrooklyn.com/about/directions/)
 are available on the venue's website.
 
-## Bigger and better!
+### Bigger and better!
 
 For space reasons, past !!Cons have been limited to just over 100
 attendees.  This year, we'll have capacity for **200+ attendees**.
@@ -70,5 +68,3 @@ back for an encore!
 _Do you require other accommodations or have concerns or questions
 about accessibility at !!Con?  We're here to help!  Contact
 [the organizers](index.html#organizers)._
-
-</section>

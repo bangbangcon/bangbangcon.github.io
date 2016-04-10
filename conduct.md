@@ -3,8 +3,6 @@ layout: default
 title: Code of Conduct - !!Con
 ---
 
-<section id="main_content">
-
 ## Code of Conduct
 
 Our goal with !!Con is to bring the NYC programming community together
@@ -125,5 +123,3 @@ and which itself was forked from
 [an example policy from the Geek Feminism wiki, created by the Ada Initiative and other volunteers](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy)
 and available under a
 [Creative Commons Zero](http://creativecommons.org/about/cc0) license.
-
-</section>
