@@ -47,7 +47,6 @@ vintage motorcycles.
 
 ## Speakers
 
-We're currently anonymizing and reviewing talk proposals!  Stay tuned
-to find out who will be speaking at !!Con 2016.
+Stay tuned to find out who will be speaking at !!Con 2016!
 
 </section>
