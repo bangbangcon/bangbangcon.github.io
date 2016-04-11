@@ -268,20 +268,21 @@ MergeSort NYC, a feminist hackerspace.
 **_My favorite NP-complete problem!_**
 
 NP-complete problems are the hardest problems whose solutions can be
-efficiently checked for correctness. An efficient solution to any
-NP-complete problem would translate directly into efficient solutions
-for all of them.
+efficiently checked for correctness. An efficient method of solving
+any NP-complete problem would translate directly into efficient
+solutions for all of them.
 
 Many famous and interesting problems are NP-complete, but this is not
-one of them!  This is the problem of how to distribute "Elmo's World"
+one of them!  This is the problem of how to distribute “Elmo’s World”
 segments onto a series of video releases.
 
-Nobody knows a good way to solve NP-complete problems.  The Elmo's
+Nobody knows a good way to solve NP-complete problems.  The Elmo’s
 World people were not able to solve their problem either.
 
-**Mark** first became interested in programming in the mid-1970s from
-watching his mom do it. He likes sending network packets because they
-make amazing things happen in faraway places.
+[**Mark Dominus**](http://blog.plover.com/) first became interested in programming in the mid-1970s from
+watching his mom do it. He is thrilled to find his bio
+adjacent to Julia Evans’ and will gleefully treasure his screenshot of
+this page.
 
 ---
 
