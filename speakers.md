@@ -218,7 +218,7 @@ has yet to learn.
 ---
 
 <a name="brendan-curran-johnson" id="brendan-curran-johnson"></a>
-<img src="images/speakers/brendan-curran-johnson.png" alt="tef" class="speaker-img" />
+<img src="images/speakers/brendan-curran-johnson.png" alt="Brendan Curran-Johnson" class="speaker-img" />
 
 ### Brendan Curran-Johnson
 
@@ -323,9 +323,9 @@ But things get REALLY WEIRD and FUN once you realize you can pass
 those file descriptors down themselves, back to your own program. Why
 would you do that, and how?! We will find out!
 
-**Andreas** is a full-time punner and occasional programmer. By day,
-he builds systems at Stripe, and at night he tries to extract music
-from a weird instrument.
+[**Andreas**](https://boinkor.net) is a full-time punner and
+occasional programmer. By day, he builds systems at Stripe, and at
+night he tries to extract music from a weird instrument.
 
 ---
 
@@ -345,7 +345,7 @@ anyone could look at the code for these programs and create their own
 within the world?', and 'What if this world was as accessible as
 opening a window in your browser?', I got to work and using a
 combination of WebVR, Three.js, and Meteor, I built a prototype I call
-the Construct Club.
+the [Construct Club](http://www.construct.club).
 
 In this talk I'll describe the (somewhat surprisingly straightforward)
 programming ideas used to build such a world and touch on the
@@ -438,6 +438,11 @@ hadn't put ink on their fingers. Let's look back at the part of
 computing history that underlies daily activities like writing
 documentation in Markdown and reacting with emoji!
 
+**Mariko** is an engineer who loves data and knitting. When she is not
+making software at Scripto, she uses code to help her design textiles
+and organize a local JavaScript meetup in New York City called
+BrooklynJS.
+
 ---
 
 <a name="jake-levine" id="jake-levine"></a>
@@ -513,9 +518,10 @@ will discuss my experiments with lossy text compression and show how
 the outputs range from completely useless to strangely poetic to
 maybe, actually, dare I say it... practical?
 
-**Allison Parrish** is a computer programmer, poet, educator and game
-designer who lives in Brooklyn. Her teaching and practice address the
-unusual phenomena that blossom when language and computers meet.
+**[Allison Parrish](http://www.decontextualize.com/)** is a computer
+programmer, poet, educator and game designer who lives in
+Brooklyn. Her teaching and practice address the unusual phenomena that
+blossom when language and computers meet.
 
 ---
 
@@ -541,7 +547,7 @@ downstream from any location!
 **Mark** has been writing software and playing in creeks and streams
 for several decades.  He loves the natural world, geometry, and
 programming, and is especially delighted whenever he's able to combine
-all three of these things. He is the CTO of FernLeaf Interative, an
+all three of these things. He is the CTO of FernLeaf Interactive, an
 environmental data technology startup.
 
 ---
@@ -565,12 +571,11 @@ every other language to shame.
 This talk is about the history, present, and future of Scratch --- why
 Scratch is about 'coding to learn', and not about 'learning to code'.
 
-**tef** spent half a year working at Code Club, running workshops,
-talks, and writing articles and curriculum materials for 9-11 year
-olds across the UK.  Teaching is hard work, which is why tef left, and
-now reboots computers for money. Scratch is still tef's favourite
-programming language.
-
+**[tef](http://programmingisterrible.com/)** spent half a year working
+at Code Club, running workshops, talks, and writing articles and
+curriculum materials for 9-11 year olds across the UK.  Teaching is
+hard work, which is why tef left, and now reboots computers for
+money. Scratch is still tef's favourite programming language.
 
 ---
 
@@ -595,10 +600,10 @@ object that you don't need to change! Let's find out what that means
 and why it is SO AWESOME! And let's learn how to easily use these
 structures in JavaScript!
 
-**Anjana** suffers from a debilitating case of curiosity, which led
-her from philosophy to English teaching to speech technology to
-software development. She attended the Recurse Center (!) in Fall
-2015, and is currently based in Germany.
+**[Anjana](https://vakila.github.io/)** suffers from a debilitating
+case of curiosity, which led her from philosophy to English teaching
+to speech technology to software development. She attended the Recurse
+Center (!) in Fall 2015, and is currently based in Germany.
 
 ---
 
