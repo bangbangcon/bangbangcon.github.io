@@ -1,4 +1,4 @@
----
+S---
 layout: default
 title: Speakers - !!Con
 ---
@@ -517,6 +517,31 @@ color blending is achieved by various programs and algorithms.
 because they like pretty computer things, and spends most of their
 time drawing or programming. Or making video games, since that
 involves drawing and programming.
+
+---
+
+<a name="adam-marcus" id="adam-marcus"></a>
+<img src="images/speakers/adam-marcus.png" alt="Adam Marcus" class="speaker-img" />
+
+### Adam Marcus
+
+**_Don’t forget to sketch!  Running with large datasets_**
+
+Large datasets got you down? Have no fear! Make them small! Sketches
+are probabilistic data structures: they store a rough outline of a
+dataset in way less space than the dataset itself takes up. We'll
+sketch out three sketches to determine if an item is missing from your
+dataset (Bloom Filters!), count how many of an item are in your
+dataset (Count-min Sketches!), and count how many distinct items are
+in your dataset (HyperLogLogs!). In the spirit of the sketch, this
+talk will be hand-drawn (!!!) and leave some details to the
+imagination!
+
+**Adam** is the co-founder of Unlimited Labs, an NYC-based startup
+dedicated to the future of creative and analytical work. Before
+Unlimited Labs, he led the data team at Locu/GoDaddy, got his Ph.D. at
+MIT's CSAIL, and ate an entire tub of hummus in Jerusalem, where tubs
+of hummus are pretty big!
 
 ---
 
