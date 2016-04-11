@@ -1,4 +1,4 @@
-S---
+---
 layout: default
 title: Speakers - !!Con
 ---
