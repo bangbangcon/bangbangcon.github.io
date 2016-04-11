@@ -520,6 +520,32 @@ involves drawing and programming.
 
 ---
 
+<a name="laura-lindzey" id="laura-lindzey"></a>
+<img src="images/speakers/laura-lindzey.png" alt="Laura Lindzey" class="speaker-img" />
+
+### Laura Lindzey
+
+**_Convolution and the Fourier Transform: Math! (in pictures!!)_**
+
+Do you want to understand how GPS or cell phones work? MP3 or JPEG
+compression? Are you playing with image processing? Solving PDEs?
+Learning about how to process ice-penetrating radar data used for
+studying Antarctica? (errrr...that's me.)
+
+Convolution and the Fourier transform are mathematical tools that make
+all of these possible. I think that the way these tools are usually
+presented is intimidating and non-intuitive. I think in pictures, not
+equations, so this talk attempts to give a graphical intuition of what
+these techniques actually do and where they can be useful, with
+examples from my own work.
+
+**Laura Lindzey** is an ex-physics-major turned roboticist (turned
+geophysicist). She loves playing with robots and is obsessed with
+Antarctica, so she is working on combining the two to more efficiently
+collect scientific data.
+
+---
+
 <a name="adam-marcus" id="adam-marcus"></a>
 <img src="images/speakers/adam-marcus.png" alt="Adam Marcus" class="speaker-img" />
 
