@@ -302,7 +302,7 @@ networks or machine learning required.
 
 **Julia Evans** thinks you can be a wizard programmer.
 
---- 
+---
 
 <a name="andreas-fuchs" id="andreas-fuchs"></a>
 <img src="images/speakers/andreas-fuchs.png" alt="Andreas Fuchs" class="speaker-img" />
@@ -410,9 +410,9 @@ questions to test our hypotheses when trouble strikes, and help us to
 generate new questions and hypotheses. And along the way, it'll become
 clear that it's not as scary of a tool as it might first appear!
 
-**Colin Jones** is CTO at 8th Light, where he works with teams to
-craft reliable, maintainable software. He's into Clojure, security,
-distributed systems, and performance.
+**[Colin Jones](https://twitter.com/trptcolin)** is CTO at 8th Light, where he
+works with teams to craft reliable, maintainable software. He's into Clojure,
+security, distributed systems, and performance.
 
 ---
 
