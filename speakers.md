@@ -330,6 +330,24 @@ night he tries to extract music from a weird instrument.
 
 ---
 
+<a name="lydia-gu" id="lydia-gu"></a>
+<img src="images/speakers/lydia-gu.png" alt="Lydia Gu" class="speaker-img" />
+
+### Lydia Gu
+
+**_Ping! Are you there?_**
+
+Trying to understand ping is a good excuse for a dive into the
+networking stack! We'll break down what all the acronyms (IPv4, TCP,
+ICMP) mean and then see how they're used in the ping utility. I'll
+talk about how the implementation of ping can lead to security
+problems.
+
+**Lydia** is a software engineer at Unlimited Labs. She recently moved
+to NYC and is excited to join the New York tech scene!
+
+---
+
 <a name="irvin-hwang" id="irvin-hwang"></a>
 <img src="images/speakers/irvin-hwang.png" alt="Irvin Hwang" class="speaker-img" />
 
