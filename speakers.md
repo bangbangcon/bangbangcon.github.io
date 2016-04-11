@@ -535,11 +535,11 @@ blossom when language and computers meet.
 Where does the rain go once it hits the ground?  Some of it soaks into
 the ground, and some of it evaporates.  The rest flows into creeks,
 streams, lakes, and rivers, eventually making its way to an ocean.
-The route that this water takes is determined by thousands of regions
+The route that this water takes is described by thousands of regions
 called watersheds.  Visualizing how these regions connect to each
 other involves finding and reformatting some public data, a bit of fun
 graph algorithm coding, and some challenging graphics performance
-issues associated with the display of nearly 100,000 polygons in your
+issues associated with the display of 100,000 polygons in your
 browser! Come see a demonstration of an interactive open source web
 application that you can use to see everything that is upstream or
 downstream from any location!
@@ -547,8 +547,8 @@ downstream from any location!
 **Mark** has been writing software and playing in creeks and streams
 for several decades.  He loves the natural world, geometry, and
 programming, and is especially delighted whenever he's able to combine
-all three of these things. He is the CTO of FernLeaf Interactive, an
-environmental data technology startup.
+all three of these things. He currently lives in NYC and is the
+CTO of FernLeaf Interactive, an environmental data technology startup.
 
 ---
 
