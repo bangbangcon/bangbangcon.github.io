@@ -465,10 +465,11 @@ a Collator can solve some of these problems, and what else you can do
 in order to address the rest of them. Be prepared for your assumptions
 about text and language to be challenged!
 
-[**Jake**](http://jgl.nyc) is a Core Engineer at Meetup in NYC, and currently
-leads the International team there. He previously studied Software
-Engineering at McGill University. In his spare time, Jake likes to
-explore the vast array of culinary options that NYC has to offer.
+[**Jake**](http://jgl.nyc) is a Core Engineering Manager at Meetup
+in NYC, and currently leads the International team there. He previously
+studied Software Engineering at McGill University. In his spare time,
+Jake likes to explore the vast array of culinary options that NYC has
+to offer.
 
 ---
 
