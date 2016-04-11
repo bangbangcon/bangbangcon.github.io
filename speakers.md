@@ -103,7 +103,7 @@ transformations by compilers. What makes them work? And when don't
 they work?
 
 In this talk, I will take you on a journey to some of the darkest and
-confusing pits of systems programming involving debug formats,
+most confusing pits of systems programming involving debug formats,
 compilers and process control. I will describe situations where
 debuggers have failed you, and why. If you're not hacking on debuggers
 and are not a masochist, you will walk away with an increased
@@ -583,7 +583,7 @@ money. Scratch is still tef's favourite programming language.
 <a name="anjana-vakil" id="anjana-vakil"></a>
 <img src="images/speakers/anjana-vakil.png" alt="Anjana Vakil" class="speaker-img" />
 
-## Anjana Vakil
+### Anjana Vakil
 
 **_They're functional! They're efficient!! They're persistent data
   structures!!!_**
@@ -611,7 +611,7 @@ Center (!) in Fall 2015, and is currently based in Germany.
 <a name="wilkie" id="wilkie"></a>
 <img src="images/speakers/wilkie.png" alt="wilkie" class="speaker-img" />
 
-## wilkie
+### wilkie
 
 **_Preserving Digital Art and Games for 100 Years!_**
 
