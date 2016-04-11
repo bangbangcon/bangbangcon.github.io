@@ -638,13 +638,13 @@ Scratch, has over thirteen million things that children and adults
 alike have built. Scratch is radically accessible in a way that puts
 every other language to shame.
 
-This talk is about the history, present, and future of Scratch --- why
+This talk is about the history, present, and future of Scratch: why
 Scratch is about 'coding to learn', and not about 'learning to code'.
 
 **[tef](http://programmingisterrible.com/)** spent half a year working
 at Code Club, running workshops, talks, and writing articles and
-curriculum materials for 9-11 year olds across the UK.  Teaching is
-hard work, which is why tef left, and now reboots computers for
+curriculum materials for 9 to 11 year olds across the UK.  Teaching is
+hard work, which is why tef left, and now tef reboots computers for
 money. Scratch is still tef's favourite programming language.
 
 ---
