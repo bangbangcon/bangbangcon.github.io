@@ -209,11 +209,9 @@ You might think this would dissuade me from trying to generate
 addresses and transactions from scratch, but it didn't. Watch in
 horror as I put my own money at the mercy of my code.
 
-**Brendan** teaches mathematics to college students in Montreal, bikes
-up hills, and creates beer in his kitchen. He has had numerous
-experiences that should convince any reasonable person that trying to
-do everything from scratch is generally a bad idea, but somehow still
-has yet to learn.
+**Brendan** teaches people math, bikes up hills, and creates beer. He
+will probably never realize that doing things from scratch is often
+a bad idea.
 
 ---
 
