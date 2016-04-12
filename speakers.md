@@ -427,10 +427,10 @@ processes). There are also things that both developers and economists
 can and should learn, especially about the limitations of their respective 
 toolkits, as well as the importance of working with compassion and empathy.
 
-In this talk, I'd like to share some of these lessons, with examples of 
-the lessons connect with each other.
+In this talk, I'd like to share some of these lessons, with examples
+of how the lessons connect with each other.
 
-**[Rob](http://techstep.org)** is a Philadelphia ~dilettante~ devops engineer 
+**[Rob](http://techstep.org)** is a Philadelphia <s>dilettante</s> devops engineer
 working on automating all the things(!). He enjoys parenting, fountain pens, 
 making music, and learning good OPSEC from his kid.
 
