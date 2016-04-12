@@ -82,9 +82,11 @@ writes by fixing one of the oldest file system problems in existence
 computer beginner can understand! And I'll show how feminism helped me
 do it!!!
 
-**Valerie Aurora** is a former file systems hacker turned diversity in
-tech consultant at Frame Shift Consulting. She co-founded the Ada
-Initiative and loves giant squid and ball lightning.
+**Valerie Aurora** is a former Linux kernel file systems hacker turned 
+diversity in tech consultant at 
+[Frame Shift Consulting](http://frameshiftconsulting.com). She co-founded 
+the [Ada Initiative](http://adainitiative.org) and loves giant squid and 
+ball lightning.
 
 ---
 
