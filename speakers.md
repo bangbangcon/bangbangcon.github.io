@@ -409,33 +409,30 @@ He works at Skillshare.
 
 ### Rob Jefferson
 
-**_What Programmers and Economists Can Learn from Each Other!_**
+**_What Developers and Economists Can Learn from Each Other!_**
 
 _(Note: This talk was originally scheduled to appear at !!Con 2015.)_
 
-Over the past twenty years, I've been a sysadmin, researcher, and
-graduate student in economics. Somewhere in the past couple of years,
-I became a software engineer. With these varied experiences, I found
-that there were skills and practices I learned as a programmer that
-would've helped me in economics (for example, writing good tests, or
-coding with an eye towards modularity).
+In the past twenty-ish years, I've had a variety of professional roles: 
+sysadmin, researcher, shipping-container-farm designer, grad student in 
+economics, and most recently developer and devops engineer. One of my 
+favorite things is using what I've learned in one field in others.
 
-Similarly, there were lessons I learned while studying economics that
-I've taken with me to programming (making technical decisions at the
-margin, solving problems while being mindful of endogeneity). And
-there are things that both programmers and economists can and should
-learn, especially regarding understanding limitations of their
-respective toolkits and the importance of working with compassion and
-empathy.
+When I began doing development, there were skills and practices I was 
+learning that would have helped me as an economist (writing good tests, 
+modular software design). Similarly, I learned lessons while studying 
+economics that I've taken with me to development (recognizing endogeneity biases, 
+making technical decisions at the margin, using feedback to automate 
+processes). There are also things that both developers and economists 
+can and should learn, especially about the limitations of their respective 
+toolkits, as well as the importance of working with compassion and empathy.
 
-In this talk, I'd like to share some of these lessons, with motivating
-examples of the research process.
+In this talk, I'd like to share some of these lessons, with examples of 
+the lessons connect with each other.
 
-**[Rob Jefferson](http://techstep.org)** is a software engineer for
-[Solutions for Progress](http://www.solutionsforprogress.com/), a
-Philadelphia public policy and technology firm. He's had a number of
-other jobs, from developing containerized urban farms to server
-administration for oncologists.
+**[Rob](http://techstep.org)** is a Philadelphia ~dilettante~ devops engineer 
+working on automating all the things(!). He enjoys parenting, fountain pens, 
+making music, and learning good OPSEC from his kid.
 
 ---
 
