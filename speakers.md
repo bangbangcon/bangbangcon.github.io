@@ -195,6 +195,32 @@ the New York Times, LinkedIn and MIT CSAIL.
 
 ---
 
+<a name="sher-minn-chong" id="sher-minn-chong"></a>
+<img src="images/speakers/sher-minn-chong.png" alt="Sher Minn Chong" class="speaker-img" />
+
+### Sher Minn Chong
+
+**_Plants are Recursive!!: Using L-Systems to Generate Realistic Weeds_**
+
+Plants and programming are more related than you might realize! Trees,
+shrubs and weeds may look complex, but with the magic of recursion, we
+can describe them with just a few simple rules.
+
+We'll explore how we can use the recursive nature of L-Systems to
+create complex and natural-looking plants. And why stop at plants?
+We'll also see how L-Systems can be used to describe some of our
+favourite fractals such as Sierpinski's triangle and the Dragon curve,
+and how they can be used to create art.
+
+**Sher Minn** is a front-end web engineer. Equal parts programmer and
+visual artist, she enjoys the intersection of both worlds. Her
+background spans startups, coding education, and never-graduating from
+the Recurse Center in NYC. Talk to her about generative art,
+JavaScript and art museums. You can always find her on Twitter at
+[@piratefsh](http://twitter.com/piratefsh).
+
+---
+
 <a name="brendan-cordy" id="brendan-cordy"></a>
 <img src="images/speakers/brendan-cordy.png" alt="Brendan Cordy" class="speaker-img" />
 
