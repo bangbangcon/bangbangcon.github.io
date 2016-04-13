@@ -767,5 +767,6 @@ art that use randomness and procedural generation in creative and
 unusual ways. You will come away from this high-level overview with a
 newfound sense of respect and awe for the humble `Math.random()`.
 
-**Mark Wunsch** is the Director of Engineering at Rent the Runway. He
-lives in Manhattan with his wife, his dog, and his cat.
+**Mark Wunsch** is an engineering manager who enjoys giving talks on 
+abstruse technical topics. Ask him about AWK! He lives in Manhattan
+with his wife and their adorable pets.
