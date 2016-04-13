@@ -325,6 +325,27 @@ networks or machine learning required.
 
 ---
 
+<a name="jennifer-fernick" id="jennifer-fernick"></a>
+<img src="images/speakers/jennifer-fernick.png" alt="Jennifer Fernick" class="speaker-img" />
+
+### Jennifer Fernick
+
+**_All Together Now! Programming the Quantum Computer_**
+
+In this talk, we unravel the sublime beauty of programming in an
+abstract and philosophical way, not by moving away from the laws of
+physics, but by moving toward them. In particular, I will introduce
+recent work on programming languages designed for quantum computers,
+and explain how they are related to some of the biggest questions in
+computer science, information theory, and quantum mechanics.
+
+**Jennifer** is a PhD candidate at the Institute for Quantum Computing
+at the University of Waterloo (Canada). She thinks classical physics
+is weird.
+
+---
+
+
 <a name="andreas-fuchs" id="andreas-fuchs"></a>
 <img src="images/speakers/andreas-fuchs.png" alt="Andreas Fuchs" class="speaker-img" />
 
