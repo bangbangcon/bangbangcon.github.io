@@ -381,7 +381,7 @@ to NYC and is excited to join the New York tech scene!
 
 **_Making a Metaverse! A WebVR (not so M)MO for Programmers!_**
 
-VR is upon us!  After seeing Brian Peiris' AMAZING "web-based live
+Virtual reality is upon us!  After seeing Brian Peiris' AMAZING "web-based live
 coding environment for Virtual Reality"
 [RiftSketch](https://github.com/brianpeiris/RiftSketch), I was
 inspired to make my own version.  Motivated by questions like 'What if
@@ -390,12 +390,11 @@ anyone could look at the code for these programs and create their own
 within the world?', and 'What if this world was as accessible as
 opening a window in your browser?', I got to work and using a
 combination of WebVR, Three.js, and Meteor, I built a prototype I call
-the [Construct Club](http://www.construct.club).
+the Construct Club.
 
-In this talk I'll describe the (somewhat surprisingly straightforward)
-programming ideas used to build such a world and touch on the
-potential uses and future directions of the project as well as
-revealing its slightly more nefarious roots and purposes.
+In this talk I'll describe the
+programming ideas and tools used to build such a world as well as the
+potential applications and future directions of the project.
 
 **Irvin** is interested in the process of finding patterns and
 abstractions, communities (both virtual and not so virtual, especially
