@@ -54,15 +54,15 @@ This is what last year's speakers and attendees had to say:
 > doing fun and fascinating work**." --
 > [@Bruce_Adams](https://twitter.com/Bruce_Adams/status/600112896010387456)
 
-> **one of the finest events I've had the honor to be part of**" --
+> "**one of the finest events I've had the honor to be part of**" --
 > [@shovemedia](https://twitter.com/shovemedia/status/600066059345985537)
 
 > "Had the BEST weekend @bangbangcon! **I now want to build and write
 > and make ALL THE THINGS!!**" --
 > [@kiranb](https://twitter.com/kiranb/status/600129399762100226)
 
-> "I have had *an incredible weekend*, again, full of wonderful, kind
-> people and fascinating things learned. Thank you so much,
+> "I have had **an incredible weekend**, again, full of wonderful,
+> kind people and fascinating things learned. Thank you so much,
 > @bangbangcon!" --
 > [@jczetta](https://twitter.com/jczetta/status/600148410650472448)
 
