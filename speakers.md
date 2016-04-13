@@ -212,12 +212,7 @@ We'll also see how L-Systems can be used to describe some of our
 favourite fractals such as Sierpinski's triangle and the Dragon curve,
 and how they can be used to create art.
 
-**Sher Minn** is a front-end web engineer. Equal parts programmer and
-visual artist, she enjoys the intersection of both worlds. Her
-background spans startups, coding education, and never-graduating from
-the Recurse Center in NYC. Talk to her about generative art,
-JavaScript and art museums. You can always find her on Twitter at
-[@piratefsh](http://twitter.com/piratefsh).
+**[Sher Minn](http://twitter.com/piratefsh)** is a part programmer and part fractal enthusiast from Malaysia. She never-graduated from the Recurse Center in 2015 and is currently a front-end web engineer at Viki. She enjoys running, making art with code, and posing awkwardly for photos. 
 
 ---
 
