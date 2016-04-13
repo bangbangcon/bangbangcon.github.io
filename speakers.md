@@ -611,6 +611,24 @@ of hummus are pretty big!
 
 ---
 
+<a name="kamal-marhubi" id="kamal-marhubi"></a>
+<img src="images/speakers/kamal-marhubi.png" alt="Kamal Marhubi" class="speaker-img" />
+
+### Kamal Marhubi
+
+**_Storing your data in kernel space: an excellent bad idea!_**
+
+Normally, when you make a database, you store your data in memory, or
+on disk. User memory. But what if you stored your data in the kernel's
+memory instead? This is a bad idea, but it is possible! Imagine a
+database where all the data is in pipes! I'll talk about how to build
+this, why pipes are so cool, and, briefly, how you can use them to do
+smart things instead of silly things.
+
+**Kamal Marhubi** loves programming, systems, and ringing bells.
+
+---
+
 <a name="allison-parrish" id="allison-parrish"></a>
 <img src="images/speakers/allison-parrish.png" alt="Allison Parrish" class="speaker-img" />
 
