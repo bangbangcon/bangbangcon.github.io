@@ -281,7 +281,7 @@ MergeSort NYC, a feminist hackerspace.
 
 ---
 
-<a name="mark-dominus" id="mark-dominus"></a>
+<a name="mark-jason-dominus" id="mark-jason-dominus"></a>
 <img src="images/speakers/mark-jason-dominus.png" alt="Mark Dominus" class="speaker-img" />
 
 ### Mark Dominus

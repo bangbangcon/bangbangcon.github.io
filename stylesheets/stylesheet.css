@@ -60,7 +60,7 @@ hr {
 }
 
 .inner {
-    max-width: 750px;
+    max-width: 850px;
     margin: 0 auto;
     padding:4em;
 }
@@ -109,7 +109,7 @@ p, ul {
 
 /* Homepage speaker pictures */
 .speaker-pics {
-    max-width: 550px;
+    max-width: 850px;
     margin: 0 auto;
     text-align: center;
 }

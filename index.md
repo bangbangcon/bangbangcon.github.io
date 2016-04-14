@@ -4,7 +4,7 @@ title: !!Con
 ---
 
 <p style="text-align: center;">
-    **Quick Links:**
+    <strong>Quick Links:</strong>
     <a href="venue-accessibility.html">Venue</a>
     &middot; <a href="speakers.html">Speakers</a>
     &middot; <a href="conduct.html">Conduct</a>
@@ -13,14 +13,109 @@ title: !!Con
 
 **!!Con** (pronounced "bang bang con") **2016** is **two days of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
-joyous, exciting, and surprising moments in programming.
+joyous, exciting, and surprising moments in programming.  Check out
+our [speaker lineup](speakers.html)!
 
 <a name="speaking" id="speaking"></a>
 
-## Who's speaking?
+<div class="speaker-pics">
+    <div><a href="./speakers.html#catt-small"><img height="100" width="100"
+    src="images/speakers/catt-small.png" alt="Catt Small" /></a></div>
 
-Our amazing [keynote speakers](speakers.html#keynotes) and many more,
-to be announced shortly!
+    <div><a href="./speakers.html#ramsey-nasser"><img height="100" width="100"
+    src="images/speakers/ramsey-nasser.png" alt="Ramsey Nasser" /></a></div>
+
+    <div><a href="./speakers.html#mark-allen"><img height="100" width="100"
+    src="images/speakers/mark-allen.png" alt="Mark Allen" /></a></div>
+
+    <div><a href="./speakers.html#valerie-aurora"><img height="100" width="100"
+    src="images/speakers/valerie-aurora.png" alt="Valerie Aurora" /></a></div>
+
+    <div><a href="./speakers.html#samy-al-bahra"><img height="100" width="100"
+    src="images/speakers/samy-al-bahra.png" alt="Samy Al Bahra" /></a></div>
+
+    <div><a href="./speakers.html#sina-bahram"><img height="100" width="100"
+    src="images/speakers/sina-bahram.png" alt="Sina Bahram" /></a></div>
+
+    <div><a href="./speakers.html#katie-bechtold"><img height="100" width="100"
+    src="images/speakers/katie-bechtold.png" alt="Katie Bechtold" /></a></div>
+
+    <div><a href="./speakers.html#kiran-bhattaram"><img height="100" width="100"
+    src="images/speakers/kiran-bhattaram.png" alt="Kiran Bhattaram" /></a></div>
+
+    <div><a href="./speakers.html#sher-minn-chong"><img height="100" width="100"
+    src="images/speakers/sher-minn-chong.png" alt="Sher Minn Chong" /></a></div>
+
+    <div><a href="./speakers.html#brendan-cordy"><img height="100" width="100"
+    src="images/speakers/brendan-cordy.png" alt="Brendan Cordy" /></a></div>
+
+    <div><a href="./speakers.html#brendan-curran-johnson"><img height="100" width="100"
+    src="images/speakers/brendan-curran-johnson.png" alt="Brendan Curran-Johnson" /></a></div>
+
+    <div><a href="./speakers.html#anne-decusatis"><img height="100" width="100"
+    src="images/speakers/anne-decusatis.png" alt="Anne DeCusatis" /></a></div>
+
+    <div><a href="./speakers.html#mark-jason-dominus"><img height="100" width="100"
+    src="images/speakers/mark-jason-dominus.png" alt="Mark Jason Dominus" /></a></div>
+
+    <div><a href="./speakers.html#julia-evans"><img height="100" width="100"
+    src="images/speakers/julia-evans.png" alt="Julia Evans" /></a></div>
+
+    <div><a href="./speakers.html#jennifer-fernick"><img height="100" width="100"
+    src="images/speakers/jennifer-fernick.png" alt="Jennifer Fernick" /></a></div>
+
+    <div><a href="./speakers.html#andreas-fuchs"><img height="100" width="100"
+    src="images/speakers/andreas-fuchs.png" alt="Andreas Fuchs" /></a></div>
+
+    <div><a href="./speakers.html#lydia-gu"><img height="100" width="100"
+    src="images/speakers/lydia-gu.png" alt="Lydia Gu" /></a></div>
+
+    <div><a href="./speakers.html#irvin-hwang"><img height="100" width="100"
+    src="images/speakers/irvin-hwang.png" alt="Irvin Hwang" /></a></div>
+
+    <div><a href="./speakers.html#rob-jefferson"><img height="100" width="100"
+    src="images/speakers/rob-jefferson.png" alt="Rob Jefferson" /></a></div>
+
+    <div><a href="./speakers.html#colin-jones"><img height="100" width="100"
+    src="images/speakers/colin-jones.png" alt="Colin Jones" /></a></div>
+
+    <div><a href="./speakers.html#mariko-kosaka"><img height="100" width="100"
+    src="images/speakers/mariko-kosaka.png" alt="Mariko Kosaka" /></a></div>
+
+    <div><a href="./speakers.html#jake-levine"><img height="100" width="100"
+    src="images/speakers/jake-levine.png" alt="Jake Levine" /></a></div>
+
+    <div><a href="./speakers.html#diana-liao"><img height="100" width="100"
+    src="images/speakers/diana-liao.png" alt="Diana Liao" /></a></div>
+
+    <div><a href="./speakers.html#laura-lindzey"><img height="100" width="100"
+    src="images/speakers/laura-lindzey.png" alt="Laura Lindzey"/></a></div>
+
+    <div><a href="./speakers.html#adam-marcus"><img height="100" width="100"
+    src="images/speakers/adam-marcus.png" alt="Adam Marcus"/></a></div>
+
+    <div><a href="./speakers.html#kamal-marhubi"><img height="100" width="100"
+    src="images/speakers/kamal-marhubi.png" alt="Kamal Marhubi" /></a></div>
+
+    <div><a href="./speakers.html#allison-parrish"><img height="100" width="100"
+    src="images/speakers/allison-parrish.png" alt="Allison Parrish" /></a></div>
+
+    <div><a href="./speakers.html#mark-phillips"><img height="100" width="100"
+    src="images/speakers/mark-phillips.png" alt="Mark Phillips" /></a></div>
+
+    <div><a href="./speakers.html#tef"><img height="100" width="100"
+    src="images/speakers/tef.png" alt="tef" /></a></div>
+
+    <div><a href="./speakers.html#anjana-vakil"><img height="100" width="100"
+    src="images/speakers/anjana-vakil.png" alt="Anjana Vakil" /></a></div>
+
+    <div><a href="./speakers.html#wilkie"><img height="100" width="100"
+    src="images/speakers/wilkie.png" alt="wilkie"/></a></div>
+
+    <div><a href="./speakers.html#mark-wunsch"><img height="100" width="100"
+    src="images/speakers/mark-wunsch.png" alt="Mark Wunsch"/></a></div>
+
+</div>
 
 <a name="where" id="where"></a>
 
@@ -95,7 +190,6 @@ for our mailing list below! No spam, we promise!
 </div>
 </form>
 </div>
-<!--End mc_embed_signup-->
 
 <a name="organizers"></a>
 
