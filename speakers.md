@@ -497,7 +497,7 @@ documentation in Markdown and reacting with emoji!
 
 **Mariko** is an engineer who loves data and knitting. When she is not
 making software at Scripto, she uses code to help her design textiles
-and organize a local JavaScript meetup in New York City called
+and organizes a local JavaScript meetup in New York City called
 BrooklynJS.
 
 ---
