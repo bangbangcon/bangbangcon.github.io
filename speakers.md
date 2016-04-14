@@ -269,15 +269,15 @@ basically mappings from binary numbers to characters, I think it's
 pretty much equivalent to say I have a favorite character! U+200D ZERO
 WIDTH JOINER (ZWJ) is used to combine separate characters, usually in
 Indic and Arabic scripts. In my life as an English speaker and writer,
-it’s used to make combinations of emoji, such as 👩+‍❤️‍+👩= 👩‍❤️‍👩.  I'll
+it’s used to make combinations of emoji, such as 👩+‍❤️‍+👩= 👩‍❤️‍👩. I'll
 talk about how and why this works, and how it might affect the text
 that users submit and you display.
 
-**Anne DeCusatis** is currently a Core Engineer at Meetup. Before
-that, she was the December 2014 Outstanding Graduate for Computer
-Science at the State University of New York at New Paltz, and an
-intern with IBM WebSphere Test. In her spare time, she organizes
-MergeSort NYC, a feminist hackerspace.
+(If the emoji in this abstract don't combine into one image on the right, 
+try viewing on a recently updated smartphone.)
+
+**Anne DeCusatis** is currently a Core Engineer at Meetup. In her spare time,
+she organizes MergeSort NYC, a feminist hackerspace.
 
 ---
 
