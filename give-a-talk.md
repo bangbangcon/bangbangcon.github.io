@@ -15,8 +15,8 @@ much to everyone who submitted a proposal!
   * <s>April 4</s> **April 7**: Notification of talk acceptance.
   * <s>April 11</s> **April 14**: Deadline for speakers to confirm
     their participation.
-  * TBD: Conference registration opens.
-  * TBD: Public announcement of speakers.
+  * April 16: Conference registration opens.
+  * April 16: Public announcement of speakers.
   * TBD: Public announcement of detailed schedule.
   * **May 7-8: !!Con!**
 
