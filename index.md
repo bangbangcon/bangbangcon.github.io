@@ -161,7 +161,7 @@ This is what last year's speakers and attendees had to say:
 > @bangbangcon!" --
 > [@jczetta](https://twitter.com/jczetta/status/600148410650472448)
 
-> I want every day to be @bangbangcon, **best conference ever**" --
+> "I want every day to be @bangbangcon, **best conference ever**" --
 > [@ablwr](https://twitter.com/ablwr/status/599727141660524546)
 
 We think !!Con 2016 will be at least as good!
