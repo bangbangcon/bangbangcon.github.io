@@ -211,7 +211,17 @@ web wrangling by [Lea Albaugh](http://twitter.com/doridoidea).
 We have a [code of conduct](conduct.html) that all !!Con participants
 are required to observe.
 
-<a name="sponsors"></a>
+## Sponsors
+
+Thank you to our amazing sponsors for helping make !!Con possible!
+
+<div class="sponsor-list">
+    <h3>AWESOME! Sponsors</h3>
+    <div class="sponsor"><a href="http://devbootcamp.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="37" width="220"
+    alt="Dev Bootcamp" src="images/sponsors/devbootcamp-logo.png" /></div></a></div>
+    <div class="sponsor"><a href="https://stripe.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="90" width="150"
+    alt="Stripe" src="images/sponsors/stripe.png" /></div></a></div>
+</div>
 
 ## Sponsoring
 
