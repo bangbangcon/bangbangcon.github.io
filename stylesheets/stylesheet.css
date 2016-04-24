@@ -156,13 +156,12 @@ p, ul {
     top: -1em;
 }
 
-.sponsor .logo{
-    min-width: 10em;
+.sponsor .logo {
     height: 6em;
     padding: 1em;
     margin: 2px 2px;
     margin-top: -1em;
-    border: 1px solid #6d0019;
+    border: 1px solid #005a5a;
     background-color: white;
     border-radius: 10px;
 }
@@ -173,8 +172,8 @@ p, ul {
 }
 
 .sponsor img {
-    max-width: 13em;
-    max-height: 5em;
+    /* max-width: 13em; */
+    /* max-height: 5em; */
     /*outline: 1px red solid;*/
     position: relative;
     top: 50%;
