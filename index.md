@@ -222,7 +222,7 @@ Thank you to our amazing sponsors for helping make !!Con possible!
     <div class="sponsor"><a href="https://stripe.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="90" width="150"
     alt="Stripe" src="images/sponsors/stripe.png" /></div></a></div>
     <div class="sponsor"><a href="https://betterment.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="115" width="220"
-    alt="Betterment" src="images/sponsors/betterment.png" /></div></a></div>
+    alt="Betterment" src="images/sponsors/betterment.jpeg" /></div></a></div>
 </div>
 
 ## Sponsoring
