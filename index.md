@@ -202,7 +202,7 @@ The !!Con 2016 organizing team:
 [Leo Franchi](https://twitter.com/lfranchi),
 [Lindsey Kuper](https://twitter.com/lindsey), and
 [Nabil Hassein](https://twitter.com/NabilHassein).  Organizers
-emerita: [Julia Evans](https://twitter.com/b0rk) and
+emeritae: [Julia Evans](https://twitter.com/b0rk) and
 [Maggie Zhou](https://twitter.com/zmagg).  Logo design and additional
 web wrangling by [Lea Albaugh](http://twitter.com/doridoidea).
 
