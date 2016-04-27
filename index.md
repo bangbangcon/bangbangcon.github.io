@@ -223,6 +223,8 @@ Thank you to our amazing sponsors for helping make !!Con possible!
     alt="Stripe" src="images/sponsors/stripe.png" /></div></a></div>
     <div class="sponsor"><a href="https://betterment.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="115" width="220"
     alt="Betterment" src="images/sponsors/betterment.jpeg" /></div></a></div>
+    <div class="sponsor"><a href="https://soundcloud.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="116" width="192"
+    alt="Soundcloud" src="images/sponsors/soundcloud.png" /></div></a></div>
 </div>
 
 ## Sponsoring
