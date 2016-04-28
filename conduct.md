@@ -104,7 +104,7 @@ staff.
 If the matter is especially urgent, please call/contact either of
 these individuals:
 
-  * **Names and phone numbers to be added shortly.**
+  * [Leo Franchi](mailto:lfranchi@gmail.com): (512) 775-5637
 
 Conference staff will be happy to help participants contact local law
 enforcement, provide escorts, or otherwise assist those experiencing
