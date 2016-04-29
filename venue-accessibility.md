@@ -61,9 +61,10 @@ to !!Con.)
 !!Con 2016 will have CART ("Communication Access Realtime
 Transcription" or "Computer-Assisted Real-Time", depending on who you
 ask) live transcription in English, provided by Certified CART
-Provider [Mirabai Knight](http://stenoknight.com/).  Mirabai first
-captioned !!Con in 2014, and it was great.  We're excited to have her
-back for an encore!
+Provider
+[Mirabai Knight](http://www.whitecoatcaptioning.com/captioning-for-conferences).
+Mirabai first captioned !!Con in 2014, and it was great.  We're
+excited to have her back for an encore!
 
 _Do you require other accommodations or have concerns or questions
 about accessibility at !!Con?  We're here to help!  Contact
