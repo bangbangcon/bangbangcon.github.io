@@ -43,6 +43,8 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 
 </div>
 
+<a name="sunday"></a>
+
 ### Sunday, May 8
 
 <div class="scheduletable">
