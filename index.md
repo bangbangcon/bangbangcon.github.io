@@ -18,7 +18,7 @@ our [speaker lineup](speakers.html)!
 
 <a name="speaking" id="speaking"></a>
 
-<div class="speaker-pics">
+<div class="speaker-pics" markdown="0">
     <div><a href="./speakers.html#catt-small"><img height="100" width="100"
     src="images/speakers/catt-small.png" alt="Catt Small" /></a></div>
 
@@ -215,7 +215,7 @@ are required to observe.
 
 Thank you to our amazing sponsors for helping make !!Con possible!
 
-<div class="sponsor-list">
+<div class="sponsor-list" markdown="0">
     <h3>AWESOME! Sponsors</h3>
     <div class="sponsor"><a href="http://devbootcamp.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="37" width="220"
     alt="Dev Bootcamp" src="images/sponsors/devbootcamp-logo.png" /></div></a></div>

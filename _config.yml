@@ -1,1 +1,4 @@
-markdown: redcarpet
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
