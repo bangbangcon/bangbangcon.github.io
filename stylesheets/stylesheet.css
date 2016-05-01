@@ -235,7 +235,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     vertical-align: baseline;
 }
 
-.scheduletable {
+.scheduletable table {
     margin-top: 1em;
     width: 100%;
     border-width: 1px;
