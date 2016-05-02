@@ -216,6 +216,9 @@ are required to observe.
 Thank you to our amazing sponsors for helping make !!Con possible!
 
 <div class="sponsor-list" markdown="0">
+    <h3>EXCELLENT!! Sponsors</h3>
+    <div class="sponsor"><a href="https://managedbyq.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="180" width="180"
+    alt="Managed By Q" src="images/sponsors/managedbyq.png" /></div></a></div>
     <h3>AWESOME! Sponsors</h3>
     <div class="sponsor"><a href="http://devbootcamp.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="37" width="220"
     alt="Dev Bootcamp" src="images/sponsors/devbootcamp-logo.png" /></div></a></div>
