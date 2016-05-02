@@ -24,7 +24,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 11:15-11:30     | Break!
 |-----------------|-------------------------------------------------------------------------
-| 11:30-12:15     | **Session the First:** <br /> &bull; *The tales of the cursed operating systems textbook!* ([Kiran Bhattaram](speakers.html#kiran-bhattaram))<br />&bull; *values of β may give rise to dom!* ([Mark Allen](speakers.html#mark-allen))<br />&bull; *Ping! Are you there?* ([Lydia Gu](speakers.html#lydia-gu))<br />&bull; *Code in Spaaaaaace!!!* ([Katie Bechtold](speakers.html#katie-bechtold))
+| 11:30-12:15     | **Session the First:** <br /> &bull; *The tales of the cursed operating systems textbook!* ([Kiran Bhattaram](speakers.html#kiran-bhattaram))<br />&bull; *"values of β may give rise to dom!"* ([Mark Allen](speakers.html#mark-allen))<br />&bull; *Ping! Are you there?* ([Lydia Gu](speakers.html#lydia-gu))<br />&bull; *Code in Spaaaaaace!!!* ([Katie Bechtold](speakers.html#katie-bechtold))
 |-----------------|-------------------------------------------------------------------------
 | 12:15-1:30      | Break for lunch!
 |-----------------|-------------------------------------------------------------------------
@@ -36,7 +36,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 3:05-4:40       | Unconferencing!
 |-----------------|-------------------------------------------------------------------------
-| 4:40-5:25       | **Session the Third:** <br />&bull; *Convolution and the Fourier Transform: Math! (in pictures!!)* ([Laura Lindzey](speakers.html#laura-lindzey))<br />&bull; *All Together Now! Programming the Quantum Computer* ([Jennifer Fernick](speakers.html#jennifer-fernick))<br />&bull; *Upstream/Downstream: Discovering and Displaying Watershed Topology!* ([Mark Phillips](speakers.html#mark-phillips))<br />&bull; *My favorite NP-complete problem!* ([Mark Dominus](speakers.html#mark-dominus))
+| 4:40-5:25       | **Session the Fourth:** <br />&bull; *Convolution and the Fourier Transform: Math! (in pictures!!)* ([Laura Lindzey](speakers.html#laura-lindzey))<br />&bull; *All Together Now! Programming the Quantum Computer* ([Jennifer Fernick](speakers.html#jennifer-fernick))<br />&bull; *Upstream/Downstream: Discovering and Displaying Watershed Topology!* ([Mark Phillips](speakers.html#mark-phillips))<br />&bull; *My favorite NP-complete problem!* ([Mark Dominus](speakers.html#mark-dominus))
 |-----------------|-------------------------------------------------------------------------
 | 5:25-5:30       | Closing remarks
 |-----------------|-------------------------------------------------------------------------
@@ -70,9 +70,9 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 2:30-3:05       | **Session the Seventh:** <br />&bull; *Don’t forget to sketch! Running with large datasets* ([Adam Marcus](speakers.html#adam-marcus))<br />&bull; *They’re functional! They’re efficient!! They’re persistent data structures!!!* ([Anjana Vakil](speakers.html#anjana-vakil))<br />&bull; *How I fixed UNIX atime! With 10 lines of code and feminism!!!* ([Valerie Aurora](speakers.html#valerie-aurora))
 |-----------------|-------------------------------------------------------------------------
-| 3:05-4:20       | Unconferencing!
+| 3:05-4:30       | Unconferencing!
 |-----------------|-------------------------------------------------------------------------
-| 4:20-5:15       | **Session the Eighth:** <br />&bull; *Ink on fingers! The history of printing (with code!) before computer screens* ([Mariko Kosaka](speakers.html#mariko-kosaka))<br />&bull; *Making a Metaverse! A WebVR (not so M)MO for Programmers!* ([Irvin Hwang](speakers.html#irvin-hwang))<br />&bull; _Finding out what’s *really* going on, with DTrace!_ ([Colin Jones](speakers.html#colin-jones))<br />&bull; *How to trick a neural network!* ([Julia Evans](speakers.html#julia-evans))
+| 4:30-5:15       | **Session the Eighth:** <br />&bull; *Ink on fingers! The history of printing (with code!) before computer screens* ([Mariko Kosaka](speakers.html#mariko-kosaka))<br />&bull; *Making a Metaverse! A WebVR (not so M)MO for Programmers!* ([Irvin Hwang](speakers.html#irvin-hwang))<br />&bull; _Finding out what’s *really* going on, with DTrace!_ ([Colin Jones](speakers.html#colin-jones))<br />&bull; *How to trick a neural network!* ([Julia Evans](speakers.html#julia-evans))
 |-----------------|-------------------------------------------------------------------------
 | 5:15            | Thanks and closing remarks
 |-----------------|-------------------------------------------------------------------------
