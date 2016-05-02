@@ -223,6 +223,8 @@ Thank you to our amazing sponsors for helping make !!Con possible!
     <h3>AWESOME! Sponsors</h3>
     <div class="sponsor"><a href="http://devbootcamp.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="37" width="220"
     alt="Dev Bootcamp" src="images/sponsors/devbootcamp-logo.png" /></div></a></div>
+    <div class="sponsor"><a href="https://meetup.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="116" width="150"
+    alt="Meetup" src="images/sponsors/meetup.png" /></div></a></div>
     <div class="sponsor"><a href="https://stripe.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="90" width="150"
     alt="Stripe" src="images/sponsors/stripe.png" /></div></a></div>
     <div class="sponsor"><a href="https://betterment.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="115" width="220"
