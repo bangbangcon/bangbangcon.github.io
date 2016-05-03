@@ -211,6 +211,8 @@ web wrangling by [Lea Albaugh](http://twitter.com/doridoidea).
 We have a [code of conduct](conduct.html) that all !!Con participants
 are required to observe.
 
+<a name="sponsors"></a>
+
 ## Sponsors
 
 Thank you to our amazing sponsors for helping make !!Con possible!
