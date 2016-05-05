@@ -111,6 +111,17 @@ enforcement, provide escorts, or otherwise assist those experiencing
 harassment to feel safe for the duration of the conference. We value
 your attendance.
         
+## Report a violation (with or without your name)
+<form action="https://formspree.io/nabil.hassein@gmail.com" method="POST">
+
+<label for="code of conduct violation">Code of Conduct violation </label>
+<textarea type="text" name="code of conduct violation" rows="5" cols="80"></textarea>
+<label for="_replyto">Your email (optional) </label>
+<input type="email" name="_replyto">
+
+<input type="submit" value="Send">
+</form>  
+
 ## License
 
 The !!Con Code of Conduct is under a
