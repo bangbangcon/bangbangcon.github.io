@@ -10,12 +10,17 @@ title: !!Con
     &middot; <a href="speakers.html">Speakers</a>
     &middot; <a href="conduct.html">Conduct</a>
     &middot; <a href="sponsors.html">Sponsorship</a>
+    &middot; <a href=" http://confreaks.tv/live/bangbangcon2016">Livestream</a>
 </p>
 
 **!!Con** (pronounced "bang bang con") **2016** is **two days of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
-joyous, exciting, and surprising moments in programming.  Check out
-our [speaker lineup](speakers.html)!
+joyous, exciting, and surprising moments in programming.
+
+!!Con will be <a href="http://confreaks.tv/live/bangbangcon2016">streamed live</a>,
+and recordings will be made available after the con.
+
+Check out our [speaker lineup](speakers.html)!
 
 <a name="speaking" id="speaking"></a>
 
