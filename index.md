@@ -246,6 +246,7 @@ Thank you to our amazing sponsors for helping make !!Con possible!
         Jon Williams<br />
         <a href="http://twitter.com/lastontheboat" target="_blank">Josh Matthews</a><br />
         Igor<br />
+	...and <strong>10</strong> anonymous individual sponsors.
     </div>
 </div>
 
