@@ -136,7 +136,7 @@ Check out our [speaker lineup](speakers.html)!
 NYC.  Check out our
 [venue and accessibility information](venue-accessibility.html)!
 
-!!Con is *pay-what-you-want*.  [Register here!](https://www.eventbrite.com/e/con-2016-tickets-24695082657)
+!!Con is *pay-what-you-want*.  [Registration](https://www.eventbrite.com/e/con-2016-tickets-24695082657) is now closed.
 
 <a name="testimonials" id="testimonials"></a>
 
