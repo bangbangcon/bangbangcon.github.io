@@ -240,10 +240,13 @@ Thank you to our amazing sponsors for helping make !!Con possible!
     alt="Soundcloud" src="images/sponsors/soundcloud.png" /></div></a></div>
 
     <h3>Individual Sponsors</h3>
-    <p>Thank you so much to our individual sponsors who contributed to making !!Con possible!</p>
-    <p>
-    Jon Williams
-    </p>
+        <p>Thank you so much to our individual sponsors who contributed to making !!Con possible!</p>
+
+    <div id="individual-sponsors">
+        Jon Williams<br />
+        <a href="http://twitter.com/lastontheboat" target="_blank">Josh Matthews</a><br />
+        Igor<br />
+    </div>
 </div>
 
 ## Sponsoring

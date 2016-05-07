@@ -183,6 +183,9 @@ p, ul {
     /*http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/*/
 }
 
+#individual-sponsors {
+    font-size: 1.4em;
+}
 
 footer {
     margin: 0;
