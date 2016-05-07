@@ -101,10 +101,11 @@ If you are being harassed, notice that someone else is being harassed,
 or have any other concerns, please contact a member of conference
 staff.
 
-If the matter is especially urgent, please call/contact either of
-these individuals:
+If the matter is especially urgent, please call or email either of these individuals:
 
   * [Leo Franchi](mailto:lfranchi@gmail.com): (512) 775-5637
+  * [Lindsey Kuper](mailto:lindsey@composition.al): lindsey@composition.al
+  * Or, use the reporting form on this page (below).
 
 Conference staff will be happy to help participants contact local law
 enforcement, provide escorts, or otherwise assist those experiencing
