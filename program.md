@@ -18,7 +18,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------+-------------------------------------------------------------------------
 | Time            | Event
 |-----------------|-------------------------------------------------------------------------
-| 9:45            | Space opens; mingling
+| 9:45            | Space opens; breakfast; mingling
 |-----------------|-------------------------------------------------------------------------
 | 10:30-11:15     | &bull; Opening remarks <br />&bull; Keynote talk: *The Creative Programmer* ([Catt Small](speakers.html#catt-small))
 |-----------------|-------------------------------------------------------------------------
@@ -26,7 +26,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 11:30-12:15     | **Session the First:** <br /> &bull; *The tales of the cursed operating systems textbook!* ([Kiran Bhattaram](speakers.html#kiran-bhattaram))<br />&bull; *"values of β may give rise to dom!"* ([Mark Allen](speakers.html#mark-allen))<br />&bull; *Ping! Are you there?* ([Lydia Gu](speakers.html#lydia-gu))<br />&bull; *Code in Spaaaaaace!!!* ([Katie Bechtold](speakers.html#katie-bechtold))
 |-----------------|-------------------------------------------------------------------------
-| 12:15-1:30      | Break for lunch!
+| 12:15-1:30      | Break for lunch (on your own)!
 |-----------------|-------------------------------------------------------------------------
 | 1:30-2:15       | **Session the Second:** <br />&bull; *Lossy text compression, for some reason?!* ([Allison Parrish](speakers.html#allison-parrish))<br />&bull; *A Shot in the Dark!* ([Brendan Curran-Johnson](speakers.html#brendan-curran-johnson))<br />&bull; *Plants are Recursive!!: Using L-Systems to Generate Realistic Weeds* ([Sher Minn Chong](speakers.html#sher-minn-chong))<br />&bull; *Mixing Paint! With Computers!* ([Diana Liao](speakers.html#diana-liao))
 |-----------------|-------------------------------------------------------------------------
@@ -54,7 +54,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------+-------------------------------------------------------------------------
 | Time            | Event
 |-----------------|-------------------------------------------------------------------------
-| 9:45            | Space opens; mingling
+| 9:45            | Space opens; breakfast; mingling
 |-----------------|-------------------------------------------------------------------------
 | 10:30-11:15     | &bull; Opening remarks <br />&bull; Keynote talk: *The Unfortunate Value of Failure* ([Ramsey Nasser](speakers.html#ramsey-nasser))
 |-----------------|-------------------------------------------------------------------------
