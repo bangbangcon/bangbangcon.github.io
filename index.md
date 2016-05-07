@@ -247,7 +247,8 @@ Thank you to our amazing sponsors for helping make !!Con possible!
         <a href="http://twitter.com/lastontheboat" target="_blank">Josh Matthews</a><br />
         Igor<br />
         <a href="http://www.ashedryden.com">Ashe Dryden</a><br />
-	...and <strong>9</strong> anonymous individual sponsors.
+        Scott Vokes<br />
+	...and <strong>8</strong> anonymous individual sponsors.
     </div>
 </div>
 
