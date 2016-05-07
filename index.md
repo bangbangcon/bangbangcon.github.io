@@ -243,10 +243,11 @@ Thank you to our amazing sponsors for helping make !!Con possible!
         <p>Thank you so much to our individual sponsors who contributed to making !!Con possible!</p>
 
     <div id="individual-sponsors">
-        Jon Williams<br />
+        <a href="http://twitter.com/shovemedia">Jon Williams</a><br />
         <a href="http://twitter.com/lastontheboat" target="_blank">Josh Matthews</a><br />
         Igor<br />
-	...and <strong>10</strong> anonymous individual sponsors.
+        <a href="http://www.ashedryden.com">Ashe Dryden</a><br />
+	...and <strong>9</strong> anonymous individual sponsors.
     </div>
 </div>
 
