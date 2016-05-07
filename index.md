@@ -248,7 +248,8 @@ Thank you to our amazing sponsors for helping make !!Con possible!
         Igor<br />
         <a href="http://www.ashedryden.com">Ashe Dryden</a><br />
         Scott Vokes<br />
-	...and <strong>8</strong> anonymous individual sponsors.
+        <a href="http://lars.hupel.info/">Lars Hupel</a><br />
+	...and <strong>7</strong> anonymous individual sponsors.
     </div>
 </div>
 
