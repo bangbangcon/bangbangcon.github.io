@@ -34,13 +34,13 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 2:30-3:05       | **Session the Third:** <br />&bull; *I'm not a number, I'm a free file descriptor!!1 (Our protagonist promptly disappears down a wormhole)* ([Andreas Fuchs](speakers.html#andreas-fuchs))<br />&bull; *Storing your data in kernel space: an excellent bad idea!* ([Kamal Marhubi](speakers.html#kamal-marhubi))<br />&bull; *Debugging debuggers!!!* ([Samy Al Bahra](speakers.html#samy-al-bahra))
 |-----------------|-------------------------------------------------------------------------
-| 3:05-4:40       | Unconferencing!
+| 3:05-4:10       | Unconferencing!
 |-----------------|-------------------------------------------------------------------------
-| 4:40-5:25       | **Session the Fourth:** <br />&bull; *Convolution and the Fourier Transform: Math! (in pictures!!)* ([Laura Lindzey](speakers.html#laura-lindzey))<br />&bull; *All Together Now! Programming the Quantum Computer* ([Jennifer Fernick](speakers.html#jennifer-fernick))<br />&bull; *Upstream/Downstream: Discovering and Displaying Watershed Topology!* ([Mark Phillips](speakers.html#mark-phillips))<br />&bull; *My favorite NP-complete problem!* ([Mark Dominus](speakers.html#mark-dominus))
+| 4:10-4:55       | **Session the Fourth:** <br />&bull; *Convolution and the Fourier Transform: Math! (in pictures!!)* ([Laura Lindzey](speakers.html#laura-lindzey))<br />&bull; *All Together Now! Programming the Quantum Computer* ([Jennifer Fernick](speakers.html#jennifer-fernick))<br />&bull; *Upstream/Downstream: Discovering and Displaying Watershed Topology!* ([Mark Phillips](speakers.html#mark-phillips))<br />&bull; *My favorite NP-complete problem!* ([Mark Dominus](speakers.html#mark-dominus))
 |-----------------|-------------------------------------------------------------------------
-| 5:25-5:30       | Closing remarks
+| 4:55-5:00       | Closing remarks
 |-----------------|-------------------------------------------------------------------------
-| 5:30            | Optional: find your dinner group!
+| 5:00            | Optional: find your dinner group!
 |-----------------|-------------------------------------------------------------------------
 
 </div>
