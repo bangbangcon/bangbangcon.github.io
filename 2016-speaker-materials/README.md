@@ -5,5 +5,5 @@ This directory contains a growing collection of materials that accompany the 201
 ## Links to speakers' slides hosted elsewhere, blog posts, repos, etc.
 
   * Your Name Here: [Your link here](http://example.com)
-  * ...
+  * Mariko Kosaka: [Ink on fingers! The history of printing (with code!)](http://kosamari.com/presentation/bangbangcon-2016/)
 
