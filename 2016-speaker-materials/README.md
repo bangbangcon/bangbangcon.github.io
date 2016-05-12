@@ -4,6 +4,8 @@ This directory contains a growing collection of materials that accompany the 201
 
 ## Links to speakers' slides hosted elsewhere, blog posts, repos, etc.
 
+  * Your Name Here: [Your link here](http://example.com)
+  * Mariko Kosaka: [Ink on fingers! The history of printing (with code!)](http://kosamari.com/presentation/bangbangcon-2016/)
+  * Valerie Aurora: [How I fixed UNIX atime! With 10 lines of code and feminism!!!](https://frameshiftconsulting.com/speaking/#filesystems)
   * Mark Allen: [values of β may give rise to dom!](https://speakerdeck.com/mrallen1/values-of-b-may-give-rise-to-dom)
-  * ...
 
