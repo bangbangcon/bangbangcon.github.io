@@ -4,6 +4,6 @@ This directory contains a growing collection of materials that accompany the 201
 
 ## Links to speakers' slides hosted elsewhere, blog posts, repos, etc.
 
-  * Your Name Here: [Your link here](http://example.com)
+  * Mark Allen: [values of β may give rise to dom!](https://speakerdeck.com/mrallen1/values-of-b-may-give-rise-to-dom)
   * ...
 
