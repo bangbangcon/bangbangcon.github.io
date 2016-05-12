@@ -9,4 +9,5 @@ This directory contains a growing collection of materials that accompany the 201
   * Valerie Aurora: [How I fixed UNIX atime! With 10 lines of code and feminism!!!](https://frameshiftconsulting.com/speaking/#filesystems)
   * Mark Allen: [values of β may give rise to dom!](https://speakerdeck.com/mrallen1/values-of-b-may-give-rise-to-dom)
   * Andreas Fuchs: [I'm not a number, I'm a free file descriptor!!1 (our protagonist promptly disappears down a wormhole)](https://github.com/antifuchs/bangbangcon-talk-2016)
+  * Mark Wunsch: [lol im so random!](https://speakerdeck.com/mwunsch/lol-im-so-random)
 
