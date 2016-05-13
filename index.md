@@ -6,15 +6,21 @@ title: !!Con
 <p style="text-align: center;">
     <strong>Quick Links:</strong>
     <a href="venue-accessibility.html">Venue</a>
+    &middot; <a href="program.html">Program</a>
     &middot; <a href="speakers.html">Speakers</a>
     &middot; <a href="conduct.html">Conduct</a>
     &middot; <a href="sponsors.html">Sponsorship</a>
+    &middot; <a href=" http://confreaks.tv/live/bangbangcon2016">Livestream</a>
 </p>
 
 **!!Con** (pronounced "bang bang con") **2016** is **two days of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
-joyous, exciting, and surprising moments in programming.  Check out
-our [speaker lineup](speakers.html)!
+joyous, exciting, and surprising moments in programming.
+
+!!Con will be <a href="http://confreaks.tv/live/bangbangcon2016">streamed live</a>,
+and recordings will be made available after the con.
+
+Check out our [speaker lineup](speakers.html)!
 
 <a name="speaking" id="speaking"></a>
 
@@ -130,7 +136,7 @@ our [speaker lineup](speakers.html)!
 NYC.  Check out our
 [venue and accessibility information](venue-accessibility.html)!
 
-!!Con is *pay-what-you-want*.  [Register here!](https://www.eventbrite.com/e/con-2016-tickets-24695082657)
+!!Con is *pay-what-you-want*.  [Registration](https://www.eventbrite.com/e/con-2016-tickets-24695082657) is now closed.
 
 <a name="testimonials" id="testimonials"></a>
 
@@ -202,7 +208,7 @@ The !!Con 2016 organizing team:
 [Leo Franchi](https://twitter.com/lfranchi),
 [Lindsey Kuper](https://twitter.com/lindsey), and
 [Nabil Hassein](https://twitter.com/NabilHassein).  Organizers
-emerita: [Julia Evans](https://twitter.com/b0rk) and
+emeritae: [Julia Evans](https://twitter.com/b0rk) and
 [Maggie Zhou](https://twitter.com/zmagg).  Logo design and additional
 web wrangling by [Lea Albaugh](http://twitter.com/doridoidea).
 
@@ -218,15 +224,35 @@ are required to observe.
 Thank you to our amazing sponsors for helping make !!Con possible!
 
 <div class="sponsor-list" markdown="0">
+    <h3>EXCELLENT!! Sponsors</h3>
+    <div class="sponsor"><a href="https://managedbyq.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="180" width="180"
+    alt="Managed By Q" src="images/sponsors/managedbyq.png" /></div></a></div>
     <h3>AWESOME! Sponsors</h3>
     <div class="sponsor"><a href="http://devbootcamp.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="37" width="220"
     alt="Dev Bootcamp" src="images/sponsors/devbootcamp-logo.png" /></div></a></div>
+    <div class="sponsor"><a href="http://stridenyc.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="120" width="103"
+    alt="Stride" src="images/sponsors/stride.jpg" /></div></a></div>
+    <div class="sponsor"><a href="https://meetup.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="116" width="150"
+    alt="Meetup" src="images/sponsors/meetup.png" /></div></a></div>
     <div class="sponsor"><a href="https://stripe.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="90" width="150"
     alt="Stripe" src="images/sponsors/stripe.png" /></div></a></div>
     <div class="sponsor"><a href="https://betterment.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="115" width="220"
     alt="Betterment" src="images/sponsors/betterment.jpeg" /></div></a></div>
     <div class="sponsor"><a href="https://soundcloud.com" target="_blank"><span class="magic">.</span><div class="logo"><img height="116" width="192"
     alt="Soundcloud" src="images/sponsors/soundcloud.png" /></div></a></div>
+
+    <h3>Individual Sponsors</h3>
+        <p>Thank you so much to our individual sponsors who contributed to making !!Con possible!</p>
+
+    <div id="individual-sponsors">
+        <a href="http://twitter.com/shovemedia">Jon Williams</a><br />
+        <a href="http://twitter.com/lastontheboat" target="_blank">Josh Matthews</a><br />
+        Igor<br />
+        <a href="http://www.ashedryden.com">Ashe Dryden</a><br />
+        Scott Vokes<br />
+        <a href="http://lars.hupel.info/">Lars Hupel</a><br />
+	...and <strong>7</strong> anonymous individual sponsors.
+    </div>
 </div>
 
 ## Sponsoring

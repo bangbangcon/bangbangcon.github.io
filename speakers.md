@@ -693,7 +693,7 @@ to use Logo and their ideas for the future.
 
 They were wrong: There's a lot more than twenty. Logo's successor,
 Scratch, has over thirteen million things that children and adults
-alike have built. Scratch is radically accessible in a way that puts
+alike have built. Scratch is radically approachable in a way that puts
 every other language to shame.
 
 This talk is about the history, present, and future of Scratch: why
