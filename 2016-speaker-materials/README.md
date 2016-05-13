@@ -9,8 +9,7 @@ This directory contains a growing collection of materials that accompany the 201
   * Valerie Aurora: [How I fixed UNIX atime! With 10 lines of code and feminism!!!](https://frameshiftconsulting.com/speaking/#filesystems)
   * Mark Allen: [values of β may give rise to dom!](https://speakerdeck.com/mrallen1/values-of-b-may-give-rise-to-dom)
   * Andreas Fuchs: [I'm not a number, I'm a free file descriptor!!1 (our protagonist promptly disappears down a wormhole)](https://github.com/antifuchs/bangbangcon-talk-2016)
-<<<<<<< HEAD
   * Jake Levine: [Sorting is as easy as 1,2,3 - But not as easy as A,B,C!!](https://docs.google.com/presentation/d/1W4W_Mwn3tc7b8ykipYO2O2_vCg5DOwwmjvcoZNkyQdo/edit?usp=sharing)
   * Colin Jones: [Finding out what's *really* going on, with DTrace!](https://speakerdeck.com/trptcolin/finding-out-whats-star-really-star-going-on-with-dtrace)
   * Mark Wunsch: [lol im so random!](https://speakerdeck.com/mwunsch/lol-im-so-random)
-
+  * Anjana Vakil: [They're functional! They're efficient!! They're persistent data structures!!!](https://slidr.io/vakila/persistent-data-structures)
