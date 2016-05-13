@@ -10,6 +10,7 @@ This directory contains a growing collection of materials that accompany the 201
   * Colin Jones: [Finding out what's *really* going on, with DTrace!](https://speakerdeck.com/trptcolin/finding-out-whats-star-really-star-going-on-with-dtrace)
   * Mariko Kosaka: [Ink on fingers! The history of printing (with code!)](http://kosamari.com/presentation/bangbangcon-2016/)
   * Jake Levine: [Sorting is as easy as 1,2,3 - But not as easy as A,B,C!!](https://docs.google.com/presentation/d/1W4W_Mwn3tc7b8ykipYO2O2_vCg5DOwwmjvcoZNkyQdo/edit?usp=sharing)
+  * Catt Small: [The Creative Programmer](http://www.slideshare.net/CattSmall/con-the-creative-programmer)
   * Anjana Vakil: [They're functional! They're efficient!! They're persistent data structures!!!](https://slidr.io/vakila/persistent-data-structures)
   * Mark Wunsch: [lol im so random!](https://speakerdeck.com/mwunsch/lol-im-so-random)
   * Your Name Here: [Your link here](http://example.com)
