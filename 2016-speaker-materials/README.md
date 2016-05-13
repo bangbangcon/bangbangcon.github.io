@@ -10,4 +10,4 @@ This directory contains a growing collection of materials that accompany the 201
   * Mark Allen: [values of β may give rise to dom!](https://speakerdeck.com/mrallen1/values-of-b-may-give-rise-to-dom)
   * Andreas Fuchs: [I'm not a number, I'm a free file descriptor!!1 (our protagonist promptly disappears down a wormhole)](https://github.com/antifuchs/bangbangcon-talk-2016)
   * Jake Levine: [Sorting is as easy as 1,2,3 - But not as easy as A,B,C!!](https://docs.google.com/presentation/d/1W4W_Mwn3tc7b8ykipYO2O2_vCg5DOwwmjvcoZNkyQdo/edit?usp=sharing)
-
+  * Anjana Vakil: [They're functional! They're efficient!! They're persistent data structures!!!](https://slidr.io/vakila/persistent-data-structures)
