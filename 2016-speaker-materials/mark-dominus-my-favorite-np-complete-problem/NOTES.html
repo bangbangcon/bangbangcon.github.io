@@ -1,0 +1,372 @@
+<p><meta http-equiv="Content-type" content="text/html;charset=UTF-8"></p>
+
+<h1>My Favorite NP-Complete Problem</h1>
+
+<p>I wrote this talk for <a href="http://bangbangcon.com/">!!Con 2016</a> and gave
+it on 16 May 2016.  It is based on <a href="http://blog.plover.com/CS/elmo.html">an earlier blog post on the same
+subject</a>.</p>
+
+<p>You could just <a href="slide001.html">look at the talk
+slides</a> but I think without
+the commentary they will be unintelligible.</p>
+
+<p><a href="http://stenoknight.com/">Mirabai Knight</a> produced a <a href="TRANSCRIPT.txt">transcript of
+what I actually said</a> in the talk, but I think you will
+probably prefer this version.</p>
+
+<h2><a href="slide001.html">Slide 1: title page</a></h2>
+
+<p>My kids graciously consented to listen to me give a practice version
+of the talk the night before !!Con, and the version I gave at the
+conference is much better than it would have been otherwise.  Thanks,
+kids.</p>
+
+<h2><a href="slide002.html">Slide 2: NP</a></h2>
+
+<p>There's this large class of problems called “NP”.  A problem is NP if,
+when someone hands you what they claim is a solution to the problem,
+you can efficiently decide that they are telling you the truth and it
+is actually a solution.</p>
+
+<p>Lots of problems are in this class.  A sort of silly example is
+sorting.  You have a list, you want to sort it, and someone comes up
+and hands you what they claim is a sorted version of the list.  There
+are a couple of ways to see if they are telling the truth.  You can
+compare the element of their list to make sure they match the elements
+of your list, then check to see if the elements of their list are in
+ascending order.  If both of those are true, then their list is a
+sorted version of yours.  And there's an ever easier way to check:
+sorting is easy, so just sort you own list and then check to see if
+the result matches what the other person gave you.  </p>
+
+<p>Well, that was a little silly, but it makes the point that if a
+problem is easy to solve, then it's easy to check to see if proposed
+solutions are correct, because you just solve the problem, and then
+look to see if it matches the proposal.</p>
+
+<p>But not every example is so silly, as we will shortly see.</p>
+
+<p>(What does “NP” stand for, anyway?  Something like <a href="https://en.wikipedia.org/wiki/NP_%28complexity%29">Nagorno-Karabakh
+Papadapoulos time</a>
+or some such nonsense.)</p>
+
+<h2><a href="slide003.html">Slide 3: NP</a></h2>
+
+<p>Some problems have solutions that are easy to verify even though they
+are very hard to solve.  For instance, everyone's least favorite
+problem, packing a moving van.  You have all your belongings out on
+the sidewalk, and an empty van, and the question: can I get all this
+stuff in the van?  And you might spend two hours trying to get it all
+in and then the van is full and there are seven things still on the
+sidewalk. But for all you know, if you hadn't made a mistake two hours
+ago, and put that one item in sideways instead of longways, it all
+might have gone in.  So it can be really hard to figure out how to
+pack the van, or even if there is a way to pack the van.</p>
+
+<p>But if someone comes to you, puts the stuff into the van and says
+“Look, it all went in!” then it's easy to check if they're telling the
+truth: just try to shut the door!  If it shuts, the van is packed!  So
+this problem is hard to solve, but still NP.</p>
+
+<p>Examples of this type abound.  Consider crossword puzzles.  It might
+take someone hours to figure out all the words, but if you hand them
+the crossword puzzle with the words already filled in, all they have
+to do is check to see if the words match the clues.</p>
+
+<p>Or consider conference scheduling, which I skipped over because !!Con
+has only one track and one room and so the problem is trivial in that
+case.  But in general there might be many tracks, many rooms, and you
+can't schedule two talks in the same room at overlapping times, or one
+speaker in different rooms at overlapping times, and so on.</p>
+
+<p>Or to consider a very general example, doing your homework.  It might
+take you hours to solve all the problems, but the grader can check in
+seconds whether you got the right answers.</p>
+
+<h2><a href="slide004.html">Slide 4: Cook</a></h2>
+
+<p>In 1971 a mathematician named
+<a href="https://en.wikipedia.org/wiki/Stephen_Cook">Cook</a> discovered that
+among these many NP problems, there is one super special one, called
+SAT.  “SAT” is short for “satisfiability”.  It is the problem where
+someone gives you a formula, with variables joined by ands, ors, and
+nots, and asks if there's a way to assign true and false values to the
+variables to make the whole formula true.</p>
+
+<p>It's easy to see this is in NP, because if someon comes and tells you
+“Oh, you can make the formula true if you make this variable true,
+that one true, this one false, that one true,” and so on, it's easy to
+check if that is a solution: just evaluate the formula and see if they
+are correct.</p>
+
+<p>But at least in principle it seems like it could be hard to tell what
+values to give to the variables, or if there even is a way.  You could
+try every possible assignment, but that would take a long time if
+there were a lot of them—exponentially long.  And in fact nobody knows
+a good algorithm to solve this problem that always works and doesn't
+take too long.</p>
+
+<p>But here's what's special about SAT.  If you <em>did</em> have a good
+algorithm for solving it, you could take you favorite NP problem, and
+NP problem at all, and convert the efficient SAT algorithm
+mechanically into an efficient algorithm for solving your other NP
+problem.  For this reason we say that SAT is “NP-complete”, because a
+solution for it would <em>completely</em> solve everything in NP.</p>
+
+<p>We sometimes say this makes SAT that “hardest problem in NP”.  Because
+while it's possible that you might have a good way to solve your
+favorite NP problem, but still not know how to solve SAT, it is
+impossible for the reverse to be true. So SAT is at least as hard as
+your favorite NP problem.</p>
+
+<p>(This was independently discovered around the same time by <a href="https://en.wikipedia.org/wiki/Leonid_Levin">Leonid
+Levin</a>.)</p>
+
+<h2><a href="slide005.html">Slide 5: Karp</a></h2>
+
+<p>The other thing that's interesting about this “NP-complete” concept is
+that SAT is not the only problem that is special in this way.  The
+following year a mathematician named <a href="https://en.wikipedia.org/wiki/Richard_Karp">Richard
+Karp</a> discovered that
+there are a whole bunch of them.  He gave a list of 21 NP-complete
+problems.</p>
+
+<p>One is SAT, one is “Hamiltonian Cycle”, which is the question of
+whether you can find a route that visits each city exactly once and
+returns to its starting point, and 19 others.</p>
+
+<p align=center><img src="hamiltonian.jpg"
+alt="A graph with ten dots labeled with names of various cities.  Some
+     pairs of dots are connected with straight lines, others are
+     unconnected.  It is not easy to see if the graph has a
+     Hamiltonian cycle.">
+</p>
+
+<p>A solution to any
+of these 21 NP-complete problems would solve every other problem in
+NP, including the other 20 NP-complete problems.  Most of these are
+well-studied problems, but still, nobody knows a good algorithm for
+any of them, because if they did, they would be able to turn it into
+good algorithms for all the others.</p>
+
+<p>Since Karp, people have discovered <em>hundreds</em> of these NP-complete
+problems, a huge family, including:</p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Traveling_salesman">TRAVELING SALESPERSON</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Knapsack_problem">KNAPSACK</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bin_packing">BIN PACKING</a></li>
+<li><a href="https://en.wikipedia.org/wiki/3-Colorability">MAP COLORING</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Integer_linear_programming">INTEGER LINEAR PROGRAMMING</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Partition_problem">LOOT SHARING</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Job_shop_scheduling">MACHINE SHOP SCHEDULING</a></li>
+<li>…</li>
+</ul>
+
+<p>Despite many years’ work on all these different problems nobody knows
+a good solution for any of them.  There are algorithms that work in
+special cases, algorithms that run quickly but sometimes return the
+wrong answer, algorithms always return the right answer but sometimes
+take a long while to run, but nothing that works every time without
+sometimes taking a long time.  Every known method for every one of
+these problems goes wrong in some way or another.</p>
+
+<h2><a href="slide006.html">Slide 6: Elmo</a></h2>
+
+<div><p align="center"><img src="elmo1.jpg" alt="Elmo is a monster muppet. Except for his globular orange nose he is entirely covered with shaggy, bright red fur.  He has four fingers on each hand, and a huge smile. In this picture he is standing with legs apart and arms outstretched."></p></div>
+
+<p>The guy in this picture is <a href="https://en.wikipedia.org/wiki/Elmo">Elmo</a>.
+He is a furry red monster, age around 3 years, and well-known because
+he has dominated <em>Sesame Street</em> since about 1998.  Toddlers love him.</p>
+
+<h2><a href="slide007.html">Slide 7: Toddler</a></h2>
+
+<p>Here for example is my own toddler, Katara, who is now 11 years old.
+Ms. Karara here was a very demanding kid.  Some kids, you can go off
+and leave them by alone for a while, and they will be content, amuse
+themselves, maybe put their feet in their mouths or whatever kids that
+old like to do.  Not Katara!  If you left her alone for thirty seconds
+she would make an <em>exceedingly unpleasant</em> noise until you came back.
+I, luckily, had a day job, so my wife was stuck at home listening to
+that noise. She would take care of Katara all morning, and then it
+would be time to make lunch, and she would have to leave the room to
+make lunch.</p>
+
+<div><p align=center><img src="saucer-looking-up.jpg"
+alt="A child, about 18 months old, with dark hair and eyes, is looking
+     into the camera and wearing a red and orange striped jumpsuit.
+     She is propped in a padded seat with a rainbow argyle pattern and
+     surrounded by a purple plastic ring.  Mounted on the ring are
+     about a dozen various brightly-colored plastic toys, including a
+     soft plush green frog on a flexible wand, a triangular mirror on
+     a yellow and blue mast, a clear spinning globe filled with
+     colored beads, and so forth."></p></div>
+
+<p>So she would prop up Katara in this purple device called an
+Exer-Saucer, in which she could revolve but not go anywhere.  And she
+ould park Katara in front of Sesame Street to watch <em>Elmo’s World</em>,
+which lasts 18 minutes.  And during that 18 minutes, while Katara was
+distracted, she could prepare and eat her lunch, without having to
+hear that noise.</p>
+
+<p>We learned that other parents refer to this device as a
+“Neglecto-Saucer”.</p>
+
+<h2><a href="slide008.html">Slide 8: Elmo is Everywhere</a></h2>
+
+<p>Katara was obsessed with Elmo, and we discovered that Elmo is
+everywhere.  We were going up the stairs and Katara gasped and pointed
+and said “IT’S ELMO!!” and we looked and this is what we saw:</p>
+
+<div><p align=center><img src="elmo-step.jpg" alt="The varnished wooden
+step of our house, with a wood grain pattern uncannily resembling the
+face of Elmo."></p></div>
+
+<h2><a href="slide009.html">Slide 9: Elmo's World</a></h2>
+
+<p>What is <em>Elmo’s World</em> about?  It's 18 minutes long and each episode
+is about some topic of interest to Elmo’s target audience, such as:</p>
+
+<table cellpadding="2pt" align=center>
+<tr><td style="color: #77e000;" align=center>Babies  <td style="color: #ff0080;" align=center>Drawing  <td style="color: #77e000;" align=center>Hands </tr>
+<tr><td style="color: #ff0080;" align=center>Bananas  <td style="color: #77e000;" align=center>Ears  <td style="color: #77e000;" align=center>Jackets </tr>
+<tr><td style="color: #77e000;" align=center>Baths  <td style="color: #6600cc;" align=center>Exercise  <td style="color: #ff00ff;" align=center>Lifeguards </tr>
+<tr><td style="color: #6600cc;" align=center>Bicycles  <td style="color: #ff0080;" align=center>Families  <td style="color: #ff0080;" align=center>Mail </tr>
+<tr><td style="color: #ff0080;" align=center>Birds  <td style="color: #6600cc;" align=center>Farms  <td style="color: #ff00ff;" align=center>Music </tr>
+<tr><td style="color: #ff00ff;" align=center>Birthdays  <td style="color: #77e000;" align=center>Feet  <td style="color: #ff0080;" align=center>Nurses </tr>
+<tr><td style="color: #77e000;" align=center>Books  <td style="color: #ff0080;" align=center>Firefighters  <td style="color: #ff0080;" align=center>Plants </tr>
+<tr><td style="color: #ff00ff;" align=center>Brushing Teeth  <td style="color: #ff0080;" align=center>Food  <td style="color: #ff00ff;" align=center>Singing </tr>
+<tr><td style="color: #ff0080;" align=center>Bugs  <td style="color: #6600cc;" align=center>Games  <td style="color: #ff0080;" align=center>Sleeping </tr>
+<tr><td style="color: #77e000;" align=center>Cats  <td style="color: #77e000;" align=center>Getting Dressed  <td style="color: #ff0080;" align=center>Water </tr>
+<tr><td style="color: #ff00ff;" align=center>Dancing  <td style="color: #ff0080;" align=center>Hair  <td style="color: #ff00ff;" align=center>Weather </tr>
+<tr><td style="color: #ff0080;" align=center>Dogs </tr>
+</table>
+
+<p>There are many others; this is only a typical sample.</p>
+
+<h2><a href="slide010.html">Slide 10: Elmo's World</a></h2>
+
+<p>You don't have to catch these live.  They were also distributed on
+videocasette, and later, on DVD, so that they could be delivered to
+Katara on demand.  Each video release contained three episodes, so
+totaled about an hour.  And as you can see on this slide, the video
+releases typically had some kind of theme, three episodes that were
+related somehow.  </p>
+
+<p>So for example, <em>Dancing, Music, &amp; Books</em>:</p>
+
+<div><p align="center"><img src="std-video1.jpg"
+     alt="Cover of an Elmo’s World video titled ‘Dancing, Music, & Books’">
+</p></div>
+
+<p>Or <em>Hands, Ears, &amp; Feet</em>:</p>
+
+<div><p align="center"><img src="std-video2.jpg"
+     alt="Cover of an Elmo’s World video titled ‘Elmo has Two! Hands, Ears, & Feet’">
+</p></div>
+
+<p>Sometimes the titles were a little more subtle, but there was always a
+theme.   This one is called <em>Wake Up with Elmo</em>, and it collects the
+three segments on sleeping, getting dressed, and brushing your teeth:</p>
+
+<div><p align="center"><img src="std-video3.jpg"
+     alt="Cover of an Elmo’s World video titled ‘Wake Up With Elmo’">
+</p></div>
+
+<p>This one, titled <em>People in Your Neighborhood</em>, is about firefighters,
+lifeguards, and nurses:</p>
+
+<div><p align="center"><img src="std-video4.jpg"
+     alt="Cover of an Elmo’s World video titled ‘People in Your
+     Neighborhood’">
+</p></div>
+
+<h2><a href="slide011.html">Slide 11: The Constellation</a></h2>
+
+<p>Here are those <em>Elmo’s World</em> topics I listed before.  Some groups of
+three, like  are considered acceptably related to qualify for a video
+release.  I've circled the four related groups we saw on the previous
+slide. </p>
+
+<p><img src="topics-2.png"
+     alt="The 34 topics from an earlier slide, with four related
+     groups circled with loops of different colors.  Group 1: Dancing,
+     Music, Books.  Group 2: Hands, Ears, Feet.  Group 3: Sleeping,
+     Getting Dressed, Bushing Teeth.  Group 4: Firefighters,
+     Lifeguards, Nurses.’"></p>
+
+<p>On the other hand, some possible selections of three are just too
+miscellaneous to be released together, say “Shoes, Bugs, &amp; Drawing”.
+That would be a no-no.</p>
+
+<h2><a href="slide012.html">Slide 12: The many acceptable groups</a></h2>
+
+<p>So now the question: Suppose you are designing the video releases.
+Some groups of three are acceptable, and some are not. How do you pick
+which groups of three to actually package together into a video
+release?  You can't do <em>every</em> acceptable group of three, because many
+of them overlap, and you mustn’t put the same segment on two different
+videos, or people will complain that they paid for two videos but only
+got five different segments.</p>
+
+<p><img src="topics-3.png"
+     alt="The 34 topics from an earlier slide, with many related
+     groups circled with loops of all different colors.  The four
+     groups from the previous illustration are still circled.  So are
+     Getting Dressed, Shoes, and Jackets; Birds, Cats, and Dogs;
+     Lifeguards, Baths, and Water; Food, Farms, and Plants; Food,
+     Plants, and Bananas; Books, Mail, and Drawing; Babies, Families,
+     and Birthdays; Birhdays, Singing, and Music; and so on."></p>
+
+<p>For example, if you decide to release “Getting Dressed” on the same
+video with “Brushing Teeth” and “Sleeping”—as they did—that forecloses
+the possibility of releasing it along with “Shoes” and “Jackets”.  You
+have to find some other theme or themes for the videos that include
+“Shoes” and “Jackets”.  Maybe you can put “Shoes” with “Feet” and
+“Dancing”.  But if you do that, you can’t put “Dancing” with “Music”
+and “Books”, and you can’t put “Feet” with “Hands” and “Ears”.  A
+choice in part part of the picture might have far-reaching effects on
+what you can do in a different part of the picture.  And of course you
+want to put every segment onto some video.</p>
+
+<h2><a href="slide013.html">Slide 13: X3C</a></h2>
+
+<p>Here we are at my favorite NP-complete problem.  It's one of the
+original 21 from Karp’s 1972 paper, called the <a href="https://en.wikipedia.org/wiki/Exact_cover">EXACT COVER BY
+3-SETS</a> problem.  I guess
+abbreviating this to “XC3” was not considered to be obscure enough,
+because computer science abbreviates it to “X3C”.</p>
+
+<p>Normally, at this point I would explain what the X3C problem is,
+except that I just did; that was it.  One of the canonical, original
+NP-complete problems from Karp’s 1972 paper is the problem of deciding
+which of the thematically related groups of three <em>Elmo's World</em>
+segments should be packaged into video releases, so that every segment
+is in exactly one release.</p>
+
+<p>Since the problem is NP-complete, nobody knows a good algorithm to
+solve it in general, not in 1972, or in 1998 when <em>Elmo’s World</em>
+began, or in 2007 when Katara was watching the show, and not today.  </p>
+
+<p>So how did the <em>Elmo’s World</em> people solve this problem?  They could
+not.</p>
+
+<div><p align=center><img src="video5.jpg" alt="Cover of an Elmo’s World
+     video DVD titled ‘Flowers, Bananas & More!’ The cover depicts
+     Elmo wearing a flower costume, including a ring of flower petals
+     around his head.  Below is a banana with a face, a bow tie, and a
+     pair of horn-rimmed spectacles.">
+</p></div>
+
+<p>The topic of this video is flowers, bananas, and … hair.</p>
+
+<h2><a href="slide014.html">Slide 14: Thanks!</a></h2>
+
+<p>Thank you very much.</p>
+
+<p align=center><img src="thankyou.png" alt="A cartoon of Elmo’s face,
+in a circle decorated with red and blue patterns, originally intended
+to be printed onto the thank-you cards for a child’s birthday party.
+At the top of the circle are the words “Thank you for coming to my
+party!”  At the bottom, in place of the recipient’s name, is “!!Con”">
+</p>                     

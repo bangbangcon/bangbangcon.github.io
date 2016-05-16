@@ -1,0 +1,314 @@
+
+Mark Dominus:
+>> Oh, it changed resolution on me! Something is not happening
+   here. We should have tested this earlier. Fortunately I've got the
+   slides on the portable storage. Let me adjust the resolution from
+   this end. Maybe it'll be happier. Fortunately... We've got 17
+   minutes. Yeah. I see the two monitors. Hang on a second. I've just
+   get to tell it to merge them or whatever it is, in a minute. I
+   don't remember how to do this. There's a button to push. Oh, this
+   is really... No. Wait. That's upside down. That's not it. No, but I
+   can adjust it to whatever seems to be... Uh-oh. I made a big
+   mistake here. Which is I turned off my monitor. And... Linux. Maybe
+   it'll... Oh, it came back! Hold on a sec. Please work, please work,
+   please work! You have a backup computer? I really wanna use this
+   one. This is so dumb of me... Okay. Let me try
+   something. Yeah. Give me your backup computer.
+
+Leo Franchi:
+>> Stay tuned. This talk is gonna be awesome. The real NP-complete
+   problem is projecting your slides.
+
+Mark Dominus:
+>> Monitor management under Linux. Let's see how this worked. Now what
+   do we do. There it is? Is the monitor working? I can't see.
+
+Leo Franchi:
+>> Woo!
+
+Mark Dominus:
+>> Yeah. That's lovely. Thanks. And now... I was gonna start by saying
+   that I had been looking forward to this all day, and then after
+   that last talk, I didn't wanna go at all, because it was so
+   good. And then all this stuff happened. And this morning, I
+   adjusted the slides so the folks in the back would be able to read
+   them, and now I don't have that adjustment anymore. I'm really
+   sorry. This is gonna suck.
+
+(laughter)
+
+>> And F11 doesn't work. This computer stuff is really
+   complicated. Fortunately, Leo told me I can go right up until
+   5:00. So if I can take a couple extra minutes, that's cool. All
+   right. Let's see. There we go. All right.
+
+   [Slide 2]
+
+   So there's this class of
+   problems called... NP. For which... What it means is that if
+   somebody hands you a solution to the problem... Everything cool?
+   Oh, okay. I could have just stepped back. All right. If somebody
+   hands you a solution to the problem or something that they claim is
+   a solution, you can fairly easily and efficiently decide whether
+   they're telling you the truth or not. And lots and lots of problems
+   are in this class. Kind of a dopey example is sorting. So... If
+   you're not doing the sorting itself, somebody comes along and
+   says... Here's the sorted version of the list that you're trying to
+   sort, you've got to try to make sure that the elements are the same
+   in both lists and then you check the one that the person gave you
+   and check that the elements are in ascending order. You can do that
+   efficiently. But there's an easier way. Since sorting is not hard
+   to do efficiently anyway, you'll learn maybe how to do it in
+   sophomore data structures class. You take the list that you're
+   handed and take the input list and sort the input list and compare
+   it to see if they're the same. So that was kind of silly. Problems
+   that are easy to solve necessarily are easy to check the solutions
+   to. You solve it and you see if what you got is the same
+   as... Right. And so... But there's more interesting NP problems,
+   which we'll see in a moment. Some people are probably
+   wondering... What does NP stand for? Why is it NP? NP stands for...
+
+(coughing unintelligibly)
+
+>> It's not important. Okay.
+
+   [Slide 3]
+
+   But... Not all problems are easy to
+   solve, like sorting. And it's quite possible that you have a
+   problem where it's hard to find a solution. But if somebody hands
+   you something they claim is a solution, it's easy to check whether
+   they're telling you the truth. And my favorite example of that
+   is... Oh, this is terrible. Is moving van loading. So you've got
+   all your stuff out on the sidewalk. And the question is: Does it
+   all fit into the van? And you start loading it in. And when you're
+   all done, there's seven things left on the sidewalk. And is that
+   because you have too much stuff and the van's not big enough, or is
+   it because you messed up somewhere back on item 15, and if you had
+   only put it in sideways, everything else would have gone in. So it
+   can be really hard to pack a moving van. Who's moved? But... But if
+   somebody comes to you, puts the stuff into the van, and says --
+   look, it's all packed! It fit! It's really easy to verify whether
+   they're telling the truth. You just shut the door. And if it shuts
+   all the way, oh my gosh, thank you! So there's a familiar example
+   of another NP problem. And let's see what else. Ugh. Now all the
+   text is too small. Cross word puzzles. Right? Could be really hard
+   to solve the crossword puzzle, but if somebody hands you one that's
+   already filled in, you just have to check if it matches the clue
+   and that the words line up. Conference scheduling. I'm not going to
+   go into that at length, because we've only got one room here. It's
+   kind of a trivial case. If you've ever done homework, you can toil
+   over the homework problems for hours and hours, but the grader can
+   check the answers in seconds, sometimes. So it's a lot easier to
+   check to see if you get the right answer than it is to come up with
+   the right answer. So there's a lot of these problems where it's
+   hard to find a solution but it's easy to check, if you're given
+   one. All right.
+
+   [Slide 4]
+
+   So of these NP problems, there's one that is super
+   special. Called SAT. Which is short for satisfiability. And the
+   problem is that somebody gives you a formula involving ands and ors
+   and nots and variables, and the question is: Is there a way to
+   assign True and False values to the variables so that the formula
+   comes out to be true? And it's clearly an NP, because if someone
+   said... Make this one true, this one true, that one false... You
+   can check by evaluating the formula to see if it came out to be
+   True to tell whether they were correctly telling you it was a
+   solution. But at least in principle it could be difficult to define
+   what values you assign to the variables. To make the formula
+   true. And there might not be any. You could, of course, try every
+   possible assignment. But that takes too long, if there's a lot of
+   variables. It takes exponential time. And in fact, nobody knows a
+   good algorithm for this problem that works in every case
+   efficiently. Now, here's the thing that's magical about this
+   problem. If you did have a good algorithm for solving it, you could
+   take any problem in NP, any NP problem whatsoever, and you could
+   take your algorithm for SAT, and you could convert it into an
+   efficient algorithm for solving whatever your favorite NP problem
+   is. So solving this one SAT problem, finding an efficient algorithm
+   for it, would solve every other problem in NP. So for this reason,
+   we say that the SAT problem is NP-complete. A solution for SAT
+   would completely solve NP. Another thing we sometimes say is
+   that... SAT is the hardest problem in NP. Because it's possible
+   that you might have a good algorithm to solve your favorite
+   problem, but not be able to solve NP. But it is not possible to
+   have the reverse. And SAT is at least as hard as whatever your
+   favorite problem is. And this discovery was independently by Cook
+   and Levin. Levin was in Russia, so he didn't hear about Cook. And
+   he solved it around the sametime but didn't publish. I don't know
+   why I'm telling you this. It's not important.
+
+   [Slide 5]
+
+   Who's that? The other thing that's interesting about this
+   NP-complete is it turns out not just SAT is NP-complete. There turn
+   out to be a large family of NP-complete problems. And this
+   mathematician named Karp discovered the following year there are a
+   whole bunch of them. And he gave a list of 21NP-complete
+   problems. One is SAT, one is Hamiltonian cycle. Which is -- can you
+   find a path that hits all the cities and returns to its starting
+   point but doesn't touch any of the cities more than once? And then
+   19 others of various interest. And so these things actually turn
+   out to be common, and a solution to any one of them, an efficient
+   algorithm to solve any one of these 21 problems, would completely
+   solve NP, and therefore would solve the other 20. They're all very
+   well studied problems, and still, nobody knows a good algorithm for
+   any of them. Because if they did, they would know a good algorithm
+   for all of them. It's kind of surprising. Since then, people have
+   discovered hundreds of NP-complete problems. There's a huge, huge
+   family of these things, and we can't solve any of these. We can
+   solve them in special cases, we can find almost optimal solutions,
+   we have algorithms that are really good, except for a few weird
+   examples where they blow up. But everything goes wrong
+   somehow. Which is kind of weird. All right. So my favorite one of
+   these... We have to have a little digression now. Hey, Leo, how
+   much time have I got?
+
+Leo Franchi:
+>> Five minutes.
+
+   [Slide 6]
+
+Mark Dominus:
+>> Awesome! This little guy here is Elmo. Who knows Elmo?
+   Okay. Because Elmo has dominated Sesame Street for, like, the last
+   30 years. If you're old and bald like me, you can remember a time
+   before Elmo. And...
+
+(sighing)
+
+Uh... Um... So this is Elmo. Who is beloved of toddlers. And... Wait a
+minute. Where did my... Uh-uh.
+
+   [Slide 7]
+
+Here we go. This is my toddler. She's
+now 11. She was a very demanding kid. Some kids you can just leave
+them and then you come back later. They've amused themselves. They
+were like... Put their foot in their mouth or whatever kids do. She
+would... If you left the room for 30 seconds, she would make this
+noise that is... Is optimized over millions of years of evolution to
+be the most unpleasant possible sound. And since I had a day job, my
+wife was left doing this, and she would, like, take care of the kid
+all day, and then she would have to eat lunch, and she couldn't eat
+lunch. So she would take this... This is Iris. She would take Iris and
+prop her up in this device you see, which supports the kid, and it's
+got a bunch of entertaining things. The kid can resolve but can't
+actually go anywhere. And would park her in front of Sesame Street to
+watch Elmo's World, which lasts 20 minutes, and she would be able to
+make lunch and eat it. And that was her 20 minutes away from the
+kid. This thing... I found out... Is called a Neglect-O-Saucer. Iris
+was obsessed with Elmo, and it turns out Elmo is everywhere, and we
+were going up the stairs once, for example, and Iris is like... Aggh!
+That's Elmo.
+
+   [Slide 8]
+
+And this is what she saw on the stairs. All right.
+
+   [Slide 9]
+
+So what is Elmo's World about? It's 20 minutes long, as I said, and
+every 20 minute segment is about some topic that's of interest to
+toddlers. Such as... Can you folks in the back actually see this list?
+Or should I read it aloud?
+
+Lindsey Kuper:
+>> Read it. Read some of it.
+
+Mark Dominus:
+>> Read some of it. Babies, bananas, baths, cycles, birds, birthdays,
+   books, brushing teeth, bugs, cats, dancing, dogs...
+
+Lindsey Kuper:
+>> Okay, that's good.
+
+Mark Dominus:
+>> Good. Yeah. So this is a typical... This is not by any means the
+   complete list. But... It's a good sample. All right.
+
+   [Slide 10]
+
+   You don't have
+   to catch these live. They also distribute them on... It used to be
+   video cassette. Now of course it's DVD. And since they want the
+   video cassettes and the DVDs to be uniform length, I guess an hour,
+   they would parcel these out in groups of three. Three episodes per
+   video release. So, for example... And we of course owned many of
+   these, so they could be delivered to Iris on demand... They always
+   have three. So here we see... This one is Dancing, Music, and
+   Books. That's the title of the video release. Here's one called
+   Hands, Ears, and Feet. Each one has a common theme. They go
+   together. Sometimes they have a different title. Like this one is
+   Wake Up with Elmo, but it packages sleeping, getting dressed, and
+   brushing your teeth, and this is people in your neighborhood. It's
+   Firefighters, Lifeguards, and Nurses. You don't have to keep
+   telling me. I'm gonna finish on time. In fact, I could digress at
+   this point.
+
+   [Slide 11]
+
+   So here's the constellation of Elmo's World segments. A
+   small fraction of them. And I've circled the related groups. Right?
+   So some of these are related. Some aren't. If you put together a
+   video release called... On Shoes, Bugs, and Drawing, people would
+   be puzzled, and that apparently is considered a no-no. So you've
+   got the question... If you're designing these video releases, how
+   do you pick the groups of three? And it should be clear there are
+   some constraints on this. You can't put the same segment onto two
+   different video releases. Because then the person who pays for it
+   is gonna say... Hey, I got cheated. I paid for three but I've
+   already got this one. And similarly, you've got a certain number of
+   segments. You would like to include every one of them on some video
+   release. So the question is... You have a bunch of
+   groupings... Which I'm gonna show you. Let's say... 
+
+   [Slide 12]
+
+   Here's a
+   hypothetical collection of acceptable groupings. And each
+   acceptable group of three is now surrounded by a colored wiggly
+   line. And you wanna say... Okay. I wanna pick the groups of three
+   that make the acceptable video releases. But... No two groups of
+   three can overlap, because that would put the same segment on two
+   different videos, and we have to include all of them. So there's a
+   kind of a weird interplay of constraints here. Because if I decide
+   to put the getting dressed in with shoes and jackets, that
+   forecloses the possibility of doing getting dressed, brushing
+   teeth, sleeping. Right? And so I can pick some of these, but they
+   have to not overlap. And they have to somehow hit everything. And
+   where are we going with this? I know Leo is getting
+   nervous. So...
+
+   [Slide 13]
+
+   My favorite NP-complete problem is this one from Karp, from 1972,
+   the original paper that identified these 21 problems
+   called... Exact cover by 3-sets. Which... The computer science
+   people call X3C. Because XC3 would have been too obvious. X3C. And
+   at this point I would stop and I would explain in detail what X3C
+   is. Except I did. It's that. Exactly. And there isn't anything else
+   to say about it. So... One of the canonical original NP-complete
+   problems from Richard Karp's paper from 1972 is the problem of how
+   to plan Elmo's World video releases. And since it's NP-complete,
+   there's no known good algorithm for it, not in 1972 and not 30
+   years ago, and not today. So how did they solve this problem? And
+   the answer is...
+
+   [Slide 14]
+
+   They couldn't. They couldn't.
+
+(applause)
+
+Because... This one is about flowers... Bananas... And hair.
+
+(laughter)
+
+   [Slide 15]
+
+>> Thank you very much.
+
+(applause)
