@@ -9,18 +9,12 @@ title: !!Con
     &middot; <a href="program.html">Program</a>
     &middot; <a href="speakers.html">Speakers</a>
     &middot; <a href="conduct.html">Conduct</a>
-    &middot; <a href="sponsors.html">Sponsorship</a>
-    &middot; <a href=" http://confreaks.tv/live/bangbangcon2016">Livestream</a>
 </p>
 
-**!!Con** (pronounced "bang bang con") **2016** is **two days of
+**!!Con** (pronounced "bang bang con") **2016** was **two days of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
-joyous, exciting, and surprising moments in programming.
-
-!!Con will be <a href="http://confreaks.tv/live/bangbangcon2016">streamed live</a>,
-and recordings will be made available after the con.
-
-Check out our [speaker lineup](speakers.html)!
+joyous, exciting, and surprising moments in programming. Check out our
+[speaker lineup](speakers.html)!
 
 <a name="speaking" id="speaking"></a>
 
@@ -131,12 +125,12 @@ Check out our [speaker lineup](speakers.html)!
 <img src="images/2016-venue.jpg" style="border:1px solid #999; margin: 0px 0px 10px 24px;" alt="Our 2016 venue: The Hall at MP in Brooklyn, NYC" />
 </div>
 
-!!Con 2016 will be held on Saturday, May 7 and Sunday, May 8, 2016 at
+!!Con 2016 was held on Saturday, May 7 and Sunday, May 8, 2016 at
 <a href="http://thehallbrooklyn.com/">the Hall at MP</a> in Brooklyn,
 NYC.  Check out our
 [venue and accessibility information](venue-accessibility.html)!
 
-!!Con is *pay-what-you-want*.  [Registration](https://www.eventbrite.com/e/con-2016-tickets-24695082657) is now closed.
+!!Con 2016 was *pay-what-you-want*.  [Registration](https://www.eventbrite.com/e/con-2016-tickets-24695082657) is now closed.
 
 <a name="testimonials" id="testimonials"></a>
 
@@ -170,7 +164,7 @@ This is what last year's speakers and attendees had to say:
 > "I want every day to be @bangbangcon, **best conference ever**" --
 > [@ablwr](https://twitter.com/ablwr/status/599727141660524546)
 
-We think !!Con 2016 will be at least as good!
+We hope !!Con 2016 was at least as good!
 
 ## How do I get updates?
 
@@ -199,7 +193,7 @@ for our mailing list below! No spam, we promise!
 
 <a name="organizers"></a>
 
-## Who's organizing all this?
+## Who organized all this?
 
 The !!Con 2016 organizing team:
 [Alex Clemmer](https://twitter.com/hausdorff_space),
@@ -214,8 +208,8 @@ web wrangling by [Lea Albaugh](http://twitter.com/doridoidea).
 
 ## Code of Conduct
 
-We have a [code of conduct](conduct.html) that all !!Con participants
-are required to observe.
+We had a [code of conduct](conduct.html) that all !!Con participants
+were required to observe.
 
 <a name="sponsors"></a>
 
@@ -255,9 +249,4 @@ Thank you to our amazing sponsors for helping make !!Con possible!
     </div>
 </div>
 
-## Sponsoring
-
-Interested in sponsoring !!Con? Read about our sponsor opportunities
-on our [sponsorship page](sponsors.html), or get in touch with
-[Leo](mailto:lfranchi@gmail.com) for more information.
-
+Our [sponsorship page](sponsors.html) shows the benefits that were available to sponsors!
