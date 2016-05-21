@@ -6,7 +6,7 @@ This directory contains a growing collection of materials that accompany the 201
 
   * Mark Allen: [values of β may give rise to dom!](https://speakerdeck.com/mrallen1/values-of-b-may-give-rise-to-dom)
   * Valerie Aurora: [How I fixed UNIX atime! With 10 lines of code and feminism!!!](https://frameshiftconsulting.com/speaking/#filesystems)
-  * Mark Dominus: [My Favorite NP-Complete Problem](https://perl.plover.com/yak/Elmo/)
+  * Mark Dominus: [My Favorite NP-Complete Problem](http://perl.plover.com/yak/Elmo/)
   * Andreas Fuchs: [I'm not a number, I'm a free file descriptor!!1 (our protagonist promptly disappears down a wormhole)](https://github.com/antifuchs/bangbangcon-talk-2016)
   * Colin Jones: [Finding out what's *really* going on, with DTrace!](https://speakerdeck.com/trptcolin/finding-out-whats-star-really-star-going-on-with-dtrace)
   * Mariko Kosaka: [Ink on fingers! The history of printing (with code!)](http://kosamari.com/presentation/bangbangcon-2016/)
