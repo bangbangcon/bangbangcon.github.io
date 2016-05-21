@@ -8,6 +8,7 @@ This directory contains a growing collection of materials that accompany the 201
   * Katie Bechtold: [Code in Spaaaaaace!](katie-bechtold-code-in-spaaaaaace)
   * Mark Dominus: [My Favorite NP-Complete Problem!](mark-dominus-my-favorite-np-complete-problem)
   * Andreas Fuchs: [I'm not a number, I'm a free file descriptor!!1 (our protagonist promptly disappears down a wormhole)](andreas-fuchs-i-am-not-a-number-i-am-a-free-file-descriptor)
+  * Rob Jefferson: [What Economists Can Learn from Programmers (and Vice Versa)!](rob-jefferson-economists-and-programmers)
   * Colin Jones: [Finding out what's *really* going on, with DTrace!](colin-jones-finding-out-whats-really-going-on-with-dtrace)
   * Ramsey Nasser: [The Unfortunate Value of Failure](ramsey-nasser-the-unfortunate-value-of-failure)
 
