@@ -2,7 +2,16 @@
 
 This directory contains a growing collection of materials that accompany the 2016 !!Con talks, be they slides, code, pre-written talk text (which may differ from the live transcription), audio recordings, or anything that the speakers want to share.
 
-## Links to speakers' slides hosted elsewhere, blog posts, repos, etc.
+## In this repo
+
+  * Mark Allen: [values of β may give rise to dom!](mark-allen-values-of-beeta-may-give-rise-to-dom)
+  * Katie Bechtold: [Code in Spaaaaaace!](katie-bechtold-code-in-spaaaaaace)
+  * Mark Dominus: [My Favorite NP-Complete Problem!](mark-dominus-my-favorite-np-complete-problem)
+  * Andreas Fuchs: [I'm not a number, I'm a free file descriptor!!1 (our protagonist promptly disappears down a wormhole)](andreas-fuchs-i-am-not-a-number-i-am-a-free-file-descriptor)
+  * Colin Jones: [Finding out what's *really* going on, with DTrace!](colin-jones-finding-out-whats-really-going-on-with-dtrace)
+  * Ramsey Nasser: [The Unfortunate Value of Failure](ramsey-nasser-the-unfortunate-value-of-failure)
+
+## Hosted elsewhere
 
   * Mark Allen: [values of β may give rise to dom!](https://speakerdeck.com/mrallen1/values-of-b-may-give-rise-to-dom)
   * Valerie Aurora: [How I fixed UNIX atime! With 10 lines of code and feminism!!!](https://frameshiftconsulting.com/speaking/#filesystems)
