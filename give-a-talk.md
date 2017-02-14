@@ -12,9 +12,10 @@ much to everyone who submitted a proposal!
 	  
   * <s>February 21: CFP opens.</s>
   * <s>March 18: CFP submission deadline.</s>
-  * <s>April 4</s> April 7: Notification of talk acceptance.
-  * <s>April 11</s> April 14: Deadline for speakers to confirm
-    their participation.
+  * <span style="text-decoration:line-through;">April 4</span> April
+    7: Notification of talk acceptance.
+  * <span style="text-decoration:line-through;">April 11</span> April
+    14: Deadline for speakers to confirm their participation.
   * April 16: Conference registration opens.
   * April 16: Public announcement of speakers.
   * TBD: Public announcement of detailed schedule.
