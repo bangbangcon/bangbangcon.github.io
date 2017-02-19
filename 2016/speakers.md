@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-2016
 title: Speakers - !!Con
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-2016
 title: Code of Conduct - !!Con
 ---
 
