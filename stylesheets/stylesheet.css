@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.3;
+}
+
+a {
+  color: #444444;
+}
+
+a:hover {
+  color: #777777;
+}
+
+hr {
+    color: #000000; 
+    border-style: solid;
+    margin: 2em 0 3em;
+}
+
+.header {
+    margin: 0;
+    padding: 0px 0px 50px 0px;
+    color: white;
+    text-align: center;
+    font-family: "Patua One", serif;
+    background: #000000;
+    line-height: 1;
+
+}
+
+
+#container {
+    background-color: white;
+}
+
+.header h1 {
+    font-family: "Patua One", serif;
+    font-size: 400%;
+    margin: 0;
+    padding: 0;
+}
+
+.header p {
+    font-size: 190%;
+    margin: 0;
+    padding: 0.25em;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header img {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.inner {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 4em;
+}
+
+h1 {
+    font-family: "Patua One", serif;
+    font-size: 250%;
+}
+
+h2 {
+    font-family: "Patua One", serif;
+    font-size: 220%;
+    margin-bottom: 0em;
+    line-height: 1;
+}
+
+h3 {
+    font-family: "Patua One", serif;
+    font-size: 180%;
+    margin-bottom: 0em;
+    line-height: 1;
+}
+
+h4 {
+    font-family: "Patua One", serif;
+    font-size: 120%;
+    margin-bottom: 0em;
+    line-height: 1;
+}
+
+p, ul {
+    font-size: 120%;
+    margin-top: 0.5em;
+}
+
+.speaker-img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+#program h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/* Homepage speaker pictures */
+.speaker-pics {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.speaker-pics div {
+    display: inline-block;
+}
+
+.speaker-pics img {
+  border: 1px solid #000000;
+  background-color: #000000;
+}
+
+.speaker-pics a {
+  border: none;
+}
+
+#mc_embed_signup {
+    font-size: 120%;
+    text-align:center;
+    position: relative;
+    top: -1em;
+}
+
+/* Sponsors listing */
+
+.sponsor-list {
+    text-align: center;
+}
+
+.sponsor-list h3 {
+    margin: 0.5em 0;
+}
+
+.sponsor-list > hr {
+    width: 70%;
+    margin: 1em auto;
+    margin-bottom: 1.5em;
+}
+
+.sponsor {
+    display: inline-table;
+    position: relative;
+    top: -1em;
+}
+
+.sponsor .logo {
+    height: 6em;
+    padding: 1em;
+    margin: 2px 2px;
+    margin-top: -1em;
+    border: 1px solid #000000;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sponsor .magic {
+    visibility: hidden;
+    height: 0px;
+}
+
+.sponsor img {
+    /* max-width: 13em; */
+    /* max-height: 5em; */
+    /*outline: 1px red solid;*/
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    /*http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/*/
+}
+
+#individual-sponsors {
+    font-size: 1.4em;
+}
+
+footer {
+    margin: 0;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-family: "Patua One", sans-serif;
+    background: #000000;
+}
+
+footer p {
+    font-size: 120%;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #cccccc;
+}
+
+
+@media (max-width: 650px) {
+    .header span {
+        display:block;
+        padding: 0px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 95%;
+    }
+    .inner {
+        padding: 2em 3em;
+    }
+    .speaker-img {
+        text-align: center;
+        float: none;
+        margin: 0 auto ;
+    }
+}
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.scheduletable table {
+    margin-top: 1em;
+    width: 100%;
+    border-width: 1px;
+    border-color: #000000;
+    border-collapse: collapse;
+    font-size: 150%;
+}
+
+.scheduletable th {
+    background-color: #000000;
+    color: white;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #000000;
+    text-align: left;
+}
+
+.scheduletable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #000000;
+    text-align: left;
+}
+
+.scheduletable tr:hover {
+    background-color: #ffffff;
+}
+
+.scheduletable ul {
+    font-size: 100%;
+    margin: 0;
+}
