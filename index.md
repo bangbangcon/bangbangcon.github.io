@@ -49,6 +49,10 @@ Here's what some of our 2016 speakers and attendees said about us:
 > you are **making a huge mistake**" --
 > [@tdenkinger](https://twitter.com/tdenkinger/status/729554572843323392)
 
+> "This weekend #bangbangcon showed me **a world I want to live in all
+> the time**" --
+> [@nathanstilwell](https://twitter.com/nathanstilwell/status/729442220156276741)
+
 > "**If I never went to another tech conference, this would be the one
 > to have ended on**"
 > -- [@aredridel](https://twitter.com/aredridel/status/729460621775867904)
@@ -59,10 +63,6 @@ Here's what some of our 2016 speakers and attendees said about us:
 > "#bangbangcon was **utterly amazing**, to the point that i have not
 > tweeted about it because how do you fit that into a tweet" --
 > [@jackmakesthings](https://twitter.com/jackmakesthings/status/729694660407504897)
-
-> "This weekend #bangbangcon showed me **a world I want to live in all
-> the time**" --
-> [@nathanstilwell](https://twitter.com/nathanstilwell/status/729442220156276741)
 -->
 
 With your help, we plan to make !!Con 2017 at least as good!
