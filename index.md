@@ -34,6 +34,9 @@ speakers.
 
 Here's what some of our 2016 speakers and attendees said about us:
 
+> "**a non-stop barrage of AWESOME talks!**" --
+> [@AnjanaVakil](https://twitter.com/AnjanaVakil/status/729061608140509185)
+
 > "**one of the most diverse and engaged tech communities** I've ever
 > encountered" --
 > [@enjenneer](https://twitter.com/enjenneer/status/729866321001844737)
@@ -52,16 +55,13 @@ Here's what some of our 2016 speakers and attendees said about us:
 
 <!-- TODO: make sure it's OK to use these! -->
 
-> "**a non-stop barrage of AWESOME talks!**" --
-> [@AnjanaVakil](https://twitter.com/AnjanaVakil/status/729061608140509185)
-
 > "#bangbangcon was **utterly amazing**, to the point that i have not
 > tweeted about it because how do you fit that into a tweet" --
 > [@jackmakesthings](https://twitter.com/jackmakesthings/status/729694660407504897)
 
 > "This weekend #bangbangcon showed me **a world I want to live in all
 > the time**" --
-> [@nathanstil well](https://twitter.com/nathanstilwell/status/729442220156276741)
+> [@nathanstilwell](https://twitter.com/nathanstilwell/status/729442220156276741)
 
 We plan to make !!Con 2017 at least as good!
 
