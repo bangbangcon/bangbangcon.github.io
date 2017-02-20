@@ -240,6 +240,10 @@ footer a:hover {
         display:block;
         padding: 0px;
     }
+
+    .header {
+        height: auto;
+    }
 }
 
 @media (max-width: 500px) {
