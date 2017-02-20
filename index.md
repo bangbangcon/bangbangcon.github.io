@@ -26,7 +26,7 @@ speakers.
 ## How much does it cost?  Where do I register?
 
 !!Con is a *pay-what-you-want* conference.  Stay tuned for
-  registration information?
+  registration information!
 
 <a name="testimonials" id="testimonials"></a>
 
