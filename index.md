@@ -30,7 +30,7 @@ speakers.
 
 <a name="testimonials" id="testimonials"></a>
 
-## Why go to !!Con?
+## What's so great about !!Con?
 
 Here's what some of our 2016 speakers and attendees said about us:
 
@@ -55,6 +55,7 @@ Here's what some of our 2016 speakers and attendees said about us:
 
 <!-- TODO: make sure it's OK to use these! -->
 
+<!--
 > "#bangbangcon was **utterly amazing**, to the point that i have not
 > tweeted about it because how do you fit that into a tweet" --
 > [@jackmakesthings](https://twitter.com/jackmakesthings/status/729694660407504897)
@@ -62,8 +63,9 @@ Here's what some of our 2016 speakers and attendees said about us:
 > "This weekend #bangbangcon showed me **a world I want to live in all
 > the time**" --
 > [@nathanstilwell](https://twitter.com/nathanstilwell/status/729442220156276741)
+-->
 
-We plan to make !!Con 2017 at least as good!
+With your help, we plan to make !!Con 2017 at least as good!
 
 ## How do I get updates?
 
