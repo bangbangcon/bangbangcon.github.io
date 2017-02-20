@@ -243,6 +243,7 @@ footer a:hover {
 
     .header {
         height: auto;
+        padding-bottom: 25px;
     }
 }
 
