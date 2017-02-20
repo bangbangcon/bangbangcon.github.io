@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: #777777;
+  color: #666666;
 }
 
 hr {
@@ -49,14 +49,12 @@ hr {
 }
 
 .header h1 {
-    font-family: "Patua One", serif;
     font-size: 500%;
     margin: 0;
     padding: 10px 0 0 0;
 }
 
 .header h2 {
-    font-family: "Patua One", serif;
     font-size: 240%;
     margin: 0;
     padding: 0;
@@ -82,7 +80,11 @@ hr {
     background: #f5f5dc;
     max-width: 850px;
     margin: 0 auto;
-    padding: 10px 50px 50px 50px;
+    padding: 50px;
+}
+
+#blurb {
+    font-size: 150%;
 }
 
 h1 {
@@ -93,7 +95,7 @@ h1 {
 h2 {
     font-family: "Patua One", serif;
     font-size: 220%;
-    margin-bottom: 0em;
+    margin: 0em;
     line-height: 1;
 }
 
@@ -131,7 +133,15 @@ p, ul {
     margin-bottom: 2em;
 }
 
+#mc_embed_signup {
+    font-size: 100%;
+    text-align:center;
+    position: relative;
+    top: -1em;
+}
+
 /* Homepage speaker pictures */
+
 .speaker-pics {
     max-width: 850px;
     margin: 0 auto;
@@ -149,13 +159,6 @@ p, ul {
 
 .speaker-pics a {
   border: none;
-}
-
-#mc_embed_signup {
-    font-size: 120%;
-    text-align:center;
-    position: relative;
-    top: -1em;
 }
 
 /* Sponsors listing */
@@ -237,7 +240,6 @@ footer a:hover {
         display:block;
         padding: 0px;
     }
-
 }
 
 @media (max-width: 500px) {
