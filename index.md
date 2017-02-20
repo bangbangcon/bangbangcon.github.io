@@ -3,64 +3,67 @@ layout: default-2017
 title: The joy, excitement, and surprise of computing - !!Con 2017
 ---
 
-**!!Con** (pronounced "bang bang con") is **two days of ten-minute
-talks** (with lots of breaks, of course!) to celebrate the joyous,
-exciting, and surprising moments in computing.
+<p id="blurb">**!!Con** (pronounced "bang bang con") is **two days of
+ten-minute talks** (with lots of breaks, of course!) to celebrate the
+joyous, exciting, and surprising moments in computing.  Join us for
+our **fourth year** in 2017!</p>
 
 <a name="speaking" id="speaking"></a>
 
 ## Who's speaking?
 
-Maybe you!  Submit your [talk proposal](give-a-talk.html) today!
-Plus, stay tuned for an announcement of our amazing keynote speakers.
+Maybe you!  Our [call for talk proposals](give-a-talk.html) will open
+soon!  Plus, stay tuned for an announcement of our amazing keynote
+speakers.
 
 <a name="where" id="where"></a>
 
 ## Where and when?
 
-!!Con will be in NYC on the weekend of May 6-7.  Stay tuned for our
-  venue announcement!
+!!Con will be in NYC on the weekend of May 6-7, 2017.  Stay tuned for
+  our venue announcement!
 
 ## How much does it cost?  Where do I register?
 
 !!Con is a *pay-what-you-want* conference.  Stay tuned for
-  registration to open!
+  registration information?
 
 <a name="testimonials" id="testimonials"></a>
 
 ## Why go to !!Con?
 
-Here's what some of our past speakers and attendees had to say:
+Here's what some of our 2016 speakers and attendees said about us:
 
-<!-- TODO: update with new testimonials from 2016! -->
+> "**one of the most diverse and engaged tech communities** I've ever
+> encountered" --
+> [@enjenneer](https://twitter.com/enjenneer/status/729866321001844737)
 
-> "@bangbangcon was so **consistently delightful and awesome the
-> entire weekend through**, for the second year in a row." --
-> [@gredaline](https://twitter.com/gredaline/status/600314795951284224)
+> "What an **amazing, delightful, intellectually stimulating, and
+> simply joyous** conference!" --
+> [@techstepper](https://twitter.com/techstepper/status/729503996730347520)
 
-> "@bangbangcon is **by far the coolest conference I've been to**" --
-> [@bcjbcjbcj](https://twitter.com/bcjbcjbcj/status/600050898837086208)
+> "**if you are not making plans to attend** next year's @bangbangcon,
+> you are **making a huge mistake**" --
+> [@tdenkinger](https://twitter.com/tdenkinger/status/729554572843323392)
 
-> "I had a wonderful time at @bangbangcon! Such **welcoming people
-> doing fun and fascinating work**." --
-> [@Bruce_Adams](https://twitter.com/Bruce_Adams/status/600112896010387456)
+> "**If I never went to another tech conference, this would be the one
+> to have ended on**"
+> -- [@aredridel](https://twitter.com/aredridel/status/729460621775867904)
 
-> "**one of the finest events I've had the honor to be part of**" --
-> [@shovemedia](https://twitter.com/shovemedia/status/600066059345985537)
+<!-- TODO: make sure it's OK to use these! -->
 
-> "Had the BEST weekend @bangbangcon! **I now want to build and write
-> and make ALL THE THINGS!!**" --
-> [@kiranb](https://twitter.com/kiranb/status/600129399762100226)
+> "**a non-stop barrage of AWESOME talks!**" --
+> [@AnjanaVakil](https://twitter.com/AnjanaVakil/status/729061608140509185)
 
-> "I have had **an incredible weekend**, again, full of wonderful,
-> kind people and fascinating things learned. Thank you so much,
-> @bangbangcon!" --
-> [@jczetta](https://twitter.com/jczetta/status/600148410650472448)
+> "#bangbangcon was **utterly amazing**, to the point that i have not
+> tweeted about it because how do you fit that into a tweet" --
+> [@jackmakesthings](https://twitter.com/jackmakesthings/status/729694660407504897)
 
-> "I want every day to be @bangbangcon, **best conference ever**" --
-> [@ablwr](https://twitter.com/ablwr/status/599727141660524546)
+> "This weekend #bangbangcon showed me **a world I want to live in all
+> the time**" --
+> [@nathanstil well](https://twitter.com/nathanstilwell/status/729442220156276741)
 
-We hope !!Con 2017 will be at least as good!
+We plan to make !!Con 2017 at least as good!
 
 ## How do I get updates?
 
@@ -96,12 +99,12 @@ The !!Con 2017 organizing team:
 [Erty Seidohl](https://twitter.com/ertyseidohl),
 [Julia Evans](https://twitter.com/b0rk),
 [Kiran Bhattaram](https://twitter.com/kiranbot),
-[Leo Franchi](https://twitter.com/lfranchi),
 [Lindsey Kuper](https://twitter.com/lindsey), and
 [Nabil Hassein](https://twitter.com/NabilHassein).  Organizers
-emeriti: [Alex Clemmer](https://twitter.com/hausdorff_space) and
-[Maggie Zhou](https://twitter.com/zmagg).  Logo design and additional
-web wrangling by [Lea Albaugh](http://twitter.com/doridoidea).
+emeriti: [Alex Clemmer](https://twitter.com/hausdorff_space),
+[Leo Franchi](https://twitter.com/lfranchi), and
+[Maggie Zhou](https://twitter.com/zmagg).  Logo design by
+[Lea Albaugh](http://twitter.com/doridoidea).
 
 <a name="sponsors"></a>
 

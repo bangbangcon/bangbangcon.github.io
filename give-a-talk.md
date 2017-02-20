@@ -9,6 +9,8 @@ Hi! !!Con is back for our **fourth year** of celebrating the joy,
 excitement, and surprise of computing, and we want **you** to submit a
 talk proposal.
 
+**Stay tuned -- our call for proposals will open soon!**
+
 Over the [last](2016/) [three](2015/) [years](2014/), !!Con talks have
 featured everything from poetry generation to Pokémon; from machine
 knitting to electroencephalography; from quantum computing to old DOS
@@ -46,13 +48,12 @@ accept as many of your amazing talks as we can. You can submit more
 than one talk proposal.
 
 **Proposals will be anonymized to avoid bias.** Although we ask for
-your name, email address, and so on in the
-[proposal submission form](TODO),
+your name, email address, and so on in the proposal submission form,
 only one organizer who serves as anonymizer will actually see this
 information.  The rest of the [organizing team](index.html#organizers)
 will review your proposal.
 
-[Submit your talk proposal today!](TODO)
+**Stay tuned -- our call for proposals will open soon!**
 
 <a name="important-dates"></a>
 
@@ -73,11 +74,11 @@ will review your proposal.
 
 We will do our best to offer financial assistance for travel expenses
 for outside-of-NYC speakers.  If you're not from the NYC area and you
-want to request funding, please fill out the relevant section of
-[the proposal submission form](TODO).  If you request travel funding
-and we accept your proposal, we will let you know if we can provide
-the funding by April 7th.  You will then have until April 14th to
-decide whether to accept our invitation to speak.
+want to request funding, please fill out the relevant section of the
+proposal submission form.  If you request travel funding and we accept
+your proposal, we will let you know if we can provide the funding when
+we notify you about your proposal acceptance.  You will then have time
+to decide whether you want to participate.
 
 Because submissions are reviewed anonymously, requesting financial
 assistance will not affect a proposal's chances of acceptance.
