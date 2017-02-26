@@ -14,7 +14,7 @@ questions, feel free to contact us directly.
 
 ## Contact
 
-Leo Franchi: [lfranchi@gmail.com](mailto:lfranchi@gmail.com)
+Julia Evans: [julia@jvns.ca](mailto:julia@jvns.ca)
 
 ## Sponsorship Levels
 
