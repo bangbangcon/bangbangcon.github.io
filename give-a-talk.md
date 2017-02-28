@@ -6,10 +6,9 @@ title: Call for Talk Proposals! - !!Con 2017
 ## Call for talk proposals!
 
 Hi! !!Con is back for our **fourth year** of celebrating the joy,
-excitement, and surprise of computing, and we want **you** to submit a
-talk proposal.
-
-**Stay tuned -- our call for proposals will open soon!**
+excitement, and surprise of computing, and we want **you**
+to
+[submit a talk proposal](https://docs.google.com/forms/d/e/1FAIpQLSfH7-eo-eKlhBW95UEdbvh5wAy0aNxWLHuNhgbKRaBgnX0xkQ/viewform).
 
 Over the [last](2016/) [three](2015/) [years](2014/), !!Con talks have
 featured everything from poetry generation to Pokémon; from machine
@@ -48,24 +47,26 @@ accept as many of your amazing talks as we can. You can submit more
 than one talk proposal.
 
 **Proposals will be anonymized to avoid bias.** Although we ask for
-your name, email address, and so on in the proposal submission form,
+your name, email address, and so on in
+the
+[proposal submission form](https://docs.google.com/forms/d/e/1FAIpQLSfH7-eo-eKlhBW95UEdbvh5wAy0aNxWLHuNhgbKRaBgnX0xkQ/viewform),
 only one organizer who serves as anonymizer will actually see this
 information.  The rest of the [organizing team](index.html#organizers)
 will review your proposal.
 
-**Stay tuned -- our call for proposals will open soon!**
+[Submit your proposal today!](https://docs.google.com/forms/d/e/1FAIpQLSfH7-eo-eKlhBW95UEdbvh5wAy0aNxWLHuNhgbKRaBgnX0xkQ/viewform)
 
 <a name="important-dates"></a>
 
 ## Important dates
 	  
-  * TBD: Call for talk proposals opens.
-  * TBD: Talk proposal submission deadline.
-  * TBD: Notification of talk acceptance.
-  * TBD: Deadline for speakers to confirm their participation.
-  * TBD: Conference registration opens.
-  * TBD: Public announcement of speakers.
-  * TBD: Public announcement of detailed schedule.
+  * February 28: Call for talk proposals opens.
+  * March 20: Talk proposal submission deadline.
+  * April 6: Notification of talk acceptance.
+  * April 13: Deadline for speakers to confirm their participation.
+  * TBD in April: Conference registration opens.
+  * TBD in April: Public announcement of full speaker list.
+  * TBD in April: Public announcement of detailed schedule.
   * **May 6-7: !!Con!**
 
 <a name="speaker-funding"></a>
@@ -74,11 +75,13 @@ will review your proposal.
 
 We will do our best to offer financial assistance for travel expenses
 for outside-of-NYC speakers.  If you're not from the NYC area and you
-want to request funding, please fill out the relevant section of the
-proposal submission form.  If you request travel funding and we accept
-your proposal, we will let you know if we can provide the funding when
-we notify you about your proposal acceptance.  You will then have time
-to decide whether you want to participate.
+want to request funding, please fill out the relevant section of
+the
+[proposal submission form](https://docs.google.com/forms/d/e/1FAIpQLSfH7-eo-eKlhBW95UEdbvh5wAy0aNxWLHuNhgbKRaBgnX0xkQ/viewform).
+If you request travel funding and we accept your proposal, we will let
+you know if we can provide the funding when we notify you about your
+proposal acceptance.  You will then have time to decide whether you
+want to participate.
 
 Because submissions are reviewed anonymously, requesting financial
 assistance will not affect a proposal's chances of acceptance.
