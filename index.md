@@ -12,9 +12,8 @@ our **fourth year** in 2017!</p>
 
 ## Who's speaking?
 
-Maybe you!  Our [call for talk proposals](give-a-talk.html) will open
-soon!  Plus, stay tuned for an announcement of our amazing keynote
-speakers.
+Maybe you!  Our [call for talk proposals](give-a-talk.html) is open!
+Plus, stay tuned for an announcement of our amazing keynote speakers.
 
 <a name="where" id="where"></a>
 
