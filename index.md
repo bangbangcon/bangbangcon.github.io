@@ -12,8 +12,21 @@ our **fourth year** in 2017!</p>
 
 ## Who's speaking?
 
-Maybe you!  Our [call for talk proposals](give-a-talk.html) is open!
-Plus, stay tuned for an announcement of our amazing keynote speakers.
+Our amazing keynote speakers...
+
+<div style="text-align: center;">
+<div class="speaker left">
+<a href="speakers.html#karen-sandler"><img src="images/speakers/karen-sandler.png" alt="Karen Sandler" /></a>
+<h3>Karen Sandler</h3>
+</div>
+<div class="speaker right">
+<a href="speakers.html#limor-fried"><img src="images/speakers/limor-fried.png" alt="Limor Fried"/></a>
+<h3>Limor Fried</h3>
+</div>
+</div>
+
+...and maybe **you**!  Our [call for talk proposals](give-a-talk.html)
+is open -- submit your proposal by March 20!
 
 <a name="where" id="where"></a>
 
