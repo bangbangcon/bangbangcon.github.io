@@ -42,7 +42,7 @@ We would **especially** like to hear from you if:
 so think carefully about the scope of your talk. A single, focused
 idea is better than a broad, rambling one.
 
-The submission deadline is **TBD**. We'll
+The submission deadline is **March 20**. We'll
 accept as many of your amazing talks as we can. You can submit more
 than one talk proposal.
 
