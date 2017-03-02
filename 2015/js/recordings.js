@@ -8,7 +8,7 @@
     if (talk.youtube) {
       newTalk.find('.talk-youtube-thumb').html('<a href="http://youtube.com/watch?v=' + talk.youtube + '"><img src="http://img.youtube.com/vi/' + talk.youtube + '/1.jpg" alt="" /></a>');
       newTalk.find('.talk-youtube').html('<a href="http://youtube.com/watch?v=' + talk.youtube + '">View on YouTube!</a>');
-      newTalk.find('.talk-embed').html('<a style="text-decoration:underline">View right here!</a>').click(function(evt) {
+      newTalk.find('.talk-embed').html('<a>View right here!</a>').click(function(evt) {
         embed($(evt.target).parents('.talk'), talk.youtube)
       });
     } else {
