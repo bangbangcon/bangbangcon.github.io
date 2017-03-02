@@ -13,7 +13,7 @@
 				embed($(evt.target).parents('.talk'), talk.youtube)
 			});
 		} else {
-			newTalk.find('.talk-youtube').text('Unfortunately, the recording of this talk was lost due to a technical issue.');
+			newTalk.find('.talk-youtube').text(talk['youtube-missing-message']);
 		}
 		newTalk.find('.talk-transcript').html('<a href="/2014-transcripts/' + talk.transcript + '.txt">Read the transcript!</a>');
 		newTalk.show();

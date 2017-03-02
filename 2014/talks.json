@@ -60,6 +60,7 @@
     "authorslug": "karyafar",
     "title": "Computer vision and archeology!: Can computers assemble ceramic artifacts?",
     "youtube": false,
+    "youtube-missing-message": "Unfortunately, the recording of this talk was lost due to a technical issue.",
     "transcript": "kamelia-aryafar-computer-vision-archaeology"
   },
   {

@@ -39,6 +39,7 @@
     "authorslug": "rob-jefferson",
     "title": "What Programmers and Economists Can Learn from Each Other! (cancelled due to illness)",
     "youtube": false,
+    "youtube-missing-message": "There is no video or transcript for this talk.",
     "transcript": false
   },
   {

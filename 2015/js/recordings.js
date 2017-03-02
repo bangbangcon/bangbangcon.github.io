@@ -13,7 +13,7 @@
         embed($(evt.target).parents('.talk'), talk.youtube)
       });
     } else {
-      newTalk.find('.talk-youtube').text('There is no video or transcript for this talk.');
+      newTalk.find('.talk-youtube').text(talk['youtube-missing-message']);
     }
     if (talk.transcript) {
       newTalk.find('.talk-transcript').html('<a href="/2015-transcripts/' + talk.transcript + '.txt">Read the transcript!</a>');
