@@ -1,4 +1,5 @@
 ;(function(exports) {
+
   var generateTemplate = function(talk, template) {
     var newTalk = $(template).clone();
     newTalk.attr({
@@ -15,7 +16,7 @@
       newTalk.find('.talk-youtube').text('There is no video or transcript for this talk.');
     }
     if (talk.transcript) {
-      newTalk.find('.talk-transcript').html('<a href="/2015-transcripts/' + talk.authorslug + '.txt">Read the transcript!</a>');
+      newTalk.find('.talk-transcript').html('<a href="/2015-transcripts/' + talk.transcript + '.txt">Read the transcript!</a>');
     }
     newTalk.show();
     return newTalk;
