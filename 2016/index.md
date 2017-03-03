@@ -4,11 +4,16 @@ title: !!Con
 ---
 
 <p style="text-align: center;">
-    <strong>Quick Links:</strong>
-    <a href="venue-accessibility.html">Venue</a>
-    &middot; <a href="program.html">Program</a>
-    &middot; <a href="speakers.html">Speakers</a>
-    &middot; <a href="conduct.html">Conduct</a>
+  **Quick Links:**
+  [Talk Recordings](recordings.html)
+  &middot;
+  [Venue](venue-accessibility.html)
+  &middot;
+  [Program](program.html)
+  &middot;
+  [Speakers](speakers.html)
+  &middot;
+  [Conduct](conduct.html)
 </p>
 
 **!!Con** (pronounced "bang bang con") **2016** was **two days of
