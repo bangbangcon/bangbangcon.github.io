@@ -14,7 +14,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="./javascripts/recordings.js"></script>
+    <script type="text/javascript" src="../js/recordings.js"></script>
     <title>Talk Recordings and Transcripts - !!Con</title>
   </head>
 
@@ -45,6 +45,17 @@
             <div class="talk-transcript"></div>
             <div style="clear:both"></div>
           </div>
+
+          <script defer="defer">
+            jQuery.getJSON('talks.json', function(talks) {
+              generateTalks(
+                '#talk-template',
+                '#talk_container',
+                talks,
+                "../2014-transcripts/"
+              );
+            });
+          </script>
 
           <footer>
             Hosted on

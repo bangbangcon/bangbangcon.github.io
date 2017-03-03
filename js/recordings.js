@@ -1,6 +1,6 @@
 ;(function(exports) {
 
-  var generateTemplate = function(talk, template) {
+  var generateTemplate = function(talk, template, transcript_path) {
     var newTalk = $(template).clone();
     newTalk.attr({
       id: ''
@@ -16,17 +16,17 @@
       newTalk.find('.talk-youtube').text(talk['youtube-missing-message']);
     }
     if (talk.transcript) {
-      newTalk.find('.talk-transcript').html('<a href="/2015-transcripts/' + talk.transcript + '.txt">Read the transcript!</a>');
+      newTalk.find('.talk-transcript').html('<a href="' + transcript_path + talk.transcript + '.txt">Read the transcript!</a>');
     }
     newTalk.show();
     return newTalk;
   }
 
-  exports.generateTalks = function(template, appendTo, talks) {
+  exports.generateTalks = function(template, appendTo, talks, transcript_path) {
     appendTo = $(appendTo);
     template = $(template);
     for (var i = 0; i < talks.length; i++) {
-      appendTo.append(generateTemplate(talks[i], template));
+      appendTo.append(generateTemplate(talks[i], template, transcript_path));
     }
   }
 
@@ -35,11 +35,4 @@
     var iframe = '<iframe id="youtube" width="640" height="360" src="//www.youtube.com/embed/' + youtube + '?rel=0" frameborder="0" allowfullscreen></iframe>'
     target.append(iframe);
   }
-
 })(window);
-
-$(document).ready(function(){
-  jQuery.getJSON('talks.json', function(talks) {
-    generateTalks('#talk-template', '#talk_container', talks);
-  });
-});
