@@ -1,11 +1,23 @@
 ;(function(exports) {
+  var generateAuthorHtml = function(talk) {
+    if (talk.authorslug) {
+      return '<a href="./speakers.html#' +
+        talk.authorslug + '">' + talk.author + '</a>';
+    } else {
+      return '<span>' + talk.author + '</span>';
+    }
+  }
 
   var generateTemplate = function(talk, template, transcript_path) {
     var newTalk = $(template).clone();
     newTalk.attr({
       id: ''
     });
-    newTalk.find('.talk-info').html('<a href="./speakers.html#' + talk.authorslug + '">' + talk.author + '</a><strong><em>' + talk.title + '</em></strong>');
+    newTalk.find('.talk-info').html(
+      generateAuthorHtml(talk) +
+      '<strong><em>' + talk.title + '</em></strong>'
+    );
+
     if (talk.youtube) {
       newTalk.find('.talk-youtube-thumb').html('<a href="http://youtube.com/watch?v=' + talk.youtube + '"><img src="http://img.youtube.com/vi/' + talk.youtube + '/1.jpg" alt="" /></a>');
       newTalk.find('.talk-youtube').html('<a href="http://youtube.com/watch?v=' + talk.youtube + '">View on YouTube!</a>');
