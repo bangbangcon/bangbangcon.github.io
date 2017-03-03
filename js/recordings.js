@@ -1,10 +1,10 @@
 ;(function(exports) {
   var generateAuthorHtml = function(talk) {
     if (talk.authorslug) {
-      return '<a href="./speakers.html#' +
+      return '<a class="speaker" href="./speakers.html#' +
         talk.authorslug + '">' + talk.author + '</a>';
     } else {
-      return '<span>' + talk.author + '</span>';
+      return '<span class="speaker">' + talk.author + '</span>';
     }
   }
 
@@ -15,7 +15,7 @@
     });
     newTalk.find('.talk-info').html(
       generateAuthorHtml(talk) +
-      '<strong><em>' + talk.title + '</em></strong>'
+      '<strong class="talk-title"><em>' + talk.title + '</em></strong>'
     );
 
     if (talk.youtube) {

@@ -273,3 +273,22 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     font-size: 100%;
     margin: 0;
 }
+
+/* recordings */
+.talk-info {
+  margin-bottom: .5em;
+}
+
+.talk-info .talk-title {
+  margin-left: .5em;
+}
+
+.talk-embed a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.talk-youtube-thumb {
+  float: left;
+  margin-right: 1em;
+}
