@@ -57,6 +57,10 @@ Here's what some of our 2016 speakers and attendees said about us:
 > simply joyous** conference!" --
 > [@techstepper](https://twitter.com/techstepper/status/729503996730347520)
 
+> "#bangbangcon was **utterly amazing**, to the point that i have not
+> tweeted about it because how do you fit that into a tweet" --
+> [@jackmakesthings](https://twitter.com/jackmakesthings/status/729694660407504897)
+
 > "**if you are not making plans to attend** next year's @bangbangcon,
 > you are **making a huge mistake**" --
 > [@tdenkinger](https://twitter.com/tdenkinger/status/729554572843323392)
@@ -68,14 +72,6 @@ Here's what some of our 2016 speakers and attendees said about us:
 > "**If I never went to another tech conference, this would be the one
 > to have ended on**"
 > -- [@aredridel](https://twitter.com/aredridel/status/729460621775867904)
-
-<!-- TODO: make sure it's OK to use these! -->
-
-<!--
-> "#bangbangcon was **utterly amazing**, to the point that i have not
-> tweeted about it because how do you fit that into a tweet" --
-> [@jackmakesthings](https://twitter.com/jackmakesthings/status/729694660407504897)
--->
 
 With your help, we plan to make !!Con 2017 at least as good!
 
