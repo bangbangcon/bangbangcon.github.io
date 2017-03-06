@@ -45,6 +45,7 @@ Julia Evans: [julia@jvns.ca](mailto:julia@jvns.ca)
   * Logo on website
 
 <a name="note-on-tickets"></a>
+
 ### *A note about employee tickets
 
 Space at !!Con is limited, so we humbly request that these tickets go
