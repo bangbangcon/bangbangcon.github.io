@@ -14,6 +14,7 @@
 
 .talk-embed a {
 	cursor: pointer;
+	text-decoration: underline;
 }
 
 .talk-youtube-thumb a {

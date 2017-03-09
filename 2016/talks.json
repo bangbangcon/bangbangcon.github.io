@@ -1,0 +1,240 @@
+[
+  {
+    "author": "Lindsey Kuper and Julia Evans",
+    "authorslug": false,
+    "title": "Opening Words",
+    "youtube": "gGZl0t0WpLo",
+    "transcript": false
+  },
+  {
+    "author": "Catt Small",
+    "authorslug": "catt-small",
+    "title": "Keynote: The Creative Programmer",
+    "youtube": "WBOA2MI4u7w",
+    "transcript": false
+  },
+  {
+    "author": "Kiran Bhattaram",
+    "authorslug": "kiran-bhattaram",
+    "title": "The Tales of the Cursed Operating Systems Textbook!",
+    "youtube": "QxtwVsHxvC4",
+    "transcript": false
+  },
+  {
+    "author": "Mark Allen",
+    "authorslug": "mark-allen",
+    "title": "\"values of β may give rise to dom!\"",
+    "youtube": "FyLnF9U18rY",
+    "transcript": false
+  },
+  {
+    "author": "Lydia Gu",
+    "authorslug": "lydia-gu",
+    "title": "Ping! Are you there?",
+    "youtube": "nSB53WRGY_0",
+    "transcript": false
+  },
+  {
+    "author": "Katie Bechtold",
+    "authorslug": "katie-bechtold",
+    "title": "Code in Spaaaaaace!!!!!",
+    "youtube": "ETgNLF_XpEM",
+    "transcript": false
+  },
+  {
+    "author": "Allison Parrish",
+    "authorslug": "allison-parrish",
+    "title": "Lossy text compression, for some reason?!",
+    "youtube": "meovx9OqWJc",
+    "transcript": false
+  },
+  {
+    "author": "Brendan Curran Johnson",
+    "authorslug": "brendan-curran-johnson",
+    "title": "A Shot in the Dark!",
+    "youtube": "izq_9s6nkO4",
+    "transcript": false
+  },
+  {
+    "author": "Sher Minn Chong",
+    "authorslug": "sher-minn-chong",
+    "title": "Plants are Recursive!!: Using L-Systems to Generate Realistic Weeds",
+    "youtube": "0eXg4B1feOY",
+    "transcript": false
+  },
+  {
+    "author": "Diana Liao",
+    "authorslug": "diana-liao",
+    "title": "Mixing Paint! With Computers!",
+    "youtube": "EIecGXs8jqY",
+    "transcript": false
+  },
+  {
+    "author": "Andreas Fuchs",
+    "authorslug": "andreas-fuchs",
+    "title": "I’m not a number, I’m a free file descriptor!!1 (Our protagonist promptly disappears down a wormhole)",
+    "youtube": "_XgXCVULj0o",
+    "transcript": false
+  },
+  {
+    "author": "Kamal Marhubi",
+    "authorslug": "kamal-marhubi",
+    "title": "Storing your data in kernel space: an excellent bad idea!",
+    "youtube": "gg0xNgHrAAc",
+    "transcript": false
+  },
+  {
+    "author": "Samy Al Bahra",
+    "authorslug": "samy-al-bahra",
+    "title": "Debugging debuggers!!!",
+    "youtube": "OEa0EfJja_Y",
+    "transcript": false
+  },
+  {
+    "author": "Laura Lindzey",
+    "authorslug": "laura-lindzey",
+    "title": "Convolution and the Fourier Transform: Math! (in pictures!!)",
+    "youtube": "rzCO5fQysw0",
+    "transcript": false
+  },
+  {
+    "author": "Jennifer Fernick",
+    "authorslug": "jennifer-fernick",
+    "title": "All Together Now! Programming the Quantum Computer",
+    "youtube": "-KDPg6BntwU",
+    "transcript": false
+  },
+  {
+    "author": "Mark Phillips",
+    "authorslug": "mark-phillips",
+    "title": "Upstream/Downstream: Discovering and Displaying Watershed Topology!",
+    "youtube": "7EwcL_isA-c",
+    "transcript": false
+  },
+  {
+    "author": "Mark Dominus",
+    "authorslug": "mark-jason-dominus",
+    "title": "My favorite NP-complete problem!",
+    "youtube": "BJBnR5Sn-sc",
+    "transcript": false
+  },
+  {
+    "author": "Ramsey Nasser",
+    "authorslug": "ramsey-nasser",
+    "title": "Keynote: The Unfortunate Value of Failure",
+    "youtube": "JrwBDKV-6pQ",
+    "transcript": false
+  },
+  {
+    "author": "Sina Bahram",
+    "authorslug": "sina-bahram",
+    "title": "How I Code and Use a Computer at 1,000 WPM!!",
+    "youtube": "G1r55efei5c",
+    "transcript": false
+  },
+  {
+    "author": "Rob Jefferson",
+    "authorslug": "rob-jefferson",
+    "title": "What Developers and Economists Can Learn from Each Other!",
+    "youtube": "mwnOiblMWC0",
+    "transcript": false
+  },
+  {
+    "author": "Brendan Cordy",
+    "authorslug": "brendan-cordy",
+    "title": "Making Money Disappear with Hash Functions!",
+    "youtube": "GU8YzFmBIc4",
+    "transcript": false
+  },
+  {
+    "author": "Mark Wunsch",
+    "authorslug": "mark-wunsch",
+    "title": "lol im so random!",
+    "youtube": "pdUCK_io9SQ",
+    "transcript": false
+  },
+  {
+    "author": "Tef",
+    "authorslug": "tef",
+    "title": "A million things to do with a computer!",
+    "youtube": "vU9myNJI9l4",
+    "transcript": false
+  },
+  {
+    "author": "Anne Decusatis",
+    "authorslug": "anne-decusatis",
+    "title": "My favorite Unicode character: the zero-width joiner!",
+    "youtube": "4wevZ1vohDY",
+    "transcript": false
+  },
+  {
+    "author": "Jake Levine",
+    "authorslug": "jake-levine",
+    "title": "Sorting is as easy as 1, 2, 3 --- but not as easy as a, b, c!",
+    "youtube": "kmLHuKs0M10",
+    "transcript": false
+  },
+  {
+    "author": "Wilkie",
+    "authorslug": "wilkie",
+    "title": "Preserving Digital Art and Games for 100 Years!",
+    "youtube": "R9b5TNOlyRo",
+    "transcript": false
+  },
+  {
+    "author": "Adam Marcus",
+    "authorslug": "adam-marcus",
+    "title": "Don’t forget to sketch! Running with large datasets",
+    "youtube": "79x0vMZ89Vw",
+    "transcript": false
+  },
+  {
+    "author": "Anjana Vakil",
+    "authorslug": "anjana-vakil",
+    "title": "They're functional! They're efficient!! They’re persistent data structures!!!",
+    "youtube": "vo2A_FBleW4",
+    "transcript": false
+  },
+  {
+    "author": "Valerie Aurora",
+    "authorslug": "valerie-aurora",
+    "title": "How I fixed UNIX atime! With 10 lines of code and feminism!!!",
+    "youtube": "fHjsdyN4UK0",
+    "transcript": false
+  },
+  {
+    "author": "Mariko Kosaka",
+    "authorslug": "mariko-kosaka",
+    "title": "Ink on fingers! The history of printing (with code!) before computer screens",
+    "youtube": "ev8clXnW6PI",
+    "transcript": false
+  },
+  {
+    "author": "Irvin Hwang",
+    "authorslug": "irvin-hwang",
+    "title": "Making a Metaverse! A WebVR (not so M)MO for Programmers!",
+    "youtube": "lKXDq8tN9gk",
+    "transcript": false
+  },
+  {
+    "author": "Colin Jones",
+    "authorslug": "colin-jones",
+    "title": "Finding out what's really going on, with DTrace!",
+    "youtube": "1OMX69KOhGg",
+    "transcript": false
+  },
+  {
+    "author": "Julia Evans",
+    "authorslug": "julia-evans",
+    "title": "How to trick a neural network!",
+    "youtube": "7_DX1EGKZXY",
+    "transcript": false
+  },
+  {
+    "author": "Erty Seidel",
+    "authorslug": false,
+    "title": "Surprise Talk: The Origin Story",
+    "youtube": "rBn-E4yFFuI",
+    "transcript": false
+  }
+]
