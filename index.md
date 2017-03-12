@@ -32,8 +32,9 @@ is open -- submit your proposal by March 20!
 
 ## Where and when?
 
-!!Con will be in NYC on the weekend of May 6-7, 2017.  Stay tuned for
-  our venue announcement!
+!!Con will be held at the [AppNexus](http://appnexus.com) headquarters
+  in Manhattan, NYC, on the weekend of May 6-7, 2017.
+  [Learn more about our venue!](venue-accessibility.html)
 
 ## How much does it cost?  Where do I register?
 
