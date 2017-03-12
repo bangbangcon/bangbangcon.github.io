@@ -1,6 +1,6 @@
 ---
-layout: default-2016
-title: Venue and Accessibility Information - !!Con
+layout: default-2017
+title: Venue and Accessibility Information - !!Con 2017
 ---
 
 ## Venue and accessibility information
@@ -10,12 +10,12 @@ title: Venue and Accessibility Information - !!Con
 
 ### Getting there
 
-AppNexus is at **28 West 23rd Street** in Manhattan, NYC, on the *4th
-floor*.  They're located 0.2 miles or less from the 23rd Street subway
+AppNexus is at **28 West 23rd Street, 4th floor** in Manhattan, NYC --
+conveniently located 0.2 miles or less from the 23rd Street subway
 stations on the F/M, R/W, and 4/6 lines.
 
-The 23rd Street station on the 6 line has an elevator on northeast
-corner of 23rd Street and Park Avenue South (uptown) and northwest
+The 23rd Street station on the 6 line has elevators on the northeast
+corner of 23rd Street and Park Avenue South (uptown) and the northwest
 corner of 23rd Street and Park Avenue South (downtown).  You can
 [check elevator status](http://advisory.mtanyct.info/EEoutage/EEOutageReport.aspx?StationID=a1a2bbf2-de86-4060-a596-5affee6b03dd&Station=23RD%20STREET%20-%206)
 before your trip.
@@ -32,7 +32,8 @@ We remain an **alcohol-free event**, as always.  All ages are welcome.
 
 ### Gender-neutral restrooms
 
-We'll have all-gender restrooms 
+The restrooms in the AppNexus space will be designated gender-neutral
+during !!Con.
 
 ### CART captioning
 
@@ -42,7 +43,7 @@ ask) live transcription in English, provided by Certified CART
 Provider
 [Mirabai Knight](http://www.whitecoatcaptioning.com/captioning-for-conferences).
 This will be Mirabai's third time captioning at !!Con and we're
-thrilled ot have her back.
+thrilled to have her back.
 
 _Do you have questions about our venue or accessibility?  We're here
-to help!  Contact [the !!Con organizers](index.html#organizers).
+to help!  Contact [the !!Con organizers](index.html#organizers)._
