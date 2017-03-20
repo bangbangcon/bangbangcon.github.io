@@ -95,6 +95,6 @@ accepted speaker anticipates visa-related difficulties in traveling to
 the conference, we will make arrangements to enable remote
 participation, and not require them to attend the conference in order
 to present their talk.  In such a case
-[contact us](index.html#/organizers) for further guidance.
+[contact us](index.html#organizers) for further guidance.
 
 Thanks for submitting to !!Con!
