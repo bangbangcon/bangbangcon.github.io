@@ -86,4 +86,15 @@ want to participate.
 Because submissions are reviewed anonymously, requesting financial
 assistance will not affect a proposal's chances of acceptance.
 
+## A note about travel
+
+We welcome all speakers, regardless of nationality.  We generally
+expect that accepted speakers who confirm their participation will
+travel to New York to present their talk in person.  However, if any
+accepted speaker anticipates visa-related difficulties in traveling to
+the conference, we will make arrangements to enable remote
+participation, and not require them to attend the conference in order
+to present their talk.  In such a case
+[contact us](index.html#/organizers) for further guidance.
+
 Thanks for submitting to !!Con!
