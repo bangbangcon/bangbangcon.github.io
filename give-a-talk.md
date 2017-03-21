@@ -5,6 +5,23 @@ title: Call for Talk Proposals! - !!Con 2017
 
 ## Call for talk proposals!
 
+The !!Con call for proposals is now closed. Thanks to everyone who submitted a talk idea!
+
+<a name="important-dates"></a>
+
+## Important dates
+
+  * February 28: Call for talk proposals opens.
+  * March 20: Talk proposal submission deadline.
+  * April 6: Notification of talk acceptance.
+  * April 13: Deadline for speakers to confirm their participation.
+  * TBD in April: Conference registration opens.
+  * TBD in April: Public announcement of full speaker list.
+  * TBD in April: Public announcement of detailed schedule.
+  * **May 6-7: !!Con!**
+
+## Original CFP (For posterity)
+
 Hi! !!Con is back for our **fourth year** of celebrating the joy,
 excitement, and surprise of computing, and we want **you**
 to
@@ -55,19 +72,6 @@ information.  The rest of the [organizing team](index.html#organizers)
 will review your proposal.
 
 [Submit your proposal today!](https://docs.google.com/forms/d/e/1FAIpQLSfH7-eo-eKlhBW95UEdbvh5wAy0aNxWLHuNhgbKRaBgnX0xkQ/viewform)
-
-<a name="important-dates"></a>
-
-## Important dates
-	  
-  * February 28: Call for talk proposals opens.
-  * March 20: Talk proposal submission deadline.
-  * April 6: Notification of talk acceptance.
-  * April 13: Deadline for speakers to confirm their participation.
-  * TBD in April: Conference registration opens.
-  * TBD in April: Public announcement of full speaker list.
-  * TBD in April: Public announcement of detailed schedule.
-  * **May 6-7: !!Con!**
 
 <a name="speaker-funding"></a>
 
