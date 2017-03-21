@@ -25,8 +25,8 @@ Our amazing keynote speakers...
 </div>
 </div>
 
-...and maybe **you**!  Our [call for talk proposals](give-a-talk.html)
-is open -- submit your proposal by March 20!
+... and more! Our [call for talk proposals](give-a-talk.html)
+is closed. Speakers will be notified of acceptance by April 6<sup>th</sup>!
 
 <a name="where" id="where"></a>
 
