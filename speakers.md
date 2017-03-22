@@ -58,4 +58,10 @@ is a 100% woman-owned company.
 
 ---
 
-Interested in speaking at !!Con 2017?  [Submit a talk proposal!](give-a-talk.html)
+<a name="speakers" id="speakers"></a>
+
+## Speakers
+
+Our 2017 [call for talk proposals](give-a-talk.html) is now closed,
+and we're busy reviewing all of the wonderful proposals.  Watch this
+space for an announcement of our 2017 speaker lineup!
