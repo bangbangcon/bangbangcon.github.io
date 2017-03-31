@@ -3,6 +3,19 @@ layout: default-2017
 title: The joy, excitement, and surprise of computing - !!Con 2017
 ---
 
+<p style="text-align: center;">
+  **Quick Links:**
+  <!-- [Talk Recordings](recordings.html) -->
+  <!-- &middot; -->
+  [Venue](venue-accessibility.html)
+  &middot;
+  <!-- [Program](program.html) -->
+  <!-- &middot; -->
+  [Speakers](speakers.html)
+  &middot;
+  [Conduct](conduct.html)
+</p>
+
 <p id="blurb">**!!Con** (pronounced "bang bang con") is **two days of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
 joyous, exciting, and surprising moments in computing.  Join us for
