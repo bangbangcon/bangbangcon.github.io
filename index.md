@@ -46,8 +46,9 @@ is closed. Speakers will be notified of acceptance by April 6<sup>th</sup>!
 ## Where and when?
 
 !!Con will be held at the [AppNexus](http://appnexus.com) headquarters
-  in Manhattan, NYC, on the weekend of May 6-7, 2017.
-  [Learn more about our venue!](venue-accessibility.html)
+at 28 West 23rd Street, 4th floor, Manhattan, NYC, on the weekend of
+May 6-7, 2017.
+[Learn more about our venue!](venue-accessibility.html)
 
 ## How much does it cost?  Where do I register?
 
