@@ -12,7 +12,8 @@ title: Venue and Accessibility Information - !!Con 2017
 
 AppNexus is at **28 West 23rd Street, 4th floor** in Manhattan, NYC --
 conveniently located 0.2 miles or less from the 23rd Street subway
-stations on the F/M, R/W, and 4/6 lines.
+stations on the F/M, R/W, and 4/6 lines.  There is an elevator in the
+AppNexus building.
 
 The 23rd Street station on the 6 line has elevators on the northeast
 corner of 23rd Street and Park Avenue South (uptown) and the northwest
