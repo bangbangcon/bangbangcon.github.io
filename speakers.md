@@ -66,9 +66,9 @@ is a 100% woman-owned company.
 
 When you live in the big city, finding everyone's nearest neighbours takes a long time! Our judicious city planners have conjured a technique using randomness, hyperplanes, buckets, lexical sorting, and binary numbers to get the job done approximately and fast. Really fast. They call it Locality Sensitive Hashing and management loves the idea. But it sounds too good to be true!
  
- In this talk we'll explore Locality Sensitive Hashing, a technique to turn the computationally expensive Exact Nearest Neighbor Search problem into an inexpensive approximate solution (it's a neat trick and I promise you'll love it). We'll see how Locality Sensitive Hashing is used in Image Search, Recommendations, and other machine learning problems. And of course, we'll mention Deep Hashing, because why not?
+ In this talk we'll explore Locality Sensitive Hashing, a technique to turn the computationally expensive Exact Nearest Neighbor Search problem into an inexpensive approximate solution (it's a neat trick and I promise you'll love it). We'll see how Locality Sensitive Hashing is used in Image Search, Recommendations, and other machine learning problems. And of course, we'll mention [Deep Hashing](https://cs.nju.edu.cn/lwj/L2H.html#deep-hashing), because why not?
 
-**Aaron Levin** is a mathematician who fell in love with programming and now manages Data Science teams at SoundCloud. Aaron found a rare record once and wrote about it on Weird Canada.
+**Aaron Levin** is a mathematician who fell in love with programming and now manages Data Science teams at SoundCloud. Aaron found a rare record once and wrote about it on [Weird Canada](https://weirdcanada.com).
 
 ---
 
