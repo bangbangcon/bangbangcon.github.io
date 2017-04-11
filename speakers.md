@@ -96,9 +96,9 @@ I was playing my old copy of Pokemon Blue for the original Game Boy one day duri
 
 **_"Glk! A universal user interface! for interactive fiction!"_**
 
-In 1997, I set out to extend Infocom's Z-machine to support modern interactive fiction. Surprisingly, many of my design decisions turned out to be clever! Blok is now a thriving software ecosystem which supports many IF platforms, interpreters, and other tools. It's also hard to pronounce Glk.
+In 1997, I set out to extend Infocom's Z-machine to support modern interactive fiction. Surprisingly, many of my design decisions turned out to be clever! Glk is now a thriving software ecosystem which supports many IF platforms, interpreters, and other tools. It's also hard to pronounce Glk.
  
- Hear a twenty-year tale of interpreter support! Discover how my C API evolved into a Javascript API and a JSON data format while still being hard to pronounce! Marvel at how my attempt at a universal user interface was an inevitable failure, but still lets us do some really cool things! Wonder when I will get around to shipping Blok 2.0!
+ Hear a twenty-year tale of interpreter support! Discover how my C API evolved into a Javascript API and a JSON data format while still being hard to pronounce! Marvel at how my attempt at a universal user interface was an inevitable failure, but still lets us do some really cool things! Wonder when I will get around to shipping Glk 2.0!
 
 **Andrew Plotkin** has been working on interactive fiction and stuff like that for a very long time. He works as an indie game developer in Boston and helps run an IF meetup, an IF nonprofit, and occasionally things that are not directly related to IF. He also bakes cookies.
 
