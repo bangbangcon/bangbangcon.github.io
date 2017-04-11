@@ -160,6 +160,7 @@ class="magic">.</span><div class="logo"><img height="110" width="230"
     alt="Stripe" src="images/sponsors/stripe.png"
     /></div></a></div>
 
+
     <div class="sponsor"><a href="http://soundcloud.com" target="_blank"><span
 class="magic">.</span><div class="logo"><img height="120" width="153"
     alt="Soundcloud" src="images/sponsors/soundcloud.jpg"
@@ -168,6 +169,19 @@ class="magic">.</span><div class="logo"><img height="120" width="153"
     <div class="sponsor"><a href="http://mozilla.com" target="_blank"><span
 class="magic">.</span><div class="logo"><img height="100" width="250"
     alt="Mozilla" src="images/sponsors/mozilla.jpg"
+    /></div></a></div>
+
+    <div class="sponsor">
+<span
+class="magic">.</span><div class="logo"><img height="110" width="240"
+    alt="HBC Digital" src="images/sponsors/hbcdigital.png"
+    /></div>
+</div>
+
+
+    <div class="sponsor"><a href="http://heapanalytics.com" target="_blank"><span
+class="magic">.</span><div class="logo"><img height="100" width="316"
+    alt="Heap" src="images/sponsors/heap.png"
     /></div></a></div>
 
 </div>
