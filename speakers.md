@@ -62,6 +62,5 @@ is a 100% woman-owned company.
 
 ## Speakers
 
-Our 2017 [call for talk proposals](give-a-talk.html) is now closed,
-and we're busy reviewing all of the wonderful proposals.  Watch this
-space for an announcement of our 2017 speaker lineup!
+Our 2017 [call for talk proposals](give-a-talk.html) is now closed.
+Watch this space for an announcement of our 2017 speaker lineup!

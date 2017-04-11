@@ -39,7 +39,7 @@ Our amazing keynote speakers...
 </div>
 
 ... and more! Our [call for talk proposals](give-a-talk.html)
-is closed. Speakers will be notified of acceptance by April 6<sup>th</sup>!
+is closed, and we'll be announcing our speaker lineup shortly.
 
 <a name="where" id="where"></a>
 
@@ -52,8 +52,9 @@ May 6-7, 2017.
 
 ## How much does it cost?  Where do I register?
 
-!!Con is a *pay-what-you-want* conference.  Stay tuned for
-  registration information!
+!!Con is a *pay-what-you-want* conference.  Registration opens to the
+public on *April 14, 2017 at 5:00pm NYC time*,
+[on our Eventbrite event page](https://www.eventbrite.com/e/con-2017-tickets-33290614123).
 
 <a name="testimonials" id="testimonials"></a>
 

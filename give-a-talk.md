@@ -15,7 +15,7 @@ The !!Con call for proposals is now closed. Thanks to everyone who submitted a t
   * March 20: Talk proposal submission deadline.
   * April 6: Notification of talk acceptance.
   * April 13: Deadline for speakers to confirm their participation.
-  * TBD in April: Conference registration opens.
+  * April 14: Conference registration opens.
   * TBD in April: Public announcement of full speaker list.
   * TBD in April: Public announcement of detailed schedule.
   * **May 6-7: !!Con!**
