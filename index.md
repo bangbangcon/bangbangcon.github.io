@@ -180,7 +180,7 @@ class="magic">.</span><div class="logo"><img height="110" width="240"
 </div>
 
 
-    <div class="sponsor"><a href="http://heapanalytics.com" target="_blank"><span
+    <div class="sponsor"><a href="http://heapanalytics.com/jobs" target="_blank"><span
 class="magic">.</span><div class="logo"><img height="100" width="316"
     alt="Heap" src="images/sponsors/heap.png"
     /></div></a></div>
