@@ -136,7 +136,7 @@ Ever heard of jq? If so, chances are you've used it to format and syntax-highlig
 
 ### Christian Joudrey
 
-**_"OMG! Assembly is fun!!!"_**
+**_Writing NES games! with assembly!!_**
 
 Assembly language doesn't have to be that cryptic old language that nobody uses anymore.
  
