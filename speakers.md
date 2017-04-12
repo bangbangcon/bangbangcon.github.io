@@ -298,7 +298,7 @@ To set your computer's clock just set it to match an atomic clock on the interne
 
 One day, I came back from lunch to discover everyone's copy of Chrome wouldn't stop crashing!! How could turning on a printer downstairs cause an office-wide browser outage!?! A glorious part of programming is when a bug reveals the delicate fragility of a system far beyond its scope! Tracing down the culprit will take us through Unicode, mDNS, gdb, tcpdump, tcpreplay, and Objective-C!!
 
-**Julian** is an eccentric layabout in Montreal, Canada.  AdGear Technologies pays him to slowly program computers fastly.
+**Julian** is an eccentric layabout in Montreal, Canada.  He gets paid to slowly program computers fastly.
 
 ---
 
