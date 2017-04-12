@@ -403,13 +403,11 @@ The Dynamic Host Configuration Protocol (DHCP to its friends) is the magic by wh
 
 **_"Simulated Gravity Comes from Within!!"_**
 
-Eve Online slows down time in the game when there are too many players in a region. That way, the messages have time to get processed.
+The massively-multiplayer game Eve Online slows down the in-game clock when there are too many players in a region. That way, the network has enough time to process all those players.
  
- Well what if you slowed down time not in regions, but variably throughout one continuous space? Wouldn't that screw with your physics engine? I got curious, so I wrote a simulation with this time dilation and... well, objects started orbiting each other. The weird thing? I didn't program in gravity.
- 
- Let's step through the demo to understand why.
+ So here's a question: What if you slowed down the clock -- not in regions, but variably throughout the entire game, as one big region? Wouldn't that screw with your physics engine? I got curious, so I wrote a simulation with this time dilation added and... well, objects started orbiting each other!! The weird thing? I didn't include gravity in my program.
 
-**Paul**'s a lifelong hacker and dabbler with a love for games, music, history, and systems. **Paul** cofounded Blue Link Labs and the Beaker Browser project.
+**Paul**'s a lifelong hacker with a love for games, music, history, and design. **Paul** cofounded Blue Link Labs and the Beaker Browser project.
 
 ---
 
