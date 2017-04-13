@@ -499,8 +499,8 @@ COBOL is the Rodney Dangerfield of programming languages — it doesn't get any 
 
 **_"Islamic Geometry: Hankin’s Polygons in Contact Algorithm!!!"_**
 
-In this talk we will go over Hankin’s “Polygons in Contact” algorithm, a technique for generating common patterns encountered in Islamic geometry, and some variations on it. There will be quite a few pretty pictures and two (!!) interactive examples in JS.
- 
- We’ll also briefly touch on the historical and cultural aspects of this kind of geometry and why modern mathematicians who work on this are so mystified about what was going on ~900 years ago!
+In this talk we will go over Hankin’s “Polygons in Contact” algorithm, a technique for generating common patterns encountered in Islamic geometry, and some variations on it. There will be an introduction to tiling theory, quite a few pretty pictures, and two (!!) interactive examples in JS.
+
+We’ll also briefly touch on the historical and cultural aspects of this kind of geometry!
 
 **Yomna** likes collecting musical instruments, discrete mathematics, cooking, and cold, dark rooms. She is a Technology Fellow at the EFF.
