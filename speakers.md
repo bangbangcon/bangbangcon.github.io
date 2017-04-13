@@ -193,7 +193,7 @@ We were looking for a new place to live in [ANON: european country]. I found mys
 
 
 
-**Ewan** is a career geek/autodidact with some pretty varied experience (scientific visualisation, games, app security, cloud infra) who has been remiss in the extreme about giving back to the community that spawned him. **Ewan**'s mission now is to share all the interesting tech ideas he can; to engage, entertain, encourage, support and wherever possible to engender the same ooh-howz-that-thing-work inquisitiveness he feels every day.
+**Ewan** is a career geek/autodidact with some pretty varied experience (scientific visualisation, games, app security, cloud infra) who has been remiss in the extreme about giving back to the community that spawned him. **Ewan**'s mission now is to share all the interesting tech ideas he can; to engage, entertain, encourage, support and wherever possible to engender the same ooh-howz-that-thing-work inquisitiveness he feels every day. Ewan can be found on [Twitter](https://twitter.com/ewanovitch) with longer occasional outpourings on [CloudyGoo](http://www.cloudygoo.com/).
 
 ---
 
