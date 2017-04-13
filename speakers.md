@@ -283,7 +283,7 @@ I like finding ways to use technology for things that it wasn't originally meant
 
 To set your computer's clock just set it to match an atomic clock on the internet. Oh wait, don't forget to account for the time the request takes. Oh wait, and for the time the response takes. Oh and that request and response times might be different. Oh and that if you need to set your clock back your logs and transactions will be out of order (hello bank transfer hacks!). Oh and this needs to work for several billion devices on the internet doing this all day every day forever. Oh and if you do it wrong Very Bad Things Can Happen (bricked iPhones! broken TLS!)
  
-We'll talk about how Network Time Protocol (NTP) sets your clock to the correct time despite the laws of physics making it impossible to do and human nature making it dangerous to even try.
+We'll talk about how Network Time Protocol (NTP) sets your clock to the correct time despite the laws of physics making that impossible to do and human nature making it dangerous to even try.
 
 **Joel** is a developer, cyclist, and maker in Brooklyn and he knows what a cliché he sounds like but he's okay with that. He spends his days building things at [Postlight Studios](https://postlight.com/).
 
