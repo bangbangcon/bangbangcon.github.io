@@ -170,11 +170,11 @@ Om Nom Nom is a game about cute forest creatures eating each other. We can (almo
 
 **_"Corruption in the Data Center! TCP can fail to keep your data safe!"_**
 
-TCP has a checksum, and Ethernet has a CRC, both of which detect corrupt data. The math says this should make it extremely unlikely for applications talking to each other inside a data center using TCP to receive corrupt data. Unfortunately, it can happen. When it happened at [ANON: prominent tech company] it took a team of a few dozens people and multiple days to clean up the mess.
+TCP has a checksum and Ethernet has a CRC, both of which detect corrupt data. The math says this should make it extremely unlikely for applications talking to each other inside a data center to receive corrupt data. Unfortunately, it still happens. When it happened at Twitter it took a team of a few dozens people and multiple days to clean up the mess.
  
- I'll talk about how we discovered that our applications were receiving corrupt data, and what we did to stop the bleeding. Then I'll walk though a high level overview of TCP, Ethernet, and switches to show how corruption can sneak past the CRC and checksum defenses. Finally, I'll describe how you can protect your applications by adding a strong CRC or using encryption.
+I'll talk about how we discovered that our applications were receiving corrupt data, and what we did to stop the bleeding. Then I'll walk though a high level overview of TCP, Ethernet, and switches to show how corruption can sneak past the CRC and checksum defenses. Finally, I'll describe how you can protect your applications by adding a strong CRC or using encryption.
 
-**Evan** is a software engineer at Bluecore in New York, but was at Twitter at the time of this particular incident. He gets obsessed with technical problems that he doesn't understand, and writes about them on his web site so he never has to think about them again.
+**Evan** is a software engineer at Bluecore in New York, but was at Twitter at the time of this particular incident. He gets obsessed with technical problems that he doesn't understand, and writes about them [on his web site](http://www.evanjones.ca) so he never has to think about them again.
 
 ---
 
