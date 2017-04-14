@@ -421,11 +421,11 @@ The massively-multiplayer game Eve Online slows down the in-game clock when ther
 
 ### Richard Harrington
 
-**_"BEEP!! ]▯ See AppleSoft BASIC and 6502 machine language written on an actual Apple IIc from the 80s! Fresh on startup with no software installed!"_**
+**_"BEEP!! ]<span style="font-size: 1.25em;">▯</span> See AppleSoft BASIC and 6502 assembly language written on an actual Apple IIc from the 80s! Fresh on startup with no software installed!"_**
 
-What’s the first thing you see when you turn on your computer? Back in the day (1982 or thereabouts), on the Apple II+/e/c, it was a BASIC prompt! You had no choice but to start programming, and it was easy because it was BASIC! Not only that, you could drop down to a machine language prompt and start entering instructions in the 6502 processor language! We’ll write a short animation program in BASIC, a subroutine in 6502 machine language, and call the latter from the former, all with no software installed but the ROM that came with the computer! (Speaker’s actual Apple IIc from childhood used in talk!)
+What’s the first thing you see when you turn on your computer? Back in the day (1983 or thereabouts) on the Apple II+/e/c, it was a command prompt and a blinking cursor! You had no choice but to start programming, and it was easy because it was BASIC! You could even drop down to an assembly language prompt and start poking around and entering instructions in the idiom of the 6502 processor itself! We’ll write a short animation program in BASIC, a subroutine in 6502 assembly, and call the latter from the former, all with no software installed but the ROM that came with the computer! (Speaker’s actual Apple IIc from childhood used in talk!)
 
-**Richard Harrington** started programming on an Apple IIc in 1979, ran away from programming in 1983 for the theater when he was 14 years old, and returned to his first love 25 years later, after touring the world with (among other things) a clown show called Motel California, the heartwarming tale of a ruthless Belgian mercenary who gives up his life of killing for the cabaret. Ricahrd is currently a software engineer at SoundCloud.
+**Richard Harrington** started programming in 1980, ran away for the theater in 1985 at the age of 14, then returned to his first love 25 years later, after touring the world with (among other things) a clown show called Motel California: the heartwarming tale of a ruthless Belgian mercenary who gives up his life of killing for the cabaret. Richard is currently a software engineer at SoundCloud.
 
 ---
 
