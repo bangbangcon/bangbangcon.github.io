@@ -303,23 +303,28 @@ One day, I came back from lunch to discover everyone's copy of Chrome wouldn't s
 ---
 
 <a name="kevin-chen" id="kevin-chen"></a>
-<img src="images/speakers/kevin-chen.png" alt="Kevin Chen" class="speaker-img" />
+<img src="images/speakers/kevin-chen.jpg" alt="Kevin Chen" class="speaker-img" />
 
 ### Kevin Chen
 
-**_"HDR photography in Microsoft Excel?! How I learned to stop fearing papers"_**
+**_"HDR photography in Microsoft Excel?!"_**
 
-As any photographer will tell you, high dynamic range photography is the right way to solve your problem. As any businessperson will tell you, spreadsheets are the right platform to implement your solution.
- 
- In this talk, I'll explain the math behind one of the foundational papers of the high dynamic range algorithm used in all camera apps today. Turns out, it's just a linear regression! So the obvious and sane thing to do is to do some image processing in Microsoft Excel.
- 
- ---
- 
- I also wrote this about my motivation for giving this talk, but I'm not sure where it fits in the abstract:
- 
- There's a lot of great information contained in research papers, but there's also a lot of formally worded sentences and scary-looking equations. But not to fear! Many of the core ideas behind important papers in computer science are actually simple and easy to understand.
+Have you ever taken a photo with areas that are too bright or too
+dark? As any photographer will tell you, high dynamic range
+photography is the right way to solve your problem. And, as any
+businessperson will tell you, Microsoft Excel is the right platform to
+implement your solution.
 
-**Kevin** is very good at forgetting about conference talk proposals until a few minutes before the deadline.
+In this talk, I'll explain the algorithm from one of the foundational
+papers about HDR imaging --- no prior image processing knowledge
+required. Turns out, it's just a system of linear equations! So,
+obviously, the next step is to implement HDR in a spreadsheet. Because
+we can. The end result reveals how this complicated-sounding algorithm
+boils down to a few simple ideas.
+
+[**Kevin**](https://kevinchen.co/) is an amateur photographer and
+Microsoft Office enthusiast. He also studies computer science at
+Columbia University.
 
 ---
 
