@@ -132,6 +132,23 @@ I'll talk about how we discovered that our applications were receiving corrupt d
 
 ---
 
+<a name="ewan-dennis" id="ewan-dennis"></a>
+<img src="images/speakers/ewan-dennis.png" alt="Ewan Dennis" class="speaker-img" />
+
+### Ewan Dennis
+
+**_Why So Loud! Geeking Out On Airline Data, Physics And Mapping._**
+
+We were looking for a new place to live in sunny Scotland. I found myself eerily familiar with our preferred town because it's on the local airport approach path.
+
+What followed was a nerd montage of tracking flight paths by API, researching jet noise propagation effects, plotting heatmaps and making family relocation plans.
+
+This talk is that story.
+
+**Ewan** is a career geek/autodidact with some pretty varied experience (scientific visualisation, games, app security, cloud infra) who has been remiss in the extreme about giving back to the community that spawned him. **Ewan**'s mission now is to share all the interesting tech ideas he can; to engage, entertain, encourage, support and wherever possible to engender the same ooh-howz-that-thing-work inquisitiveness he feels every day. Ewan can be found on [Twitter](https://twitter.com/ewanovitch) with longer occasional outpourings on [CloudyGoo](http://www.cloudygoo.com/).
+
+---
+
 <a name="geoffrey-litt" id="geoffrey-litt"></a>
 <img src="images/speakers/geoffrey-litt.png" alt="Geoffrey Litt" class="speaker-img" />
 
@@ -243,6 +260,19 @@ Columbia University.
 
 ---
 
+<a name="mindy-preston" id="mindy-preston"></a>
+<img src="images/speakers/mindy-preston.png" alt="Mindy Preston" class="speaker-img" />
+
+### Mindy Preston
+
+**_DHCP: IT'S MOSTLY YELLING!!_**
+
+The Dynamic Host Configuration Protocol (DHCP to its friends) is the magic by which your laptop knows how to get to Twitter on a brand new network about which it knows nothing. DHCP can tell your computer what its address should be, and where it should go to connect out to other networks. It can also tell your laptop weird stuff, like that it should run all the traffic through a proxy you've never heard of!!  IT ALSO WORKS MOSTLY BY YELLING!
+
+**Mindy** likes cats and programming in OCaml.  She mostly works on Mirage, a library operating system that generates unikernels.  She has been a professional DHCP understander since 2003.
+
+---
+
 <a name="richard-harrington" id="richard-harrington"></a>
 <img src="images/speakers/richard-harrington.png" alt="Richard Harrington" class="speaker-img" />
 
@@ -253,6 +283,31 @@ Columbia University.
 <img src="images/speakers/richard-harrington/apple2prompt.gif" width="35px" /> What’s the first thing you see when you turn on your computer? Back in the day (1983 or thereabouts) on the Apple II+/e/c, it was a command prompt and a blinking cursor! You had no choice but to start programming, and it was easy because it was BASIC! You could even drop down to an assembly language prompt and start poking around and entering instructions in the idiom of the 6502 processor itself! We’ll write a short animation program in BASIC, a subroutine in 6502 assembly, and call the latter from the former, all with no software installed but the ROM that came with the computer! (Speaker’s actual Apple IIc from childhood used in talk!)
 
 **Richard Harrington** started programming in 1980, ran away from it for the theater in 1984 at the age of 15, then returned to his first love 25 years later, after touring the world with (among other things) a clown show called Motel California: the heartwarming tale of a ruthless Belgian mercenary who gives up his life of killing for the cabaret. Richard is currently a software engineer at SoundCloud.
+
+---
+
+<a name="walt-mankowski" id="walt-mankowski"></a>
+<img src="images/speakers/walt-mankowski.png" alt="Walt Mankowski" class="speaker-img" />
+
+### Walt Mankowski
+
+**_A punch card ate my program!_**
+
+COBOL is the Rodney Dangerfield of programming languages — it doesn't get any respect. COBOL is routinely denigrated for its verbosity and dismissed as archaic, and for good reason: COBOL bears little to no resemblance to modern programming languages. Yet COBOL is far from a dead language. It processes an estimated 85% of all business transactions, and 5 billion lines of new COBOL code are written every year!
+
+In the past I've argued that COBOL isn't such a bad language, but I'm not going to do that here! Instead, we'll journey deep into the past to recreate a retro bug that could only happen in COBOL! Our travels will include:
+
+* syntactic white space!
+* scotch tape!
+* dueling compiler options!
+* virtual punch cards!
+* sentences!
+* code blocks!
+* periods!
+
+No punch cards were harmed in the creation of this talk.
+
+**Walt Mankowski** is a recovering ivory tower computer scientist who recently completed a postdoc working with biologists to process and visualize terabytes of 2D and 3D time lapse microscope images. In his past life he spent 10 years as a COBOL programmer at a major cable home shopping network. He enjoys Perl, regular expressions, high-performance computing, and Futurama.
 
 ---
 
