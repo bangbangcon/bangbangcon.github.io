@@ -205,10 +205,10 @@ We were looking for a new place to live in [ANON: european country]. I found mys
 **_"ENHANCE! Upscaling images with neural networks"_**
 
 When characters on a TV show “enhance!” a blurry image, you probably laugh and tell your friends that it’s impossible to do that in real life. But over the past year, deep learning research has actually made this kind of possible! How will you explain this to your friends!?
- 
- In this talk, you’ll get an intuitive introduction to Generative Adversarial Networks, a new type of neural network that’s surprisingly good at upscaling images. You’ll learn how these systems are inspired by human art forgers, and how you can use them to generate fake photographs, convert 2D images to 3D models, and so much more!
 
-**Geoffrey** is an engineer at Panorama Education, building software to help schools improve. He enjoys writing Ruby and playing the cello.
+ In this talk, you’ll get an intuitive introduction to Generative Adversarial Networks, a new machine learning technique that’s surprisingly good at upscaling images. You’ll learn how these systems are inspired by human art forgers, and how you can use them to do other things like transform a horse into a zebra, convert a sentence into a photo, and so much more!
+
+**Geoffrey** builds software for public schools at Panorama Education. He enjoys learning about machine learning and playing the cello, and occassionally posts on his [blog](http://geoffreylitt.com/).
 
 ---
 
