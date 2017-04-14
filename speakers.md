@@ -132,23 +132,6 @@ I'll talk about how we discovered that our applications were receiving corrupt d
 
 ---
 
-<a name="ewan-dennis" id="ewan-dennis"></a>
-<img src="images/speakers/ewan-dennis.png" alt="Ewan Dennis" class="speaker-img" />
-
-### Ewan Dennis
-
-**_Why So Loud! Geeking Out On Airline Data, Physics And Mapping._**
-
-We were looking for a new place to live in [ANON: european country]. I found myself eerily familiar with our preferred town because it's on the local airport approach path.
- 
- What followed was a nerd montage of tracking flight paths by API, researching jet noise propagation effects, plotting heatmaps and making family relocation plans.
- 
- This talk is that story.
-
-**Ewan** is a career geek/autodidact with some pretty varied experience (scientific visualisation, games, app security, cloud infra) who has been remiss in the extreme about giving back to the community that spawned him. **Ewan**'s mission now is to share all the interesting tech ideas he can; to engage, entertain, encourage, support and wherever possible to engender the same ooh-howz-that-thing-work inquisitiveness he feels every day. Ewan can be found on [Twitter](https://twitter.com/ewanovitch) with longer occasional outpourings on [CloudyGoo](http://www.cloudygoo.com/).
-
----
-
 <a name="geoffrey-litt" id="geoffrey-litt"></a>
 <img src="images/speakers/geoffrey-litt.png" alt="Geoffrey Litt" class="speaker-img" />
 
