@@ -58,9 +58,213 @@ is a 100% woman-owned company.
 
 ---
 
-<a name="speakers" id="speakers"></a>
-
 ## Speakers
 
-Our 2017 [call for talk proposals](give-a-talk.html) is now closed.
-Watch this space for an announcement of our 2017 speaker lineup!
+<a name="aaron-levin" id="aaron-levin"></a>
+<img src="images/speakers/aaron-levin.png" alt="Aaron Levin" class="speaker-img" />
+
+### Aaron Levin
+
+**_Finding Friends in High Dimensions: Locality-Sensitive Hashing For Fun and Friendliness!_**
+
+When you live in the big city, finding everyone's nearest neighbours takes a long time! Our judicious city planners have conjured a technique using randomness, hyperplanes, buckets, lexical sorting, and binary numbers to get the job done approximately and fast. Really fast. They call it locality-sensitive hashing and management loves the idea. But it sounds too good to be true!
+ 
+ In this talk we'll explore locality-sensitive hashing, a technique to turn the computationally expensive exact nearest-neighbor search problem into an inexpensive approximate solution (it's a neat trick and I promise you'll love it). We'll see how locality-sensitive hashing is used in image search, recommendations, and other machine learning problems. And of course, we'll mention [deep hashing](https://cs.nju.edu.cn/lwj/L2H.html#deep-hashing), because why not?
+
+**Aaron Levin** is a mathematician who fell in love with programming and now manages Data Science teams at SoundCloud. Aaron found a rare record once and wrote about it on [Weird Canada](https://weirdcanada.com).
+
+---
+
+<a name="andrew-plotkin" id="andrew-plotkin"></a>
+<img src="images/speakers/andrew-plotkin.png" alt="Andrew Plotkin" class="speaker-img" />
+
+### Andrew Plotkin
+
+**_Glk! A universal user interface! for interactive fiction!_**
+
+In 1997, I set out to extend Infocom's Z-machine to support modern interactive fiction. Surprisingly, many of my design decisions turned out to be clever! Glk is now a thriving software ecosystem which supports many IF platforms, interpreters, and other tools. It's also hard to pronounce Glk.
+ 
+ Hear a twenty-year tale of interpreter support! Discover how my C API evolved into a JavaScript API and a JSON data format while still being hard to pronounce! Marvel at how my attempt at a universal user interface was an inevitable failure, but still lets us do some really cool things! Wonder when I will get around to shipping Glk 2.0!
+
+**Andrew Plotkin** has been working on interactive fiction and stuff like that for a very long time. He works as an indie game developer in Boston and helps run an IF meetup, an IF nonprofit, and occasionally things that are not directly related to IF. He also bakes cookies.
+
+
+---
+
+<a name="charles-chamberlain" id="charles-chamberlain"></a>
+<img src="images/speakers/charles-chamberlain.png" alt="Charles Chamberlain" class="speaker-img" />
+
+### Charles Chamberlain
+
+**_Serious programming with jq?! A practical and purely functional programming language!_**
+
+Ever heard of jq? If so, chances are you've used it to format and syntax-highlight your json. You might have even used something like `jq '.foos[]'` to print each foo! But did you know jq has user-defined functions? That jq has modules? Get ready to take a dive into the wondrous and purely functional land of the jq programming language!
+
+**Charles** is a 20-year-old undergrad. He spend the last year at Uber, and is now working on a math major at UChicago. He likes writing compilers while drinking probably too much tea.
+
+---
+
+<a name="christian-joudrey" id="christian-joudrey"></a>
+<img src="images/speakers/christian-joudrey.png" alt="Christian Joudrey" class="speaker-img" />
+
+### Christian Joudrey
+
+**_Writing NES games! with assembly!!_**
+ 
+I'd like to take you on a stroll down memory lane and dig into the internals of the Nintendo Entertainment System (NES) to figure out how it works. While we're there, we'll see how to build a game for the NES using 6502 assembly with the help of a few modern tools. We'll gain a new found respect for 80s developers and an appreciation for the high-level languages we have today!
+
+**Christian** is a self-taught developer based in Montreal. At a young age he discovered Visual Basic 6 on his home computer and instantly fell in love with programming. When he is not reading about technology and programming, you may find him rock climbing, cooking or drinking a stout.
+
+---
+
+<a name="evan-jones" id="evan-jones"></a>
+<img src="images/speakers/evan-jones.png" alt="Evan Jones" class="speaker-img" />
+
+### Evan Jones
+
+**_Corruption in the Data Center! TCP can fail to keep your data safe!_**
+
+TCP has a checksum and Ethernet has a CRC, both of which detect corrupt data. The math says this should make it extremely unlikely for applications talking to each other inside a data center to receive corrupt data. Unfortunately, it still happens. When it happened at Twitter it took a team of a few dozen people and multiple days to clean up the mess.
+ 
+I'll talk about how we discovered that our applications were receiving corrupt data, and what we did to stop the bleeding. Then I'll walk though a high-level overview of TCP, Ethernet, and switches to show how corruption can sneak past the CRC and checksum defenses. Finally, I'll describe how you can protect your applications by adding a strong CRC or using encryption.
+
+**Evan** is a software engineer at Bluecore in New York, but was at Twitter at the time of this particular incident. He gets obsessed with technical problems that he doesn't understand, and writes about them [on his web site](http://www.evanjones.ca) so he never has to think about them again.
+
+---
+
+<a name="geoffrey-litt" id="geoffrey-litt"></a>
+<img src="images/speakers/geoffrey-litt.png" alt="Geoffrey Litt" class="speaker-img" />
+
+### Geoffrey Litt
+
+**_ENHANCE! Upscaling images with neural networks_**
+
+When characters on a TV show “enhance!” a blurry image, you probably laugh and tell your friends that it’s impossible to do that in real life. But over the past year, deep learning research has actually made this kind of possible! How will you explain this to your friends!?
+
+ In this talk, you’ll get an intuitive introduction to generative adversarial networks, a new machine learning technique that’s surprisingly good at upscaling images. You’ll learn how these systems are inspired by human art forgers, and how you can use them to do other things like transform a horse into a zebra, convert a sentence into a photo, and so much more!
+
+**Geoffrey** builds software for public schools at Panorama Education. He enjoys learning about machine learning and playing the cello, and occassionally posts on his [blog](http://geoffreylitt.com/).
+
+---
+
+<a name="jan-mitsuko-cash" id="jan-mitsuko-cash"></a>
+<img src="images/speakers/jan-mitsuko-cash.png" alt="Jan Mitsuko Cash" class="speaker-img" />
+
+### Jan Mitsuko Cash
+
+**_What alien invaders, birds, and computer simulations have in common: flocking!!_**
+
+Real flocks aren't what they're like in the movies.
+ You've probably seen flocking behavior in The Avengers, the latest Star Trek movie, or even in The Ender's Game books. Flocks are groups of individuals, usually birds (or invading aliens when it comes to Sci-Fi), that are collectively moving together. The flocks in movies show individuals forming complex patterns, but they're all easily taken down by targeting a centralized point of command. In reality, flocking behavior is a lot simpler and there doesn't need to be any coordination between individuals--that means your favorite protagonists probably wouldn't have won when they came up against flocks!
+
+**Jan** is an editor at No Starch Press and freelance Japanese to English translator. Sometimes she programs, usually with turtles.
+
+---
+
+<a name="jason-mcintosh" id="jason-mcintosh"></a>
+<img src="images/speakers/jason-mcintosh.png" alt="Jason McIntosh" class="speaker-img" />
+
+### Jason McIntosh
+
+**_I wrote a polite email to a dead address in a PDF on the wayback machine and now I know where all the airplanes are!!!_**
+
+I spent a chunk of 2016 making a web application for myself and other nervous air passengers called BumpySkies. You can plug an upcoming flight into it and it tells you when you can expect to hit turbulence and how bad it'll be. Still kinda scary, but at least it'll surprise you less.
+ 
+ I wanna tell you about how I made it, because I had to exercise my skills at social engineering — the good kind! — at least as much as software engineering. BumpySkies came about through finding in myself an uncharacteristic willingness to approach complete strangers, asking them politely for access to tools or data, and feeling surprised at how well it worked, time and again.
+
+**Jason McIntosh** is a freelance software engineer, game-design consultant, and writer. He lives variously in and around New England. His homepage is at jmac.org, and he blogs regularly at fogknife.com.
+
+---
+
+<a name="jes-wolfe!" id="jes-wolfe!"></a>
+<img src="images/speakers/jes-wolfe!.png" alt="Jes Wolfe!" class="speaker-img" />
+
+### Jes Wolfe!
+
+**_Synthesizing video and turning it into music!_**
+
+I like finding ways to use technology for things that it wasn't originally meant to do. In this talk, I'll take you on a tour of a rabbit hole I followed recently: Using a web browser's 3D graphics capabilities to generate 2D video, and then converting the data in that video into sound, to produce music.
+
+**Jes Wolfe!** is a computer programmer who, in some contexts, refers to themself as an "artist" and/or "musician", and is especially interested in the artistic consequences of algorithms. They live in a house in the woods in Portland, Oregon and currently work at GitHub.
+
+---
+
+<a name="joel-potischman" id="joel-potischman"></a>
+<img src="images/speakers/joel-potischman.png" alt="Joel Potischman" class="speaker-img" />
+
+### Joel Potischman
+
+**_What the heck time is it?!?_**
+
+To set your computer's clock just set it to match an atomic clock on the internet. Oh wait, don't forget to account for the time the request takes. Oh wait, and for the time the response takes. Oh and that request and response times might be different. Oh and that if you need to set your clock back your logs and transactions will be out of order (hello bank transfer hacks!). Oh and this needs to work for several billion devices on the internet doing this all day every day forever. Oh and if you do it wrong Very Bad Things Can Happen (bricked iPhones! broken TLS!)
+ 
+We'll talk about how Network Time Protocol (NTP) sets your clock to the correct time despite the laws of physics making that impossible to do and human nature making it dangerous to even try.
+
+**Joel** is a developer, cyclist, and maker in Brooklyn and he knows what a cliché he sounds like but he's okay with that. He spends his days building things at [Postlight Studios](https://postlight.com/).
+
+---
+
+<a name="julian-squires" id="julian-squires"></a>
+<img src="images/speakers/julian-squires.png" alt="Julian Squires" class="speaker-img" />
+
+### Julian Squires
+
+**_"The emoji that killed Chrome!!"_**
+
+One day, I came back from lunch to discover everyone's copy of Chrome wouldn't stop crashing!! How could turning on a printer downstairs cause an office-wide browser outage!?! A glorious part of programming is when a bug reveals the delicate fragility of a system far beyond its scope! Tracing down the culprit will take us on a journey through Unicode, mDNS, gdb, tcpdump, tcpreplay, and Objective-C!!
+
+**Julian** is an eccentric layabout in Montreal, Canada.  He gets paid to slowly program computers fastly.
+
+---
+
+<a name="kevin-chen" id="kevin-chen"></a>
+<img src="images/speakers/kevin-chen.jpg" alt="Kevin Chen" class="speaker-img" />
+
+### Kevin Chen
+
+**_HDR photography in Microsoft Excel?!_**
+
+Have you ever taken a photo with areas that are too bright or too
+dark? As any photographer will tell you, high dynamic range
+photography is the right way to solve your problem. And, as any
+businessperson will tell you, Microsoft Excel is the right platform to
+implement your solution.
+
+In this talk, I'll explain the algorithm from one of the foundational
+papers about HDR imaging --- no prior image processing knowledge
+required. Turns out, it's just a system of linear equations! So,
+obviously, the next step is to implement HDR in a spreadsheet. Because
+we can. The end result reveals how this complicated-sounding algorithm
+boils down to a few simple ideas.
+
+[**Kevin**](https://kevinchen.co/) is an amateur photographer and
+Microsoft Office enthusiast. He also studies computer science at
+Columbia University.
+
+---
+
+<a name="richard-harrington" id="richard-harrington"></a>
+<img src="images/speakers/richard-harrington.png" alt="Richard Harrington" class="speaker-img" />
+
+### Richard Harrington
+
+**_BEEP!! See AppleSoft BASIC and 6502 assembly language written on an actual Apple IIc from the 80s! Fresh on startup with no software installed!_**
+
+<img src="images/speakers/richard-harrington/apple2prompt.gif" width="35px" /> What’s the first thing you see when you turn on your computer? Back in the day (1983 or thereabouts) on the Apple II+/e/c, it was a command prompt and a blinking cursor! You had no choice but to start programming, and it was easy because it was BASIC! You could even drop down to an assembly language prompt and start poking around and entering instructions in the idiom of the 6502 processor itself! We’ll write a short animation program in BASIC, a subroutine in 6502 assembly, and call the latter from the former, all with no software installed but the ROM that came with the computer! (Speaker’s actual Apple IIc from childhood used in talk!)
+
+**Richard Harrington** started programming in 1980, ran away from it for the theater in 1984 at the age of 15, then returned to his first love 25 years later, after touring the world with (among other things) a clown show called Motel California: the heartwarming tale of a ruthless Belgian mercenary who gives up his life of killing for the cabaret. Richard is currently a software engineer at SoundCloud.
+
+---
+
+<a name="yomna-nasser" id="yomna-nasser"></a>
+<img src="images/speakers/yomna-nasser.png" alt="Yomna Nasser" class="speaker-img" />
+
+### Yomna Nasser
+
+**_Islamic Geometry: Hankin’s Polygons in Contact Algorithm!!!_**
+
+In this talk we will go over Hankin’s “Polygons in Contact” algorithm, a technique for generating common patterns encountered in Islamic geometry, and some variations on it. There will be an introduction to tiling theory, quite a few pretty pictures, and two (!!) interactive examples in JavaScript.
+
+We’ll also briefly touch on the historical and cultural aspects of this kind of geometry!
+
+**Yomna** likes collecting musical instruments, discrete mathematics, cooking, and cold, dark rooms. She is a Technology Fellow at the EFF, and can be contacted via <a href="https://twitter.com/yomnapple">Twitter</a>.
