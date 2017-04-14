@@ -88,6 +88,18 @@ In 1997, I set out to extend Infocom's Z-machine to support modern interactive f
 
 **Andrew Plotkin** has been working on interactive fiction and stuff like that for a very long time. He works as an indie game developer in Boston and helps run an IF meetup, an IF nonprofit, and occasionally things that are not directly related to IF. He also bakes cookies.
 
+---
+
+<a name="bomani-mcclendon" id="bomani-mcclendon"></a>
+<img src="images/speakers/bomani-mcclendon.png" alt="Bomani McClendon" class="speaker-img" />
+
+### Bomani McClendon
+
+**_Making Mushrooms Glow!_**
+
+In just over a month, we built the software and electronics for [Shrumen Lumen](https://www.facebook.com/ShrumenLumen/) – an interactive art installation comprised of five huge, glowing, origami mushrooms that move in reaction to human contact. Shrumen Lumen was presented at Burning Man '16' and at the MeetD3 festival in Dubai's Design District. I'll share what I learned about building software for rapidly testing interaction design concepts, and my experiences controlling these large contraptions with Node.js (yes, JavaScript!), Raspberry Pis, Pixelpushers, Processing, and more.
+
+**Bomani** is a software engineer, designer, and learning sciences researcher. He is currently a senior in Computer Science at Northwestern. Bomani is passionate about creating memorable digital experiences, and works with various creative collectives focused on music and art. 
 
 ---
 
@@ -183,7 +195,7 @@ Real flocks aren't what they're like in the movies.
 
 ### Jason McIntosh
 
-**_I wrote a polite email to a dead address in a PDF on the wayback machine and now I know where all the airplanes are!!!_**
+**_I wrote to a dead address in a deleted PDF and now I know where all the airplanes are!!_**
 
 I spent a chunk of 2016 making a web application for myself and other nervous air passengers called BumpySkies. You can plug an upcoming flight into it and it tells you when you can expect to hit turbulence and how bad it'll be. Still kinda scary, but at least it'll surprise you less.
  
