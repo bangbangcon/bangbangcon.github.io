@@ -335,3 +335,7 @@ In this talk we will go over Hankin’s “Polygons in Contact” algorithm, a t
 We’ll also briefly touch on the historical and cultural aspects of this kind of geometry!
 
 **Yomna** likes collecting musical instruments, discrete mathematics, cooking, and cold, dark rooms. She is a Technology Fellow at the EFF, and can be contacted via <a href="https://twitter.com/yomnapple">Twitter</a>.
+
+---
+
+...and more!  The rest of our speaker list will be announced soon!
