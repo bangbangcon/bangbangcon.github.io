@@ -112,7 +112,7 @@ In just over a month, we built the software and electronics for [Shrumen Lumen](
 
 Ever heard of jq? If so, chances are you've used it to format and syntax-highlight your json. You might have even used something like `jq '.foos[]'` to print each foo! But did you know jq has user-defined functions? That jq has modules? Get ready to take a dive into the wondrous and purely functional land of the jq programming language!
 
-**Charles** is a 20-year-old undergrad. He spend the last year at Uber, and is now working on a math major at UChicago. He likes writing compilers while drinking probably too much tea.
+**Charles** is a 20-year-old undergrad. He spent the last year at Uber, and is now working on a math major at UChicago. He likes writing compilers while drinking probably too much tea.
 
 ---
 
@@ -202,6 +202,26 @@ I spent a chunk of 2016 making a web application for myself and other nervous ai
  I wanna tell you about how I made it, because I had to exercise my skills at social engineering — the good kind! — at least as much as software engineering. BumpySkies came about through finding in myself an uncharacteristic willingness to approach complete strangers, asking them politely for access to tools or data, and feeling surprised at how well it worked, time and again.
 
 **Jason McIntosh** is a freelance software engineer, game-design consultant, and writer. He lives variously in and around New England. His homepage is at jmac.org, and he blogs regularly at fogknife.com.
+
+---
+
+<a name="jean-cochrane" id="jean-cochrane"></a>
+<img src="images/speakers/jean-cochrane.png" alt="Jean Cochrane" class="speaker-img" />
+
+### Jean Cochrane
+
+**_The TOP 5 Queer Feminist Cyberpunk Manifestos!_**
+
+> “Our lot is cast with technoscience, where nothing is so sacred that it cannot be reengineered and transformed so as to widen our aperture of freedom, extending to gender and the human. To say that nothing is sacred, that nothing is transcendent or protected from the will to know, to tinker and to hack, is to say that nothing is supernatural.” 
+- Xenofeminism: A Politics for Alienation (Laboria Cuboniks)
+ 
+ Who were the cyberfeminists? Why has practically no one heard of them? And what might it look like to hack your gender?
+ 
+ For answers to these questions and more, join us on a whirlwind tour of the hidden history of cyberfeminisms, catalogued through the DIY manifesto form. We’ll rank the best of the best, adapting this rich intellectual legacy to reconcile our own relationships to computing tools (our phones, our laptops, our bodies) in the emergent techno-dystopia of the present.
+ 
+ Remember: the first computers were women. Why shouldn’t the last women be computers?
+
+**Jean Cochrane** is a civic hacker from the South Side of Chicago interested in scalable challenges to the most dire injustices of our time, including transgenerational poverty, mass incarceration, and the criminalization of migrants. At DataMade, she leverages contemporary data practices to help empower journalists and advocacy organizations. It’s been five years and she’s still trying to figure out how to recover from critical theory.
 
 ---
 
@@ -295,6 +315,49 @@ The Dynamic Host Configuration Protocol (DHCP to its friends) is the magic by wh
 <img src="images/speakers/richard-harrington/apple2prompt.gif" width="35px" /> What’s the first thing you see when you turn on your computer? Back in the day (1983 or thereabouts) on the Apple II+/e/c, it was a command prompt and a blinking cursor! You had no choice but to start programming, and it was easy because it was BASIC! You could even drop down to an assembly language prompt and start poking around and entering instructions in the idiom of the 6502 processor itself! We’ll write a short animation program in BASIC, a subroutine in 6502 assembly, and call the latter from the former, all with no software installed but the ROM that came with the computer! (Speaker’s actual Apple IIc from childhood used in talk!)
 
 **Richard Harrington** started programming in 1980, ran away from it for the theater in 1984 at the age of 15, then returned to his first love 25 years later, after touring the world with (among other things) a clown show called Motel California: the heartwarming tale of a ruthless Belgian mercenary who gives up his life of killing for the cabaret. Richard is currently a software engineer at SoundCloud.
+
+---
+
+<a name="ruchir-khaitan" id="ruchir-khaitan"></a>
+<img src="images/speakers/ruchir-khaitan.png" alt="Ruchir Khaitan" class="speaker-img" />
+
+### Ruchir Khaitan
+
+**_Interpolation Search Can Be Fast, in Some Situations, Sometimes, If You Try_**
+
+When was the last time you binary searched a phone book? Never? What, you've never used a phone book? Okay, fine, I've never actually used a phone book for anything other than a doorstop either. But, if I had to search in one I would use interpolation search. It's the ideal search algorithm / data structure for searching large arrays repeatedly. And with a little bit of operator-strength reducing math sorcery, it's not just theoretically fast, it's also useful in real life!
+
+**Ruchir** loves making computers go faster. He also loves eating, cooking and thinking about his next meal. He works on the Real Time Platform Team at AppNexus.
+
+---
+
+<a name="scott-vokes" id="scott-vokes"></a>
+<img src="images/speakers/scott-vokes.png" alt="Scott Vokes" class="speaker-img" />
+
+### Scott Vokes
+
+**_How do Keyboards Work? HIDing, in Plain Sight!!_**
+
+We spend a lot of time with our keyboards. How do they work? How does pushing dozens of keys on a board transmute into text, code, and commands that control computers?
+ 
+ I have been building a keyboard from scratch, and I'll talk about the different pieces: from the circuit that connects the key switches to the firmware that reads them and presents everything in USB. I'll also have some tips if you want to make your own keyboard, Emacs foot pedals, or other Human Interface Devices.
+
+**Scott** is a senior software engineer at Helium, where he works on embedded and distributed systems.
+
+---
+
+<a name="tara-vancil" id="tara-vancil"></a>
+<img src="images/speakers/tara-vancil.png" alt="Tara Vancil" class="speaker-img" />
+
+### Tara Vancil
+
+**_How Merkle trees enable the decentralized Web!_**
+
+Decentralized networks operate without relying on a central source of truth, and instead rely on group coordination in order to establish a shared state. Trust is distributed among participants, so to have confidence that each participant is telling the truth, there must be a mechanism for guaranteeing that participants have not accidentally corrupted or intentionally tampered with the system's state.
+
+Enter the Merkle tree, a data structure that was patented in 1979, and because of its unique content validating and performance qualities, has since become the backbone of decentralized software like Git, BitTorrent, ZFS, and Ethereum.
+
+**Tara** helps build Beaker, a browser for the peer-to-peer Web. She's enthusiastic about decentralizing the Web, and thinks that peer-to-peer protocols will reinvigorate the creativity of the Web's early days.
 
 ---
 
