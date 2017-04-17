@@ -112,7 +112,7 @@ In just over a month, we built the software and electronics for [Shrumen Lumen](
 
 Ever heard of jq? If so, chances are you've used it to format and syntax-highlight your json. You might have even used something like `jq '.foos[]'` to print each foo! But did you know jq has user-defined functions? That jq has modules? Get ready to take a dive into the wondrous and purely functional land of the jq programming language!
 
-**Charles** is a 20-year-old undergrad. He spend the last year at Uber, and is now working on a math major at UChicago. He likes writing compilers while drinking probably too much tea.
+**Charles** is a 20-year-old undergrad. He spent the last year at Uber, and is now working on a math major at UChicago. He likes writing compilers while drinking probably too much tea.
 
 ---
 
