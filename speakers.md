@@ -318,6 +318,34 @@ The Dynamic Host Configuration Protocol (DHCP to its friends) is the magic by wh
 
 ---
 
+<a name="ruchir-khaitan" id="ruchir-khaitan"></a>
+<img src="images/speakers/ruchir-khaitan.png" alt="Ruchir Khaitan" class="speaker-img" />
+
+### Ruchir Khaitan
+
+**_Interpolation Search Can Be Fast, in Some Situations, Sometimes, If You Try_**
+
+When was the last time you binary searched a phone book? Never? What, you've never used a phone book? Okay, fine, I've never actually used a phone book for anything other than a doorstop either. But, if I had to search in one I would use interpolation search. It's the ideal search algorithm / data structure for searching large arrays repeatedly. And with a little bit of operator-strength reducing math sorcery, it's not just theoretically fast, it's also useful in real life!
+
+**Ruchir** loves making computers go faster. He also loves eating, cooking and thinking about his next meal. He works on the Real Time Platform Team at AppNexus.
+
+---
+
+<a name="scott-vokes" id="scott-vokes"></a>
+<img src="images/speakers/scott-vokes.png" alt="Scott Vokes" class="speaker-img" />
+
+### Scott Vokes
+
+**_How do Keyboards Work? HIDing, in Plain Sight!!_**
+
+We spend a lot of time with our keyboards. How do they work? How does pushing dozens of keys on a board transmute into text, code, and commands that control computers?
+ 
+ I have been building a keyboard from scratch, and I'll talk about the different pieces: from the circuit that connects the key switches to the firmware that reads them and presents everything in USB. I'll also have some tips if you want to make your own keyboard, Emacs foot pedals, or other Human Interface Devices.
+
+**Scott** is a senior software engineer at Helium, where he works on embedded and distributed systems.
+
+---
+
 <a name="tara-vancil" id="tara-vancil"></a>
 <img src="images/speakers/tara-vancil.png" alt="Tara Vancil" class="speaker-img" />
 
