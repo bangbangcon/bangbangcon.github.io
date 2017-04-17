@@ -205,6 +205,26 @@ I spent a chunk of 2016 making a web application for myself and other nervous ai
 
 ---
 
+<a name="jean-cochrane" id="jean-cochrane"></a>
+<img src="images/speakers/jean-cochrane.png" alt="Jean Cochrane" class="speaker-img" />
+
+### Jean Cochrane
+
+**_The TOP 5 Queer Feminist Cyberpunk Manifestos!_**
+
+> “Our lot is cast with technoscience, where nothing is so sacred that it cannot be reengineered and transformed so as to widen our aperture of freedom, extending to gender and the human. To say that nothing is sacred, that nothing is transcendent or protected from the will to know, to tinker and to hack, is to say that nothing is supernatural.” 
+- Xenofeminism: A Politics for Alienation (Laboria Cuboniks)
+ 
+ Who were the cyberfeminists? Why has practically no one heard of them? And what might it look like to hack your gender?
+ 
+ For answers to these questions and more, join us on a whirlwind tour of the hidden history of cyberfeminisms, catalogued through the DIY manifesto form. We’ll rank the best of the best, adapting this rich intellectual legacy to reconcile our own relationships to computing tools (our phones, our laptops, our bodies) in the emergent techno-dystopia of the present.
+ 
+ Remember: the first computers were women. Why shouldn’t the last women be computers?
+
+**Jean Cochrane** is a civic hacker from the South Side of Chicago interested in scalable challenges to the most dire injustices of our time, including transgenerational poverty, mass incarceration, and the criminalization of migrants. At DataMade, she leverages contemporary data practices to help empower journalists and advocacy organizations. It’s been five years and she’s still trying to figure out how to recover from critical theory.
+
+---
+
 <a name="jes-wolfe!" id="jes-wolfe!"></a>
 <img src="images/speakers/jes-wolfe!.png" alt="Jes Wolfe!" class="speaker-img" />
 
