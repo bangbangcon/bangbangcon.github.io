@@ -292,6 +292,62 @@ Columbia University.
 
 ---
 
+<a name="mahtab-sabet" id="mahtab-sabet"></a>
+<img src="images/speakers/mahtab-sabet.png" alt="Mahtab Sabet" class="speaker-img" />
+
+### Mahtab Sabet
+
+**_PUSH THE BUTTON! 🔴 Designing a fun game where the only input is a BIG RED BUTTON! 🔴 !!!_**
+
+In October 2016, I attended “Gift the Code”, a charity hackathon in Toronto. Our team built “PiKit”, a game designed for kids who lack fine motor control or who have limited mobility. The challenge was to build a fun, compelling, and educational game in which the only input was… a BIG RED BUTTON! 🔴 !!!
+ 
+ This talk is a beginner’s guide to designing and building a game, based on what I learned as a first-time game developer at the hackathon. I’ll talk about using constraints to spur creativity in a design sprint, how to get inspiration from your favourite games, and how to design a game with logical level progressions so you can help the player understand what to do next, without explicitly telling them what to do.
+
+[**Mahtab**](http://mahtabsabet.com) works as a Senior Software Engineer at Capital One in Toronto, Canada...striving to perfect an online banking platform that consists entirely of a BIG RED BUTTON! 🔴 !!! (just kidding ☺️)
+
+---
+
+<a name="mark-dominus" id="mark-dominus"></a>
+<img src="images/speakers/mark-dominus.png" alt="Mark Dominus" class="speaker-img" />
+
+### Mark Dominus
+
+**_I got the computer to find words with good anagrams and throw away the boring ones!!_**
+
+25 years ago I got the computer to search the dictionary for words
+that were anagrams of one another.  The results were voluminous, but
+mostly boring.  So I tried helping the computer to understand which
+anagrams were boring so it could throw them away.  This worked!
+
+In 1992 I used a brute-force algorithm, which was pretty slow; the
+program took a few hours to run.  This year I learned a more
+sophisticated algorithm to do the same thing and implemented it.  The
+new program was super fast! It took only a few seconds.
+
+I'll explain both algorithms and reveal the surprising results!
+
+**[Mark Dominus](http://blog.plover.com/)** became interested in
+programming in the mid-1970s from watching his mom do it.  He likes
+programming, anagrams, quilts, the moon, the sun, mathematics, and
+figs.
+
+---
+
+<a name="michael-kwan" id="michael-kwan"></a>
+<img src="images/speakers/michael-kwan.png" alt="Michael Kwan" class="speaker-img" />
+
+### Michael Kwan
+
+**_No battery, no (watch) life!!_**
+
+Smartwatches are smaller and lighter than any handset! Anything that drains slightly more power can tank your battery life.
+ 
+ A set of case files of a detective's tale on investigating what killed the battery this time, and the various culprits involved. With a full mobile operating system running on the device, there's plenty of suspects.
+
+**Michael Kwan** has worked on Android Wear for a while now, but he's had a watch frequently strapped to his wrist since he was a young'un. He likes climbing things and plays way too many board games, but somehow has yet to do both at the same time.
+
+---
+
 <a name="mindy-preston" id="mindy-preston"></a>
 <img src="images/speakers/mindy-preston.png" alt="Mindy Preston" class="speaker-img" />
 
