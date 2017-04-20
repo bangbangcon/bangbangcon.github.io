@@ -146,6 +146,20 @@ I'd like to take you on a stroll down memory lane and dig into the internals of 
 
 ---
 
+<a name="david-turner" id="david-turner"></a>
+<img src="images/speakers/david-turner.png" alt="David Turner" class="speaker-img" />
+
+### David Turner
+
+**_"Om! Nom! Nash!"_**
+
+Om Nom Nom is a game about cute forest creatures eating each other. We can (almost) solve it by doing some game theory, and some tree search, with some cleverness. We won't always win, but nobody will be able to do better. We'll explore a few techniques for writing game solvers, and show how these techniques can be used to build an On Nom Nom solver. Then we never have to play it again!
+
+**David Turner** hacks on git at Two Sigma. He previously co-founded OpenTripPlanner, and worked on version 3 of the GPL. He enjoys contributing patches to random projects, like Inkscape and Linux. He lives on Mars with his glorious wife and three pet tigers.  He spoke at !!Con in 2014.
+
+---
+
+
 <a name="evan-jones" id="evan-jones"></a>
 <img src="images/speakers/evan-jones.png" alt="Evan Jones" class="speaker-img" />
 
