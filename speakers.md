@@ -244,7 +244,7 @@ I wanna tell you about how I made it, because I had to exercise my skills at soc
 **_The TOP 5 Queer Feminist Cyberpunk Manifestos!_**
 
 > “Our lot is cast with technoscience, where nothing is so sacred that it cannot be reengineered and transformed so as to widen our aperture of freedom, extending to gender and the human. To say that nothing is sacred, that nothing is transcendent or protected from the will to know, to tinker and to hack, is to say that nothing is supernatural.”
--- Xenofeminism: A Politics for Alienation (Laboria Cuboniks)
+-- _Xenofeminism: A Politics for Alienation_ (Laboria Cuboniks)
  
 Who were the cyberfeminists? Why has practically no one heard of them? And what might it look like to hack your gender?
  
