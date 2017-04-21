@@ -410,7 +410,7 @@ The Dynamic Host Configuration Protocol (DHCP to its friends) is the magic by wh
 
 ### Ruchir Khaitan
 
-**_Interpolation Search Can Be Fast, in Some Situations, Sometimes, If You Try!**
+**_Interpolation Search Can Be Fast, in Some Situations, Sometimes, If You Try!_**
 
 When was the last time you binary searched a phone book? Never? What, you've never used a phone book? Okay, fine, I've never actually used a phone book for anything other than a doorstop either. But, if I had to search in one I would use interpolation search. It's the ideal search algorithm / data structure for searching large arrays repeatedly. And with a little bit of operator-strength reducing math sorcery, it's not just theoretically fast, it's also useful in real life!
 
