@@ -69,7 +69,7 @@ is a 100% woman-owned company.
 
 When you live in the big city, finding everyone's nearest neighbours takes a long time! Our judicious city planners have conjured a technique using randomness, hyperplanes, buckets, lexical sorting, and binary numbers to get the job done approximately and fast. Really fast. They call it locality-sensitive hashing and management loves the idea. But it sounds too good to be true!
  
- In this talk we'll explore locality-sensitive hashing, a technique to turn the computationally expensive exact nearest-neighbor search problem into an inexpensive approximate solution (it's a neat trick and I promise you'll love it). We'll see how locality-sensitive hashing is used in image search, recommendations, and other machine learning problems. And of course, we'll mention [deep hashing](https://cs.nju.edu.cn/lwj/L2H.html#deep-hashing), because why not?
+In this talk we'll explore locality-sensitive hashing, a technique to turn the computationally expensive exact nearest-neighbor search problem into an inexpensive approximate solution (it's a neat trick and I promise you'll love it). We'll see how locality-sensitive hashing is used in image search, recommendations, and other machine learning problems. And of course, we'll mention [deep hashing](https://cs.nju.edu.cn/lwj/L2H.html#deep-hashing), because why not?
 
 **Aaron Levin** is a mathematician who fell in love with programming and now manages Data Science teams at SoundCloud. Aaron found a rare record once and wrote about it on [Weird Canada](https://weirdcanada.com).
 
@@ -80,13 +80,13 @@ When you live in the big city, finding everyone's nearest neighbours takes a lon
 
 ### Alex Clemmer
 
-**_"It's super effective! Solving Pokemon Blue with a single, huge regular expression"_**
+**_It's super effective! Solving Pokemon Blue with a single, huge regular expression_**
 
 I was playing my old copy of Pokemon Blue for the original Game Boy one day during winter holidays, for old times' sake. About an hour in, I realized that this was probably going to take me on the order of 20-30 hours to complete.
  
- 20-30 hours! Who has time for that?
+20-30 hours! Who has time for that?
  
- What I'd really like to do is sit down, think very carefully, and write down all the moves I'd like to make, all at once, and then pass them to a regular expression, which will accept if (and only if) those moves will win a game of Pokemon Blue. This approach has a lot of advantages! For example, in addition to being faster to specify a complete moveset for a game, it allows you to put your entire game of Pokemon Blue game into a version control system (e.g., git), which allows you to apply the "infrastructure as code" philosophy to your Pokemon Blue runthrough.
+What I'd really like to do is sit down, think very carefully, and write down all the moves I'd like to make, all at once, and then pass them to a regular expression, which will accept if (and only if) those moves will win a game of Pokemon Blue. This approach has a lot of advantages! For example, in addition to being faster to specify a complete moveset for a game, it allows you to put your entire game of Pokemon Blue into a version control system (e.g., git), which allows you to apply the "infrastructure as code" philosophy to your Pokemon Blue runthrough.
 
 **Alex Clemmer** is a computer programmer. Other programmers love Alex, excitedly describing him as 'employed here' and 'the boss's son'.
 
@@ -101,7 +101,7 @@ I was playing my old copy of Pokemon Blue for the original Game Boy one day duri
 
 In 1997, I set out to extend Infocom's Z-machine to support modern interactive fiction. Surprisingly, many of my design decisions turned out to be clever! Glk is now a thriving software ecosystem which supports many IF platforms, interpreters, and other tools. It's also hard to pronounce Glk.
  
- Hear a twenty-year tale of interpreter support! Discover how my C API evolved into a JavaScript API and a JSON data format while still being hard to pronounce! Marvel at how my attempt at a universal user interface was an inevitable failure, but still lets us do some really cool things! Wonder when I will get around to shipping Glk 2.0!
+Hear a twenty-year tale of interpreter support! Discover how my C API evolved into a JavaScript API and a JSON data format while still being hard to pronounce! Marvel at how my attempt at a universal user interface was an inevitable failure, but still lets us do some really cool things! Wonder when I will get around to shipping Glk 2.0!
 
 **Andrew Plotkin** has been working on interactive fiction and stuff like that for a very long time. He works as an indie game developer in Boston and helps run an IF meetup, an IF nonprofit, and occasionally things that are not directly related to IF. He also bakes cookies.
 
@@ -114,7 +114,7 @@ In 1997, I set out to extend Infocom's Z-machine to support modern interactive f
 
 **_Making Mushrooms Glow!_**
 
-In just over a month, we built the software and electronics for [Shrumen Lumen](https://www.facebook.com/ShrumenLumen/) – an interactive art installation comprised of five huge, glowing, origami mushrooms that move in reaction to human contact. Shrumen Lumen was presented at Burning Man '16' and at the MeetD3 festival in Dubai's Design District. I'll share what I learned about building software for rapidly testing interaction design concepts, and my experiences controlling these large contraptions with Node.js (yes, JavaScript!), Raspberry Pis, Pixelpushers, Processing, and more.
+In just over a month, we built the software and electronics for [Shrumen Lumen](https://www.facebook.com/ShrumenLumen/) -- an interactive art installation comprised of five huge, glowing, origami mushrooms that move in reaction to human contact. Shrumen Lumen was presented at Burning Man '16 and at the MeetD3 festival in Dubai's Design District. I'll share what I learned about building software for rapidly testing interaction design concepts, and my experiences controlling these large contraptions with Node.js (yes, JavaScript!), Raspberry Pis, Pixelpushers, Processing, and more.
 
 **Bomani** is a software engineer, designer, and learning sciences researcher. He is currently a senior in Computer Science at Northwestern. Bomani is passionate about creating memorable digital experiences, and works with various creative collectives focused on music and art. 
 
@@ -127,7 +127,7 @@ In just over a month, we built the software and electronics for [Shrumen Lumen](
 
 **_Serious programming with jq?! A practical and purely functional programming language!_**
 
-Ever heard of jq? If so, chances are you've used it to format and syntax-highlight your json. You might have even used something like `jq '.foos[]'` to print each foo! But did you know jq has user-defined functions? That jq has modules? Get ready to take a dive into the wondrous and purely functional land of the jq programming language!
+Ever heard of jq? If so, chances are you've used it to format and syntax-highlight your JSON. You might have even used something like `jq '.foos[]'` to print each foo! But did you know jq has user-defined functions? That jq has modules? Get ready to take a dive into the wondrous and purely functional land of the jq programming language!
 
 **Charles** is a 20-year-old undergrad. He spent the last year at Uber, and is now working on a math major at UChicago. He likes writing compilers while drinking probably too much tea.
 
@@ -140,7 +140,7 @@ Ever heard of jq? If so, chances are you've used it to format and syntax-highlig
 
 **_Writing NES games! with assembly!!_**
  
-I'd like to take you on a stroll down memory lane and dig into the internals of the Nintendo Entertainment System (NES) to figure out how it works. While we're there, we'll see how to build a game for the NES using 6502 assembly with the help of a few modern tools. We'll gain a new found respect for 80s developers and an appreciation for the high-level languages we have today!
+I'd like to take you on a stroll down memory lane and dig into the internals of the Nintendo Entertainment System (NES) to figure out how it works. While we're there, we'll see how to build a game for the NES using 6502 assembly with the help of a few modern tools. We'll gain a new respect for '80s developers and an appreciation for the high-level languages we have today!
 
 **Christian** is a self-taught developer based in Montreal. At a young age he discovered Visual Basic 6 on his home computer and instantly fell in love with programming. When he is not reading about technology and programming, you may find him rock climbing, cooking or drinking a stout.
 
@@ -151,7 +151,7 @@ I'd like to take you on a stroll down memory lane and dig into the internals of 
 
 ### David Turner
 
-**_"Om! Nom! Nash!"_**
+**_Om! Nom! Nash!_**
 
 Om Nom Nom is a game about cute forest creatures eating each other. We can (almost) solve it by doing some game theory, and some tree search, with some cleverness. We won't always win, but nobody will be able to do better. We'll explore a few techniques for writing game solvers, and show how these techniques can be used to build an On Nom Nom solver. Then we never have to play it again!
 
@@ -180,7 +180,7 @@ I'll talk about how we discovered that our applications were receiving corrupt d
 
 ### Ewan Dennis
 
-**_Why So Loud! Geeking Out On Airline Data, Physics And Mapping._**
+**_Why So Loud! Geeking Out On Airline Data, Physics And Mapping_**
 
 We were looking for a new place to live in sunny Scotland. I found myself eerily familiar with our preferred town because it's on the local airport approach path.
 
@@ -188,7 +188,7 @@ What followed was a nerd montage of tracking flight paths by API, researching je
 
 This talk is that story.
 
-**Ewan** is a career geek/autodidact with some pretty varied experience (scientific visualisation, games, app security, cloud infra) who has been remiss in the extreme about giving back to the community that spawned him. **Ewan**'s mission now is to share all the interesting tech ideas he can; to engage, entertain, encourage, support and wherever possible to engender the same ooh-howz-that-thing-work inquisitiveness he feels every day. Ewan can be found on [Twitter](https://twitter.com/ewanovitch) with longer occasional outpourings on [CloudyGoo](http://www.cloudygoo.com/).
+**Ewan** is a career geek/autodidact with some pretty varied experience (scientific visualisation, games, app security, cloud infra) who has been remiss in the extreme about giving back to the community that spawned him. Ewan's mission now is to share all the interesting tech ideas he can; to engage, entertain, encourage, support and wherever possible to engender the same ooh-howz-that-thing-work inquisitiveness he feels every day. Ewan can be found on [Twitter](https://twitter.com/ewanovitch) with longer occasional outpourings on [CloudyGoo](http://www.cloudygoo.com/).
 
 ---
 
@@ -201,7 +201,7 @@ This talk is that story.
 
 When characters on a TV show “enhance!” a blurry image, you probably laugh and tell your friends that it’s impossible to do that in real life. But over the past year, deep learning research has actually made this kind of possible! How will you explain this to your friends!?
 
- In this talk, you’ll get an intuitive introduction to generative adversarial networks, a new machine learning technique that’s surprisingly good at upscaling images. You’ll learn how these systems are inspired by human art forgers, and how you can use them to do other things like transform a horse into a zebra, convert a sentence into a photo, and so much more!
+In this talk, you’ll get an intuitive introduction to generative adversarial networks, a new machine learning technique that’s surprisingly good at upscaling images. You’ll learn how these systems are inspired by human art forgers, and how you can use them to do other things like transform a horse into a zebra, convert a sentence into a photo, and so much more!
 
 **Geoffrey** builds software for public schools at Panorama Education. He enjoys learning about machine learning and playing the cello, and occassionally posts on his [blog](http://geoffreylitt.com/).
 
@@ -215,7 +215,7 @@ When characters on a TV show “enhance!” a blurry image, you probably laugh a
 **_What alien invaders, birds, and computer simulations have in common: flocking!!_**
 
 Real flocks aren't what they're like in the movies.
- You've probably seen flocking behavior in The Avengers, the latest Star Trek movie, or even in The Ender's Game books. Flocks are groups of individuals, usually birds (or invading aliens when it comes to Sci-Fi), that are collectively moving together. The flocks in movies show individuals forming complex patterns, but they're all easily taken down by targeting a centralized point of command. In reality, flocking behavior is a lot simpler and there doesn't need to be any coordination between individuals--that means your favorite protagonists probably wouldn't have won when they came up against flocks!
+You've probably seen flocking behavior in _The Avengers_, the latest Star Trek movie, or even in the Ender's Game books. Flocks are groups of individuals, usually birds (or invading aliens when it comes to Sci-Fi), that are collectively moving together. The flocks in movies show individuals forming complex patterns, but they're all easily taken down by targeting a centralized point of command. In reality, flocking behavior is a lot simpler and there doesn't need to be any coordination between individuals--that means your favorite protagonists probably wouldn't have won when they came up against flocks!
 
 **Jan** is an editor at No Starch Press and freelance Japanese to English translator. Sometimes she programs, usually with turtles.
 
@@ -230,7 +230,7 @@ Real flocks aren't what they're like in the movies.
 
 I spent a chunk of 2016 making a web application for myself and other nervous air passengers called BumpySkies. You can plug an upcoming flight into it and it tells you when you can expect to hit turbulence and how bad it'll be. Still kinda scary, but at least it'll surprise you less.
  
- I wanna tell you about how I made it, because I had to exercise my skills at social engineering — the good kind! — at least as much as software engineering. BumpySkies came about through finding in myself an uncharacteristic willingness to approach complete strangers, asking them politely for access to tools or data, and feeling surprised at how well it worked, time and again.
+I wanna tell you about how I made it, because I had to exercise my skills at social engineering — the good kind! — at least as much as software engineering. BumpySkies came about through finding in myself an uncharacteristic willingness to approach complete strangers, asking them politely for access to tools or data, and feeling surprised at how well it worked, time and again.
 
 **Jason McIntosh** is a freelance software engineer, game-design consultant, and writer. He lives variously in and around New England. His homepage is at jmac.org, and he blogs regularly at fogknife.com.
 
@@ -243,14 +243,14 @@ I spent a chunk of 2016 making a web application for myself and other nervous ai
 
 **_The TOP 5 Queer Feminist Cyberpunk Manifestos!_**
 
-> “Our lot is cast with technoscience, where nothing is so sacred that it cannot be reengineered and transformed so as to widen our aperture of freedom, extending to gender and the human. To say that nothing is sacred, that nothing is transcendent or protected from the will to know, to tinker and to hack, is to say that nothing is supernatural.” 
-- Xenofeminism: A Politics for Alienation (Laboria Cuboniks)
+> “Our lot is cast with technoscience, where nothing is so sacred that it cannot be reengineered and transformed so as to widen our aperture of freedom, extending to gender and the human. To say that nothing is sacred, that nothing is transcendent or protected from the will to know, to tinker and to hack, is to say that nothing is supernatural.”
+-- Xenofeminism: A Politics for Alienation (Laboria Cuboniks)
  
- Who were the cyberfeminists? Why has practically no one heard of them? And what might it look like to hack your gender?
+Who were the cyberfeminists? Why has practically no one heard of them? And what might it look like to hack your gender?
  
- For answers to these questions and more, join us on a whirlwind tour of the hidden history of cyberfeminisms, catalogued through the DIY manifesto form. We’ll rank the best of the best, adapting this rich intellectual legacy to reconcile our own relationships to computing tools (our phones, our laptops, our bodies) in the emergent techno-dystopia of the present.
+For answers to these questions and more, join us on a whirlwind tour of the hidden history of cyberfeminisms, catalogued through the DIY manifesto form. We’ll rank the best of the best, adapting this rich intellectual legacy to examine our own relationships to computing tools (our phones, our laptops, our bodies) in the emergent techno-dystopia of the present.
  
- Remember: the first computers were women. Why shouldn’t the last women be computers?
+Remember: the first computers were women. Why shouldn’t the last women be computers?
 
 **Jean Cochrane** is a civic hacker from the South Side of Chicago interested in scalable challenges to the most dire injustices of our time, including transgenerational poverty, mass incarceration, and the criminalization of migrants. At DataMade, she leverages contemporary data practices to help empower journalists and advocacy organizations. It’s been five years and she’s still trying to figure out how to recover from critical theory.
 
@@ -276,7 +276,7 @@ I like finding ways to use technology for things that it wasn't originally meant
 
 **_What the heck time is it?!?_**
 
-To set your computer's clock just set it to match an atomic clock on the internet. Oh wait, don't forget to account for the time the request takes. Oh wait, and for the time the response takes. Oh and that request and response times might be different. Oh and that if you need to set your clock back your logs and transactions will be out of order (hello bank transfer hacks!). Oh and this needs to work for several billion devices on the internet doing this all day every day forever. Oh and if you do it wrong Very Bad Things Can Happen (bricked iPhones! broken TLS!)
+To set your computer's clock, just set it to match an atomic clock on the internet. Oh, wait, don't forget to account for the time the request takes. Oh, wait, and for the time the response takes. Oh, and that request and response times might be different. Oh, and that if you need to set your clock back your logs and transactions will be out of order (hello, bank transfer hacks!). Oh, and this needs to work for several billion devices on the internet doing this all day every day forever. Oh, and if you do it wrong Very Bad Things Can Happen (bricked iPhones! broken TLS!)
  
 We'll talk about how Network Time Protocol (NTP) sets your clock to the correct time despite the laws of physics making that impossible to do and human nature making it dangerous to even try.
 
@@ -289,7 +289,7 @@ We'll talk about how Network Time Protocol (NTP) sets your clock to the correct 
 
 ### Julian Squires
 
-**_"The emoji that killed Chrome!!"_**
+**_The emoji that killed Chrome!!_**
 
 One day, I came back from lunch to discover everyone's copy of Chrome wouldn't stop crashing!! How could turning on a printer downstairs cause an office-wide browser outage!?! A glorious part of programming is when a bug reveals the delicate fragility of a system far beyond its scope! Tracing down the culprit will take us on a journey through Unicode, mDNS, gdb, tcpdump, tcpreplay, and Objective-C!!
 
@@ -332,7 +332,7 @@ Columbia University.
 
 In October 2016, I attended “Gift the Code”, a charity hackathon in Toronto. Our team built “PiKit”, a game designed for kids who lack fine motor control or who have limited mobility. The challenge was to build a fun, compelling, and educational game in which the only input was… a BIG RED BUTTON! 🔴 !!!
  
- This talk is a beginner’s guide to designing and building a game, based on what I learned as a first-time game developer at the hackathon. I’ll talk about using constraints to spur creativity in a design sprint, how to get inspiration from your favourite games, and how to design a game with logical level progressions so you can help the player understand what to do next, without explicitly telling them what to do.
+This talk is a beginner’s guide to designing and building a game, based on what I learned as a first-time game developer at the hackathon. I’ll talk about using constraints to spur creativity in a design sprint, how to get inspiration from your favourite games, and how to design a game with logical level progressions so you can help the player understand what to do next, without explicitly telling them what to do.
 
 [**Mahtab**](http://mahtabsabet.com) works as a Senior Software Engineer at Capital One in Toronto, Canada...striving to perfect an online banking platform that consists entirely of a BIG RED BUTTON! 🔴 !!! (just kidding ☺️)
 
@@ -373,7 +373,7 @@ figs.
 
 Smartwatches are smaller and lighter than any handset! Anything that drains slightly more power can tank your battery life.
  
- A set of case files of a detective's tale on investigating what killed the battery this time, and the various culprits involved. With a full mobile operating system running on the device, there's plenty of suspects.
+This talk is a set of case files from a detective's investigation of what killed the battery this time, and the various culprits involved. With a full mobile operating system running on the device, there's plenty of suspects.
 
 **Michael Kwan** has worked on Android Wear for a while now, but he's had a watch frequently strapped to his wrist since he was a young'un. He likes climbing things and plays way too many board games, but somehow has yet to do both at the same time.
 
@@ -410,7 +410,7 @@ The Dynamic Host Configuration Protocol (DHCP to its friends) is the magic by wh
 
 ### Ruchir Khaitan
 
-**_Interpolation Search Can Be Fast, in Some Situations, Sometimes, If You Try_**
+**_Interpolation Search Can Be Fast, in Some Situations, Sometimes, If You Try!**
 
 When was the last time you binary searched a phone book? Never? What, you've never used a phone book? Okay, fine, I've never actually used a phone book for anything other than a doorstop either. But, if I had to search in one I would use interpolation search. It's the ideal search algorithm / data structure for searching large arrays repeatedly. And with a little bit of operator-strength reducing math sorcery, it's not just theoretically fast, it's also useful in real life!
 
@@ -427,7 +427,7 @@ When was the last time you binary searched a phone book? Never? What, you've nev
 
 We spend a lot of time with our keyboards. How do they work? How does pushing dozens of keys on a board transmute into text, code, and commands that control computers?
  
- I have been building a keyboard from scratch, and I'll talk about the different pieces: from the circuit that connects the key switches to the firmware that reads them and presents everything in USB. I'll also have some tips if you want to make your own keyboard, Emacs foot pedals, or other Human Interface Devices.
+I have been building a keyboard from scratch, and I'll talk about the different pieces: from the circuit that connects the key switches to the firmware that reads them and presents everything in USB. I'll also have some tips if you want to make your own keyboard, Emacs foot pedals, or other Human Interface Devices.
 
 **Scott** is a senior software engineer at Helium, where he works on embedded and distributed systems.
 
