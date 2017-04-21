@@ -392,6 +392,21 @@ The Dynamic Host Configuration Protocol (DHCP to its friends) is the magic by wh
 
 ---
 
+<a name="paul-frazee" id="paul-frazee"></a>
+<img src="images/speakers/pfrazee.png" alt="Paul Frazee" class="speaker-img" />
+
+## Paul Frazee
+
+**_Simulated Gravity Comes from Within!!_**
+
+The massively-multiplayer game Eve Online slows down the in-game clock when there are too many players in a region. That way, the network has enough time to process all those players.
+
+So here's a question: What if you slowed down the clock -- not in regions, but variably throughout the entire game, as one big region? Wouldn't that screw with your physics engine? I got curious, so I wrote a simulation with this time dilation added and... well, objects started orbiting each other!! The weird thing? I didn't include gravity in my program.
+
+**Paul**'s a lifelong hacker with a love for games, music, history, and design. Paul cofounded Blue Link Labs and the Beaker Browser project.
+
+---
+
 <a name="richard-harrington" id="richard-harrington"></a>
 <img src="images/speakers/richard-harrington.png" alt="Richard Harrington" class="speaker-img" />
 
