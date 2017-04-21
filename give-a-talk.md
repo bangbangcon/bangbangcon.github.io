@@ -16,8 +16,8 @@ The !!Con call for proposals is now closed. Thanks to everyone who submitted a t
   * April 6: Notification of talk acceptance.
   * April 13: Deadline for speakers to confirm their participation.
   * April 14: Conference registration opens.
-  * TBD in April: Public announcement of full speaker list.
-  * TBD in April: Public announcement of detailed schedule.
+  * April 14-?: Public announcement of full [speaker list](speakers.html).
+  * TBD in April: Public announcement of detailed [schedule](program.html).
   * **May 6-7: !!Con!**
 
 ## Original CFP (For posterity)
