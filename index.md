@@ -18,27 +18,109 @@ title: The joy, excitement, and surprise of computing - !!Con 2017
 
 <p id="blurb">**!!Con** (pronounced "bang bang con") is **two days of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
-joyous, exciting, and surprising moments in computing.  Join us for
-our **fourth year** in 2017!</p>
+joyous, exciting, and surprising moments in computing.  Check out our
+[speaker lineup](speakers.html)!
 
 <a name="speaking" id="speaking"></a>
 
-## Who's speaking?
+<div class="speaker-pics" markdown="0">
+    <div><a href="./speakers.html#karen-sandler"><img height="100" width="100"
+    src="images/speakers/karen-sandler.png" alt="Karen Sandler" /></a></div>
 
-Our amazing keynote speakers...
+    <div><a href="./speakers.html#limor-fried"><img height="100" width="100"
+    src="images/speakers/limor-fried.png" alt="Limor Fried" /></a></div>
 
-<div style="text-align: center;">
-<div class="speaker left">
-<a href="speakers.html#karen-sandler"><img src="images/speakers/karen-sandler.png" alt="Karen Sandler" /></a>
-<h3>Karen Sandler</h3>
-</div>
-<div class="speaker right">
-<a href="speakers.html#limor-fried"><img src="images/speakers/limor-fried.png" alt="Limor Fried"/></a>
-<h3>Limor Fried</h3>
-</div>
-</div>
+    <div><a href="./speakers.html#aaron-levin"><img height="100" width="100"
+    src="images/speakers/aaron-levin.png" alt="Aaron Levin" /></a></div>
 
-... and [lots more](speakers.html)!
+    <div><a href="./speakers.html#alex-clemmer"><img height="100" width="100"
+    src="images/speakers/alex-clemmer.png" alt="Alex Clemmer" /></a></div>
+
+    <div><a href="./speakers.html#andrew-plotkin"><img height="100" width="100"
+    src="images/speakers/andrew-plotkin.png" alt="Andrew Plotkin" /></a></div>
+
+    <div><a href="./speakers.html#bomani-mcclendon"><img height="100" width="100"
+    src="images/speakers/bomani-mcclendon.png" alt="Bomani McClendon" /></a></div>
+
+    <div><a href="./speakers.html#charles-chamberlain"><img height="100" width="100"
+    src="images/speakers/charles-chamberlain.png" alt="Charles Chamberlain" /></a></div>
+
+    <div><a href="./speakers.html#christian-joudrey"><img height="100" width="100"
+    src="images/speakers/christian-joudrey.png" alt="Christian Joudrey" /></a></div>
+
+    <div><a href="./speakers.html#david-turner"><img height="100" width="100"
+    src="images/speakers/david-turner.png" alt="David Turner" /></a></div>
+
+    <div><a href="./speakers.html#evan-jones"><img height="100" width="100"
+    src="images/speakers/evan-jones.png" alt="Evan Jones" /></a></div>
+
+    <div><a href="./speakers.html#ewan-dennis"><img height="100" width="100"
+    src="images/speakers/ewan-dennis.png" alt="Ewan Dennis" /></a></div>
+
+    <div><a href="./speakers.html#geoffrey-litt"><img height="100" width="100"
+    src="images/speakers/geoffrey-litt.png" alt="Geoffrey Litt" /></a></div>
+
+    <div><a href="./speakers.html#jan-mitsuko-cash"><img height="100" width="100"
+    src="images/speakers/jan-mitsuko-cash.png" alt="Jan Mitsuko Cash" /></a></div>
+
+    <div><a href="./speakers.html#jason-mcintosh"><img height="100" width="100"
+    src="images/speakers/jason-mcintosh.png" alt="Jason McIntosh" /></a></div>
+
+    <div><a href="./speakers.html#jean-cochrane"><img height="100" width="100"
+    src="images/speakers/jean-cochrane.png" alt="Jean Cochrane" /></a></div>
+
+    <div><a href="./speakers.html#jes-wolfe!"><img height="100" width="100"
+    src="images/speakers/jes-wolfe!.png" alt="Jes Wolfe!" /></a></div>
+
+    <div><a href="./speakers.html#joel-potischman"><img height="100" width="100"
+    src="images/speakers/joel-potischman.png" alt="Joel Potischman" /></a></div>
+
+    <div><a href="./speakers.html#julian-squires"><img height="100" width="100"
+    src="images/speakers/julian-squires.png" alt="Julian Squires" /></a></div>
+
+    <div><a href="./speakers.html#kevin-chen"><img height="100" width="100"
+    src="images/speakers/kevin-chen.png" alt="Kevin Chen" /></a></div>
+
+    <div><a href="./speakers.html#lisa-ballard"><img height="100" width="100"
+    src="images/speakers/lisa-ballard.png" alt="Lisa Ballard" /></a></div>
+
+    <div><a href="./speakers.html#mahtab-sabet"><img height="100" width="100"
+    src="images/speakers/mahtab-sabet.png" alt="Mahtab Sabet" /></a></div>
+
+    <div><a href="./speakers.html#mark-dominus"><img height="100" width="100"
+    src="images/speakers/mark-dominus.png" alt="Mark Dominus" /></a></div>
+
+    <div><a href="./speakers.html#michael-kwan"><img height="100" width="100"
+    src="images/speakers/michael-kwan.png" alt="Michael Kwan" /></a></div>
+
+    <div><a href="./speakers.html#mindy-preston"><img height="100" width="100"
+    src="images/speakers/mindy-preston.png" alt="Mindy Preston"/></a></div>
+
+    <div><a href="./speakers.html#paul-frazee"><img height="100" width="100"
+    src="images/speakers/paul-frazee.png" alt="Paul Frazee"/></a></div>
+
+    <div><a href="./speakers.html#nick-sullivan"><img height="100" width="100"
+    src="images/speakers/nick-sullivan.png" alt="Nick Sullivan" /></a></div>
+
+    <div><a href="./speakers.html#richard-harrington"><img height="100" width="100"
+    src="images/speakers/richard-harrington.png" alt="Richard Harrington" /></a></div>
+
+    <div><a href="./speakers.html#ruchir-khaitan"><img height="100" width="100"
+    src="images/speakers/ruchir-khaitan.png" alt="Ruchir Khaitan" /></a></div>
+
+    <div><a href="./speakers.html#scott-vokes"><img height="100" width="100"
+    src="images/speakers/scott-vokes.png" alt="Scott Vokes" /></a></div>
+
+    <div><a href="./speakers.html#tara-vancil"><img height="100" width="100"
+    src="images/speakers/tara-vancil.png" alt="Tara Vancil" /></a></div>
+
+    <div><a href="./speakers.html#walt-mankowski"><img height="100" width="100"
+    src="images/speakers/walt-mankowski.png" alt="Walt Mankowski"/></a></div>
+
+    <div><a href="./speakers.html#yomna-nasser"><img height="100" width="100"
+    src="images/speakers/yomna-nasser.png" alt="Yomna Nasser"/></a></div>
+
+</div>
 
 Our [call for talk proposals](give-a-talk.html) is closed.  Thanks for
 all your wonderful talk proposal submissions!
