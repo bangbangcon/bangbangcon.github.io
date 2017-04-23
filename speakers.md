@@ -406,7 +406,7 @@ The Dynamic Host Configuration Protocol (DHCP to its friends) is the magic by wh
 ---
 
 <a name="paul-frazee" id="paul-frazee"></a>
-<img src="images/speakers/pfrazee.png" alt="Paul Frazee" class="speaker-img" />
+<img src="images/speakers/paul-frazee.png" alt="Paul Frazee" class="speaker-img" />
 
 ## Paul Frazee
 
