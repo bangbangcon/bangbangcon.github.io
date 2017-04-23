@@ -328,11 +328,11 @@ Columbia University.
 
 ### Lisa Ballard
 
-**_"Where Are All the Space Robots?"_**
+**_Where Are All the Space Robots?!_**
 
-Earthlings are currently communicating with over 30 space probes that have escaped Earth's orbit and set off into our solar system and beyond. Each probe has origins from countries all over the world, and several are international collaborations. They conduct a wide variety of science experiments and take a lot amazing pictures, but getting information about these probes can be tricky. Several space agencies detail their own missions to varying degrees around the web, but outside of Wikipedia, there was not a single website that described all the current active robots humans are currently communicating with, so we decided to build it! We wanted to create a website that was both beautiful to use and provided up to the minute information about Earth's robotic ambassadors. I'll demo the site, talk about the technology we used to produce it, and show how we use some python tools and an undocumented online data feed from NASA's Deep Space Network to display near real time information about each probe.
+Earthlings are currently communicating with over 30 space probes that have escaped Earth's orbit and set off into our solar system and beyond. These probes have origins from countries all over the world, and several are international collaborations. They conduct a wide variety of science experiments and take a lot of amazing pictures, but getting information about them can be tricky. Several space agencies detail their own missions to varying degrees around the web, but outside of Wikipedia, there was not a single website that described all the current active robots humans are currently communicating with, so we decided to build it! We wanted to create a website that was both beautiful to use and provided up-to-the-minute information about Earth's robotic ambassadors. I'll demo the site, talk about the technology we used to produce it, and show how we use some Python tools and an undocumented online data feed from NASA's Deep Space Network to display near-real-time information about each probe.
 
-**Lisa** is a planetary science web developer at the SETI Institute, the CTO of Spacehack.org, and an appointed NASA Datanaut. She loves creating beautiful user experiences through close collaborations with designers, and is on a mission to make space mission data more accessible.  
+**Lisa** is a planetary science web developer at the SETI Institute, the CTO of Spacehack.org, and an appointed NASA Datanaut. She loves creating beautiful user experiences through close collaborations with designers, and is on a mission to make space mission data more accessible.
 
 ---
 
@@ -429,7 +429,7 @@ So here's a question: What if you slowed down the clock -- not in regions, but v
 
 This is a story about three dirty letters: DRM. For five years, my job was to make sure that media purchased on a platform was only consumable by the purchaser. A few months into my job, a pseudonymous reverse engineer published a C program that would decrypt music purchased on the platform so that it could be played anywhere. Over the next five years, we engaged in a long-form chess game in code. In this talk I'll share what I learned from this half-decade battle of wits, and wistfully wonder where my anonymous adversary is now.
 
-**Nick Sullivan** is head of cryptography at Cloudflare. He built CloudFlare’s security engineering team and led major projects like Keyless SSL and TLS 1.3. Previously, he held the prestigious title of “Mathemagician” at Apple, where he encrypted books, song, movies and other varieties of mass media.
+**Nick Sullivan** is head of cryptography at Cloudflare. He built Cloudflare’s security engineering team and led major projects like Keyless SSL and TLS 1.3. Previously, he held the prestigious title of “Mathemagician” at Apple, where he encrypted books, song, movies and other varieties of mass media.
 
 ---
 
@@ -526,7 +526,3 @@ In this talk we will go over Hankin’s “Polygons in Contact” algorithm, a t
 We’ll also briefly touch on the historical and cultural aspects of this kind of geometry!
 
 **Yomna** likes collecting musical instruments, discrete mathematics, cooking, and cold, dark rooms. She is a Technology Fellow at the EFF, and can be contacted via <a href="https://twitter.com/yomnapple">Twitter</a>.
-
----
-
-...and more!  The rest of our speaker list will be announced soon!
