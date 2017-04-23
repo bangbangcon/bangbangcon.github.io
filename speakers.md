@@ -298,7 +298,7 @@ One day, I came back from lunch to discover everyone's copy of Chrome wouldn't s
 ---
 
 <a name="kevin-chen" id="kevin-chen"></a>
-<img src="images/speakers/kevin-chen.jpg" alt="Kevin Chen" class="speaker-img" />
+<img src="images/speakers/kevin-chen.png" alt="Kevin Chen" class="speaker-img" />
 
 ### Kevin Chen
 
