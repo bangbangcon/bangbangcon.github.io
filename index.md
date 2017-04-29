@@ -184,6 +184,11 @@ class="magic">.</span><div class="logo"><img height="100" width="316"
     alt="Heap" src="images/sponsors/heap.png"
     /></div></a></div>
 
+    <div class="sponsor"><a href="http://meetup.com" target="_blank"><span
+class="magic">.</span><div class="logo"><img height="100" width="277"
+    alt="Meetup" src="images/sponsors/meetup.png"
+    /></div></a></div>
+
 </div>
 
 ## How can I help?
