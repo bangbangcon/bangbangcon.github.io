@@ -24,7 +24,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 11:15-11:30     | Break!
 |-----------------|-------------------------------------------------------------------------
-| 11:30-12:15     | **Session the First:** <br /> &bull; *Serious programming with jq?! A practical and purely functional programming language!* ([Charles Chamberlain](speakers.html#charles-chamberlain))<br /> &bull; *Finding Friends in High Dimensions: Locality-Sensitive Hashing For Fun and Friendliness!* (Aaron Levin[](speakers.html#aaron-levin))<br /> &bull; *What alien invaders, birds, and computer simulations have in common: flocking!!* ([Jan Mitsuko Cash](speakers.html#jan-mitsuko-cash))<br /> &bull; *I wrote to a dead address in a deleted PDF and now I know where all the airplanes are!!* ([Jason McIntosh](speakers.html#jason-mcintosh))
+| 11:30-12:15     | **Session the First:** <br /> &bull; *Serious programming with jq?! A practical and purely functional programming language!* ([Charles Chamberlain](speakers.html#charles-chamberlain))<br /> &bull; *Finding Friends in High Dimensions: Locality-Sensitive Hashing For Fun and Friendliness!* ([Aaron Levin](speakers.html#aaron-levin))<br /> &bull; *What alien invaders, birds, and computer simulations have in common: flocking!!* ([Jan Mitsuko Cash](speakers.html#jan-mitsuko-cash))<br /> &bull; *I wrote to a dead address in a deleted PDF and now I know where all the airplanes are!!* ([Jason McIntosh](speakers.html#jason-mcintosh))
 |-----------------|-------------------------------------------------------------------------
 | 12:15-1:30      | Break for lunch!
 |-----------------|-------------------------------------------------------------------------
@@ -32,7 +32,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 2:15-2:30       | Break!
 |-----------------|-------------------------------------------------------------------------
-| 2:30-3:15       | **Session the Third:** <br /> &bull; *Why So Loud! Geeking Out on Airline Data, Physics and Mapping* ([Ewan Dennis](speakers.html#ewan-dennis))<br /> &bull; *Writing NES games! with assembly!!* ([Christian Joudrey](speakers.html#christian-joudrey))<br /> &bull; *The TOP 5 Queer Feminist Cyberpunk Manifestos!* ([Jean Cochrane](speakers.html#jean-cochrane))<br /> &bull; *Corruption in the Data Center! TCP can fail to keep your data safe!* ([Ewan Jones](speakers.html#evan-jones))<br />
+| 2:30-3:15       | **Session the Third:** <br /> &bull; *Why So Loud! Geeking Out on Airline Data, Physics and Mapping* ([Ewan Dennis](speakers.html#ewan-dennis))<br /> &bull; *Writing NES games! with assembly!!* ([Christian Joudrey](speakers.html#christian-joudrey))<br /> &bull; *The TOP 5 Queer Feminist Cyberpunk Manifestos!* ([Jean Cochrane](speakers.html#jean-cochrane))<br /> &bull; *Corruption in the Data Center! TCP can fail to keep your data safe!* ([Evan Jones](speakers.html#evan-jones))<br />
 |-----------------|-------------------------------------------------------------------------
 | 3:15-4:15       | Unconferencing!
 |-----------------|-------------------------------------------------------------------------
@@ -68,7 +68,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 2:15-2:30       | Break!
 |-----------------|-------------------------------------------------------------------------
-| 2:30-3:15       | **Session the Seventh:** <br /> &bull; *How Merkle trees enable the decentralized Web!* ([Tara Vancil](speakers.html#tara-vancil))<br /> &bull; *Where Are All the Space Robots?!* ([Lisa Ballard](speakers.html#lisa-ballard))<br /> &bull; *Interpolation Search Can Be Fast, in Some Situations, Sometimes, If You Try!* ([Ruchir Khaitan](speakers.html#ruchir-kaitan)) &bull; *No battery, no (watch) life!!* ([Michael Kwan](speakers.html#michael-kwan))
+| 2:30-3:15       | **Session the Seventh:** <br /> &bull; *How Merkle trees enable the decentralized Web!* ([Tara Vancil](speakers.html#tara-vancil))<br /> &bull; *Where Are All the Space Robots?!* ([Lisa Ballard](speakers.html#lisa-ballard))<br /> &bull; *Interpolation Search Can Be Fast, in Some Situations, Sometimes, If You Try!* ([Ruchir Khaitan](speakers.html#ruchir-kaitan))<br /> &bull; *No battery, no (watch) life!!* ([Michael Kwan](speakers.html#michael-kwan))
 |-----------------|-------------------------------------------------------------------------
 | 3:15-4:15       | Unconferencing!
 |-----------------|-------------------------------------------------------------------------
