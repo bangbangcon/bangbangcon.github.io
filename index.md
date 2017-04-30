@@ -9,8 +9,8 @@ title: The joy, excitement, and surprise of computing - !!Con 2017
   <!-- &middot; -->
   [Venue](venue-accessibility.html)
   &middot;
-  <!-- [Program](program.html) -->
-  <!-- &middot; -->
+  [Program](program.html)
+  &middot;
   [Speakers](speakers.html)
   &middot;
   [Conduct](conduct.html)
