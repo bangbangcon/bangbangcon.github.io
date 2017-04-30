@@ -60,7 +60,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 11:15-11:30     | Break!
 |-----------------|-------------------------------------------------------------------------
-| 11:30-12:15     | **Session the Fifth:** <br /> &bull; *Synthesizing video and turning it into music!* ([Jes Wolfe!](speakers.html#jes-wolfe!))<br /> &bull; *PUSH THE BUTTON! 🔴 Designing a fun game where the only input is a BIG RED BUTTON! 🔴 !!!* ([Mahtab Sahbet](speakers.html#mahtab-sahbet))<br /> &bull; *Simulated Gravity Comes from Within!!!* ([Paul Frazee](speakers.html#paul-frazee))<br /> &bull; *BEEP!! See AppleSoft BASIC and 6502 assembly language written on an actual Apple IIc from the 80s! Fresh on startup with no software installed!* ([Richard Harrington](speakers.html#richard-harrington))
+| 11:30-12:15     | **Session the Fifth:** <br /> &bull; *Synthesizing video and turning it into music!* ([Jes Wolfe!](speakers.html#jes-wolfe!))<br /> &bull; *PUSH THE BUTTON! 🔴 Designing a fun game where the only input is a BIG RED BUTTON! 🔴 !!!* ([Mahtab Sabet](speakers.html#mahtab-sabet))<br /> &bull; *Simulated Gravity Comes from Within!!!* ([Paul Frazee](speakers.html#paul-frazee))<br /> &bull; *BEEP!! See AppleSoft BASIC and 6502 assembly language written on an actual Apple IIc from the 80s! Fresh on startup with no software installed!* ([Richard Harrington](speakers.html#richard-harrington))
 |-----------------|-------------------------------------------------------------------------
 | 12:15-1:30      | Break for lunch!
 |-----------------|-------------------------------------------------------------------------
@@ -68,11 +68,11 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 2:15-2:30       | Break!
 |-----------------|-------------------------------------------------------------------------
-| 2:30-3:15       | **Session the Seventh:** <br /> &bull; *How Merkle trees enable the decentralized Web!* ([Tara Vancil](speakers.html#tara-vancil))<br /> &bull; *Where Are All the Space Robots?!* ([Lisa Ballard](speakers.html#lisa-ballard))<br /> &bull; *Interpolation Search Can Be Fast, in Some Situations, Sometimes, If You Try!* ([Ruchir Khaitan](speakers.html#ruchir-kaitan))<br /> &bull; *No battery, no (watch) life!!* ([Michael Kwan](speakers.html#michael-kwan))
+| 2:30-3:15       | **Session the Seventh:** <br /> &bull; *How Merkle trees enable the decentralized Web!* ([Tara Vancil](speakers.html#tara-vancil))<br /> &bull; *Where Are All the Space Robots?!* ([Lisa Ballard](speakers.html#lisa-ballard))<br /> &bull; *Interpolation Search Can Be Fast, in Some Situations, Sometimes, If You Try!* ([Ruchir Khaitan](speakers.html#ruchir-khaitan))<br /> &bull; *No battery, no (watch) life!!* ([Michael Kwan](speakers.html#michael-kwan))
 |-----------------|-------------------------------------------------------------------------
 | 3:15-4:15       | Unconferencing!
 |-----------------|-------------------------------------------------------------------------
-| 4:15-4:50       | **Session the Eighth:** <br /> &bull; *ENHANCE! Upscaling images with neural networks* ([Geoffrey Litt](speakers.html#geoffret-litt))<br /> &bull; *A punch card ate my program!* ([Walt Mankowski](speakers.html#walt-mankowski))<br /> &bull; *DHCP: IT'S MOSTLY YELLING!!* ([Mindy Preston](speakers.html#mindy-preston))<br />
+| 4:15-4:50       | **Session the Eighth:** <br /> &bull; *ENHANCE! Upscaling images with neural networks* ([Geoffrey Litt](speakers.html#geoffrey-litt))<br /> &bull; *A punch card ate my program!* ([Walt Mankowski](speakers.html#walt-mankowski))<br /> &bull; *DHCP: IT'S MOSTLY YELLING!!* ([Mindy Preston](speakers.html#mindy-preston))<br />
 |-----------------|-------------------------------------------------------------------------
 | 4:50            | Thanks and closing remarks
 |-----------------|-------------------------------------------------------------------------
