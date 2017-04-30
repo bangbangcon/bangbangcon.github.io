@@ -54,7 +54,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------+-------------------------------------------------------------------------
 | Time            | Event
 |-----------------|-------------------------------------------------------------------------
-| 9:00            | Space opens; registration (for anyone who didn't already); refreshments; mingling
+| 9:15            | Space opens; registration (for anyone who didn't already); refreshments; mingling
 |-----------------|-------------------------------------------------------------------------
 | 10:30-11:15     | &bull; Opening remarks <br /> &bull; Keynote talk: *We Are What We Celebrate: The Joy, Excitement, and Surprise of Who is Making Things* ([Limor Fried](speakers.html#limor-fried))
 |-----------------|-------------------------------------------------------------------------
