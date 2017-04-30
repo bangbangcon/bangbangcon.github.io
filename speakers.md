@@ -180,7 +180,7 @@ I'll talk about how we discovered that our applications were receiving corrupt d
 
 ### Ewan Dennis
 
-**_Why So Loud! Geeking Out On Airline Data, Physics And Mapping_**
+**_Why So Loud! Geeking Out on Airline Data, Physics and Mapping_**
 
 We were looking for a new place to live in sunny Scotland. I found myself eerily familiar with our preferred town because it's on the local airport approach path.
 
