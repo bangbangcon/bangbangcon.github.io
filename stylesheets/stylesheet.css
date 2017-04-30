@@ -297,7 +297,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     border-width: 1px;
     border-color: #222222;
     border-collapse: collapse;
-    font-size: 150%;
 }
 
 .scheduletable th {
