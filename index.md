@@ -131,7 +131,7 @@ all your wonderful talk proposal submissions!
 
 !!Con will be held at the [AppNexus](http://appnexus.com) headquarters
 at 28 West 23rd Street, 4th floor, Manhattan, NYC, on the weekend of
-May 6-7, 2017.
+May 6-7, 2017.  Doors open at 9:15am both days.
 [Learn more about our venue!](venue-accessibility.html)
 
 ## How much does it cost?  Where do I register?
