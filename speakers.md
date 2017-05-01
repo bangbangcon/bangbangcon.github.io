@@ -421,7 +421,7 @@ This is a story about three dirty letters: DRM. For five years, my job was to ma
 <a name="paul-frazee" id="paul-frazee"></a>
 <img src="images/speakers/paul-frazee.png" alt="Paul Frazee" class="speaker-img" />
 
-## Paul Frazee
+### Paul Frazee
 
 **_Simulated Gravity Comes from Within!!_**
 
