@@ -405,6 +405,19 @@ The Dynamic Host Configuration Protocol (DHCP to its friends) is the magic by wh
 
 ---
 
+<a name="nick-sullivan" id="nick-sullivan"></a>
+<img src="images/speakers/nick-sullivan.png" alt="Nick Sullivan" class="speaker-img" />
+
+### Nick Sullivan
+
+**_Requiem for a nemesis!_**
+
+This is a story about three dirty letters: DRM. For five years, my job was to make sure that media purchased on a platform was only consumable by the purchaser. A few months into my job, a pseudonymous reverse engineer published a C program that would decrypt music purchased on the platform so that it could be played anywhere. Over the next five years, we engaged in a long-form chess game in code. In this talk I'll share what I learned from this half-decade battle of wits, and wistfully wonder where my anonymous adversary is now.
+
+**Nick Sullivan** is head of cryptography at Cloudflare. He built Cloudflare’s security engineering team and led major projects like Keyless SSL and TLS 1.3. Previously, he held the prestigious title of “Mathemagician” at Apple, where he encrypted books, song, movies and other varieties of mass media.
+
+---
+
 <a name="paul-frazee" id="paul-frazee"></a>
 <img src="images/speakers/paul-frazee.png" alt="Paul Frazee" class="speaker-img" />
 
@@ -417,19 +430,6 @@ The massively-multiplayer game Eve Online slows down the in-game clock when ther
 So here's a question: What if you slowed down the clock -- not in regions, but variably throughout the entire game, as one big region? Wouldn't that screw with your physics engine? I got curious, so I wrote a simulation with this time dilation added and... well, objects started orbiting each other!! The weird thing? I didn't include gravity in my program.
 
 **Paul**'s a lifelong hacker with a love for games, music, history, and design. Paul cofounded Blue Link Labs and the Beaker Browser project.
-
----
-
-<a name="nick-sullivan" id="nick-sullivan"></a>
-<img src="images/speakers/nick-sullivan.png" alt="Nick Sullivan" class="speaker-img" />
-
-### Nick Sullivan
-
-**_Requiem for a nemesis!_**
-
-This is a story about three dirty letters: DRM. For five years, my job was to make sure that media purchased on a platform was only consumable by the purchaser. A few months into my job, a pseudonymous reverse engineer published a C program that would decrypt music purchased on the platform so that it could be played anywhere. Over the next five years, we engaged in a long-form chess game in code. In this talk I'll share what I learned from this half-decade battle of wits, and wistfully wonder where my anonymous adversary is now.
-
-**Nick Sullivan** is head of cryptography at Cloudflare. He built Cloudflare’s security engineering team and led major projects like Keyless SSL and TLS 1.3. Previously, he held the prestigious title of “Mathemagician” at Apple, where he encrypted books, song, movies and other varieties of mass media.
 
 ---
 
