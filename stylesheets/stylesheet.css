@@ -216,6 +216,10 @@ p, ul {
     border-radius: 10px;
 }
 
+.sponsor.big-sponsor .logo {
+    height: 8em;
+}
+
 .sponsor .magic {
     visibility: hidden;
     height: 0px;
