@@ -5,6 +5,8 @@ title: The joy, excitement, and surprise of computing - !!Con 2017
 
 <p style="text-align: center;">
   **Quick Links:**
+  [Live Stream](http://confreaks.tv/live_events/bangbangcon2017)
+  &middot;
   <!-- [Talk Recordings](recordings.html) -->
   <!-- &middot; -->
   [Venue](venue-accessibility.html)
