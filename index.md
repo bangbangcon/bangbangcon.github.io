@@ -238,6 +238,10 @@ class="magic">.</span><div class="logo"><img height="100" width="400"
 class="magic">.</span><div class="logo"><img height="120" width="210"
     alt="Comcast" src="images/sponsors/comcast.jpg" /></div></a></div>
 
+    <div class="sponsor"><a href="https://capitalone.com" target="_blank"><span
+class="magic">.</span><div class="logo"><img height="80" width="240"
+    alt="Capital One" src="images/sponsors/capitalone.png" /></div></a></div>
+
     <h3>AWESOME! Sponsors</h3>
 
     <div class="sponsor"><a href="http://raise.com" target="_blank"><span
