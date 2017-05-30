@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE>Time passes...</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style>
+
+h1 * { 
+  font-size: 150%;
+}
+
+div.body p {
+  font-size: 30px;
+}
+
+pre.code * {
+  font-size: 24px;
+  overflow: auto;
+  background-color: #ffc0ef;
+}
+
+pre.code {
+  font-size: 24px;
+  overflow: auto;
+  background-color: #ffd0e4;
+  border:  4px #ffc0ef solid;
+  padding: .6em 0;
+}
+
+span.teeny {
+  font-size: 15px;
+}
+
+</style>
+<META NAME="generator" CONTENT="txt2html v1.25"/>
+<LINK REL='start' HREF='slide001.html' TYPE='text/html; charset=utf-8'/>
+<LINK REL='first' HREF='slide001.html' TYPE='text/html; charset=utf-8'/>
+<LINK REL='last' HREF='slide023.html' TYPE='text/html; charset=utf-8'/>
+<LINK id="nextlink" REL='next' HREF='slide018.html' TYPE='text/html; charset=utf-8'/>
+<MJDNEXT HREF='slide018.html'>
+<LINK REL='previous' HREF='slide016.html' TYPE='text/html; charset=utf-8'/>
+<LINK REL='contents' HREF='TABLE_OF_CONTENTS.html' TYPE='text/html; charset=utf-8'/>
+</HEAD>
+<BODY onKeypress='checkKey(event)' BGCOLOR="#ffffff"><FONT SIZE=4>
+
+<table width=100% cellpadding=0 cellspacing=0 border=0>
+<tr bgcolor=''><td width='50%'><font size="+1"><b>17</b></font></td>
+    <td align=right width='50%'><font size="+1"><b>17</b></font></td>
+</tr>
+</table>
+<hr>
+
+<script>
+window.onkeydown = function(e) {
+    e = e || window.event;
+    var k = e.keyCode || e.which;
+    switch(k) {
+//    alert(k);
+        case 39:
+        case 78:
+            document.location = "slide018.html";
+            break;
+        case 37:
+        case 78:
+            document.location = "slide016.html";
+            break;
+    }
+    return true;
+}
+</script>
+<H1><A NAME="section-1">Time passes...</A></H1>
+
+<UL>
+  <LI><p> In 2012 I asked on cs.stackexchange if there is a better algorithm!</LI></p>
+
+  <UL>
+    <LI><p> There is!</LI></p>
+
+  </UL>
+  <LI><p> A pair of anagram words forms a graph</LI></p>
+
+  <LI><p> Nodes in the graph are matching pairs of letters</LI></p>
+
+  <UL>
+    <LI><p> We'd like to match as many <I>pairs</I> as possible (bigger chunks!)</LI></p>
+
+    <LI><p> But not all pairs are compatible:</LI></p>
+
+  </UL>
+</UL>
+<P>
+<div style="font-size: 48pt; text-align: center;">
+cinematog<span style="color: #cc0000">ra</span>ph<span style="color: #cc0000">er</span>
+megachiropt<span style="color: #cc0000">era</span>n
+</div>
+
+<P>
+<p align=center><img src="pic/graphs/cinema.png"></p>
+
+
+<UL>
+  <LI><p> Edges express constraints:</LI></p>
+
+  <UL>
+    <LI><p> If two matching pairs are <I>incompatible</I>, the nodes are connected</LI></p>
+
+    <LI><p> Find as many <I>unconnected</I> nodes as possible</LI></p>
+  
+  </UL>
+</UL>
+<P>
+<div style="font-size: 48pt; text-align: center;">
+<span style="color: purple;">Maximum independent set</span>
+=<br>
+<span style="color: purple;">Minimum chunking</span>
+</div>
+
+
+
+<br clear=all>
+
+<table bgcolor="#ffccdd" width='100%' cellpadding=0 cellspacing=0 border=0>
+<tr bgcolor='' ><td width='33%'><a href="slide018.html">Next</a></td>
+    <td align=center width='33%' ><img border=0 src="pic/bangbang-48.png"></td>
+    <td width='33%' align='right'><a href="slide018.html">Next</a></td>
+</tr>
+</table>
+</FONT></BODY>
+</HTML>
