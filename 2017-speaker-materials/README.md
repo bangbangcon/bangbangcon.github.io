@@ -5,7 +5,7 @@ This directory contains a growing collection of materials that accompany the 201
 ## In this repo
 
   * Mark Dominus: [I got the computer to find words with good anagrams and throw away the boring ones!!](mark-dominus-i-found-the-best-anagram)
-  * Your Name Here: [Your link here](http://example.com)
+  * Your Name Here: [Your link here](your-directory-name)
 
 
 ## Hosted elsewhere
