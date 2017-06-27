@@ -5,7 +5,7 @@ title: Call for Talk Proposals! - !!Con 2017
 
 ## Call for talk proposals!
 
-The !!Con call for proposals is now closed. Thanks to everyone who submitted a talk idea!
+The !!Con 2017 call for proposals is now closed. Thanks to everyone who submitted a talk idea!
 
 <a name="important-dates"></a>
 
@@ -18,9 +18,9 @@ The !!Con call for proposals is now closed. Thanks to everyone who submitted a t
   * April 14: Conference registration opens.
   * April 14-23: Public announcement of full [speaker list](speakers.html).
   * May 1: Public announcement of detailed [schedule](program.html).
-  * **May 6-7: !!Con!**
+  * May 6-7: !!Con!
 
-## Original CFP (For posterity)
+## Original call for proposals (for posterity)
 
 Hi! !!Con is back for our **fourth year** of celebrating the joy,
 excitement, and surprise of computing, and we want **you**

@@ -5,10 +5,8 @@ title: The joy, excitement, and surprise of computing - !!Con 2017
 
 <p style="text-align: center;">
   **Quick Links:**
-  [Live Stream](http://confreaks.tv/live_events/bangbangcon2017)
+  [Talk Recordings](recordings.html)
   &middot;
-  <!-- [Talk Recordings](recordings.html) -->
-  <!-- &middot; -->
   [Venue](venue-accessibility.html)
   &middot;
   [Program](program.html)
@@ -18,7 +16,7 @@ title: The joy, excitement, and surprise of computing - !!Con 2017
   [Conduct](conduct.html)
 </p>
 
-<p id="blurb">**!!Con** (pronounced "bang bang con") is **two days of
+<p id="blurb">**!!Con** (pronounced "bang bang con") **2017** was **two days of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
 joyous, exciting, and surprising moments in computing.  Check out our
 [speaker lineup](speakers.html)!</p>
@@ -131,19 +129,14 @@ all your wonderful talk proposal submissions!
 
 ## Where and when?
 
-!!Con will be held at the [AppNexus](http://appnexus.com) headquarters
+!!Con was held at the [AppNexus](http://appnexus.com) headquarters
 at 28 West 23rd Street, 4th floor, Manhattan, NYC, on the weekend of
-May 6-7, 2017.  Doors open at 9:15am both days.
-[Learn more about our venue!](venue-accessibility.html)
+May 6-7, 2017.  [Learn more about our venue!](venue-accessibility.html)
 
 ## How much does it cost?  Where do I register?
 
-!!Con is a *pay-what-you-want* conference.  Registration is now
-closed, but you can sign up for the waiting
-list
-[on our Eventbrite event page](https://www.eventbrite.com/e/con-2017-tickets-33290614123),
-and we'll release a ticket to you if a spot opens up.  Thanks for your
-interest in !!Con!
+!!Con was a *pay-what-you-want* conference.  Registration is now
+closed.
 
 <a name="testimonials" id="testimonials"></a>
 
@@ -178,7 +171,7 @@ Here's what some of our 2016 speakers and attendees said about us:
 > to have ended on**"
 > -- [@aredridel](https://twitter.com/aredridel/status/729460621775867904)
 
-With your help, we plan to make !!Con 2017 at least as good!
+We hope !!Con 2017 was at least as good!
 
 ## How do I get updates?
 
@@ -207,7 +200,7 @@ for our mailing list below! No spam, we promise!
 
 <a name="organizers"></a>
 
-## Who's organizing all this?
+## Who organized all this?
 
 The !!Con 2017 organizing team:
 [Danielle Sucher](https://twitter.com/DanielleSucher),
@@ -290,13 +283,11 @@ class="magic">.</span><div class="logo"><img height="178" width="150"
 
 </div>
 
-## How can I help?
-
-We're looking for companies to sponsor us!  Check out our
-[sponsorship page](sponsors.html) to learn more.
+Our [sponsorship page](sponsors.html) shows the benefits that were
+available to sponsors!
 
 ## Code of Conduct
 
-We have a [code of conduct](conduct.html) that all !!Con participants
-are required to observe.
+We had a [code of conduct](conduct.html) that all !!Con participants
+were required to observe.
 
