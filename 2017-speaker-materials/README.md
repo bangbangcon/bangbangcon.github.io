@@ -10,5 +10,6 @@ This directory contains a growing collection of materials that accompany the 201
 ## Hosted elsewhere
 
   * David Turner: [Om! Nom! Nash!](http://novalis.org/talks/onn/)
+  * Andrew Plotkin: [Glk! A universal user interface! for interactive fiction!](http://eblong.com/zarf/essays/glk-history/)
   * Your Name Here: [Your link here](http://example.com)
 
