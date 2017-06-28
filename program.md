@@ -64,7 +64,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 12:15-1:30      | Break for lunch!
 |-----------------|-------------------------------------------------------------------------
-| 1:30-2:15       | **Session the Sixth:** <br /> &bull; *Om! Nom! Nash!* ([David Turner](speakers.html#david-turner))<br /> &bull; *It's super effective! Solving Pokemon Blue with a single, huge regular expression!* ([Alex Clemmer](speakers.html#alex-clemmer))<br /> &bull; *The emoji that killed Chrome!!* ([Julian Squires](speakers.html#julian-squires))<br /> &bull; *Islamic Geometry: Hankin's Polygons in Contact Algorithm!!!* ([Yomna Nasser](speakers.html#yomna-nasser))
+| 1:30-2:15       | **Session the Sixth:** <br /> &bull; *Om! Nom! Nash!* ([David Turner](speakers.html#david-turner))<br /> &bull; *It's super effective! Solving Pokemon Blue with a single, huge regular expression!* ([Alex Clemmer](speakers.html#alex-clemmer)) <em>(Note: unfortunately, this talk had to be cancelled due to the speaker being unable to attend)</em><br /> &bull; *The emoji that killed Chrome!!* ([Julian Squires](speakers.html#julian-squires))<br /> &bull; *Islamic Geometry: Hankin's Polygons in Contact Algorithm!!!* ([Yomna Nasser](speakers.html#yomna-nasser))
 |-----------------|-------------------------------------------------------------------------
 | 2:15-2:30       | Break!
 |-----------------|-------------------------------------------------------------------------
