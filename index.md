@@ -133,10 +133,10 @@ all your wonderful talk proposal submissions!
 at 28 West 23rd Street, 4th floor, Manhattan, NYC, on the weekend of
 May 6-7, 2017.  [Learn more about our venue!](venue-accessibility.html)
 
-## How much does it cost?  Where do I register?
-
-!!Con was a *pay-what-you-want* conference.  Registration is now
-closed.
+!!Con was
+*pay-what-you-want*.
+[Registration](https://www.eventbrite.com/e/con-2017-tickets-33290614123) is
+now closed.
 
 <a name="testimonials" id="testimonials"></a>
 
