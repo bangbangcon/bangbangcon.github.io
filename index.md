@@ -206,7 +206,7 @@ The !!Con 2017 organizing team:
 [Danielle Sucher](https://twitter.com/DanielleSucher),
 [Erty Seidohl](https://twitter.com/ertyseidohl),
 [Julia Evans](https://twitter.com/b0rk),
-[Kiran Bhattaram](https://twitter.com/kiranbot),
+[Kiran Bhattaram](https://twitter.com/kiranb),
 [Lindsey Kuper](https://twitter.com/lindsey), and
 [Nabil Hassein](https://twitter.com/NabilHassein).  Organizers
 emeriti: [Alex Clemmer](https://twitter.com/hausdorff_space),
