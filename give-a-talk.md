@@ -46,7 +46,7 @@ The submission deadline is **Sunday, March 4**. We'll accept as many of your ama
 
 ## Speaker travel funding
 
-!!Con will be held at the [AppNexus](http://appnexus.com) headquarters in Manhattan, NYC.  We offer financial assistance for travel expenses (stuff like flights, trains, lodging, and meals while traveling) for outside-of-NYC speakers.  If you're not from the NYC area and you want to request funding, please fill out the relevant section of the [proposal submission form](https://goo.gl/forms/5zMZSVnkeXzPYA8I2)
+!!Con will be held at the [AppNexus](http://appnexus.com) headquarters in Manhattan, NYC.  We offer financial assistance for travel expenses (stuff like flights, trains, lodging, and meals while traveling) for outside-of-NYC speakers.  If you're not from the NYC area and you want to request funding, please fill out the relevant section of the [proposal submission form](https://goo.gl/forms/5zMZSVnkeXzPYA8I2).
 
 Because submissions are reviewed anonymously, requesting financial assistance will not affect a proposal's chances of acceptance.
 
