@@ -1,9 +1,9 @@
 ---
-layout: default-2018
-title: Code of Conduct - !!Con 2018
+layout: default-2017
+title: Code of Conduct - !!Con 2017
 ---
 
-# Code of conduct
+## Code of Conduct
 
 Our goal with !!Con is to bring the NYC programming community together
 for a conference about the excitement, joy, and surprise of
@@ -24,7 +24,7 @@ expected to have one; not because someone told us to; not because we
 heard somewhere that it was important for some reason -- but **as part
 of an intentional effort to define the culture of !!Con**.
 
-## The short version
+## The Short Version
 
 !!Con is dedicated to providing a harassment-free conference
 experience for everyone, regardless of gender, sexual orientation,
@@ -45,7 +45,7 @@ at the sole discretion of the conference organizers.
 
 Thank you for helping make this a welcoming, friendly event for all.
 
-## The longer version
+## The Longer Version
 
 Harassment includes offensive verbal comments related to gender,
 sexual orientation, disability, physical appearance, body size, race,
@@ -68,7 +68,7 @@ policy, the conference organizers may take any action they deem
 appropriate, including warning the offender or expulsion from the
 conference.
 
-## Social rules
+## Social Rules
 
 In addition to having a code of conduct as an anti-harassment policy,
 we have a small set of
@@ -95,7 +95,7 @@ If you have any questions about any part of the code of conduct or
 social rules, please feel free to reach out to any of the conference
 organizers.
 
-## Contact information
+## Contact Information
 
 If you are being harassed, notice that someone else is being harassed,
 or have any other concerns, please contact
