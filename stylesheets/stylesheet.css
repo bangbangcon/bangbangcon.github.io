@@ -95,6 +95,7 @@ hr {
 }
 
 h1 {
+    margin-top: 0;
     font-family: "Lato", serif;
     font-weight: 900;
     font-size: 280%;
