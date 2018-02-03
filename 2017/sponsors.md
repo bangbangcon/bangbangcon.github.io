@@ -1,11 +1,9 @@
 ---
-layout: default-2018
-title: Sponsorship - !!Con 2018
+layout: default-2017
+title: Sponsorship - !!Con 2017
 ---
-
-# Sponsoring !!Con
           
-Thank you for your interest in sponsoring !!Con 2018!  💜
+Thank you for your interest in sponsoring !!Con 2017!  💜
 
 We are committed to keeping !!Con a pay-what-you-want event, and have
 been called "radically inclusive" by past speakers and attendees. We
@@ -48,7 +46,7 @@ Julia Evans: [julia@jvns.ca](mailto:julia@jvns.ca)
 
 <a name="note-on-tickets"></a>
 
-#### A note about employee tickets
+### *A note about employee tickets
 
 Space at !!Con is limited, so we humbly request that these tickets go
 to employees of your company who will really enjoy the subject matter

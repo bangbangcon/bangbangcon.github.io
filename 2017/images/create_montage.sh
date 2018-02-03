@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# A script to generate the montage background image used in our 2018
+# A script to generate the montage background image used in our 2017
 # website.  Depends on ImageMagick and coreutils (gshuf).
 
 # Create temporary directory for images
@@ -13,7 +13,6 @@ mkdir /tmp/bangbangcon_images/final
 cp ../2014/images/speakers/*.png /tmp/bangbangcon_images/
 cp ../2015/images/speakers/*.png /tmp/bangbangcon_images/
 cp ../2016/images/speakers/*.png /tmp/bangbangcon_images/
-cp ../2017/images/speakers/*.png /tmp/bangbangcon_images/
 
 # Convert images to 50x50px
 i=1
@@ -25,9 +24,9 @@ done
 # Numbers determined by experimentation -- this is what looked good!
 # If the number of source images changes, these will likely have to
 # change too.
-COPIES=3
-GRID_HEIGHT=12
-LEFTOVER_SLOTS=6 # number of spaces left over in grid
+COPIES=5
+GRID_HEIGHT=9
+LEFTOVER_SLOTS=7 # number of spaces left over in grid
 
 # Make copies and order images randomly
 j=1
@@ -38,7 +37,7 @@ for ((i=1; i<=$COPIES; i++)); do
     done
 done
 
-# Pick a random 6 images to fill in the gap at the end
+# Pick a random 7 images to fill in the gap at the end
 k=1
 for image in `ls /tmp/bangbangcon_images/final/*.png | gshuf | head -n $LEFTOVER_SLOTS`; do
     #echo $image;

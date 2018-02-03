@@ -1,148 +1,42 @@
 ---
-layout: default-2017
-title: The joy, excitement, and surprise of computing - !!Con 2017
+layout: default-2018
+title: The joy, excitement, and surprise of computing - !!Con 2018
 ---
 
 <p style="text-align: center;">
   **Quick Links:**
-  [Talk Recordings](recordings.html)
-  &middot;
   [Venue](venue-accessibility.html)
   &middot;
-  [Program](program.html)
-  &middot;
-  [Speakers](speakers.html)
+  [Call for Talk Proposals](give-a-talk.html)
   &middot;
   [Conduct](conduct.html)
 </p>
 
-<p id="blurb">**!!Con** (pronounced "bang bang con") **2017** was **two days of
+<p id="blurb">**!!Con** (pronounced "bang bang con") **2018** is **two days of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
-joyous, exciting, and surprising moments in computing.  Check out our
-[speaker lineup](speakers.html)!</p>
+joyous, exciting, and surprising moments in computing.</p>
 
-<a name="speaking" id="speaking"></a>
+## Who's speaking?
 
-<div class="speaker-pics" markdown="0">
-    <div><a href="./speakers.html#karen-sandler"><img height="100" width="100"
-    src="images/speakers/karen-sandler.png" alt="Karen Sandler" /></a></div>
-
-    <div><a href="./speakers.html#limor-fried"><img height="100" width="100"
-    src="images/speakers/limor-fried.png" alt="Limor Fried" /></a></div>
-
-    <div><a href="./speakers.html#aaron-levin"><img height="100" width="100"
-    src="images/speakers/aaron-levin.png" alt="Aaron Levin" /></a></div>
-
-    <div><a href="./speakers.html#alex-clemmer"><img height="100" width="100"
-    src="images/speakers/alex-clemmer.png" alt="Alex Clemmer" /></a></div>
-
-    <div><a href="./speakers.html#andrew-plotkin"><img height="100" width="100"
-    src="images/speakers/andrew-plotkin.png" alt="Andrew Plotkin" /></a></div>
-
-    <div><a href="./speakers.html#bomani-mcclendon"><img height="100" width="100"
-    src="images/speakers/bomani-mcclendon.png" alt="Bomani McClendon" /></a></div>
-
-    <div><a href="./speakers.html#charles-chamberlain"><img height="100" width="100"
-    src="images/speakers/charles-chamberlain.png" alt="Charles Chamberlain" /></a></div>
-
-    <div><a href="./speakers.html#christian-joudrey"><img height="100" width="100"
-    src="images/speakers/christian-joudrey.png" alt="Christian Joudrey" /></a></div>
-
-    <div><a href="./speakers.html#david-turner"><img height="100" width="100"
-    src="images/speakers/david-turner.png" alt="David Turner" /></a></div>
-
-    <div><a href="./speakers.html#evan-jones"><img height="100" width="100"
-    src="images/speakers/evan-jones.png" alt="Evan Jones" /></a></div>
-
-    <div><a href="./speakers.html#ewan-dennis"><img height="100" width="100"
-    src="images/speakers/ewan-dennis.png" alt="Ewan Dennis" /></a></div>
-
-    <div><a href="./speakers.html#geoffrey-litt"><img height="100" width="100"
-    src="images/speakers/geoffrey-litt.png" alt="Geoffrey Litt" /></a></div>
-
-    <div><a href="./speakers.html#jan-mitsuko-cash"><img height="100" width="100"
-    src="images/speakers/jan-mitsuko-cash.png" alt="Jan Mitsuko Cash" /></a></div>
-
-    <div><a href="./speakers.html#jason-mcintosh"><img height="100" width="100"
-    src="images/speakers/jason-mcintosh.png" alt="Jason McIntosh" /></a></div>
-
-    <div><a href="./speakers.html#jean-cochrane"><img height="100" width="100"
-    src="images/speakers/jean-cochrane.png" alt="Jean Cochrane" /></a></div>
-
-    <div><a href="./speakers.html#jes-wolfe!"><img height="100" width="100"
-    src="images/speakers/jes-wolfe!.png" alt="Jes Wolfe!" /></a></div>
-
-    <div><a href="./speakers.html#joel-potischman"><img height="100" width="100"
-    src="images/speakers/joel-potischman.png" alt="Joel Potischman" /></a></div>
-
-    <div><a href="./speakers.html#julian-squires"><img height="100" width="100"
-    src="images/speakers/julian-squires.png" alt="Julian Squires" /></a></div>
-
-    <div><a href="./speakers.html#kevin-chen"><img height="100" width="100"
-    src="images/speakers/kevin-chen.png" alt="Kevin Chen" /></a></div>
-
-    <div><a href="./speakers.html#lisa-ballard"><img height="100" width="100"
-    src="images/speakers/lisa-ballard.png" alt="Lisa Ballard" /></a></div>
-
-    <div><a href="./speakers.html#mahtab-sabet"><img height="100" width="100"
-    src="images/speakers/mahtab-sabet.png" alt="Mahtab Sabet" /></a></div>
-
-    <div><a href="./speakers.html#mark-dominus"><img height="100" width="100"
-    src="images/speakers/mark-dominus.png" alt="Mark Dominus" /></a></div>
-
-    <div><a href="./speakers.html#michael-kwan"><img height="100" width="100"
-    src="images/speakers/michael-kwan.png" alt="Michael Kwan" /></a></div>
-
-    <div><a href="./speakers.html#mindy-preston"><img height="100" width="100"
-    src="images/speakers/mindy-preston.png" alt="Mindy Preston"/></a></div>
-
-    <div><a href="./speakers.html#paul-frazee"><img height="100" width="100"
-    src="images/speakers/paul-frazee.png" alt="Paul Frazee"/></a></div>
-
-    <div><a href="./speakers.html#nick-sullivan"><img height="100" width="100"
-    src="images/speakers/nick-sullivan.png" alt="Nick Sullivan" /></a></div>
-
-    <div><a href="./speakers.html#richard-harrington"><img height="100" width="100"
-    src="images/speakers/richard-harrington.png" alt="Richard Harrington" /></a></div>
-
-    <div><a href="./speakers.html#ruchir-khaitan"><img height="100" width="100"
-    src="images/speakers/ruchir-khaitan.png" alt="Ruchir Khaitan" /></a></div>
-
-    <div><a href="./speakers.html#scott-vokes"><img height="100" width="100"
-    src="images/speakers/scott-vokes.png" alt="Scott Vokes" /></a></div>
-
-    <div><a href="./speakers.html#tara-vancil"><img height="100" width="100"
-    src="images/speakers/tara-vancil.png" alt="Tara Vancil" /></a></div>
-
-    <div><a href="./speakers.html#walt-mankowski"><img height="100" width="100"
-    src="images/speakers/walt-mankowski.png" alt="Walt Mankowski"/></a></div>
-
-    <div><a href="./speakers.html#yomna-nasser"><img height="100" width="100"
-    src="images/speakers/yomna-nasser.png" alt="Yomna Nasser"/></a></div>
-
-</div>
-
-Our [call for talk proposals](give-a-talk.html) is closed.  Thanks for
-all your wonderful talk proposal submissions!
+Maybe [you](give-a-talk.html)!  Our call for talk proposals is open!
 
 <a name="where" id="where"></a>
 
 ## Where and when?
 
-!!Con was held at the [AppNexus](http://appnexus.com) headquarters
+!!Con 2018 will be held at the [AppNexus](http://appnexus.com) headquarters
 at 28 West 23rd Street, 4th floor, Manhattan, NYC, on the weekend of
-May 6-7, 2017.  [Learn more about our venue!](venue-accessibility.html)
+May 12-13, 2018.  [Learn more about our venue!](venue-accessibility.html)
 
-!!Con was
-*pay-what-you-want*.
-[Registration](https://www.eventbrite.com/e/con-2017-tickets-33290614123) is
-now closed.
+!!Con is a *pay-what-you-want* conference.  Stay tuned for information about registration.
 
 <a name="testimonials" id="testimonials"></a>
 
 ## What's so great about !!Con?
 
-Here's what some of our 2016 speakers and attendees said about us:
+Here's what some of our past speakers and attendees said about us:
+
+<!-- Need to update these for 2018 -->
 
 > "**a non-stop barrage of AWESOME talks!**" --
 > [@AnjanaVakil](https://twitter.com/AnjanaVakil/status/729061608140509185)
@@ -171,7 +65,7 @@ Here's what some of our 2016 speakers and attendees said about us:
 > to have ended on**"
 > -- [@aredridel](https://twitter.com/aredridel/status/729460621775867904)
 
-We hope !!Con 2017 was at least as good!
+We hope !!Con 2018 will be at least as good!
 
 ## How do I get updates?
 
@@ -200,94 +94,27 @@ for our mailing list below! No spam, we promise!
 
 <a name="organizers"></a>
 
-## Who organized all this?
+## Who's organizing all this?
 
-The !!Con 2017 organizing team:
+The !!Con 2018 organizing team:
+[Alex Clemmer](https://twitter.com/hausdorff_space),
 [Danielle Sucher](https://twitter.com/DanielleSucher),
 [Erty Seidohl](https://twitter.com/ertyseidohl),
 [Julia Evans](https://twitter.com/b0rk),
 [Kiran Bhattaram](https://twitter.com/kiranb),
 [Lindsey Kuper](https://twitter.com/lindsey), and
 [Nabil Hassein](https://twitter.com/NabilHassein).  Organizers
-emeriti: [Alex Clemmer](https://twitter.com/hausdorff_space),
-[Leo Franchi](https://twitter.com/lfranchi), and
+emeriti: [Leo Franchi](https://twitter.com/lfranchi) and
 [Maggie Zhou](https://twitter.com/zmagg).  Logo design by
 [Lea Albaugh](http://twitter.com/doridoidea).
 
 <a name="sponsors"></a>
 
-## Sponsors
+## Sponsorship
 
-Thank you to our amazing sponsors for helping make !!Con possible!
+Is your organization interested in sponsoring !!Con?  Check out our [sponsorship page](sponsors.html)!
 
-<div class="sponsor-list" markdown="0">
-    <h3>PHENOMENAL!!! Sponsors</h3>
+## Code of conduct
 
-    <div class="sponsor"><a href="https://appnexus.com" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="100" width="400"
-    alt="AppNexus" src="images/sponsors/appnexus.jpg" /></div></a></div>
-
-    <div class="sponsor"><a href="https://comcast.com" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="120" width="210"
-    alt="Comcast" src="images/sponsors/comcast.jpg" /></div></a></div>
-
-    <div class="sponsor"><a href="https://capitalone.com" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="80" width="240"
-    alt="Capital One" src="images/sponsors/capitalone.png" /></div></a></div>
-
-    <h3>AWESOME! Sponsors</h3>
-
-    <div class="sponsor"><a href="http://raise.com" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="115" width="265"
-    alt="Raise.com" src="images/sponsors/raise.png"
-    /></div></a></div>
-
-    <div class="sponsor"><a href="http://stripe.com/jobs" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="110" width="230"
-    alt="Stripe" src="images/sponsors/stripe.png"
-    /></div></a></div>
-
-
-    <div class="sponsor"><a href="http://soundcloud.com" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="120" width="153"
-    alt="Soundcloud" src="images/sponsors/soundcloud.jpg"
-    /></div></a></div>
-
-    <div class="sponsor"><a href="http://mozilla.com" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="100" width="250"
-    alt="Mozilla" src="images/sponsors/mozilla.jpg"
-    /></div></a></div>
-
-    <div class="sponsor">
-<span
-class="magic">.</span><div class="logo"><img height="110" width="240"
-    alt="HBC Digital" src="images/sponsors/hbcdigital.png"
-    /></div>
-</div>
-
-
-    <div class="sponsor"><a href="http://heapanalytics.com/jobs" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="100" width="316"
-    alt="Heap" src="images/sponsors/heap.png"
-    /></div></a></div>
-
-    <div class="sponsor"><a href="http://meetup.com" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="100" width="277"
-    alt="Meetup" src="images/sponsors/meetup.png"
-    /></div></a></div>
-
-    <div class="sponsor big-sponsor"><a href="http://recurse.com" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="178" width="150"
-    alt="Recurse Center" src="images/sponsors/rc.png"
-    /></div></a></div>
-
-</div>
-
-Our [sponsorship page](sponsors.html) shows the benefits that were
-available to sponsors!
-
-## Code of Conduct
-
-We had a [code of conduct](conduct.html) that all !!Con participants
-were required to observe.
+We have a [code of conduct](conduct.html) that all !!Con participants are required to observe.
 
