@@ -56,7 +56,7 @@ Because submissions are reviewed anonymously, requesting financial assistance wi
 
 ## Speaker honorarium
 
-Preparing an amazing conference talk is hard work. To show our appreciation, we’re paying all our speakers a $256 honorarium.
+Preparing an amazing conference talk is hard work. To show our appreciation, we’re paying all our speakers a $256 (US) honorarium.
 
 ## A note about travel
 
