@@ -5,7 +5,7 @@ title: Call for Talk Proposals! - !!Con 2018
 
 # Call for talk proposals
 
-Hi! !!Con is back for our **fifth year** of celebrating the joy, excitement, and surprise of computing, and we want **you** to [submit a talk proposal](https://docs.google.com/forms/d/1E2VhkUBqwwQgtcPdSBB6F_N-c7wSUc9bOm7yJaXD6iQ/). The **submission deadline** is **Sunday, March 4**.
+Hi! !!Con is back for our **fifth year** of celebrating the joy, excitement, and surprise of computing, and we want **you** to [submit a talk proposal](https://goo.gl/forms/5zMZSVnkeXzPYA8I2). The **submission deadline** is **Sunday, March 4**.
 
 Over [the](2017/speakers.html) [last](2016/speakers.html) [four](2015/speakers.html) [years](2014/speakers.html), !!Con talks have featured everything from [glowing mushrooms](https://www.youtube.com/watch?v=T75FvUDirNM) to [game theory](https://www.youtube.com/watch?v=RHg2JIvoaq0); from [machine knitting](https://www.youtube.com/watch?v=ihqcgrR0azw) to [neural networks](https://www.youtube.com/watch?v=7_DX1EGKZXY); from [live coding on an Apple II](https://www.youtube.com/watch?v=DY4t9IHFD4E) to [queer feminist cyberpunk manifestos](https://www.youtube.com/watch?v=5GiQovHaT_g). We’ve had speakers who are programmers, poets, scientists, students, and more!
 
@@ -23,13 +23,13 @@ We would **especially** like to hear from you if:
   * you’ve never spoken at a tech conference. Some of our favorite !!Con talks have been from first-time speakers.
   * you find that people like you are underrepresented at programming conferences. We're committed to doing work to make !!Con a good experience for you. See our [code of conduct](conduct.html).
 
-**All talks will be ten minutes long.** Ten minutes isn't much time, so think carefully about the scope of your talk and be clear in the timeline about how you plan to spend the time. A single, focused idea is best -- go for "here's my favorite assembly instruction" rather than "here's an overview of how assembly works". [“How to write a timeline for a !!Con talk proposal”](http://composition.al/blog/2017/06/30/how-to-write-a-timeline-for-a-bangbangcon-talk-proposal/) by !!Con organizer Lindsey Kuper has some advice.
+**All talks will be ten minutes long.** Ten minutes isn't much time, so think carefully about the scope of your talk and be clear in the timeline about how you plan to spend the time. A single, focused idea is best -- go for "here's my favorite assembly instruction" rather than "here's an overview of how assembly works".
 
 The submission deadline is **Sunday, March 4**. We'll accept as many of your amazing talks as we can. You can submit more than one talk proposal.
 
-**Proposals will be anonymized to avoid bias.** Although we ask for your name, email address, and so on in the [proposal submission form](https://docs.google.com/forms/d/1E2VhkUBqwwQgtcPdSBB6F_N-c7wSUc9bOm7yJaXD6iQ/), only one or two organizers who serve as anonymizers will actually see this information, and they won’t review your proposal.  The rest of the [organizing team](index.html#organizers) will review your proposal without knowing who you are.
+**Proposals will be anonymized to avoid bias.** Although we ask for your name, email address, and so on in the [proposal submission form](https://goo.gl/forms/5zMZSVnkeXzPYA8I2), only one or two organizers who serve as anonymizers will actually see this information, and they won’t review your proposal.  The rest of the [organizing team](index.html#organizers) will review your proposal without knowing who you are.
 
-[Submit your proposal today!](https://docs.google.com/forms/d/1E2VhkUBqwwQgtcPdSBB6F_N-c7wSUc9bOm7yJaXD6iQ/)
+[Submit your proposal today!](https://goo.gl/forms/5zMZSVnkeXzPYA8I2)
 
 ## Important dates
 
@@ -46,7 +46,7 @@ The submission deadline is **Sunday, March 4**. We'll accept as many of your ama
 
 ## Speaker travel funding
 
-!!Con will be held at the [AppNexus](http://appnexus.com) headquarters in Manhattan, NYC.  We offer financial assistance for travel expenses (stuff like flights, trains, lodging, and meals while traveling) for outside-of-NYC speakers.  If you're not from the NYC area and you want to request funding, please fill out the relevant section of the [proposal submission form](https://docs.google.com/forms/d/1E2VhkUBqwwQgtcPdSBB6F_N-c7wSUc9bOm7yJaXD6iQ/).
+!!Con will be held at the [AppNexus](http://appnexus.com) headquarters in Manhattan, NYC.  We offer financial assistance for travel expenses (stuff like flights, trains, lodging, and meals while traveling) for outside-of-NYC speakers.  If you're not from the NYC area and you want to request funding, please fill out the relevant section of the [proposal submission form](https://goo.gl/forms/5zMZSVnkeXzPYA8I2)
 
 Because submissions are reviewed anonymously, requesting financial assistance will not affect a proposal's chances of acceptance.
 
