@@ -34,36 +34,24 @@ May 12-13, 2018.  [Learn more about our venue!](venue-accessibility.html)
 
 ## What's so great about !!Con?
 
-Here's what some of our past speakers and attendees said about us:
+Here's what some of our 2017 speakers and attendees said about us:
 
-<!-- Need to update these for 2018 -->
-
-> "**a non-stop barrage of AWESOME talks!**" --
-> [@AnjanaVakil](https://twitter.com/AnjanaVakil/status/729061608140509185)
-
-> "**one of the most diverse and engaged tech communities** I've ever
-> encountered" --
-> [@enjenneer](https://twitter.com/enjenneer/status/729866321001844737)
-
-> "What an **amazing, delightful, intellectually stimulating, and
-> simply joyous** conference!" --
-> [@techstepper](https://twitter.com/techstepper/status/729503996730347520)
-
-> "#bangbangcon was **utterly amazing**, to the point that i have not
-> tweeted about it because how do you fit that into a tweet" --
-> [@jackmakesthings](https://twitter.com/jackmakesthings/status/729694660407504897)
-
-> "**if you are not making plans to attend** next year's @bangbangcon,
-> you are **making a huge mistake**" --
-> [@tdenkinger](https://twitter.com/tdenkinger/status/729554572843323392)
-
-> "This weekend #bangbangcon showed me **a world I want to live in all
-> the time**" --
-> [@nathanstilwell](https://twitter.com/nathanstilwell/status/729442220156276741)
-
-> "**If I never went to another tech conference, this would be the one
-> to have ended on**"
-> -- [@aredridel](https://twitter.com/aredridel/status/729460621775867904)
+<!-- need to get permission for this one -->
+> "We aren't even at lunch yet and already this is **the coolest conference I've ever been to!**"
+> -- [@mahtab_sabet](https://twitter.com/mahtab_sabet/status/860876124141780992)
+>
+> "@bangbangcon managed to pack **more useful info into one day than most other conferences do in 3**. And it was **10x more fun.**"
+> -- [@johnwittrock](https://twitter.com/johnwittrock/status/861206986448404481)
+>
+> "It's refreshing to **learn 30+ new things about programming in a single weekend** at @bangbangcon, even though I've been programming for so long"
+> -- [@pixelyunicorn](https://twitter.com/pixelyunicorn/status/861690031370645504)
+>
+> "@bangbangcon is **the most exciting and important conference in NYC**"
+> -- [@aaronmblevin](https://twitter.com/aaronmblevin/status/843949325906534402)
+> 
+<!-- need to get permission for this one -->
+> "@bangbangcon was awesome!  Learned a lot, met very friendly people, and **left inspired**."
+> -- [@bxmani](https://twitter.com/bxmani/status/861400448107937792)
 
 We hope !!Con 2018 will be at least as good!
 
