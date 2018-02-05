@@ -12,9 +12,9 @@ title: The joy, excitement, and surprise of computing - !!Con 2018
   [Conduct](conduct.html)
 </p>
 
-<p id="blurb">**!!Con** (pronounced "bang bang con") **2018** is **two days of
+<p id="blurb">**!!Con** (pronounced "bang bang con") is **two days of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
-joyous, exciting, and surprising moments in computing.</p>
+joyous, exciting, and surprising moments in computing.  Join us for our **fifth year** in 2018!</p>
 
 ## Who's speaking?
 
