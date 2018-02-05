@@ -36,7 +36,6 @@ May 12-13, 2018.  [Learn more about our venue!](venue-accessibility.html)
 
 Here's what some of our 2017 speakers and attendees said about us:
 
-<!-- need to get permission for this one -->
 > "We aren't even at lunch yet and already this is **the coolest conference I've ever been to!**"
 > -- [@mahtab_sabet](https://twitter.com/mahtab_sabet/status/860876124141780992)
 >
@@ -49,7 +48,6 @@ Here's what some of our 2017 speakers and attendees said about us:
 > "@bangbangcon is **the most exciting and important conference in NYC**"
 > -- [@aaronmblevin](https://twitter.com/aaronmblevin/status/843949325906534402)
 > 
-<!-- need to get permission for this one -->
 > "@bangbangcon was awesome!  Learned a lot, met very friendly people, and **left inspired**."
 > -- [@bxmani](https://twitter.com/bxmani/status/861400448107937792)
 
