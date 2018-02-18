@@ -18,7 +18,21 @@ joyous, exciting, and surprising moments in computing.  Join us for our **fifth 
 
 ## Who's speaking?
 
-Maybe [you](give-a-talk.html)!  Our call for talk proposals is open!
+Our 2018 keynote speakers are Mimi Onuoha and Liz Fong-Jones!
+
+<a name="mimi-onuoha" id="mimi-onuoha"></a>
+<img src="images/speakers/mimi-onuoha.png" alt="Mimi Onuoha" class="speaker-img" />
+
+**Mimi Onuoha** is a Brooklyn-based artist and researcher investigating the social results of data collection and computational categorization. Her work uses code, writing, performance, and objects to explore missing data and the ways in which people are abstracted, represented, and classified.
+
+Onuoha has been in residence at Eyebeam, the Data & Society Research Institute, Columbia University’s Tow Center, and the Royal College of Art. She has exhibited and presented workshops in festivals internationally, and in 2014 she was selected to be in the inaugural class of Fulbright-National Geographic Digital Storytelling Fellows. She was recently a visiting faculty member at Bennington College, and currently is teaching at NYU.
+
+<a name="liz-fong-jones" id="liz-fong-jones"></a>
+<img src="images/speakers/liz-fong-jones.png" alt="Liz Fong-Jones" class="speaker-img" />
+
+**Liz Fong-Jones** is a Staff Site Reliability Engineer at Google and works on the Google Cloud Customer Reliability Engineering team in New York. She lives with her wife, metamour, and two Samoyeds in Brooklyn. In her spare time, she plays classical piano, leads an EVE Online alliance, and advocates for transgender rights.
+
+Who else is speaking at !!Con 2018?  Maybe [you](give-a-talk.html)!  Our call for talk proposals is open!
 
 <a name="where" id="where"></a>
 
