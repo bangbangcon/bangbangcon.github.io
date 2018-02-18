@@ -16,6 +16,8 @@ title: The joy, excitement, and surprise of computing - !!Con 2018
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
 joyous, exciting, and surprising moments in computing.  Join us for our **fifth year** in 2018!</p>
 
+<a name="speaking" id="speaking"></a>
+
 ## Who's speaking?
 
 Our 2018 keynote speakers are Mimi Onuoha and Liz Fong-Jones!
@@ -32,7 +34,7 @@ Onuoha has been in residence at Eyebeam, the Data & Society Research Institute, 
 
 **Liz Fong-Jones** is a Staff Site Reliability Engineer at Google and works on the Google Cloud Customer Reliability Engineering team in New York. She lives with her wife, metamour, and two Samoyeds in Brooklyn. In her spare time, she plays classical piano, leads an EVE Online alliance, and advocates for transgender rights.
 
-Who else is speaking at !!Con 2018?  Maybe [you](give-a-talk.html)!  Our call for talk proposals is open!
+Who else is speaking at !!Con 2018?  Maybe **you**!  Our [call for talk proposals](give-a-talk.html) is open!
 
 <a name="where" id="where"></a>
 
