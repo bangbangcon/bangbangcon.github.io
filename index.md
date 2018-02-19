@@ -73,7 +73,7 @@ We hope !!Con 2018 will be at least as good!
 
 For updates on !!Con, follow
 [@bangbangcon](https://twitter.com/bangbangcon) on Twitter, or sign up
-for our mailing list below! No spam, we promise!
+for our mailing list below.  We send about four or five emails per year for important announcements about our venue, submission deadlines, registration, and that sort of thing.  No spam, we promise, and it's easy to unsubscribe at any time.
 
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
