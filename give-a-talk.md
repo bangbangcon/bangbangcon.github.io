@@ -5,6 +5,8 @@ title: Call for Talk Proposals! - !!Con 2018
 
 # Call for talk proposals
 
+**Our call for talk proposals is now closed.  Thank you for all of your wonderful submissions!**
+
 Hi! !!Con is back for our **fifth year** of celebrating the joy, excitement, and surprise of computing, and we want **you** to [submit a talk proposal](https://goo.gl/forms/5zMZSVnkeXzPYA8I2). The **submission deadline** is **Sunday, March 4**.
 
 Over [the](2017/speakers.html) [last](2016/speakers.html) [four](2015/speakers.html) [years](2014/speakers.html), !!Con talks have featured everything from [glowing mushrooms](https://www.youtube.com/watch?v=T75FvUDirNM) to [game theory](https://www.youtube.com/watch?v=RHg2JIvoaq0); from [machine knitting](https://www.youtube.com/watch?v=ihqcgrR0azw) to [neural networks](https://www.youtube.com/watch?v=7_DX1EGKZXY); from [live coding on an Apple II](https://www.youtube.com/watch?v=DY4t9IHFD4E) to [queer feminist cyberpunk manifestos](https://www.youtube.com/watch?v=5GiQovHaT_g). We’ve had speakers who are programmers, poets, scientists, students, and more!

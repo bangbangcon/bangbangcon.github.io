@@ -34,7 +34,7 @@ Onuoha has been in residence at Eyebeam, the Data & Society Research Institute, 
 
 **Liz Fong-Jones** is a Staff Site Reliability Engineer at Google and works on the Google Cloud Customer Reliability Engineering team in New York. She lives with her wife, metamour, and two Samoyeds in Brooklyn. In her spare time, she plays classical piano, leads an EVE Online alliance, and advocates for transgender rights.
 
-Who else is speaking at !!Con 2018?  Maybe **you**!  Our [call for talk proposals](give-a-talk.html) is open!
+Who else is speaking at !!Con 2018?  Stay tuned to find out!  We're currently reviewing the many amazing talk proposals we received!
 
 <a name="where" id="where"></a>
 
