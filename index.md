@@ -116,6 +116,29 @@ emeriti: [Leo Franchi](https://twitter.com/lfranchi) and
 
 Is your organization interested in sponsoring !!Con?  Check out our [sponsorship page](sponsors.html)!
 
+<div class="sponsor-list" markdown="0">
+    <h3>PHENOMENAL!!! Sponsors</h3>
+
+    <div class="sponsor"><a href="https://appnexus.com" target="_blank"><span
+class="magic">.</span><div class="logo"><img height="100" width="400"
+    alt="AppNexus" src="images/sponsors/appnexus.jpg" /></div></a></div>
+
+    <h3>EXCELLENT!! Sponsors</h3>
+
+    <div class="sponsor"><a href="https://merrillcorp.com" target="_blank"><span
+class="magic">.</span><div class="logo"><img height="100" width="316"
+    alt="Merrill" src="images/sponsors/merrill.jpg" /></div></a></div>
+
+    <h3>AWESOME! Sponsors</h3>
+
+    <div class="sponsor"><a href="https://comcast.com" target="_blank"><span
+    class="magic">.</span><div class="logo"><img height="120" width="210"
+    alt="Comcast" src="images/sponsors/comcast.jpg" /></div></a></div>
+
+
+</div>
+
+
 ## Code of conduct
 
 We have a [code of conduct](conduct.html) that all !!Con participants are required to observe.
