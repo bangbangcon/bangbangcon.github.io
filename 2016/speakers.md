@@ -161,7 +161,7 @@ this talk.
 Before running the New Horizons spacecraft as a flight controller for
 the first-ever reconnaissance of Pluto and Charon, **Katie** wrote
 flight software for that spacecraft and one of the scientific
-instruments aboard a Mercury orbiter. She loves practicing the Way of
+instruments aboard a Mercury orbiter. They love practicing the Way of
 Tea and mucking about in caves.
 
 ---
