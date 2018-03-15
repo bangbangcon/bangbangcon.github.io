@@ -123,6 +123,10 @@ Is your organization interested in sponsoring !!Con?  Check out our [sponsorship
 class="magic">.</span><div class="logo"><img height="100" width="400"
     alt="AppNexus" src="images/sponsors/appnexus.jpg" /></div></a></div>
 
+    <div class="sponsor"><a href="https://3m.com" target="_blank"><span
+class="magic">.</span><div class="logo"><img height="72" width="400"
+    alt="3M" src="images/sponsors/3m.png" /></div></a></div>
+
     <h3>EXCELLENT!! Sponsors</h3>
 
     <div class="sponsor"><a href="https://merrillcorp.com" target="_blank"><span
