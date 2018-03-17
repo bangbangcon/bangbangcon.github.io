@@ -7,7 +7,7 @@ title: The joy, excitement, and surprise of computing - !!Con 2018
   **Quick Links:**
   [Venue](venue-accessibility.html)
   &middot;
-  [Call for Talk Proposals](give-a-talk.html)
+  [Sponsorship](sponsorship.html)
   &middot;
   [Conduct](conduct.html)
 </p>
@@ -34,7 +34,7 @@ Onuoha has been in residence at Eyebeam, the Data & Society Research Institute, 
 
 **Liz Fong-Jones** is a Staff Site Reliability Engineer at Google and works on the Google Cloud Customer Reliability Engineering team in New York. She lives with her wife, metamour, and two Samoyeds in Brooklyn. In her spare time, she plays classical piano, leads an EVE Online alliance, and advocates for transgender rights.
 
-Who else is speaking at !!Con 2018?  Stay tuned to find out!  We're currently reviewing the many amazing talk proposals we received!
+Who else is speaking at !!Con 2018?  Stay tuned to find out!  Our [call for talk proposals](give-a-talk.html) is now closed, and we've reviewed the nearly 300 (!) proposals we received and are working on notifying speakers.
 
 <a name="where" id="where"></a>
 
