@@ -7,7 +7,7 @@ title: The joy, excitement, and surprise of computing - !!Con 2018
   **Quick Links:**
   [Venue](venue-accessibility.html)
   &middot;
-  [Sponsorship](sponsorship.html)
+  [Sponsorship](sponsors.html)
   &middot;
   [Conduct](conduct.html)
 </p>
