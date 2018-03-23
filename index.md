@@ -139,6 +139,9 @@ class="magic">.</span><div class="logo"><img height="100" width="316"
     class="magic">.</span><div class="logo"><img height="120" width="210"
     alt="Comcast" src="images/sponsors/comcast.jpg" /></div></a></div>
 
+    <div class="sponsor"><a href="https://recurse.com" target="_blank"><span
+    class="magic">.</span><div class="logo"><img height="130" width="130"
+    alt="Recurse Center" src="images/sponsors/recurse.svg" /></div></a></div>
 
 </div>
 
