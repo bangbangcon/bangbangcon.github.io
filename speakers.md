@@ -90,6 +90,23 @@ In this talk, I'll explain how routing and traceroute work, and then we'll use t
 
 **Karla**'s background is in security, and her day job is making Stripe secure for users. In her spare time she tinkers with networking or security puzzles, flies planes, and learns Australian Sign Language.
 
+<a name="alex-clemmer" id="alex-clemmer"></a>
+<img src="images/speakers/alex-clemmer.png" alt="Alex Clemmer" class="speaker-img" />
+
+### Alex Clemmer
+
+**_It's super effective! Solving Pokemon Blue with a single, huge regular expression_**
+
+_(Note: This talk was originally scheduled to appear at !!Con 2017.)_
+
+I was playing my old copy of Pokemon Blue for the original Game Boy one day during winter holidays, for old times' sake. About an hour in, I realized that this was probably going to take me on the order of 20-30 hours to complete.
+
+20-30 hours! Who has time for that?
+
+What I'd really like to do is sit down, think very carefully, and write down all the moves I'd like to make, all at once, and then pass them to a regular expression, which will accept if (and only if) those moves will win a game of Pokemon Blue. This approach has a lot of advantages! For example, in addition to being faster to specify a complete moveset for a game, it allows you to put your entire game of Pokemon Blue into a version control system (e.g., git), which allows you to apply the "infrastructure as code" philosophy to your Pokemon Blue runthrough.
+
+**Alex Clemmer** is a computer programmer. Other programmers love Alex, excitedly describing him as 'employed here' and 'the boss's son'.
+
 <a name="john-feminella" id ="john-feminella"></a>
 <img src="images/speakers/john-feminella.png" alt="John Feminella" class="speaker-img" />
 
