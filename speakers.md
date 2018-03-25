@@ -316,7 +316,6 @@ If all goes well, this talk will end with a live text exchange with my pets from
 
 **Joel Potischman** is a Brooklynite, software developer, and maybe an aspiring animal hoarder.
 
-<!--
 ---
 
 <a name="omar-rizwan" id="omar-rizwan"></a>
@@ -337,7 +336,6 @@ For each synthetic filesystem, I'll show you one cool trick you get for free jus
 Finally, I'll talk about some general advantages and disadvantages of this approach, which was pioneered by the Plan 9 OS in the early 1990s.
 
 **Omar Rizwan** is interested in the history of operating systems and in how things could have been done differently. He wrote Cruncher, a scrubbing calculator, and Screenotate, a screenshot+OCR+context tool. 
--->
 
 ---
 
