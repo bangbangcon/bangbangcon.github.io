@@ -40,6 +40,32 @@ Inspired by Ramsey Nasser's Arabic programming language [Qalb](http://nas.sr/%D9
 
 **Ahmed** loves riding his bike all around NYC, watching the sunset from the Hudson River Park, and reading great code he wishes he wrote.
 
+<a name="vince-allen" id="vince-allen"></a>
+<img src="images/speakers/vince-allen.png" alt="Vince Allen" class="speaker-img" />
+
+### Vince Allen
+
+**_The Man Comes Around: and so does his sound!_**
+
+This year marks the 50th anniversary of the recording of _At Folsom Prison_, a project representing one of the many ways Johnny Cash challenged commercial music's conventional boundaries. Another example: Johnny Cash initially wanted to record religious music and managed to release a few early gospel tracks despite outright resistance from his first producer, Sam Phillips. Much later, Rick Rubin embraced Cash's interest in religious themes and gave him broad creative license. While both producers intended to sell Cash to a rock audience, Rick Rubin had a more relaxed interpretation of rock's relationship to gospel music and provided Cash much wider creative latitude. 
+
+This talk will focus on a pivotal song, "The Man Comes Around".  We'll use high-level audio attributes derived from machine learning and spectrum analysis to measure the audible distance between it and gospel music on either side of Cash's discography. Clustering the two groups with The Man as the fulcrum, we'll visualize the extent to which modern music has reinterpreted the rock genre and expanded its sensibility."
+
+**Vince Allen** spends most of his time retracing his musical preferences backwards through time and blames his most aberrant listening habits on his parents, who blame their own questionable tastes on "the '70s".
+
+<a name="thomas-ballinger" id="thomas-ballinger"></a>
+<img src="images/speakers/thomas-ballinger.png" alt="Thomas Ballinger" class="speaker-img" />
+
+### Thomas Ballinger
+
+**_Undo all the things!_**
+
+Once upon a time I found an interactive interpreter that let me undo! Ever since then I've been hacking undo into programming environments or creating environments with it built in. I want to share them with you! Some are hackier than others.
+
+Starring fork, LD_PRELOAD, readline, pseudoterminals, online shopping, rectangles and circles, and spaceships!
+
+**Thomas Ballinger** regrets nothing, but wishes he could undo things anyway. He worked at the Recurse Center for three years but is mostly in SF these days, riding bikes and working at Dropbox.
+
 <a name="josh-bowman-matthews" id ="josh-bowman-matthews"></a>
 <img src="images/speakers/josh-bowman-matthews.png" alt="Josh Bowman-Matthews" class="speaker-img" />
 
@@ -75,6 +101,17 @@ If you thought getting datetimes and daylight savings correct was tough, wait 't
 
 **John Feminella** is an avid technologist, occasional public speaker, and curiosity advocate. He serves as an advisor to Pivotal, where he works on helping enterprises transform the way they write, operate, and deploy software. He's also the cofounder of a tiny analytics monitoring and reporting project named UpHex.  John lives in Charlottesville, VA and likes meta-jokes, milkshakes, and referring to himself in the third person in speaker bios.
 
+<a name="wander-hillen" id="wander-hillen"></a>
+<img src="images/speakers/wander-hillen.png" alt="Wander Hillen" class="speaker-img" />
+
+### Wander Hillen
+
+**_Fast, but not too fast! What 17th century windmills can teach us about database migrations_**
+
+Running large, long-running background tasks on your system may have the unintended side effect of consuming all the resources you need to run whatever you had it for in the first place. In this talk we'll recreate from scratch a function that will throttle your tasks to closely match available capacity, using methods created to control the speed of Dutch windmills during the Industrial Revolution.
+
+**Wander** loves applying ideas from different fields of science to his programming experiments. 
+
 <a name="evy-kassirer" id="evy-kassirer"></a>
 <img src="images/speakers/evy-kassirer.png" alt="Evy Kassirer" class="speaker-img" />
 
@@ -89,6 +126,32 @@ Let's talk about mathsteps, an open-source library that solves basic algebra pro
 We'll walk through the process of how both a human brain and an algorithm solve algebra problems -- from parsing math input, to using data structures that make teaching easier, to deciding which solving steps are most intuitive to apply first and how to group them together. Finally, we'll talk about the future of tools like mathsteps -- possibilities as well as limitations.
 
 **Evy** loves to sing (especially in choirs) and code (especially for social good). She loves her communities.
+
+<a name="mike-lazer-walker" id="mike-lazer-walker"></a>
+<img src="images/speakers/mike-lazer-walker.png" alt="Mike Lazer-Walker" class="speaker-img" />
+
+### Mike Lazer-Walker
+
+**_So THAT'S how my phone knows where I am!_**
+
+Your phone knows where you are at all times, usually with pretty shocking accuracy. How the heck does it know that?! 
+
+This talk will dive into the math and physics underlying modern smartphone location technology (GPS, AGPS, and indoor location), but it will also do so by means of a walk through history. Modern GPS arose out of Cold War-era US DoD research, but how is that research connected to the larger historical and political context of geolocation throughout history? How is the technical solution to tracking Russian missiles directly indebted to the 17th century sailors who developed smarter ways to locate themselves on the open sea? This talk will answer all of that and more!
+
+**Mike** makes interactive art, experimental games, and software tools. Above all, he makes things that spark intellectual curiosity and inspire people to become self-motivated learners.
+
+<a name="will-leinweber" id="will-leinweber"></a>
+<img src="images/speakers/will-leinweber.png" alt="Will Leinweber" class="speaker-img" />
+
+### Will Leinweber
+
+**_Using Postgres to `\watch` Star Wars_**
+
+Star Wars is a movie, and Postgres is a database. And what better way to watch a movie than using only a database? I mean, aside from in a theater, or on a TV, or on a tiny airplane screen, or... So while I guess I can't say it's the best way, I can for sure say that it is *a* way. 
+
+Even if you don’t go and watch all your movies this way in the future, you'll learn how to combine several unrelated features in unexpected ways, and that's where all the fun comes from in programming!
+
+**Will** comes from San Francisco, and his Home Page [bitfission.com](http://bitfission.com) still autoplays MIDIs and prevents right-click. He's spent the better part of his career building fully-managed Postgres services, which he's only now realizing has probably caused him to end up thinking any of this is a good idea.
 
 <a name="andrew-louis" id="andrew-louis"></a>
 <img src="images/speakers/andrew-louis.png" alt="Andrew Louis" class="speaker-img" />
@@ -118,6 +181,19 @@ I'll explain how out-of-order execution works and why it's beneficial, and then 
 **Dan** is a hardware engineer masquerading as a software engineer!
 -->
 
+<!--
+<a name="kamal-marhubi" id="kamal-marhubi"></a>
+<img src="images/speakers/kamal-marhubi.png" alt="Kamal Marhubi" class="speaker-img" />
+
+### Kamal Marhubi
+
+**_If you could solve this word tile puzzle, you could solve the halting problem! (Too bad you can't!)_**
+
+The idea that there are undecidable problems -- ones that simply cannot be solved with computers -- is kind of mind-blowing. The most well-known is the halting problem: given a Turing machine (program), will it halt (terminate)? Many other undecidable problems are either very similar to the halting problem, or very abstract. In this talk I'll show one that is neither! The Post Correspondence Problem is a word tile puzzle that is actually undecidable. I'll walk through how to prove this, by building a special puzzle that has a solution if and only if a Turing machine would halt. At the end, I hope you'll share some of my wonder at the theoretical side of computers!
+
+**Kamal** is a programmer who is tired and submitting his talk proposal way too late on the last day of the call for proposals. As a result, he's skipping the bit where he writes a bio. If his talk is accepted, he'll happily provide a proper one.
+-->
+
 <a name="ed-medvedev" id ="ed-medvedev"></a>
 <img src="images/speakers/ed-medvedev.png" alt="Ed Medvedev" class="speaker-img" />
 
@@ -143,6 +219,19 @@ Making games is hard. Making games when there are hard limits on the number of s
 Come and learn about the beautiful Bizarro World that is fantasy console game development! And maybe, just maybe...you'll take away some insights on programming in general.
 
 **Ayla Myers** is an independent game designer, developer, pixel artist, and fantasy console enthusiast! She spends her time crafting beauty out of code (and skating around the city when it's sunny).
+
+<a name="ruthie-nachmany" id="ruthie-nachmany"></a>
+<img src="images/speakers/ruthie-nachmany.png" alt="Ruthie Nachmany" class="speaker-img" />
+
+<!--
+### Ruthie Nachmany
+
+**_DNA Data Storage! An Introduction to Techniques and Algorithms_**
+
+A single gram of DNA is capable of storing 215 petabytes. As we make more and more data, people are starting to explore how we can use DNA, one of the most efficient forms of data storage we know of, to preserve it. I will share some of the reasons researchers are excited about DNA data storage, major advancements over the last few years, algorithms used to store data in DNA, and what's next on the radar for this field.
+
+**Ruthie Nachmany** is a software developer on the systems development team at Warby Parker. When she's not trying on glasses and building software that helps people try on glasses, she organizes the NYC Voice Interaction meetup, the NYC Salon speaker series, and a sunrise adventure club, and studies at Genspace, a community biology lab based in Brooklyn.
+-->
 
 <a name="emily-nakashima" id ="emily-nakashima"></a>
 <img src="images/speakers/emily-nakashima.png" alt="Emily Nakashima" class="speaker-img" />
@@ -172,6 +261,40 @@ If all goes well, this talk will end with a live text exchange with my pets from
 
 **Joel Potischman** is a Brooklynite, software developer, and maybe an aspiring animal hoarder.
 
+<!--
+<a name="omar-rizwan" id="omar-rizwan"></a>
+<img src="images/speakers/omar-rizwan.png" alt="Omar Rizwan" class="speaker-img" />
+
+### Omar Rizwan
+
+**_Four fake filesystems!_**
+
+Ever seen `/proc` in Linux? It's the best-known "synthetic filesystem", a set of "files"" and "folders" on your computer that don't actually map to anything on a real disk. Instead, `/proc` controls the processes on your computer.
+
+Synthetic filesystems are a powerful and underused interface: there are tons of programming tools and commands to work with files, and once you have a synthetic filesystem, you can use all of them right away!
+
+In this talk, I'll go over four other synthetic filesystems: GrabFS, which exposes screenshots of how all your Mac windows look _right now_, YTFS, which exposes YouTube videos as video files on your computer, btfs, which lets you mount a BitTorrent file and lazily downloads the pieces you want for you, and WikipediaFS, where you can view and edit Wikipedia articles as files.
+
+For each synthetic filesystem, I'll show you one cool trick you get for free just because it's a filesystem and not just a Web service or isolated program.
+
+Finally, I'll talk about some general advantages and disadvantages of this approach, which was pioneered by the Plan 9 OS in the early 1990s.
+
+**Omar Rizwan** is interested in the history of operating systems and in how things could have been done differently. He wrote Cruncher, a scrubbing calculator, and Screenotate, a screenshot+OCR+context tool. 
+-->
+
+<a name="vaibhav-sagar" id="vaibhav-sagar"></a>
+<img src="images/speakers/vaibhav-sagar.png" alt="Vaibhav Sagar" class="speaker-img" />
+
+### Vaibhav Sagar
+
+**_Moving towards dialogue: collaborating with your computer using typed holes!_**
+
+For many people, their first (and only) experience of static types is being continually told off by their compiler. With a little gentle encouragement, it is possible to mend this dysfunctional relationship and move  towards having a conversation with the compiler instead.
+
+In this talk I'll demonstrate typed holes, which are a feature of some languages that allow them to offer suggestions when you ask for help!
+
+**Vaibhav** babysits web applications for a living. He likes computers, but he also likes barbells, carbonated water, space disco, and scuba diving.
+
 <a name="aruna-sankaranarayanan" id="aruna-sankaranarayanan"></a>
 <img src="images/speakers/aruna-sankaranarayanan.png" alt="Aruna Sankaranarayanan" class="speaker-img" />
 
@@ -196,6 +319,17 @@ I'll get down to the nitty-gritty about how I wrote an iOS app (and later a MacO
 
 **Hung** has been hacking on iOS since before the original iPhone OS 2.1 SDK was released in 2008. He is currently an iOS Engineer at Lyft. His hobbies include enjoying coffee, photography, and being the social media manager and growth hacker for his dog, Sodapop.
 
+<a name="stephen-tu" id="stephen-tu"></a>
+<img src="images/speakers/stephen-tu.png" alt="Stephen Tu" class="speaker-img" />
+
+### Stephen Tu
+
+**_Estimating the Value of Pi with a Dartboard and (Not so Much) Luck!_**
+
+If you are like me and not very good at the game of darts, you might be able to use your skills towards estimating the value of pi. In this talk, we will look at a simple Monte Carlo algorithm which uses the (scaled) ratio of the number of darts that land on a dartboard over the number of darts that land within a square around the dartboard as an unbiased estimate for pi. We will understand why the algorithm works intuitively by appealing to the Law of Large Numbers. Furthermore, since we would like to not throw darts forever, we will use a large deviation bound to derive an upper bound on the number of throws we need to estimate pi within epsilon accuracy with high probability. 
+
+**Stephen** is a PhD student at UC Berkeley studying the interplay between machine learning, optimization, and control theory. He still dreams of writing his own programming language one day. 
+
 <a name="david-turner" id="david-turner"></a>
 <img src="images/speakers/david-turner.png" alt="David Turner" class="speaker-img" />
 
@@ -206,6 +340,17 @@ I'll get down to the nitty-gritty about how I wrote an iOS app (and later a MacO
 How do you compress the set of all possible books?  What can we learn about data compression by trying to do this?  We'll cover zip bombs, the pigeon-hole principle, Kolmogorov complexity, and the Hutter Prize, all compressed into a ten-minute talk.
 
 **David Turner** hacks on git at Two Sigma. He previously co-founded OpenTripPlanner, and worked on version 3 of the GPL. He enjoys contributing patches to random projects, like Inkscape and Linux. He lives on Mars with his glorious wife and three pet tigers. He spoke at !!Con in 2014 and 2017.
+
+<a name="logan-williams" id="logan-williams"></a>
+<img src="images/speakers/logan-williams.png" alt="Logan Williams" class="speaker-img" />
+
+### Logan Williams
+
+**_Turning Google Earth into SimCity 2000! (From Light to Pixels to Impossible Perspectives!)_**
+
+Remember isometric games, like SimCity 2000 and Q&ast;bert? Real life sadly doesn’t look like Q&ast;bert, and it's mostly because parallel lines converge! Why does this happen? We'll use simple geometric rules to explain how cameras turn light, a five-dimensional (!) spatial variable, into a pattern of pixels. With computers, we can algorithmically alter that pattern, and synthesize impossible perspectives from real data. (Including some inspired by your retro-gaming faves!) Finally, we'll discuss how image formation models might change the way we think about the world around us!
+
+**Logan** is a programmer and artist who enjoys thinking about photography, geography, and what we look at when we look at land. Most recently, he has been a fellow at the BuzzFeed Open Lab and a resident at Signal Culture.
 
 <a name="jes-wolfe!" id="jes-wolfe!"></a>
 <img src="images/speakers/jes-wolfe!.png" alt="Jes Wolfe!" class="speaker-img" />
@@ -223,3 +368,41 @@ Every researcher who has found these has given them a new name -- they've been c
 I'll talk a little about the mathematics behind these patterns (the Nyquest limit! Chromogeometries!), and I'll show how you can experiment with creating your own variants in Javascript, WebGL, or the language of your choice.
 
 **Jes Wolfe!** is a computer programmer who, in some contexts, refers to themself as an "artist" and/or "musician", and is especially interested in the aesthetic consequences of algorithms. They live in a house in the woods in Portland, Oregon, and they are currently on parental leave from GitHub.
+
+<a name="mark-wunsch" id="mark-wunsch"></a>
+<img src="images/speakers/mark-wunsch.png" alt="Mark Wunsch" class="speaker-img" />
+
+### Mark Wunsch
+
+**_Transform live video streams with code and a REPL!!_**
+
+Inspired by environments like Overtone and Sonic Pi, I made _Overscan_, an open-source live-coding environment to explore ideas in video streaming and broadcasting. Overscan brings the expressive, improvisational power of a Scheme REPL to live video creation and compositing. I will live demo the debut of Overscan, creating a video stream
+while compositing graphics and text on the fly. I will peel back the layers of abstraction underlying Overscan to reveal its heart: the Racket programming language, the GStreamer multimedia framework, and the GObject Introspection library. This talk will amuse the littlest Schemer or the most grizzled C programmer, and in the end, you'll be able to use code to bend video to your will. Let's take back the airwaves! Or have a goof!
+
+**Mark Wunsch** enjoys giving talks on abstruse technical topics. Ask him about AWK! He is the VP of Engineering at Kickstarter and lives in Manhattan with his wife and their adorable pets.
+
+<a name="lucy-zhang" id="lucy-zhang"></a>
+<img src="images/speakers/lucy-zhang.png" alt="Lucy Zhang" class="speaker-img" />
+
+### Lucy Zhang
+
+**_Ray-tracing and special relativity: Rendering objects near the speed of light!_**
+
+According to Einstein's theory of special relativity, space and time are not absolute, and objects become shorter when moving at larger velocities. So what happens if you take a photo of an object moving at, say, 90% of the speed of light? To answer this question, I'll start with a normal ray-tracer used to render 2D views of 3D scenes, discuss the consequences of special relativity for moving objects, and then modify the ray-tracer to be consistent with special relativity. Even if you already know about special relativity, the answer might still be surprising.
+
+**Lucy** likes programming, mathematics, and music. She is a data infrastructure engineer in New York City.
+
+<a name="persa-zula" id="persa-zula"></a>
+<img src="images/speakers/persa-zula.png" alt="Persa Zula" class="speaker-img" />
+
+### Persa Zula
+
+**_Tales of ⌧! Can You Tell Your Story When Your Character Is Undefined?!_**
+
+You just got a text message from your friend, and it contains three emojis and a box with an X in it: 🍴🌙 ⌧. Is that an emoji, too? What were they trying to say? Are they currently eating dinner under the moonlight, or are they inviting you to have takeout tonight?
+
+Later in the day, you're scraping information from a website that happens to have characters in another language on it, and as you pull data into your terminal, you start to notice more little boxes with X's in them. Or perhaps your terminal renders them as � or 🥡. What does this all mean? Why are these symbols following you around?
+
+You've just encountered "notdef"! This is the official term for the "Not Defined" symbol that is shown when the typeface being used doesn't contain the character requested. This talk aims to show you what you can do in the face of notdef, including how you can build a little tool to search your machine for fonts that support the characters you need to tell your story -- whether you're using a design app to make a poster, or writing a paper that contains information in a non-Latin language.
+
+*Persa Zula* is a computer scientist on the Adobe Typekit team, and thinks about Unicode and typography on a day-to-day basis. Before working on Typekit, she had no idea what those notdef boxes were, or what could be done about them! She wants to see more of the world's languages represented in digital typography, so that the Internet can become a truly global place to share thoughts and ideas, regardless of what language a person speaks!
