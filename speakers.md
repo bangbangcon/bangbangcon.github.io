@@ -18,6 +18,8 @@ title: Speakers - !!Con 2018
 
 Onuoha has been in residence at Eyebeam, the Data & Society Research Institute, Columbia University’s Tow Center, and the Royal College of Art. She has exhibited and presented workshops in festivals internationally, and in 2014 she was selected to be in the inaugural class of Fulbright-National Geographic Digital Storytelling Fellows. She was recently a visiting faculty member at Bennington College, and currently is teaching at NYU.
 
+---
+
 ### Liz Fong-Jones
 
 <a name="liz-fong-jones" id="liz-fong-jones"></a>
@@ -40,6 +42,8 @@ Inspired by Ramsey Nasser's Arabic programming language [Qalb](http://nas.sr/%D9
 
 **Ahmed** loves riding his bike all around NYC, watching the sunset from the Hudson River Park, and reading great code he wishes he wrote.
 
+---
+
 <a name="vince-allen" id="vince-allen"></a>
 <img src="images/speakers/vince-allen.png" alt="Vince Allen" class="speaker-img" />
 
@@ -52,6 +56,8 @@ This year marks the 50th anniversary of the recording of _At Folsom Prison_, a p
 This talk will focus on a pivotal song, "The Man Comes Around".  We'll use high-level audio attributes derived from machine learning and spectrum analysis to measure the audible distance between it and gospel music on either side of Cash's discography. Clustering the two groups with The Man as the fulcrum, we'll visualize the extent to which modern music has reinterpreted the rock genre and expanded its sensibility."
 
 **Vince Allen** spends most of his time retracing his musical preferences backwards through time and blames his most aberrant listening habits on his parents, who blame their own questionable tastes on "the '70s".
+
+---
 
 <a name="thomas-ballinger" id="thomas-ballinger"></a>
 <img src="images/speakers/thomas-ballinger.png" alt="Thomas Ballinger" class="speaker-img" />
@@ -66,6 +72,8 @@ Starring fork, LD_PRELOAD, readline, pseudoterminals, online shopping, rectangle
 
 **Thomas Ballinger** regrets nothing, but wishes he could undo things anyway. He worked at the Recurse Center for three years but is mostly in SF these days, riding bikes and working at Dropbox.
 
+---
+
 <a name="josh-bowman-matthews" id ="josh-bowman-matthews"></a>
 <img src="images/speakers/josh-bowman-matthews.png" alt="Josh Bowman-Matthews" class="speaker-img" />
 
@@ -76,6 +84,8 @@ Starring fork, LD_PRELOAD, readline, pseudoterminals, online shopping, rectangle
 How can code that never runs still cause a program to crash? What does it mean to link a library into a compiled program? To answer these questions (and shed some light on the mysterious dark art of linking), we'll methodically unravel a surprising edge case of static linking in a C++ program.
 
 **Josh Bowman-Matthews** builds web browsers and communities for a living. He enjoys demolishing barriers to participation in open source projects. He also sings in a barbershop quartet.
+
+---
 
 <a name="karla-burnett" id="karla-burnett"></a>
 <img src="images/speakers/karla-burnett.png" alt="Karla Burnett" class="speaker-img" />
@@ -89,6 +99,8 @@ Traceroute is a useful tool for debugging connectivity problems, but have you ev
 In this talk, I'll explain how routing and traceroute work, and then we'll use those mechanisms creatively to tell our own human-readable story in the path our packets take to a machine. Even better, we'll do it with software in the consumer cloud --  no commercial routing gear or fancy network config needed!
 
 **Karla**'s background is in security, and her day job is making Stripe secure for users. In her spare time she tinkers with networking or security puzzles, flies planes, and learns Australian Sign Language.
+
+---
 
 <a name="alex-clemmer" id="alex-clemmer"></a>
 <img src="images/speakers/alex-clemmer.png" alt="Alex Clemmer" class="speaker-img" />
@@ -107,6 +119,8 @@ What I'd really like to do is sit down, think very carefully, and write down all
 
 **Alex Clemmer** is a computer programmer. Other programmers love Alex, excitedly describing him as 'employed here' and 'the boss's son'.
 
+---
+
 <a name="john-feminella" id ="john-feminella"></a>
 <img src="images/speakers/john-feminella.png" alt="John Feminella" class="speaker-img" />
 
@@ -118,6 +132,8 @@ If you thought getting datetimes and daylight savings correct was tough, wait 't
 
 **John Feminella** is an avid technologist, occasional public speaker, and curiosity advocate. He serves as an advisor to Pivotal, where he works on helping enterprises transform the way they write, operate, and deploy software. He's also the cofounder of a tiny analytics monitoring and reporting project named UpHex.  John lives in Charlottesville, VA and likes meta-jokes, milkshakes, and referring to himself in the third person in speaker bios.
 
+---
+
 <a name="wander-hillen" id="wander-hillen"></a>
 <img src="images/speakers/wander-hillen.png" alt="Wander Hillen" class="speaker-img" />
 
@@ -127,7 +143,9 @@ If you thought getting datetimes and daylight savings correct was tough, wait 't
 
 Running large, long-running background tasks on your system may have the unintended side effect of consuming all the resources you need to run whatever you had it for in the first place. In this talk we'll recreate from scratch a function that will throttle your tasks to closely match available capacity, using methods created to control the speed of Dutch windmills during the Industrial Revolution.
 
-**Wander** loves applying ideas from different fields of science to his programming experiments. 
+**Wander** loves applying ideas from different fields of science to his programming experiments.
+
+---
 
 <a name="evy-kassirer" id="evy-kassirer"></a>
 <img src="images/speakers/evy-kassirer.png" alt="Evy Kassirer" class="speaker-img" />
@@ -144,6 +162,8 @@ We'll walk through the process of how both a human brain and an algorithm solve 
 
 **Evy** loves to sing (especially in choirs) and code (especially for social good). She loves her communities.
 
+---
+
 <a name="mike-lazer-walker" id="mike-lazer-walker"></a>
 <img src="images/speakers/mike-lazer-walker.png" alt="Mike Lazer-Walker" class="speaker-img" />
 
@@ -157,6 +177,8 @@ This talk will dive into the math and physics underlying modern smartphone locat
 
 **Mike** makes interactive art, experimental games, and software tools. Above all, he makes things that spark intellectual curiosity and inspire people to become self-motivated learners.
 
+---
+
 <a name="will-leinweber" id="will-leinweber"></a>
 <img src="images/speakers/will-leinweber.png" alt="Will Leinweber" class="speaker-img" />
 
@@ -169,6 +191,8 @@ Star Wars is a movie, and Postgres is a database. And what better way to watch a
 Even if you don’t go and watch all your movies this way in the future, you'll learn how to combine several unrelated features in unexpected ways, and that's where all the fun comes from in programming!
 
 **Will** comes from San Francisco, and his Home Page [bitfission.com](http://bitfission.com) still autoplays MIDIs and prevents right-click. He's spent the better part of his career building fully-managed Postgres services, which he's only now realizing has probably caused him to end up thinking any of this is a good idea.
+
+---
 
 <a name="andrew-louis" id="andrew-louis"></a>
 <img src="images/speakers/andrew-louis.png" alt="Andrew Louis" class="speaker-img" />
@@ -184,6 +208,8 @@ Using chat logs I've archived since early high school, I've trained one chat bot
 **Andrew** is a software developer from Toronto. He's currently working on building a Memex. Previously, he was the co-founder and CTO of ShopLocket, an ecommerce startup acquired in 2014.
 
 <!--
+---
+
 <a name="dan-luu" id ="dan-luu"></a>
 <img src="images/speakers/dan-luu.png" alt="Dan Luu" class="speaker-img" />
 
@@ -199,6 +225,8 @@ I'll explain how out-of-order execution works and why it's beneficial, and then 
 -->
 
 <!--
+---
+
 <a name="kamal-marhubi" id="kamal-marhubi"></a>
 <img src="images/speakers/kamal-marhubi.png" alt="Kamal Marhubi" class="speaker-img" />
 
@@ -210,6 +238,8 @@ The idea that there are undecidable problems -- ones that simply cannot be solve
 
 **Kamal** is a programmer who is tired and submitting his talk proposal way too late on the last day of the call for proposals. As a result, he's skipping the bit where he writes a bio. If his talk is accepted, he'll happily provide a proper one.
 -->
+
+---
 
 <a name="ed-medvedev" id ="ed-medvedev"></a>
 <img src="images/speakers/ed-medvedev.png" alt="Ed Medvedev" class="speaker-img" />
@@ -224,6 +254,8 @@ Let's hear what they have to say! We'll build an antenna out of spare coat hange
 
 **Ed** loves to teach other people things about stuff! By day he writes code, organizes tech conferences, and mentors communities such as Women Techmakers Berlin, and by night he spends countless hours on Blacklight, an alternate reality game for aspiring hackers.
 
+---
+
 <a name="ayla-myers" id ="ayla-myers"></a>
 <img src="images/speakers/ayla-myers.png" alt="Ayla Myers" class="speaker-img" />
 
@@ -237,10 +269,12 @@ Come and learn about the beautiful Bizarro World that is fantasy console game de
 
 **Ayla Myers** is an independent game designer, developer, pixel artist, and fantasy console enthusiast! She spends her time crafting beauty out of code (and skating around the city when it's sunny).
 
+<!--
+---
+
 <a name="ruthie-nachmany" id="ruthie-nachmany"></a>
 <img src="images/speakers/ruthie-nachmany.png" alt="Ruthie Nachmany" class="speaker-img" />
 
-<!--
 ### Ruthie Nachmany
 
 **_DNA Data Storage! An Introduction to Techniques and Algorithms_**
@@ -249,6 +283,8 @@ A single gram of DNA is capable of storing 215 petabytes. As we make more and mo
 
 **Ruthie Nachmany** is a software developer on the systems development team at Warby Parker. When she's not trying on glasses and building software that helps people try on glasses, she organizes the NYC Voice Interaction meetup, the NYC Salon speaker series, and a sunrise adventure club, and studies at Genspace, a community biology lab based in Brooklyn.
 -->
+
+---
 
 <a name="emily-nakashima" id ="emily-nakashima"></a>
 <img src="images/speakers/emily-nakashima.png" alt="Emily Nakashima" class="speaker-img" />
@@ -262,6 +298,8 @@ I spend my days typing out code in a text editor. But why do words and text get 
 I'll start with a visual history of some of the major visual programming languages, with lots of pictures. Then we'll talk through the ins and outs of some of the hairiest problems for visual languages, like how to do control flow and how to have abstraction and code reuse. Finally, we'll talk about what it all means. What problems can visual programming solve better than any other paradigm? And are any of these super-creative visual idioms and ideas things we can pull back into our text-based programming worlds?
 
 **Emily** manages the product engineering team at Honeycomb.io.  In her free time she organizes an unconference called AndConf, makes many checklists, volunteers on trail crews, and likes to talk about disaster preparedness.
+
+---
 
 <a name="joel-potischman" id="joel-potischman"></a>
 <img src="images/speakers/joel-potischman.png" alt="Joel Potischman" class="speaker-img" />
@@ -279,6 +317,8 @@ If all goes well, this talk will end with a live text exchange with my pets from
 **Joel Potischman** is a Brooklynite, software developer, and maybe an aspiring animal hoarder.
 
 <!--
+---
+
 <a name="omar-rizwan" id="omar-rizwan"></a>
 <img src="images/speakers/omar-rizwan.png" alt="Omar Rizwan" class="speaker-img" />
 
@@ -299,6 +339,8 @@ Finally, I'll talk about some general advantages and disadvantages of this appro
 **Omar Rizwan** is interested in the history of operating systems and in how things could have been done differently. He wrote Cruncher, a scrubbing calculator, and Screenotate, a screenshot+OCR+context tool. 
 -->
 
+---
+
 <a name="vaibhav-sagar" id="vaibhav-sagar"></a>
 <img src="images/speakers/vaibhav-sagar.png" alt="Vaibhav Sagar" class="speaker-img" />
 
@@ -312,6 +354,8 @@ In this talk I'll demonstrate typed holes, which are a feature of some languages
 
 **Vaibhav** babysits web applications for a living. He likes computers, but he also likes barbells, carbonated water, space disco, and scuba diving.
 
+---
+
 <a name="aruna-sankaranarayanan" id="aruna-sankaranarayanan"></a>
 <img src="images/speakers/aruna-sankaranarayanan.png" alt="Aruna Sankaranarayanan" class="speaker-img" />
 
@@ -322,6 +366,8 @@ In this talk I'll demonstrate typed holes, which are a feature of some languages
 During the 2015 floods in Chennai, India, a few of us built an application that could crowd-source real-time flood data.  It was used widely by at least 600,000 people in Chennai and went on to become a beautiful civic visualisation.  I'll talk about the exact workflow and tools we used to build this map, and you will take away an understanding of the libraries you can use to create your own map-driven projects.
 
 **Aruna** is a platform engineer at Mapbox. Previously, she wrote 2D games using the Cocos2D engine and contributed to the Wikipedia, GNOME and GCompris projects. She also enjoys building communities of friendly women doing tech and collecting recordings of Indian classical music in the public domain.
+
+---
 
 <a name="hung-truong" id="hung-truong"></a>
 <img src="images/speakers/hung-truong.png" alt="Hung Truong" class="speaker-img" />
@@ -336,6 +382,8 @@ I'll get down to the nitty-gritty about how I wrote an iOS app (and later a MacO
 
 **Hung** has been hacking on iOS since before the original iPhone OS 2.1 SDK was released in 2008. He is currently an iOS Engineer at Lyft. His hobbies include enjoying coffee, photography, and being the social media manager and growth hacker for his dog, Sodapop.
 
+---
+
 <a name="stephen-tu" id="stephen-tu"></a>
 <img src="images/speakers/stephen-tu.png" alt="Stephen Tu" class="speaker-img" />
 
@@ -345,7 +393,9 @@ I'll get down to the nitty-gritty about how I wrote an iOS app (and later a MacO
 
 If you are like me and not very good at the game of darts, you might be able to use your skills towards estimating the value of pi. In this talk, we will look at a simple Monte Carlo algorithm which uses the (scaled) ratio of the number of darts that land on a dartboard over the number of darts that land within a square around the dartboard as an unbiased estimate for pi. We will understand why the algorithm works intuitively by appealing to the Law of Large Numbers. Furthermore, since we would like to not throw darts forever, we will use a large deviation bound to derive an upper bound on the number of throws we need to estimate pi within epsilon accuracy with high probability. 
 
-**Stephen** is a PhD student at UC Berkeley studying the interplay between machine learning, optimization, and control theory. He still dreams of writing his own programming language one day. 
+**Stephen** is a PhD student at UC Berkeley studying the interplay between machine learning, optimization, and control theory. He still dreams of writing his own programming language one day.
+
+---
 
 <a name="david-turner" id="david-turner"></a>
 <img src="images/speakers/david-turner.png" alt="David Turner" class="speaker-img" />
@@ -358,6 +408,8 @@ How do you compress the set of all possible books?  What can we learn about data
 
 **David Turner** hacks on git at Two Sigma. He previously co-founded OpenTripPlanner, and worked on version 3 of the GPL. He enjoys contributing patches to random projects, like Inkscape and Linux. He lives on Mars with his glorious wife and three pet tigers. He spoke at !!Con in 2014 and 2017.
 
+---
+
 <a name="logan-williams" id="logan-williams"></a>
 <img src="images/speakers/logan-williams.png" alt="Logan Williams" class="speaker-img" />
 
@@ -368,6 +420,8 @@ How do you compress the set of all possible books?  What can we learn about data
 Remember isometric games, like SimCity 2000 and Q&ast;bert? Real life sadly doesn’t look like Q&ast;bert, and it's mostly because parallel lines converge! Why does this happen? We'll use simple geometric rules to explain how cameras turn light, a five-dimensional (!) spatial variable, into a pattern of pixels. With computers, we can algorithmically alter that pattern, and synthesize impossible perspectives from real data. (Including some inspired by your retro-gaming faves!) Finally, we'll discuss how image formation models might change the way we think about the world around us!
 
 **Logan** is a programmer and artist who enjoys thinking about photography, geography, and what we look at when we look at land. Most recently, he has been a fellow at the BuzzFeed Open Lab and a resident at Signal Culture.
+
+---
 
 <a name="jes-wolfe!" id="jes-wolfe!"></a>
 <img src="images/speakers/jes-wolfe!.png" alt="Jes Wolfe!" class="speaker-img" />
@@ -386,6 +440,8 @@ I'll talk a little about the mathematics behind these patterns (the Nyquest limi
 
 **Jes Wolfe!** is a computer programmer who, in some contexts, refers to themself as an "artist" and/or "musician", and is especially interested in the aesthetic consequences of algorithms. They live in a house in the woods in Portland, Oregon, and they are currently on parental leave from GitHub.
 
+---
+
 <a name="mark-wunsch" id="mark-wunsch"></a>
 <img src="images/speakers/mark-wunsch.png" alt="Mark Wunsch" class="speaker-img" />
 
@@ -398,6 +454,8 @@ while compositing graphics and text on the fly. I will peel back the layers of a
 
 **Mark Wunsch** enjoys giving talks on abstruse technical topics. Ask him about AWK! He is the VP of Engineering at Kickstarter and lives in Manhattan with his wife and their adorable pets.
 
+---
+
 <a name="lucy-zhang" id="lucy-zhang"></a>
 <img src="images/speakers/lucy-zhang.png" alt="Lucy Zhang" class="speaker-img" />
 
@@ -408,6 +466,8 @@ while compositing graphics and text on the fly. I will peel back the layers of a
 According to Einstein's theory of special relativity, space and time are not absolute, and objects become shorter when moving at larger velocities. So what happens if you take a photo of an object moving at, say, 90% of the speed of light? To answer this question, I'll start with a normal ray-tracer used to render 2D views of 3D scenes, discuss the consequences of special relativity for moving objects, and then modify the ray-tracer to be consistent with special relativity. Even if you already know about special relativity, the answer might still be surprising.
 
 **Lucy** likes programming, mathematics, and music. She is a data infrastructure engineer in New York City.
+
+---
 
 <a name="persa-zula" id="persa-zula"></a>
 <img src="images/speakers/persa-zula.png" alt="Persa Zula" class="speaker-img" />
