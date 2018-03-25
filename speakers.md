@@ -348,7 +348,7 @@ Finally, I'll talk about some general advantages and disadvantages of this appro
 
 **_Moving towards dialogue: collaborating with your computer using typed holes!_**
 
-For many people, their first (and only) experience of static types is being continually told off by their compiler. With a little gentle encouragement, it is possible to mend this dysfunctional relationship and move  towards having a conversation with the compiler instead.
+For many people, their first (and only) experience of static types is being continually told off by their compiler. With a little gentle encouragement, it is possible to mend this dysfunctional relationship and move towards having a conversation instead.
 
 In this talk I'll demonstrate typed holes, which are a feature of some languages that allow them to offer suggestions when you ask for help!
 
