@@ -205,7 +205,7 @@ Over 1,500 human-made satellites are currently orbiting the Earth, and most of t
 
 Let's hear what they have to say! We'll build an antenna out of spare coat hangers and use it to listen to the tiny amateur satellites telling stories about the world around us, playing music, delivering messages, or even speaking in lovely robotic voices!
 
-**Ed** loves to teach other people things about stuff! By day he writes code, organizes tech conferences, and mentors communities such as Women Techmakers Berlin, and by night he spends countless hours designing Blacklight, an alternate reality game for aspiring hackers.
+**Ed** loves to teach other people things about stuff! By day he writes code, organizes tech conferences, and mentors communities such as Women Techmakers Berlin, and by night he spends countless hours designing <a href="https://blacklight.ai" target="_blank">Blacklight</a>, an alternate reality game for aspiring hackers.
 
 <a name="ayla-myers" id ="ayla-myers"></a>
 <img src="images/speakers/ayla-myers.png" alt="Ayla Myers" class="speaker-img" />
