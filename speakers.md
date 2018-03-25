@@ -16,7 +16,7 @@ title: Speakers - !!Con 2018
 
 **Mimi Onuoha** is a Brooklyn-based artist and researcher investigating the social results of data collection and computational categorization. Her work uses code, writing, performance, and objects to explore missing data and the ways in which people are abstracted, represented, and classified.
 
-Onuoha has been in residence at Eyebeam, the Data & Society Research Institute, Columbia University’s Tow Center, and the Royal College of Art. She has exhibited and presented workshops in festivals internationally, and in 2014 she was selected to be in the inaugural class of Fulbright-National Geographic Digital Storytelling Fellows. She was recently a visiting faculty member at Bennington College, and currently is teaching at NYU.
+Onuoha has been in residence at Eyebeam, the Data & Society Research Institute, Columbia University's Tow Center, and the Royal College of Art. She has exhibited and presented workshops in festivals internationally, and in 2014 she was selected to be in the inaugural class of Fulbright-National Geographic Digital Storytelling Fellows. She was recently a visiting faculty member at Bennington College, and currently is teaching at NYU.
 
 ---
 
@@ -188,7 +188,7 @@ This talk will dive into the math and physics underlying modern smartphone locat
 
 Star Wars is a movie, and Postgres is a database. And what better way to watch a movie than using only a database? I mean, aside from in a theater, or on a TV, or on a tiny airplane screen, or... So while I guess I can't say it's the best way, I can for sure say that it is *a* way. 
 
-Even if you don’t go and watch all your movies this way in the future, you'll learn how to combine several unrelated features in unexpected ways, and that's where all the fun comes from in programming!
+Even if you don't go and watch all your movies this way in the future, you'll learn how to combine several unrelated features in unexpected ways, and that's where all the fun comes from in programming!
 
 **Will** comes from San Francisco, and his Home Page [bitfission.com](http://bitfission.com) still autoplays MIDIs and prevents right-click. He's spent the better part of his career building fully-managed Postgres services, which he's only now realizing has probably caused him to end up thinking any of this is a good idea.
 
@@ -293,7 +293,7 @@ A single gram of DNA is capable of storing 215 petabytes. As we make more and mo
 
 **_Whoa, pictures! A visual history of visual programming languages!_**
 
-I spend my days typing out code in a text editor. But why do words and text get to have all the fun, if under the hood it’s just zeros and ones? This is a talk about some of the *other* fun, quirky, beautiful ways we could tell the computer how to do our bidding, from visual expressions of logic and spatial arrangements of symbols to manipulating physical objects in the real world. 
+I spend my days typing out code in a text editor. But why do words and text get to have all the fun, if under the hood it's just zeros and ones? This is a talk about some of the *other* fun, quirky, beautiful ways we could tell the computer how to do our bidding, from visual expressions of logic and spatial arrangements of symbols to manipulating physical objects in the real world. 
 
 I'll start with a visual history of some of the major visual programming languages, with lots of pictures. Then we'll talk through the ins and outs of some of the hairiest problems for visual languages, like how to do control flow and how to have abstraction and code reuse. Finally, we'll talk about what it all means. What problems can visual programming solve better than any other paradigm? And are any of these super-creative visual idioms and ideas things we can pull back into our text-based programming worlds?
 
@@ -325,7 +325,7 @@ If all goes well, this talk will end with a live text exchange with my pets from
 
 **_Four fake filesystems!_**
 
-Ever seen `/proc` in Linux? It's the best-known "synthetic filesystem", a set of "files"" and "folders" on your computer that don't actually map to anything on a real disk. Instead, `/proc` controls the processes on your computer.
+Ever seen `/proc` in Linux? It's the best-known "synthetic filesystem", a set of "files" and "folders" on your computer that don't actually map to anything on a real disk. Instead, `/proc` controls the processes on your computer.
 
 Synthetic filesystems are a powerful and underused interface: there are tons of programming tools and commands to work with files, and once you have a synthetic filesystem, you can use all of them right away!
 
@@ -415,7 +415,7 @@ How do you compress the set of all possible books?  What can we learn about data
 
 **_Turning Google Earth into SimCity 2000! (From Light to Pixels to Impossible Perspectives!)_**
 
-Remember isometric games, like SimCity 2000 and Q&ast;bert? Real life sadly doesn’t look like Q&ast;bert, and it's mostly because parallel lines converge! Why does this happen? We'll use simple geometric rules to explain how cameras turn light, a five-dimensional (!) spatial variable, into a pattern of pixels. With computers, we can algorithmically alter that pattern, and synthesize impossible perspectives from real data. (Including some inspired by your retro-gaming faves!) Finally, we'll discuss how image formation models might change the way we think about the world around us!
+Remember isometric games, like SimCity 2000 and Q&ast;bert? Real life sadly doesn't look like Q&ast;bert, and it's mostly because parallel lines converge! Why does this happen? We'll use simple geometric rules to explain how cameras turn light, a five-dimensional (!) spatial variable, into a pattern of pixels. With computers, we can algorithmically alter that pattern, and synthesize impossible perspectives from real data. (Including some inspired by your retro-gaming faves!) Finally, we'll discuss how image formation models might change the way we think about the world around us!
 
 **Logan** is a programmer and artist who enjoys thinking about photography, geography, and what we look at when we look at land. Most recently, he has been a fellow at the BuzzFeed Open Lab and a resident at Signal Culture.
 
@@ -430,11 +430,11 @@ Remember isometric games, like SimCity 2000 and Q&ast;bert? Real life sadly does
 
 Computers have their own aesthetics, which come from their limitations.
 
-In this talk, I'll show you a family of glitch art that is so fundamental to the idea of pixels that it has been independently rediscovered, repeatedly, ever since humans first starting asking machines to print drawings on paper.
+In this talk, I'll show you a family of glitch art that is so fundamental to the idea of pixels that it has been independently rediscovered, repeatedly, ever since humans first started asking machines to print drawings on paper.
 
-Every researcher who has found these has given them a new name -- they've been called CIRCLE<sup>2</sup> algorithms, dot-matrix holograms, degenerate Voronoi patterns, and others -- but I think "pseudofractals"" is the most evocative descriptor.
+Every researcher who has found these has given them a new name -- they've been called CIRCLE<sup>2</sup> algorithms, dot-matrix holograms, degenerate Voronoi patterns, and others -- but I think "pseudofractals" is the most evocative descriptor.
 
-I'll talk a little about the mathematics behind these patterns (the Nyquest limit! Chromogeometries!), and I'll show how you can experiment with creating your own variants in Javascript, WebGL, or the language of your choice.
+I'll talk a little about the mathematics behind these patterns (the Nyquest limit! Chromogeometries!), and I'll show how you can experiment with creating your own variants in JavaScript, WebGL, or the language of your choice.
 
 **Jes Wolfe!** is a computer programmer who, in some contexts, refers to themself as an "artist" and/or "musician", and is especially interested in the aesthetic consequences of algorithms. They live in a house in the woods in Portland, Oregon, and they are currently on parental leave from GitHub.
 
