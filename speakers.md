@@ -83,7 +83,7 @@ Starring fork, LD_PRELOAD, readline, pseudoterminals, online shopping, rectangle
 
 How can code that never runs still cause a program to crash? What does it mean to link a library into a compiled program? To answer these questions (and shed some light on the mysterious dark art of linking), we'll methodically unravel a surprising edge case of static linking in a C++ program.
 
-**Josh Bowman-Matthews** builds web browsers and communities for a living. He enjoys demolishing barriers to participation in open source projects. He also sings in a barbershop quartet.
+**Josh Bowman-Matthews** builds web browsers and communities for a living at Mozilla. He enjoys demolishing barriers to participation in open source projects. He also sings in a barbershop quartet.
 
 ---
 
