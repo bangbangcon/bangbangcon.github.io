@@ -207,7 +207,6 @@ Using chat logs I've archived since early high school, I've trained one chat bot
 
 **Andrew** is a software developer from Toronto. He's currently working on building a Memex. Previously, he was the co-founder and CTO of ShopLocket, an ecommerce startup acquired in 2014.
 
-<!--
 ---
 
 <a name="dan-luu" id ="dan-luu"></a>
@@ -222,9 +221,7 @@ Your CPU can re-order instructions as it pleases, allowing it to execute instruc
 I'll explain how out-of-order execution works and why it's beneficial, and then briefly describe how this can lead to attacks like Meltdown and Spectre. This talk assumes no background, other than the knowledge that code can somehow turn into instructions that then run on CPUs.
 
 **Dan** is a hardware engineer masquerading as a software engineer!
--->
 
-<!--
 ---
 
 <a name="kamal-marhubi" id="kamal-marhubi"></a>
@@ -237,7 +234,6 @@ I'll explain how out-of-order execution works and why it's beneficial, and then 
 The idea that there are undecidable problems -- ones that simply cannot be solved with computers -- is kind of mind-blowing. The most well-known is the halting problem: given a Turing machine (program), will it halt (terminate)? Many other undecidable problems are either very similar to the halting problem, or very abstract. In this talk I'll show one that is neither! The Post Correspondence Problem is a word tile puzzle that is actually undecidable. I'll walk through how to prove this, by building a special puzzle that has a solution if and only if a Turing machine would halt. At the end, I hope you'll share some of my wonder at the theoretical side of computers!
 
 **Kamal** is a programmer who is tired and submitting his talk proposal way too late on the last day of the call for proposals. As a result, he's skipping the bit where he writes a bio. If his talk is accepted, he'll happily provide a proper one.
--->
 
 ---
 
