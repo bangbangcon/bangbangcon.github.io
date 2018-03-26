@@ -346,7 +346,7 @@ For many people, their first (and only) experience of static types is being cont
 
 In this talk I'll demonstrate typed holes, which are a feature of some languages that allow them to offer suggestions when you ask for help!
 
-**Vaibhav** babysits web applications for a living. He likes computers, but he also likes barbells, carbonated water, space disco, and scuba diving.
+**Vaibhav** babysits web applications for a living. He likes computers, but he also likes barbells, carbonated water, [space disco](https://www.youtube.com/watch?v=ebjXsc0UjdQ), and scuba diving.
 
 ---
 
