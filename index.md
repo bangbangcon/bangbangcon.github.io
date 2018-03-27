@@ -34,7 +34,7 @@ Onuoha has been in residence at Eyebeam, the Data & Society Research Institute, 
 
 **Liz Fong-Jones** is a Staff Site Reliability Engineer at Google and works on the Google Cloud Customer Reliability Engineering team in New York. She lives with her wife, metamour, and two Samoyeds in Brooklyn. In her spare time, she plays classical piano, leads an EVE Online alliance, and advocates for transgender rights.
 
-Who else is speaking at !!Con 2018?  Stay tuned to find out!  Our [call for talk proposals](give-a-talk.html) is now closed, and we've reviewed the nearly 300 (!) proposals we received and will announce the speakers soon!
+Who else is speaking at !!Con 2018?  Stay tuned to find out!  Our [call for talk proposals](give-a-talk.html) is now closed, and we've reviewed the nearly 300 (!) proposals we received and are working on notifying speakers.
 
 <a name="where" id="where"></a>
 
@@ -119,32 +119,48 @@ Is your organization interested in sponsoring !!Con?  Check out our [sponsorship
 <div class="sponsor-list" markdown="0">
     <h3>PHENOMENAL!!! Sponsors</h3>
 
-    <div class="sponsor"><a href="https://appnexus.com" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="100" width="400"
+    <div class="sponsor big-sponsor"><a href="https://appnexus.com" target="_blank"><span
+class="magic">.</span><div class="logo"><img width="400"
     alt="AppNexus" src="images/sponsors/appnexus.jpg" /></div></a></div>
 
-    <div class="sponsor"><a href="https://3m.com" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="72" width="400"
+    <div class="sponsor big-sponsor"><a href="https://3m.com" target="_blank"><span
+class="magic">.</span><div class="logo"><img  width="400"
     alt="3M" src="images/sponsors/3m.png" /></div></a></div>
+
+    <!--
+    <div class="sponsor big-sponsor"><a href="https://www.managedbyq.com/" target="_blank"><span
+class="magic">.</span><div class="logo"><img  height="150"
+    alt="Managed by Q" src="images/sponsors/managed-by-q.png" /></div></a></div>
+    -->
 
     <h3>EXCELLENT!! Sponsors</h3>
 
-    <div class="sponsor"><a href="https://merrillcorp.com" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="100" width="316"
+    <div class="sponsor medium-sponsor"><a href="https://merrillcorp.com" target="_blank"><span
+class="magic">.</span><div class="logo"><img height="110"
     alt="Merrill" src="images/sponsors/merrill.jpg" /></div></a></div>
+
+    <!--
+    <div class="sponsor medium-sponsor"><a href="https://developer.microsoft.com/en-us/advocates/index.html" target="_blank"><span
+class="magic">.</span><div class="logo"><img height="110" 
+    alt="Microsoft Cloud Developer Advocates" src="images/sponsors/microsoft.png" /></div></a></div>
+
+    <div class="sponsor medium-sponsor"><a href="https://twilio.com" target="_blank"><span
+class="magic">.</span><div class="logo"><img height="150" 
+    alt="Twilio" src="images/sponsors/twilio.png" /></div></a></div>
+    -->
 
     <h3>AWESOME! Sponsors</h3>
 
     <div class="sponsor"><a href="https://comcast.com" target="_blank"><span
-    class="magic">.</span><div class="logo"><img height="120" width="210"
+    class="magic">.</span><div class="logo"><img height="90"
     alt="Comcast" src="images/sponsors/comcast.jpg" /></div></a></div>
 
     <div class="sponsor"><a href="https://recurse.com" target="_blank"><span
-    class="magic">.</span><div class="logo"><img height="130" width="130"
+    class="magic">.</span><div class="logo"><img height="90"
     alt="Recurse Center" src="images/sponsors/recurse.svg" /></div></a></div>
 
     <div class="sponsor"><a href="http://stripe.com/jobs" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="110" width="230"
+class="magic">.</span><div class="logo"><img height="90"
     alt="Stripe" src="images/sponsors/stripe.png"
     /></div></a></div>
 

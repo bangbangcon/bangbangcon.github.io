@@ -231,6 +231,10 @@ p, ul {
     height: 8em;
 }
 
+.sponsor.medium-sponsor .logo {
+    height: 7em;
+}
+
 .sponsor .magic {
     visibility: hidden;
     height: 0px;
