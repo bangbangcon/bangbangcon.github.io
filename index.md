@@ -143,6 +143,11 @@ class="magic">.</span><div class="logo"><img height="100" width="316"
     class="magic">.</span><div class="logo"><img height="130" width="130"
     alt="Recurse Center" src="images/sponsors/recurse.svg" /></div></a></div>
 
+    <div class="sponsor"><a href="http://stripe.com/jobs" target="_blank"><span
+class="magic">.</span><div class="logo"><img height="110" width="230"
+    alt="Stripe" src="images/sponsors/stripe.png"
+    /></div></a></div>
+
 </div>
 
 
