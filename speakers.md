@@ -252,6 +252,21 @@ Let's hear what they have to say! We'll build an antenna out of spare coat hange
 
 ---
 
+<a name="jan-mitsuko-cash" id ="jan-mitsuko-cash"></a>
+<img src="images/speakers/jan-mitsuko-cash.png" alt="Jan Mitsuko Cash" class="speaker-img" />
+
+### Jan Mitsuko Cash
+
+**_The itty, bitty, tiny bytes that make up a Pokemon!_**
+
+In 2013, Nintendo released Pokebank, an app that allowed players of the Pokemon game series to upload and store creatures called Pokemon from their games on Nintendo servers. Then it broke!
+
+Pokemon are stored in a mere 232 bytes, yet players from Japan uploaded so many of them to Nintendo's servers that the Pokebank app's release was delayed by months in the US and Europe -- but that's not the only thing that's interesting about the Pokemon data structure. Learn about what the data structure looks like and how it's adapted over the last 22 years and over four different consoles!
+
+**Jan** is a tech book editor by day and a translator by night.  Ten years ago, she caught a shiny onix in Pokemon FireRed that's living in her Pokebank. She tweets [@jmitsu](http://twitter.com/jmitsu).
+
+---
+
 <a name="ayla-myers" id ="ayla-myers"></a>
 <img src="images/speakers/ayla-myers.png" alt="Ayla Myers" class="speaker-img" />
 
@@ -264,21 +279,6 @@ Making games is hard. Making games when there are hard limits on the number of s
 Come and learn about the beautiful Bizarro World that is fantasy console game development! And maybe, just maybe...you'll take away some insights on programming in general.
 
 **Ayla Myers** is an independent game designer, developer, pixel artist, and fantasy console enthusiast! She spends her time crafting beauty out of code (and skating around the city when it's sunny).
-
-<!--
----
-
-<a name="ruthie-nachmany" id="ruthie-nachmany"></a>
-<img src="images/speakers/ruthie-nachmany.png" alt="Ruthie Nachmany" class="speaker-img" />
-
-### Ruthie Nachmany
-
-**_DNA Data Storage! An Introduction to Techniques and Algorithms_**
-
-A single gram of DNA is capable of storing 215 petabytes. As we make more and more data, people are starting to explore how we can use DNA, one of the most efficient forms of data storage we know of, to preserve it. I will share some of the reasons researchers are excited about DNA data storage, major advancements over the last few years, algorithms used to store data in DNA, and what's next on the radar for this field.
-
-**Ruthie Nachmany** is a software developer on the systems development team at Warby Parker. When she's not trying on glasses and building software that helps people try on glasses, she organizes the NYC Voice Interaction meetup, the NYC Salon speaker series, and a sunrise adventure club, and studies at Genspace, a community biology lab based in Brooklyn.
--->
 
 ---
 
