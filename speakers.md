@@ -274,11 +274,11 @@ Pokemon are stored in a mere 232 bytes, yet players from Japan uploaded so many 
 
 **_The joys of PICO-8 token crunching!! Or: what I learned about programming from being restricted on every side!_**
 
-Making games is hard. Making games when there are hard limits on the number of sprites, sound effects, colors, bars of music, and even LINES OF CODE you have at your disposal is...well...sorta mind-bending, actually. Because weird things happen when you bump up against those restrictions: you start to uncover secret trade-offs between those limited resources. Would I rather my tasty mushroom sprite have red spots, or would I prefer to be able to save high scores? How many notes in a song is a for-loop worth?
+Making games is hard. Making games with a limited number of sprites, sound effects, colors, bars of music, and even lines of code is... well... sorta mind-bending, actually. Because when you bump up against those restrictions you start to uncover secret trade-offs between these limited resources. Would I rather my tasty mushroom sprite have red spots, or would I prefer to be able to save high scores? How many notes in a song is a for-loop worth?
 
-Come and learn about the beautiful Bizarro World that is fantasy console game development! And maybe, just maybe...you'll take away some insights on programming in general.
+Come and learn about the beautiful Bizarro World that is fantasy console game development! And maybe, just maybe, you'll take away some insights on programming in general.
 
-**Ayla Myers** is an independent game designer, developer, pixel artist, and fantasy console enthusiast! She spends her time crafting beauty out of code (and skating around the city when it's sunny).
+**Ayla** is an independent game designer, developer, pixel artist, and fantasy console enthusiast! She spends her time crafting beauty out of code (and skating around the city when it's sunny).
 
 ---
 
