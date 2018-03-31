@@ -66,11 +66,11 @@ This talk will focus on a pivotal song, "The Man Comes Around".  We'll use high-
 
 **_Undo all the things!_**
 
-Once upon a time I found an interactive interpreter that let me undo! Ever since then I've been hacking undo into programming environments or creating environments with it built in. I want to share them with you! Some are hackier than others.
+I found a command line interactive interpreter that let me undo lines of Python code that I had just typed and executed. I thought this was the coolest thing! How do you hack undo into other programming environments or create new programming environments with it built in?
 
-Starring fork, LD_PRELOAD, readline, pseudoterminals, online shopping, rectangles and circles, and spaceships!
+Starring fork, LD_PRELOAD, readline, terminal escape sequences, pseudoterminals, online shopping, rectangles and circles, and spaceships!
 
-**Thomas Ballinger** regrets nothing, but wishes he could undo things anyway. He worked at the Recurse Center for three years but is mostly in SF these days, riding bikes and working at Dropbox.
+**Thomas Ballinger** regrets nothing, but wishes he could undo things anyway. He used to work at the Recurse Center but is mostly in SF these days, riding bikes and writing desktop apps at Dropbox.
 
 ---
 
