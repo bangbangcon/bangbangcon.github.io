@@ -7,7 +7,7 @@ title: Speakers - !!Con 2018
 
 <a name="keynotes" id="keynotes"></a>
 
-## Keynote Speakers
+## Keynote Talks
 
 ### Mimi Onuoha
 
@@ -29,7 +29,7 @@ Onuoha has been in residence at Eyebeam, the Data & Society Research Institute, 
 
 ---
 
-## Speakers
+## Lightning Talks
 
 <!--
 <a name="ahmed-abdalla" id="ahmed-abdalla"></a>
