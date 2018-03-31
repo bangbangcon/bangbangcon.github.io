@@ -218,7 +218,7 @@ Using chat logs I've archived since early high school, I've trained one chat bot
 
 Your CPU can re-order instructions as it pleases, allowing it to execute instructions in a totally different order than the order your compiler produced! This used to be an implementation detail that only compiler writers and low-level performance folks paid attention to, but it turns out that instruction re-ordering can be exploited to extract secret information!
 
-I'll explain how out-of-order execution works and why it's beneficial, and then briefly describe how this can lead to attacks like Meltdown and Spectre. This talk assumes no background, other than the knowledge that code can somehow turn into instructions that then run on CPUs.
+We'll look at how out-of-order execution works and why it's beneficial, and then briefly discuss how this can lead to attacks like Meltdown and Spectre. This talk assumes no background, other than the knowledge that code can somehow turn into instructions that then run on CPUs.
 
 **Dan** is a hardware engineer masquerading as a software engineer!
 
