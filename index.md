@@ -44,7 +44,11 @@ Who else is speaking at !!Con 2018?  Stay tuned to find out!  Our [call for talk
 at 28 West 23rd Street, 4th floor, Manhattan, NYC, on the weekend of
 May 12-13, 2018.  [Learn more about our venue!](venue-accessibility.html)
 
-!!Con is a *pay-what-you-want* conference.  Stay tuned for information about registration.
+!!Con is a *pay-what-you-want* conference with a suggested donation of $64.  Registration is [via Eventbrite](https://www.eventbrite.com/e/con-2018-tickets-44568220748), and tickets will be available in two batches: batch one will become available on **Thursday, April 5 at 10pm NYC time**, and batch two will open up **Friday, April 6 at 10pm NYC time**.
+
+Traditionally, !!Con tickets have sold out within minutes, so be ready to click when registration opens!
+
+We're also reserving some tickets specifically for people who submitted talk proposals. If that's you, you should have gotten an email with details!  Thanks again for your interest in !!Con!
 
 <a name="testimonials" id="testimonials"></a>
 
