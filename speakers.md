@@ -61,7 +61,6 @@ This talk will focus on a pivotal song, "The Man Comes Around".  We'll use high-
 
 ---
 
-<!--
 <a name="thomas-ballinger" id="thomas-ballinger"></a>
 <img src="images/speakers/thomas-ballinger.png" alt="Thomas Ballinger" class="speaker-img" />
 
@@ -76,7 +75,6 @@ Starring fork, LD_PRELOAD, readline, pseudoterminals, online shopping, rectangle
 **Thomas Ballinger** regrets nothing, but wishes he could undo things anyway. He worked at the Recurse Center for three years but is mostly in SF these days, riding bikes and working at Dropbox.
 
 ---
--->
 
 <a name="josh-bowman-matthews" id ="josh-bowman-matthews"></a>
 <img src="images/speakers/josh-bowman-matthews.png" alt="Josh Bowman-Matthews" class="speaker-img" />
