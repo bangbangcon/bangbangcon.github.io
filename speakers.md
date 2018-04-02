@@ -304,13 +304,13 @@ I'll start with a visual history of some of the major visual programming languag
 
 **_UX for Cats and Dogs!_**
 
-David Burge described the internet as a worldwide cat picture distribution system. But humans had had to do all the work of *taking* those pictures ahead of time! I wanted to empower my three cats and one dog to take their own selfies, but how do you design for cats and dogs?
+David Burge described the internet as a [worldwide cat picture distribution system](https://mashable.com/2010/10/21/why-does-the-web-love-cats/#O07E.MAuT5qx). But historically humans have had to do all the work of *taking* those pictures ahead of time! I wanted to empower my three cats and one dog to take their own pictures and send them to me, but how do you design for cats and dogs?
 
-I will describe how I built a home photo booth from a Raspberry Pi, a camera, some motors, the Twilio API, some wood, and a ton of cat treats, to allow me to text my pets and have them send me selfies back.
+I will describe how I built a home photo booth from a Raspberry Pi, various electronic components, the Twilio API, and a **ton** of cat treats to allow my pets to send me selfies.
 
-If all goes well, this talk will end with a live text exchange with my pets from the stage!
+In a direct challenge to the demo gods, this talk will end with an attempt at a live text exchange with my pets from the stage!
 
-**Joel Potischman** is a Brooklynite, software developer, and maybe an aspiring animal hoarder.
+**Joel Potischman** is a Brooklynite, software developer, and possibly an aspiring animal hoarder.
 
 ---
 
