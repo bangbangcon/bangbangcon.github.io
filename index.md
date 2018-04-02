@@ -20,21 +20,114 @@ joyous, exciting, and surprising moments in computing.  Join us for our **fifth 
 
 ## Who's speaking?
 
-Our 2018 keynote speakers are Mimi Onuoha and Liz Fong-Jones!
+<p id="blurb">**!!Con** (pronounced "bang bang con") **2017** was **two days of
+ten-minute talks** (with lots of breaks, of course!) to celebrate the
+joyous, exciting, and surprising moments in computing.  Check out our
+[speaker lineup](speakers.html)!</p>
 
-<a name="mimi-onuoha" id="mimi-onuoha"></a>
-<img src="images/speakers/mimi-onuoha.png" alt="Mimi Onuoha" class="speaker-img" />
+<a name="speaking" id="speaking"></a>
 
-**Mimi Onuoha** is a Brooklyn-based artist and researcher investigating the social results of data collection and computational categorization. Her work uses code, writing, performance, and objects to explore missing data and the ways in which people are abstracted, represented, and classified.
+<div class="speaker-pics" markdown="0">
+    <div><a href="./speakers.html#mimi-onuoha"><img height="100" width="100"
+    src="images/speakers/mimi-onuoha.png" alt="Mimi Onuoha" /></a></div>
 
-Onuoha has been in residence at Eyebeam, the Data & Society Research Institute, Columbia University’s Tow Center, and the Royal College of Art. She has exhibited and presented workshops in festivals internationally, and in 2014 she was selected to be in the inaugural class of Fulbright-National Geographic Digital Storytelling Fellows. She was recently a visiting faculty member at Bennington College, and currently is teaching at NYU.
+    <div><a href="./speakers.html#liz-fong-jones"><img height="100" width="100"
+    src="images/speakers/liz-fong-jones.png" alt="Liz Fong-Jones" /></a></div>
 
-<a name="liz-fong-jones" id="liz-fong-jones"></a>
-<img src="images/speakers/liz-fong-jones.png" alt="Liz Fong-Jones" class="speaker-img" />
+    <div><a href="./speakers.html#ahmed-abdalla"><img height="100" width="100"
+    src="images/speakers/ahmed-abdalla.png" alt="Ahmed Abdalla" /></a></div>
 
-**Liz Fong-Jones** is a Staff Site Reliability Engineer at Google and works on the Google Cloud Customer Reliability Engineering team in New York. She lives with her wife, metamour, and two Samoyeds in Brooklyn. In her spare time, she plays classical piano, leads an EVE Online alliance, and advocates for transgender rights.
+    <div><a href="./speakers.html#vince-allen"><img height="100" width="100"
+    src="images/speakers/vince-allen.png" alt="Vince Allen" /></a></div>
 
-Who else is speaking at !!Con 2018?  Stay tuned to find out!  Our [call for talk proposals](give-a-talk.html) is now closed, and we've reviewed the nearly 300 (!) proposals we received and will announce the speakers soon!
+    <div><a href="./speakers.html#thomas-ballinger"><img height="100" width="100"
+    src="images/speakers/thomas-ballinger.png" alt="Thomas Ballinger" /></a></div>
+
+    <div><a href="./speakers.html#josh-bowman-matthews"><img height="100" width="100"
+    src="images/speakers/josh-bowman-matthews.png" alt="Josh Bowman-Matthews" /></a></div>
+
+    <div><a href="./speakers.html#karla-burnett"><img height="100" width="100"
+    src="images/speakers/karla-burnett.png" alt="Karla Burnett" /></a></div>
+
+    <div><a href="./speakers.html#alex-clemmer"><img height="100" width="100"
+    src="images/speakers/alex-clemmer.png" alt="Alex Clemmer" /></a></div>
+
+    <div><a href="./speakers.html#john-feminella"><img height="100" width="100"
+    src="images/speakers/john-feminella.png" alt="John Feminella" /></a></div>
+
+    <div><a href="./speakers.html#wander-hillen"><img height="100" width="100"
+    src="images/speakers/wander-hillen.png" alt="Wander Hillen" /></a></div>
+
+    <div><a href="./speakers.html#evy-kassirer"><img height="100" width="100"
+    src="images/speakers/evy-kassirer.png" alt="Evy Kassirer" /></a></div>
+
+    <div><a href="./speakers.html#mike-lazer-walker"><img height="100" width="100"
+    src="images/speakers/mike-lazer-walker.png" alt="Mike Lazer-Walker" /></a></div>
+    
+    <div><a href="./speakers.html#will-leinweber"><img height="100" width="100"
+    src="images/speakers/will-leinweber.png" alt="Will Leinweber" /></a></div>
+
+    <div><a href="./speakers.html#andrew-louis"><img height="100" width="100"
+    src="images/speakers/andrew-louis.png" alt="Andrew Louis" /></a></div>
+    
+    <div><a href="./speakers.html#dan-luu"><img height="100" width="100"
+    src="images/speakers/dan-luu.png" alt="Dan Luu" /></a></div>
+    
+    <div><a href="./speakers.html#kamal-marhubi"><img height="100" width="100"
+    src="images/speakers/kamal-marhubi.png" alt="Kamal Marhubi" /></a></div>
+    
+    <div><a href="./speakers.html#ed-medvedev"><img height="100" width="100"
+    src="images/speakers/ed-medvedev.png" alt="Ed Medvedev" /></a></div>
+
+    <div><a href="./speakers.html#jan-mitsuko-cash"><img height="100" width="100"
+    src="images/speakers/jan-mitsuko-cash.png" alt="Jan Mitsuko Cash" /></a></div>
+    
+    <div><a href="./speakers.html#ayla-myers"><img height="100" width="100"
+    src="images/speakers/ayla-myers.png" alt="Ayla Myers" /></a></div>
+
+    <div><a href="./speakers.html#emily-nakashima"><img height="100" width="100"
+    src="images/speakers/emily-nakashima.png" alt="Emily Nakashima" /></a></div>
+
+    <div><a href="./speakers.html#joel-potischman"><img height="100" width="100"
+    src="images/speakers/joel-potischman.png" alt="Joel Potischman" /></a></div>
+    
+    <div><a href="./speakers.html#omar-rizwan"><img height="100" width="100"
+    src="images/speakers/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
+
+    <div><a href="./speakers.html#vaibhav-sagar"><img height="100" width="100"
+    src="images/speakers/vaibhav-sagar.png" alt="Vaibhav Sagar"/></a></div>
+
+    <div><a href="./speakers.html#aruna-sankaranarayanan"><img height="100" width="100"
+    src="images/speakers/aruna-sankaranarayanan.png" alt="Aruna Sankaranarayanan"/></a></div>
+    
+    <div><a href="./speakers.html#hung-truong"><img height="100" width="100"
+    src="images/speakers/hung-truong.png" alt="Hung Truong" /></a></div>
+
+    <div><a href="./speakers.html#stephen-tu"><img height="100" width="100"
+    src="images/speakers/stephen-tu.png" alt="Stephen Tu" /></a></div>
+    
+    <div><a href="./speakers.html#david-turner"><img height="100" width="100"
+    src="images/speakers/david-turner.png" alt="David Turner"/></a></div>
+    
+    <div><a href="./speakers.html#logan-williams"><img height="100" width="100"
+    src="images/speakers/logan-williams.png" alt="Logan Williams" /></a></div>
+    
+    <div><a href="./speakers.html#jes-wolfe!"><img height="100" width="100"
+    src="images/speakers/jes-wolfe!.png" alt="Jes Wolfe!" /></a></div>
+
+    <div><a href="./speakers.html#mark-wunsch"><img height="100" width="100"
+    src="images/speakers/mark-wunsch.png" alt="Mark Wunsch" /></a></div>
+
+    <div><a href="./speakers.html#lucy-zhang"><img height="100" width="100"
+    src="images/speakers/lucy-zhang.png" alt="Lucy Zhang" /></a></div>
+
+    <div><a href="./speakers.html#persa-zula"><img height="100" width="100"
+    src="images/speakers/persa-zula.png" alt="Persa Zula"/></a></div>
+
+</div>
+
+Our [call for talk proposals](give-a-talk.html) is closed.  Thanks for
+all your wonderful talk proposal submissions!
 
 <a name="where" id="where"></a>
 
