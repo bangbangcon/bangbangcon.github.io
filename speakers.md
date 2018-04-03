@@ -385,9 +385,9 @@ I'll get down to the nitty-gritty about how I wrote an iOS app (and later a MacO
 
 **_Estimating the Value of Pi with a Dartboard and (Not so Much) Luck!_**
 
-If you are like me and not very good at the game of darts, you might be able to use your skills towards estimating the value of pi. In this talk, we will look at a simple Monte Carlo algorithm which uses the (scaled) ratio of the number of darts that land on a dartboard over the number of darts that land within a square around the dartboard as an unbiased estimate for pi. We will understand why the algorithm works intuitively by appealing to the Law of Large Numbers. Furthermore, since we would like to not throw darts forever, we will use a large deviation bound to derive an upper bound on the number of throws we need to estimate pi within epsilon accuracy with high probability. 
+If you are like me and not very good at the game of darts, you might be able to use your skills towards estimating the value of pi. In this talk, we will look at a simple Monte Carlo algorithm which uses the (scaled) ratio of the number of darts that land on a dartboard over the number of darts that land within a square around the dartboard as an unbiased estimate for pi. We will understand why the algorithm works intuitively by appealing to the Law of Large Numbers. Furthermore, since we would like to not throw darts forever, we will use a large deviation inequality to derive an upper bound on the number of throws we need to estimate pi to within a desired accuracy with high probability.
 
-**Stephen** is a PhD student at UC Berkeley studying the interplay between machine learning, optimization, and control theory. He still dreams of writing his own programming language one day.
+**Stephen** is a PhD student at UC Berkeley studying the interplay between machine learning, optimization, and control theory. He still dreams of writing his own programming language one day, despite a [failed attempt](https://github.com/stephentu/venom-lang) years ago.
 
 ---
 
