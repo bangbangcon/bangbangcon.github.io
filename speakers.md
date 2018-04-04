@@ -31,7 +31,6 @@ Onuoha has been in residence at Eyebeam, the Data & Society Research Institute, 
 
 ## Lightning Talks
 
-<!--
 <a name="ahmed-abdalla" id="ahmed-abdalla"></a>
 <img src="images/speakers/ahmed-abdalla.png" alt="Ahmed Abdalla" class="speaker-img" />
 
@@ -44,7 +43,6 @@ Inspired by Ramsey Nasser's Arabic programming language [Qalb](http://nas.sr/%D9
 **Ahmed** loves riding his bike all around NYC, watching the sunset from the Hudson River Park, and reading great code he wishes he wrote.
 
 ---
--->
 
 <a name="vince-allen" id="vince-allen"></a>
 <img src="images/speakers/vince-allen.png" alt="Vince Allen" class="speaker-img" />
@@ -68,11 +66,11 @@ This talk will focus on a pivotal song, "The Man Comes Around".  We'll use high-
 
 **_Undo all the things!_**
 
-Once upon a time I found an interactive interpreter that let me undo! Ever since then I've been hacking undo into programming environments or creating environments with it built in. I want to share them with you! Some are hackier than others.
+I found a command line interactive interpreter that let me undo lines of Python code that I had just typed and executed. I thought this was the coolest thing! How do you hack undo into other programming environments or create new programming environments with it built in?
 
-Starring fork, LD_PRELOAD, readline, pseudoterminals, online shopping, rectangles and circles, and spaceships!
+Starring fork, LD_PRELOAD, readline, terminal escape sequences, pseudoterminals, online shopping, rectangles and circles, and spaceships!
 
-**Thomas Ballinger** regrets nothing, but wishes he could undo things anyway. He worked at the Recurse Center for three years but is mostly in SF these days, riding bikes and working at Dropbox.
+**Thomas Ballinger** regrets nothing, but wishes he could undo things anyway. He used to work at the Recurse Center but is mostly in SF these days, riding bikes and writing desktop apps at Dropbox.
 
 ---
 
@@ -123,7 +121,6 @@ What I'd really like to do is sit down, think very carefully, and write down all
 
 ---
 
-<!--
 <a name="john-feminella" id ="john-feminella"></a>
 <img src="images/speakers/john-feminella.png" alt="John Feminella" class="speaker-img" />
 
@@ -136,7 +133,6 @@ If you thought getting datetimes and daylight savings correct was tough, wait 't
 **John Feminella** is an avid technologist, occasional public speaker, and curiosity advocate. He serves as an advisor to Pivotal, where he works on helping enterprises transform the way they write, operate, and deploy software. He's also the cofounder of a tiny analytics monitoring and reporting project named UpHex.  John lives in Charlottesville, VA and likes meta-jokes, milkshakes, and referring to himself in the third person in speaker bios.
 
 ---
--->
 
 <a name="wander-hillen" id="wander-hillen"></a>
 <img src="images/speakers/wander-hillen.png" alt="Wander Hillen" class="speaker-img" />
@@ -168,7 +164,6 @@ We'll walk through the process of how a human might solve algebra problems and h
 
 ---
 
-<!--
 <a name="mike-lazer-walker" id="mike-lazer-walker"></a>
 <img src="images/speakers/mike-lazer-walker.png" alt="Mike Lazer-Walker" class="speaker-img" />
 
@@ -176,16 +171,14 @@ We'll walk through the process of how a human might solve algebra problems and h
 
 **_So THAT'S how my phone knows where I am!_**
 
-Your phone knows where you are at all times, usually with pretty shocking accuracy. How the heck does it know that?! 
+Your phone knows where you are at all times, usually with pretty shocking accuracy. How the heck does it know that?!
 
-This talk will dive into the math and physics underlying modern smartphone location technology (GPS, AGPS, and indoor location), but it will also do so by means of a walk through history. Modern GPS arose out of Cold War-era US DoD research, but how is that research connected to the larger historical and political context of geolocation throughout history? How is the technical solution to tracking Russian missiles directly indebted to the 17th century sailors who developed smarter ways to locate themselves on the open sea? This talk will answer all of that and more!
+This talk will dive into the math and physics underlying modern smartphone location technology (GPS, AGPS, and indoor location), but we'll also take a walk through the history of location tech. Modern GPS arose out of Cold War-era US DoD research, but how is that research connected to the larger historical and political context of geolocation throughout the ages? How is the technical solution to tracking Russian missiles directly indebted to the 17th century sailors who developed smarter ways to locate themselves on the open sea? This talk will answer all of that and more!
 
 **Mike** makes interactive art, experimental games, and software tools. Above all, he makes things that spark intellectual curiosity and inspire people to become self-motivated learners.
 
 ---
--->
 
-<!--
 <a name="will-leinweber" id="will-leinweber"></a>
 <img src="images/speakers/will-leinweber.png" alt="Will Leinweber" class="speaker-img" />
 
@@ -200,9 +193,8 @@ Even if you don't go and watch all your movies this way in the future, you'll le
 **Will** comes from San Francisco, and his Home Page [bitfission.com](http://bitfission.com) still autoplays MIDIs and prevents right-click. He's spent the better part of his career building fully-managed Postgres services, which he's only now realizing has probably caused him to end up thinking any of this is a good idea.
 
 ---
--->
 
-<!--
+
 <a name="andrew-louis" id="andrew-louis"></a>
 <img src="images/speakers/andrew-louis.png" alt="Andrew Louis" class="speaker-img" />
 
@@ -217,7 +209,6 @@ Using chat logs I've archived since early high school, I've trained one chat bot
 **Andrew** is a software developer from Toronto. He's currently working on building a Memex. Previously, he was the co-founder and CTO of ShopLocket, an ecommerce startup acquired in 2014.
 
 ---
--->
 
 <a name="dan-luu" id ="dan-luu"></a>
 <img src="images/speakers/dan-luu.png" alt="Dan Luu" class="speaker-img" />
@@ -314,13 +305,13 @@ I'll start with a visual history of some of the major visual programming languag
 
 **_UX for Cats and Dogs!_**
 
-David Burge described the internet as a worldwide cat picture distribution system. But humans had had to do all the work of *taking* those pictures ahead of time! I wanted to empower my three cats and one dog to take their own selfies, but how do you design for cats and dogs?
+David Burge described the internet as a [worldwide cat picture distribution system](https://mashable.com/2010/10/21/why-does-the-web-love-cats/#O07E.MAuT5qx). But historically humans have had to do all the work of *taking* those pictures ahead of time! I wanted to empower my three cats and one dog to take their own pictures and send them to me, but how do you design for cats and dogs?
 
-I will describe how I built a home photo booth from a Raspberry Pi, a camera, some motors, the Twilio API, some wood, and a ton of cat treats, to allow me to text my pets and have them send me selfies back.
+I will describe how I built a home photo booth from a Raspberry Pi, various electronic components, the Twilio API, and a **ton** of cat treats to allow my pets to send me selfies.
 
-If all goes well, this talk will end with a live text exchange with my pets from the stage!
+In a direct challenge to the demo gods, this talk will end with an attempt at a live text exchange with my pets from the stage!
 
-**Joel Potischman** is a Brooklynite, software developer, and maybe an aspiring animal hoarder.
+**Joel Potischman** is a Brooklynite, software developer, and possibly an aspiring animal hoarder.
 
 ---
 
@@ -360,7 +351,6 @@ In this talk I'll demonstrate typed holes, which are a feature of some languages
 
 ---
 
-<!--
 <a name="aruna-sankaranarayanan" id="aruna-sankaranarayanan"></a>
 <img src="images/speakers/aruna-sankaranarayanan.png" alt="Aruna Sankaranarayanan" class="speaker-img" />
 
@@ -373,7 +363,6 @@ During the 2015 floods in Chennai, India, a few of us built an application that 
 **Aruna** is a platform engineer at Mapbox. Previously, she wrote 2D games using the Cocos2D engine and contributed to the Wikipedia, GNOME and GCompris projects. She also enjoys building communities of friendly women doing tech and collecting recordings of Indian classical music in the public domain.
 
 ---
--->
 
 <a name="hung-truong" id="hung-truong"></a>
 <img src="images/speakers/hung-truong.png" alt="Hung Truong" class="speaker-img" />
@@ -390,7 +379,6 @@ I'll get down to the nitty-gritty about how I wrote an iOS app (and later a MacO
 
 ---
 
-<!--
 <a name="stephen-tu" id="stephen-tu"></a>
 <img src="images/speakers/stephen-tu.png" alt="Stephen Tu" class="speaker-img" />
 
@@ -398,12 +386,11 @@ I'll get down to the nitty-gritty about how I wrote an iOS app (and later a MacO
 
 **_Estimating the Value of Pi with a Dartboard and (Not so Much) Luck!_**
 
-If you are like me and not very good at the game of darts, you might be able to use your skills towards estimating the value of pi. In this talk, we will look at a simple Monte Carlo algorithm which uses the (scaled) ratio of the number of darts that land on a dartboard over the number of darts that land within a square around the dartboard as an unbiased estimate for pi. We will understand why the algorithm works intuitively by appealing to the Law of Large Numbers. Furthermore, since we would like to not throw darts forever, we will use a large deviation bound to derive an upper bound on the number of throws we need to estimate pi within epsilon accuracy with high probability. 
+If you are like me and not very good at the game of darts, you might be able to use your skills towards estimating the value of pi. In this talk, we will look at a simple Monte Carlo algorithm which uses the (scaled) ratio of the number of darts that land on a dartboard over the number of darts that land within a square around the dartboard as an unbiased estimate for pi. We will understand why the algorithm works intuitively by appealing to the Law of Large Numbers. Furthermore, since we would like to not throw darts forever, we will use a large deviation inequality to derive an upper bound on the number of throws we need to estimate pi to within a desired accuracy with high probability.
 
-**Stephen** is a PhD student at UC Berkeley studying the interplay between machine learning, optimization, and control theory. He still dreams of writing his own programming language one day.
+**Stephen** is a PhD student at UC Berkeley studying the interplay between machine learning, optimization, and control theory. He still dreams of writing his own programming language one day, despite a [failed attempt](https://github.com/stephentu/venom-lang) years ago.
 
 ---
--->
 
 <a name="david-turner" id="david-turner"></a>
 <img src="images/speakers/david-turner.png" alt="David Turner" class="speaker-img" />
@@ -464,7 +451,6 @@ while compositing graphics and text on the fly. I will peel back the layers of a
 
 ---
 
-<!--
 <a name="lucy-zhang" id="lucy-zhang"></a>
 <img src="images/speakers/lucy-zhang.png" alt="Lucy Zhang" class="speaker-img" />
 
@@ -477,9 +463,7 @@ According to Einstein's theory of special relativity, space and time are not abs
 **Lucy** likes programming, mathematics, and music. She is a data infrastructure engineer in New York City.
 
 ---
--->
 
-<!--
 <a name="persa-zula" id="persa-zula"></a>
 <img src="images/speakers/persa-zula.png" alt="Persa Zula" class="speaker-img" />
 
@@ -494,4 +478,3 @@ Later in the day, you're scraping information from a website that happens to hav
 You've just encountered "notdef"! This is the official term for the "Not Defined" symbol that is shown when the typeface being used doesn't contain the character requested. This talk aims to show you what you can do in the face of notdef, including how you can build a little tool to search your machine for fonts that support the characters you need to tell your story -- whether you're using a design app to make a poster, or writing a paper that contains information in a non-Latin language.
 
 **Persa Zula** is a computer scientist on the Adobe Typekit team, and thinks about Unicode and typography on a day-to-day basis. Before working on Typekit, she had no idea what those notdef boxes were, or what could be done about them! She wants to see more of the world's languages represented in digital typography, so that the Internet can become a truly global place to share thoughts and ideas, regardless of what language a person speaks!
--->
