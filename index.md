@@ -20,101 +20,39 @@ joyous, exciting, and surprising moments in computing.  Check out our
 <a name="speaking" id="speaking"></a>
 
 <div class="speaker-pics" markdown="0">
-    <div><a href="./speakers.html#mimi-onuoha"><img height="100" width="100"
-    src="images/speakers/mimi-onuoha.png" alt="Mimi Onuoha" /></a></div>
-
-    <div><a href="./speakers.html#liz-fong-jones"><img height="100" width="100"
-    src="images/speakers/liz-fong-jones.png" alt="Liz Fong-Jones" /></a></div>
-
-    <div><a href="./speakers.html#ahmed-abdalla"><img height="100" width="100"
-    src="images/speakers/ahmed-abdalla.png" alt="Ahmed Abdalla" /></a></div>
-
-    <div><a href="./speakers.html#vince-allen"><img height="100" width="100"
-    src="images/speakers/vince-allen.png" alt="Vince Allen" /></a></div>
-
-    <div><a href="./speakers.html#thomas-ballinger"><img height="100" width="100"
-    src="images/speakers/thomas-ballinger.png" alt="Thomas Ballinger" /></a></div>
-
-    <div><a href="./speakers.html#josh-bowman-matthews"><img height="100" width="100"
-    src="images/speakers/josh-bowman-matthews.png" alt="Josh Bowman-Matthews" /></a></div>
-
-    <div><a href="./speakers.html#karla-burnett"><img height="100" width="100"
-    src="images/speakers/karla-burnett.png" alt="Karla Burnett" /></a></div>
-
-    <div><a href="./speakers.html#alex-clemmer"><img height="100" width="100"
-    src="images/speakers/alex-clemmer.png" alt="Alex Clemmer" /></a></div>
-
-    <div><a href="./speakers.html#john-feminella"><img height="100" width="100"
-    src="images/speakers/john-feminella.png" alt="John Feminella" /></a></div>
-
-    <div><a href="./speakers.html#wander-hillen"><img height="100" width="100"
-    src="images/speakers/wander-hillen.png" alt="Wander Hillen" /></a></div>
-
-    <div><a href="./speakers.html#evy-kassirer"><img height="100" width="100"
-    src="images/speakers/evy-kassirer.png" alt="Evy Kassirer" /></a></div>
-
-    <div><a href="./speakers.html#mike-lazer-walker"><img height="100" width="100"
-    src="images/speakers/mike-lazer-walker.png" alt="Mike Lazer-Walker" /></a></div>
     
-    <div><a href="./speakers.html#will-leinweber"><img height="100" width="100"
-    src="images/speakers/will-leinweber.png" alt="Will Leinweber" /></a></div>
-
-    <div><a href="./speakers.html#andrew-louis"><img height="100" width="100"
-    src="images/speakers/andrew-louis.png" alt="Andrew Louis" /></a></div>
-    
-    <div><a href="./speakers.html#dan-luu"><img height="100" width="100"
-    src="images/speakers/dan-luu.png" alt="Dan Luu" /></a></div>
-    
-    <div><a href="./speakers.html#kamal-marhubi"><img height="100" width="100"
-    src="images/speakers/kamal-marhubi.png" alt="Kamal Marhubi" /></a></div>
-    
-    <div><a href="./speakers.html#ed-medvedev"><img height="100" width="100"
-    src="images/speakers/ed-medvedev.png" alt="Ed Medvedev" /></a></div>
-
-    <div><a href="./speakers.html#jan-mitsuko-cash"><img height="100" width="100"
-    src="images/speakers/jan-mitsuko-cash.png" alt="Jan Mitsuko Cash" /></a></div>
-    
-    <div><a href="./speakers.html#ayla-myers"><img height="100" width="100"
-    src="images/speakers/ayla-myers.png" alt="Ayla Myers" /></a></div>
-
-    <div><a href="./speakers.html#emily-nakashima"><img height="100" width="100"
-    src="images/speakers/emily-nakashima.png" alt="Emily Nakashima" /></a></div>
-
-    <div><a href="./speakers.html#joel-potischman"><img height="100" width="100"
-    src="images/speakers/joel-potischman.png" alt="Joel Potischman" /></a></div>
-    
-    <div><a href="./speakers.html#omar-rizwan"><img height="100" width="100"
-    src="images/speakers/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
-
-    <div><a href="./speakers.html#vaibhav-sagar"><img height="100" width="100"
-    src="images/speakers/vaibhav-sagar.png" alt="Vaibhav Sagar"/></a></div>
-
-    <div><a href="./speakers.html#aruna-sankaranarayanan"><img height="100" width="100"
-    src="images/speakers/aruna-sankaranarayanan.png" alt="Aruna Sankaranarayanan"/></a></div>
-    
-    <div><a href="./speakers.html#hung-truong"><img height="100" width="100"
-    src="images/speakers/hung-truong.png" alt="Hung Truong" /></a></div>
-
-    <div><a href="./speakers.html#stephen-tu"><img height="100" width="100"
-    src="images/speakers/stephen-tu.png" alt="Stephen Tu" /></a></div>
-    
-    <div><a href="./speakers.html#david-turner"><img height="100" width="100"
-    src="images/speakers/david-turner.png" alt="David Turner"/></a></div>
-    
-    <div><a href="./speakers.html#logan-williams"><img height="100" width="100"
-    src="images/speakers/logan-williams.png" alt="Logan Williams" /></a></div>
-    
-    <div><a href="./speakers.html#jes-wolfe!"><img height="100" width="100"
-    src="images/speakers/jes-wolfe!.png" alt="Jes Wolfe!" /></a></div>
-
-    <div><a href="./speakers.html#mark-wunsch"><img height="100" width="100"
-    src="images/speakers/mark-wunsch.png" alt="Mark Wunsch" /></a></div>
-
-    <div><a href="./speakers.html#lucy-zhang"><img height="100" width="100"
-    src="images/speakers/lucy-zhang.png" alt="Lucy Zhang" /></a></div>
-
-    <div><a href="./speakers.html#persa-zula"><img height="100" width="100"
-    src="images/speakers/persa-zula.png" alt="Persa Zula"/></a></div>
+    <div><a href="./speakers.html#ahmed-abdalla"><img height="100" width="100" src="images/speakers/ahmed-abdalla.png" alt="Ahmed Abdalla" /></a></div>
+    <div><a href="./speakers.html#alex-clemmer"><img height="100" width="100" src="images/speakers/alex-clemmer.png" alt="Alex Clemmer" /></a></div>
+    <div><a href="./speakers.html#andrew-louis"><img height="100" width="100" src="images/speakers/andrew-louis.png" alt="Andrew Louis" /></a></div>
+    <div><a href="./speakers.html#aruna-sankaranarayanan"><img height="100" width="100" src="images/speakers/aruna-sankaranarayanan.png" alt="Aruna Sankaranarayanan"/></a></div>
+    <div><a href="./speakers.html#ayla-myers"><img height="100" width="100" src="images/speakers/ayla-myers.png" alt="Ayla Myers" /></a></div>
+    <div><a href="./speakers.html#dan-luu"><img height="100" width="100" src="images/speakers/dan-luu.png" alt="Dan Luu" /></a></div>
+    <div><a href="./speakers.html#david-turner"><img height="100" width="100" src="images/speakers/david-turner.png" alt="David Turner"/></a></div>
+    <div><a href="./speakers.html#ed-medvedev"><img height="100" width="100" src="images/speakers/ed-medvedev.png" alt="Ed Medvedev" /></a></div>
+    <div><a href="./speakers.html#emily-nakashima"><img height="100" width="100" src="images/speakers/emily-nakashima.png" alt="Emily Nakashima" /></a></div>
+    <div><a href="./speakers.html#evy-kassirer"><img height="100" width="100" src="images/speakers/evy-kassirer.png" alt="Evy Kassirer" /></a></div>
+    <div><a href="./speakers.html#hung-truong"><img height="100" width="100" src="images/speakers/hung-truong.png" alt="Hung Truong" /></a></div>
+    <div><a href="./speakers.html#jan-mitsuko-cash"><img height="100" width="100" src="images/speakers/jan-mitsuko-cash.png" alt="Jan Mitsuko Cash" /></a></div>
+    <div><a href="./speakers.html#jes-wolfe!"><img height="100" width="100" src="images/speakers/jes-wolfe!.png" alt="Jes Wolfe!" /></a></div>
+    <div><a href="./speakers.html#joel-potischman"><img height="100" width="100" src="images/speakers/joel-potischman.png" alt="Joel Potischman" /></a></div>
+    <div><a href="./speakers.html#john-feminella"><img height="100" width="100" src="images/speakers/john-feminella.png" alt="John Feminella" /></a></div>
+    <div><a href="./speakers.html#josh-bowman-matthews"><img height="100" width="100" src="images/speakers/josh-bowman-matthews.png" alt="Josh Bowman-Matthews" /></a></div>
+    <div><a href="./speakers.html#kamal-marhubi"><img height="100" width="100" src="images/speakers/kamal-marhubi.png" alt="Kamal Marhubi" /></a></div>
+    <div><a href="./speakers.html#karla-burnett"><img height="100" width="100" src="images/speakers/karla-burnett.png" alt="Karla Burnett" /></a></div>
+    <div><a href="./speakers.html#liz-fong-jones"><img height="100" width="100" src="images/speakers/liz-fong-jones.png" alt="Liz Fong-Jones" /></a></div>
+    <div><a href="./speakers.html#logan-williams"><img height="100" width="100" src="images/speakers/logan-williams.png" alt="Logan Williams" /></a></div>
+    <div><a href="./speakers.html#lucy-zhang"><img height="100" width="100" src="images/speakers/lucy-zhang.png" alt="Lucy Zhang" /></a></div>
+    <div><a href="./speakers.html#mark-wunsch"><img height="100" width="100" src="images/speakers/mark-wunsch.png" alt="Mark Wunsch" /></a></div>
+    <div><a href="./speakers.html#mike-lazer-walker"><img height="100" width="100" src="images/speakers/mike-lazer-walker.png" alt="Mike Lazer-Walker" /></a></div>
+    <div><a href="./speakers.html#mimi-onuoha"><img height="100" width="100" src="images/speakers/mimi-onuoha.png" alt="Mimi Onuoha" /></a></div>
+    <div><a href="./speakers.html#omar-rizwan"><img height="100" width="100" src="images/speakers/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
+    <div><a href="./speakers.html#persa-zula"><img height="100" width="100" src="images/speakers/persa-zula.png" alt="Persa Zula"/></a></div>
+    <div><a href="./speakers.html#stephen-tu"><img height="100" width="100" src="images/speakers/stephen-tu.png" alt="Stephen Tu" /></a></div>
+    <div><a href="./speakers.html#thomas-ballinger"><img height="100" width="100" src="images/speakers/thomas-ballinger.png" alt="Thomas Ballinger" /></a></div>
+    <div><a href="./speakers.html#vaibhav-sagar"><img height="100" width="100" src="images/speakers/vaibhav-sagar.png" alt="Vaibhav Sagar"/></a></div>
+    <div><a href="./speakers.html#vince-allen"><img height="100" width="100" src="images/speakers/vince-allen.png" alt="Vince Allen" /></a></div>
+    <div><a href="./speakers.html#wander-hillen"><img height="100" width="100" src="images/speakers/wander-hillen.png" alt="Wander Hillen" /></a></div>
+    <div><a href="./speakers.html#will-leinweber"><img height="100" width="100" src="images/speakers/will-leinweber.png" alt="Will Leinweber" /></a></div>
 
 </div>
 
