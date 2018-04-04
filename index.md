@@ -12,15 +12,7 @@ title: The joy, excitement, and surprise of computing - !!Con 2018
   [Conduct](conduct.html)
 </p>
 
-<p id="blurb">**!!Con** (pronounced "bang bang con") is **two days of
-ten-minute talks** (with lots of breaks, of course!) to celebrate the
-joyous, exciting, and surprising moments in computing.  Join us for our **fifth year** in 2018!</p>
-
-<a name="speaking" id="speaking"></a>
-
-## Who's speaking?
-
-<p id="blurb">**!!Con** (pronounced "bang bang con") **2017** was **two days of
+<p id="blurb">**!!Con** (pronounced "bang bang con") **2018** is **two days of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
 joyous, exciting, and surprising moments in computing.  Check out our
 [speaker lineup](speakers.html)!</p>
