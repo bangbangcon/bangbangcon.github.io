@@ -170,11 +170,11 @@ class="magic">.</span><div class="logo"><img height="110"
     <div class="sponsor medium-sponsor"><a href="https://developer.microsoft.com/en-us/advocates/index.html" target="_blank"><span
 class="magic">.</span><div class="logo"><img height="110" 
     alt="Microsoft Cloud Developer Advocates" src="images/sponsors/microsoft.png" /></div></a></div>
+    -->
 
     <div class="sponsor medium-sponsor"><a href="https://twilio.com" target="_blank"><span
 class="magic">.</span><div class="logo"><img height="150" 
     alt="Twilio" src="images/sponsors/twilio.png" /></div></a></div>
-    -->
 
     <h3>AWESOME! Sponsors</h3>
 
