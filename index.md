@@ -150,7 +150,7 @@ Is your organization interested in sponsoring !!Con?  Check out our [sponsorship
 class="magic">.</span><div class="logo"><img width="400"
     alt="AppNexus" src="images/sponsors/appnexus.jpg" /></div></a></div>
 
-    <div class="sponsor big-sponsor"><a href="https://3m.com" target="_blank"><span
+    <div class="sponsor big-sponsor"><a href="https://3m.recsolu.com/jobs/2T2iaPj9WJQpiHLVuCZ3JA" target="_blank"><span
 class="magic">.</span><div class="logo"><img  width="400"
     alt="3M" src="images/sponsors/3m.png" /></div></a></div>
 
