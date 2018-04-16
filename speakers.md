@@ -412,7 +412,7 @@ How do you compress the set of all possible books?  What can we learn about data
 
 **_Turning Google Earth into SimCity 2000! (From Light to Pixels to Impossible Perspectives!)_**
 
-Remember isometric games, like SimCity 2000 and Q&ast;bert? Real life sadly doesn't look like Q&ast;bert, and it's mostly because parallel lines converge! Why does this happen? We'll use simple geometric rules to explain how cameras turn light, a five-dimensional (!) spatial variable, into a pattern of pixels. With computers, we can algorithmically alter that pattern, and synthesize impossible perspectives from real data. (Including some inspired by your retro-gaming faves!) Finally, we'll discuss how image formation models might change the way we think about the world around us!
+Remember isometric games, like SimCity 2000 and Q\*bert? Real life sadly doesn't look like Q\*bert, and it's mostly because parallel lines converge! Why does this happen? We'll use simple geometric rules to explain how cameras turn light, a five-dimensional (!) spatial variable, into a pattern of pixels. With computers, we can algorithmically alter that pattern, and synthesize impossible perspectives from real data. (Including some inspired by your retro-gaming faves!) Finally, we'll discuss how image formation models might change the way we think about the world around us!
 
 **Logan** is a programmer and artist who enjoys thinking about photography, geography, and what we look at when we look at land. Most recently, he has been a fellow at the BuzzFeed Open Lab and a resident at Signal Culture.
 
