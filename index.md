@@ -154,11 +154,9 @@ class="magic">.</span><div class="logo"><img width="400"
 class="magic">.</span><div class="logo"><img  width="400"
     alt="3M" src="images/sponsors/3m.png" /></div></a></div>
 
-    <!--
     <div class="sponsor big-sponsor"><a href="https://www.managedbyq.com/" target="_blank"><span
 class="magic">.</span><div class="logo"><img  height="150"
     alt="Managed by Q" src="images/sponsors/managed-by-q.png" /></div></a></div>
-    -->
 
     <h3>EXCELLENT!! Sponsors</h3>
 
