@@ -184,7 +184,7 @@ This talk will dive into the math and physics underlying modern smartphone locat
 
 ### Will Leinweber
 
-**_Using Postgres to `\watch` Star Wars_**
+**_Using Postgres to `\watch` Star Wars!_**
 
 Star Wars is a movie, and Postgres is a database. And what better way to watch a movie than using only a database? I mean, aside from in a theater, or on a TV, or on a tiny airplane screen, or... So while I guess I can't say it's the best way, I can for sure say that it is *a* way. 
 
