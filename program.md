@@ -32,7 +32,7 @@ Coffee, tea, water, and light breakfast will be available both days.  **We will 
 |-----------------|-------------------------------------------------------------------------
 | 12:10-1:40pm    | Break for lunch (on your own)
 |-----------------|-------------------------------------------------------------------------
-| 1:40-2:25pm     | **Session the Second:** <br /> &bull; *Moving towards dialogue: collaborating with your computer using typed holes!* ([Vaibhav Sagar](speakers.html#vaibhav-sagar))<br /> &bull; *Compressing the Library of Babel!* ([David Turner](speakers.html#david-turner))<br /> &bull; *UX for Cats and Dogs!* ([Joel Potischman](speakers.html#joel-potischman))<br /> &bull; *Transform live video streams with code and a REPL!!* ([Mark Wunsch](speakers.html#mark-wunsch))
+| 1:40-2:25pm     | **Session the Second:** <br /> &bull; *Moving towards dialogue: collaborating with your computer using typed holes!* ([Vaibhav Sagar](speakers.html#vaibhav-sagar))<br /> &bull; *Compressing the Library of Babel!* ([David Turner](speakers.html#david-turner))<br /> &bull; *It's super effective! Solving Pokemon Blue with a single, huge regular expression* ([Alex Clemmer](speakers.html#alex-clemmer))<br /> &bull; *Transform live video streams with code and a REPL!!* ([Mark Wunsch](speakers.html#mark-wunsch))
 |-----------------|-------------------------------------------------------------------------
 | 2:25-2:40pm     | Break!
 |-----------------|-------------------------------------------------------------------------
@@ -40,7 +40,7 @@ Coffee, tea, water, and light breakfast will be available both days.  **We will 
 |-----------------|-------------------------------------------------------------------------
 | 3:25-4:25pm     | Unconferencing!
 |-----------------|-------------------------------------------------------------------------
-| 4:25-5:00pm     | **Session the Fourth:** <br /> &bull; *If you could solve this word tile puzzle, you could solve the halting problem! (Too bad you can't!)* ([Kamal Marhubi](speakers.html#kamal-marhubi))<br /> &bull; *It's super effective! Solving Pokemon Blue with a single, huge regular expression* ([Alex Clemmer](speakers.html#alex-clemmer))<br /> &bull; *So THAT'S how my phone knows where I am!* ([Mike Lazer-Walker](speakers.html#mike-lazer-walker))
+| 4:25-5:00pm     | **Session the Fourth:** <br /> &bull; *If you could solve this word tile puzzle, you could solve the halting problem! (Too bad you can't!)* ([Kamal Marhubi](speakers.html#kamal-marhubi))<br /> &bull; *UX for Cats and Dogs!* ([Joel Potischman](speakers.html#joel-potischman))<br /> &bull; *So THAT'S how my phone knows where I am!* ([Mike Lazer-Walker](speakers.html#mike-lazer-walker))
 |-----------------|-------------------------------------------------------------------------
 | 5:00            | Wrap for the day (dinner, etc., on your own)
 |-----------------|-------------------------------------------------------------------------
