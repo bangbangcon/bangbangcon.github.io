@@ -152,11 +152,9 @@ class="magic">.</span><div class="logo"><img width="400"
 class="magic">.</span><div class="logo"><img  width="400"
     alt="3M" src="images/sponsors/3m.png" /></div></a></div>
 
-    <!--
     <div class="sponsor big-sponsor"><a href="https://www.managedbyq.com/" target="_blank"><span
 class="magic">.</span><div class="logo"><img  height="150"
     alt="Managed by Q" src="images/sponsors/managed-by-q.png" /></div></a></div>
-    -->
 
     <h3>EXCELLENT!! Sponsors</h3>
 
@@ -164,11 +162,9 @@ class="magic">.</span><div class="logo"><img  height="150"
 class="magic">.</span><div class="logo"><img height="110"
     alt="Merrill" src="images/sponsors/merrill.jpg" /></div></a></div>
 
-    <!--
     <div class="sponsor medium-sponsor"><a href="https://developer.microsoft.com/en-us/advocates/index.html" target="_blank"><span
 class="magic">.</span><div class="logo"><img height="110" 
     alt="Microsoft Cloud Developer Advocates" src="images/sponsors/microsoft.png" /></div></a></div>
-    -->
 
     <div class="sponsor medium-sponsor"><a href="https://twilio.com" target="_blank"><span
 class="magic">.</span><div class="logo"><img height="150" 
