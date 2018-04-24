@@ -7,7 +7,9 @@ title: The joy, excitement, and surprise of computing - !!Con 2018
   **Quick Links:**
   [Venue](venue-accessibility.html)
   &middot;
-  [Sponsorship](sponsors.html)
+  [Speakers](speakers.html)
+  &middot;
+  [Program](program.html)
   &middot;
   [Conduct](conduct.html)
 </p>
@@ -67,11 +69,7 @@ all your wonderful talk proposal submissions!
 at 28 West 23rd Street, 4th floor, Manhattan, NYC, on the weekend of
 May 12-13, 2018.  [Learn more about our venue!](venue-accessibility.html)
 
-!!Con is a *pay-what-you-want* conference with a suggested donation of $64.  Registration is [via Eventbrite](https://www.eventbrite.com/e/con-2018-tickets-44568220748), and tickets will be available in <s>two</s> <em>three</em> batches: batch one will become available on **Thursday, April 5 at 10pm NYC time**, batch two will open up **Friday, April 6 at 10pm NYC time**, and batch three will open up **Monday, April 9 at 6pm NYC time**.
-
-Traditionally, !!Con tickets have sold out within minutes, so be ready to click when registration opens!
-
-We're also reserving some tickets specifically for people who submitted talk proposals. If that's you, you should have gotten an email with details!  Thanks again for your interest in !!Con!
+!!Con is a *pay-what-you-want* conference with a suggested donation of $64.  Registration is [via Eventbrite](https://www.eventbrite.com/e/con-2018-tickets-44568220748) and is now closed, although you can still join the waiting list.
 
 <a name="testimonials" id="testimonials"></a>
 
@@ -192,7 +190,6 @@ class="magic">.</span><div class="logo"><img height="90"
     /></div></a></div>
 
 </div>
-
 
 ## Code of conduct
 
