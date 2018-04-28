@@ -185,7 +185,7 @@ class="magic">.</span><div class="logo"><img height="110"
     alt="Stripe" src="images/sponsors/stripe.png" />
     </div></a></div>
 
-    <div class="sponsor"><a href="http://typekit.com/j" target="_blank"><span
+    <div class="sponsor"><a href="http://typekit.com/" target="_blank"><span
 class="magic">.</span><div class="logo"><img height="90"
     alt="Adobe Typekit" src="images/sponsors/typekit.jpg" />
     </div></a></div>
