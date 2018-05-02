@@ -17,7 +17,7 @@ title: Recordings - !!Con 2017
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/recordings.js"></script>
+<script type="text/javascript" src="../js/recordings.js"></script>
 <script defer="defer">
   jQuery.getJSON('talks.json', function(talks) {
     generateTalks(
