@@ -53,7 +53,7 @@ Coffee, tea, water, and light breakfast will be available both days.  **We will 
 | 2:15-2:30pm     | Break!
 | 2:30-3:15pm     | **Session the Seventh:** <br /> &bull; *The Man Comes Around: and so does his sound!* ([Vince Allen](speakers.html#vince-allen))<br /> &bull; *Step by Step: Algorithms that teach you math!* ([Evy Kassirer](speakers.html#evy-kassirer))<br /> &bull; *Whoa, pictures! A visual history of visual programming languages!* ([Emily Nakashima](speakers.html#emily-nakashima))<br /> &bull; *Fast, but not too fast! What 17th-century windmills can teach us about database migrations* ([Wander Hillen](speakers.html#wander-hillen))
 | 3:15-4:15pm     | Unconferencing!
-| 4:15-4:50pm     | **Session the Eighth:** <br /> &bull; *The itty, bitty, tiny bytes that make up a Pokemon!* ([Jan Mitsuko Cash](speakers.html#jan-mitsuko-cash))<br /> &bull; *How (and why) your CPU re-orders instructions!* ([Dan Luu](speakers.html#dan-luu)) _Note: unfortunately, this speaker had to cancel their talk_<br /> &bull; *Pseudofractals! Accidental aesthetics where math meets pixels* ([Jes Wolfe!](speakers.html#jes-wolfe))
+| 4:15-4:50pm     | **Session the Eighth:** <br /> &bull; *The itty, bitty, tiny bytes that make up a Pokemon!* ([Jan Mitsuko Cash](speakers.html#jan-mitsuko-cash))<br /> &bull; *How (and why) your CPU re-orders instructions!* ([Dan Luu](speakers.html#dan-luu)) _(Note: unfortunately, this speaker had to cancel their talk)_<br /> &bull; *Pseudofractals! Accidental aesthetics where math meets pixels* ([Jes Wolfe!](speakers.html#jes-wolfe))
 | 4:50pm          | Thanks and closing remarks (dinner, etc., on your own)
 
 </div>
