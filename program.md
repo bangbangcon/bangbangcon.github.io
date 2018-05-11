@@ -45,7 +45,7 @@ Coffee, tea, water, and light breakfast will be available both days.  **We will 
 |-----------------|-------------------------------------------------------------------------
 | 9:00am          | Space opens (please don't arrive before nine!)
 | 9:00-10:25am    | Registration (for anyone who didn't register Saturday); refreshments; mingling
-| 10:25-11:00am   | &bull; Opening remarks <br /> &bull; Keynote talk: [Liz Fong-Jones](speakers.html#liz-fong-jones)
+| 10:25-11:00am   | &bull; Opening remarks <br /> &bull; Keynote talk: *Build skills through hobbies! Bring them to work!* ([Liz Fong-Jones](speakers.html#liz-fong-jones))
 | 11:00-11:15am   | Break!
 | 11:15am-noon    | **Session the Fifth:** <br /> &bull; *Relativistic Software Calendars: It's About Time!* ([John Feminella](speakers.html#john-feminella))<br /> &bull; *Undo all the things!* ([Tom Ballinger](speakers.html#tom-ballinger))<br /> &bull; *Estimating the Value of Pi with a Dartboard and (Not so Much) Luck!* ([Stephen Tu](speakers.html#stephen-tu))<br /> &bull; *Ray-tracing and special relativity: Rendering objects near the speed of light!* ([Lucy Zhang](speakers.html#lucy-zhang))
 | Noon-1:30pm     | Break for lunch (on your own)
