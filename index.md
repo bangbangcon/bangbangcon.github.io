@@ -5,6 +5,8 @@ title: The joy, excitement, and surprise of computing - !!Con 2018
 
 <p style="text-align: center;">
   **Quick Links:**
+  [Live Stream!](http://confreaks.tv/live_events/!!Con2018)
+  &middot;
   [Venue](venue-accessibility.html)
   &middot;
   [Speakers](speakers.html)
@@ -69,7 +71,7 @@ all your wonderful talk proposal submissions!
 at 28 West 23rd Street, 4th floor, Manhattan, NYC, on the weekend of
 May 12-13, 2018.  [Learn more about our venue!](venue-accessibility.html)
 
-!!Con is a *pay-what-you-want* conference with a suggested donation of $64.  Registration is [via Eventbrite](https://www.eventbrite.com/e/con-2018-tickets-44568220748) and is now closed, although you can still join the waiting list.
+!!Con is a *pay-what-you-want* conference with a suggested donation of $64.  Registration is [via Eventbrite](https://www.eventbrite.com/e/con-2018-tickets-44568220748) and is now closed.  Thanks for your interest in !!Con!
 
 <a name="testimonials" id="testimonials"></a>
 
