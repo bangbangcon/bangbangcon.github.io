@@ -25,7 +25,7 @@ Onuoha has been in residence at Eyebeam, the Data & Society Research Institute, 
 
 ### Liz Fong-Jones
 
-**Build skills through hobbies! Bring them to work!**
+**_Build skills through hobbies! Bring them to work!_**
 
 Building technical and leadership skills doesn't only happen in the workplace! I became a better technical leader and Site Reliability Engineer from playing games such as _Puzzle Pirates_, _World of Warcraft_, _EVE Online_, and _Factorio_. I will share what I learned from these experiences, and how both hiring managers and employees can talk about non-traditional forms of experience.
 
