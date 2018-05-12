@@ -160,11 +160,11 @@ Running large, long-running background tasks on your system may have the uninten
 
 Most computer algebra systems are good at solving equations, but aren't very good at showing their work. If we're looking to educate students and automatically explain a problem intuitively, how does our approach to developing these systems have to change?
 
-Let's talk about mathsteps, an open-source library that solves basic algebra problems and not only provides the answer, but shows you the steps that get you there. Some algorithms are designed to optimize for space or speed, but I'll talk about how we design algorithms to optimize for teaching -- algorithms that explain to you what you're doing and why.
+Let's talk about [mathsteps](https://github.com/socraticorg/mathsteps), an open-source library that solves basic algebra problems and not only provides the answer, but shows you the steps that get you there. Some algorithms are designed to optimize for space or speed, but I'll talk about how we design algorithms to optimize for teaching -- algorithms that explain to you what you're doing and why.
 
-We'll walk through the process of how a human might solve algebra problems and how that can be translated into an algorithm -- from parsing math input, to using data structures that make teaching easier, to deciding which solving steps are most intuitive to apply first and how to group them together. Finally, we'll talk about the future of tools like mathsteps -- possibilities as well as limitations.
+We'll walk through the process of how a human might solve algebra problems and how that can be translated into an algorithm -- from parsing math input, to using data structures that make teaching easier. Finally, we'll talk about the future of tools like mathsteps -- possibilities as well as limitations.
 
-**Evy** loves to sing (especially in choirs) and code (especially for social good). She loves her communities.
+**Evy** loves to [sing](http://www.evykassirer.com/music) (especially in choirs) and code (especially for social good). She loves her communities.
 
 ---
 
