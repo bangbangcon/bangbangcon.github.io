@@ -1,6 +1,6 @@
 ---
 layout: default-west
-title: !!Con West
+title: "!!Con West"
 ---
 
 <div style="text-align: center;">
