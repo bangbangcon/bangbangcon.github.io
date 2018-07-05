@@ -8,7 +8,7 @@ title: "!!Con West"
 </div>
 
 <div style="text-align: center; font-size: 200%;">
-Interested in helping organize !!Con West?  [Apply to be an organizer!](https://docs.google.com/forms/d/e/1FAIpQLSfRIRU9W7TFlh8wx_VcyiJL1WFNm6LmiS5RvXWy4tz96gPgug/viewform)
+Interested in volunteering to help organize !!Con West?  [Apply to be an organizer!](https://docs.google.com/forms/d/e/1FAIpQLSfRIRU9W7TFlh8wx_VcyiJL1WFNm6LmiS5RvXWy4tz96gPgug/viewform)
 </div>
 
 # Frequently asked questions
