@@ -74,6 +74,10 @@ No, it's a volunteer opportunity.  We'll cover your travel and lodging expenses 
 
 The [application form](https://docs.google.com/forms/d/e/1FAIpQLSfRIRU9W7TFlh8wx_VcyiJL1WFNm6LmiS5RvXWy4tz96gPgug/viewform) will be open until **Friday, July 13**.  After that, we'll review the applications and respond to each serious applicant by the end of July or so.
 
+## What is UC Santa Cruz's involvement in !!Con West?
+
+The [Baskin School of Engineering](https://www.soe.ucsc.edu/) at UC Santa Cruz has committed to financial and logistical sponsorship of !!Con West.  Some members of the organizing team will have a UCSC affiliation.
+
 ## I have a question that isn't covered in this FAQ.  Who can I ask?
 
 Contact Lindsey Kuper [by email](mailto:lindsey@composition.al) or [on Twitter](http://www.twitter.com/lindsey)!
