@@ -27,11 +27,11 @@ But the existence of all these great conferences hasn't taken the pressure off !
 
 ## How big an event will this be?
 
-!!Con West, like the original !!Con, will be a two-day, single-track conference with 200-300 people in attendance and around thirty speakers.  The organizing team will be around eight people in total.
+!!Con West, like the original !!Con, will be a two-day, single-track conference with 200-300 people in attendance and around thirty speakers.  We anticipate that the organizing team will be around eight people in total.
 
 ## Who's organizing it?  Can I help?
 
-!!Con West will be organized by a subset of [the existing !!Con organizing team](http://bangbangcon.com/#organizers), plus a new, to-be-determined group of organizers that we'll choose from among the [applicants](https://docs.google.com/forms/d/e/1FAIpQLSfRIRU9W7TFlh8wx_VcyiJL1WFNm6LmiS5RvXWy4tz96gPgug/viewform).  We have two goals for !!Con West. First, of course, we want to put on another great conference in the !!Con tradition. Second, we want to incubate a new generation of conference organizers. By the time we're done, every member of the !!Con West organizing team will have the skills and experience to go out and launch their own conferences, if they want to.
+!!Con West will be organized by a subset of [the existing !!Con organizing team](http://bangbangcon.com/#organizers), plus a new, to-be-determined group of organizers that we'll choose from among people who [apply for the role](https://docs.google.com/forms/d/e/1FAIpQLSfRIRU9W7TFlh8wx_VcyiJL1WFNm6LmiS5RvXWy4tz96gPgug/viewform).  We have two goals for !!Con West. First, of course, we want to put on another great conference in the !!Con tradition. Second, we want to incubate a new generation of conference organizers. By the time we're done, every member of the !!Con West organizing team will have the skills and experience to go out and launch their own conferences, if they want to.
 
 If that sounds like something you want to do, [apply to be an organizer!](https://docs.google.com/forms/d/e/1FAIpQLSfRIRU9W7TFlh8wx_VcyiJL1WFNm6LmiS5RvXWy4tz96gPgug/viewform)
 
