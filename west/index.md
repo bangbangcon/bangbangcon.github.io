@@ -7,8 +7,9 @@ title: "!!Con West"
 <img src="logo.png" width="300" alt="!!Con West" />
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; font-size: 200%;">
 Interested in helping organize !!Con West?  [Apply to be an organizer!](https://docs.google.com/forms/d/e/1FAIpQLSfRIRU9W7TFlh8wx_VcyiJL1WFNm6LmiS5RvXWy4tz96gPgug/viewform)
+</div>
 
 # Frequently asked questions
 
@@ -58,5 +59,3 @@ We'll have help from the professional event staff at UC Santa Cruz with some of 
 The west-coast version of !!Con will necessarily be different from the east-coast version in certain ways.  For starters, the !!Con West venue is very different from the middle of Manhattan or Brooklyn, where all the previous !!Cons have been held, and this will have a big impact on the conference experience.  We can't expect attendees to be able to easily get to our venue on public transit, nor is it likely that attendees will be able to wander out to restaurants for lunch and be back in time for the afternoon talks.  On the other hand, it's very likely that attendees will be able to walk out of the building and three minutes later be strolling through a beautiful redwood forest.
 
 We should be willing to try doing things differently from the original !!Con when it seems like the right approach.  We want to retain the important aspects of the original !!Con's [aesthetic](https://recompilermag.com/issues/extras/toward-a-bangbangcon-aesthetic/), while enthusiastically embracing the physical and social geography of the west coast, Santa Cruz, and UC Santa Cruz.
-
-</div>
