@@ -64,7 +64,11 @@ You don't necessarily have to have existing event organizing experience, althoug
 
 ## What kind of time commitment is required from organizers?
 
-It depends on individual circumstances, but we expect most organizers to be able to commit around 5 hours per week for !!Con West, starting around October 2018 and lasting until around March 2019.  The work will be "bursty" -- some weeks there'll be more to do, other weeks less.  We also expect most organizers to be able to attend the event in person in early 2019.  (We can cover the cost of travel and lodging for organizers.)
+It depends on individual circumstances, but we expect most organizers to be able to commit around 5 hours per week for !!Con West, starting around October 2018 and lasting until around March 2019.  The work will be "bursty" -- some weeks there'll be more to do, other weeks less.  We also expect most organizers to be able to attend the event in person in early 2019.
+
+## Is this a paid position?
+
+No, it's a volunteer opportunity.  We'll cover your travel and lodging expenses for the conference (and you have guaranteed free admission to the conference, of course!).
 
 ## I want to help organize -- by when do I need to apply?  When will I hear from you?
 
