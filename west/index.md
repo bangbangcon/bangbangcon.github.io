@@ -15,7 +15,7 @@ Interested in volunteering to help organize !!Con West?  [Apply to be an organiz
 
 ## What's all this, then?
 
-[!!Con](http://bangbangcon.com) (pronounced "bang bang con") is a two-day conference of ten-minute talks about the joy, excitement, and surprise of computing that's been held annually in New York [since 2014](http://bangbangcon/2014).  Due to [massive demand](http://composition.al/blog/2017/03/31/scaling-bangbangcon/), in 2019 we're expanding !!Con to the west coast of the US.  _!!Con West_ will be held in Santa Cruz, California, on the campus of [UC Santa Cruz](https://www.ucsc.edu/), in early 2019, most likely in February/March.
+[!!Con](http://bangbangcon.com) (pronounced "bang bang con") is a two-day conference of ten-minute talks about the joy, excitement, and surprise of computing that's been held annually in New York [since 2014](http://bangbangcon.com/2014).  Due to [massive demand](http://composition.al/blog/2017/03/31/scaling-bangbangcon/), in 2019 we're expanding !!Con to the west coast of the US.  _!!Con West_ will be held in Santa Cruz, California, on the campus of [UC Santa Cruz](https://www.ucsc.edu/), in early 2019, most likely in February/March.
 
 ## Why are you bringing !!Con to the west coast?
 
