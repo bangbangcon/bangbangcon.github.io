@@ -14,11 +14,11 @@
 
   * ["Impressions from !!Con"](https://medium.com/@brindelle/impressions-from-con-8ca62cdef88a) by Bonnie Eisenman (July 2015)
 
-  * ["Trip report: !!Con"](https://users.livejournal.com/joshua-/59750.html) by Joshua Wise, June 2015
+  * ["Trip report: !!Con"](https://users.livejournal.com/joshua-/59750.html) by Joshua Wise (June 2015)
 
 ### By organizers
 
-  * [!!Con-related posts on Julia Evans' blog](https://jvns.ca/blog/categories/bangbangcon/)
+  * [!!Con-related posts on Julia Evans's blog](https://jvns.ca/blog/categories/bangbangcon/)
 
   * [!!Con-related posts on Lindsey Kuper's blog](http://composition.al/blog/categories/bangbangcon/)
 
