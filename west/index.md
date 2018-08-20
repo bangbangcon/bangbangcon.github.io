@@ -23,7 +23,7 @@ But the existence of all these great conferences hasn't taken the pressure off !
 
 ## How big an event will this be?
 
-!!Con West, like the original !!Con, will be a two-day, single-track conference with 200-300 people in attendance and around thirty speakers.  We anticipate that the organizing team will be around eight people in total.
+!!Con West, like the original !!Con, will be a two-day, single-track conference with 200-300 people in attendance and around thirty speakers.  We anticipate that the organizing team will be around eight people in total.  (These numbers are subject to change based on venue availability and the amount of interest we get.)
 
 ## How will !!Con West be different from the original !!Con?
 
@@ -31,44 +31,11 @@ The west-coast version of !!Con will necessarily be different from the east-coas
 
 We should be willing to try doing things differently from the original !!Con when it seems like the right approach.  We want to retain the important aspects of the original !!Con's [aesthetic](https://recompilermag.com/issues/extras/toward-a-bangbangcon-aesthetic/), while enthusiastically embracing the physical and social geography of the west coast, Santa Cruz, and UC Santa Cruz.
 
-## Who's organizing it?  Can I help?
+## Who's organizing it?
 
-!!Con West will be organized by a subset of [the existing !!Con organizing team](http://bangbangcon.com/#organizers), plus a new, to-be-determined group of organizers that we'll choose from among people who [apply for the role](https://docs.google.com/forms/d/e/1FAIpQLSfRIRU9W7TFlh8wx_VcyiJL1WFNm6LmiS5RvXWy4tz96gPgug/viewform).  We have two goals for !!Con West. First, of course, we want to put on another great conference in the !!Con tradition. Second, we want to incubate a new generation of conference organizers. By the time we're done, every member of the !!Con West organizing team will have the skills and experience to go out and launch their own conferences, if they want to.
+!!Con West will be organized by a new team of volunteers who applied for the role, with help from a couple veteran members of the [the existing !!Con organizing team](http://bangbangcon.com/#organizers).  We have two goals for !!Con West. First, of course, we want to put on another great conference in the !!Con tradition. Second, we want to incubate a new generation of conference organizers. By the time we're done, every member of the !!Con West organizing team will have the skills and experience to go out and launch their own conferences, if they want to.
 
-If that sounds like something you want to do, [apply to be an organizer!](https://docs.google.com/forms/d/e/1FAIpQLSfRIRU9W7TFlh8wx_VcyiJL1WFNm6LmiS5RvXWy4tz96gPgug/viewform)
-
-## What will organizers do?  What kind of skills do I need?
-
-Jobs that the organizing team might need to handle (or pay professionals to handle) include:
-
-  * A/V: recording and streaming talks, providing live captioning, etc.
-  * Finding and coordinating sponsors
-  * Speaker hospitality and logistics
-  * Venue logistics
-  * Website and social media management
-  * Keynote speaker selection
-  * Speaker candidate outreach
-  * Talk proposal anonymization and reviewing
-  * Food and beverages
-  * Budgeting and accounting
-  * Business and legal stuff (for instance, we currently have an LLC, but it might make sense for us to set up a non-profit organization)
-  * Shirts, lanyards, signage, etc.
-
-We'll have help from the professional event staff at UC Santa Cruz with some of this stuff, too.
-
-You don't necessarily have to have existing event organizing experience, although it might help.  We especially welcome organizers who bring fresh ideas for how to improve !!Con.
-
-## What kind of time commitment is required from organizers?
-
-It depends on individual circumstances, but we expect most organizers to be able to commit around 5 hours per week for !!Con West, starting around October 2018 and lasting until around March 2019.  The work will be "bursty" -- some weeks there'll be more to do, other weeks less.  We also expect most organizers to be able to attend the event in person in early 2019.
-
-## Is this a paid position?
-
-No, it's a volunteer opportunity.  We'll cover your travel and lodging expenses for the conference (and you have guaranteed free admission to the conference, of course!).
-
-## I want to help organize -- by when do I need to apply?  When will I hear from you?
-
-The [application form](https://docs.google.com/forms/d/e/1FAIpQLSfRIRU9W7TFlh8wx_VcyiJL1WFNm6LmiS5RvXWy4tz96gPgug/viewform) will be open until **Friday, July 13**.  After that, we'll review the applications and respond to each serious applicant by the end of July or so.
+**Applications to join the !!Con West organizing team are now closed.  Thanks for your interest in this conference!**
 
 ## What is UC Santa Cruz's involvement in !!Con West?
 
