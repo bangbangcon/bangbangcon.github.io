@@ -76,4 +76,4 @@ The [Baskin School of Engineering](https://www.soe.ucsc.edu/) at UC Santa Cruz h
 
 ## I have a question that isn't covered in this FAQ.  Who can I ask?
 
-Contact Lindsey Kuper [by email](mailto:lindsey@composition.al) or [on Twitter](http://www.twitter.com/lindsey)!
+Contact [Lindsey Kuper](mailto:lindsey@composition.al)!
