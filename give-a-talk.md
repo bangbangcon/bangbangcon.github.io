@@ -39,9 +39,9 @@ The submission deadline is **Sunday, March 4**. We'll accept as many of your ama
   * **March 4**: Talk proposal submission deadline.
   * **March 18**: Notification of talk acceptance.
   * **March 25**: Deadline for speakers to confirm their participation.
-  * **TBD in late March/early April**: Conference registration opens.
-  * **TBD in late March/early April**: Public announcement of full speaker list.
-  * **TBD in April**: Public announcement of detailed schedule.
+  * **April 5**: Conference registration opens.
+  * **April 6**: Public announcement of full speaker list.
+  * **April 24**: Public announcement of detailed schedule.
   * **May 12-13**: !!Con!
 
 <a name="speaker-travel-funding"></a>
