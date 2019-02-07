@@ -1,11 +1,11 @@
 ---
-layout: default-2019
-title: Venue and Accessibility Information - !!Con 2019
+layout: default-2018
+title: Venue and Accessibility Information - !!Con 2018
 ---
 
 # Venue and accessibility information
 
-!!Con 2019 will be held at the [AppNexus](https://www.appnexus.com) headquarters in Manhattan, NYC!
+!!Con 2018 will be held at the [AppNexus](https://www.appnexus.com) headquarters in Manhattan, NYC!
 
 ## Getting there
 
@@ -35,6 +35,6 @@ AppNexus has a lactation room that they're happy to let us use.  Just ask a conf
 
 ## CART captioning
 
-!!Con 2019 will have CART ("Communication Access Realtime Transcription" or "Computer-Assisted Real-Time", depending on who you ask) live transcription in English.
+!!Con 2018 will have CART ("Communication Access Realtime Transcription" or "Computer-Assisted Real-Time", depending on who you ask) live transcription in English.
 
 _Do you have questions about our venue or accessibility?  We're here to help!  Contact [the !!Con organizers](index.html#organizers)._
