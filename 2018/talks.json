@@ -1,0 +1,226 @@
+[
+  {
+    "author": "Mimi Onuoha",
+    "authorslug": "mimi-onuoha",
+    "title": "Opening Keynote by Mimi Onuoha",
+    "youtube": "zYpXdtWj7BY",
+    "transcript": false
+  },
+  {
+    "author": "Liz Fong-Jones",
+    "authorslug": "liz-fong-jones",
+    "title": "Build skills through hobbies! Bring them to work!",
+    "youtube": "L3CsxLU0jC0",
+    "transcript": false
+  },
+  {
+    "author": "Ahmed Abdalla",
+    "authorslug": "ahmed-abdalla",
+    "title": "Creating an Arabic Programming Language!",
+    "youtube": "eCxqAr7LjW8",
+    "transcript": false
+  },
+  {
+    "author": "Vince Allen",
+    "authorslug": "vince-allen",
+    "title": "The Man Comes Around: and so does his sound!",
+    "youtube": "ShEl-nDJCb8",
+    "transcript": false
+  },
+  {
+    "author": "Thomas Ballinger",
+    "authorslug": "thomas-ballinger",
+    "title": "Undo all the things!",
+    "youtube": "Zcg1Ku4YB4g",
+    "transcript": false
+  },
+  {
+    "author": "Josh Bowman-Matthews",
+    "authorslug": "josh-bowman-matthews",
+    "title": "Evil Twins and the Secret Lives of Linkers!",
+    "youtube": "fBsH44y9Pz4",
+    "transcript": false
+  },
+  {
+    "author": "Karla Burnett",
+    "authorslug": "karla-burnett",
+    "title": "Telling stories with traceroute!",
+    "youtube": "NgKI7-3j2hc",
+    "transcript": false
+  },
+  {
+    "author": "Alex Clemmer",
+    "authorslug": "alex-clemmer",
+    "title": "It’s super effective! Solving Pokemon Blue with a single, huge regular expression",
+    "youtube": "n-HTvjIueX0",
+    "transcript": false
+  },
+  {
+    "author": "John Feminella",
+    "authorslug": "john-feminella",
+    "title": "Relativistic Software Calendars: It’s About Time!",
+    "youtube": "6hfYl52tSMU",
+    "transcript": false
+  },
+  {
+    "author": "Wander Hillen",
+    "authorslug": "wander-hillen",
+    "title": "Fast, but not too fast! What 17th century windmills can teach us about database migrations",
+    "youtube": "ddnxCCh4Zz8",
+    "transcript": false
+  },
+  {
+    "author": "Evy Kassirer",
+    "authorslug": "evy-kassirer",
+    "title": "Step by Step: Algorithms that teach you math!",
+    "youtube": "CuZVwTnffbI",
+    "transcript": false
+  },
+  {
+    "author": "Mike Lazer-Walker",
+    "authorslug": "mike-lazer-walker",
+    "title": "So THAT’S how my phone knows where I am!",
+    "youtube": "NvShiF4tnMM",
+    "transcript": false
+  },
+  {
+    "author": "Will Leinweber",
+    "authorslug": "will-leinweber",
+    "title": "Using Postgres to \\watch Star Wars!",
+    "youtube": "Lf--bckgEFo",
+    "transcript": false
+  },
+  {
+    "author": "Andrew Louis",
+    "authorslug": "andrew-louis",
+    "title": "Talking to my past self (without introducing temporal paradoxes!)",
+    "youtube": "FnFYs5BdI0E",
+    "transcript": false
+  },
+  {
+    "author": "Dan Luu",
+    "authorslug": "dan-luu",
+    "title": "How (and why) your CPU re-orders instructions!",
+    "youtube": false,
+    "transcript": false
+  },
+  {
+    "author": "Kamal Marhubi",
+    "authorslug": "kamal-marhubi",
+    "title": "If you could solve this word tile puzzle, you could solve the halting problem! (Too bad you can’t!)",
+    "youtube": "wzZsv6KAMsw",
+    "transcript": false
+  },
+  {
+    "author": "Ed Medvedev",
+    "authorslug": "ed-medvedev",
+    "title": "Satellites are talking to us! Let’s hear them out!",
+    "youtube": "dqf_dwDzxpo",
+    "transcript": false
+  },
+  {
+    "author": "Jan Mitsuko Cash",
+    "authorslug": "jan-mitsuko-cash",
+    "title": "The itty, bitty, tiny bytes that make up a Pokemon!",
+    "youtube": "D2clyLm8o2Y",
+    "transcript": false
+  },
+  {
+    "author": "Ayla Myers",
+    "authorslug": "ayla-myers",
+    "title": "The joys of PICO-8 token crunching!! Or: what I learned about programming from being restricted on every side!",
+    "youtube": "QnDRmPx8yLY",
+    "transcript": false
+  },
+  {
+    "author": "Emily Nakashima",
+    "authorslug": "emily-nakashima",
+    "title": "Whoa, pictures! A visual history of visual programming languages!",
+    "youtube": "mU1aPvvQbqk",
+    "transcript": false
+  },
+  {
+    "author": "Joel Potischman",
+    "authorslug": "joel-potischman",
+    "title": "UX for Cats and Dogs!",
+    "youtube": "yRFQV4O0c48",
+    "transcript": false
+  },
+  {
+    "author": "Omar Rizwan",
+    "authorslug": "omar-rizwan",
+    "title": "Four fake filesystems!",
+    "youtube": "pfHpDDXJQVg",
+    "transcript": false
+  },
+  {
+    "author": "Vaibhav Sagar",
+    "authorslug": "vaibhav-sagar",
+    "title": "Moving towards dialogue: collaborating with your computer using typed holes!",
+    "youtube": "0oo8wIi2qBE",
+    "transcript": false
+  },
+  {
+    "author": "Aruna Sankaranarayanan",
+    "authorslug": "aruna-sankaranarayanan",
+    "title": "We built a map to aggregate real-time flood data in under two days!",
+    "youtube": "hfatYo2J8gY",
+    "transcript": false
+  },
+  {
+    "author": "Hung Truong",
+    "authorslug": "hung-truong",
+    "title": "If at first you don’t succeed at beating HQ Trivia, try cheating!!",
+    "youtube": "3PL-EPC2cwU",
+    "transcript": false
+  },
+  {
+    "author": "Stephen Tu",
+    "authorslug": "stephen-tu",
+    "title": "Estimating the Value of Pi with a Dartboard and (Not so Much) Luck!",
+    "youtube": "wUM6o7EhTjw",
+    "transcript": false
+  },
+  {
+    "author": "David Turner",
+    "authorslug": "david-turner",
+    "title": "Compressing the Library of Babel!",
+    "youtube": "TUcGCAp2xWw",
+    "transcript": false
+  },
+  {
+    "author": "Logan Williams",
+    "authorslug": "logan-williams",
+    "title": "Turning Google Earth into SimCity 2000! (From Light to Pixels to Impossible Perspectives!)",
+    "youtube": "X2HAYaPdhWI",
+    "transcript": false
+  },
+  {
+    "author": "Jes Wolfe!",
+    "authorslug": "jes-wolfe",
+    "title": "Pseudofractals! Accidental aesthetics where math meets pixels",
+    "youtube": "NoqQQwP1Duo",
+    "transcript": false
+  },
+  {
+    "author": "Mark Wunsch",
+    "authorslug": "mark-wunsch",
+    "title": "Transform live video streams with code and a REPL!!",
+    "youtube": "2aOqaE6oByA",
+    "transcript": false
+  },
+  {
+    "author": "Lucy Zhang",
+    "authorslug": "lucy-zhang",
+    "title": "Ray-tracing and special relativity: Rendering objects near the speed of light!",
+    "youtube": "oFaSLIsJELY",
+    "transcript": false
+  },
+  {
+    "author": "Persa Zula",
+    "authorslug": "persa-zula",
+    "title": "Tales of ⌧! Can You Tell Your Story When Your Character Is Undefined?!",
+    "youtube": "fADc9lHwSMc",
+    "transcript": false
+  },
+]
