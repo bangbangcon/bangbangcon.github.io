@@ -28,7 +28,7 @@ Maybe [you](give-a-talk.html)!  Our call for talk proposals is open!
 
 !!Con 2019 will be held at the [AppNexus](http://appnexus.com) headquarters
 at 28 West 23rd Street, 4th floor, Manhattan, NYC, on the weekend of
-May 10-11, 2019.  [Learn more about our venue!](venue-accessibility.html)
+May 11-12, 2019.  [Learn more about our venue!](venue-accessibility.html)
 
 !!Con is a *pay-what-you-want* conference.  Stay tuned for information about registration.
 
