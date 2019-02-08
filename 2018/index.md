@@ -5,7 +5,7 @@ title: The joy, excitement, and surprise of computing - !!Con 2018
 
 <p style="text-align: center;">
   **Quick Links:**
-  [Live Stream!](http://confreaks.tv/live_events/!!Con2018)
+  [Recordings](recordings.html)
   &middot;
   [Venue](venue-accessibility.html)
   &middot;
@@ -24,7 +24,7 @@ joyous, exciting, and surprising moments in computing.  Check out our
 <a name="speaking" id="speaking"></a>
 
 <div class="speaker-pics" markdown="0">
-    
+
     <div><a href="./speakers.html#ahmed-abdalla"><img height="100" width="100" src="images/speakers/ahmed-abdalla.png" alt="Ahmed Abdalla" /></a></div>
     <div><a href="./speakers.html#alex-clemmer"><img height="100" width="100" src="images/speakers/alex-clemmer.png" alt="Alex Clemmer" /></a></div>
     <div><a href="./speakers.html#andrew-louis"><img height="100" width="100" src="images/speakers/andrew-louis.png" alt="Andrew Louis" /></a></div>
@@ -90,7 +90,7 @@ Here's what some of our 2017 speakers and attendees said about us:
 >
 > "@bangbangcon is **the most exciting and important conference in NYC**"
 > -- [@aaronmblevin](https://twitter.com/aaronmblevin/status/843949325906534402)
-> 
+>
 > "@bangbangcon was awesome!  Learned a lot, met very friendly people, and **left inspired**."
 > -- [@bxmani](https://twitter.com/bxmani/status/861400448107937792)
 
@@ -165,11 +165,11 @@ class="magic">.</span><div class="logo"><img height="110"
     alt="Merrill" src="images/sponsors/merrill.jpg" /></div></a></div>
 
     <div class="sponsor medium-sponsor"><a href="https://developer.microsoft.com/en-us/advocates/index.html" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="110" 
+class="magic">.</span><div class="logo"><img height="110"
     alt="Microsoft Cloud Developer Advocates" src="images/sponsors/microsoft.svg" /></div></a></div>
 
     <div class="sponsor medium-sponsor"><a href="https://twilio.com" target="_blank"><span
-class="magic">.</span><div class="logo"><img height="150" 
+class="magic">.</span><div class="logo"><img height="150"
     alt="Twilio" src="images/sponsors/twilio.png" /></div></a></div>
 
     <h3>AWESOME! Sponsors</h3>
