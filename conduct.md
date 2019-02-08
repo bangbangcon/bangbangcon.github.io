@@ -1,6 +1,6 @@
 ---
-layout: default-2018
-title: Code of Conduct - !!Con 2018
+layout: default-2019
+title: Code of Conduct - !!Con 2019
 ---
 
 # Code of conduct
