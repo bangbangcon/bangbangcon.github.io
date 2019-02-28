@@ -8,6 +8,8 @@ title: The joy, excitement, and surprise of computing - !!Con 2019
   &middot;
   [Venue](venue-accessibility.html)
   &middot;
+  [Speakers](speakers.html)
+  &middot;
   [Call for Talk Proposals](give-a-talk.html)
   &middot;
   [Conduct](conduct.html)
