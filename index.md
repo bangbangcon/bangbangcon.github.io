@@ -22,7 +22,7 @@ joyous, exciting, and surprising moments in computing.
 
 ## Who's speaking?
 
-Maybe [you](give-a-talk.html)!  Our call for talk proposals is open!
+Our [call for talk](give-a-talk.html) proposals is closed. We're currently reviewing the many amazing talk proposals we received!
 
 <a name="where" id="where"></a>
 

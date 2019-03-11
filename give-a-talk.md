@@ -5,6 +5,8 @@ title: Call for Talk Proposals! - !!Con 2019
 
 # Call for talk proposals
 
+**Our call for talk proposals is now closed.  Thank you for all of your wonderful submissions!**
+
 Hi!
 
 !!Con is back for our **sixth year** of celebrating the joy, excitement, and surprise of computing, and we want **you** to [submit a talk* proposal](https://goo.gl/forms/sIu2UwKvF2l7zqBm1). The **submission deadline** is **Sunday, March 3**.
