@@ -153,9 +153,9 @@ This will be a combination talk and musical performance. I'll set up a small Dyn
 
 ### Josh Triplett
 
-**Shebang Shebang Con! Adventures in ELF interpreters and dynamic linkers!**
+**Build your own virtual machine with /dev/kvm!**
 
-You might have heard of the #! mechanism to run scripts on UNIX systems, such as via #!/bin/sh. Did you know ELF binaries have a similar mechanism to invoke the dynamic linker‽ In this talk, I'll show you exactly how the dynamic linker works, and how to write and use your own interpreter! You'll see the constraints an ELF interpreter needs to run under, along with some secret bonus powers the kernel gives the interpreter to help it do its job. I'll also give an overview of the ELF format, to help you better dissect and debug programs in the future. You'll leave this talk with a good understanding of how a mechanism works that most people consider highly arcane, along with all the references you need to learn and experiment with it yourself.
+Virtual machines are much simpler to build than they seem! I'll show how to build a complete virtual machine on Linux using the /dev/kvm interface, load and run code, and even implement your own virtual devices using virtio! I'll explain the interface, and show some libraries in Rust that help you build more complex virtual machines. By the end of the talk, you'll not only know the foundations of cloud computing, but you'll have ideas for other novel uses of virtualization as well!
 
 **Josh Triplett** hacks on system software, including Rust, the Linux kernel, X, Git, Sparse, Debian, Chrome OS, and firmware. Josh enjoys using software for unconventional purposes, such as porting Python to GRUB2. Josh has previously presented at linux.conf.au, Linux Plumbers Conference, Embedded Linux Conference, LinuxCon, RustConf, PyCon, Kernel Summit, Open Source Bridge, and the USENIX Annual Technical Conference.
 
@@ -168,18 +168,6 @@ Livechat? From the 1800s?!! No, I'm not talking about AOL or MSN (though it does
 Inspired by a scene The Rescuers Down Under and a keenness to learn the web audio API , I built a program that takes written text and turns it into an audio Morse code message. Then once that was built, I took it to the logical next step: building a chatroom where you can send and receive messages in Morse code with all your coolest and extremely online friends.
 
 Follow me on a journey full of discovery, gifs of mice sending telegrams, oscillators, websockets, and more in putting together this weird, almost entirely useless thing. Fluency in Morse code not required (but would be awesome!!!)
-
-**Kate** is a former photographer, writer, barista, and linguistics graduate who found her love of programming early last year. She learned to code at London's nonprofit, peer-led coding bootcamp, Founders and Coders, and now works at the Financial Times as a junior engineer. When she isn't coding silly side projects in her spare time, she's probably drinking coffee, patting her guinea pigs, or thinking about drinking coffee and patting her guinea pigs.
-
-### Kate Beard
-
-**Learn how to play the theremin\*! (No theremin required!)**
-
-Ever wanted to learn how to play the theremin, but weren't sure about having a spooky-sounding, weird-looking antenna in your home? Don't even know what a theremin is? I can solve both these problems for you!
-
-I'll show you how to turn any computer into a theremin using a browser and your webcam; basic theremin-playing techniques; expound as much as possible about how cool theremins are; and maybe even subject you to a light bit of musical performance!
-
-Follow me on a journey of joy, frustration, and weird, haunting noises.
 
 **Kate** is a former photographer, writer, barista, and linguistics graduate who found her love of programming early last year. She learned to code at London's nonprofit, peer-led coding bootcamp, Founders and Coders, and now works at the Financial Times as a junior engineer. When she isn't coding silly side projects in her spare time, she's probably drinking coffee, patting her guinea pigs, or thinking about drinking coffee and patting her guinea pigs.
 
