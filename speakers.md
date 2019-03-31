@@ -244,7 +244,7 @@ As a guitarist, I've always been fascinated by chords and their infinite variati
 ---
 
 <a name="kate-beard" id="kate-beard"></a>
-<img src="images/speakers/kare-beard.png" alt="Kate Beard" class="speaker-img" />
+<img src="images/speakers/kate-beard.png" alt="Kate Beard" class="speaker-img" />
 
 ### Kate Beard
 
