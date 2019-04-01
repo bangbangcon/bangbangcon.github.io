@@ -20,6 +20,9 @@ ten-minute talks** (with lots of breaks, of course!) to celebrate the
 joyous, exciting, and surprising moments in computing.
 </p>
 
+<p>Tickets will be available in two batches on [Eventbrite](https://www.eventbrite.com/e/con-2019-tickets-59589946133)<br />
+<b>Monday, April 1 at 6:00 PM Eastern</b> and <b>Tuesday, April 2 at 12:00 PM (Noon) Eastern</b></p>
+
 ## Who's speaking?
 
 Our [call for talk](give-a-talk.html) proposals is closed. We're currently reviewing the many amazing talk proposals we received!
