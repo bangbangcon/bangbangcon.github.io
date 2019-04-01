@@ -471,7 +471,7 @@ operation so important?
 I'll demonstrate a few situations in which this turns out to be incredibly
 handy.
 
-**Vaibhav** used to write web applications for a living. He still does, but he used to, too. When he's not doing that he yells about package managers on Twitter and re-racks bumper plates after using them.
+**Vaibhav** ([@vbhvsgr](https://twitter.com/vbhvsgr)) used to write web applications for a living. He still does, but he used to, too. When he's not doing that he yells about package managers on Twitter and re-racks bumper plates after using them.
 
 ---
 
