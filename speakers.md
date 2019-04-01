@@ -385,9 +385,9 @@ Hilarity ensues as cybercriminals fail miserably in their objectives in these ta
 
 ### Randall Reed, Jr.
 
-**Tic tac toe should not be this complicated!**
+**Tic-tac-toe should not be this complicated!**
 
-Almost 18 years ago, I submitted a high school research paper to a local science fair about using quasi-fractals to determine a winning strategy for tic-tac-toe. My paper was rejected with one judge noting "Tic-ta"-toe should not be this complicated!" Fortunately for us, I've learned a lot about programming since then (like data structures, game trees, and heuristics), so let's find out how much more complicated I can make it!
+Almost 18 years ago, I submitted a high school research paper to a local science fair about using quasi-fractals to determine a winning strategy for tic-tac-toe. My paper was rejected with one judge noting "Tic-tac-toe should not be this complicated!" Fortunately for us, I've learned a lot about programming since then (like data structures, game trees, and heuristics), so let's find out how much more complicated I can make it!
 
 **Randall** wishes he could spend more time in Paris. He likes eating Golden Grahams, writing in notebooks, and doubling down in Blackjack.
 
