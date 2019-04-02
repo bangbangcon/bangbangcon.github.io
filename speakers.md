@@ -145,13 +145,13 @@ The solution is 3D-printable dilators. This way if something happens, just run t
 
 **I made a game you play by riding your bike!**
 
-Making games that interface with the physical word can be tricky! 
+Making games that interface with the physical word can be tricky!
 
-This talk will discuss a game I built to be played on a Bluetooth-enabled stationary bike. We’ll talk about my journey fighting BLE standards, and figuring out how to squeeze as many novel forms of input as possible out of off-the-shelf hardware, such as using the motion sensors built into the player’s iPad to figure out when they were turning the handlebars of the bike! 
+This talk will discuss a game I built to be played on a Bluetooth-enabled stationary bike. We’ll talk about my journey fighting BLE standards, and figuring out how to squeeze as many novel forms of input as possible out of off-the-shelf hardware, such as using the motion sensors built into the player’s iPad to figure out when they were turning the handlebars of the bike!
 
 We’ll also explore what it means to create games that use weirder controls than a keyboard and mouse or game controller. My bike game specifically has two different versions: one meant to be played at home by cycling trainers with their own hardware, and an installation version for exhibitions and games events. What does it mean to design a game as a training tool — where “success" means a high-engagement game whose players show steady progress over time — versus an installation art piece where “success” means a thought-provoking interactive artwork whose gameplay supports an underlying political statement?
 
-**Em** makes interactive art, experimental games, and software tools. Above all, they makes things that spark intellectual curiosity and inspire people to become self-motivated learners.
+**Em** make interactive art, experimental games, and software tools. Above all, they make things that spark intellectual curiosity and inspire people to become self-motivated learners.
 
 ---
 
@@ -169,10 +169,10 @@ As babies, many of us learn to talk by unconsciously figuring out how to move th
 **Evy** loves to sing (especially with others) and code (especially for social good). She loves her communities.
 
 ---
-<!---
+
 <a name="geoffrey-lessel" id="geoffrey-lessel"></a>
 <img src="images/speakers/geoffrey-lessel.png" alt="Geoffrey Lessel" class="speaker-img" />
---->
+
 
 ### Geoffrey Lessel
 
@@ -183,10 +183,9 @@ My father loves sudoku puzzles and for a while, solved one every night before be
 **Geoffrey** has had an interest in programming ever since his family had a 286 in the family room growing up. He's developed for fun and profit for three decades in all sorts of languages. Geoffrey recently released Phoenix in Action with Manning Publications.
 
 ---
-<!--
+
 <a name="jayesh-kawli" id="jayesh-kawli"></a>
 <img src="images/speakers/jayesh-kawli.png" alt="Jayesh Kawli" class="speaker-img" />
--->
 
 ### Jayesh Kawli
 
@@ -209,16 +208,14 @@ As a senior developer, he likes to share his knowledge and experience with other
 
 **Paper Synthesizer! Music created with Augmented Reality**
 
-This will be a combination talk and musical performance. I'll set up a small Dynamicland-style Augmented Reality / Dynamic Medium rig - using a portable projector to bring augmented reality visualizations onto the surface of a table, and a webcam to read handwritten data from pieces of paper back into the computer. (I'll mirror the webcam's view onto the conference projector so that the audience can watch.) After a short explanation of some of the context of the ideas in play, I'll improvise and perform a short piece of music using an interface made out of pieces of paper and board game pieces.
+This will be a combination talk and short musical performance. I'll demonstrate a small Dynamic Medium / Augmented Reality rig - using projection mapping to bring the digital world onto a surface of a table (rather than using glasses or a screen) and a webcam to read handwritten data on pieces of paper back into the computer. I'll explain how all this works and then use this system as the UI to create and perform an original piece of music.
 
-**Jes Wolfe!** is a computer programmer who, in some contexts, refers to themself as an "artist" and/or "musician", and is especially interested in the aesthetic consequences of algorithms. They live in a house in the woods in Portland, Oregon, and they currently work on writing software that listens to robots.
+**Jes Wolfe!** is a computer programmer who, in some contexts, refers to themself as an “artist” and/or “musician”, and they are especially interested in the aesthetic consequences of algorithms. They live in a house in the woods in Portland, Oregon, and they are doing yet another startup.
 
 ---
 
-<!--
 <a name="josh-triplett" id="josh-triplett"></a>
 <img src="images/speakers/josh-triplett.png" alt="Josh Triplett" class="speaker-img" />
--->
 
 ### Josh Triplett
 
