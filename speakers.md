@@ -57,23 +57,6 @@ First, we'll dive into the mechanics of JavaScript's scope chain. Then, we'll le
 
 ---
 
-<a name="anjana-vakil" id="anjana-vakil"></a>
-<img src="images/speakers/anjana-vakil.png" alt="Anjana Vakil" class="speaker-img" />
-
-### Anjana Vakil
-
-**Tail Call Optimization: The Musical!!**
-
-"Stack overflow"!
-"Maximum call stack size exceeded"!!
-"Too much recursion"!!!
-
-You may have seen errors like these thrown when you attempt to run a deeply recursive function. Computers can be so dramatic! But what's the conflict, exactly, between recursion and call stacks? And is there any hope for resolving it into a happy ending? In this musical talk we'll see why recursion poses a problem for the finite-memory call stack in our language runtime (we'll use a JavaScript engine as an example), and learn how "Tail Call Optimization" (TCO) - a particularly cool implementation feature of some engines - lets us get around that problem, when paired with so-called "tail-recursive" functions. We'll sing our way through the meaning of these terms to explore how TCO messes with the call stack (in a useful way!), as we mess with the lyrics to some of our favorite animated musical songs (in a nerdy way!).
-
-**Anjana** suffers from a debilitating case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As Engineering Learning & Development Lead at Mapbox, she can usually be found in San Francisco; that is, when she's not speaking at events around the world, trying to share the joy of coding and advocate for a more diverse & accessible tech industry. Ask her about the Recurse Center, Outreachy, and Mozilla!
-
----
-
 <a name="ayla-myers" id="ayla-myers"></a>
 <img src="images/speakers/ayla-myers.png" alt="Ayla Myers" class="speaker-img" />
 
@@ -100,22 +83,6 @@ But in this talk we'll be going even further--let's explore the unknown reaches 
 Ever wanted to communicate a secret message to friend, lover or the national security officer of your country? (yes, I'm talking to you spies from all over the world). You might think end-to-end encryption got you covered, but after 2013, the NSA leaks and all that stuff, you never know! What do you do? You go back to the basics: Steganography! In this talk I want to share with you how you can use the vintage MIDI files we all loved from the 90's to hide any message. Particularly, I will hide the feelings I have for the woman I love! Hopefully, her father the hacker, will not notice my intentions when he intercepts the message...
 
 **David** loves to help people realise that hard things are not so hard with a smile and hard work. He also cares a lot about the wellbeing of people in this fast-paced tech world. He believes that people who understand technology should use it with ethics and moral and that caring about your user is more important than the money you put in your pocket.
-
----
-<a name="dawn-xiana-moon" id="dawn-xiana-moon"></a>
-<img src="images/speakers/dawn-xiana-moon.png" alt="Dawn Xiana Moon" class="speaker-img" />
-
-### Dawn Xiana Moon
-
-**Musician experiments: I fed a bot my songs and asked it to write more! Plus: A concert!**
-
-What happens when you ask a bot to be your co-writer?
-
-For over 15 years, I've been a singer-songwriter that's performed throughout the Midwest and East Coast. One night, I found a cute little virtual robot hanging out on the internet that wanted to become a songwriter too! But the poor thing had only generated random text before. So I fed the bot 80 of my original songs and asked it to write lyrics based on that material.
-
-Then I took its lyrics and set them to music. Robot co-writing! I'll talk about this process and give you a  mini-concert featuring my favorite bot's writing – and together we'll look for meaning in the little bot's music!
-
-**Dawn Xiana Moon** is a singer-songwriter who blends folk pop with jazz and traditional Chinese music; she's released two albums and performed in 10 states. She's also the Founder/Director of Raks Geek, a bellydance and fire performance company based in Chicago, and writes essays about pop culture and social justice. When she's not feeding her wanderlust, she's also a UX designer and web developer - and a bellydancing Wookiee.
 
 ---
 
@@ -201,19 +168,6 @@ As a senior developer, he likes to share his knowledge and experience with other
 
 ---
 
-<a name="jes-wolfe" id="jes-wolfe"></a>
-<img src="images/speakers/jes-wolfe.png" alt="Jes Wolfe!" class="speaker-img" />
-
-### Jes Wolfe!
-
-**Paper Synthesizer! Music created with Augmented Reality**
-
-This will be a combination talk and short musical performance. I'll demonstrate a small Dynamic Medium / Augmented Reality rig - using projection mapping to bring the digital world onto a surface of a table (rather than using glasses or a screen) and a webcam to read handwritten data on pieces of paper back into the computer. I'll explain how all this works and then use this system as the UI to create and perform an original piece of music.
-
-**Jes Wolfe!** is a computer programmer who, in some contexts, refers to themself as an “artist” and/or “musician”, and they are especially interested in the aesthetic consequences of algorithms. They live in a house in the woods in Portland, Oregon, and they are doing yet another startup.
-
----
-
 <a name="josh-triplett" id="josh-triplett"></a>
 <img src="images/speakers/josh-triplett.png" alt="Josh Triplett" class="speaker-img" />
 
@@ -269,25 +223,6 @@ Follow me on a journey full of discovery, gifs of mice sending telegrams, oscill
 We don't often hear Latin poetry! And there are lots of programs designed to synthesize human voices! We piece together what we know of how Latin poetry was sung and chanted to make a web app that recites Latin poetry on demand! We can start with freely available concatenative synthesis,  with a few building blocks: determining basic pitch by word accent and volume of air in the lungs, freely available human voices from many languages, and a few hundred lines of code to glue it together. There will be audio from many different types of speech synthesis, and the web app is live at poetaexmachina.net!
 
 **Lee Butterman** is a programmer and an enthusiast of Latin and Greek. He created the first text-to-speech engine for Latin, poetaexmachina.net, and his website nodictionaries.com has helped countless students read Latin over the last decade. He lives in California.
-
----
-<!---
-<a name="liz-fong-jones" id="liz-fong-jones"></a>
-<img src="images/speakers/liz-fong-jones.png" alt="Liz Fong-Jones" class="speaker-img" />
-
-<a name="sarah-voegeli" id="sarah-voegeli"></a>
-<img src="images/speakers/sarah-voegeli.png" alt="Sarah Voegeli" class="speaker-img" />
--->
-
-### Liz Fong-Jones and Sarah Voegeli
-
-**Distributed Systems are Beautiful!!**
-
-Distributed systems unintentionally create art as a byproduct of their execution! The traces that requests passing through the system generate are beautiful, as are, the graph of their dependency relationships, the synchronicities in the log lines, and the heatmaps and lines that plotting metrics can show. All of these both illuminate patterns in the behavior of the systems as well as aesthetically please our senses. This is an exhibition of some of the most fascinating and beautiful work we've encountered.
-
-**Liz** is a developer advocate, labor and ethics organizer, and Site Reliability Engineer (SRE). She is an advocate at Honeycomb.io for the SRE and Observability communities, and previously was an SRE at Google.
-
-**Sarah** is a UX designer and front-end developer at Github. Her mission is to create rewarding user experiences that help people achieve whatever they set out to do. She curates @TimeseriesArt
 
 ---
 
@@ -435,25 +370,6 @@ Let’s look at one of the simplest (but coolest!) boolean logic gates, the NOR 
 
 ---
 
-<a name="uche-ogbuji" id="uche-ogbuji"></a>
-<img src="images/speakers/uche-ogbuji.png" alt="Uche Ogbuji" class="speaker-img" />
-
-### Uche Ogbuji
-
-**Yes yes ya'll! Miles of !malloc() and free() styles!¡!**
-
-It was the early 90s. C++ surging, so you worried C might be fading, just like poetry. Wick-wick-widdack! Hip-Hop was in its golden age, and it would save poetry. Fr-fr-fresh! If freestyle could save verse, why couldn’t it save the malloc() and free()? Microphone check micro-microphone check-ah!
-
-I learned how to program (BASIC then Z80 assembler) while UTFO were battling The Real Roxanne and the L=A=N=G=U=A=G=E poets were still bombing every wall with foul wack juice. I was just getting into University in Nigeria, where we didn’t have the latest, so my nostalgia goes back even further, to FORTRAN 4 and punched cards, boyeeee! back to when James Brown was laying down funk architecture for 90s DJs on MPCs (…rolling in MPVs every week they made 40 Gs!). Hyeeey! I need those hits!
-
-I’ve never stopped programming (how I eat now, yo!), living my deep-nerd Hip-Hop life, reading and writing poetry. Now I’m ‘bout to bring these all together for ya’ll. A nostalgia trip straight off the dome, right there in the Big Apple, the realness, the foundation. Best be dipped in some Karl Kani or FUBU that day! So fresh and so clean-clean!
-
-Morning of the talk I’ll tweet a call: nostalgic programming topics for a freestyle-flavored series of poems. I’ll select a few for the show, ten minutes to flow, taking the rhymes where the crowd wants to go. Might even bite live inspiration from talks preceding mine. Oh yes, I’m ah need some audience participation to keep it hype! Clap your hands everybody! Everybody just clap your hands!
-
-**Uche Ogbuji**, more properly Úchèńnà Ogbújí, was born and largely educated in Nigeria, pursuing engineering because his parents hollered: "Literature?! You want to starve?!". Stubborn, he writes code and tech articles by day, but reads, edits, writes and performs poetry by twilight and less.
-
----
-
 <a name="vaibhav-sagar" id="vaibhav-sagar"></a>
 <img src="images/speakers/vaibhav-sagar.png" alt="Vaibhav Sagar" class="speaker-img" />
 
@@ -496,6 +412,94 @@ Women in India have been practicing the algorithmic art of Kolam for generations
 African mask art are a reflection of culture, beliefs, religion and ancient history from many parts of Africa. In this work, I curate a dataset of 11000 images of African Mask art and train a Generative Adversarial Neural Network (GAN) that learns to generate new masks. The modes learned by the GAN (geometry, texture, material) suggest interesting interpretations and conversations that draw attention to the underrepresented area African Art. I also discuss findings on the quality of results, novelty of generated samples, and the impact of data quality on image quality.
 
 **Victor** is a researcher, passionate about the intersection of Human Computer Interaction and Artificial intelligence. He is a forever amateur musician, loves to play the piano, guitar and sing.
+
+---
+
+## Lightning Talks*
+
+<a name="anjana-vakil" id="anjana-vakil"></a>
+<img src="images/speakers/anjana-vakil.png" alt="Anjana Vakil" class="speaker-img" />
+
+### Anjana Vakil
+
+**Tail Call Optimization: The Musical!!**
+
+"Stack overflow"!
+"Maximum call stack size exceeded"!!
+"Too much recursion"!!!
+
+You may have seen errors like these thrown when you attempt to run a deeply recursive function. Computers can be so dramatic! But what's the conflict, exactly, between recursion and call stacks? And is there any hope for resolving it into a happy ending? In this musical talk we'll see why recursion poses a problem for the finite-memory call stack in our language runtime (we'll use a JavaScript engine as an example), and learn how "Tail Call Optimization" (TCO) - a particularly cool implementation feature of some engines - lets us get around that problem, when paired with so-called "tail-recursive" functions. We'll sing our way through the meaning of these terms to explore how TCO messes with the call stack (in a useful way!), as we mess with the lyrics to some of our favorite animated musical songs (in a nerdy way!).
+
+**Anjana** suffers from a debilitating case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As Engineering Learning & Development Lead at Mapbox, she can usually be found in San Francisco; that is, when she's not speaking at events around the world, trying to share the joy of coding and advocate for a more diverse & accessible tech industry. Ask her about the Recurse Center, Outreachy, and Mozilla!
+
+---
+
+<a name="dawn-xiana-moon" id="dawn-xiana-moon"></a>
+<img src="images/speakers/dawn-xiana-moon.png" alt="Dawn Xiana Moon" class="speaker-img" />
+
+### Dawn Xiana Moon
+
+**Musician experiments: I fed a bot my songs and asked it to write more! Plus: A concert!**
+
+What happens when you ask a bot to be your co-writer?
+
+For over 15 years, I've been a singer-songwriter that's performed throughout the Midwest and East Coast. One night, I found a cute little virtual robot hanging out on the internet that wanted to become a songwriter too! But the poor thing had only generated random text before. So I fed the bot 80 of my original songs and asked it to write lyrics based on that material.
+
+Then I took its lyrics and set them to music. Robot co-writing! I'll talk about this process and give you a  mini-concert featuring my favorite bot's writing – and together we'll look for meaning in the little bot's music!
+
+**Dawn Xiana Moon** is a singer-songwriter who blends folk pop with jazz and traditional Chinese music; she's released two albums and performed in 10 states. She's also the Founder/Director of Raks Geek, a bellydance and fire performance company based in Chicago, and writes essays about pop culture and social justice. When she's not feeding her wanderlust, she's also a UX designer and web developer - and a bellydancing Wookiee.
+
+---
+
+<!---
+<a name="liz-fong-jones" id="liz-fong-jones"></a>
+<img src="images/speakers/liz-fong-jones.png" alt="Liz Fong-Jones" class="speaker-img" />
+
+<a name="sarah-voegeli" id="sarah-voegeli"></a>
+<img src="images/speakers/sarah-voegeli.png" alt="Sarah Voegeli" class="speaker-img" />
+-->
+
+### Liz Fong-Jones and Sarah Voegeli
+
+**Distributed Systems are Beautiful!!**
+
+Distributed systems unintentionally create art as a byproduct of their execution! The traces that requests passing through the system generate are beautiful, as are, the graph of their dependency relationships, the synchronicities in the log lines, and the heatmaps and lines that plotting metrics can show. All of these both illuminate patterns in the behavior of the systems as well as aesthetically please our senses. This is an exhibition of some of the most fascinating and beautiful work we've encountered.
+
+**Liz** is a developer advocate, labor and ethics organizer, and Site Reliability Engineer (SRE). She is an advocate at Honeycomb.io for the SRE and Observability communities, and previously was an SRE at Google.
+
+**Sarah** is a UX designer and front-end developer at Github. Her mission is to create rewarding user experiences that help people achieve whatever they set out to do. She curates @TimeseriesArt
+
+---
+
+<a name="jes-wolfe" id="jes-wolfe"></a>
+<img src="images/speakers/jes-wolfe.png" alt="Jes Wolfe!" class="speaker-img" />
+
+### Jes Wolfe!
+
+**Paper Synthesizer! Music created with Augmented Reality**
+
+This will be a combination talk and short musical performance. I'll demonstrate a small Dynamic Medium / Augmented Reality rig - using projection mapping to bring the digital world onto a surface of a table (rather than using glasses or a screen) and a webcam to read handwritten data on pieces of paper back into the computer. I'll explain how all this works and then use this system as the UI to create and perform an original piece of music.
+
+**Jes Wolfe!** is a computer programmer who, in some contexts, refers to themself as an “artist” and/or “musician”, and they are especially interested in the aesthetic consequences of algorithms. They live in a house in the woods in Portland, Oregon, and they are doing yet another startup.
+
+---
+
+<a name="uche-ogbuji" id="uche-ogbuji"></a>
+<img src="images/speakers/uche-ogbuji.png" alt="Uche Ogbuji" class="speaker-img" />
+
+### Uche Ogbuji
+
+**Yes yes ya'll! Miles of !malloc() and free() styles!¡!**
+
+It was the early 90s. C++ surging, so you worried C might be fading, just like poetry. Wick-wick-widdack! Hip-Hop was in its golden age, and it would save poetry. Fr-fr-fresh! If freestyle could save verse, why couldn’t it save the malloc() and free()? Microphone check micro-microphone check-ah!
+
+I learned how to program (BASIC then Z80 assembler) while UTFO were battling The Real Roxanne and the L=A=N=G=U=A=G=E poets were still bombing every wall with foul wack juice. I was just getting into University in Nigeria, where we didn’t have the latest, so my nostalgia goes back even further, to FORTRAN 4 and punched cards, boyeeee! back to when James Brown was laying down funk architecture for 90s DJs on MPCs (…rolling in MPVs every week they made 40 Gs!). Hyeeey! I need those hits!
+
+I’ve never stopped programming (how I eat now, yo!), living my deep-nerd Hip-Hop life, reading and writing poetry. Now I’m ‘bout to bring these all together for ya’ll. A nostalgia trip straight off the dome, right there in the Big Apple, the realness, the foundation. Best be dipped in some Karl Kani or FUBU that day! So fresh and so clean-clean!
+
+Morning of the talk I’ll tweet a call: nostalgic programming topics for a freestyle-flavored series of poems. I’ll select a few for the show, ten minutes to flow, taking the rhymes where the crowd wants to go. Might even bite live inspiration from talks preceding mine. Oh yes, I’m ah need some audience participation to keep it hype! Clap your hands everybody! Everybody just clap your hands!
+
+**Uche Ogbuji**, more properly Úchèńnà Ogbújí, was born and largely educated in Nigeria, pursuing engineering because his parents hollered: "Literature?! You want to starve?!". Stubborn, he writes code and tech articles by day, but reads, edits, writes and performs poetry by twilight and less.
 
 ---
 
