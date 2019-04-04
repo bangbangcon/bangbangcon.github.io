@@ -80,7 +80,7 @@ But in this talk we'll be going even further--let's explore the unknown reaches 
 
 **Hiding my love inside a MIDI file!**
 
-Ever wanted to communicate a secret message to friend, lover or the national security officer of your country? (yes, I'm talking to you spies from all over the world). You might think end-to-end encryption got you covered, but after 2013, the NSA leaks and all that stuff, you never know! What do you do? You go back to the basics: Steganography! In this talk I want to share with you how you can use the vintage MIDI files we all loved from the 90's to hide any message. Particularly, I will hide the feelings I have for the woman I love! Hopefully, her father the hacker, will not notice my intentions when he intercepts the message...
+Ever wanted to communicate a secret message to friend, lover or the national security officer of your country? (yes, I'm talking to you spies from all over the world). You might think end-to-end encryption got you covered, but after 2013, the NSA leaks and all that stuff, you never know! What do you do? You go back to the basics: Steganography! In this talk I want to share with you the basics of steganography and how you can use use it to hide messages in the vintage MIDI files we all loved from the 90's. More specifically, we are going to hide an audio message within the channels, patterns and events of a MIDI file. Finally, we will decode the message and listen to it!
 
 **David** loves to help people realise that hard things are not so hard with a smile and hard work. He also cares a lot about the wellbeing of people in this fast-paced tech world. He believes that people who understand technology should use it with ethics and moral and that caring about your user is more important than the money you put in your pocket.
 
@@ -177,7 +177,7 @@ As a senior developer, he likes to share his knowledge and experience with other
 
 Virtual machines are much simpler to build than they seem! I'll show how to build a complete virtual machine on Linux using the /dev/kvm interface, load and run code, and even implement your own virtual devices using virtio! I'll explain the interface, and show some libraries in Rust that help you build more complex virtual machines. By the end of the talk, you'll not only know the foundations of cloud computing, but you'll have ideas for other novel uses of virtualization as well!
 
-**Josh Triplett** hacks on system software, including Rust, virtual machines, the Linux kernel, X, Git, Sparse, Debian, Chrome OS, and firmware. Josh enjoys using software for unconventional purposes, such as porting Python to GRUB2. Josh has previously presented at [linux.conf.au](http://linux.conf.au/), Linux Plumbers Conference, Embedded Linux Conference, LinuxCon, RustConf, PyCon, Kernel Summit, Open Source Bridge, and the USENIX Annual Technical Conference.
+**Josh Triplett** hacks on system software, including Rust, virtual machines, the Linux kernel, X, Git, Sparse, Debian, Chrome OS, and firmware. Josh enjoys using software for unconventional purposes, such as porting Python to GRUB2. Josh has previously presented at linux.conf.au, Linux Plumbers Conference, Embedded Linux Conference, LinuxCon, RustConf, PyCon, Kernel Summit, Open Source Bridge, and the USENIX Annual Technical Conference.
 
 ---
 
@@ -211,18 +211,17 @@ Follow me on a journey full of discovery, gifs of mice sending telegrams, oscill
 
 ---
 
-<!---
 <a name="lee-butterman" id="lee-butterman"></a>
 <img src="images/speakers/lee-butterman.png" alt="Lee Butterman" class="speaker-img" />
--->
+
 
 ### Lee Butterman
 
 **Poeta Ex Machina! How To Teach Computers To Chant Latin Poetry!**
 
-We don't often hear Latin poetry! And there are lots of programs designed to synthesize human voices! We piece together what we know of how Latin poetry was sung and chanted to make a web app that recites Latin poetry on demand! We can start with freely available concatenative synthesis,  with a few building blocks: determining basic pitch by word accent and volume of air in the lungs, freely available human voices from many languages, and a few hundred lines of code to glue it together. There will be audio from many different types of speech synthesis, and the web app is live at poetaexmachina.net!
+We don't often hear Latin poetry! And there are lots of programs designed to synthesize human voices! We can piece together what we infer of how Latin poetry was pronounced and chanted to make a web app that recites Latin poetry on demand! We can start with freely available concatenative synthesis, with a few building blocks: determining basic pitch by word accent and volume of air in the lungs, freely available human voices from many languages, and a few hundred lines of code to glue it together. There will be audio from many different types of speech synthesis, and the web app is live at [poetaexmachina.net](http://poetaexmachina.net/)!
 
-**Lee Butterman** is a programmer and an enthusiast of Latin and Greek. He created the first text-to-speech engine for Latin, poetaexmachina.net, and his website nodictionaries.com has helped countless students read Latin over the last decade. He lives in California.
+**Lee Butterman** is a programmer and an enthusiast of Latin and Greek. He created the first text-to-speech engine for Latin, [poetaexmachina.net](http://poetaexmachina.net/), and his website [nodictionaries.com](http://nodictionaries.com/) has helped countless students read Latin over the last decade. He lives in California.
 
 ---
 
