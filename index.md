@@ -107,6 +107,32 @@ emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://tw
 
 Is your organization interested in sponsoring !!Con?  Check out our [sponsorship page](sponsors.html)!
 
+<div class="sponsor-list" markdown="0">
+  <h3>PHENOMENAL!!! Sponsors</h3>
+
+  <div class="sponsor big-sponsor"><a href="https://appnexus.com" target="_blank"><span
+class="magic">.</span><div class="logo"><img width="400"
+    alt="AppNexus" src="images/sponsors/appnexus.jpg" /></div></a></div>
+
+  <div class="sponsor big-sponsor"><a href="https://careers.google.com/teams/" target="_blank"><span
+class="magic">.</span><div class="logo"><img width="400"
+    alt="Google" src="images/sponsors/google.svg" /></div></a></div>
+
+
+  <h3>EXCELLENT!! Sponsors</h3>
+
+  <div class="sponsor medium-sponsor"><a href="https://www.etsy.com/careers#engineering" target="_blank"><span
+class="magic">.</span><div class="logo"><img  height="150"
+    alt="Etsy" src="images/sponsors/etsy.png" /></div></a></div>
+
+  <!-- <h3>AWESOME! Sponsors</h3>
+
+  <div class="sponsor"><a href="" target="_blank"><span
+    class="magic">.</span><div class="logo"><img height="110"
+    alt="" src="images/sponsors/" /></div></a></div> -->
+
+</div>
+
 ## Code of conduct
 
 We have a [code of conduct](conduct.html) that all !!Con participants are required to observe.
