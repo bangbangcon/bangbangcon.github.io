@@ -118,7 +118,7 @@ This talk will discuss a game I built to be played on a Bluetooth-enabled statio
 
 We’ll also explore what it means to create games that use weirder controls than a keyboard and mouse or game controller. My bike game specifically has two different versions: one meant to be played at home by cycling trainers with their own hardware, and an installation version for exhibitions and games events. What does it mean to design a game as a training tool -- where “success" means a high-engagement game whose players show steady progress over time -- versus an installation art piece where “success” means a thought-provoking interactive artwork whose gameplay supports an underlying political statement?
 
-**Em** makes interactive art, experimental games, and software tools. Above all, they make things that spark intellectual curiosity and inspire people to become self-motivated learners.
+**Em** make interactive art, experimental games, and software tools. Above all, they make things that spark intellectual curiosity and inspire people to become self-motivated learners.
 
 ---
 
