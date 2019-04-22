@@ -10,7 +10,7 @@ title: The joy, excitement, and surprise of computing - !!Con 2019
   &middot;
   [Speakers](speakers.html)
   &middot;
-  [Call for Talk Proposals](give-a-talk.html)
+  [Program](program.html)
   &middot;
   [Conduct](conduct.html)
 </p>
@@ -20,12 +20,10 @@ ten-minute talks** (with lots of breaks, of course!) to celebrate the
 joyous, exciting, and surprising moments in computing.
 </p>
 
-<p>Tickets will be available in two batches on [Eventbrite](https://www.eventbrite.com/e/con-2019-tickets-59589946133)<br />
-<b>Monday, April 1 at 6:00 PM Eastern</b> and <b>Tuesday, April 2 at 12:00 PM (Noon) Eastern</b></p>
-
 ## Who's speaking?
 
-Our [call for talk](give-a-talk.html) proposals is closed. We're currently reviewing the many amazing talk proposals we received!
+Our [call for talk](give-a-talk.html) proposals is closed. Thanks for
+all your wonderful talk proposal submissions!
 
 <a name="where" id="where"></a>
 
@@ -35,7 +33,7 @@ Our [call for talk](give-a-talk.html) proposals is closed. We're currently revie
 at 28 West 23rd Street, 4th floor, Manhattan, NYC, on the weekend of
 May 11-12, 2019.  [Learn more about our venue!](venue-accessibility.html)
 
-!!Con is a *pay-what-you-want* conference.  Stay tuned for information about registration.
+!!Con is a *pay-what-you-want* conference.  Registration is [via Eventbrite](https://www.eventbrite.com/e/con-2018-tickets-44568220748) and is now closed.  Thanks for your interest in !!Con!
 
 <a name="testimonials" id="testimonials"></a>
 
