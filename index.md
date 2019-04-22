@@ -123,11 +123,11 @@ class="magic">.</span><div class="logo"><img width="400"
 class="magic">.</span><div class="logo"><img  height="150"
     alt="Etsy" src="images/sponsors/etsy.png" /></div></a></div>
 
-  <!-- <h3>AWESOME! Sponsors</h3>
+  <h3>AWESOME! Sponsors</h3>
 
-  <div class="sponsor"><a href="" target="_blank"><span
-    class="magic">.</span><div class="logo"><img height="110"
-    alt="" src="images/sponsors/" /></div></a></div> -->
+  <div class="sponsor"><a href="https://kickstarter.engineering/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="360"
+    alt="" src="images/sponsors/kickstarter.png" /></div></a></div>
 
 </div>
 
