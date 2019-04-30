@@ -13,7 +13,7 @@ Coffee, tea, water, and pastries/bagels breakfast will be available both days.  
 
 <a name="saturday"></a>
 
-### Saturday, May 12
+### Saturday, May 11
 
 <div class="scheduletable">
 
@@ -36,7 +36,7 @@ Coffee, tea, water, and pastries/bagels breakfast will be available both days.  
 
 <a name="sunday"></a>
 
-### Sunday, May 13
+### Sunday, May 12
 
 <div class="scheduletable">
 
