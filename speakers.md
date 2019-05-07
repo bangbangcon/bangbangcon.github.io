@@ -71,10 +71,9 @@ But in this talk we'll be going even further--let's explore the unknown reaches 
 **Ayla** is an independent game designer, developer, pixel artist, and fantasy console enthusiast! She spends her time crafting beauty out of code (and skating around the city when it’s sunny). She currently works at playcastle.io, happily contributing to a new platform for indie game devs.
 
 ---
-<!--
+
 <a name="david-mauricio-delgado-ruiz" id="david-mauricio-delgado-ruiz"></a>
 <img src="images/speakers/david-mauricio-delgado-ruiz.png" alt="David Mauricio Delgado Ruiz" class="speaker-img" />
--->
 
 ### David Mauricio Delgado Ruiz
 
@@ -82,7 +81,7 @@ But in this talk we'll be going even further--let's explore the unknown reaches 
 
 Ever wanted to communicate a secret message to friend, lover or the national security officer of your country? (yes, I'm talking to you spies from all over the world). You might think end-to-end encryption got you covered, but after 2013, the NSA leaks and all that stuff, you never know! What do you do? You go back to the basics: Steganography! In this talk I want to share with you the basics of steganography and how you can use use it to hide messages in the vintage MIDI files we all loved from the 90's. More specifically, we are going to hide an audio message within the channels, patterns and events of a MIDI file. Finally, we will decode the message and listen to it!
 
-**David** loves to help people realise that hard things are not so hard with a smile and hard work. He also cares a lot about the wellbeing of people in this fast-paced tech world. He believes that people who understand technology should use it with ethics and moral and that caring about your user is more important than the money you put in your pocket.
+**David** loves to help people realize that hard things are not so hard with a smile and hard work. He also cares a lot about the wellbeing of people in this fast-paced tech world. He believes that people who understand technology should use it with ethics and moral and that caring about your user is more important than the money you put in your pocket.
 
 ---
 
@@ -103,10 +102,8 @@ The solution is 3D-printable dilators. This way if something happens, just run t
 
 ---
 
-<!---
 <a name="em-lazer-walker" id="em-lazer-walker"></a>
 <img src="images/speakers/em-lazer-walker.png" alt="Em Lazer-Walker" class="speaker-img" />
---->
 
 ### Em Lazer-Walker
 
@@ -309,21 +306,6 @@ Hilarity ensues as cybercriminals fail miserably in their objectives in these ta
 
 ---
 
-<!--
-<a name="randall-reed-jr" id="randall-reed-jr"></a>
-<img src="images/speakers/randall-reed-jr.png" alt="Randall Reed, Jr." class="speaker-img" />
--->
-
-### Randall Reed, Jr.
-
-**Tic-tac-toe should not be this complicated!**
-
-Almost 18 years ago, I submitted a high school research paper to a local science fair about using quasi-fractals to determine a winning strategy for tic-tac-toe. My paper was rejected with one judge noting "Tic-tac-toe should not be this complicated!" Fortunately for us, I've learned a lot about programming since then (like data structures, game trees, and heuristics), so let's find out how much more complicated I can make it!
-
-**Randall** wishes he could spend more time in Paris. He likes eating Golden Grahams, writing in notebooks, and doubling down in Blackjack.
-
----
-
 <a name="sarah-withee" id="sarah-withee"></a>
 <img src="images/speakers/sarah-withee.png" alt="Sarah Withee" class="speaker-img" />
 
@@ -337,10 +319,9 @@ One of the coolest open source projects I've seen in a while has been OpenAPS, t
 
 ---
 
-<!---
 <a name="sophie-deziel" id="sophie-deziel"></a>
 <img src="images/speakers/sophie-deziel.png" alt="Sophie Déziel" class="speaker-img" />
--->
+
 
 ### Sophie Déziel
 
@@ -387,10 +368,9 @@ handy.
 
 ---
 
-<!---
 <a name="veena-sankaranarayanan" id="veena-sankaranarayanan"></a>
 <img src="images/speakers/veena-sankaranarayanan.png" alt="Veena Sankaranarayanan" class="speaker-img" />
--->
+
 
 ### Veena Sankaranarayanan
 
@@ -416,10 +396,14 @@ African mask art are a reflection of culture, beliefs, religion and ancient hist
 
 ## Lightning Talks*
 
+<a name="natalia-margolis" id="natalia-margolis"></a>
+<img src="images/speakers/natalia-margolis.png" alt="Natalia Margolis" class="speaker-img" />
+
 <a name="anjana-vakil" id="anjana-vakil"></a>
 <img src="images/speakers/anjana-vakil.png" alt="Anjana Vakil" class="speaker-img" />
 
 ### Anjana Vakil
+### Natalia Margolis
 
 **Tail Call Optimization: The Musical!!**
 
@@ -430,6 +414,8 @@ African mask art are a reflection of culture, beliefs, religion and ancient hist
 You may have seen errors like these thrown when you attempt to run a deeply recursive function. Computers can be so dramatic! But what's the conflict, exactly, between recursion and call stacks? And is there any hope for resolving it into a happy ending? In this musical talk we'll see why recursion poses a problem for the finite-memory call stack in our language runtime (we'll use a JavaScript engine as an example), and learn how "Tail Call Optimization" (TCO) - a particularly cool implementation feature of some engines - lets us get around that problem, when paired with so-called "tail-recursive" functions. We'll sing our way through the meaning of these terms to explore how TCO messes with the call stack (in a useful way!), as we mess with the lyrics to some of our favorite animated musical songs (in a nerdy way!).
 
 **Anjana** suffers from a debilitating case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As Engineering Learning & Development Lead at Mapbox, she can usually be found in San Francisco; that is, when she's not speaking at events around the world, trying to share the joy of coding and advocate for a more diverse & accessible tech industry. Ask her about the Recurse Center, Outreachy, and Mozilla!
+
+As a software engineer on Search at Mapbox, **Natalia** helps answer the question “Where in the world is San Diego”? She’s psyched about the intersection of tech and justice, and has worked on projects from mapping evictions to an app for undocumented immigrants to activate their support networks called Notifica. When she’s not in front of a screen, you can find her learning Salsa or wandering the steep hills and succulent-lined coast of the Bay Area.
 
 ---
 
@@ -447,26 +433,6 @@ For over 15 years, I've been a singer-songwriter that's performed throughout the
 Then I took its lyrics and set them to music. Robot co-writing! I'll talk about this process and give you a  mini-concert featuring my favorite bot's writing – and together we'll look for meaning in the little bot's music!
 
 **Dawn Xiana Moon** is a singer-songwriter who blends folk pop with jazz and traditional Chinese music; she's released two albums and performed in 10 states. She's also the Founder/Director of Raks Geek, a bellydance and fire performance company based in Chicago, and writes essays about pop culture and social justice. When she's not feeding her wanderlust, she's also a UX designer and web developer - and a bellydancing Wookiee.
-
----
-
-<!---
-<a name="liz-fong-jones" id="liz-fong-jones"></a>
-<img src="images/speakers/liz-fong-jones.png" alt="Liz Fong-Jones" class="speaker-img" />
-
-<a name="sarah-voegeli" id="sarah-voegeli"></a>
-<img src="images/speakers/sarah-voegeli.png" alt="Sarah Voegeli" class="speaker-img" />
--->
-
-### Liz Fong-Jones and Sarah Voegeli
-
-**Distributed Systems are Beautiful!!**
-
-Distributed systems unintentionally create art as a byproduct of their execution! The traces that requests passing through the system generate are beautiful, as are, the graph of their dependency relationships, the synchronicities in the log lines, and the heatmaps and lines that plotting metrics can show. All of these both illuminate patterns in the behavior of the systems as well as aesthetically please our senses. This is an exhibition of some of the most fascinating and beautiful work we've encountered.
-
-**Liz** is a developer advocate, labor and ethics organizer, and Site Reliability Engineer (SRE). She is an advocate at Honeycomb.io for the SRE and Observability communities, and previously was an SRE at Google.
-
-**Sarah** is a UX designer and front-end developer at Github. Her mission is to create rewarding user experiences that help people achieve whatever they set out to do. She curates @TimeseriesArt
 
 ---
 
