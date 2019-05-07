@@ -436,8 +436,8 @@ Then I took its lyrics and set them to music. Robot co-writing! I'll talk about 
 
 ---
 
-<a name="jes-wolfe" id="jes-wolfe"></a>
-<img src="images/speakers/jes-wolfe.png" alt="Jes Wolfe!" class="speaker-img" />
+<a name="jes-wolfe!" id="jes-wolfe!"></a>
+<img src="images/speakers/jes-wolfe!.png" alt="Jes Wolfe!" class="speaker-img" />
 
 ### Jes Wolfe!
 
