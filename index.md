@@ -123,11 +123,23 @@ class="magic">.</span><div class="logo"><img width="400"
 class="magic">.</span><div class="logo"><img  height="150"
     alt="Etsy" src="images/sponsors/etsy.png" /></div></a></div>
 
+  <div class="sponsor medium-sponsor"><a href="https://twilio.com" target="_blank"><span
+class="magic">.</span><div class="logo"><img  height="150"
+    alt="Twilio" src="images/sponsors/twilio.png" /></div></a></div>
+
   <h3>AWESOME! Sponsors</h3>
 
   <div class="sponsor"><a href="https://kickstarter.engineering/" target="_blank"><span
     class="magic">.</span><div class="logo"><img width="360"
-    alt="" src="images/sponsors/kickstarter.png" /></div></a></div>
+    alt="Kickstarter" src="images/sponsors/kickstarter.png" /></div></a></div>
+
+  <div class="sponsor"><a href="https://recurse.com" target="_blank"><span
+    class="magic">.</span><div class="logo"><img height="140"
+    alt="Recurse Center" src="images/sponsors/recurse.svg" /></div></a></div>
+
+  <div class="sponsor"><a href="https://www.twosigma.com/careers/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="360"
+    alt="Two Sigma" src="images/sponsors/twosigma.png" /></div></a></div>
 
 </div>
 
