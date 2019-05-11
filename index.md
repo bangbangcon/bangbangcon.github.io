@@ -62,7 +62,13 @@ joyous, exciting, and surprising moments in computing.
 ## Who's speaking?
 
 Our [call for talk](give-a-talk.html) proposals is closed. Thanks for
-all your wonderful talk proposal submissions!
+all your wonderful talk proposal submissions! Learn more about our amazing [speakers](speakers.html)!
+
+## Livestream
+
+Join the !!Con 2019 livestream on [Saturday, May 11th](https://www.youtube.com/watch?v=L_MDgUYVCoo) and [Sunday, May 12th](https://www.youtube.com/watch?v=Bz3eZinhyoE)!
+
+Live streaming starts at 10am each day - see our [program](program.html) for details.
 
 <a name="where" id="where"></a>
 
