@@ -14,7 +14,7 @@ title: The joy, excitement, and surprise of computing - !!Con 2019
   &middot;
   [Conduct](conduct.html)
   &middot;
-  Livestream [Saturday](https://www.youtube.com/watch?v=L_MDgUYVCoo) [Sunday](https://www.youtube.com/watch?v=Bz3eZinhyoE)
+  [Recordings](recordings.html)
 </p>
 
 <p id="blurb">**!!Con** (pronounced "bang bang con") **2019** is **two days of
