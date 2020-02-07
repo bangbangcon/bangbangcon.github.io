@@ -20,7 +20,7 @@ Julia Evans: [julia@jvns.ca](mailto:julia@jvns.ca)
 
 ## Sponsorship Levels
 
-### PHENOMENAL Sponsor!!! (**$8,000**)
+### PHENOMENAL Sponsor!!! (**$12,000**)
 
   * A staffable booth with space for swag, company information
   * 5 reserved tickets for employees[*](#note-on-tickets)
@@ -29,7 +29,7 @@ Julia Evans: [julia@jvns.ca](mailto:julia@jvns.ca)
   * Logo on welcome slide
   * Logo on website
 
-### EXCELLENT Sponsor!! (**$5,000**)
+### EXCELLENT Sponsor!! (**$7,000**)
 
   * Space on a shared table for freebies/swag
   * 2 reserved tickets for employees[*](#note-on-tickets)
@@ -38,7 +38,7 @@ Julia Evans: [julia@jvns.ca](mailto:julia@jvns.ca)
   * Logo on welcome slide
   * Logo on website
 
-### AWESOME Sponsor! (**$2,000**)
+### AWESOME Sponsor! (**$3,000**)
 
   * Space on a shared table for freebies/swag
   * Roll-up poster or other signage
