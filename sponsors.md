@@ -41,7 +41,6 @@ Julia Evans: [julia@jvns.ca](mailto:julia@jvns.ca)
 ### AWESOME Sponsor! (**$3,000**)
 
   * Space on a shared table for freebies/swag
-  * Roll-up poster or other signage
   * Verbal thanks during conference
   * Logo on welcome slide
   * Logo on website
