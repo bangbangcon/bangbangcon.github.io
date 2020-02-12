@@ -47,7 +47,7 @@ joyous, exciting, and surprising moments in computing.  Check out our
     <div><a href="./speakers.html#logan-williams"><img height="100" width="100" src="images/speakers/logan-williams.png" alt="Logan Williams" /></a></div>
     <div><a href="./speakers.html#lucy-zhang"><img height="100" width="100" src="images/speakers/lucy-zhang.png" alt="Lucy Zhang" /></a></div>
     <div><a href="./speakers.html#mark-wunsch"><img height="100" width="100" src="images/speakers/mark-wunsch.png" alt="Mark Wunsch" /></a></div>
-    <div><a href="./speakers.html#mike-lazer-walker"><img height="100" width="100" src="images/speakers/mike-lazer-walker.png" alt="Mike Lazer-Walker" /></a></div>
+    <div><a href="./speakers.html#em-lazer-walker"><img height="100" width="100" src="images/speakers/em-lazer-walker.png" alt="Em Lazer-Walker" /></a></div>
     <div><a href="./speakers.html#mimi-onuoha"><img height="100" width="100" src="images/speakers/mimi-onuoha.png" alt="Mimi Onuoha" /></a></div>
     <div><a href="./speakers.html#omar-rizwan"><img height="100" width="100" src="images/speakers/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
     <div><a href="./speakers.html#persa-zula"><img height="100" width="100" src="images/speakers/persa-zula.png" alt="Persa Zula"/></a></div>
