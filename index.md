@@ -104,6 +104,26 @@ emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://tw
 
 Is your organization interested in sponsoring !!Con?  Check out our [sponsorship page](sponsors.html)!
 
+<div class="sponsor-list" markdown="0">
+  <h3>PHENOMENAL!!! Sponsors</h3>
+
+  <div class="sponsor big-sponsor"><a href="https://developer.microsoft.com/en-us/reactor/" target="_blank"><span
+class="magic">.</span><div class="logo"><img width="400"
+    alt="Reactor" src="images/sponsors/reactor.svg" /></div></a></div>
+
+
+  <h3>AWESOME! Sponsors</h3>
+
+  <div class="sponsor"><a href="https://kickstarter.engineering/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="360"
+    alt="Kickstarter" src="images/sponsors/kickstarter.png" /></div></a></div>
+
+  <div class="sponsor"><a href="https://www.twosigma.com/careers/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="360"
+    alt="Two Sigma" src="images/sponsors/twosigma.png" /></div></a></div>
+
+</div>
+
 ## Code of conduct
 
 We have a [code of conduct](conduct.html) that all !!Con participants are required to observe.
