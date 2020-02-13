@@ -29,7 +29,7 @@ Coffee, tea, water, and light breakfast will be available both days.  **We will 
 | 2:25-2:40pm     | Break!
 | 2:40-3:25pm     | **Session the Third:** <br /> &bull; *Creating an Arabic Programming Language!* ([Ahmed Abdalla](speakers.html#ahmed-abdalla))<br /> &bull; *Evil Twins and the Secret Lives of Linkers!* ([Josh Bowman-Matthews](speakers.html#josh-bowman-matthews))<br /> &bull; *Satellites are talking to us! Let's hear them out!* ([Ed Medvedev](speakers.html#ed-medvedev))<br /> &bull; *The joys of PICO-8 token crunching!! Or: what I learned about programming from being restricted on every side!* ([Ayla Myers](speakers.html#ayla-myers))
 | 3:25-4:25pm     | Unconferencing!
-| 4:25-5:00pm     | **Session the Fourth:** <br /> &bull; *If you could solve this word tile puzzle, you could solve the halting problem! (Too bad you can't!)* ([Kamal Marhubi](speakers.html#kamal-marhubi))<br /> &bull; *UX for Cats and Dogs!* ([Joel Potischman](speakers.html#joel-potischman))<br /> &bull; *So THAT'S how my phone knows where I am!* ([Mike Lazer-Walker](speakers.html#mike-lazer-walker))
+| 4:25-5:00pm     | **Session the Fourth:** <br /> &bull; *If you could solve this word tile puzzle, you could solve the halting problem! (Too bad you can't!)* ([Kamal Marhubi](speakers.html#kamal-marhubi))<br /> &bull; *UX for Cats and Dogs!* ([Joel Potischman](speakers.html#joel-potischman))<br /> &bull; *So THAT'S how my phone knows where I am!* ([Em Lazer-Walker](speakers.html#em-lazer-walker))
 | 5:00            | Wrap for the day (dinner, etc., on your own)
 
 </div>

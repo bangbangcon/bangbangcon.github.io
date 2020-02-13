@@ -168,10 +168,10 @@ We'll walk through the process of how a human might solve algebra problems and h
 
 ---
 
-<a name="mike-lazer-walker" id="mike-lazer-walker"></a>
-<img src="images/speakers/mike-lazer-walker.png" alt="Mike Lazer-Walker" class="speaker-img" />
+<a name="em-lazer-walker" id="em-lazer-walker"></a>
+<img src="images/speakers/em-lazer-walker.png" alt="Em Lazer-Walker" class="speaker-img" />
 
-### Mike Lazer-Walker
+### Em Lazer-Walker
 
 **_So THAT'S how my phone knows where I am!_**
 
@@ -179,7 +179,7 @@ Your phone knows where you are at all times, usually with pretty shocking accura
 
 This talk will dive into the math and physics underlying modern smartphone location technology (GPS, AGPS, and indoor location), but we'll also take a walk through the history of location tech. Modern GPS arose out of Cold War-era US DoD research, but how is that research connected to the larger historical and political context of geolocation throughout the ages? How is the technical solution to tracking Russian missiles directly indebted to the 17th century sailors who developed smarter ways to locate themselves on the open sea? This talk will answer all of that and more!
 
-**Mike** makes interactive art, experimental games, and software tools. Above all, he makes things that spark intellectual curiosity and inspire people to become self-motivated learners.
+**Em** make interactive art, experimental games, and software tools. Above all, they make things that spark intellectual curiosity and inspire people to become self-motivated learners.
 
 ---
 
