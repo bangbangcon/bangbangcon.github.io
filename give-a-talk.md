@@ -7,11 +7,11 @@ title: Call for Talk Proposals! - !!Con 2020
 
 Hi!
 
-!!Con is back for our **seventh year** of celebrating the joy, excitement, and surprise of computing, and we want **you** to [submit a talk* proposal](). The **submission deadline** is **Sunday, March 1**.
+!!Con is back for our **seventh year** of celebrating the joy, excitement, and surprise of computing, and we want **you** to [submit a talk* proposal](https://docs.google.com/forms/d/e/1FAIpQLSejF7_QPTcLokFdDKKTmA-NQDacZybnCDwoFnEpeoFvHXDWgw/viewform?usp=sf_link). The **submission deadline** is **Sunday, March 1**.
 
 Since its launch in 2014, !!Con talks have featured everything from [glowing mushrooms](https://www.youtube.com/watch?v=T75FvUDirNM) to [game theory](https://www.youtube.com/watch?v=RHg2JIvoaq0); from [machine knitting](https://www.youtube.com/watch?v=ihqcgrR0azw) to [geolocation](https://www.youtube.com/watch?v=NvShiF4tnMM); from [live coding on an Apple II](https://www.youtube.com/watch?v=DY4t9IHFD4E) to [queer feminist cyberpunk manifestos](https://www.youtube.com/watch?v=5GiQovHaT_g). We’ve had speakers who are programmers, poets, scientists, students, and more!
 
-What’s an idea that delights you? Did you learn something surprising recently? Is there a tool you love that you’ve been telling everyone about? Did you do something with computers that seems impossible or amazing or just really fun? Please take this call for talk* proposals as an [invitation to meditate](https://twitter.com/akaptur/status/583115830621184000) on what you love about computing, and then [submit a talk*]() about one of those things!
+What’s an idea that delights you? Did you learn something surprising recently? Is there a tool you love that you’ve been telling everyone about? Did you do something with computers that seems impossible or amazing or just really fun? Please take this call for talk* proposals as an [invitation to meditate](https://twitter.com/akaptur/status/583115830621184000) on what you love about computing, and then [submit a talk*](https://docs.google.com/forms/d/e/1FAIpQLSejF7_QPTcLokFdDKKTmA-NQDacZybnCDwoFnEpeoFvHXDWgw/viewform?usp=sf_link) about one of those things!
 
 The only requirements are that your talk*:
 
@@ -64,4 +64,4 @@ Preparing an amazing conference talk is hard work. To show our appreciation, we�
 
 We welcome all speakers, regardless of nationality. We generally expect that accepted speakers who confirm their participation will travel to New York to present their talk in person. However, if any accepted speaker anticipates visa-related difficulties in traveling to the conference, we will make arrangements to enable remote participation, and not require them to attend the conference in order to present their talk. In such a case, [contact us](index.html#organizers) for further guidance.
 
-You can submit your talk* by using this [form]. Thanks for submitting to !!Con!
+You can submit your talk* by using this [form](https://docs.google.com/forms/d/e/1FAIpQLSejF7_QPTcLokFdDKKTmA-NQDacZybnCDwoFnEpeoFvHXDWgw/viewform?usp=sf_link). Thanks for submitting to !!Con!
