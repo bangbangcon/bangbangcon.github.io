@@ -122,7 +122,7 @@ class="magic">.</span><div class="logo"><img width="400"
     class="magic">.</span><div class="logo"><img width="360"
     alt="Two Sigma" src="images/sponsors/twosigma.png" /></div></a></div>
 
-  <div class="sponsor"><a href="https://www.janestreet.com/join-jane-street/" target="_blank"><span
+  <div class="sponsor"><a href="https://www.janestreet.com/technology/" target="_blank"><span
     class="magic">.</span><div class="logo"><img width="360"
     alt="Jane Street" src="images/sponsors/janestreet.png" /></div></a></div>
 </div>
