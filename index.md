@@ -112,6 +112,13 @@ class="magic">.</span><div class="logo"><img width="400"
     alt="Reactor" src="images/sponsors/reactor.svg" /></div></a></div>
 
 
+  <h3>EXCELLENT!! Sponsors</h3>
+
+
+  <div class="sponsor medium-sponsor"><a href="https://xandr.com/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="380"
+    alt="Xandr" src="images/sponsors/xandr.png" /></div></a></div>
+
   <h3>AWESOME! Sponsors</h3>
 
   <div class="sponsor"><a href="https://kickstarter.engineering/" target="_blank"><span
