@@ -468,4 +468,4 @@ Morning of the talk I’ll tweet a call: nostalgic programming topics for a free
 
 ---
 
-Perhaps you would be interested in our [2018](2018/speakers.html), [2017](2017/speakers.html), [2016](2016/speakers.html), [2015](2015/speakers.html), or [2014](2014/speakers.html) speakers as well?
+Perhaps you would be interested in our [2018](../2018/speakers.html), [2017](../2017/speakers.html), [2016](../2016/speakers.html), [2015](../2015/speakers.html), or [2014](../2014/speakers.html) speakers as well?
