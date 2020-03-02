@@ -24,12 +24,11 @@ joyous, exciting, and surprising moments in computing.
 
 ## Who's speaking?
 
-Maybe [you](give-a-talk.html)!  Our call for talk proposals is open!
+Our [call for talk](give-a-talk.html) proposals is closed. Thanks for all your wonderful submissions! We'll announce our speakers soon!
 
 ## Where and when?
 
-!!Con 2020 will be held  on the weekend of May 9-10, 2020. Information about this year's venue
-coming soon! 
+!!Con 2020 will be held at Microsoft's Reactor space in Times Square on the weekend of May 9-10, 2020.
 
 !!Con is a *pay-what-you-want* conference.  Stay tuned for information about registration.
 
