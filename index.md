@@ -28,7 +28,7 @@ Our [call for talk](give-a-talk.html) proposals is closed. Thanks for all your w
 
 ## Where and when?
 
-!!Con 2020 will be held as an *experimental remote conference*!!  More information following soon.
+!!Con 2020 will be held as an *experimental remote conference* on the weekend of May 9-10, 2020!!  More information following soon.
 
 !!Con is a *pay-what-you-want* conference.  Stay tuned for information about registration.
 
