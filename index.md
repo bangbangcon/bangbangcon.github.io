@@ -104,13 +104,6 @@ emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://tw
 Is your organization interested in sponsoring !!Con?  Check out our [sponsorship page](sponsors.html)!
 
 <div class="sponsor-list" markdown="0">
-  <h3>PHENOMENAL!!! Sponsors</h3>
-
-  <div class="sponsor big-sponsor"><a href="https://developer.microsoft.com/en-us/reactor/" target="_blank"><span
-class="magic">.</span><div class="logo"><img width="400"
-    alt="Reactor" src="images/sponsors/reactor.svg" /></div></a></div>
-
-
   <h3>EXCELLENT!! Sponsors</h3>
 
 
