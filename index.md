@@ -30,7 +30,7 @@ Our [call for talk](give-a-talk.html) proposals is closed. Thanks for all your w
 
 !!Con 2020 will be held as an *experimental remote conference* on the weekend of May 9-10, 2020!!  More information following soon.
 
-!!Con is a *pay-what-you-want* conference.  Stay tuned for information about registration.
+!!Con is a *pay-what-you-want* conference. Our registration will open April 15th (first batch) and April 16th (second batch). 
 
 <a name="testimonials" id="testimonials"></a>
 
