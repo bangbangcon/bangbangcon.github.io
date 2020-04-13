@@ -21,6 +21,8 @@ title: Speakers - !!Con 2020
 <a name="taeyoon-choi" id="taeyoon-choi">
 <img src="images/speakers/taeyoon-choi.png" alt="Taeyoon Choi" class="speaker-img" />
 
+### Taeyoon Choi
+
 **Taeyoon Choi** is an artist, educator, and organizer. Taeyoon is a cofounder of School for Poetic Computation, an artist-run school with the motto of "More Poetry, Less Demo!" Taeyoon seeks a sense of care, gentleness, intellectual kinship, Magnanimity, selflessness, justice and solidarity in his work and collaboration. He presented installations, participatory performances and workshops in various DIY art spaces as well as Eyebeam Art and Technology Center, Los Angeles County Museum of Art, New Museum, Whitney Museum, M+ Museum, Istanbul Design Biennale, Mediacity Seoul Biennale and Shanghai Biennale. Recently, Taeyoon worked Mimi Onuoha to start the New York Tech Zine Fair with help of Ritu Ghiya and Neta Bomani. He collaborated with Nabil Hassein and Sonia Boller to organize the Code Ecologies conference about the environmental impact of technology. As a disability justice organizer, Taeyoon continue to work with the Deaf and Disability community to enhance accessibility and inclusion. Taeyoon likes to poetry, drawing and vegetarian food.  
 
 ## Lightning Talks
