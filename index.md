@@ -22,9 +22,42 @@ ten-minute talks** (with lots of breaks, of course!) to celebrate the
 joyous, exciting, and surprising moments in computing.
 </p>
 
+<div class="speaker-pics" markdown="0">
+  <div><a href="./speakers.html#allison-parrish"><img height="100" width="100" src="images/speakers/allison-parrish.png" alt="Allison Parrish" /></a></div>
+  <div><a href="./speakers.html#amy-cash"><img height="100" width="100" src="images/speakers/amy-cash.png" alt="Amy Cash" /></a></div>
+  <div><a href="./speakers.html#andrew-yoon"><img height="100" width="100" src="images/speakers/andrew-yoon.png" alt="Andrew Yoon" /></a></div>
+  <!-- <div><a href="./speakers.html#"><img height="100" width="100" src="images/speakers/.png" alt="Ben Kuhn" /></a></div> -->
+  <div><a href="./speakers.html#char-stiles"><img height="100" width="100" src="images/speakers/char-stiles.png" alt="Char Stiles" /></a></div>
+  <div><a href="./speakers.html#chloe-revery"><img height="100" width="100" src="images/speakers/chloe-revery.png" alt="Chloe Revery" /></a></div>
+  <!-- <div><a href="./speakers.html#"><img height="100" width="100" src="images/speakers/.png" alt="Dylan Nugent" /></a></div> -->
+  <!-- <div><a href="./speakers.html#"><img height="100" width="100" src="images/speakers/.png" alt="Em Lazer-Walker" /></a></div> -->
+  <div><a href="./speakers.html#franklin-hu"><img height="100" width="100" src="images/speakers/franklin-hu.png" alt="Franklin Hu" /></a></div>
+  <div><a href="./speakers.html#gabor-ugray"><img height="100" width="100" src="images/speakers/gabor-ugray.png" alt="Gábor Ugray" /></a></div>
+  <div><a href="./speakers.html#gargi-sharma"><img height="100" width="100" src="images/speakers/gargi-sharma.png" alt="Gargi Sharma" /></a></div>
+  <div><a href="./speakers.html#helen-hou-sandi"><img height="100" width="100" src="images/speakers/helen-hou-sandi.png" alt="Helen Hou-Sandi" /></a></div>
+  <div><a href="./speakers.html#james-ryan"><img height="100" width="100" src="images/speakers/james-ryan.png" alt="James Ryan" /></a></div>
+  <div><a href="./speakers.html#jonathan-kingsley"><img height="100" width="100" src="images/speakers/jonathan-kingsley.png" alt="Jonathan Kingsley" /></a></div>
+  <div><a href="./speakers.html#joshua-wise"><img height="100" width="100" src="images/speakers/joshua-wise.png" alt="Joshua Wise" /></a></div>
+  <div><a href="./speakers.html#julia-tufts"><img height="100" width="100" src="images/speakers/julia-tufts.png" alt="Julia Tufts" /></a></div>
+  <!-- <div><a href="./speakers.html#"><img height="100" width="100" src="images/speakers/.png" alt="Justin Michaliga" /></a></div> -->
+  <div><a href="./speakers.html#martin-gaston"><img height="100" width="100" src="images/speakers/martin-gaston.png" alt="Martin Gaston" /></a></div>
+  <div><a href="./speakers.html#matt-clawson"><img height="100" width="100" src="images/speakers/matt-clawson.png" alt="Matt Clawson" /></a></div>
+  <div><a href="./speakers.html#matthew-dockrey"><img height="100" width="100" src="images/speakers/matthew-dockrey.png" alt="Matthew Dockrey" /></a></div>
+  <div><a href="./speakers.html#nick-sweeting"><img height="100" width="100" src="images/speakers/nick-sweeting.png" alt="Nick Sweeting" /></a></div>
+  <div><a href="./speakers.html#omar-rizwan"><img height="100" width="100" src="images/speakers/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
+  <div><a href="./speakers.html#payas-rajan"><img height="100" width="100" src="images/speakers/payas-rajan.png" alt="Payas Rajan" /></a></div>
+  <!-- <div><a href="./speakers.html#"><img height="100" width="100" src="images/speakers/.png" alt="Phil Warren" /></a></div> -->
+  <div><a href="./speakers.html#sacha-sayan"><img height="100" width="100" src="images/speakers/sacha-sayan.png" alt="Sacha Sayan" /></a></div>
+  <div><a href="./speakers.html#taeyoon-choi"><img height="100" width="100" src="images/speakers/taeyoon-choi.png" alt="Taeyoon Choi" /></a></div>
+  <div><a href="./speakers.html#tamas-kadar"><img height="100" width="100" src="images/speakers/tamas-kadar.png" alt="Tamás Kádár" /></a></div>
+  <div><a href="./speakers.html#tim-holman"><img height="100" width="100" src="images/speakers/tim-holman.png" alt="Tim Holman" /></a></div>
+  <div><a href="./speakers.html#tristan-hume"><img height="100" width="100" src="images/speakers/tristan-hume.png" alt="Tristan Hume" /></a></div>
+</div>
+
 ## Who's speaking?
 
-Our [call for talk](give-a-talk.html) proposals is closed. Thanks for all your wonderful submissions! We'll announce our speakers soon!
+Our [call for talk](give-a-talk.html) proposals is closed. Thanks for
+all your wonderful talk proposal submissions! Learn more about our amazing [speakers](speakers.html)!
 
 ## Where and when?
 
