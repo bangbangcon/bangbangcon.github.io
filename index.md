@@ -6,6 +6,8 @@ title: The joy, excitement, and surprise of computing - !!Con 2020
 <p style="text-align: center;">
   **Quick Links:**
   &middot;
+  [Tickets](tickets.html)
+  &middot;
   [Venue](venue-accessibility.html)
   &middot;
   [Speakers](speakers.html)
@@ -30,7 +32,7 @@ Our [call for talk](give-a-talk.html) proposals is closed. Thanks for all your w
 
 !!Con 2020 will be held as an *experimental remote conference* on the weekend of May 9-10, 2020!!  More information following soon.
 
-!!Con is a *pay-what-you-want* conference. Our registration will open April 15th (first batch) and April 16th (second batch). 
+!!Con is a *pay-what-you-want* conference. Our registration will open April 15th (first batch) and April 16th (second batch).
 
 <a name="testimonials" id="testimonials"></a>
 
@@ -51,7 +53,7 @@ Here's what some of our past speakers and attendees said about us:
 >
 > "@bangbangcon is **the most exciting and important conference in NYC**"
 > -- [@aaronmblevin](https://twitter.com/aaronmblevin/status/843949325906534402)
-> 
+>
 > "@bangbangcon was awesome!  Learned a lot, met very friendly people, and **left inspired**."
 > -- [@bxmani](https://twitter.com/bxmani/status/861400448107937792)
 

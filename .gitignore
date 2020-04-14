@@ -3,3 +3,4 @@ _site/
 *.sw*
 
 Gemfile.lock
+.jekyll-cache
