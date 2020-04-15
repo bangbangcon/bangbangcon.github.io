@@ -102,24 +102,22 @@ Have you ever tried to solve a crossword puzzle and walked away stumped? Imagine
 ---
 
 <a name="dylan-nugent" id="dylan-nugent"></a>
-<!-- <img src="images/speakers/" alt="" class="speaker-img" /> -->
+<img src="images/speakers/dylan-nugent.png" alt="" class="speaker-img" />
 
 ### Dylan Nugent
 
 **Let's implement DNS to learn history!**
 
-The history of most internet protocols is captured in static and sometimes obtuse documents called RFCs. Reading all the necessary RFCs to understand a protocol might seem like a tedious chore...but it doesn't have to be!
+The history of most internet protocols is captured in static and sometimes obtuse standards documents called RFCs. Reading all the necessary RFCs to understand a protocol might seem like a tedious chore...but it doesn't have to be! RFCs give us a unique glance into what was (and wasn't) on the minds of engineers decades ago when they were designing these protocols! If we study RFCs like archeologists might study artifacts, we can learn a lot!
 
-RFCs give us a unique glance into what was (and wasn't) on the minds of engineers decades ago when they were designing these protocols! If we study RFCs like archeologists might study artifacts, we can learn a lot!
+DNS, the system that translates domain names like ""google.com"" into routable addresses, is one of the oldest application protocols still in regular use! It's defined across over 256 different RFCs, which sounds daunting, but we don't need to look at them all! Let's take a deep dive into a few of these RFCs and learn what we can by exploring some of DNS's stranger quirks!
 
-DNS, the system that translates domain names like ""google.com"" into routable addresses, is one of the oldest application protocols still in regular use! It's defined across over 256 different RFCs, which sounds daunting, but we don't need to look at them all!
-
-Let's take a deep dive into a few of these RFCs and learn what we can by exploring some of DNS's stranger quirks!
+**Dylan** is a programmer who just moved to Brooklyn from San Francisco. He's currently recovering from being a manager by spending time at the Recurse Center, a self-directed retreat for programmers who want to learn about things (such as the minuta of networking protocols)! When he's not building DNS servers for fun, he's probably backpacking, singing karaoke, or both.
 
 ---
 
 <a name="em-lazer-walker" id="em-lazer-walker"></a>
-<!-- <img src="images/speakers/" alt="" class="speaker-img" /> -->
+<img src="images/speakers/em-lazer-walker.png" alt="" class="speaker-img" style="border: none; background-color: transparent;"/>
 
 ### Em Lazer-Walker
 
@@ -380,9 +378,13 @@ Road networks are often modeled as graphs with millions of edges, and finding a 
 
 ### Phil Warren
 
-**Weird Photography: Ancient Technology, Modern Techniques, and Hacked Cameras!**
+**Recreating Photography of the 1850s in a Digital World:  Cowboys, Principal Component Analysis, and One Vengeful Volcano Spirit!!!**
 
-Let’s explore making pretty pictures with things from our ancient past-  Using writings from Ptolemy, chemical analysis of Civil War era photography, and one 20th-century cartographer’s musings from unwrapping an orange, we will setup modern code to do some real creative stuff!  Then we’ll look at unseen spectrums, tiny planets, and digital tintypes.
+Ever wonder why photos taken from the civil war era make the subject look ridden hard and put away wet?  Exploring the chemical properties from those photos, we can learn why conventional modern cameras can’t naturally photograph the same way, and how we can hack them to get closer.  Along the way we’ll employ the help of some principal component analysis on a 3 dimensional volume of color-sorted pixels to make our weird novel data look correct.  Then we’ll make portraiture with glowing eyes and unseen freckles, because we’ll learn how to make and use UV-sensitive digital photography- and learn a thing or two* about vengeful volcano spirits!
+
+*only one thing will be learned about a singular vengeful volcano spirit.
+
+**Phil Warren** works in R&D in image technology, and enjoys adventures, eating things, and meeting people. He wants to explore and see everything, and discover new ways to do so. His skillset does not include competently hang gliding or playing a singing saw, but he’s tried it anyway, and hopes to try many more esoteric pastimes!
 
 ---
 
@@ -406,7 +408,7 @@ When **Sacha** (@sachasayan) isn't getting himself into trouble committing to si
 
 **Little Printing for everyone!!1**
 
-Do you remember the Little Printer? It was an internet-connected, super cute thermal printer; which printed you your calendar and news headlines in the morning; you could even message your friends if they also had one. It was a commercial flop and the servers were shut down in 2015, but that's only the start of our story. Today, with a little work, you too have your own Little Printer — and now you can use any thermal printer for it (some assembly required).
+Do you remember the Little Printer? It was an internet-connected, super cute thermal printer, which printed you your calendar and news headlines in the morning; you could even message your friends if they also had one. It was a commercial flop and the servers were shut down in 2015, but that's only the start of our story. Today, with a little work, you too have your own Little Printer — and now you can use any thermal printer for it (some assembly required).
 
 **Tamás** is a generalist working in DevOps and Infrastructure lately, automating all the things. He's really into writing lately and loves the world's most pointless drink, a decaf iced latte.
 

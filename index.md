@@ -31,8 +31,8 @@ joyous, exciting, and surprising moments in computing.
   <!-- <div><a href="./speakers.html#"><img height="100" width="100" src="images/speakers/thumbnail/.jpg" alt="Ben Kuhn" /></a></div> -->
   <div><a href="./speakers.html#char-stiles"><img height="100" width="100" src="images/speakers/thumbnail/char-stiles.jpg" alt="Char Stiles" /></a></div>
   <div><a href="./speakers.html#chloe-revery"><img height="100" width="100" src="images/speakers/thumbnail/chloe-revery.jpg" alt="Chloe Revery" /></a></div>
-  <!-- <div><a href="./speakers.html#"><img height="100" width="100" src="images/speakers/thumbnail/.jpg" alt="Dylan Nugent" /></a></div> -->
-  <!-- <div><a href="./speakers.html#"><img height="100" width="100" src="images/speakers/thumbnail/.jpg" alt="Em Lazer-Walker" /></a></div> -->
+  <div><a href="./speakers.html#dylan-nugent"><img height="100" width="100" src="images/speakers/thumbnail/dylan-nugent.jpg" alt="Dylan Nugent" /></a></div>
+  <div><a href="./speakers.html#em-lazer-walker"><img height="100" width="100" src="images/speakers/thumbnail/em-lazer-walker.png" alt="Em Lazer-Walker" style="background-color: transparent; border: none;"/></a></div>
   <div><a href="./speakers.html#franklin-hu"><img height="100" width="100" src="images/speakers/thumbnail/franklin-hu.jpg" alt="Franklin Hu" /></a></div>
   <div><a href="./speakers.html#gabor-ugray"><img height="100" width="100" src="images/speakers/thumbnail/gabor-ugray.jpg" alt="Gábor Ugray" /></a></div>
   <div><a href="./speakers.html#gargi-sharma"><img height="100" width="100" src="images/speakers/thumbnail/gargi-sharma.jpg" alt="Gargi Sharma" /></a></div>
