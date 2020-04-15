@@ -63,9 +63,9 @@ Roses are red, violets are---purple? Blue? Why not both! {{'The Blur Markup Lang
 
 ### Ben Kuhn
 
-**89 characters of base-11?! Mobile networking in rural country!**
+**89 characters of base-11?! Mobile networking in rural Ethiopia!**
 
-Suppose you're trying to build a client-server app that works in rural country. Mobile data there doesn't work most of the time! Of course, you're not going to let that stop you... but how will you manage?! How many strange protocols will you need to abuse to make it work??
+Suppose you're trying to build a client-server app that works in rural Ethiopia. Mobile data there doesn't work most of the time! Of course, you're not going to let that stop you... but how will you manage?! How many strange protocols will you need to abuse to make it work??
 
 We'll start our journey with a standard Android app using standard HTTP calls, and slowly descend into the abyss through a soup of acronyms including SSL, UDP, SMS, and even USSD. By the end, we'll have encoded our entire network request into a string of less than 89 characters which are either digits or the letter N, and also understood why the heck we need to do that?!
 
