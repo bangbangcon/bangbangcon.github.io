@@ -22,7 +22,7 @@ This is a remote conference, so we've adjusted the schedule to try to be timezon
 | 10:30am         | Stream Begins
 | 10:45am         | Opening remarks <br /> &bull; Keynote talk: [Taeyoon Choi](speakers.html#taeyoon-choi)
 | 11:45am         | Break!
-| 12:00pm         | **Session the First:** <br /> &bull; *The Taming of the Clue: Teaching a Pen Plotter To Solve Crossword Puzzles!!* ([Chloe Revery](speakers.html#chloe-revery))<br /> &bull; *Little Printing for everyone!!1* ([Tamás Kádár](speakers.html#tamás-kádár))<br /> &bull; *Printing floating point numbers is surprisingly hard!!* ([Aruna Sankaranarayanan](speakers.html#aruna-sankaranarayanan))
+| 12:00pm         | **Session the First:** <br /> &bull; *The Taming of the Clue: Teaching a Pen Plotter To Solve Crossword Puzzles!!* ([Chloe Revery](speakers.html#chloe-revery))<br /> &bull; *Little Printing for everyone!!1* ([Tamás Kádár](speakers.html#tamás-kádár))<br /> &bull; *Printing floating point numbers is surprisingly hard!!* ([Gargi Sharma](speakers.html#gargi-sharma))
 | 12:45pm         | Break!
 | 1:00pm          | **Session the Second:** <br /> &bull; *bringing back my 1998 by building an arduino that can recover a playstation memory card!* ([Martin Gaston](speakers.html#martin-gaston))<br /> &bull; *Trapped in codepoints no more! I'm freeing Chinese characters.* ([Gábor Ugray](speakers.html#gábor-ugray))<br /> &bull; *Reverse engineer your ski goggles for fun and profit!* ([Jonathan Kingsley](speakers.html#jonathan-kingsley))
 | 1:45pm          | Break!
