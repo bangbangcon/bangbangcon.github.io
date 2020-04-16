@@ -10,7 +10,7 @@ title: Speakers - !!Con 2020
 ## Keynote Talks
 
 <a name="allison-parrish" id="allison-parrish"></a>
-<img src="images/speakers/allison-parrish.png" alt="Allison Parrish" class="speaker-img" />
+<img src="images/speakers/thumbnail/allison-parrish.jpg" alt="Allison Parrish" class="speaker-img" />
 
 ### Allison Parrish
 
@@ -19,7 +19,7 @@ title: Speakers - !!Con 2020
 ---
 
 <a name="taeyoon-choi" id="taeyoon-choi">
-<img src="images/speakers/taeyoon-choi.png" alt="Taeyoon Choi" class="speaker-img" />
+<img src="images/speakers/thumbnail/taeyoon-choi.jpg" alt="Taeyoon Choi" class="speaker-img" />
 
 ### Taeyoon Choi
 
@@ -32,20 +32,20 @@ title: Speakers - !!Con 2020
 ### Amy Cash
 
 <a name="amy-cash" id="amy-cash"></a>
-<img src="images/speakers/amy-cash.png" alt="Amy Cash" class="speaker-img" />
+<img src="images/speakers/thumbnail/amy-cash.jpg" alt="Amy Cash" class="speaker-img" />
 
 **Punch Card Love! A (Very!) Personal History of Computer Dating!**
 
 I owe my existence to punch cards.  When I tell people that my parents met on a computer date, they generally aren’t that surprised. This changes when I mention that the date was arranged in 1968.  Where, when, and why did the computer dating industry begin? Who was invited to participate (and who was not)?  What machines, languages, and algorithms were used?  All these questions will be answered as we explore the social and technical aspects of the early days of using computation to find romance.
 
-In 1998, a friend of **Amy**'s told her she should get into computer programming; 19 years later she finally took him up on the idea. She is a 2017 graduate of Ada Developer's Academy (Cohort 8!) and she currently develops software for biologists at the University of Washington. 
+In 1998, a friend of **Amy**'s told her she should get into computer programming; 19 years later she finally took him up on the idea. She is a 2017 graduate of Ada Developer's Academy (Cohort 8!) and she currently develops software for biologists at the University of Washington.
 
 ---
 
 ### Andrew Yoon
 
 <a name="andrew-yoon" id="andrew-yoon"></a>
-<img src="images/speakers/andrew-yoon.png" alt="Andrew Yoon" class="speaker-img" />
+<img src="images/speakers/thumbnail/andrew-yoon.jpg" alt="Andrew Yoon" class="speaker-img" />
 
 
 **Writing {% raw %} {{'poems that change', 'chance poems', 'dynamic poetry'}}{% endraw %}!**
@@ -59,7 +59,7 @@ Roses are red, violets are---purple? Blue? Why not both! {{'The Blur Markup Lang
 ---
 
 <a name="ben-kuhn" id="ben-kuhn"></a>
-<!-- <img src="images/speakers/ben-kuhn" alt="Ben Kuhn" class="speaker-img" /> -->
+<!-- <img src="images/speakers/thumbnail/ben-kuhn" alt="Ben Kuhn" class="speaker-img" /> -->
 
 ### Ben Kuhn
 
@@ -72,13 +72,13 @@ We'll start our journey with a standard Android app using standard HTTP calls, a
 ---
 
 <a name="char-stiles" id="char-stiles"></a>
-<img src="images/speakers/char-stiles.png" alt="Char Stiles" class="speaker-img" />
+<img src="images/speakers/thumbnail/char-stiles.jpg" alt="Char Stiles" class="speaker-img" />
 
 ### Char Stiles
 
 **EMAIL!**
 
-I am going to talk about EMAIL! Yes, email! Not to complain about email, but the good parts of email, like the cool stuff that we can do with it: maintain a git repo, display html, run your own email server, use a CLI inbox, and make art. For so many, it is the most used form of digital communication that only necessarily relies on a protocol, and not a company or institution. Email was born in the 70s and it’s not going anywhere! 
+I am going to talk about EMAIL! Yes, email! Not to complain about email, but the good parts of email, like the cool stuff that we can do with it: maintain a git repo, display html, run your own email server, use a CLI inbox, and make art. For so many, it is the most used form of digital communication that only necessarily relies on a protocol, and not a company or institution. Email was born in the 70s and it’s not going anywhere!
 
 I will share my journey making my own mischievous email server, which aims to bring a spark back into email communication. I will also go over the protocol (this talk is still 10 min, the protocol is just that simple!).
 
@@ -89,7 +89,7 @@ Hopefully at the end of this talk everyone can appreciate email a little more, a
 ---
 
 <a name="chloe-revery" id="chloe-revery"></a>
-<img src="images/speakers/chloe-revery.png" alt="Chloe Revery" class="speaker-img" />
+<img src="images/speakers/thumbnail/chloe-revery.jpg" alt="Chloe Revery" class="speaker-img" />
 
 ### Chloe Revery
 
@@ -102,7 +102,7 @@ Have you ever tried to solve a crossword puzzle and walked away stumped? Imagine
 ---
 
 <a name="dylan-nugent" id="dylan-nugent"></a>
-<!-- <img src="images/speakers/" alt="" class="speaker-img" /> -->
+<!-- <img src="images/speakers/thumbnail/" alt="" class="speaker-img" /> -->
 
 ### Dylan Nugent
 
@@ -119,7 +119,7 @@ Let's take a deep dive into a few of these RFCs and learn what we can by explori
 ---
 
 <a name="em-lazer-walker" id="em-lazer-walker"></a>
-<!-- <img src="images/speakers/" alt="" class="speaker-img" /> -->
+<!-- <img src="images/speakers/thumbnail/" alt="" class="speaker-img" /> -->
 
 ### Em Lazer-Walker
 
@@ -127,7 +127,7 @@ Let's take a deep dive into a few of these RFCs and learn what we can by explori
 
 My game designer partner and I had a seemingly-impossible challenge: we needed to take the traditionally-arduous process of fine-tuning the way a game ""feels"", and short-circuit that feedback cycle so it could happen in hours or days rather than weeks.
 
-Our solution: a physical MIDI controller! We wired up the sliders and knobs wired up to control the various ""gamefeel"" variables in our prototypes: things like how quickly you can turn, how powerful gravity is, how big explosions are when you hit something. 
+Our solution: a physical MIDI controller! We wired up the sliders and knobs wired up to control the various ""gamefeel"" variables in our prototypes: things like how quickly you can turn, how powerful gravity is, how big explosions are when you hit something.
 
 This talk will dive into the design philosophy of why being able to tune and tweak our games kinaesthetically with chunky physical knobs was so much more effective than changing numbers in a text file, explain how you too can use cheap MIDI controllers for unintended productive purposes, and above all emphasize the importance of designing tools that foster creativity and play rather than simply optimizing for effectiveness.
 
@@ -136,7 +136,7 @@ This talk will dive into the design philosophy of why being able to tune and twe
 ---
 
 <a name="franklin-hu" id="franklin-hu"></a>
-<img src="images/speakers/franklin-hu.png" alt="Franklin Hu" class="speaker-img" />
+<img src="images/speakers/thumbnail/franklin-hu.jpg" alt="Franklin Hu" class="speaker-img" />
 
 ### Franklin Hu
 
@@ -151,7 +151,7 @@ In this talk, we’ll walk through the different encoding schemes used to conver
 ---
 
 <a name="gabor-ugray" id="gabor-ugray"></a>
-<img src="images/speakers/gabor-ugray.png" alt="Gábor Ugray" class="speaker-img" />
+<img src="images/speakers/thumbnail/gabor-ugray.jpg" alt="Gábor Ugray" class="speaker-img" />
 
 ### Gábor Ugray
 
@@ -171,7 +171,7 @@ I’ll conclude by showing the incredibly cool tools this dataset makes possible
 ---
 
 <a name="gargi-sharma" id="gargi-sharma"></a>
-<img src="images/speakers/gargi-sharma.png" alt="Gargi Sharma" class="speaker-img" />
+<img src="images/speakers/thumbnail/gargi-sharma.jpg" alt="Gargi Sharma" class="speaker-img" />
 
 ### Gargi Sharma
 
@@ -184,7 +184,7 @@ Not many of us have wondered "how are floating-point numbers rendered as text st
 ---
 
 <a name="helen-hou-sandi" id="helen-hou-sandi"></a>
-<img src="images/speakers/helen-hou-sandi.png" alt="helen-hou-sandi" class="speaker-img" />
+<img src="images/speakers/thumbnail/helen-hou-sandi.jpg" alt="helen-hou-sandi" class="speaker-img" />
 
 ### Helen Hou-Sandi
 
@@ -197,7 +197,7 @@ Voice assistants can be great, but when you throw in noisy households and small 
 ---
 
 <a name="james-ryan" id="james-ryan"></a>
-<img src="images/speakers/james-ryan.png" alt="James Ryan" class="speaker-img" />
+<img src="images/speakers/thumbnail/james-ryan.jpg" alt="James Ryan" class="speaker-img" />
 
 ### James Ryan
 
@@ -210,7 +210,7 @@ On October 26th, 1960, CBS-TV aired three computer-generated playlets for a view
 ---
 
 <a name="jonathan-kingsley" id="jonathan-kingsley"></a>
-<img src="images/speakers/jonathan-kingsley.png" alt="Jonathan Kingsley" class="speaker-img" />
+<img src="images/speakers/thumbnail/jonathan-kingsley.jpg" alt="Jonathan Kingsley" class="speaker-img" />
 
 ### Jonathan Kingsley
 
@@ -223,7 +223,7 @@ Do you like tearing down weird hardware? Are you a fan of bringing old things ba
 ---
 
 <a name="joshua-wise" id="joshua-wise"></a>
-<img src="images/speakers/joshua-wise.png" alt="Joshua Wise" class="speaker-img" />
+<img src="images/speakers/thumbnail/joshua-wise.jpg" alt="Joshua Wise" class="speaker-img" />
 
 ### Joshua Wise
 
@@ -238,7 +238,7 @@ I feel like the best ways I've learned -- both when I've built hardware, and whe
 ---
 
 <a name="julia-tufts" id="julia-tufts"></a>
-<img src="images/speakers/julia-tufts.png" alt="Julia Tufts" class="speaker-img" />
+<img src="images/speakers/thumbnail/julia-tufts.jpg" alt="Julia Tufts" class="speaker-img" />
 
 ### Julia Tufts
 
@@ -251,7 +251,7 @@ How does a JavaScript object feel when it's hit with a !! operator? In this musi
 ---
 
 <a name="justin-michaliga" id="justin-michaliga"></a>
-<!-- <img src="images/speakers/" alt="" class="speaker-img" /> -->
+<!-- <img src="images/speakers/thumbnail/" alt="" class="speaker-img" /> -->
 
 ### Justin Michaliga
 
@@ -264,26 +264,26 @@ By leveraging a small computing device and an RFID tag in her collar, I was able
 ---
 
 <a name="martin-gaston" id="martin-gaston"></a>
-<img src="images/speakers/martin-gaston.png" alt="Martin Gaston" class="speaker-img" />
+<img src="images/speakers/thumbnail/martin-gaston.jpg" alt="Martin Gaston" class="speaker-img" />
 
 ### Martin Gaston
 
 **bringing back my 1998 by building an arduino that can recover a playstation memory card!**
 
-In 1998, armed with the original PlayStation and my childhood, I saved Midgard from Sephiroth, averted nuclear armageddon by sneaking through Shadow Moses and escaped a zombie infested Racoon City. 
+In 1998, armed with the original PlayStation and my childhood, I saved Midgard from Sephiroth, averted nuclear armageddon by sneaking through Shadow Moses and escaped a zombie infested Racoon City.
 
-These iconic games have been re-released and remastered in various forms, but my digital memories of them now only exist on a single PlayStation Memory Card: 128kb of EEPROM storage I recently found hidden in a shoebox during a move. Awash with nostalgia by just holding the rectangular card in my hands, I realised I just had to find a way to break into this trove. 
+These iconic games have been re-released and remastered in various forms, but my digital memories of them now only exist on a single PlayStation Memory Card: 128kb of EEPROM storage I recently found hidden in a shoebox during a move. Awash with nostalgia by just holding the rectangular card in my hands, I realised I just had to find a way to break into this trove.
 
-Join me as I learn how to setup an Arduino to access this data, tear down an original PlayStation console, read those precious bytes from my memory card and then convert them into a format to relive my 1998 memories on a modern PlayStation emulator in 2020. 
+Join me as I learn how to setup an Arduino to access this data, tear down an original PlayStation console, read those precious bytes from my memory card and then convert them into a format to relive my 1998 memories on a modern PlayStation emulator in 2020.
 
-The talk is specifically aimed at beginners with an interest in hardware and low-level file manipulation, and looks to introduce obtaining, reading and parsing a binary file in an introductory and accessible way. Python is used for some file manipulation, so a little knowledge of dynamic languages and an interest in 90s gaming would likely be beneficial. 
+The talk is specifically aimed at beginners with an interest in hardware and low-level file manipulation, and looks to introduce obtaining, reading and parsing a binary file in an introductory and accessible way. Python is used for some file manipulation, so a little knowledge of dynamic languages and an interest in 90s gaming would likely be beneficial.
 
 Following careers in games media and marketing, **Martin** really got into programming in 2018 after previously assuming tech was inaccessible for people without a computer science degree. He was forged in the friendly fires of Founders and Coders - a tuition-free, peer-led UK bootcamp - and now talks about the 90s way too much with the rest of the team at 8th Light.
 
 ---
 
 <a name="matt-clawson" id="matt-clawson"></a>
-<img src="images/speakers/matt-clawson.png" alt="Matt Clawson" class="speaker-img" />
+<img src="images/speakers/thumbnail/matt-clawson.jpg" alt="Matt Clawson" class="speaker-img" />
 
 ### Matt Clawson
 
@@ -298,7 +298,7 @@ I’ll share my experience of going from an absolute beginner with a broken comp
 ---
 
 <a name="matthew-dockrey" id="matthew-dockrey"></a>
-<img src="images/speakers/matthew-dockrey.png" alt="matthew-dockrey" class="speaker-img" />
+<img src="images/speakers/thumbnail/matthew-dockrey.jpg" alt="matthew-dockrey" class="speaker-img" />
 
 ### Matthew Dockrey
 
@@ -309,7 +309,7 @@ We take ANDs and ORs for granted, but for millennia there was only the IMPLIES o
 ---
 
 <a name="nick-sweeting" id="nick-sweeting"></a>
-<img src="images/speakers/nick-sweeting.png" alt="Nick Sweeting" class="speaker-img" />
+<img src="images/speakers/thumbnail/nick-sweeting.jpg" alt="Nick Sweeting" class="speaker-img" />
 
 ### Nick Sweeting
 
@@ -324,7 +324,7 @@ When a massive ice storm took down 36,000 power pylons overnight in 1998, Quebec
 ---
 
 <a name="omar-rizwan" id="omar-rizwan"></a>
-<img src="images/speakers/omar-rizwan.png" alt="Omar Rizwan" class="speaker-img" />
+<img src="images/speakers/thumbnail/omar-rizwan.jpg" alt="Omar Rizwan" class="speaker-img" />
 
 ### Omar Rizwan
 
@@ -363,7 +363,7 @@ display update over time.
 ---
 
 <a name="payas-rajan" id="payas-rajan"></a>
-<img src="images/speakers/payas-rajan.png" alt="Payas Rajan" class="speaker-img" />
+<img src="images/speakers/thumbnail/payas-rajan.jpg" alt="Payas Rajan" class="speaker-img" />
 
 ### Payas Rajan
 
@@ -376,7 +376,7 @@ Road networks are often modeled as graphs with millions of edges, and finding a 
 ---
 
 <a name="phil-warren" id="phil-warren"></a>
-<!-- <img src="images/speakers/" alt="" class="speaker-img" /> -->
+<!-- <img src="images/speakers/thumbnail/" alt="" class="speaker-img" /> -->
 
 ### Phil Warren
 
@@ -387,7 +387,7 @@ Let’s explore making pretty pictures with things from our ancient past-  Using
 ---
 
 <a name="sacha-sayan" id="sacha-sayan"></a>
-<img src="images/speakers/sacha-sayan.png" alt="" class="speaker-img" />
+<img src="images/speakers/thumbnail/sacha-sayan.jpg" alt="" class="speaker-img" />
 
 ### Sacha Sayan
 
@@ -400,7 +400,7 @@ When **Sacha** (@sachasayan) isn't getting himself into trouble committing to si
 ---
 
 <a name="tamas-kadar" id="tamas-kadar"></a>
-<img src="images/speakers/tamas-kadar.png" alt="Tamás Kádár" class="speaker-img" />
+<img src="images/speakers/thumbnail/tamas-kadar.jpg" alt="Tamás Kádár" class="speaker-img" />
 
 ### Tamás Kádár
 
@@ -413,13 +413,13 @@ Do you remember the Little Printer? It was an internet-connected, super cute the
 ---
 
 <a name="tim-holman" id="tim-holman"></a>
-<img src="images/speakers/tim-holman.png" alt="Tim Holman" class="speaker-img" />
+<img src="images/speakers/thumbnail/tim-holman.jpg" alt="Tim Holman" class="speaker-img" />
 
 ### Tim Holman
 
 **The Making of a Mosquito.JS**
 
-The audio api's are one of the most complex and wonderful parts of the browser, built to open up the entire web to audio creation. At some point though, we were so preoccupied with whether or not we could, we didn't stop to think if we should... And as such, mosquito.js was born. 
+The audio api's are one of the most complex and wonderful parts of the browser, built to open up the entire web to audio creation. At some point though, we were so preoccupied with whether or not we could, we didn't stop to think if we should... And as such, mosquito.js was born.
 
 This talk is about my descent into madness, as piece by piece I poured my energy into best possible recreation of the most dangerous, and annoying creatures on the entire planet. Learn some web audio basics, and some neat tips and tricks, and see how one person completely fell apart trying to perfect something that should never have existed in the first place. If you're lucky, you can go a little insane too!
 
@@ -428,7 +428,7 @@ This talk is about my descent into madness, as piece by piece I poured my energy
 ---
 
 <a name="tristan-hume" id="tristan-hume"></a>
-<img src="images/speakers/tristan-hume.png" alt="Tristan Hume" class="speaker-img" />
+<img src="images/speakers/thumbnail/tristan-hume.jpg" alt="Tristan Hume" class="speaker-img" />
 
 ### Tristan Hume
 
@@ -440,4 +440,4 @@ My job involves a lot of staring at big numbers, like latencies in nanoseconds, 
 
 ---
 
-Perhaps you would also be interested in our [2019](2019/speakers.html), [2018](2018/speakers.html), [2017](2017/speakers.html), [2016](2016/speakers.html), [2015](2015/speakers.html), or [2014](2014/speakers.html) speakers? 
+Perhaps you would also be interested in our [2019](2019/speakers.html), [2018](2018/speakers.html), [2017](2017/speakers.html), [2016](2016/speakers.html), [2015](2015/speakers.html), or [2014](2014/speakers.html) speakers?
