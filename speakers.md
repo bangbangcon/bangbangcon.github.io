@@ -249,7 +249,7 @@ How does a JavaScript object feel when it's hit with a !! operator? In this musi
 ---
 
 <a name="justin-michaliga" id="justin-michaliga"></a>
-<!-- <img src="images/speakers/" alt="" class="speaker-img" /> -->
+<img src="images/speakers/justin-michaliga.png" alt="" class="speaker-img" />
 
 ### Justin Michaliga
 
@@ -258,6 +258,8 @@ How does a JavaScript object feel when it's hit with a !! operator? In this musi
 Ever since ScoobyDoo, we've longed for our pets to talk.  So I set out to make mine do just that. As a remote engineer, I spend most my days with my dog, [dog name]. If she's not right next to me, it's difficult to keep track of her needs, especially if I'm heads down in code. Wouldn't it be great if they could communicate their basic needs in a way we could all understand?
 
 By leveraging a small computing device and an RFID tag in her collar, I was able to translate my dog's proximity to areas of my apartment into a series of intents. For each intent, I sent a notification that I was able to hear through my Amazon Echo, texted to my Phone, or email me if I was away. Explore how I set this all up with minimal configurations and gave my pupper a voice!
+
+**Justin** is a engineer from Maryland/DC area and has been in New York the past 10 years.
 
 ---
 
@@ -302,7 +304,9 @@ I’ll share my experience of going from an absolute beginner with a broken comp
 
 **Programming from an alternate timeline!**
 
-We take ANDs and ORs for granted, but for millennia there was only the IMPLIES of classical Aristotelian syllogisms. It wasn't until the 19th century that mathematical logic started to emerge, and it was a long time before it looked anything like what we use today. In 1879, Gottlob Frege published a gloriously weird notation system using branching lines, concavities and judgments. Sadly, no one else ever adopted it -- in our timeline. Notation developed along less interesting lines here. But I wanted to see what programming would have been like had Frege won out, so I turned his notation into a working language. Doing so taught me just how different it is to approach problems with implication as your only logical operator, and it left me with a much deeper appreciation of our humble ANDs and ORs.
+We take ANDs and ORs for granted, but for millennia there was only the IMPLIES of classical Aristotelian syllogisms. It wasn’t until the 19th century that mathematical logic started to emerge, and it was a long time before it looked anything like what we use today. In 1879, Gottlob Frege published a gloriously weird notation system using branching lines, concavities and judgments. Sadly, no one else ever adopted it – in our timeline. Notation developed along less interesting lines here. But I wanted to see what programming would have been like had Frege won out, so I turned his notation into a working language. Doing so taught me just how different it is to approach problems with implication as your only logical operator, and it left me with a much deeper appreciation of our humble ANDs and ORs.
+
+**Matthew Dockrey** is a Seattle-area industrial artist with a particular interest in kinetic sculpture of all scales. The history of technology provides the inspiration for much of his work, as well as exploring the beauty of mechanical design. His work has been featured on the Discovery Channel, displayed at Greenwich Observatory in London, and was selected to adorn the 2015 Hugo Award. His large-scale kinetic sculptures can be found at Burning Man, and his public art can increasingly be found in cities around the Pacific Northwest.
 
 ---
 
@@ -374,7 +378,7 @@ Road networks are often modeled as graphs with millions of edges, and finding a 
 ---
 
 <a name="phil-warren" id="phil-warren"></a>
-<!-- <img src="images/speakers/" alt="" class="speaker-img" /> -->
+<img src="images/speakers/phil-warren.png" alt="" class="speaker-img" />
 
 ### Phil Warren
 
