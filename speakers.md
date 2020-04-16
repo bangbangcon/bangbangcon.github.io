@@ -63,9 +63,9 @@ Roses are red, violets are---purple? Blue? Why not both! {{'The Blur Markup Lang
 
 ### Ben Kuhn
 
-**89 characters of base-11?! Mobile networking in rural country!**
+**89 characters of base-11?! Mobile networking in rural Ethiopia!**
 
-Suppose you're trying to build a client-server app that works in rural country. Mobile data there doesn't work most of the time! Of course, you're not going to let that stop you... but how will you manage?! How many strange protocols will you need to abuse to make it work??
+Suppose you're trying to build a client-server app that works in rural Ethiopia. Mobile data there doesn't work most of the time! Of course, you're not going to let that stop you... but how will you manage?! How many strange protocols will you need to abuse to make it work??
 
 We'll start our journey with a standard Android app using standard HTTP calls, and slowly descend into the abyss through a soup of acronyms including SSL, UDP, SMS, and even USSD. By the end, we'll have encoded our entire network request into a string of less than 89 characters which are either digits or the letter N, and also understood why the heck we need to do that?!
 
@@ -102,24 +102,22 @@ Have you ever tried to solve a crossword puzzle and walked away stumped? Imagine
 ---
 
 <a name="dylan-nugent" id="dylan-nugent"></a>
-<!-- <img src="images/speakers/" alt="" class="speaker-img" /> -->
+<img src="images/speakers/dylan-nugent.png" alt="" class="speaker-img" />
 
 ### Dylan Nugent
 
 **Let's implement DNS to learn history!**
 
-The history of most internet protocols is captured in static and sometimes obtuse documents called RFCs. Reading all the necessary RFCs to understand a protocol might seem like a tedious chore...but it doesn't have to be!
+The history of most internet protocols is captured in static and sometimes obtuse standards documents called RFCs. Reading all the necessary RFCs to understand a protocol might seem like a tedious chore...but it doesn't have to be! RFCs give us a unique glance into what was (and wasn't) on the minds of engineers decades ago when they were designing these protocols! If we study RFCs like archeologists might study artifacts, we can learn a lot!
 
-RFCs give us a unique glance into what was (and wasn't) on the minds of engineers decades ago when they were designing these protocols! If we study RFCs like archeologists might study artifacts, we can learn a lot!
+DNS, the system that translates domain names like ""google.com"" into routable addresses, is one of the oldest application protocols still in regular use! It's defined across over 256 different RFCs, which sounds daunting, but we don't need to look at them all! Let's take a deep dive into a few of these RFCs and learn what we can by exploring some of DNS's stranger quirks!
 
-DNS, the system that translates domain names like ""google.com"" into routable addresses, is one of the oldest application protocols still in regular use! It's defined across over 256 different RFCs, which sounds daunting, but we don't need to look at them all!
-
-Let's take a deep dive into a few of these RFCs and learn what we can by exploring some of DNS's stranger quirks!
+**Dylan** is a programmer who just moved to Brooklyn from San Francisco. He's currently recovering from being a manager by spending time at the Recurse Center, a self-directed retreat for programmers who want to learn about things (such as the minuta of networking protocols)! When he's not building DNS servers for fun, he's probably backpacking, singing karaoke, or both.
 
 ---
 
 <a name="em-lazer-walker" id="em-lazer-walker"></a>
-<!-- <img src="images/speakers/" alt="" class="speaker-img" /> -->
+<img src="images/speakers/em-lazer-walker.png" alt="" class="speaker-img" style="border: none; background-color: transparent;"/>
 
 ### Em Lazer-Walker
 
@@ -147,6 +145,8 @@ How do you translate Chinese into Morse code?
 In the late 1800s, China was connected to the international telegraph network, and this was the big question! Morse code was originally conceived for transmitting English, and while it was extended to support other alphabetic languages, this didn’t work out of the box for character-based languages like Chinese.
 
 In this talk, we’ll walk through the different encoding schemes used to convert characters to Morse code, their tradeoffs, and how some of the challenges are relevant to us still today!
+
+**Franklin** writes software for a living and enjoys taking pictures of birds in museums, practicing Danish and Chinese, and shaving yaks (not literally). 
 
 ---
 
@@ -251,7 +251,7 @@ How does a JavaScript object feel when it's hit with a !! operator? In this musi
 ---
 
 <a name="justin-michaliga" id="justin-michaliga"></a>
-<!-- <img src="images/speakers/" alt="" class="speaker-img" /> -->
+<img src="images/speakers/justin-michaliga.png" alt="" class="speaker-img" />
 
 ### Justin Michaliga
 
@@ -260,6 +260,8 @@ How does a JavaScript object feel when it's hit with a !! operator? In this musi
 Ever since ScoobyDoo, we've longed for our pets to talk.  So I set out to make mine do just that. As a remote engineer, I spend most my days with my dog, [dog name]. If she's not right next to me, it's difficult to keep track of her needs, especially if I'm heads down in code. Wouldn't it be great if they could communicate their basic needs in a way we could all understand?
 
 By leveraging a small computing device and an RFID tag in her collar, I was able to translate my dog's proximity to areas of my apartment into a series of intents. For each intent, I sent a notification that I was able to hear through my Amazon Echo, texted to my Phone, or email me if I was away. Explore how I set this all up with minimal configurations and gave my pupper a voice!
+
+**Justin** is a engineer from Maryland/DC area and has been in New York the past 10 years.
 
 ---
 
@@ -304,7 +306,9 @@ I’ll share my experience of going from an absolute beginner with a broken comp
 
 **Programming from an alternate timeline!**
 
-We take ANDs and ORs for granted, but for millennia there was only the IMPLIES of classical Aristotelian syllogisms. It wasn't until the 19th century that mathematical logic started to emerge, and it was a long time before it looked anything like what we use today. In 1879, Gottlob Frege published a gloriously weird notation system using branching lines, concavities and judgments. Sadly, no one else ever adopted it -- in our timeline. Notation developed along less interesting lines here. But I wanted to see what programming would have been like had Frege won out, so I turned his notation into a working language. Doing so taught me just how different it is to approach problems with implication as your only logical operator, and it left me with a much deeper appreciation of our humble ANDs and ORs.
+We take ANDs and ORs for granted, but for millennia there was only the IMPLIES of classical Aristotelian syllogisms. It wasn’t until the 19th century that mathematical logic started to emerge, and it was a long time before it looked anything like what we use today. In 1879, Gottlob Frege published a gloriously weird notation system using branching lines, concavities and judgments. Sadly, no one else ever adopted it – in our timeline. Notation developed along less interesting lines here. But I wanted to see what programming would have been like had Frege won out, so I turned his notation into a working language. Doing so taught me just how different it is to approach problems with implication as your only logical operator, and it left me with a much deeper appreciation of our humble ANDs and ORs.
+
+**Matthew Dockrey** is a Seattle-area industrial artist with a particular interest in kinetic sculpture of all scales. The history of technology provides the inspiration for much of his work, as well as exploring the beauty of mechanical design. His work has been featured on the Discovery Channel, displayed at Greenwich Observatory in London, and was selected to adorn the 2015 Hugo Award. His large-scale kinetic sculptures can be found at Burning Man, and his public art can increasingly be found in cities around the Pacific Northwest.
 
 ---
 
@@ -376,13 +380,17 @@ Road networks are often modeled as graphs with millions of edges, and finding a 
 ---
 
 <a name="phil-warren" id="phil-warren"></a>
-<!-- <img src="images/speakers/" alt="" class="speaker-img" /> -->
+<img src="images/speakers/phil-warren.png" alt="" class="speaker-img" />
 
 ### Phil Warren
 
-**Weird Photography: Ancient Technology, Modern Techniques, and Hacked Cameras!**
+**Recreating Photography of the 1850s in a Digital World:  Cowboys, Principal Component Analysis, and One Vengeful Volcano Spirit!!!**
 
-Let’s explore making pretty pictures with things from our ancient past-  Using writings from Ptolemy, chemical analysis of Civil War era photography, and one 20th-century cartographer’s musings from unwrapping an orange, we will setup modern code to do some real creative stuff!  Then we’ll look at unseen spectrums, tiny planets, and digital tintypes.
+Ever wonder why photos taken from the civil war era make the subject look ridden hard and put away wet?  Exploring the chemical properties from those photos, we can learn why conventional modern cameras can’t naturally photograph the same way, and how we can hack them to get closer.  Along the way we’ll employ the help of some principal component analysis on a 3 dimensional volume of color-sorted pixels to make our weird novel data look correct.  Then we’ll make portraiture with glowing eyes and unseen freckles, because we’ll learn how to make and use UV-sensitive digital photography- and learn a thing or two* about vengeful volcano spirits!
+
+*only one thing will be learned about a singular vengeful volcano spirit.
+
+**Phil Warren** works in R&D in image technology, and enjoys adventures, eating things, and meeting people. He wants to explore and see everything, and discover new ways to do so. His skillset does not include competently hang gliding or playing a singing saw, but he’s tried it anyway, and hopes to try many more esoteric pastimes!
 
 ---
 
@@ -406,7 +414,7 @@ When **Sacha** (@sachasayan) isn't getting himself into trouble committing to si
 
 **Little Printing for everyone!!1**
 
-Do you remember the Little Printer? It was an internet-connected, super cute thermal printer; which printed you your calendar and news headlines in the morning; you could even message your friends if they also had one. It was a commercial flop and the servers were shut down in 2015, but that's only the start of our story. Today, with a little work, you too have your own Little Printer — and now you can use any thermal printer for it (some assembly required).
+Do you remember the Little Printer? It was an internet-connected, super cute thermal printer, which printed you your calendar and news headlines in the morning; you could even message your friends if they also had one. It was a commercial flop and the servers were shut down in 2015, but that's only the start of our story. Today, with a little work, you too have your own Little Printer — and now you can use any thermal printer for it (some assembly required).
 
 **Tamás** is a generalist working in DevOps and Infrastructure lately, automating all the things. He's really into writing lately and loves the world's most pointless drink, a decaf iced latte.
 
