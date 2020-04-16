@@ -41,14 +41,14 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="./speakers.html#jonathan-kingsley"><img height="100" width="100" src="images/speakers/thumbnail/jonathan-kingsley.jpg" alt="Jonathan Kingsley" /></a></div>
   <div><a href="./speakers.html#joshua-wise"><img height="100" width="100" src="images/speakers/thumbnail/joshua-wise.jpg" alt="Joshua Wise" /></a></div>
   <div><a href="./speakers.html#julia-tufts"><img height="100" width="100" src="images/speakers/thumbnail/julia-tufts.jpg" alt="Julia Tufts" /></a></div>
-  <!-- <div><a href="./speakers.html#"><img height="100" width="100" src="images/speakers/thumbnail/.jpg" alt="Justin Michaliga" /></a></div> -->
+  <div><a href="./speakers.html#justin-michaliga"><img height="100" width="100" src="images/speakers/thumbnail/justin-michaliga.jpg" alt="Justin Michaliga" /></a></div>
   <div><a href="./speakers.html#martin-gaston"><img height="100" width="100" src="images/speakers/thumbnail/martin-gaston.jpg" alt="Martin Gaston" /></a></div>
   <div><a href="./speakers.html#matt-clawson"><img height="100" width="100" src="images/speakers/thumbnail/matt-clawson.jpg" alt="Matt Clawson" /></a></div>
   <div><a href="./speakers.html#matthew-dockrey"><img height="100" width="100" src="images/speakers/thumbnail/matthew-dockrey.jpg" alt="Matthew Dockrey" /></a></div>
   <div><a href="./speakers.html#nick-sweeting"><img height="100" width="100" src="images/speakers/thumbnail/nick-sweeting.jpg" alt="Nick Sweeting" /></a></div>
   <div><a href="./speakers.html#omar-rizwan"><img height="100" width="100" src="images/speakers/thumbnail/omar-rizwan.jpg" alt="Omar Rizwan" /></a></div>
   <div><a href="./speakers.html#payas-rajan"><img height="100" width="100" src="images/speakers/thumbnail/payas-rajan.jpg" alt="Payas Rajan" /></a></div>
-  <!-- <div><a href="./speakers.html#"><img height="100" width="100" src="images/speakers/thumbnail/.jpg" alt="Phil Warren" /></a></div> -->
+  <div><a href="./speakers.html#phil-warren"><img height="100" width="100" src="images/speakers/thumbnail/phil-warren.jpg" alt="Phil Warren" /></a></div>
   <div><a href="./speakers.html#sacha-sayan"><img height="100" width="100" src="images/speakers/thumbnail/sacha-sayan.jpg" alt="Sacha Sayan" /></a></div>
   <div><a href="./speakers.html#taeyoon-choi"><img height="100" width="100" src="images/speakers/thumbnail/taeyoon-choi.jpg" alt="Taeyoon Choi" /></a></div>
   <div><a href="./speakers.html#tamas-kadar"><img height="100" width="100" src="images/speakers/thumbnail/tamas-kadar.jpg" alt="Tamás Kádár" /></a></div>
