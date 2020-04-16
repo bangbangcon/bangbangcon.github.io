@@ -146,6 +146,8 @@ In the late 1800s, China was connected to the international telegraph network, a
 
 In this talk, we’ll walk through the different encoding schemes used to convert characters to Morse code, their tradeoffs, and how some of the challenges are relevant to us still today!
 
+**Franklin** writes software for a living and enjoys taking pictures of birds in museums, practicing Danish and Chinese, and shaving yaks (not literally). 
+
 ---
 
 <a name="gabor-ugray" id="gabor-ugray"></a>
