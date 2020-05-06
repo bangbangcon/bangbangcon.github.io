@@ -159,6 +159,10 @@ Is your organization interested in sponsoring !!Con?  Check out our [sponsorship
   <div class="sponsor"><a href="https://www.janestreet.com/technology/" target="_blank"><span
     class="magic">.</span><div class="logo"><img width="360"
     alt="Jane Street" src="images/sponsors/janestreet.png" /></div></a></div>
+
+  <div class="sponsor"><a href="https://recurse.com/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img height="140"
+    alt="Recurse Center" src="images/sponsors/recurse.svg" /></div></a></div>
 </div>
 
 ## Code of conduct
