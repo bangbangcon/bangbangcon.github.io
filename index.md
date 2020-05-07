@@ -14,6 +14,8 @@ title: The joy, excitement, and surprise of computing - !!Con 2020
   &middot;
   [Program](program.html)
   &middot;
+  [Livestream](livestream.html)
+  &middot;
   [Conduct](conduct.html)
   &middot;
   [Recordings](recordings.html)
