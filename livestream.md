@@ -3,6 +3,19 @@ layout: default-2020
 title: Livestream - !!Con 2020
 ---
 
+<p style="text-align: center;">
+  **Quick Links:**
+  &middot;
+  [Speakers](speakers.html)
+  &middot;
+  [Program](program.html)
+  &middot;
+  [Conduct](conduct.html)
+  &middot;
+  [Recordings](recordings.html)
+</p>
+
+
 This is the conference livestream! It starts on Saturday, May 9 around 10:30am.
 
 <!-- todo: update with sunday livestream link on Sunday night: https://youtu.be/EReoVpb9LJo -->
