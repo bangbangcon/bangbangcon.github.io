@@ -16,7 +16,7 @@ title: Livestream - !!Con 2020
 </p>
 
 
-This is the conference livestream! It starts on Saturday, May 9 around 10:30am EST.
+This is the conference livestream! It starts on Saturday, May 9 around 10:30am Eastern.
 
 
 <!-- todo: update with sunday livestream link on Sunday night: https://youtu.be/EReoVpb9LJo -->
