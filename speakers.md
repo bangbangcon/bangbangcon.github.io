@@ -59,7 +59,7 @@ Roses are red, violets are---purple? Blue? Why not both! {{'The Blur Markup Lang
 ---
 
 <a name="ben-kuhn" id="ben-kuhn"></a>
-<!-- <img src="images/speakers/thumbnail/ben-kuhn" alt="Ben Kuhn" class="speaker-img" /> -->
+<img src="images/speakers/thumbnail/ben-kuhn.jpg" alt="Ben Kuhn" class="speaker-img" />
 
 ### Ben Kuhn
 
@@ -68,6 +68,8 @@ Roses are red, violets are---purple? Blue? Why not both! {{'The Blur Markup Lang
 Suppose you're trying to build a client-server app that works in rural Ethiopia. Mobile data there doesn't work most of the time! Of course, you're not going to let that stop you... but how will you manage?! How many strange protocols will you need to abuse to make it work??
 
 We'll start our journey with a standard Android app using standard HTTP calls, and slowly descend into the abyss through a soup of acronyms including SSL, UDP, SMS, and even USSD. By the end, we'll have encoded our entire network request into a string of less than 89 characters which are either digits or the letter N, and also understood why the heck we need to do that?!
+
+**Ben** works on helping unbanked people in Sub-Saharan Africa send and save money. When not bashing his head against obscure network protocols, he enjoys reading, climbing, hiking, making music, contra dancing, trying to improve the world, and various other strange activities. You can find him on the Internet at benkuhn.net.
 
 ---
 

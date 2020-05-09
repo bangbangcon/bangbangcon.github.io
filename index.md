@@ -30,7 +30,7 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="./speakers.html#allison-parrish"><img height="100" width="100" src="images/speakers/thumbnail/allison-parrish.jpg" alt="Allison Parrish" /></a></div>
   <div><a href="./speakers.html#amy-cash"><img height="100" width="100" src="images/speakers/thumbnail/amy-cash.jpg" alt="Amy Cash" /></a></div>
   <div><a href="./speakers.html#andrew-yoon"><img height="100" width="100" src="images/speakers/thumbnail/andrew-yoon.jpg" alt="Andrew Yoon" /></a></div>
-  <!-- <div><a href="./speakers.html#"><img height="100" width="100" src="images/speakers/thumbnail/.jpg" alt="Ben Kuhn" /></a></div> -->
+  <div><a href="./speakers.html#ben-kuhn"><img height="100" width="100" src="images/speakers/thumbnail/ben-kuhn.jpg" alt="Ben Kuhn" /></a></div> 
   <div><a href="./speakers.html#char-stiles"><img height="100" width="100" src="images/speakers/thumbnail/char-stiles.jpg" alt="Char Stiles" /></a></div>
   <div><a href="./speakers.html#chloe-revery"><img height="100" width="100" src="images/speakers/thumbnail/chloe-revery.jpg" alt="Chloe Revery" /></a></div>
   <div><a href="./speakers.html#dylan-nugent"><img height="100" width="100" src="images/speakers/thumbnail/dylan-nugent.jpg" alt="Dylan Nugent" /></a></div>
@@ -65,9 +65,9 @@ all your wonderful talk proposal submissions! Learn more about our amazing [spea
 
 ## Where and when?
 
-!!Con 2020 will be held as an *experimental remote conference* on the weekend of May 9-10, 2020!!  More information following soon.
+!!Con 2020 will be held as an *experimental remote conference* on the weekend of May 9-10, 2020!!  Our open livestream will be available [here](/livestream.html).
 
-!!Con is a *pay-what-you-want* conference. Our registration will open April 15th (first batch) and April 16th (second batch).
+!!Con is a *pay-what-you-want* conference. Our registration is closed, but you can watch the livestream on YouTube without a ticket!!
 
 <a name="testimonials" id="testimonials"></a>
 
