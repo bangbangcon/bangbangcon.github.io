@@ -26,7 +26,7 @@ This is the conference livestream! It starts on Saturday, May 9 at 10:30am Easte
 </div>
 
 <div align="center">
-<style>.embed-container { position: relative; padding-bottom: 30%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.streamtext.net/player?event=bangbangcon' frameborder='0' allowfullscreen></iframe></div>
+<style>.stream-container { position: relative; padding-bottom: 30%; height: 0; overflow: hidden; max-width: 100%; } .stream-container iframe, .stream-container object, .stream-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='stream-container'><iframe src='https://www.streamtext.net/player?event=bangbangcon' frameborder='0' allowfullscreen></iframe></div>
 <a href="https://www.streamtext.net/player?event=bangbangcon">or open live captions in separate window </a>
 </div>
 
