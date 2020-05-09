@@ -51,6 +51,6 @@ This is a remote conference, so we've adjusted the schedule to try to be timezon
 | 1:45pm          | Break!
 | 2:30pm          | **Session the Third:** <br /> &bull; *89 characters of base-11?! Mobile networking in rural Ethiopia!* ([Ben Kuhn](speakers.html#ben-kuhn))<br /> &bull; *CBS Televised Computer-Generated Stories in 1960—and Ten Million Watched!* ([James Ryan](speakers.html#james-ryan))<br /> &bull; *Programming from an alternate timeline!* ([Matthew Dockrey](speakers.html#matthew-dockrey))
 | 3:15pm          | Unconferencing!
-| 4:00pm          | **Session the Fourth:** <br /> &bull; *I trained my dog to talk! How IoT changed our world.* ([Justin Michaliga](speakers.html#justin-michaliga))<br /> &bull; *Writing \{\{'poems that change', 'chance poems', 'dynamic poetry'\}\}!* ([Andrew Yoon](speakers.html#andrew-yoon)) <br /> &bull; *We used a MIDI CONTROLLER to tune our GAMEFEEL!* ([Em Lazer-Walker](speakers.html#em-lazer-walker)) <br /> &bull; *Screwing up is easier than ever before!* ([Joshua Wise](speakers.html#joshua-wise))
+| 4:00pm          | **Session the Fourth:** <br /> &bull; *Writing \{\{'poems that change', 'chance poems', 'dynamic poetry'\}\}!* ([Andrew Yoon](speakers.html#andrew-yoon)) <br /> &bull; *We used a MIDI CONTROLLER to tune our GAMEFEEL!* ([Em Lazer-Walker](speakers.html#em-lazer-walker)) <br /> &bull; *Screwing up is easier than ever before!* ([Joshua Wise](speakers.html#joshua-wise))
 
 </div>

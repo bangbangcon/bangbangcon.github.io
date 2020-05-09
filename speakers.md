@@ -252,21 +252,6 @@ How does a JavaScript object feel when it's hit with a !! operator? In this musi
 
 ---
 
-<a name="justin-michaliga" id="justin-michaliga"></a>
-<img src="images/speakers/thumbnail/justin-michaliga.jpg" alt="" class="speaker-img" />
-
-### Justin Michaliga
-
-**I trained my dog to talk! How IoT changed our world.**
-
-Ever since ScoobyDoo, we've longed for our pets to talk.  So I set out to make mine do just that. As a remote engineer, I spend most my days with my dog, [dog name]. If she's not right next to me, it's difficult to keep track of her needs, especially if I'm heads down in code. Wouldn't it be great if they could communicate their basic needs in a way we could all understand?
-
-By leveraging a small computing device and an RFID tag in her collar, I was able to translate my dog's proximity to areas of my apartment into a series of intents. For each intent, I sent a notification that I was able to hear through my Amazon Echo, texted to my Phone, or email me if I was away. Explore how I set this all up with minimal configurations and gave my pupper a voice!
-
-**Justin** is a engineer from Maryland/DC area and has been in New York the past 10 years.
-
----
-
 <a name="martin-gaston" id="martin-gaston"></a>
 <img src="images/speakers/thumbnail/martin-gaston.jpg" alt="Martin Gaston" class="speaker-img" />
 

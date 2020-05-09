@@ -43,7 +43,6 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="./speakers.html#jonathan-kingsley"><img height="100" width="100" src="images/speakers/thumbnail/jonathan-kingsley.jpg" alt="Jonathan Kingsley" /></a></div>
   <div><a href="./speakers.html#joshua-wise"><img height="100" width="100" src="images/speakers/thumbnail/joshua-wise.jpg" alt="Joshua Wise" /></a></div>
   <div><a href="./speakers.html#julia-tufts"><img height="100" width="100" src="images/speakers/thumbnail/julia-tufts.jpg" alt="Julia Tufts" /></a></div>
-  <div><a href="./speakers.html#justin-michaliga"><img height="100" width="100" src="images/speakers/thumbnail/justin-michaliga.jpg" alt="Justin Michaliga" /></a></div>
   <div><a href="./speakers.html#martin-gaston"><img height="100" width="100" src="images/speakers/thumbnail/martin-gaston.jpg" alt="Martin Gaston" /></a></div>
   <div><a href="./speakers.html#matt-clawson"><img height="100" width="100" src="images/speakers/thumbnail/matt-clawson.jpg" alt="Matt Clawson" /></a></div>
   <div><a href="./speakers.html#matthew-dockrey"><img height="100" width="100" src="images/speakers/thumbnail/matthew-dockrey.jpg" alt="Matthew Dockrey" /></a></div>
