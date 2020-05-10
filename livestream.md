@@ -33,7 +33,7 @@ This is the conference livestream! It starts on Sunday, May 10 at 10:30am Easter
 
 For updates on !!Con, follow
 [@bangbangcon](https://twitter.com/bangbangcon) on Twitter, or sign up
-for our mailing list below.  We send 4-5 email per year about our venue, submission deadlines, registration, etc.
+for our mailing list below.  We send 4-5 emails per year about our venue, submission deadlines, registration, etc.
 
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
