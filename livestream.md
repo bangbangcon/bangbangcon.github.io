@@ -30,5 +30,28 @@ This is the conference livestream! It starts on Sunday, May 10 at 10:30am Easter
 </div>
 
 <br><br>
-<p>For updates on !!Con, follow <a href="https://twitter.com/bangbangcon">@bangbangcon</a> on Twitter
+
+For updates on !!Con, follow
+[@bangbangcon](https://twitter.com/bangbangcon) on Twitter, or sign up
+for our mailing list below.  We send 4-5 email per year about our venue, submission deadlines, registration, etc.
+
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="http://bangbangcon.us3.list-manage.com/subscribe/post?u=37b924b9d7d71dc7aa1a52b4c&amp;id=9f9ec7c469" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="background-color: inherit;" novalidate>
+<div class="mc-field-group">
+<label for="mce-EMAIL">Email:</label>
+<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder='your email address'>
+<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+</div>
+<div id="mce-responses" class="clear">
+<div class="response" id="mce-error-response" style="display:none"></div>
+<div class="response" id="mce-success-response" style="display:none"></div>
+</div>
+<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+<div style="position: absolute; left: -50020px;">
+<input type="text" name="b_37b924b9d7d71dc7aa1a52b4c_9f9ec7c469" value="">
+</div>
+</form>
+</div>
+
 
