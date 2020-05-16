@@ -6,8 +6,6 @@ title: The joy, excitement, and surprise of computing - !!Con 2020
 <p style="text-align: center;">
   **Quick Links:**
   &middot;
-  [Tickets](tickets.html)
-  &middot;
   [Venue](venue-accessibility.html)
   &middot;
   [Speakers](speakers.html)
@@ -21,7 +19,7 @@ title: The joy, excitement, and surprise of computing - !!Con 2020
   [Recordings](recordings.html)
 </p>
 
-<p id="blurb">**!!Con** (pronounced "bang bang con") **2020** is **two days of
+<p id="blurb">**!!Con** (pronounced "bang bang con") **2020** was **two days of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
 joyous, exciting, and surprising moments in computing.
 </p>
@@ -64,9 +62,9 @@ all your wonderful talk proposal submissions! Learn more about our amazing [spea
 
 ## Where and when?
 
-!!Con 2020 will be held as an *experimental remote conference* on the weekend of May 9-10, 2020!!  Our open livestream will be available [here](/livestream.html).
+!!Con 2020 was held as an *experimental remote conference* on the weekend of May 9-10, 2020!!  Our open livestream recording is available [here](/livestream.html).
 
-!!Con is a *pay-what-you-want* conference. Our registration is closed, but you can watch the livestream on YouTube without a ticket!!
+!!Con was a *pay-what-you-want* conference. Our registration is closed, but you can watch the livestream on YouTube without a ticket!!
 
 <a name="testimonials" id="testimonials"></a>
 
