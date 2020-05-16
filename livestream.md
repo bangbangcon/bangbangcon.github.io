@@ -17,12 +17,12 @@ title: Livestream - !!Con 2020
 
 Edited talk recordings will be online *soon*. In the meantime, here are the full-day livestream recordings.
 
-<h2>Saturday, May 9</h2>
+<h2>Sunday, May 10</h2>
 <div align="center">
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/EReoVpb9LJo' frameborder='0' allowfullscreen></iframe></div>
 </div>
 
-<h2>Sunday, May 10</h2>
+<h2>Saturday, May 9</h2>
 <div align="center">
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/QEZ0N0rrbL0' frameborder='0' allowfullscreen></iframe></div>
 </div>
