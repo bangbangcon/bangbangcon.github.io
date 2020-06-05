@@ -111,7 +111,9 @@ for our mailing list below.  We send about four or five emails per year for impo
 </div>
 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 <div style="position: absolute; left: -50020px;">
+<label>"Don't fill this in, it's for bots!"
 <input type="text" name="b_37b924b9d7d71dc7aa1a52b4c_9f9ec7c469" value="">
+</label>
 </div>
 </form>
 </div>
