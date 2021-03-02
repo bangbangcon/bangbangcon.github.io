@@ -1,9 +1,9 @@
 ---
-layout: default-2021
-title: Tickets - !!Con 2021
+layout: default-2020
+title: Tickets - !!Con 2020
 ---
 
-# !!Con 2021 Tickets
+# !!Con 2020 Tickets
 
 Due to an <a href="https://twitter.com/bts_bighit/status/1248265665623908352">unfortunate naming collision</a>, we have to make sure everyone is aware:
 
@@ -14,4 +14,4 @@ Due to an <a href="https://twitter.com/bts_bighit/status/1248265665623908352">un
 
 We are <u><strong>NOT</strong></u> affiliated with BTS or BANG.BANG.CON. You <u><strong>CANNOT</strong></u> buy tickets to the concert here.
 
-!!Con 2021 (the tech conference) will be held on May 15-25, 2021 - tickets will be available soon!
+!!Con 2020 (the tech conference) was held on May 9-10, 2020 - tickets are no longer available.

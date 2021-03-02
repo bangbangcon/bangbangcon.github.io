@@ -16,7 +16,6 @@ cp ../2016/images/speakers/*.png /tmp/bangbangcon_images/
 cp ../2017/images/speakers/*.png /tmp/bangbangcon_images/
 cp ../2018/images/speakers/*.png /tmp/bangbangcon_images/
 cp ../2019/images/speakers/*.png /tmp/bangbangcon_images/
-cp ../2020/images/speakers/*.png /tmp/bangbangcon_images/
 
 # Convert images to 50x50px
 i=1

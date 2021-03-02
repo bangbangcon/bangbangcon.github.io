@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: rgba(48, 25, 52, 1.0);
+  color: rgba(235, 133, 27, 1.0);
 }
 
 a:hover {
@@ -40,10 +40,10 @@ hr {
 
 #container {
     background:
-    /* top, transparent dark purple, faked with gradient */
+    /* top, transparent orange, faked with gradient */
     linear-gradient(
-      rgba(48, 25, 52, 0.8),
-      rgba(48, 25, 52, 0.8)
+      rgba(235, 133, 27, 0.8),
+      rgba(235, 133, 27, 0.8)
     ),
     /* bottom, image */
     url("../images/montage.jpg");
