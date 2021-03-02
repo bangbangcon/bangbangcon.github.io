@@ -18,7 +18,7 @@ joyous, exciting, and surprising moments in computing.
 
 ## Who's speaking?
 
-Maybe [you](give-a-talk.html)!  Our call for talk proposals will open on March 8!
+Maybe **you**!  Our call for talk proposals will open on March 8!
 
 ## Where and when?
 
