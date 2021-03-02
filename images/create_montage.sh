@@ -41,7 +41,7 @@ for ((i=1; i<=$COPIES; i++)); do
     done
 done
 
-# Pick a random 12 images to fill in the gap at the end
+# Pick random images to fill in the gap at the end
 k=1
 for image in `ls /tmp/bangbangcon_images/final/*.png | gshuf | head -n $LEFTOVER_SLOTS`; do
     #echo $image;

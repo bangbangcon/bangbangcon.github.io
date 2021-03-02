@@ -7,7 +7,7 @@ title: Call for Talk Proposals! - !!Con 2021
 
 Hi!
 
-!!Con is back for our **eighth year** of celebrating the joy, excitement, and surprise of computing, and we want **you** to submit a talk* proposal! We will open up our submission form soon.
+!!Con is back for our **eighth year** of celebrating the joy, excitement, and surprise of computing, and we want **you** to submit a talk* proposal. The **submission form will open** on **Monday, March 8. The **submission deadline** is **Thursday, April 8**.
 
 Since its launch in 2014, !!Con talks have featured everything from [glowing mushrooms](https://www.youtube.com/watch?v=T75FvUDirNM) to [game theory](https://www.youtube.com/watch?v=RHg2JIvoaq0); from [machine knitting](https://www.youtube.com/watch?v=ihqcgrR0azw) to [geolocation](https://www.youtube.com/watch?v=NvShiF4tnMM); from [live coding on an Apple II](https://www.youtube.com/watch?v=DY4t9IHFD4E) to [queer feminist cyberpunk manifestos](https://www.youtube.com/watch?v=5GiQovHaT_g). We’ve had speakers who are programmers, poets, scientists, students, and more!
 
@@ -29,25 +29,24 @@ We would **especially** like to hear from you if:
 
 **All talks* will be ten minutes long.** Ten minutes isn’t much time, so think carefully about the scope of your talk* and be clear in the [timeline](http://composition.al/blog/2017/06/30/how-to-write-a-timeline-for-a-bangbangcon-talk-proposal/) about how you plan to spend the time. A single, focused idea is best – go for “here’s my favorite assembly instruction” rather than “here’s an overview of how assembly works”.
 
-<!-- The submission deadline is **Sunday, March 1**. We’ll accept as many amazing talks* as we can. You can submit more than one proposal. -->
+The submission deadline is **Thursday, March 1**. We’ll accept as many amazing talks* as we can. You can submit more than one proposal. -->
 
 Our submission form will open soon. We’ll accept as many amazing talks* as we can. You can submit more than one proposal.
 
 Proposals will be [anonymized to avoid bias](https://organicdonut.com/2018/03/the-con-talk-anonymization-and-selection-process/). Although we ask for your name, email address, and so on in the proposal submission form, only one or two organizers who serve as anonymizers will actually see this information, and they won’t review your proposal. The rest of the organizing team will review your proposal without knowing who you are.
 
-<!-- ## Submit your proposal today!
+<!-- ## Submit your proposal today! -->
 
 Important dates:
 
-  * February 10: Call for talk* proposals opens.
-  * March 1: Talk* proposal submission deadline.
-  * March 15: Notification of talk* acceptance.
-  * March 22: Deadline for speakers to confirm their participation.
-  * March 25: Conference registration opens.
-  * April 5: Public announcement of full speaker list.
-  * April 26: Public announcement of detailed schedule.
-  * May 9-10: !!Con!
--->
+  * March 8: Call for talk* proposals opens.
+  * April 8: Talk* proposal submission deadline.
+  * April 18: Notification of talk* acceptance.
+  * April 25: Deadline for speakers to confirm their participation.
+  * May 15-22: !!Con!
+  <!-- * March 25: Conference registration opens. -->
+  <!-- * April 5: Public announcement of full speaker list. -->
+  <!-- * April 26: Public announcement of detailed schedule. -->
 
 <!-- 
 ## Speaker travel funding

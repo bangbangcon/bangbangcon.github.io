@@ -8,7 +8,7 @@ title: The joy, excitement, and surprise of computing - !!Con 2021
   &middot;
   [Conduct](conduct.html)
   &middot;
-  [Recordings](recordings.html)
+  [Past Recordings](recordings.html)
 </p>
 
 <p id="blurb">**!!Con** (pronounced "bang bang con") **2021** is **a week of
@@ -80,16 +80,16 @@ for our mailing list below.  We send about four or five emails per year for impo
 
 ## Who's organizing all this?
 
-The !!Con 2020 organizing team:
-[Sarah Withee](https://twitter.com/geekygirlsarah), 
-[Dev Purandare](https://twitter.com/Dev14e),
+The !!Con 2021 organizing team:
+[Joshua Wise](https://joshuawise.com/),
+[Erty Seidohl](https://twitter.com/ertyseidohl),
+[Julia Evans](https://twitter.com/b0rk),
 [Alicja Raszkowska](https://twitter.com/mamrotynka),
 [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
-[Erty Seidohl](https://twitter.com/ertyseidohl),
-[Joshua Wise](https://joshuawise.com/),
-[Julia Evans](https://twitter.com/b0rk), and
-[Lindsey Kuper](http://composition.al/).  Organizers
-emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://twitter.com/NabilHassein),
+[Sarah Withee](https://twitter.com/geekygirlsarah), 
+[Dev Purandare](https://twitter.com/Dev14e), and
+[Lindsey Kuper](http://composition.al/).
+Organizers emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://twitter.com/NabilHassein),
 [Maggie Zhou](https://twitter.com/zmagg), [Alex Clemmer](https://twitter.com/hausdorff_space), 
 [Emily Xie](https://twitter.com/emilyxxie), [Danielle Sucher](https://twitter.com/DanielleSucher), and 
 [Kiran Bhattaram](https://twitter.com/kiranb).  Logo design by
