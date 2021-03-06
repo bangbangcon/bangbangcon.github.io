@@ -1,6 +1,6 @@
 ---
-layout: default-2021
-title: Code of Conduct - !!Con 2021
+layout: default-2020
+title: Code of Conduct - !!Con 2020
 ---
 
 # Code of conduct
