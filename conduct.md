@@ -3,66 +3,127 @@ layout: default-2021
 title: Code of Conduct - !!Con 2021
 ---
 
-# Code of conduct
+# Code of Conduct
 
-We value the participation of each member of the !!Con community and want all
-attendees to have an enjoyable and fulfilling experience. Accordingly, all
-attendees are expected to show respect and courtesy to other attendees
-throughout the conference and at all conference events, whether officially
-sponsored by !!Con or not.
+Below, you’ll find the Code of Conduct for Exclamation Foundation events --
+for now, these are !!Con and !!Con West.  But before we start into it, we’d
+like to first answer the question: **why have a code of conduct at all?**  Not
+only because we feel like we’re expected to have one; not because someone
+told us to; not because we heard somewhere that it was important for some
+reason – but **as part of an intentional effort to define the culture of !!Con
+events**.  We don’t think that !!Con is something that you passively
+participate in: everyone who attends **helps construct !!Con** and, ideally,
+makes it better.  The purpose of this Code of Conduct is to give our
+attendees -- that’s you! -- some ideas that help bring all of us closer to
+that ideal of a better conference.
 
-All attendees, speakers, exhibitors, organizers and volunteers at any !!Con
-event are required to observe the following Code of Conduct. Organizers will
-enforce this code throughout the event.
+But what do we mean by "better"?
 
-**Why have a code of conduct?** Not because we feel like we're expected to have
-one; not because someone told us to; not because we heard somewhere that it was
-important for some reason -- but **as part of an intentional effort to define
-the culture of !!Con.**
+One of our goals with !!Con is to bring communities together for conferences
+about the excitement, joy, and surprise of computing.  But we can’t do that
+unless we reflect the breadth of humanity in our communities: without
+building a space where that humanity can flourish, without making that space
+**equitably** accessible for many different people, or without the space having
+**representation** from the many stories that make us all up, everyone misses
+out on the **people** that make computing exciting, joyful, and surprising. 
+More concretely, we think that the privilege of feeling welcome at a
+conference is something that just as well ought to belong to groups that
+have been traditionally marginalized in our community, and we want to make
+our conferences someplace where that’s possible.  This Code of Conduct is
+our way of engaging you in the process of imagining how we can build the
+community that we all want to compute in.
 
-## The short version
+## Things to think about
 
-!!Con is dedicated to providing a harassment-free conference experience for
-everyone, regardless of gender, sexual orientation, disability, physical
-appearance, body size, race, religion, or anything else. We do not tolerate
-harassment of conference participants in any form.
+There are some obvious things that everybody should do (or not do, as the
+case may be!).  By now, it should be clear to you that **harassment has no
+place at !!Con**.  There are almost limitless ways to harass people; an
+incomplete list might include harassment based on gender, sexual
+orientation, disability, physical appearance, body size, skin color, or
+religion.  Don’t do any of those things, and in any event, please be mindful
+of how you talk to and about other people at the conference.  You should
+assume that everyone else at the conference has a technical background, no
+matter whether people like them are or aren’t well-represented in computing. 
+“Jokes” (or serious actions, for that matter) that serve to exclude people
+obviously aren’t okay, either.
 
-All communication should be appropriate for a professional audience including
-people of many different backgrounds. Sexual language and imagery is not
-appropriate for any conference venue, including talks.
+Conversely, try to make an extra effort to **be kind and empathetic in how you
+act**.  It can be tempting to ask somebody about their background, based on
+something about them that you can see or hear.  Remember that !!Con
+attendees are first and foremost at the conference to talk about the joy,
+excitement, and surprise of computing.  Inevitably, the stories that make up
+the people become a part of that, but on the other hand, it might be kinder
+to focus first on the computing element, and let marginalized folks choose
+how much they want to share about themselves.
 
-Be kind to others. Do not insult or put down other attendees. Behave
-professionally. Remember that harassment and sexist, racist, or exclusionary
-jokes are not appropriate for !!Con.
+Our friends at the [Recurse Center in New York](https://www.recurse.com/)
+have a small set of [social
+rules](https://www.recurse.com/manual#sub-sec-social-rules) that they’ve
+come up with; we (the !!Con organizers) felt like their social rules
+contributed enormously to a supportive, productive, and fun learning
+environment.  These rules are intended to be lightweight, and to make more
+explicit certain social norms that are normally implicit.  Most of our
+social rules really boil down to “don’t be a jerk” or “don’t be annoying”. 
+Of course, almost nobody sets out to be a jerk or annoying, so telling
+people not to be jerks isn’t a very productive strategy!
 
-Attendees violating these rules may be asked to leave the conference at the sole
-discretion of the conference organizers.
+Recurse Center summarizes their rules in four short statements: **“no feigning
+surprise”, “no well-actuallys”, “no backseat driving”, and “no subtle
+-isms”**.  If you haven’t heard of those before, we encourage you to [read the
+rules](https://www.recurse.com/manual#sub-sec-social-rules); they’re a great
+way to add an extra dose of empathy to your time at !!Con (and maybe even
+beyond!).
 
-Thank you for helping make this a welcoming, friendly event for all.
+## How we'll resolve disputes
 
-## The longer version
+A kind way of interacting with your fellow attendees is to **respect their
+boundaries**.  If somebody asks you to stop doing something, or tells you that
+you’re doing something that makes them uncomfortable, **just stop doing it**. 
+Even if you think that what you’re doing is reasonable, it’s better to be
+cautious and respectful.  It’s often inappropriate to ask someone who makes
+such a request of you to explain themselves, but if you’d like some clarity,
+we’re always happy to help -- come talk to an event organizer, and we’ll be
+happy to explain how we see the situation!
 
-Harassment includes offensive verbal comments related to gender, sexual
-orientation, disability, physical appearance, body size, race, religion, sexual
-images in public spaces, deliberate intimidation, stalking, following, harassing
-photography or recording, sustained disruption of talks or other events,
-inappropriate physical contact, derisive comments regarding technical
-background, and unwelcome sexual attention.
+In general, we’d like to resolve disputes in a collaborative fashion.  Most
+of the time, we’ve found that there’s something to learn, and ways that the
+whole community can grow in response!  (We’ve written about some of these in
+[our past transparency reports](#transparency-reports).)  But, while we hope it doesn’t
+happen, we want to be sensitive to the fact that the experience of being
+harassed is already scary and unpleasant enough, and we don’t want to make
+it worse through how we handle reports.
 
-Participants asked to stop any harassing behavior are expected to comply
-immediately.
+So, if someone is behaving (either towards you, or towards someone else) in
+a way that you don’t think is appropriate for !!Con, or that makes you feel
+uncomfortable, you have a few options available to you.  You can try to
+resolve it on your own, and if that works out, we’d like to hear about it as
+a success story!  But **we want you to know that we have your back, and so we
+encourage you to get an event organizer involved if you’d like some help**. 
+You can tell us anonymously, if you like, or you can attach your contact
+information, so we can follow up (more about how to do that at [the bottom
+of this document](#getting-in-touch)).  Either way, our policy is that we do not tell the
+subject of a Code of Conduct concern who brought the matter to our
+attention.
 
-Be careful in the words that you choose. Remember that sexist, racist, and other
-exclusionary jokes can be offensive to those around you. Excessive swearing and
-offensive jokes are not appropriate for !!Con.
+We hope it doesn’t come to this, but at our discretion, **we will ask
+attendees who harm the !!Con community to leave**.  This Code of Conduct is a
+guide, and since we can’t possibly write down all the ways you can hurt
+people, we may ask attendees to leave for reasons that we didn’t write down
+explicitly here.  On the other hand, where it’s appropriate, we want to be
+forgiving, too: if it seems like you’ve made a good-natured mistake, we want
+to give you space to grow and learn!
 
-If a participant engages in behavior that violates our code of conduct,
-the conference organizers may take any action they deem appropriate, including
-warning the offender or expulsion from the conference.
+This Code of Conduct applies not just in “official” !!Con-sponsored spaces,
+but also in spaces adjacent to the conference.  If you have a concern about
+something that happens outside of the !!Con conference room, we want you to
+feel comfortable bringing it to the organizers.  And, although we explicitly
+called out attendees above, this Code of Conduct applies to everybody who
+contributes to the !!Con space, including attendees, organizers, sponsors,
+volunteers, staff, and Exclamation Foundation board members.
 
-### Guidelines for speakers
+## Guidelines for speakers
 
-If you're a speaker -- thank you!  We've been really lucky to have speakers
+If you’re a speaker -- thank you!  We’ve been really lucky to have speakers
 who give thoughtful and exciting talks that are almost always inclusive of
 the people in the !!Con audience.
 
@@ -89,8 +150,8 @@ welcoming to everyone in the !!Con community:
   sexual reference used as a joke).  So before your talk, take one more look
   over your slides and prep material in this light -- and if you explicitly
   plan to include sexual or violent content, consider how you can
-  contextualize it.  (One more note on this: if you plan to include
-  graphically violent content, please do let us know in advance.)
+  contextualize it.  (If you plan to include
+  *graphically* violent content, please do let us know in advance.)
 
 * **Talk to the experts.**  !!Con thrives at the intersection of computers
   and the human experience.  Many of us have become experts in technologies
@@ -106,28 +167,27 @@ even if your talk is mostly about computers, taking 10 minutes to go through
 it and look for some of these issues (even if they're subtle!) goes a long
 way to keeping !!Con welcoming for everyone.
 
-## Social rules
+## Getting in touch
 
-In addition to having a code of conduct as an anti-harassment policy, we have a
-small set of [social rules](https://www.recurse.com/manual#sub-sec-social-rules)
-we follow. We (the organizers) learned and lifted these rules from [the Recurse
-Center](https://www.recurse.com/) in New York, where we felt that they
-contributed enormously to a supportive, productive, and fun learning
-environment. We'd like !!Con to share that environment. These rules are
-intended to be lightweight, and to make more explicit certain social norms that
-are normally implicit. Most of our social rules really boil down to "don't be a
-jerk" or "don't be annoying." Of course, almost nobody sets out to be a jerk or
-annoying, so telling people not to be jerks isn't a very productive strategy.
+If you have any questions about any part of this Code of Conduct, or about
+the Recurse Center social rules, please feel free to reach out to the
+conference organizers, or to the [Exclamation Foundation
+board](mailto:board@exclamation.foundation).
 
-Unlike the anti-harassment policy, violation of the social rules will not result
-in expulsion from the conference or a strong warning from conference organizers.
-Rather, they are designed to provide some lightweight social structure for
-conference attendees to use when interacting with each other.
+If you notice behavior that feels out-of-place at !!Con -- you’re being
+harassed, you see someone else being harassed, or something just makes you
+uncomfortable -- please contact a member of conference staff.  Even if you
+don’t think that disciplinary action is needed, we want to keep tabs on how
+we can build a better conference, so please feel free to reach out to us.
 
-[The social rules.](https://www.recurse.com/manual#sub-sec-social-rules)
+<!-- TODO: You can use the below form to contact us, with or without your
+name.  Or, --> If you'd like to contact us, you can send e-mail to
+[2021-organizers@exclamation.foundation](mailto:2021-organizers@exclamation.foundation),
+or simply talk to any individual organizer.  We want you to feel safe during
+the conference, and we’ll do what we can to make that happen -- you matter
+to us!
 
-If you have any questions about any part of the code of conduct or social rules,
-please feel free to reach out to any of the conference organizers.
+<!-- NOT FOR ONLINE !!CONS
 
 ## Venue
 
@@ -137,16 +197,15 @@ furniture without permission, including desks, and please discard your trash in
 the closest receptacle. We want to make sure that we leave the venue clean and
 respect the space that we're in.
 
-## Contact information
+-->
 
-If you are being harassed, notice that someone else is being harassed, or have
-any other concerns, [please contact a member of conference
-staff](mailto:nyc-2020@exclamation.foundation). <!-- TODO:  You can use the
-below form to contact us, with or without your name. -->
+## Transparency reports
 
-Conference staff will be happy to do whatever we can to help those experiencing
-harassment to feel safe for the duration of the conference. We value your
-attendance.
+!!Con's Code of Conduct committees have compiled transparency reports for
+reported incidents in previous years, which you can find below:
+
+* [!!Con West 2020](http://bangbangcon.com/west/conduct-transparency/)
+* [!!Con West 2019](http://bangbangcon.com/west/2019/conduct-transparency/)
 
 <!-- ## Transparency reports
 
@@ -157,14 +216,15 @@ report](/2019/conduct-transparency) for reported incidents in 2019. -->
 ## Report a violation (with or without your name)
 -->
 
+<!-- TODO: generalize this to the !F Code of Conduct
+
+TODO: Do we actually want to make this cc0?  Consider:
+
+https://modelviewculture.com/pieces/a-code-of-conduct-is-not-enough
+
 ## License
 
-<!-- TODO: generalize this to the !F Code of Conduct -->
-
 The !!Con Code of Conduct is under a [Creative Commons
-Zero](http://creativecommons.org/about/cc0) license. It was lightly modified
-from the [!!Con 2018 Code of Conduct](http://bangbangcon.com/conduct.html),
-itself a fork of the [PyCon 2013 Code of
-Conduct](https://us.pycon.org/2013/about/code-of-conduct/), which is licensed
-under a [Creative Commons Attribution 3.0 Unported
-License](http://creativecommons.org/licenses/by/3.0/).
+Zero](http://creativecommons.org/about/cc0) license.
+
+-->
