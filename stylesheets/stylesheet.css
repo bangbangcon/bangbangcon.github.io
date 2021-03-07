@@ -124,7 +124,11 @@ h4 {
     line-height: 1;
 }
 
-p, ul {
+/* Probably we shoudl just set this font-size in <body> or something.  But
+ * that would require re-adjusting all of the other font-sizes.  Life is too
+ * long to spend it messing with CSS in ways that aren't dirty hacks.
+ */
+:not(li) > p, :not(p) > ul {
     font-size: 130%;
     margin-top: 0.5em;
 }
