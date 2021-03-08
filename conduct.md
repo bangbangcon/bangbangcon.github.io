@@ -49,9 +49,10 @@ act**.  Here’s a few ways you can do that:
   to talk about themselves, but maybe they just want to enjoy technology --
   let them choose!
 
-* **Read up on the RC social rules!**  The Recurse Center has four social rules:
+* **Read up on the Recurse Center social rules!**  The Recurse Center has four social rules:
   **“no feigning surprise”, “no well-actuallys”, “no backseat driving”, and
-  “no subtle -isms”**.  We’ve found that they contribute enormously to a
+  “no subtle -isms”**.  Although !!Con isn’t a part of RC, we were
+  founded by people who met at RC, and we found that their rules contribute enormously to a
   supportive, productive, and fun learning environment.  If you haven’t
   heard of those before, we encourage you to [read the
   rules](https://www.recurse.com/manual#sub-sec-social-rules); they’re a
