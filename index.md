@@ -38,8 +38,8 @@ Here's what some of our past speakers and attendees said about us:
 > "@bangbangcon managed to pack **more useful info into one day than most other conferences do in 3**. And it was **10x more fun.**"
 > -- [@johnwittrock](https://twitter.com/johnwittrock/status/861206986448404481)
 >
-> "Virtual @bangbangcon's reminding me how much fun it is to hear people
-> talk about what they're passionate about"
+> "Virtual @bangbangcon's reminding me **how much fun it is to hear people
+> talk about what they're passionate about**"
 > -- [@trudake](https://twitter.com/trudake/status/1259231865212481537)
 >
 > "It's refreshing to **learn 30+ new things about programming in a single weekend** at @bangbangcon, even though I've been programming for so long"
