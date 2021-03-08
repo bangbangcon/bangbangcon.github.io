@@ -102,7 +102,7 @@ Organizers emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein]
 
 ## Sponsorship
 
-Is your organization interested in sponsoring !!Con?  Check out our [sponsorship page](sponsors.html)!
+Is your organization interested in sponsoring !!Con?  We'll put up our sponsorship page shortly!
 
 ## Code of conduct
 
