@@ -91,18 +91,27 @@ The !!Con 2021 organizing team:
 [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
 [Sarah Withee](https://twitter.com/geekygirlsarah), 
 [Dev Purandare](https://twitter.com/Dev14e), and
-[Lindsey Kuper](http://composition.al/).
+[Lindsey Kuper](http://composition.al/).  If you'd like, you can [send us
+some mail](mailto:2021-organizers@exclamation.foundation)!
+
 Organizers emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://twitter.com/NabilHassein),
 [Maggie Zhou](https://twitter.com/zmagg), [Alex Clemmer](https://twitter.com/hausdorff_space), 
 [Emily Xie](https://twitter.com/emilyxxie), [Danielle Sucher](https://twitter.com/DanielleSucher), and 
-[Kiran Bhattaram](https://twitter.com/kiranb).  Logo design by
+[Kiran Bhattaram](https://twitter.com/kiranb).
+
+Logo design by
 [Lea Albaugh](http://twitter.com/doridoidea).
+
+!!Con 2021 is a project of the [Exclamation
+Foundation](http://exclamation.foundation).
 
 <a name="sponsors"></a>
 
 ## Sponsorship
 
-Is your organization interested in sponsoring !!Con?  We'll put up our sponsorship page shortly!
+Is your organization interested in sponsoring !!Con?  Check out our
+[sponsorship prospectus](sponsors.html), or directly [get in
+touch](mailto:2021-organizers@exclamation.foundation).
 
 ## Code of conduct
 
