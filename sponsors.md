@@ -6,7 +6,10 @@ title: Sponsorship - !!Con 2021
 # Sponsoring !!Con
 
 Thank you for your interest in sponsoring !!Con 2021!  💜 We're an online
-event this year, but we still have bills to pay: 
+event this year, but we still have bills to pay -- we're committed to
+compensating our speakers for the hard work that they put in on creating
+amazing talks, and our famous accessibility (including real-time captioning)
+costs money, too.
 
 We are committed to keeping !!Con a pay-what-you-want event, and have
 been called "radically inclusive" by past speakers and attendees. We
