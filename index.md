@@ -25,7 +25,7 @@ through **April 8th**!
 
 ## Where and when?
 
-!!Con 2021 will be held over the week of May 15-22, 2021!!  
+!!Con 2021 will be held online, the week of May 15-22, 2021!!
 
 !!Con is a *pay-what-you-want* conference.  Stay tuned for information about registration.
 
