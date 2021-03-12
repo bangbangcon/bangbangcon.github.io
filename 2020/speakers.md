@@ -435,4 +435,4 @@ My job involves a lot of staring at big numbers, like latencies in nanoseconds, 
 
 ---
 
-Perhaps you would also be interested in our [2019](2019/speakers.html), [2018](2018/speakers.html), [2017](2017/speakers.html), [2016](2016/speakers.html), [2015](2015/speakers.html), or [2014](2014/speakers.html) speakers?
+Perhaps you would also be interested in our [2019](../2019/speakers.html), [2018](../2018/speakers.html), [2017](../2017/speakers.html), [2016](../2016/speakers.html), [2015](../2015/speakers.html), or [2014](../2014/speakers.html) speakers?
