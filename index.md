@@ -6,9 +6,11 @@ title: The joy, excitement, and surprise of computing - !!Con 2021
 <p style="text-align: center;">
   **Quick Links:**
   &middot;
-  [Conduct](conduct.html)
-  &middot;
   [Call for Proposals](give-a-talk.html)
+  &middot;
+  [Speakers](speakers.html)
+  &middot;
+  [Conduct](conduct.html)
   &middot;
   [Past Recordings](recordings.html)
 </p>
