@@ -33,5 +33,5 @@ When not hacking hardware, she maintains a variety of open-source projects, incl
 
 ## Lightning Talks
 
-This list could include you! Our [Call for Talk Proposals](give-a-talk.html) is currently open until April 8th!
+We will announce our lightning talk speakers on Apr 23!
 

@@ -22,8 +22,7 @@ joyous, exciting, and surprising moments in computing.
 
 ## Who's speaking?
 
-Maybe **you**!  Our [call for talk proposals](give-a-talk.html) is now open,
-through **April 8th**!
+Our [call for talk proposals](give-a-talk.html) is closed! We'll send out acceptances/rejections on Apr 18th, and announce our speaker lineup on Apr 23. 
 
 ## Where and when?
 
