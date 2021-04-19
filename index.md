@@ -114,6 +114,42 @@ Is your organization interested in sponsoring !!Con?  Check out our
 [sponsorship prospectus](sponsors.html), or directly [get in
 touch](mailto:2021-organizers@exclamation.foundation).
 
+<div class="sponsor-list" markdown="0">
+<!--
+  <h3>EXCELLENT!! Sponsors</h3>
+
+
+  <div class="sponsor medium-sponsor"><a href="https://xandr.com/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="380"
+    alt="Xandr" src="images/sponsors/xandr.png" /></div></a></div>
+
+-->
+
+  <h3 style="margin: 1.5em 0;">AWESOME! Sponsors</h3>
+
+  <div class="sponsor"><a href="https://courses.wherewithall.com/pages/bangbangcon" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="360"
+    alt="Wherewithall" src="images/sponsors/wherewithall.png" /></div></a></div>
+
+  <div class="sponsor"><a href="https://discourse.org/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="300"
+    alt="Discourse" src="images/sponsors/discourse.svg" /></div></a></div>
+    
+  <div class="sponsor"><a href="https://bionic.fullstory.com/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="300"
+    alt="Fullstory" src="images/sponsors/fullstory.png" /></div></a></div>
+    
+<!--
+  <div class="sponsor"><a href="https://www.twosigma.com/careers/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="360"
+    alt="Two Sigma" src="images/sponsors/twosigma.png" /></div></a></div>
+
+-->
+
+</div>
+
+
+
 ## Code of conduct
 
 We have a [code of conduct](conduct.html) that all !!Con participants are required to observe.
