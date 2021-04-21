@@ -374,3 +374,19 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   float: left;
   margin-right: 1em;
 }
+
+img.conduct-full {
+  display: block;
+  margin: auto auto;
+  width: 95%;
+  height: auto;
+  margin-bottom: -15px;
+}
+
+img.conduct-300 {
+  display: block;
+  margin: auto auto;
+  width: 35%;
+  height: auto;
+  margin-bottom: -15px;
+}
