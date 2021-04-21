@@ -20,6 +20,8 @@ set is for you to feel welcome.  Our purpose in this Code of Conduct is to
 give all of our attendees some ideas for how to make all of the above
 happen.
 
+<picture><source srcset="images/conduct/how-to-be.webp" type="image/webp"><img class="conduct-full" src="images/conduct/how-to-be@1x.png" alt="a bunch of people of various descriptions in many pastel colors excitedly !!ing at each other!!"></picture>
+
 ## How to be !!Con
 
 **Harassment has no place at !!Con.**  This sounds obvious, but it’s
@@ -69,6 +71,8 @@ Above all else, remember that !!Con attendees are all here to relish in the
 joy, excitement, and surprise of computing.  These guidelines help us all
 create a space where that can happen.
 
+<picture><source srcset="images/conduct/bangbang-dashes.webp" type="image/webp"><img class="conduct-full" src="images/conduct/bangbang-dashes@1x.png" alt="pastel bang-bangs!"></picture>
+
 ## How we handle Code of Conduct issues
 
 In the past, we’ve resolved many of our Code of Conduct reports in a
@@ -97,6 +101,8 @@ bring it to the organizers.  And, although we explicitly called out
 attendees above, this Code of Conduct applies to everybody who contributes
 to the !!Con space, including attendees, organizers, sponsors, volunteers,
 staff, and Exclamation Foundation board members.
+
+<picture><source srcset="images/conduct/speaker.webp" type="image/webp"><img class="conduct-300" src="images/conduct/speaker@1x.png" alt="a speaker passionately talks about bang-bangs!"></picture>
 
 ## Guidelines for speakers
 
@@ -144,6 +150,8 @@ even if your talk is mostly about computers, taking 10 minutes to go through
 it and look for some of these issues (even if they're subtle!) goes a long
 way to keeping !!Con welcoming for everyone.
 
+<picture><source srcset="images/conduct/contact.webp" type="image/webp"><img class="conduct-full" src="images/conduct/contact@1x.png" alt="two folks talk to each other by way of their computers, one asking about a smile and the other responding with a heart!"></picture>
+
 ## Getting in touch
 
 **If you notice behavior that feels out-of-place at !!Con -- you’re being
@@ -176,6 +184,8 @@ respect the space that we're in.
 
 -->
 
+<picture><source srcset="images/conduct/dashes.webp" type="image/webp"><img class="conduct-full" src="images/conduct/dashes@1x.png" alt="dash dash dash"></picture>
+
 ## Transparency reports
 
 !!Con's Code of Conduct committees have compiled transparency reports for
@@ -183,6 +193,10 @@ reported incidents in previous years, which you can find below:
 
 * [!!Con West 2020](http://bangbangcon.com/west/conduct-transparency/)
 * [!!Con West 2019](http://bangbangcon.com/west/2019/conduct-transparency/)
+
+## Thanks
+
+The Exclamation Foundation Code of Conduct was illustrated by [Annie Ruygt](https://annieruygtillustration.com/).
 
 <!-- ## Transparency reports
 
