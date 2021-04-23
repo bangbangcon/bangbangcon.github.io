@@ -3,7 +3,7 @@ layout: default-2021
 title: Program - !!Con 2021
 ---
 
-# Conference program
+# Conference Program
 
 <style type="text/css">
     /* Event Types */
@@ -87,9 +87,20 @@ title: Program - !!Con 2021
     dfn {
         padding: 0.25rem 0.5rem;
     }
+
+    /* Timezone */
+    #timezone {
+        font-family: monospace;
+    }
 </style>
 
-Timezone: <span id="timezone">Pacific Daylight Time (GMT -7)</span>. All times in 24h format.
+<!-- Extra nbsp to make it look good :) -->
+
+Timezone: &nbsp;<span id="timezone">Pacific Daylight Time (GMT -7)</span>.
+
+All times in 24h format.
+
+View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#table">Table</a>
 
 ## Events
 
@@ -98,7 +109,9 @@ Timezone: <span id="timezone">Pacific Daylight Time (GMT -7)</span>. All times i
 <p><dfn class="unconf">Unconferencing</dfn> - A make-your-own-session time!</p>
 <p><dfn class="syncwatch">Syncwatch</dfn> - Rebroadcast of an earlier session!</p>
 
-## Daily Schedule
+<span id="cards-section"></span>
+
+## Schedule
 
 <div class="cards" id="cards">
 
@@ -164,9 +177,11 @@ Timezone: <span id="timezone">Pacific Daylight Time (GMT -7)</span>. All times i
 
 </div>
 
+<span id="table-section"></span>
+
 ## Table
 
-(This is the same information as above in a different format!)
+Same info, different format :)
 
 <table>
     <tr>
