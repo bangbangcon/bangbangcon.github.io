@@ -6,7 +6,7 @@ title: The joy, excitement, and surprise of computing - !!Con 2021
 <p style="text-align: center;">
   **Quick Links:**
   &middot;
-  [Call for Proposals](give-a-talk.html)
+  [Schedule](program.html)
   &middot;
   [Speakers](speakers.html)
   &middot;
@@ -22,7 +22,7 @@ joyous, exciting, and surprising moments in computing.
 
 ## Who's speaking?
 
-Our [call for talk proposals](give-a-talk.html) is closed! We'll send out acceptances/rejections on Apr 18th, and announce our speaker lineup on Apr 23. 
+Our [call for talk proposals](give-a-talk.html) is closed! We'll send out acceptances/rejections on Apr 18th, and announce our speaker lineup on Apr 23.
 
 ## Where and when?
 
@@ -90,14 +90,14 @@ The !!Con 2021 organizing team:
 [Julia Evans](https://twitter.com/b0rk),
 [Alicja Raszkowska](https://twitter.com/mamrotynka),
 [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
-[Sarah Withee](https://twitter.com/geekygirlsarah), 
+[Sarah Withee](https://twitter.com/geekygirlsarah),
 [Dev Purandare](https://twitter.com/Dev14e), and
 [Lindsey Kuper](http://composition.al/).  If you'd like, you can [send us
 some mail](mailto:2021-organizers@exclamation.foundation)!
 
 Organizers emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://twitter.com/NabilHassein),
-[Maggie Zhou](https://twitter.com/zmagg), [Alex Clemmer](https://twitter.com/hausdorff_space), 
-[Emily Xie](https://twitter.com/emilyxxie), [Danielle Sucher](https://twitter.com/DanielleSucher), and 
+[Maggie Zhou](https://twitter.com/zmagg), [Alex Clemmer](https://twitter.com/hausdorff_space),
+[Emily Xie](https://twitter.com/emilyxxie), [Danielle Sucher](https://twitter.com/DanielleSucher), and
 [Kiran Bhattaram](https://twitter.com/kiranb).
 
 Logo design by
@@ -134,11 +134,11 @@ touch](mailto:2021-organizers@exclamation.foundation).
   <div class="sponsor"><a href="https://discourse.org/" target="_blank"><span
     class="magic">.</span><div class="logo"><img width="300"
     alt="Discourse" src="images/sponsors/discourse.svg" /></div></a></div>
-    
+
   <div class="sponsor"><a href="https://bionic.fullstory.com/" target="_blank"><span
     class="magic">.</span><div class="logo"><img width="300"
     alt="Fullstory" src="images/sponsors/fullstory.png" /></div></a></div>
-    
+
 <!--
   <div class="sponsor"><a href="https://www.twosigma.com/careers/" target="_blank"><span
     class="magic">.</span><div class="logo"><img width="360"
