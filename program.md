@@ -311,8 +311,8 @@ Same info, different format :)
     // Highlight current day (getDate gets day of month!)
     const currentDay = new Date().getDate();
     // getMonth is 0-based! May == 4.
-    if (new Date().getMonth() == 4 || true) {
-        if (currentDay >= 15 && currentDay <= 22 || true) {
+    if (new Date().getMonth() == 4) {
+        if (currentDay >= 15 && currentDay <= 22) {
             const dayIndex = (currentDay - 15);
             // Highlight table columns.
             Array.from(document.getElementsByTagName('tr')).forEach(row => {
