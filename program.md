@@ -166,6 +166,8 @@ Timezone: <span id="timezone">Pacific Daylight Time (GMT -7)</span>. All times i
 
 ## Table
 
+(This is the same information as above in a different format!)
+
 <table>
     <tr>
         <th></th>
@@ -305,5 +307,4 @@ Timezone: <span id="timezone">Pacific Daylight Time (GMT -7)</span>. All times i
             document.getElementById('cards').children.item(dayIndex).classList.add('current');
         }
     }
-    console.log(currentDay);
 </script>
