@@ -6,7 +6,7 @@ title: The joy, excitement, and surprise of computing - !!Con 2021
 <p style="text-align: center;">
   **Quick Links:**
   &middot;
-  [Schedule](program.html)
+  [Tickets](tickets.html)
   &middot;
   [Speakers](speakers.html)
   &middot;
@@ -45,7 +45,7 @@ all your wonderful talk proposal submissions! Learn more about our amazing [spea
 
 !!Con 2021 will be held online, the week of May 15-22, 2021!!
 
-!!Con is a *pay-what-you-want* conference.  Stay tuned for information about registration.
+!!Con is a *pay-what-you-want* conference. Our registration will open April 24th (first batch) and April 26th (second batch).
 
 <a name="testimonials" id="testimonials"></a>
 
