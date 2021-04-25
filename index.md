@@ -20,6 +20,22 @@ ten-minute talks** (with lots of breaks, of course!) to celebrate the
 joyous, exciting, and surprising moments in computing.
 </p>
 
+<div class="speaker-pics" markdown="0">
+  <div><a href="./speakers.html#andrew-sillers"><img height="100" width="100" src="images/speakers/thumbnail/andrew-sillers.png" alt="Andrew Sillers" /></a></div>
+  <div><a href="./speakers.html#angie-jones"><img height="100" width="100" src="images/speakers/thumbnail/angie-jones.png" alt="Angie Jones" /></a></div>
+<!-- <div><a href="./speakers.html#dasha-ilina"><img height="100" width="100" src="images/speakers/thumbnail/dasha-ilina.png" alt="Dasha Ilina" /></a></div>) -->
+<!-- <div><a href="./speakers.html#jeanheyd-meneide"><img height="100" width="100" src="images/speakers/thumbnail/jeanheyd-meneide.png" alt="JeanHeyd Meneide" /></a></div> -->
+<!-- <div><a href="./speakers.html#john-feminella"><img height="100" width="100" src="images/speakers/thumbnail/john-feminella.png" alt="John Feminella" /></a></div> -->
+  <div><a href="./speakers.html#kate-temkin"><img height="100" width="100" src="images/speakers/thumbnail/kate-temkin.png" alt="Kate Temkin" /></a></div>
+  <div><a href="./speakers.html#patrick-stefaniak"><img height="100" width="100" src="images/speakers/thumbnail/patrick-stefaniak.png" alt="Patrick Stefaniak" /></a></div>
+  <div><a href="./speakers.html#paul-pollack"><img height="100" width="100" src="images/speakers/thumbnail/paul-pollack.png" alt="Patrick Stefaniak" /></a></div>
+  <div><a href="./speakers.html#pawel-marczewski"><img height="100" width="100" src="images/speakers/thumbnail/pawel-marczewski.png" alt="Paweł Marczewski" /></a></div>
+  <div><a href="./speakers.html#quinn-dombrowski"><img height="100" width="100" src="images/speakers/thumbnail/quinn-dombrowski.png" alt="Quinn Dombrowski" /></a></div>
+  <div><a href="./speakers.html#wade-minter"><img height="100" width="100" src="images/speakers/thumbnail/wade-minter.png" alt="Wade Minter" /></a></div>
+  <div><a href="./speakers.html#wilkie"><img height="100" width="100" src="images/speakers/thumbnail/wilkie.png" alt="wilkie" /></a></div>
+  <div><a href="./speakers.html#william-woodruff"><img height="100" width="100" src="images/speakers/thumbnail/william-woodruff.png" alt="William Woodruff" /></a></div>
+</div>
+
 ## Who's speaking?
 
 Our [call for talk proposals](give-a-talk.html) is closed! We'll send out acceptances/rejections on Apr 18th, and announce our speaker lineup on Apr 23.

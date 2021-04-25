@@ -1,6 +1,7 @@
 _site/
 *.DS_Store
 *.sw*
+.idea/
 
 Gemfile.lock
 .jekyll-cache
