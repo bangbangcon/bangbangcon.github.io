@@ -9,13 +9,13 @@ The 2021 CFP is closed. Thank you to everyone who proposed a talk!!
 
 # Timeline
 
-  * ~March 8th: Call for talk* proposals opens.~
-  * ~April 8th: [Talk* proposal
-    submission](https://forms.gle/e5VmYgctBSTLd7556) deadline.~
-  * April 18th: Notification of talk* acceptance.
-  * April 19th: Conference registration opens.
-  * April 21st: Deadline for speakers to confirm their participation.
-  * April 23rd: Public announcement of full speaker list.
+  * ~~March 8th: Call for talk* proposals opens.~~
+  * ~~April 8th: [Talk* proposal
+    submission](https://forms.gle/e5VmYgctBSTLd7556) deadline.~~
+  * ~~April 18th: Notification of talk* acceptance.~~
+  * ~~April 19th: Conference registration opens.~~
+  * ~~April 21st: Deadline for speakers to confirm their participation.~~
+  * ~~April 23rd: Public announcement of full speaker list.~~
   * May 8th: Public announcement of detailed schedule.
   * May 15th - 22nd: !!Con!
 
