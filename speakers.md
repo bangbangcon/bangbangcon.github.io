@@ -119,7 +119,7 @@ Making 3D graphics and creating textile art are surprisingly similar! In this ta
 
 ---
 
-### Patrick Stefaniak
+### Paul Pollack
 
 <a name="paul-pollack" id="paul-pollack"></a>
 <img src="images/speakers/paul-pollack.png" alt="Paul Pollack" class="speaker-img" />
