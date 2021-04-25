@@ -39,7 +39,7 @@ When not hacking hardware, she maintains a variety of open-source projects, incl
 <a name="andrew-sillers" id="andrew-sillers"></a>
 <img src="images/speakers/andrew-sillers.png" alt="Andrew Sillers" class="speaker-img" />
 
-**Punch Card Love! A (Very!) Personal History of Computer Dating!**
+**Night of the living GIF: Making interactive multiplayer experiences on a static webpage! (pronounce "GIF" however you like :)**
 
 The Web is full of opportunities to upload static HTML: blog comments, user profiles, and even emails can all host user-supplied text and images. But haven't you ever wished you could replace all your sleepy static content with real-time interactive multiplayer games? By harnessing the magic of HTTP and (mis)using the awesome power of GIFs, we'll do just that, with no JavaScript required!
 
