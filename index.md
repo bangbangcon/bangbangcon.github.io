@@ -132,7 +132,6 @@ Is your organization interested in sponsoring !!Con?  Check out our
 touch](mailto:2021-organizers@exclamation.foundation).
 
 <div class="sponsor-list" markdown="0">
-<!--
   <h3>EXCELLENT!! Sponsors</h3>
 
 
@@ -140,7 +139,6 @@ touch](mailto:2021-organizers@exclamation.foundation).
     class="magic">.</span><div class="logo"><img width="380"
     alt="Xandr" src="images/sponsors/xandr.png" /></div></a></div>
 
--->
 
   <h3 style="margin: 1.5em 0;">AWESOME! Sponsors</h3>
 
@@ -156,12 +154,10 @@ touch](mailto:2021-organizers@exclamation.foundation).
     class="magic">.</span><div class="logo"><img width="300"
     alt="Fullstory" src="images/sponsors/fullstory.png" /></div></a></div>
 
-<!--
   <div class="sponsor"><a href="https://www.twosigma.com/careers/" target="_blank"><span
     class="magic">.</span><div class="logo"><img width="360"
     alt="Two Sigma" src="images/sponsors/twosigma.png" /></div></a></div>
 
--->
 
 </div>
 
