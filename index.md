@@ -38,7 +38,8 @@ joyous, exciting, and surprising moments in computing.
 
 ## Who's speaking?
 
-Our [call for talk proposals](give-a-talk.html) is closed! We'll send out acceptances/rejections on Apr 18th, and announce our speaker lineup on Apr 23.
+Our [call for talk](give-a-talk.html) proposals is closed. Thanks for
+all your wonderful talk proposal submissions! Learn more about our amazing [speakers](speakers.html)!
 
 ## Where and when?
 
