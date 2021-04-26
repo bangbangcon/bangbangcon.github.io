@@ -157,6 +157,11 @@ touch](mailto:2021-organizers@exclamation.foundation).
   <div class="sponsor"><a href="https://www.twosigma.com/careers/" target="_blank"><span
     class="magic">.</span><div class="logo"><img width="360"
     alt="Two Sigma" src="images/sponsors/twosigma.png" /></div></a></div>
+    
+  <div class="sponsor"><a href="https://phaze.ro/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="300"
+    alt="PhazeRo" src="images/sponsors/phaze.png" /></div></a></div>
+
 
 
 </div>
