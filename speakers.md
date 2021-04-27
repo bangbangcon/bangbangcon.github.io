@@ -34,6 +34,66 @@ When not hacking hardware, she maintains a variety of open-source projects, incl
 ## Lightning Talks
 
 
+### Aaron A. Reed
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**From Oregon Trail to A.I. Dungeon: 50 Years of Text Games!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Alex Pounds
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Let me at my data! Pulling pictures out of an undocumented file format**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Alicja Raszkowska
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**The Brave Little Database!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Amara Jaeger
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**The Musical Password Manifesto: You Have Nothing to Lose But Your FRdqwcK7y23CYPq!!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
 ### Andrew Sillers
 
 <a name="andrew-sillers" id="andrew-sillers"></a>
@@ -44,6 +104,36 @@ When not hacking hardware, she maintains a variety of open-source projects, incl
 The Web is full of opportunities to upload static HTML: blog comments, user profiles, and even emails can all host user-supplied text and images. But haven't you ever wished you could replace all your sleepy static content with real-time interactive multiplayer games? By harnessing the magic of HTTP and (mis)using the awesome power of GIFs, we'll do just that, with no JavaScript required!
 
 **Andrew** is a programmer who thinks a lot about security. He enjoys copyright law, federated services, and surprising solutions.
+
+---
+
+### Anjana Vakil
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**It’s a picture! It’s a program!! It’s Piet!!!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Daniel Temkin
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Dithers of the Error-Diffusion Kind!**
+
+<!-- desc -->
+
+<!-- bio -->
 
 ---
 
@@ -61,6 +151,21 @@ The grim reality of working from home has finally entered almost every household
 This talk* will give you an insight into how these sort of solutions can be made from the materials you have at home - with basic skills, many failed attempts, and lots of humor - in order to encourage you to build your own fixes to your problems!
 
 **Dasha Ilina** is a Russian digital artist based in Paris, France. Her work explores the relationship we develop with the digital devices we use on a daily basis, specifically in regards to the human body. Ilina’s work centers around the notions of care and technology, DIY practices and low-tech solutions to examine various issues such as phone addiction, tech-related health problems and privacy in the digital age. She is the founder of the Center for Technological Pain, a center that proposes DIY solutions to health problems caused by digital technologies for which she has received an Honorary Mention at Ars Electronica. She is also the co-director of NØ SCHOOL.
+
+---
+
+### Jade Fink
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**pwintln!(): teaching an ELF to uwu!!**
+
+<!-- desc -->
+
+<!-- bio -->
 
 ---
 
@@ -106,6 +211,126 @@ John is interested in bits, bucks, bots, and blocks. He lives in Charlottesville
 
 ---
 
+### Jon Kingsley
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Ride on Model Railway Signalling using Kubernetes!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Kimberly Wilber
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**How layers upon layers of hacky abstractions turned Doom II into the best kart racer!!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Laura Kurup
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Geometric derivations of RGB colorspace! The strange eyeball science that is messing with your LEDs**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Lynn Pepin
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Making a pixel-y circuit design language and then building circuits in it!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Martin Gaston
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**making our own napster so we can party like it’s 1999!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Michael Woods
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Numeric Data Types in the Wild; or: Things I Learned From Last Night’s Dinner Receipt!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Nathan Kiessman
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Bang Bang!! Hacking Switch Controllers to Play Rhythm Games Using A Real Drum!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Nicholas Carlini
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**GoLlURM! The Game of Life (limited) Unlimited-Register Machine!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
 ### Patrick Stefaniak
 
 <a name="patrick-stefaniak" id="patrick-stefaniak"></a>
@@ -147,6 +372,36 @@ When working on an online tabletop game, I encountered the problem of mouse curs
 
 ---
 
+### Phil Salvador
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**I learned how to code and now I'm even more confused!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Pokey Rule
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Cursorless: keyboards and mice are sooo last year!!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
 ### Quinn Dombrowski
 
 <a name="quinn-dombrowski" id="quinn-dombrowski"></a>
@@ -157,6 +412,111 @@ When working on an online tabletop game, I encountered the problem of mouse curs
 Did you ever pick up a "Baby-Sitters Club" book in the 90's, or stumble across the graphic novels or Netflix series more recently? The "Baby-Sitters Club" turns out to be an amazing corpus for exploring computational text analysis methods! Find out what the "Data-Sitters Club" has learned -- about these books, natural-language processing (in multiple languages), collaboration, and coding -- in this quick tour of our discoveries so far!
 
 **Quinn** loves languages, digital humanities, and sewing brightly-colored clothes, and can often be found on Twitter at @quinnanya. Quinn works in the Library and the Division of Literatures, Cultures, and Languages at Stanford University, but lives in Berkeley with a husband, three small kids, and two geriatric cats.
+
+---
+
+### Rebecca Ravenoak
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Nifty Weaving Tools: A Different Kind of Color Picker!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Richard Schneeman
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Beware the Dreaded Dead End!!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Robyn Speer
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Mojibake! What the hâ€”ck happened to these strings?**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Rocky Kev
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**NetMonster: A trip through early 2000s internet and the monsters hidden inside websites!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Sara Farquharson
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**It's my party and I'll build my own virtual social platform if I want to!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Sven Dahlstrand
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Changing a Single Byte Saves Me Seconds Every Day!**
+
+<!-- desc -->
+
+<!-- bio -->
+
+---
+
+### Tom Verbeure
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Option hack that 30 year old oscilloscope!**
+
+<!-- desc -->
+
+<!-- bio -->
 
 ---
 
@@ -196,6 +556,21 @@ Have you ever seen that image next to "Save" and thought "what the heck is that?
 Steganography is the art of hiding (not encrypting!) messages within otherwise inconspicuous data. Typical steganographic techniques involve media formats: images, movies, and audio. But what if we can hide messages within compiled programs themselves?? This talk will go through a whirlwind tour of steganography and the x86 architecture, and then show you ONE WEIRD TRICK in x86's instruction encoding that allows us to do exactly that!
 
 **William Woodruff** is a security researcher at Trail of Bits, primarily doing DARPA-funded research into program (LLVM) and binary (x86) analysis. During his free time, he likes to blog, ride bicycles, and do a bit of open source work (most recently in Rust). He's slowly working on completing the system of German Transcendental Idealism.
+
+---
+
+### Zachary Kanfer
+
+<!-- 
+<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
+<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+-->
+
+**Making Music! In Emacs?!**
+
+<!-- desc -->
+
+<!-- bio -->
 
 ---
 
