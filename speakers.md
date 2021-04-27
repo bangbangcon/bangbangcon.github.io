@@ -43,9 +43,9 @@ When not hacking hardware, she maintains a variety of open-source projects, incl
 
 **From Oregon Trail to A.I. Dungeon: 50 Years of Text Games!**
 
-<!-- desc -->
+2021 marks the 50th anniversary of the original text-only Oregon Trail, which debuted in a Minnesota classroom in December 1971. Since then games made with words have been everything from the industry-leading bestsellers to underground avant-garde. In 2021, I began a weekly blog series choosing one text game from each of the past 50 years to analyze in depth, a grand tour through a surprisingly broad range of games: from text adventures to BBS door games to hacking simulators to MUDs to audio games to browser-based idle games and more. In this talk I'll share some favorite anecdotes my research has uncovered, fascinating glimpses at people from all kinds of backgrounds across half a century of computing history, pouring their hearts and souls into making interactive stories built with words.
 
-<!-- bio -->
+**Aaron** is a writer and game designer, and game historian focused on helping gamemakers and players tell stories together. He is a multi-time IndieCade and IGF finalist, and has spoken about digital storytelling at venues as diverse as Google, PAX, GaymerX, and WorldCon.
 
 ---
 
@@ -58,9 +58,11 @@ When not hacking hardware, she maintains a variety of open-source projects, incl
 
 **Let me at my data! Pulling pictures out of an undocumented file format**
 
-<!-- desc -->
+RTS games have a concept called “fog of war”, where the map is hidden until your units explore it. For years I’ve used an app that brings that to the real world. I wanted to transform my unfogging data into wall art, but it’s a small indie app with no export function. Could I, a web developer who’s never reverse-engineered a binary format before, figure it out? I could! Kind of!
 
-<!-- bio -->
+This is a detective story and a science story: a story of making guesses, figuring out how to test them, and piecing together the puzzle so I could generate my own images outside of the app.
+
+**Alex** is a web developer and photographer who lives in Toronto, Canada. He’s particularly interested in social software and human-centred product design. When not coding for work he likes to code for fun, practice piano, and get out into nature. You can find out more about him at https://alexpounds.com/.
 
 ---
 
@@ -86,11 +88,11 @@ When not hacking hardware, she maintains a variety of open-source projects, incl
 <img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
 -->
 
-**The Musical Password Manifesto: You Have Nothing to Lose But Your FRdqwcK7y23CYPq!!**
+**The musical password manifesto: you have nothing to lose but your FRcK7y23ckdqwCYPq!**
 
-<!-- desc -->
+You’ve probably typed at least one plain text password today, but have you stopped to question why it had to be this way?? Who decided we should hide our most intimate data behind a secret phrase of characters– the more random and meaningless the better??  Seems pretty arbitrary, and really not that fun. Want to know what’s equally arbitrary and way more fun?? Musical passwords!!! In this talk, I’ll extol the virtues and mostly the fun of musical passwords, and explain a simple scheme for encoding them.  It’s so simple that I’ll code it for you in real time! By the end of this talk, you’ll hopefully have an understanding of how to easily map password data to some fun variables.  This will leave you with no good excuse not to implement fun authentication in your future password-protected projects!
 
-<!-- bio -->
+**Amara** lives in Brooklyn and can often be found rollerblading through local grocery stores.  A recent Recurse Center alum, she likes to pet dogs, make beats, and ride her bike.
 
 ---
 
@@ -131,9 +133,11 @@ The Web is full of opportunities to upload static HTML: blog comments, user prof
 
 **Dithers of the Error-Diffusion Kind!**
 
-<!-- desc -->
+Error-diffusion dithering is perhaps the fundamental algorithm of computer graphics. When an image is displayed in a reduced palette (such as black and white), a cloud of pixels return some detail to an image that otherwise would look washed out. Developed in the 1970s and 80s, they have been mostly stagnant since then.
 
-<!-- bio -->
+This talk will revisit these algorithms and see what happens when we mess with these coeffients, leading to images where the dithers become inextricable from the content of the images! From there, we'll imagine how dithering might work in an alternate computer history, where our screens looked very different from the ones we use today.
+
+**Daniel Temkin** is an artist and writer who is skeptical that human beings can understand logic or really write working code at all! They created the FatFinger dialect of JavaScript, which allows you to run typo-ridden JS, and the Entropy language, where all data decays the longer your program runs. They also design dither patterns for an alternate computer history where our screens are hexagonal, triangular, or other shapes.
 
 ---
 
@@ -163,9 +167,11 @@ This talk* will give you an insight into how these sort of solutions can be made
 
 **pwintln!(): teaching an ELF to uwu!!**
 
-<!-- desc -->
+Linux programs can print output in uwu-speak, but they either need to have their output filtered after the fact, or need to use special functions to output such text. This is clearly unacceptable! I should be able to include an uwuifier library so all my program’s output is uwuified, nyowo mattew whewe it came fwowom!!
 
-<!-- bio -->
+I will show the learning process from idea to minimal prototype of a text uwuifier that, with one function call, inserts itself into its process using tricks from binary exploitation for ironically benign purposes. I figure out how the dynamic linker resolves function calls to the system C library and redirect them for my own nefarious purposes by fooling around with a debugger!
+
+**Jade** is a Computer Engineering student at the University of British Columbia in Vancouver. While she's not hacking on tooling (primarily Rust), operating systems, or making jokes on Twitter, she likes to bake and go on long bike rides around the city.
 
 ---
 
@@ -211,7 +217,7 @@ John is interested in bits, bucks, bots, and blocks. He lives in Charlottesville
 
 ---
 
-### Jon Kingsley
+### Jonathan Kingsley
 
 <!-- 
 <a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
@@ -220,9 +226,9 @@ John is interested in bits, bucks, bots, and blocks. He lives in Charlottesville
 
 **Ride on Model Railway Signalling using Kubernetes!**
 
-<!-- desc -->
+Have you ever wondered "what would happen if we used container architecture to avoid crashing ride-on model railways"? Wonder no longer! In this talk, we will cover the basics of running a small ride-on railway in your back yard, using Kubernetes and Raspberry Pis to deploy your signalling, control, and safety infrastructure, and learn how to apply concepts from full-scale railways to your own small-scale endeavours! Watching this talk entitles you to one free ticket to ride the Kubernetes line.
 
-<!-- bio -->
+**Jonathan** is a software engineer at Orbit by day and live production tech, pyrotechnician, and musical theatre peformer by night. His interests include hardware reverse engineering and information security. He has once set a swimming pool on fire.
 
 ---
 
@@ -235,9 +241,9 @@ John is interested in bits, bucks, bots, and blocks. He lives in Charlottesville
 
 **How layers upon layers of hacky abstractions turned Doom II into the best kart racer!!**
 
-<!-- desc -->
+How does one build a "modern" kart racing game on top of the 1994 Doom engine? The answer: layers upon layers of terrible hacks! Like enumerating the rings of an ancient fossilized tree, I'll be giving you a lovingly detailed look at the 25-year creative history of my favorite racing game (SRB2Kart). Passed from designer to designer over the span of multiple decades, an iconically bloody shooter game became a Sonic the Hedgehog fangame, a third-person skateboarding sim, and then an incredibly underrated open-source kart racer! We'll look at the clever hacks, the egregious workarounds, and the wonderful community that makes it all possible.
 
-<!-- bio -->
+**Kimmy** is a trans engineer in New York City. She likes to read books, sip tea, and work on doom mods. She has been a part of the SRB2 community off and on since 2003.
 
 ---
 
@@ -263,11 +269,15 @@ John is interested in bits, bucks, bots, and blocks. He lives in Charlottesville
 <img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
 -->
 
-**Making a pixel-y circuit design language and then building circuits in it!**
+**Making a pixel-y circuit design language and then building circuits in it!!**
 
-<!-- desc -->
+Have you ever made a complicated Redstone machine in Minecraft, graphed out a complicated boolean expression, or taken a philosophy or digital-logic-design course? If so, then you're probably familiar with the ORs, XORs, and ANDs of digital logic circuits!! From these basic elements, one can build layer upon layer of abstraction.
 
-<!-- bio -->
+In this talk, I'll introduce Reso, an esoterical graphical logic circuit design language. It is inspired by Piet, Conway's Game of Life, and Redstone. Reso programs are circuits defined by bitmaps, where components are inherently modular and can be copy-and-pasted with ease. Your favorite graphics editor (be it GIMP, Paint, or Photoshop) is your IDE and the world (er, bitmap) is your oyster!!
+
+In this talk, you'll see what a circuit looks like, you'll see how it works, and  you'll see the execution of one of these bitmap circuits!!
+
+**Lynn** is a software engineer, a data scientist, and a big fan of interpreted and interactive languages. During COVID times, they became enthusiastic about aromatic brewed beverages and about taking nature walks while sipping said beverages. They spend the rest of their time making digital art, videogames, and poorly-done crochet.
 
 ---
 
@@ -301,7 +311,7 @@ John is interested in bits, bucks, bots, and blocks. He lives in Charlottesville
 
 ---
 
-### Nathan Kiessman
+### Nathan Kiesman
 
 <!-- 
 <a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
@@ -310,9 +320,9 @@ John is interested in bits, bucks, bots, and blocks. He lives in Charlottesville
 
 **Bang Bang!! Hacking Switch Controllers to Play Rhythm Games Using A Real Drum!**
 
-<!-- desc -->
+Taiko is a Japanese drumming tradition that dates back thousands of years, and has enjoyed a resurgence of popularity in the last decade. It is also the subject of an insanely cute rhythm game called “Taiko no Tatsujin”! However, unless the arcade version can be found, the player is stuck waving their controllers around, playing an imaginary drum. That is, unless this intrepid player has a homemade taiko drum, a microphone, a Teensy microcontroller, a rudimentary understanding of signal processing, and (optionally) access to a Target store. Learn about one of the most powerful and easy to use hobbyist microcontrollers, how computers can understand sound, and most importantly - how to Bang Bang! in style!
 
-<!-- bio -->
+**Nathan** is a student at Columbia University (Go Lions!) studying electrical engineering and computing history, and is also president of the CU Taiko Club. When not working on problem sets, he’s generally exploring retro-tech, enjoying long walks on Maine’s beaches, creating and sharing art, wandering aimlessly around the World Wide Web, and telling terrible jokes. One project he’s working on right now is documenting XBAND, a defunct and recently resurrected dial-up network for the Super Nintendo.
 
 ---
 
@@ -424,9 +434,9 @@ Did you ever pick up a "Baby-Sitters Club" book in the 90's, or stumble across t
 
 **Nifty Weaving Tools: A Different Kind of Color Picker!**
 
-<!-- desc -->
+This talk is about a suite of online weaving tools that speed up and simplify the process of designing woven fabrics. Weaving is a slow process, and there’s nothing as crushing as spending twenty hours on a project and then discovering, at the very end, that the colors actually don’t work well together and the finished fabric is downright ugly. The tools I built solve that problem: how can I predict the final appearance of a woven piece without spending tons of time and money making samples.
 
-<!-- bio -->
+**Rebecca** is a full stack developer and an artist, sometimes both at the same time. They live near Oakland with a small herd of cats and their spouse.
 
 ---
 
@@ -439,9 +449,11 @@ Did you ever pick up a "Baby-Sitters Club" book in the 90's, or stumble across t
 
 **Beware the Dreaded Dead End!!**
 
-<!-- desc -->
+Nothing stops a program from executing quite as fast as a syntax error. After years of “unexpected end” in my dev life I decided to “do” something about it. I built an over-the-top AI driven solution that finds syntax errors in Ruby code.
 
-<!-- bio -->
+Discover why this 100% ridiculous solution was 100% worth-it. Bring your sense of adventure and you’ll walk away with an intro to AI, a short primer on Ruby syntax, and all the friends we made along the  way.
+
+**Schneems** is an open-source junkie that loves community building. He created and maintains CodeTriage.com, a tool for helping people contribute to open-source. When he's not working on that you might find him building developer tooling at Heroku or working on his own OSS contributions. He is in the top 50 Rails contributors and is an accidental maintainer of Sprockets and Puma. Last time he checked, he had over a 1.2 billion library downloads on RubyGems. When he isn't obsessively compulsively refactoring code for performance he spends his time reminding his kids to wash their hands.
 
 ---
 
@@ -499,9 +511,13 @@ Did you ever pick up a "Baby-Sitters Club" book in the 90's, or stumble across t
 
 **Changing a Single Byte Saves Me Seconds Every Day!**
 
-<!-- desc -->
+Have you ever stumbled upon a piece of software that's almost perfect? Loving everything about it except that teeny-tiny little detail. Sticking out, like a sore thumb.
 
-<!-- bio -->
+For me, that almost-perfect piece of software is Tetris, for the original Game Boy. My grudge? Every time the game boots up, you have to stare at an 8-second long copyright notice before being allowed to play. One summer, during an intense Tetris tournament against my BFF, I got super-duper-feed-up with that notice and asked myself: "Is it possible to hack Tetris and get rid of that screen forever?"
+
+This talk is about saving precious time. But it's also about friendship, falling blocks, reverse-engineering and hacking games. I hope it will inspire you to look under the hood of software you love and make it even lovelier.
+
+**Sven** is a curious human being who loves acquiring new skills and shares what he has learned with other people. He knows enough to be dangerous around soldering irons, crochet hooks, pen plotters, and paddles. For a living, Sven builds accessible and performant websites.
 
 ---
 
@@ -568,9 +584,9 @@ Steganography is the art of hiding (not encrypting!) messages within otherwise i
 
 **Making Music! In Emacs?!**
 
-<!-- desc -->
+During quarantine, I found myself spending time with an Android app. One of the features this app has is composing music that loops endlessly. As with many programs, I wondered how much better this feature would be, if only it was inside Emacs. This talk explains how I made zmusic, my implementation inside Emacs, with detours through Emacs text properties, font rendering, the WAVE file format, and music theory. And hopefully at the end, we'll have something worth listening to.
 
-<!-- bio -->
+**Zachary** spends a lot of time coding Lisp, playing guitars, and doing improv. He also runs Emacs NYC, and recently got into hats. Find him at zck.org.
 
 ---
 
