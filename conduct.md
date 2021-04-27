@@ -27,10 +27,11 @@ happen.
 **Harassment has no place at !!Con.**  This sounds obvious, but it’s
 important.  There are almost limitless ways to harass people; an incomplete
 list might include harassment based on gender, sexual orientation,
-disability, physical appearance, body size, skin color, or religion.  Don’t
-do any of those things, and in any event, please be mindful of how you talk
-to and about other people at the conference.  “Jokes” (or serious actions,
-for that matter) that serve to exclude people aren’t okay, either.
+disability, physical appearance, body size, skin color, or religion, as well
+as making predatory sexual advances on other attendees.  Don’t do any of
+those things, and in any event, please be mindful of how you talk to and
+about other people at the conference.  “Jokes” (or serious actions, for
+that matter) that serve to exclude people aren’t okay, either.
 
 Conversely, try to make an extra effort to **be kind and empathetic in how you
 act**.  Here’s a few ways you can do that:
