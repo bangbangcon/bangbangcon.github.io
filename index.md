@@ -6,6 +6,8 @@ title: The joy, excitement, and surprise of computing - !!Con 2021
 <p style="text-align: center;">
   **Quick Links:**
   &middot;
+  [Schedule](program.html)  
+  &middot;
   [Tickets](tickets.html)
   &middot;
   [Speakers](speakers.html)
@@ -132,7 +134,6 @@ Is your organization interested in sponsoring !!Con?  Check out our
 touch](mailto:2021-organizers@exclamation.foundation).
 
 <div class="sponsor-list" markdown="0">
-<!--
   <h3>EXCELLENT!! Sponsors</h3>
 
 
@@ -140,7 +141,6 @@ touch](mailto:2021-organizers@exclamation.foundation).
     class="magic">.</span><div class="logo"><img width="380"
     alt="Xandr" src="images/sponsors/xandr.png" /></div></a></div>
 
--->
 
   <h3 style="margin: 1.5em 0;">AWESOME! Sponsors</h3>
 
@@ -156,12 +156,15 @@ touch](mailto:2021-organizers@exclamation.foundation).
     class="magic">.</span><div class="logo"><img width="300"
     alt="Fullstory" src="images/sponsors/fullstory.png" /></div></a></div>
 
-<!--
   <div class="sponsor"><a href="https://www.twosigma.com/careers/" target="_blank"><span
     class="magic">.</span><div class="logo"><img width="360"
     alt="Two Sigma" src="images/sponsors/twosigma.png" /></div></a></div>
+    
+  <div class="sponsor"><a href="https://phaze.ro/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="300"
+    alt="PhazeRo" src="images/sponsors/phaze.png" /></div></a></div>
 
--->
+
 
 </div>
 
