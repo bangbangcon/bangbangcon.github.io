@@ -111,9 +111,13 @@ The Web is full of opportunities to upload static HTML: blog comments, user prof
 
 **It’s a picture! It’s a program!! It’s Piet!!!**
 
-<!-- desc -->
+What if you didn’t *write* a program, but *drew* it instead?!? What if you could learn about programming languages and models of computation by playing with pixel art?!? Spoiler alert: you can!!
 
-<!-- bio -->
+Piet, named after the artist Piet Mondrian, is an esoteric programming language, aka “esolang”, where programs are abstract pixel art(!), blocks of color are data(!!), and programmers use variations in color to send instructions to a stack-based interpreter to compute... anything!!! (Really, it’s Turing complete! You can even write an interpreter for another language in it!!)
+
+Let’s learn how Piet works through a visual exploration of the basic concepts of the language, take a look at a few amazing programs, and see how this pixel-perfect esolang can teach & inspire us to learn more about the art of computing (pun intended!).
+
+**Anjana** suffers from a chronic case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As a developer advocate at Observable, these days she codes & teaches from her home base in San Francisco; in the before-times, you could find her speaking at events around the world. She loves to share the joy of programming and advocate for a more diverse, equitable, and ethical tech industry. Ask her about the Recurse Center & Outreachy, she’s an alumna of both!
 
 ---
 
@@ -235,9 +239,9 @@ How does one build a "modern" kart racing game on top of the 1994 Doom engine? T
 
 **Geometric derivations of RGB colorspace! The strange eyeball science that is messing with your LEDs**
 
-<!-- desc -->
+It’s hard to write code that smoothly fades RGB LEDs between colors. But why? Lots of libraries offer solutions, but exploring the problem quickly opens up a neon rainbow hexacone of complexity.  Our eyes don’t perceive color in a linear way, and humans have been trying to solve this with math since color screens were introduced.  Come along on my visual journey into the eyeball, through the strange history of colorspace models to adjust for color perception, and my attempts to update my code!
 
-<!-- bio -->
+**Laura** helps public sector organizations deliver on their mission in innovative ways by unlocking the value of data. Outside of work, Laura explores code and data as tools to make art, find new perspectives, and connect with community.  When she's not debugging her latest python project, Laura is probably canoeing on a whitewater river or falling off her skateboard.
 
 ---
 
@@ -265,9 +269,13 @@ In this talk, you'll see what a circuit looks like, you'll see how it works, and
 
 **making our own napster so we can party like it’s 1999!**
 
-<!-- desc -->
+Shamefully, the first MP3 I ever downloaded was Ricky Martin’s Livin Da Vida Loca. And I downloaded it from this magical new application called Napster.
 
-<!-- bio -->
+Using Napster felt bold, daring, and exciting. It peaked at the dawn of the 21st century, where we felt like the future was right now. Napster introduced peer-to-peer software to a mainstream audience, creating an unspoken community of punk outsiders (some of whom downloaded Ricky Martin hits) who felt like they were about to start playing society by a new set of rules.
+
+In this talk, we’ll look back at the tech which powered the core of Napster - a centralised, peer-to-peer network. We’ll explore how a P2P connection works, how to create a protocol to send data between two computers and then we’ll create our own toy project that really whips the llama’s ass!
+
+Between frequent conversations about the magic of the 90s, **Martin** works as a software consultant at 8th Light. He likes fiddling around with fussy protocols, wants everyone to feel like they can pursue a career in tech, and is absolutely no good at writing a personal bio.
 
 ---
 
@@ -306,9 +314,11 @@ Taiko is a Japanese drumming tradition that dates back thousands of years, and h
 
 **GoLlURM! The Game of Life (limited) Unlimited-Register Machine!**
 
-<!-- desc -->
+In this talk I introduce the Game of Life (limited) Unlimited-Register Machine (GoLlURM), a powerful 3-instruction CPU with instructions such as INC, DEC, and JUMP_IF_ZERO. GoLlURM is built entirely on top of Conway's Game of Life (with gliders!), making it the world's most cross-platform CPU ever developed.
 
-<!-- bio -->
+This amazing computation engine manages an impressive FIVE HERTZ of performance (* requires a latest-generation overclocked 4.5GHz CPU). Some may say that this factor-of-a-billion reduction in performance will limit its utility to giving sarcastic talks on the Internet. I would agree.
+
+**Nicholas** is, by day, employed as research scientist at a large search engine company in the hope that he will produce new and useful research. He also does this by night as well, but disregards the qualifier "useful".
 
 ---
 
@@ -360,9 +370,11 @@ When working on an online tabletop game, I encountered the problem of mouse curs
 
 **I learned how to code and now I'm even more confused!**
 
-<!-- desc -->
+During the pandemic, I picked up programming as a hobby in order to help my friend create a mod for the 1993 video game Doom. This was my first time embarking on a major coding project, and it turns out this was probably not the easiest place to start! Over the years, the Doom game engine has been modified and re-implemented so many times that now it uses multiple programming languages stacked on top of each other. For someone like me with minimal coding exposure, this was challenging, to say the least!
 
-<!-- bio -->
+In this talk, I'll walk through one of my misadventures that taught me it can be fun when coding is confusing. I started with a simple task — playing a sound effect — that rippled out into so many other issues that it made me wonder why I didn't just take up baking like everyone else instead!
+
+**Phil Salvador** is a librarian, digital archivist, and video game historian who writes about unusual old computer games on his blog, The Obscuritory. But most importantly, he is a friend to all birds.
 
 ---
 
@@ -431,9 +443,11 @@ Discover why this 100% ridiculous solution was 100% worth-it. Bring your sense o
 
 **Mojibake! What the hâ€”ck happened to these strings?**
 
-<!-- desc -->
+Our natural-language systems need to be prepared to deal with real-world text. But sometimes real-world text says something like "Merci de t‚Äö√†√∂¬¨¬©l‚Äö√†√∂¬¨¬©charger le plug-in", and that's terrible.
 
-<!-- bio -->
+I made a Python module called "ftfy" that can solve the puzzle of what happened to Unicode text like this, and in many cases undo it. I want to talk briefly (without too much blame) about why mojibake happens, how we can fix it and maybe prevent it, and why this isn't a job for machine learning.
+
+**Robyn Speer** is the developer of the multilingual knowledge graph ConceptNet, as well as several open source projects including ftfy. A decade ago, she co-founded an NLP startup called Luminoso. Now, in her increased free time, she plays and modifies randomizers for retro video games.
 
 ---
 
@@ -444,9 +458,11 @@ Discover why this 100% ridiculous solution was 100% worth-it. Bring your sense o
 
 **NetMonster: A trip through early 2000s internet and the monsters hidden inside websites!**
 
-<!-- desc -->
+In the year 2000, before Google was a verb and websites were build with tables, there existed a game called NetMonsters. Players would visit websites and find monsters to add to their collection. The more techno-savvy players, who were building sites on Geocities, Tripod, and Angelfire, weren't just creating a home for their thoughts - they created a world for their monsters.
 
-<!-- bio -->
+Nearly all of those sites are gone now. In this talk, I cover the mechanics of NetMonsters and journey through the wayback machine, through Geocities archives, and through data hoarder torrents to reveal the lost NetMonster communities.
+
+**Rocky** is a web developer, game developer, organizer, and teacher. He is an introvert and enjoys eating waffles and rock climbing - both are solo sports. He likes to be in the forefront of web technology and is endlessly fascinated by the ever-changing web landscape.
 
 ---
 
@@ -457,9 +473,11 @@ Discover why this 100% ridiculous solution was 100% worth-it. Bring your sense o
 
 **It's my party and I'll build my own virtual social platform if I want to!**
 
-<!-- desc -->
+What to do when you want to throw a huge birthday party when travel and parties aren't possible? Try (and maybe fail!) to build your own video conferencing platform, of course! At least, that seemed like the obvious solution a few months before my own birthday. There are many ways to interact with friends online, but none I could find captured the feeling of socializing with a large group of friends in a physical space. It seems that if I wanted to host the party I imagined, I would have to build a platform myself!
 
-<!-- bio -->
+Join me on my adventure of exploring: what puts the "social" in "virtual social space" anyway? How do you design the perfect distributed party? And is it possible to learn enough about WebRTC, audio spatialization, and scalable cloud infrastructure to build it in under two months, with no prior experience? Along the way I'll talk about some of the technical challenges of building video conferencing software I discovered, which helped me understand why my dream platform didn't already exist.
+
+**Sara** is a lifelong generalist who enjoys writing code, aerial silks, and talking enthusiastically about her myriad of other interests. Previous short-notice projects she has thrown together for her birthday include: learn to scuba dive, perform a cello concert on a cruise ship, and put on a guest-filled charity fundraiser livestream.
 
 ---
 
@@ -487,9 +505,9 @@ This talk is about saving precious time. But it's also about friendship, falling
 
 **Option hack that 30 year old oscilloscope!**
 
-<!-- desc -->
+Oscilloscopes are wonderful devices that make invisible signals visible. For the longest time, they have been sold with all kinds of optional features for which you are supposed to pay good extra money. "Modern" oscilloscopes contain an embedded computer that doesn't only manages the complex hardware and but also guards the key to these extra features. In this talk, I describe my quest to make available the hidden pots of gold of a 30 year old bare bones oscilloscope. A journey of weird interfaces, dumb pin swaps, counting chips on a PCB, disassembling firmware, and buying obsolete RAMs from Chinese brokers. There's even a short run-in with Smalltalk, one of earlier object oriented programming languages.
 
-<!-- bio -->
+**Tom** spends most of his time in his garage. During the day to help create awesome gaming monitors, in the evening to work on one of his 20+ parallel hobby electronics projects. By writing about them on his  blog, he forces himself to finish a project every once in a while.
 
 ---
 
