@@ -23,19 +23,38 @@ joyous, exciting, and surprising moments in computing.
 </p>
 
 <div class="speaker-pics" markdown="0">
+  <div><a href="./speakers.html#aaron-reed"><img height="100" width="100" src="images/speakers/thumbnail/aaron-reed.png" alt="Aaron A. Reed" /></a></div>
+  <div><a href="./speakers.html#alex-pounds"><img height="100" width="100" src="images/speakers/thumbnail/alex-pounds.png" alt="Alex Pounds" /></a></div>
+  <div><a href="./speakers.html#amara-jaeger"><img height="100" width="100" src="images/speakers/thumbnail/amara-jaeger.png" alt="Amara Jaeger" /></a></div>
   <div><a href="./speakers.html#andrew-sillers"><img height="100" width="100" src="images/speakers/thumbnail/andrew-sillers.png" alt="Andrew Sillers" /></a></div>
   <div><a href="./speakers.html#angie-jones"><img height="100" width="100" src="images/speakers/thumbnail/angie-jones.png" alt="Angie Jones" /></a></div>
-<!-- <div><a href="./speakers.html#dasha-ilina"><img height="100" width="100" src="images/speakers/thumbnail/dasha-ilina.png" alt="Dasha Ilina" /></a></div>) -->
-<!-- <div><a href="./speakers.html#jeanheyd-meneide"><img height="100" width="100" src="images/speakers/thumbnail/jeanheyd-meneide.png" alt="JeanHeyd Meneide" /></a></div> -->
-<!-- <div><a href="./speakers.html#john-feminella"><img height="100" width="100" src="images/speakers/thumbnail/john-feminella.png" alt="John Feminella" /></a></div> -->
+  <div><a href="./speakers.html#anjana-vakil"><img height="100" width="100" src="images/speakers/thumbnail/anjana-vakil.png" alt="Anjana Vakil" /></a></div>
+  <div><a href="./speakers.html#daniel-temkin"><img height="100" width="100" src="images/speakers/thumbnail/daniel-temkin.png" alt="Daniel Temkin" /></a></div>
+  <div><a href="./speakers.html#jade-fink"><img height="100" width="100" src="images/speakers/thumbnail/jade-fink.png" alt="Jade Fink" /></a></div>
+  <div><a href="./speakers.html#john-feminella"><img height="100" width="100" src="images/speakers/thumbnail/john-feminella.png" alt="John Feminella" /></a></div>
+  <div><a href="./speakers.html#jonathan-kingsley"><img height="100" width="100" src="images/speakers/thumbnail/jonathan-kingsley.png" alt="Jonathan Kingsley" /></a></div>
   <div><a href="./speakers.html#kate-temkin"><img height="100" width="100" src="images/speakers/thumbnail/kate-temkin.png" alt="Kate Temkin" /></a></div>
+  <div><a href="./speakers.html#kimberly-wilber"><img height="100" width="100" src="images/speakers/thumbnail/kimberly-wilber.png" alt="Kimberly Wilber" /></a></div>
+  <div><a href="./speakers.html#laura-kurup"><img height="100" width="100" src="images/speakers/thumbnail/laura-kurup.png" alt="Laura Kurup" /></a></div>
+  <div><a href="./speakers.html#lynn-pepin"><img height="100" width="100" src="images/speakers/thumbnail/lynn-pepin.png" alt="Lynn Pepin" /></a></div>
+  <div><a href="./speakers.html#martin-gaston"><img height="100" width="100" src="images/speakers/thumbnail/martin-gaston.png" alt="Martin Gaston" /></a></div>
+  <div><a href="./speakers.html#nathan-kiesman"><img height="100" width="100" src="images/speakers/thumbnail/nathan-kiesman.png" alt="Nathan Kiesman" /></a></div>
+  <div><a href="./speakers.html#nicholas-carlini"><img height="100" width="100" src="images/speakers/thumbnail/nicholas-carlini.png" alt="Nicholas Carlini" /></a></div>
   <div><a href="./speakers.html#patrick-stefaniak"><img height="100" width="100" src="images/speakers/thumbnail/patrick-stefaniak.png" alt="Patrick Stefaniak" /></a></div>
-  <div><a href="./speakers.html#paul-pollack"><img height="100" width="100" src="images/speakers/thumbnail/paul-pollack.png" alt="Patrick Stefaniak" /></a></div>
+  <div><a href="./speakers.html#paul-pollack"><img height="100" width="100" src="images/speakers/thumbnail/paul-pollack.png" alt="Paul Pollack" /></a></div>
   <div><a href="./speakers.html#pawel-marczewski"><img height="100" width="100" src="images/speakers/thumbnail/pawel-marczewski.png" alt="Paweł Marczewski" /></a></div>
+  <div><a href="./speakers.html#phil-salvador"><img height="100" width="100" src="images/speakers/thumbnail/phil-salvador.png" alt="Phil Salvador" /></a></div>
   <div><a href="./speakers.html#quinn-dombrowski"><img height="100" width="100" src="images/speakers/thumbnail/quinn-dombrowski.png" alt="Quinn Dombrowski" /></a></div>
+  <div><a href="./speakers.html#rebecca-ravenoak"><img height="100" width="100" src="images/speakers/thumbnail/rebecca-ravenoak.png" alt="Rebecca Ravenoak" /></a></div>
+  <div><a href="./speakers.html#richard-schneeman"><img height="100" width="100" src="images/speakers/thumbnail/richard-schneeman.png" alt="Richard Schneeman" /></a></div>
+  <div><a href="./speakers.html#rocky-kev"><img height="100" width="100" src="images/speakers/thumbnail/rocky-kev.png" alt="Rocky Kev" /></a></div>
+  <div><a href="./speakers.html#sara-farquharson"><img height="100" width="100" src="images/speakers/thumbnail/sara-farquharson.png" alt="Sara Farquharson" /></a></div>
+  <div><a href="./speakers.html#sven-dahlstrand"><img height="100" width="100" src="images/speakers/thumbnail/sven-dahlstrand.png" alt="Sven Dahlstrand" /></a></div>
+  <div><a href="./speakers.html#tom-verbeure"><img height="100" width="100" src="images/speakers/thumbnail/tom-verbeure.png" alt="Tom Verbeure" /></a></div>
   <div><a href="./speakers.html#wade-minter"><img height="100" width="100" src="images/speakers/thumbnail/wade-minter.png" alt="Wade Minter" /></a></div>
   <div><a href="./speakers.html#wilkie"><img height="100" width="100" src="images/speakers/thumbnail/wilkie.png" alt="wilkie" /></a></div>
   <div><a href="./speakers.html#william-woodruff"><img height="100" width="100" src="images/speakers/thumbnail/william-woodruff.png" alt="William Woodruff" /></a></div>
+  <div><a href="./speakers.html#zachary-kanfer"><img height="100" width="100" src="images/speakers/thumbnail/zachary-kanfer.png" alt="Zachary Kanfer" /></a></div>
 </div>
 
 ## Who's speaking?

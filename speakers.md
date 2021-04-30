@@ -106,10 +106,8 @@ The Web is full of opportunities to upload static HTML: blog comments, user prof
 
 ### Anjana Vakil
 
-<!-- 
-<a name="anajana-vakil" id="anajana-vakil"></a>
-<img src="images/speakers/thumbnail/anajana-vakil.png" alt="Anjana Vakil" class="speaker-img" />
--->
+<a name="anjana-vakil" id="anjana-vakil"></a>
+<img src="images/speakers/thumbnail/anjana-vakil.png" alt="Anjana Vakil" class="speaker-img" />
 
 **It’s a picture! It’s a program!! It’s Piet!!!**
 
