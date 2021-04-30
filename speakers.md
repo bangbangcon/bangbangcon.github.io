@@ -89,7 +89,7 @@ This talk* is a story about the adventures of the Brave Little Database - how it
 
 The Brave Little Database! talk* will be in the form of a rhyme accompanied by drawings depicting the hero and its struggles, narrated off-camera. In terms of visuals, it's going to be more of an animatic/children's story than a fully developed production.
 
-**Alicja** is great but we don't have a bio for her yet...
+**Alicja** is great but we don't have a bio for them yet...
 
 ---
 
@@ -303,9 +303,9 @@ Between frequent conversations about the magic of the 90s, **Martin** works as a
 
 **Numeric Data Types in the Wild; or: Things I Learned From Last Night’s Dinner Receipt!**
 
-<!-- desc -->
+There after many different numeric data types that each have their own best applications based on client need, data precision, and clarity of communication. Come with us on a journey to analyze a real restaurant receipt and see many--but certainly not all!--of the ways that seemingly reasonable choices of data types can produce absolutely bizarre real world results!
 
-<!-- bio -->
+**Michael** is great but we don't have a bio for them yet...
 
 ---
 
@@ -402,9 +402,11 @@ In this talk, I'll walk through one of my misadventures that taught me it can be
 
 **Cursorless: keyboards and mice are sooo last year!!**
 
-<!-- desc -->
+"swap funky fine whale". As a human being, which I assume you are, my dear reader (sorry bots!), this phrase probably doesn't mean a whole lot to you. But my computer snaps to action, swapping a particular pair of functions. I am going to talk about [anon: project name], a tool I developed on top of Talon and VSCode that helped me turn accessibility into a super power.
 
-<!-- bio -->
+When editing code with a keyboard and mouse, your world centers around a little cursor. So, naturally, initial work on code editing by voice also centered around the same little cursor.  But why should we be restricted by what works well with a keyboard?  When two landscape designers discuss a design, they're not stuck with a laser pointer and a hundred small buttons, they say "move the red vase to the top corner".  Let's bring the same fluency to coding.  And hey, maybe I'll make a keyboard version of the tool to make coding a bit more accessible for people stuck with a keyboard and mouse 😉.
+
+**Pokey** is great but we don't have a bio for them yet...
 
 ---
 
