@@ -108,7 +108,6 @@ The !!Con 2021 organizing team:
 [Erty Seidohl](https://twitter.com/ertyseidohl),
 [Julia Evans](https://twitter.com/b0rk),
 [Alicja Raszkowska](https://twitter.com/mamrotynka),
-[Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
 [Sarah Withee](https://twitter.com/geekygirlsarah),
 [Dev Purandare](https://twitter.com/Dev14e), and
 [Lindsey Kuper](http://composition.al/).  If you'd like, you can [send us
@@ -116,8 +115,8 @@ some mail](mailto:2021-organizers@exclamation.foundation)!
 
 Organizers emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://twitter.com/NabilHassein),
 [Maggie Zhou](https://twitter.com/zmagg), [Alex Clemmer](https://twitter.com/hausdorff_space),
-[Emily Xie](https://twitter.com/emilyxxie), [Danielle Sucher](https://twitter.com/DanielleSucher), and
-[Kiran Bhattaram](https://twitter.com/kiranb).
+[Emily Xie](https://twitter.com/emilyxxie), [Danielle Sucher](https://twitter.com/DanielleSucher), 
+[Kiran Bhattaram](https://twitter.com/kiranb), and [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng)
 
 Logo design by
 [Lea Albaugh](http://twitter.com/doridoidea).
