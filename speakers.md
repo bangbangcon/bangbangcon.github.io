@@ -72,9 +72,24 @@ This is a detective story and a science story: a story of making guesses, figuri
 
 **The Brave Little Database!**
 
-<!-- desc -->
+The morning's here - time to log in!
+The users' data flowing in
+Through frontend and the API
+The spinner spins as time goes by
+All the requests are queueing up
+We need responses in a snap
+We can't just send them any-place
+Let's ask the Little Database!
 
-<!-- bio -->
+***
+
+This talk* is a story about the adventures of the Brave Little Database - how it handles the incoming requests, indexes the tables, uses a buffer pool, replicates, and works together with a proxy server to multiplex the connections. We're going to accompany the Little Database as it goes about it day and works tirelessly to deliver the best service it can - because it's the happiest when it can be helpful!
+
+***
+
+The Brave Little Database! talk* will be in the form of a rhyme accompanied by drawings depicting the hero and its struggles, narrated off-camera. In terms of visuals, it's going to be more of an animatic/children's story than a fully developed production.
+
+**Alicja** is great but we don't have a bio for her yet...
 
 ---
 
