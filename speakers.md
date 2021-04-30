@@ -35,11 +35,10 @@ When not hacking hardware, she maintains a variety of open-source projects, incl
 
 
 ### Aaron A. Reed
+ 
+<a name="aaron-reed" id="aaron-reed"></a>
+<img src="images/speakers/thumbnail/aaron-reed.png" alt="Aaron A. Reed" class="speaker-img" />
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
 
 **From Oregon Trail to A.I. Dungeon: 50 Years of Text Games!**
 
@@ -51,10 +50,8 @@ When not hacking hardware, she maintains a variety of open-source projects, incl
 
 ### Alex Pounds
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="alex-pounds" id="alex-pounds"></a>
+<img src="images/speakers/thumbnail/alex-pounds.png" alt="Alex Pounds" class="speaker-img" />
 
 **Let me at my data! Pulling pictures out of an undocumented file format**
 
@@ -70,7 +67,7 @@ This is a detective story and a science story: a story of making guesses, figuri
 
 <!-- 
 <a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+<img src="images/speakers/thumbnail/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
 -->
 
 **The Brave Little Database!**
@@ -83,10 +80,8 @@ This is a detective story and a science story: a story of making guesses, figuri
 
 ### Amara Jaeger
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="amara-jaeger" id="amara-jaeger"></a>
+<img src="images/speakers/thumbnail/amara-jaeger.png" alt="Amara Jaeger" class="speaker-img" />
 
 **The musical password manifesto: you have nothing to lose but your FRcK7y23ckdqwCYPq!**
 
@@ -99,7 +94,7 @@ You’ve probably typed at least one plain text password today, but have you sto
 ### Andrew Sillers
 
 <a name="andrew-sillers" id="andrew-sillers"></a>
-<img src="images/speakers/andrew-sillers.png" alt="Andrew Sillers" class="speaker-img" />
+<img src="images/speakers/thumbnail/andrew-sillers.png" alt="Andrew Sillers" class="speaker-img" />
 
 **Night of the living GIF: Making interactive multiplayer experiences on a static webpage! (pronounce "GIF" however you like :)**
 
@@ -112,8 +107,8 @@ The Web is full of opportunities to upload static HTML: blog comments, user prof
 ### Anjana Vakil
 
 <!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+<a name="anajana-vakil" id="anajana-vakil"></a>
+<img src="images/speakers/thumbnail/anajana-vakil.png" alt="Anjana Vakil" class="speaker-img" />
 -->
 
 **It’s a picture! It’s a program!! It’s Piet!!!**
@@ -126,10 +121,8 @@ The Web is full of opportunities to upload static HTML: blog comments, user prof
 
 ### Daniel Temkin
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="daniel-temkin" id="daniel-temkin"></a>
+<img src="images/speakers/thumbnail/daniel-temkin.png" alt="Daniel Temkin" class="speaker-img" />
 
 **Dithers of the Error-Diffusion Kind!**
 
@@ -143,10 +136,8 @@ This talk will revisit these algorithms and see what happens when we mess with t
 
 ### Dasha Ilina
 
-<!-- 
 <a name="dasha-ilina" id="dasha-ilina"></a>
-<img src="images/speakers/dasha-ilina.png" alt="Dasha Ilina" class="speaker-img" />
--->
+<img src="images/speakers/thumbnail/dasha-ilina.png" alt="Dasha Ilina" class="speaker-img" />
 
 **Do your eyes hurt? All you need is cardboard and motors*!! (*Ok, and a lot of superglue)**
 
@@ -160,10 +151,8 @@ This talk* will give you an insight into how these sort of solutions can be made
 
 ### Jade Fink
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="jade-fink" id="jade-fink"></a>
+<img src="images/speakers/thumbnail/jade-fink.png" alt="Jade Fink" class="speaker-img" />
 
 **pwintln!(): teaching an ELF to uwu!!**
 
@@ -179,7 +168,7 @@ I will show the learning process from idea to minimal prototype of a text uwuifi
 
 <!-- 
 <a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+<img src="images/speakers/thumbnail/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
 -->
 
 **Oh, no! The Lowest-level* Programming Language is Unicode-aware and I have no excuses?!**
@@ -200,10 +189,8 @@ They very much love dogs and hopes to have their own in a year or so. They also 
 
 ### John Feminella
 
-<!-- 
 <a name="john-feminella" id="john-feminella"></a>
-<img src="images/speakers/john-feminella.png" alt="John Feminella" class="speaker-img" />
--->
+<img src="images/speakers/thumbnail/john-feminella.png" alt="John Feminella" class="speaker-img" />
 
 **Time for Time!**
 
@@ -219,10 +206,8 @@ John is interested in bits, bucks, bots, and blocks. He lives in Charlottesville
 
 ### Jonathan Kingsley
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="jonathan-kingsley" id="jonathan-kingsley"></a>
+<img src="images/speakers/thumbnail/jonathan-kingsley.png" alt="Jonathan Kingsley" class="speaker-img" />
 
 **Ride on Model Railway Signalling using Kubernetes!**
 
@@ -234,10 +219,8 @@ Have you ever wondered "what would happen if we used container architecture to a
 
 ### Kimberly Wilber
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="kimberly-wilber" id="kimberly-wilber"></a>
+<img src="images/speakers/thumbnail/kimberly-wilber.png" alt="Kimberly Wilber" class="speaker-img" />
 
 **How layers upon layers of hacky abstractions turned Doom II into the best kart racer!!**
 
@@ -249,10 +232,8 @@ How does one build a "modern" kart racing game on top of the 1994 Doom engine? T
 
 ### Laura Kurup
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="laura-kurup" id="laura-kurup"></a>
+<img src="images/speakers/thumbnail/laura-kurup.png" alt="Laura Kurup" class="speaker-img" />
 
 **Geometric derivations of RGB colorspace! The strange eyeball science that is messing with your LEDs**
 
@@ -264,10 +245,8 @@ How does one build a "modern" kart racing game on top of the 1994 Doom engine? T
 
 ### Lynn Pepin
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="lynn-pepin" id="lynn-pepin"></a>
+<img src="images/speakers/thumbnail/lynn-pepin.png" alt="Lynn Pepin" class="speaker-img" />
 
 **Making a pixel-y circuit design language and then building circuits in it!!**
 
@@ -283,10 +262,8 @@ In this talk, you'll see what a circuit looks like, you'll see how it works, and
 
 ### Martin Gaston
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="martin-gaston" id="martin-gaston"></a>
+<img src="images/speakers/thumbnail/martin-gaston.png" alt="Martin Gaston" class="speaker-img" />
 
 **making our own napster so we can party like it’s 1999!**
 
@@ -300,7 +277,7 @@ In this talk, you'll see what a circuit looks like, you'll see how it works, and
 
 <!-- 
 <a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+<img src="images/speakers/thumbnail/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
 -->
 
 **Numeric Data Types in the Wild; or: Things I Learned From Last Night’s Dinner Receipt!**
@@ -313,10 +290,8 @@ In this talk, you'll see what a circuit looks like, you'll see how it works, and
 
 ### Nathan Kiesman
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="nathan-kiesman" id="nathan-kiesman"></a>
+<img src="images/speakers/thumbnail/nathan-kiesman.png" alt="Nathan Kiesman" class="speaker-img" />
 
 **Bang Bang!! Hacking Switch Controllers to Play Rhythm Games Using A Real Drum!**
 
@@ -328,10 +303,8 @@ Taiko is a Japanese drumming tradition that dates back thousands of years, and h
 
 ### Nicholas Carlini
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="nicholas-carlini" id="nicholas-carlini"></a>
+<img src="images/speakers/thumbnail/nicholas-carlini.png" alt="Nicholas Carlini" class="speaker-img" />
 
 **GoLlURM! The Game of Life (limited) Unlimited-Register Machine!**
 
@@ -344,7 +317,7 @@ Taiko is a Japanese drumming tradition that dates back thousands of years, and h
 ### Patrick Stefaniak
 
 <a name="patrick-stefaniak" id="patrick-stefaniak"></a>
-<img src="images/speakers/patrick-stefaniak.png" alt="Patrick Stefaniak" class="speaker-img" />
+<img src="images/speakers/thumbnail/patrick-stefaniak.png" alt="Patrick Stefaniak" class="speaker-img" />
 
 **Crocheted! Computer! Graphics!**
 
@@ -357,7 +330,7 @@ Making 3D graphics and creating textile art are surprisingly similar! In this ta
 ### Paul Pollack
 
 <a name="paul-pollack" id="paul-pollack"></a>
-<img src="images/speakers/paul-pollack.png" alt="Paul Pollack" class="speaker-img" />
+<img src="images/speakers/thumbnail/paul-pollack.png" alt="Paul Pollack" class="speaker-img" />
 
 **Enter the Minus World! Nintendo Cartridges Share Secrets!**
 
@@ -372,7 +345,7 @@ The Minus World is a collection of levels composed entirely of arbitrary junk da
 ### Paweł Marczewski
 
 <a name="pawel-marczewski" id="pawel-marczewski"></a>
-<img src="images/speakers/pawel-marczewski.png" alt="Paweł Marczewski" class="speaker-img" />
+<img src="images/speakers/thumbnail/pawel-marczewski.png" alt="Paweł Marczewski" class="speaker-img" />
 
 **It's like you're actually there! Mouse synchronization in an online tabletop game**
 
@@ -384,10 +357,8 @@ When working on an online tabletop game, I encountered the problem of mouse curs
 
 ### Phil Salvador
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="phil-salvador" id="phil-salvador"></a>
+<img src="images/speakers/thumbnail/phil-salvador.png" alt="Phil Salvador" class="speaker-img" />
 
 **I learned how to code and now I'm even more confused!**
 
@@ -401,7 +372,7 @@ When working on an online tabletop game, I encountered the problem of mouse curs
 
 <!-- 
 <a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+<img src="images/speakers/thumbnail/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
 -->
 
 **Cursorless: keyboards and mice are sooo last year!!**
@@ -415,7 +386,7 @@ When working on an online tabletop game, I encountered the problem of mouse curs
 ### Quinn Dombrowski
 
 <a name="quinn-dombrowski" id="quinn-dombrowski"></a>
-<img src="images/speakers/quinn-dombrowski.png" alt="Quinn Dombrowski" class="speaker-img" />
+<img src="images/speakers/thumbnail/quinn-dombrowski.png" alt="Quinn Dombrowski" class="speaker-img" />
 
 **"Tropes! Cliches! Made-Up Slang! It's the Data-Sitters Club!"**
 
@@ -427,10 +398,8 @@ Did you ever pick up a "Baby-Sitters Club" book in the 90's, or stumble across t
 
 ### Rebecca Ravenoak
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="rebecca-ravenoak" id="rebecca-ravenoak"></a>
+<img src="images/speakers/thumbnail/rebecca-ravenoak.png" alt="Rebecca Ravenoak" class="speaker-img" />
 
 **Nifty Weaving Tools: A Different Kind of Color Picker!**
 
@@ -442,10 +411,8 @@ This talk is about a suite of online weaving tools that speed up and simplify th
 
 ### Richard Schneeman
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="richard-schneeman" id="richard-schneeman"></a>
+<img src="images/speakers/thumbnail/richard-schneeman.png" alt="Richard Schneeman" class="speaker-img" />
 
 **Beware the Dreaded Dead End!!**
 
@@ -461,7 +428,7 @@ Discover why this 100% ridiculous solution was 100% worth-it. Bring your sense o
 
 <!-- 
 <a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+<img src="images/speakers/thumbnail/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
 -->
 
 **Mojibake! What the hâ€”ck happened to these strings?**
@@ -474,10 +441,8 @@ Discover why this 100% ridiculous solution was 100% worth-it. Bring your sense o
 
 ### Rocky Kev
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="rocky-kev" id="rocky-kev"></a>
+<img src="images/speakers/thumbnail/rocky-kev.png" alt="Rocky Kev" class="speaker-img" />
 
 **NetMonster: A trip through early 2000s internet and the monsters hidden inside websites!**
 
@@ -489,10 +454,8 @@ Discover why this 100% ridiculous solution was 100% worth-it. Bring your sense o
 
 ### Sara Farquharson
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="sara-farquharson" id="sara-farquharson"></a>
+<img src="images/speakers/thumbnail/sara-farquharson.png" alt="Sara Farquharson" class="speaker-img" />
 
 **It's my party and I'll build my own virtual social platform if I want to!**
 
@@ -504,10 +467,8 @@ Discover why this 100% ridiculous solution was 100% worth-it. Bring your sense o
 
 ### Sven Dahlstrand
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="sven-dahlstrand" id="sven-dahlstrand"></a>
+<img src="images/speakers/thumbnail/sven-dahlstrand.png" alt="Sven Dahlstrand" class="speaker-img" />
 
 **Changing a Single Byte Saves Me Seconds Every Day!**
 
@@ -523,10 +484,8 @@ This talk is about saving precious time. But it's also about friendship, falling
 
 ### Tom Verbeure
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="tom-verbeure" id="tom-verbeure"></a>
+<img src="images/speakers/thumbnail/tom-verbeure.png" alt="Tom Verbeure" class="speaker-img" />
 
 **Option hack that 30 year old oscilloscope!**
 
@@ -539,7 +498,7 @@ This talk is about saving precious time. But it's also about friendship, falling
 ### Wade Minter
 
 <a name="wade-minter" id="wade-minter"></a>
-<img src="images/speakers/wade-minter.png" alt="Wade Minter" class="speaker-img" />
+<img src="images/speakers/thumbnail/wade-minter.png" alt="Wade Minter" class="speaker-img" />
 
 **Building Weird Things With With The National Hockey League Using Ruby!**
 
@@ -552,7 +511,7 @@ If you're a Ruby developer who also moonlights as the arena public address annou
 ### wilkie
 
 <a name="wilkie" id="wilkie"></a>
-<img src="images/speakers/wilkie.png" alt="wilkie" class="speaker-img" />
+<img src="images/speakers/thumbnail/wilkie.png" alt="wilkie" class="speaker-img" />
 
 **Save Icons! In Real Life?! (My Love of the Floppy Disk!)**
 
@@ -565,7 +524,7 @@ Have you ever seen that image next to "Save" and thought "what the heck is that?
 ### William Woodruff
 
 <a name="william-woodruff" id="william-woodruff"></a>
-<img src="images/speakers/william-woodruff.png" alt="William Woodruff" class="speaker-img" />
+<img src="images/speakers/thumbnail/william-woodruff.png" alt="William Woodruff" class="speaker-img" />
 
 **compilers HATE him: use this ONE WEIRD TRICK to hide a message in your x86 program!!**
 
@@ -577,10 +536,8 @@ Steganography is the art of hiding (not encrypting!) messages within otherwise i
 
 ### Zachary Kanfer
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="zachary-kanfer" id="zachary-kanfer"></a>
+<img src="images/speakers/thumbnail/zachary-kanfer.png" alt="Zachary Kanfer" class="speaker-img" />
 
 **Making Music! In Emacs?!**
 
