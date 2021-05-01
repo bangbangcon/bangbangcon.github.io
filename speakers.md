@@ -200,7 +200,7 @@ Every modern computer ships with some flavor of a special database called tzdata
 
 This talk is about one very specific line in that gigantic store of information, what it means, and how every computer that needs to rely on time depends on this single, solitary idea being correct.
 
-**Jhn** is an avid technologist, occasional public speaker, and curiosity advocate. He serves as a consultant, helping enterprises transform the way they write, operate, and deploy software.
+**John** is an avid technologist, occasional public speaker, and curiosity advocate. He serves as a consultant, helping enterprises transform the way they write, operate, and deploy software.
 
 John is interested in bits, bucks, bots, and blocks. He lives in Charlottesville, VA and likes meta-jokes, milkshakes, and referring to himself in the third person in speaker bios.
 
