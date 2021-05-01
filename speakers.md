@@ -65,31 +65,16 @@ This is a detective story and a science story: a story of making guesses, figuri
 
 ### Alicja Raszkowska
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/thumbnail/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+
+<a name="alicja-raszkowska" id="alicja-raszkowska"></a>
+<img src="images/speakers/thumbnail/alicja-raszkowska.png" alt="JeanHeyd Meneide" class="speaker-img" />
+
 
 **The Brave Little Database!**
 
-The morning's here - time to log in!
-The users' data flowing in
-Through frontend and the API
-The spinner spins as time goes by
-All the requests are queueing up
-We need responses in a snap
-We can't just send them any-place
-Let's ask the Little Database!
+This is a story about the adventures of the Brave Little Database, who tirelessly handles incoming requests, indexes tables, manages its buffer pool, and works together with its replicas and a proxy server to deliver the best service it can. We're going to accompany the hero as it tackles obstacles and learns to be more resilient.
 
-`***`
-
-This talk* is a story about the adventures of the Brave Little Database - how it handles the incoming requests, indexes the tables, uses a buffer pool, replicates, and works together with a proxy server to multiplex the connections. We're going to accompany the Little Database as it goes about it day and works tirelessly to deliver the best service it can - because it's the happiest when it can be helpful!
-
-`***`
-
-The Brave Little Database! talk* will be in the form of a rhyme accompanied by drawings depicting the hero and its struggles, narrated off-camera. In terms of visuals, it's going to be more of an animatic/children's story than a fully developed production.
-
-**Alicja** is great but we don't have a bio for them yet...
+**Alicja** likes to learn by drawing things. They work on all things infrastructure and have a soft spot for data stores and metrics. Outside of tech, Alicja tirelessly covers everything in yarn and plays ukulele.
 
 ---
 
@@ -209,7 +194,7 @@ They very much love dogs and hopes to have their own in a year or so. They also 
 <a name="john-feminella" id="john-feminella"></a>
 <img src="images/speakers/thumbnail/john-feminella.png" alt="John Feminella" class="speaker-img" />
 
-**Time for Time!**
+**tzdata: Back to the Future!**
 
 Every modern computer ships with some flavor of a special database called tzdata, which codifies the world's diverse and varied viewpoints about how to standardize time.
 
@@ -383,7 +368,7 @@ When working on an online tabletop game, I encountered the problem of mouse curs
 <a name="phil-salvador" id="phil-salvador"></a>
 <img src="images/speakers/thumbnail/phil-salvador.png" alt="Phil Salvador" class="speaker-img" />
 
-**I learned how to code and now I'm even more confused!**
+**Learning to code with Doom! (Now I'm even more confused!)**
 
 During the pandemic, I picked up programming as a hobby in order to help my friend create a mod for the 1993 video game Doom. This was my first time embarking on a major coding project, and it turns out this was probably not the easiest place to start! Over the years, the Doom game engine has been modified and re-implemented so many times that now it uses multiple programming languages stacked on top of each other. For someone like me with minimal coding exposure, this was challenging, to say the least!
 
@@ -395,10 +380,10 @@ In this talk, I'll walk through one of my misadventures that taught me it can be
 
 ### Pokey Rule
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/thumbnail/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+
+<a name="pokey-rule" id="pokey-rule"></a>
+<img src="images/speakers/thumbnail/pokey-rule.png" alt="Pokey Rule" class="speaker-img" />
+
 
 **Cursorless: keyboards and mice are sooo last year!!**
 
@@ -406,7 +391,7 @@ In this talk, I'll walk through one of my misadventures that taught me it can be
 
 When editing code with a keyboard and mouse, your world centers around a little cursor. So, naturally, initial work on code editing by voice also centered around the same little cursor.  But why should we be restricted by what works well with a keyboard?  When two landscape designers discuss a design, they're not stuck with a laser pointer and a hundred small buttons, they say "move the red vase to the top corner".  Let's bring the same fluency to coding.  And hey, maybe I'll make a keyboard version of the tool to make coding a bit more accessible for people stuck with a keyboard and mouse 😉.
 
-**Pokey** is great but we don't have a bio for them yet...
+**Pokey** is a freelance software engineer who will happily spend 3 weeks optimizing his coding setup to shave 10 seconds off a 5-minute task.  He enjoys running, wild swimming and crocheting various and sundry small animals while coding by voice.  Find him on Twitter at @PokeyRule and in the Talon slack workspace at @pokey
 
 ---
 
