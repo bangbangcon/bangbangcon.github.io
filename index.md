@@ -25,6 +25,7 @@ joyous, exciting, and surprising moments in computing.
 <div class="speaker-pics" markdown="0">
   <div><a href="./speakers.html#aaron-reed"><img height="100" width="100" src="images/speakers/thumbnail/aaron-reed.png" alt="Aaron A. Reed" /></a></div>
   <div><a href="./speakers.html#alex-pounds"><img height="100" width="100" src="images/speakers/thumbnail/alex-pounds.png" alt="Alex Pounds" /></a></div>
+  <div><a href="./speakers.html#alicja-raszkowska"><img height="100" width="100" src="images/speakers/thumbnail/alicja-raszkowska.png" alt="Alicja Raszkowska" /></a></div>
   <div><a href="./speakers.html#amara-jaeger"><img height="100" width="100" src="images/speakers/thumbnail/amara-jaeger.png" alt="Amara Jaeger" /></a></div>
   <div><a href="./speakers.html#andrew-sillers"><img height="100" width="100" src="images/speakers/thumbnail/andrew-sillers.png" alt="Andrew Sillers" /></a></div>
   <div><a href="./speakers.html#angie-jones"><img height="100" width="100" src="images/speakers/thumbnail/angie-jones.png" alt="Angie Jones" /></a></div>
@@ -44,6 +45,7 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="./speakers.html#paul-pollack"><img height="100" width="100" src="images/speakers/thumbnail/paul-pollack.png" alt="Paul Pollack" /></a></div>
   <div><a href="./speakers.html#pawel-marczewski"><img height="100" width="100" src="images/speakers/thumbnail/pawel-marczewski.png" alt="Paweł Marczewski" /></a></div>
   <div><a href="./speakers.html#phil-salvador"><img height="100" width="100" src="images/speakers/thumbnail/phil-salvador.png" alt="Phil Salvador" /></a></div>
+  <div><a href="./speakers.html#pokey-rule"><img height="100" width="100" src="images/speakers/thumbnail/pokey-rule.png" alt="Pokey Rule" /></a></div>
   <div><a href="./speakers.html#quinn-dombrowski"><img height="100" width="100" src="images/speakers/thumbnail/quinn-dombrowski.png" alt="Quinn Dombrowski" /></a></div>
   <div><a href="./speakers.html#rebecca-ravenoak"><img height="100" width="100" src="images/speakers/thumbnail/rebecca-ravenoak.png" alt="Rebecca Ravenoak" /></a></div>
   <div><a href="./speakers.html#richard-schneeman"><img height="100" width="100" src="images/speakers/thumbnail/richard-schneeman.png" alt="Richard Schneeman" /></a></div>
