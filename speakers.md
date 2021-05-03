@@ -438,10 +438,8 @@ Discover why this 100% ridiculous solution was 100% worth-it. Bring your sense o
 
 ### Robyn Speer
 
-<!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/thumbnail/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
+<a name="robyn-speer" id="robyn-speer"></a>
+<img src="images/speakers/thumbnail/robyn-speer.png" alt="Robyn Speer" class="speaker-img" />
 
 **Mojibake! What the hâ€”ck happened to these strings?**
 
