@@ -279,10 +279,8 @@ Between frequent conversations about the magic of the 90s, **Martin** works as a
 
 ### Michael Woods
 
-<!-- 
 <a name="michael-woods" id="michael-woods"></a>
 <img src="images/speakers/thumbnail/michael-woods.png" alt="Michael Woods" class="speaker-img" />
--->
 
 **Numeric Data Types in the Wild; or: Let's Look at Last Night’s Dinner Receipt!**
 
