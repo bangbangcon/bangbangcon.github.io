@@ -166,10 +166,8 @@ I will show the learning process from idea to minimal prototype of a text uwuifi
 
 ### JeanHeyd Meneide
 
-<!-- 
 <a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
 <img src="images/speakers/thumbnail/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
--->
 
 **Oh, no! The Lowest-level* Programming Language is Unicode-aware and I have no excuses?!**
 
