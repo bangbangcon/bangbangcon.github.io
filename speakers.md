@@ -280,15 +280,17 @@ Between frequent conversations about the magic of the 90s, **Martin** works as a
 ### Michael Woods
 
 <!-- 
-<a name="jeanheyd-meneide" id="jeanheyd-meneide"></a>
-<img src="images/speakers/thumbnail/jeanheyd-meneide.png" alt="JeanHeyd Meneide" class="speaker-img" />
+<a name="michael-woods" id="michael-woods"></a>
+<img src="images/speakers/thumbnail/michael-woods.png" alt="Michael Woods" class="speaker-img" />
 -->
 
-**Numeric Data Types in the Wild; or: Things I Learned From Last Night’s Dinner Receipt!**
+**Numeric Data Types in the Wild; or: Let's Look at Last Night’s Dinner Receipt!**
 
-There after many different numeric data types that each have their own best applications based on client need, data precision, and clarity of communication. Come with us on a journey to analyze a real restaurant receipt and see many--but certainly not all!--of the ways that seemingly reasonable choices of data types can produce absolutely bizarre real world results!
+You won't believe the crazy things we'll find by taking a good look at a dinner receipt.
 
-**Michael** is great but we don't have a bio for them yet...
+Come and spend ten minutes having a laugh at some of the pitfalls and travails embedded in a simple POS (point of sale) device printout. And remember: this was the real output of a launched-and-shipped software program that was written by living, thinking, and breathing human beings. How could it have gone so wrong?
+
+**Michael** is a physicist-turned-inventor out in California. He works by day as a Principal Systems Architect at Magic Leap, and spends his evenings studying everything under the sun. His perfect vacation is spending a couple weeks in a new city, ensconced in cafes, speed-running an online class. And he believes that self-improvement, in every form, is simultaneously an art, a skill, and a lot of fun.
 
 ---
 
