@@ -380,18 +380,16 @@ In this talk, I'll walk through one of my misadventures that taught me it can be
 
 ### Pokey Rule
 
-
 <a name="pokey-rule" id="pokey-rule"></a>
 <img src="images/speakers/thumbnail/pokey-rule.png" alt="Pokey Rule" class="speaker-img" />
 
-
 **Cursorless: keyboards and mice are sooo last year!!**
 
-"swap funky fine whale". As a human being, which I assume you are, my dear reader (sorry bots!), this phrase probably doesn't mean a whole lot to you. But my computer snaps to action, swapping a particular pair of functions. I am going to talk about [anon: project name], a tool I developed on top of Talon and VSCode that helped me turn accessibility into a super power.
+"swap funky fine whale". As a human being, which I assume you are, my dear reader (sorry bots!), this phrase probably doesn't mean a whole lot to you. But my computer snaps to action, swapping a particular pair of functions. I am going to talk about Cursorless, a voice coding tool I developed on top of Talon and VSCode that helped me turn accessibility into a super power.
 
 When editing code with a keyboard and mouse, your world centers around a little cursor. So, naturally, initial work on code editing by voice also centered around the same little cursor.  But why should we be restricted by what works well with a keyboard?  When two landscape designers discuss a design, they're not stuck with a laser pointer and a hundred small buttons, they say "move the red vase to the top corner".  Let's bring the same fluency to coding.  And hey, maybe I'll make a keyboard version of the tool to make coding a bit more accessible for people stuck with a keyboard and mouse 😉.
 
-**Pokey** is a freelance software engineer who will happily spend 3 weeks optimizing his coding setup to shave 10 seconds off a 5-minute task.  He enjoys running, wild swimming and crocheting various and sundry small animals while coding by voice.  Find him on Twitter at @PokeyRule and in the Talon slack workspace at @pokey
+**Pokey** is a freelance software engineer who will happily spend 3 weeks optimizing his coding setup to shave 10 seconds off a 5-minute task.  He enjoys running, wild swimming and crocheting various and sundry small animals while coding by voice.  Find him on Twitter at @PokeyRule and in the Talon slack workspace at @pokey.
 
 ---
 
