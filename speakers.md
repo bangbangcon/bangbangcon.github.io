@@ -443,7 +443,7 @@ Discover why this 100% ridiculous solution was 100% worth-it. Bring your sense o
 
 Our natural-language systems need to be prepared to deal with real-world text. But sometimes real-world text says something like "Merci de t‚Äö√†√∂¬¨¬©l‚Äö√†√∂¬¨¬©charger le plug-in", and that's terrible.
 
-I made a Python module called "ftfy" that can solve the puzzle of what happened to Unicode text like this, and in many cases undo it. I want to talk briefly (without too much blame) about why mojibake happens, how we can fix it and maybe prevent it, and why this isn't a job for machine learning.
+I made a Python module called "ftfy" that can solve the puzzle of what happened to Unicode text like this, and in many cases undo it. I want to talk briefly (without too much blame) about why mojibake happens, how we can fix it and maybe prevent it, and why this isn't a job for machine learning.pens, how we can fix it and maybe prevent it, and why this isn't a job for machine learning.
 
 **Robyn Speer** is the developer of the multilingual knowledge graph ConceptNet, as well as several open source projects including ftfy. A decade ago, she co-founded an NLP startup called Luminoso. Now, in her increased free time, she plays and modifies randomizers for retro video games.
 
