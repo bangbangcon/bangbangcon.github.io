@@ -65,10 +65,8 @@ This is a detective story and a science story: a story of making guesses, figuri
 
 ### Alicja Raszkowska
 
-
 <a name="alicja-raszkowska" id="alicja-raszkowska"></a>
-<img src="images/speakers/thumbnail/alicja-raszkowska.png" alt="JeanHeyd Meneide" class="speaker-img" />
-
+<img src="images/speakers/thumbnail/alicja-raszkowska.png" alt="Alicja Raszkowska" class="speaker-img" />
 
 **The Brave Little Database!**
 
