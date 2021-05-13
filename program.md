@@ -123,92 +123,8 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
 
 <span id="cards-section"></span>
 
-## Schedule
-
-<div class="cards" id="cards">
-
-<div class="card">
-<h4>Saturday, May 15</h4>
-<p class="keynote"><time datetime="12:00">12:00</time> Keynote</p>
-<p class="session"><time datetime="13:00">13:00</time> Session 1</p>
-<p class="hallway"><time datetime="14:00">14:00</time> Hallway Track</p>
-<p class="session"><time datetime="15:00">14:00</time> Session 2</p>
-</div>
-
-<div class="card">
-<h4>Sunday, May 16</h4>
-<p class="syncwatch"><time datetime="10:00">10:00</time> Syncwatch 1</p>
-<p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 2</p>
-<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
-<hr>
-<p class="session"><time datetime="17:00">17:00</time> Session 3</p>
-<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
-</div>
-
-<div class="card">
-<h4>Monday, May 17</h4>
-<p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 3</p>
-<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
-<hr>
-<p class="session"><time datetime="17:00">17:00</time> Session 4</p>
-<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
-</div>
-
-<div class="card">
-<h4>Tuesday, May 18</h4>
-<p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 4</p>
-<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
-<hr>
-<p class="session"><time datetime="17:00">17:00</time> Session 5</p>
-<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
-</div>
-
-<div class="card">
-<h4>Wedneday, May 19</h4>
-<p class="session"><time datetime="11:00">11:00</time> Session 6</p>
-<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
-<hr>
-<p class="syncwatch"><time datetime="17:00">17:00</time> Syncwatch 6</p>
-<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
-</div>
-
-<div class="card">
-<h4>Thursday, May 20</h4>
-<p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 5</p>
-<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
-<hr>
-<p class="session"><time datetime="17:00">17:00</time> Session 7</p>
-<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
-</div>
-
-<div class="card">
-<h4>Friday, May 21</h4>
-<p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 7</p>
-<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
-<hr>
-<p class="session"><time datetime="17:00">17:00</time> Session 8</p>
-<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
-</div>
-
-<div class="card">
-<h4>Saturday, May 22</h4>
-<p class="syncwatch"><time datetime="9:00">9:00</time> Syncwatch 8</p>
-<p class="session"><time datetime="10:00">10:00</time> Session 9</p>
-<p class="keynote"><time datetime="11:00">11:00</time> Keynote</p>
-<p class="unconf"><time datetime="12:00">12:00</time> Unconferencing 2</p>
-<p class="party"><time datetime="13:00">13:00</time> Party!</p>
-<hr>
-<p class="syncwatch"><time datetime="17:00">17:00</time> Syncwatch 9</p>
-<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
-</div>
-
-</div>
-
-<span id="table-section"></span>
-
 ## Table
 
-Same info, different format :)
 
 <table>
     <tr>
@@ -362,3 +278,89 @@ Same info, different format :)
         }
     }
 </script>
+
+## Schedule
+
+Same info, different format :)
+
+<div class="cards" id="cards">
+
+<div class="card">
+<h4>Saturday, May 15</h4>
+<p class="keynote"><time datetime="12:00">12:00</time> Keynote</p>
+<p class="session"><time datetime="13:00">13:00</time> Session 1</p>
+<p class="hallway"><time datetime="14:00">14:00</time> Hallway Track</p>
+<p class="session"><time datetime="15:00">14:00</time> Session 2</p>
+</div>
+
+<div class="card">
+<h4>Sunday, May 16</h4>
+<p class="syncwatch"><time datetime="10:00">10:00</time> Syncwatch 1</p>
+<p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 2</p>
+<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
+<hr>
+<p class="session"><time datetime="17:00">17:00</time> Session 3</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
+</div>
+
+<div class="card">
+<h4>Monday, May 17</h4>
+<p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 3</p>
+<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
+<hr>
+<p class="session"><time datetime="17:00">17:00</time> Session 4</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
+</div>
+
+<div class="card">
+<h4>Tuesday, May 18</h4>
+<p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 4</p>
+<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
+<hr>
+<p class="session"><time datetime="17:00">17:00</time> Session 5</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
+</div>
+
+<div class="card">
+<h4>Wedneday, May 19</h4>
+<p class="session"><time datetime="11:00">11:00</time> Session 6</p>
+<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
+<hr>
+<p class="syncwatch"><time datetime="17:00">17:00</time> Syncwatch 6</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
+</div>
+
+<div class="card">
+<h4>Thursday, May 20</h4>
+<p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 5</p>
+<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
+<hr>
+<p class="session"><time datetime="17:00">17:00</time> Session 7</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
+</div>
+
+<div class="card">
+<h4>Friday, May 21</h4>
+<p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 7</p>
+<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
+<hr>
+<p class="session"><time datetime="17:00">17:00</time> Session 8</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
+</div>
+
+<div class="card">
+<h4>Saturday, May 22</h4>
+<p class="syncwatch"><time datetime="9:00">9:00</time> Syncwatch 8</p>
+<p class="session"><time datetime="10:00">10:00</time> Session 9</p>
+<p class="keynote"><time datetime="11:00">11:00</time> Keynote</p>
+<p class="unconf"><time datetime="12:00">12:00</time> Unconferencing 2</p>
+<p class="party"><time datetime="13:00">13:00</time> Party!</p>
+<hr>
+<p class="syncwatch"><time datetime="17:00">17:00</time> Syncwatch 9</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
+</div>
+
+</div>
+
+<span id="table-section"></span>
+
