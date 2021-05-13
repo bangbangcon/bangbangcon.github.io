@@ -102,6 +102,9 @@ title: Program - !!Con 2021
     #timezone {
         font-family: monospace;
     }
+    ol {
+        font-size: 20px;
+    }
 </style>
 
 <!-- Extra nbsp to make it look good :) -->
@@ -278,6 +281,13 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
         }
     }
 </script>
+
+## Add us to your calendar!
+
+We have a lot of different events this year, so add us to your calendar to make sure you don't miss any! Here's how:
+
+1. Copy the link for <a href="http://calendar.zoho.com/group/ical/b8ea7070344c43b3c3045860eeb23b7138da7752ce32e2477d26ba32bf581b9a1d2795903ab32df28bd265e49977d416">this .ics file</a> 
+1. Go to your calendar and subscribe to that URL. Here are directions for [Google Calendar](https://support.google.com/calendar/answer/37100?co=GENIE.Platform%3DDesktop&hl=en&oco=1), [Apple Calendar](https://support.apple.com/en-ca/HT202361), [Outlook](https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c)
 
 ## Schedule
 
