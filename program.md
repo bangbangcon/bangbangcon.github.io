@@ -20,6 +20,16 @@ title: Program - !!Con 2021
         color: white;
         border-radius: 3px;
     }
+    .hallway {
+        background-color: #87C9F0;
+        color: white;
+        border-radius: 3px;
+    }
+    .party {
+        background-color: #9F4949;
+        color: white;
+        border-radius: 3px;
+    }
     .keynote {
         background-color: #8788A8;
         color: white;
@@ -55,7 +65,7 @@ title: Program - !!Con 2021
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1rem;
-        grid-auto-rows: 400px;
+        grid-auto-rows: 500px;
     }
     .card {
         background-color: #FFFFE6;
@@ -107,6 +117,8 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
 <p><dfn class="keynote">Keynote</dfn> - Our keynote speakers give a 30-40 minute talk!</p>
 <p><dfn class="session">Session</dfn> - A series of 10-minute lightning talks!</p>
 <p><dfn class="unconf">Unconferencing</dfn> - A make-your-own-session time!</p>
+<p><dfn class="hallway">Hallway Track</dfn> - Chat with other attendees in Skittish!</p>
+<p><dfn class="party">Party</dfn> - Our closing party!</p>
 <p><dfn class="syncwatch">Syncwatch</dfn> - Rebroadcast of an earlier session!</p>
 
 <span id="cards-section"></span>
@@ -119,7 +131,7 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
 <h4>Saturday, May 15</h4>
 <p class="keynote"><time datetime="12:00">12:00</time> Keynote</p>
 <p class="session"><time datetime="13:00">13:00</time> Session 1</p>
-<p class="unconf"><time datetime="14:00">14:00</time> Unconferencing</p>
+<p class="hallway"><time datetime="14:00">14:00</time> Hallway Track</p>
 <p class="session"><time datetime="15:00">14:00</time> Session 2</p>
 </div>
 
@@ -127,43 +139,55 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
 <h4>Sunday, May 16</h4>
 <p class="syncwatch"><time datetime="10:00">10:00</time> Syncwatch 1</p>
 <p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 2</p>
+<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
 <hr>
 <p class="session"><time datetime="17:00">17:00</time> Session 3</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
 </div>
 
 <div class="card">
 <h4>Monday, May 17</h4>
 <p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 3</p>
+<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
 <hr>
 <p class="session"><time datetime="17:00">17:00</time> Session 4</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
 </div>
 
 <div class="card">
 <h4>Tuesday, May 18</h4>
 <p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 4</p>
+<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
 <hr>
 <p class="session"><time datetime="17:00">17:00</time> Session 5</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
 </div>
 
 <div class="card">
 <h4>Wedneday, May 19</h4>
 <p class="session"><time datetime="11:00">11:00</time> Session 6</p>
+<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
 <hr>
 <p class="syncwatch"><time datetime="17:00">17:00</time> Syncwatch 6</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
 </div>
 
 <div class="card">
 <h4>Thursday, May 20</h4>
 <p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 5</p>
+<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
 <hr>
 <p class="session"><time datetime="17:00">17:00</time> Session 7</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
 </div>
 
 <div class="card">
 <h4>Friday, May 21</h4>
 <p class="syncwatch"><time datetime="11:00">11:00</time> Syncwatch 7</p>
+<p class="hallway"><time datetime="12:00">12:00</time> Hallway Track</p>
 <hr>
 <p class="session"><time datetime="17:00">17:00</time> Session 8</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
 </div>
 
 <div class="card">
@@ -171,8 +195,11 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
 <p class="syncwatch"><time datetime="9:00">9:00</time> Syncwatch 8</p>
 <p class="session"><time datetime="10:00">10:00</time> Session 9</p>
 <p class="keynote"><time datetime="11:00">11:00</time> Keynote</p>
+<p class="unconf"><time datetime="12:00">12:00</time> Unconferencing 2</p>
+<p class="party"><time datetime="13:00">13:00</time> Party!</p>
 <hr>
 <p class="syncwatch"><time datetime="17:00">17:00</time> Syncwatch 9</p>
+<p class="hallway"><time datetime="18:00">18:00</time> Hallway Track</p>
 </div>
 
 </div>
@@ -231,13 +258,13 @@ Same info, different format :)
     <tr>
         <th><time datetime="12:00">12:00</time></th>
         <td class="keynote">Keynote</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td class="hallway">Hallway</td>
+        <td class="hallway">Hallway</td>
+        <td class="hallway">Hallway</td>
+        <td class="hallway">Hallway</td>
+        <td class="hallway">Hallway</td>
+        <td class="hallway">Hallway</td>
+        <td class="unconf">Unconf</td>
     </tr>
     <tr>
         <th><time datetime="13:00">13:00</time></th>
@@ -248,11 +275,11 @@ Same info, different format :)
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
+        <td class="party">Party!</td>
     </tr>
     <tr>
         <th><time datetime="14:00">14:00</time></th>
-        <td class="unconf">Unconf.</td>
+        <td class="hallway">Hallway</td>
         <td></td>
         <td></td>
         <td></td>
@@ -294,6 +321,18 @@ Same info, different format :)
         <td class="session">Session 8</td>
         <td class="syncwatch">Sync 9</td>
     </tr>
+    <tr>
+        <th><time datetime="18:00">18:00</time></th>
+        <td></td>
+        <td class="hallway">Hallway</td>
+        <td class="hallway">Hallway</td>
+        <td class="hallway">Hallway</td>
+        <td class="hallway">Hallway</td>
+        <td class="unconf">Unconf</td>
+        <td class="hallway">Hallway</td>
+        <td class="hallway">Hallway</td>
+    </tr>
+
 </table>
 
 <script>
