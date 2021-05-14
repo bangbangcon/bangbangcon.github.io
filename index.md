@@ -167,6 +167,10 @@ touch](mailto:2021-organizers@exclamation.foundation).
     class="magic">.</span><div class="logo"><img width="380"
     alt="Xandr" src="images/sponsors/xandr.png" /></div></a></div>
 
+  <div class="sponsor medium-sponsor"><a href="https://daily.co/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="300"
+    alt="Daily" src="images/sponsors/daily-logo-primary-lightground.svg" /></div></a></div>
+
 
   <h3 style="margin: 1.5em 0;">AWESOME! Sponsors</h3>
 
@@ -190,6 +194,13 @@ touch](mailto:2021-organizers@exclamation.foundation).
     class="magic">.</span><div class="logo"><img width="300"
     alt="PhazeRo" src="images/sponsors/phaze.png" /></div></a></div>
 
+  <div class="sponsor"><a href="https://mapbox.com" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="300"
+    alt="Mapbox" src="images/sponsors/mapbox-logo-black.svg" /></div></a></div>
+
+  <div class="sponsor"><a href="https://accelerated.tech/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="200"
+    alt="Accelerated Tech" src="images/sponsors/accelerated-tech.png" /></div></a></div>
 
 
 </div>
