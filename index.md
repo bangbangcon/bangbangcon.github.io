@@ -8,6 +8,8 @@ title: The joy, excitement, and surprise of computing - !!Con 2021
   &middot;
   [Schedule](program.html)  
   &middot;
+  [Tickets](tickets.html)
+  &middot;
   [Speakers](speakers.html)
   &middot;
   [Conduct](conduct.html)
