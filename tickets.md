@@ -12,10 +12,7 @@ button{
 
 # !!Con 2021 Tickets
 
-Hello! Tickets for !!Con 2021 will be released in two batches:
-
-- Sat, April 24 at 10 a.m. Eastern
-- Mon, April 26 at 10 p.m. Eastern
+We're opening one last batch of ticket sales on Friday, May 14 starting at noon Eastern time.
 
 A link to our ticket site is below.
 
