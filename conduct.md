@@ -40,7 +40,10 @@ act**.  Here’s a few ways you can do that:
   uses just by looking at them.  Let them tell you.
 
 * **Write your pronoun badge!** Even if you think your pronouns are
-  “obvious” by looking at you, you should write yours down, too!
+  “obvious” by looking at you, you should write yours down, too!  (In
+  the !!Con Online world, we put the pronouns that we'd rather be called by
+  in our Discord name tags, but when we return to in-person !!Cons, we offer
+  space on badges to write down preferred pronouns!)
 
 * **Assume that all your fellow conference-goers are technical!**  No matter
   whether people do or don’t look like someone that you often see at a
