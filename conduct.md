@@ -40,7 +40,10 @@ act**.  Here’s a few ways you can do that:
   uses just by looking at them.  Let them tell you.
 
 * **Write your pronoun badge!** Even if you think your pronouns are
-  “obvious” by looking at you, you should write yours down, too!
+  “obvious” by looking at you, you should write yours down, too!  (In
+  the !!Con Online world, we put the pronouns that we'd rather be called by
+  in our Discord name tags, but when we return to in-person !!Cons, we offer
+  space on badges to write down preferred pronouns!)
 
 * **Assume that all your fellow conference-goers are technical!**  No matter
   whether people do or don’t look like someone that you often see at a
@@ -166,12 +169,17 @@ the Recurse Center social rules, please feel free to reach out to the
 conference organizers, or to the [Exclamation Foundation
 board](mailto:board@exclamation.foundation).
 
-<!-- TODO: You can use the below form to contact us, with or without your
-name.  Or, --> If you'd like to contact us, you can send e-mail to
-[2021-organizers@exclamation.foundation](mailto:2021-organizers@exclamation.foundation),
-or simply talk to any individual organizer.  We want you to feel safe during
+You can use the below form to contact us, with or without your
+name. You can also send e-mail to [2021-organizers@exclamation.foundation](mailto:2021-organizers@exclamation.foundation),
+or message any individual organizer on Discord.  We want you to feel safe during
 the conference, and we’ll do what we can to make that happen -- you matter
 to us!
+
+<iframe src="https://ansr.me/i9RyU" width="100%" height="600px"> </iframe>
+
+If the iframe above doesn't work for you, [here's a link to the form to report CoC issues](https://ansr.me/i9RyU).
+
+
 
 <!-- NOT FOR ONLINE !!CONS
 

@@ -270,7 +270,7 @@ We have a lot of different events this year, so add us to your calendar to make 
 
 | Time            | Event
 |-----------------|-------------------------------------------------------------------------
-| <time datetime="11:30">11:30</time>        | Stream Begins
+| <time datetime="11:55">11:55</time>        | Stream Begins
 | <time datetime="12:00">12:00</time>        | Opening remarks <br /> &bull; Keynote talk: [Angie Jones](speakers.html#angie-jones)
 | <time datetime="12:45">12:45</time>        | Break!
 | <time datetime="13:00">13:00</time>        | **Session 1:** <br /> &bull; *Learning to code with Doom! (Now I'm even more confused!)* ([Phil Salvador](speakers.html#phil-salvador)) <br>&bull; *From Oregon Trail to A.I. Dungeon: 50 Years of Text Games!* ([Aaron A. Reed](speakers.html#aaron-a-reed)) <br>&bull; *Cursorless: keyboards and mice are sooo last year!!* ([Pokey Rule](speakers.html#pokey-rule)) <br>&bull; *Making a pixel-y circuit design language and then building circuits in it!* ([Lynn Pepin](speakers.html#lynn-pepin))
