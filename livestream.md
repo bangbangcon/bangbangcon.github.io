@@ -12,6 +12,8 @@ title: Livestream - !!Con 2021
   [Conduct](conduct.html)
 </p>
 
+_**Many thanks to [Wherewithall](https://courses.wherewithall.com/pages/bangbangcon) to are sponsoring the captioning for this year's !!Con!**_
+
 <!-- update this to be the correct video once we have a Youtube link-->
 
 We'll update this page with the real livestream video shortly before the
