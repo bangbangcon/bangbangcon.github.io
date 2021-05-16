@@ -51,10 +51,16 @@ Select the session to watch:
 
 <div align="center">
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'>
-<iframe id="youtubeIframe" src='https://www.youtube.com/embed/OCWj5xgu5Ng' frameborder='0' allowfullscreen>
+<iframe id="youtubeIframe" src='https://www.youtube.com/embed/V51nIE6cnkI' frameborder='0' allowfullscreen>
 </iframe></div>
 </div>
 
+
+<h3> live captioning of talks </h3>
+<div align="center">
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.streamtext.net/player?event=bangbangcon' frameborder='0' allowfullscreen></iframe></div>
+<a href="https://www.streamtext.net/player?event=bangbangcon">or open in separate window </a>
+</div>
 <br><br>
 
 For updates on !!Con, follow
