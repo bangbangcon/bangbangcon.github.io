@@ -165,7 +165,7 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
     <tr>
         <th><time datetime="11:00">11:00</time></th>
         <td></td>
-        <td class="syncwatch">Sync 2</td>
+        <td class="syncwatch">Sync 1</td>
         <td class="syncwatch">Sync 3</td>
         <td class="syncwatch">Sync 4</td>
         <td class="session">Session 6</td>
@@ -176,7 +176,7 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
     <tr>
         <th><time datetime="12:00">12:00</time></th>
         <td class="keynote">Keynote</td>
-        <td class="hallway">Hallway</td>
+        <td class="syncwatch">Sync 2</td>
         <td class="hallway">Hallway</td>
         <td class="hallway">Hallway</td>
         <td class="hallway">Hallway</td>
@@ -187,7 +187,7 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
     <tr>
         <th><time datetime="13:00">13:00</time></th>
         <td class="session">Session 1</td>
-        <td></td>
+        <td class="hallway">Hallway</td>
         <td></td>
         <td></td>
         <td></td>
@@ -287,8 +287,8 @@ We have a lot of different events this year, so add us to your calendar to make 
 | Time            | Event
 |-----------------|-------------------------------------------------------------------------
 | <time datetime="10:00">10:00</time>        | Syncwatch: Rebroadcast of Session 1
-| <time datetime="11:00">11:00</time>        | Syncwatch: Rebroadcast of Session 2
-| <time datetime="12:00">12:00</time>        | Hallway Track
+| <time datetime="12:15">12:15</time>        | Syncwatch: Rebroadcast of Session 2
+| <time datetime="13:00">12:00</time>        | Hallway Track
 | <time datetime="17:00">17:00</time>        | **Session 3:** <br />  &bull; *Night of the living GIF: Making interactive multiplayer experiences on a static webpage!* ([Andrew Sillers](speakers.html#andrew-sillers)) <br>&bull; *Building Weird Things With With The National Hockey League Using Ruby!* ([Wade Minter](speakers.html#wade-minter)) <br>&bull; *Mojibake! What the hâ€”ck happened to these strings?* ([Robyn Speer](speakers.html#robyn-speer)) <br>&bull; *Save Icons! In Real Life?! (A Joyous Look at the Floppy Disk!!)* ([wilkie](speakers.html#wilkie))
 | <time datetime="18:00">18:00</time>        | Hallway Track
 
