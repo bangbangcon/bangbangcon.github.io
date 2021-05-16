@@ -139,7 +139,7 @@ This talk will revisit these algorithms and see what happens when we mess with t
 <a name="dasha-ilina" id="dasha-ilina"></a>
 <img src="images/speakers/thumbnail/dasha-ilina.png" alt="Dasha Ilina" class="speaker-img" />
 
-**Do your eyes hurt? All you need is cardboard and motors*!! (*Ok, and a lot of superglue)**
+**Do your eyes hurt? All you need is cardboard and motors!! (Ok, and a lot of superglue)**
 
 The grim reality of working from home has finally entered almost every household. Though even before the pandemic, with the invention of the ‘freelancer’, so came the many gadgets to improve productivity and reduce discomfort from working from home or at an office. My response to the screen glasses, office chairs, or ergonomic mice was to build my own DIY versions with cardboard and a few motors. Did my solutions work? you ask. Sounds like you will need to attend the talk* to find out!
 
@@ -177,7 +177,7 @@ Even if people are ratchet in the real world, these systems are digital. They ar
 
 let's talk about what we're doing right now to fix this godawful mess.
 
-* Okay assembly, machine code, stream processing, etc. are all ""lower"" than C but practically speaking, you get what I mean!
+\* Okay assembly, machine code, stream processing, etc. are all ""lower"" than C but practically speaking, you get what I mean!
 
 **JeanHeyd “ThePhD”** is a student. They are the Project Editor for the C Language, and they manage their greatest open-source contribution – sol2 – that is used across many industries and academic disciplines. They are currently working towards earning their own nickname, climbing the academic ladder while spending as much time as possible contributing to C++ standardization and development. Their newest and biggest project is Unicode for C++. Learn more about JeanHeyd’s work at their website.
 
