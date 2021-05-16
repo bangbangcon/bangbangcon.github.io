@@ -394,7 +394,7 @@ When editing code with a keyboard and mouse, your world centers around a little 
 <a name="quinn-dombrowski" id="quinn-dombrowski"></a>
 <img src="images/speakers/thumbnail/quinn-dombrowski.png" alt="Quinn Dombrowski" class="speaker-img" />
 
-**"Tropes! Cliches! Made-Up Slang! It's the Data-Sitters Club!"**
+**Tropes! Cliches! Made-Up Slang! It's the Data-Sitters Club!**
 
 Did you ever pick up a "Baby-Sitters Club" book in the 90's, or stumble across the graphic novels or Netflix series more recently? The "Baby-Sitters Club" turns out to be an amazing corpus for exploring computational text analysis methods! Find out what the "Data-Sitters Club" has learned -- about these books, natural-language processing (in multiple languages), collaboration, and coding -- in this quick tour of our discoveries so far!
 
