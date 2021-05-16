@@ -6,30 +6,95 @@ title: Livestream - !!Con 2021
 <script>
 let allSessions = [
 {
-    name: "Opening Keynote + Session 1 Live",
-    startDateTime: "Sat May 15 2021 14:55:00 GMT-0400",
-    endDateTime:   "Sat May 15 2021 16:59:59 GMT-0400",
+    name: "Opening Keynote + Session 1",
+    startDateTime: "Sat May 15 2021 14:55:00 GMT-0500",
+    endDateTime:   "Sat May 15 2021 16:59:59 GMT-0500",
     link: "https://www.youtube.com/embed/Umv3jPS8b7E"
 }, {
-    name: "Session 2 Live",
-    startDateTime: "Sat May 15 2021 18:00:00 GMT-0400",
-    endDateTime:   "Sat May 15 2021 18:59:59 GMT-0400",
+    name: "Session 2",
+    startDateTime: "Sat May 15 2021 18:00:00 GMT-0500",
+    endDateTime:   "Sat May 15 2021 18:59:59 GMT-0500",
     link: "https://www.youtube.com/embed/V51nIE6cnkI"
 }, {
-    name: "Session 1 Syncwatch",
-    startDateTime: "Sun May 16 2021 13:00:00 GMT-0400",
-    endDateTime:   "Sun May 16 2021 14:59:59 GMT-0400",
+    name: "Opening Keynote + Session 1 Syncwatch",
+    startDateTime: "Sun May 16 2021 13:00:00 GMT-0500",
+    endDateTime:   "Sun May 16 2021 14:59:59 GMT-0500",
     link: "https://www.youtube.com/embed/lH6NYVIasi0"
 }, {
     name: "Session 2 Syncwatch",
-    startDateTime: "Sun May 16 2021 15:00:00 GMT-0400",
-    endDateTime:   "Sun May 16 2021 15:59:59 GMT-0400",
+    startDateTime: "Sun May 16 2021 15:00:00 GMT-0500",
+    endDateTime:   "Sun May 16 2021 15:59:59 GMT-0500",
     link: "https://www.youtube.com/embed/77HNl3ZsU-E"
 }, {
-    name: "Session 3 Live",
-    startDateTime: "Sun May 16 2021 20:00:00 GMT-0400",
-    endDateTime:   "Sun May 16 2021 20:59:59 GMT-0400",
+    name: "Session 3",
+    startDateTime: "Sun May 16 2021 20:00:00 GMT-0500",
+    endDateTime:   "Sun May 16 2021 20:59:59 GMT-0500",
     link: "https://www.youtube.com/embed/g_eMNX4OvoY"
+}, {
+    name: "Session 3 Syncwatch",
+    startDateTime: "Mon May 17 2021 14:00:00 GMT-0500",
+    endDateTime:   "Mon May 17 2021 14:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/OCWj5xgu5Ng"
+}, {
+    name: "Session 4",
+    startDateTime: "Mon May 17 2021 20:00:00 GMT-0500",
+    endDateTime:   "Mon May 17 2021 20:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/Q27ObbbZiMY"
+}, {
+    name: "Session 4 Syncwatch",
+    startDateTime: "Tue May 18 2021 14:00:00 GMT-0500",
+    endDateTime:   "Tue May 18 2021 14:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/OCWj5xgu5Ng"
+}, {
+    name: "Session 5",
+    startDateTime: "Tue May 18 2021 20:00:00 GMT-0500",
+    endDateTime:   "Tue May 18 2021 20:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/VlJwzxrrvRk"
+}, {
+    name: "Session 6",
+    startDateTime: "Wed May 19 2021 14:00:00 GMT-0500",
+    endDateTime:   "Wed May 19 2021 14:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/lX11AHVAg4U"
+}, {
+    name: "Session 6 Syncwatch",
+    startDateTime: "Wed May 19 2021 20:00:00 GMT-0500",
+    endDateTime:   "Wed May 19 2021 20:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/OCWj5xgu5Ng"
+}, {
+    name: "Session 5 Syncwatch",
+    startDateTime: "Thu May 20 2021 14:00:00 GMT-0500",
+    endDateTime:   "Thu May 20 2021 14:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/OCWj5xgu5Ng"
+}, {
+    name: "Session 7",
+    startDateTime: "Thu May 20 2021 20:00:00 GMT-0500",
+    endDateTime:   "Thu May 20 2021 20:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/22hqvAoNNDo"
+}, {
+    name: "Session 7 Syncwatch",
+    startDateTime: "Fri May 21 2021 14:00:00 GMT-0500",
+    endDateTime:   "Fri May 21 2021 14:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/OCWj5xgu5Ng"
+}, {
+    name: "Session 8",
+    startDateTime: "Fri May 21 2021 20:00:00 GMT-0500",
+    endDateTime:   "Fri May 21 2021 20:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/gDBC2oHCzIo"
+}, {
+    name: "Session 8 Syncwatch",
+    startDateTime: "Sat May 22 2021 12:00:00 GMT-0500",
+    endDateTime:   "Sat May 22 2021 12:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/OCWj5xgu5Ng"
+}, {
+    name: "Session 9 + Closing Keynote",
+    startDateTime: "Sat May 22 2021 13:00:00 GMT-0500",
+    endDateTime:   "Sat May 22 2021 14:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/GVnqUDGPVBk"
+}, {
+    name: "Session 9 + Closing Keynote Syncwatch",
+    startDateTime: "Sat May 22 2021 20:00:00 GMT-0500",
+    endDateTime:   "Sat May 22 2021 21:59:59 GMT-0500",
+    link: "https://www.youtube.com/embed/OCWj5xgu5Ng"
 }];
 </script>
 
@@ -97,7 +162,7 @@ allSessions.forEach((session, index) => {
     // Build option
     let option = document.createElement("option");
     option.value = index;
-    option.innerHTML = session.name;
+    option.innerHTML = session.name + " (" + formatDate(session.startDateTime) + ")";
     option.selected = false;
 
     // Determine if it should be selected (the next session coming up)
@@ -135,6 +200,19 @@ document.getElementById("updateVideoButton").addEventListener("click", updateVid
 function updateVideoLink() {
     let selectedIndex = dropDownBox.selectedIndex;
     iFrame.src = allSessions[selectedIndex].link;
+}
+
+// Pretty format dates
+function formatDate(datetime) {
+    let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    let dt = new Date(datetime);
+
+    return days[dt.getDay()] + " " +
+        months[dt.getMonth()] + " " +
+        dt.getDate() + " " + 
+        dt.getHours() + ":" + 
+        dt.getMinutes().toString().padStart(2, "0");
 }
 
 </script>
