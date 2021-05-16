@@ -154,7 +154,7 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
     <tr>
         <th><time datetime="10:00">10:00</time></th>
         <td></td>
-        <td class="syncwatch">Sync 1</td>
+        <td class="syncwatch" rowspan="2">Sync 1</td>
         <td></td>
         <td></td>
         <td></td>
@@ -165,7 +165,6 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
     <tr>
         <th><time datetime="11:00">11:00</time></th>
         <td></td>
-        <td class="syncwatch">Sync 1</td>
         <td class="syncwatch">Sync 3</td>
         <td class="syncwatch">Sync 4</td>
         <td class="session">Session 6</td>
@@ -237,7 +236,7 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
         <td class="syncwatch">Sync 6</td>
         <td class="session">Session 7</td>
         <td class="session">Session 8</td>
-        <td class="syncwatch">Sync 9</td>
+        <td class="syncwatch" rowspan="2">Sync 9</td>
     </tr>
     <tr>
         <th><time datetime="18:00">18:00</time></th>
@@ -248,6 +247,16 @@ View the schedule <a href="#cards-section">Day-by-day</a> or as a <a href="#tabl
         <td class="hallway">Hallway</td>
         <td class="unconf">Unconf</td>
         <td class="hallway">Hallway</td>
+    </tr>
+    <tr>
+        <th><time datetime="19:00">19:00</time></th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
         <td class="hallway">Hallway</td>
     </tr>
 
