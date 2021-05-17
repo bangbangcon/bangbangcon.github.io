@@ -120,7 +120,7 @@ Live sessions' captions are below the talk. Syncwatches will have captions integ
 </iframe></div>
 </div>
 
-<div>May 16: Our captioner is not online, so there are no captions right now. We are continuing to try to get a hold of them. We sincerely apologize to our deaf or hard of haring attendees!</div>
+May 16: Our captioner is not online, so there are no captions right now. We are continuing to try to get a hold of them. We sincerely apologize to our deaf or hard of haring attendees!
 
 <h3> live captioning of talks </h3>
 <div align="center">
