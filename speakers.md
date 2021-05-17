@@ -282,7 +282,7 @@ Between frequent conversations about the magic of the 90s, **Martin** works as a
 
 **Numeric Data Types in the Wild; or: Let's Look at Last Night’s Dinner Receipt!**
 
-You won't believe the crazy things we'll find by taking a good look at a dinner receipt.
+You won't believe the wild things we'll find by taking a good look at a dinner receipt.
 
 Come and spend ten minutes having a laugh at some of the pitfalls and travails embedded in a simple POS (point of sale) device printout. And remember: this was the real output of a launched-and-shipped software program that was written by living, thinking, and breathing human beings. How could it have gone so wrong?
 
