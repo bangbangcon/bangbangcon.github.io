@@ -44,7 +44,7 @@ let allSessions = [
     name: "Session 4 Syncwatch",
     startDateTime: "Tue May 18 2021 14:00:00 GMT-0500",
     endDateTime:   "Tue May 18 2021 14:59:59 GMT-0500",
-    link: "https://www.youtube.com/embed/OCWj5xgu5Ng"
+    link: "https://www.youtube.com/embed/Dm-a43ejH2k"
 }, {
     name: "Session 5",
     startDateTime: "Tue May 18 2021 20:00:00 GMT-0500",
