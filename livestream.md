@@ -59,7 +59,7 @@ let allSessions = [
     name: "Session 6 Syncwatch",
     startDateTime: "Wed May 19 2021 20:00:00 GMT-0500",
     endDateTime:   "Wed May 19 2021 20:59:59 GMT-0500",
-    link: "https://www.youtube.com/embed/9C7xM0p_4a8"
+    link: "https://www.youtube.com/embed/9C7xM0p_4a8l"
 }, {
     name: "Session 5 Syncwatch",
     startDateTime: "Thu May 20 2021 14:00:00 GMT-0500",
@@ -74,7 +74,7 @@ let allSessions = [
     name: "Session 7 Syncwatch",
     startDateTime: "Fri May 21 2021 14:00:00 GMT-0500",
     endDateTime:   "Fri May 21 2021 14:59:59 GMT-0500",
-    link: "https://www.youtube.com/embed/OCWj5xgu5Ng"
+    link: "https://www.youtube.com/embed/eqtZuHveQMU"
 }, {
     name: "Session 8",
     startDateTime: "Fri May 21 2021 20:00:00 GMT-0500",
