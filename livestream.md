@@ -94,7 +94,7 @@ let allSessions = [
     name: "Session 9 + Closing Keynote Syncwatch",
     startDateTime: "Sat May 22 2021 20:00:00 GMT-0400",
     endDateTime:   "Sat May 22 2021 21:59:59 GMT-0400",
-    link: "https://www.youtube.com/embed/OCWj5xgu5Ng"
+    link: "https://www.youtube.com/embed/xd2s4Ba_in4"
 }];
 </script>
 
