@@ -82,18 +82,18 @@ let allSessions = [
     link: "https://www.youtube.com/embed/gDBC2oHCzIo"
 }, {
     name: "Session 8 Syncwatch",
-    startDateTime: "Sat May 22 2021 12:00:00 GMT-0500",
-    endDateTime:   "Sat May 22 2021 12:59:59 GMT-0500",
+    startDateTime: "Sat May 22 2021 12:00:00 GMT-0400",
+    endDateTime:   "Sat May 22 2021 12:59:59 GMT-0400",
     link: "https://www.youtube.com/embed/OhxY5jwZdfw"
 }, {
     name: "Session 9 + Closing Keynote",
-    startDateTime: "Sat May 22 2021 13:00:00 GMT-0500",
-    endDateTime:   "Sat May 22 2021 14:59:59 GMT-0500",
+    startDateTime: "Sat May 22 2021 13:00:00 GMT-0400",
+    endDateTime:   "Sat May 22 2021 14:59:59 GMT-0400",
     link: "https://www.youtube.com/embed/GVnqUDGPVBk"
 }, {
     name: "Session 9 + Closing Keynote Syncwatch",
-    startDateTime: "Sat May 22 2021 20:00:00 GMT-0500",
-    endDateTime:   "Sat May 22 2021 21:59:59 GMT-0500",
+    startDateTime: "Sat May 22 2021 20:00:00 GMT-0400",
+    endDateTime:   "Sat May 22 2021 21:59:59 GMT-0400",
     link: "https://www.youtube.com/embed/OCWj5xgu5Ng"
 }];
 </script>
