@@ -1,0 +1,39 @@
+<style>
+summary a {
+    pointer-events: none;
+    text-decoration: underline;
+}
+
+summary {
+    cursor: pointer;
+}
+</style>
+
+<section id="talk_container" markdown="0">
+{% for talk in include.year.talks %}
+<div id="" style="display: block;" class="talk">
+<h3 class="talk-info"><a class="speaker" href="./speakers.html#{{talk.authorslug}}">{{talk.author}}</a><strong class="talk-title"><em>{{talk.title}}</em></strong></h3>
+<div class="view" style="display: flex;">
+    <div class="talk-youtube-thumb"><a href="http://youtube.com/watch?v={{talk.youtube}}"><img src="http://img.youtube.com/vi/{{talk.youtube}}/1.jpg" alt=""></a></div>
+    <div>
+        {% if talk.youtube %}
+        <div class="talk-youtube"><a href="http://youtube.com/watch?v={{talk.youtube}}">View on YouTube!</a></div>
+        <details>
+            <summary>
+            <a>View right here!</a>
+            </summary>
+                <iframe class="youtube" width="640" height="360"
+                  src="https://www.youtube.com/embed/{{talk.youtube}}"
+                  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/{{talk.youtube}}?autoplay=1><img src=https://img.youtube.com/vi/{{talk.youtube}}/hqdefault.jpg alt='{{talk.title}}'><span>▶</span></a>"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  title="{{talk.title}}" ></iframe>
+        </details>
+        {% endif %}
+        {% if include.transcriptsdir  and talk.transcript %}
+        <div class="talk-transcript"><a href="/{{include.transcriptsdir}}/{{talk.transcript}}.txt">Read the transcript!</a></div>
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
