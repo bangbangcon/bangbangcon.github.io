@@ -6,20 +6,16 @@ title: The joy, excitement, and surprise of computing - !!Con 2021
 <p style="text-align: center;">
   **Quick Links:**
   &middot;
-  [Schedule](program.html)  
+  [Schedule](program.html)
   &middot;
-  [Tickets](tickets.html)
+  [Recordings](recordings.html)
   &middot;
   [Speakers](speakers.html)
   &middot;
   [Conduct](conduct.html)
-  &middot;
-  [Livestream](livestream.html)
-  &middot;
-  [Past Recordings](recordings.html)
 </p>
 
-<p id="blurb">**!!Con** (pronounced "bang bang con") **2021** is **a week of
+<p id="blurb">**!!Con** (pronounced "bang bang con") **2021** was **a week of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
 joyous, exciting, and surprising moments in computing.
 </p>
@@ -65,42 +61,6 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="./speakers.html#zachary-kanfer"><img height="100" width="100" src="images/speakers/thumbnail/zachary-kanfer.png" alt="Zachary Kanfer" /></a></div>
 </div>
 
-## Who's speaking?
-
-Our [call for talk](give-a-talk.html) proposals is closed. Thanks for
-all your wonderful talk proposal submissions! Learn more about our amazing [speakers](speakers.html)!
-
-## Where and when?
-
-!!Con 2021 will be held online, the week of May 15-22, 2021!!
-
-!!Con is a *pay-what-you-want* conference. Our registration will open April 24th (first batch) and April 26th (second batch).
-
-<a name="testimonials" id="testimonials"></a>
-
-## What's so great about !!Con?
-
-Here's what some of our past speakers and attendees said about us:
-
-> "@bangbangcon managed to pack **more useful info into one day than most other conferences do in 3**. And it was **10x more fun.**"
-> -- [@johnwittrock](https://twitter.com/johnwittrock/status/861206986448404481)
->
-> "Virtual @bangbangcon's reminding me **how much fun it is to hear people
-> talk about what they're passionate about**"
-> -- [@trudake](https://twitter.com/trudake/status/1259231865212481537)
->
-> "It's refreshing to **learn 30+ new things about programming in a single weekend** at @bangbangcon, even though I've been programming for so long"
-> -- [@pixelyunicorn](https://twitter.com/pixelyunicorn/status/861690031370645504)
->
-> "@bangbangcon was awesome!  Learned a lot, met very friendly people, and **left inspired**."
-> -- [@bxmani](https://twitter.com/bxmani/status/861400448107937792)
->
-> "It's only halfway over, but **@bangbangcon is setting the bar for virtual
-> events for me**.  [...]"
-> -- [@lazerwalker](https://twitter.com/lazerwalker/status/1259238259328237568)
-
-We hope !!Con 2021 will be at least as good!
-
 ## How do I get updates?
 
 For updates on !!Con, follow
@@ -125,6 +85,40 @@ for our mailing list below.  We send about four or five emails per year for impo
 </div>
 </form>
 </div>
+
+## Who's speaking?
+
+Our [call for talk](give-a-talk.html) proposals is closed. Thanks for
+all your wonderful talk proposal submissions! Learn more about our amazing [speakers](speakers.html)!
+
+## Where and when?
+
+!!Con 2021 was held online, the week of May 15-22, 2021!!
+
+!!Con was a *pay-what-you-want* conference. Our registration was open April 24th (first batch) and April 26th (second batch).
+
+<a name="testimonials" id="testimonials"></a>
+
+## What's so great about !!Con?
+
+Here's what some of our past speakers and attendees said about us:
+
+> "@bangbangcon managed to pack **more useful info into one day than most other conferences do in 3**. And it was **10x more fun.**"
+> -- [@johnwittrock](https://twitter.com/johnwittrock/status/861206986448404481)
+>
+> "Virtual @bangbangcon's reminding me **how much fun it is to hear people
+> talk about what they're passionate about**"
+> -- [@trudake](https://twitter.com/trudake/status/1259231865212481537)
+>
+> "It's refreshing to **learn 30+ new things about programming in a single weekend** at @bangbangcon, even though I've been programming for so long"
+> -- [@pixelyunicorn](https://twitter.com/pixelyunicorn/status/861690031370645504)
+>
+> "@bangbangcon was awesome!  Learned a lot, met very friendly people, and **left inspired**."
+> -- [@bxmani](https://twitter.com/bxmani/status/861400448107937792)
+>
+> "It's only halfway over, but **@bangbangcon is setting the bar for virtual
+> events for me**.  [...]"
+> -- [@lazerwalker](https://twitter.com/lazerwalker/status/1259238259328237568)
 
 <a name="organizers"></a>
 

@@ -311,7 +311,7 @@ We have a lot of different events this year, so add us to your calendar to make 
 |-----------------|-------------------------------------------------------------------------
 | <time datetime="11:00">11:00</time>        | Syncwatch: Rebroadcast of Session 3
 | <time datetime="12:00">12:00</time>        | Hallway Track
-| <time datetime="17:00">17:00</time>        | **Session 4:** <br />  &bull; *Tropes! Cliches! Made-Up Slang! It's the Data-Sitters Club!* ([Quinn Dombrowski](speakers.html#quinn-dombrowski)) <br>&bull; *GoLlURM! The Game of Life (limited) Unlimited-Register Machine!* ([Nicholas Carlini](speakers.html#nicholas-carlini)) <br>&bull; *Let me at my data! Pulling pictures out of an undocumented file format * ([Alex Pounds](speakers.html#alex-pounds)) <br>&bull; *NetMonster: A trip through early 2000s internet and the monsters hidden inside websites!* ([Rocky Kev](speakers.html#rocky-kev))
+| <time datetime="17:00">17:00</time>        | **Session 4:** <br />  &bull; *Tropes! Cliches! Made-Up Slang! It's the Data-Sitters Club!* ([Quinn Dombrowski](speakers.html#quinn-dombrowski)) <br>&bull; *GoLlURM! The Game of Life (limited) Unlimited-Register Machine!* ([Nicholas Carlini](speakers.html#nicholas-carlini)) <br>&bull; *Let me at my data! Pulling pictures out of an undocumented file format* ([Alex Pounds](speakers.html#alex-pounds)) <br>&bull; *NetMonster: A trip through early 2000s internet and the monsters hidden inside websites!* ([Rocky Kev](speakers.html#rocky-kev))
 | <time datetime="18:00">18:00</time>        | Hallway Track
 
 </div>
