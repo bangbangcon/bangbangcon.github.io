@@ -69,7 +69,7 @@ for our mailing list below.  We send about four or five emails per year for impo
 
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
-<form action="http://bangbangcon.us3.list-manage.com/subscribe/post?u=37b924b9d7d71dc7aa1a52b4c&amp;id=9f9ec7c469" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="background-color: inherit;" novalidate>
+<form action="https://bangbangcon.us3.list-manage.com/subscribe/post?u=37b924b9d7d71dc7aa1a52b4c&amp;id=9f9ec7c469" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="background-color: inherit;" novalidate>
 <div class="mc-field-group">
 <label for="mce-EMAIL">Email:</label>
 <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder='your email address'>
