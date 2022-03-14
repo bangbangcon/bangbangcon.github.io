@@ -1,11 +1,11 @@
 ---
-layout: default-2021
-title: Sponsorship - !!Con 2021
+layout: default-2022
+title: Sponsorship - !!Con 2022
 ---
 
 # Sponsoring !!Con
 
-Thank you for your interest in sponsoring !!Con 2021!  💜 We're an online
+Thank you for your interest in sponsoring !!Con 2022!  💜 We're an online
 event this year, but we still have bills to pay -- we're committed to
 compensating our speakers for the hard work that they put in on creating
 amazing talks, and our famous accessibility (including real-time captioning)
@@ -21,33 +21,33 @@ Below are some sponsorship tiers that we've put together as starting points,
 but we're happy to customize a package to meet the needs of your
 organization!  If you're interested in sponsoring, or if you have any
 questions, please [send us some
-mail](mailto:2021-organizers@exclamation.foundation).
+mail](mailto:2022-organizers@exclamation.foundation).
 
 ## Sponsorship Levels
 
 ### PHENOMENAL Sponsor!!! (**$12,000**)
 
-  * 5 reserved tickets for employees[*](#note-on-tickets)
-  * Discord perks for employees: sponsor highlight, and dedicated channel
-    for your organization
-  * Logo on welcome slide
-  * Verbal thanks during conference
-  * Logo on website
-  * Our undying gratitude!
+* 5 reserved tickets for employees[*](#note-on-tickets)
+* Discord perks for employees: sponsor highlight, and dedicated channel
+  for your organization
+* Logo on welcome slide
+* Verbal thanks during conference
+* Logo on website
+* Our undying gratitude!
 
 ### EXCELLENT Sponsor!! (**$7,000**)
 
-  * 2 reserved tickets for employees[*](#note-on-tickets)
-  * Logo on welcome slide
-  * Verbal thanks during conference
-  * Logo on website
-  * Our undying gratitude!
+* 2 reserved tickets for employees[*](#note-on-tickets)
+* Logo on welcome slide
+* Verbal thanks during conference
+* Logo on website
+* Our undying gratitude!
 
 ### AWESOME Sponsor! (**$3,000**)
 
-  * Verbal thanks during conference
-  * Logo on website
-  * Our undying gratitude!
+* Verbal thanks during conference
+* Logo on website
+* Our undying gratitude!
 
 <a name="note-on-tickets"></a>
 
@@ -65,7 +65,7 @@ enthusiasts.
 
 Attendees really remember the names of sponsors of the elements that makes
 !!Con special, so these are a great way to stand out!  If these interest you,
-[get in touch](mailto:2021-organizers@exclamation.foundation) and we can talk
+[get in touch](mailto:2022-organizers@exclamation.foundation) and we can talk
 about including them in your sponsorship package.
 
 * **Live streaming and recording.** All of !!Con's talks are broadcast
@@ -86,4 +86,4 @@ about including them in your sponsorship package.
   you!
 
 If you have other ideas, we'd love to hear about them and work with you -- feel
-free to [contact us](mailto:2021-organizers@exclamation.foundation)!
+free to [contact us](mailto:2022-organizers@exclamation.foundation)!
