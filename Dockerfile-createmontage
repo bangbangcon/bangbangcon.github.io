@@ -1,0 +1,32 @@
+# Use this Dockerfile to create a new montage of iamges
+# This is designed to run it once to create the image. The container
+# will remove itself when done (if ran by below directions)
+
+# Run in Windows (PowerShell):
+#    docker run --rm -it -v ${PWD}:/app $(docker build -f Dockerfile-createmontage -q .)
+#
+# Run in Mac/Linux:
+#    docker run --rm -it -v $(pwd):/app $(docker build -q -f Dockerfile-createmontage .)
+#
+# Sorry, Windows (cmd) won't let you do this easily.
+
+# You should then have a new montage.jpg in repo's /images/ !
+
+# Start with small Debian
+FROM debian:stable-slim
+# Make directory for repo
+WORKDIR /app
+
+# Update software, install ImageMagick
+RUN apt update && \
+    apt upgrade -y && \
+    apt install -y imagemagick
+
+# Copy repo to working directory
+COPY . .
+
+# CD to images directory
+WORKDIR /app/images
+
+# Run the montage script
+CMD ./create_montage.sh
