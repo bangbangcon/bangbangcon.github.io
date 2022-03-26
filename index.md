@@ -74,19 +74,21 @@ Here's what some of our past speakers and attendees said about us:
 ## Who's organizing all this?
 
 The !!Con 2022 organizing team:
-[Joshua Wise](https://joshuawise.com/),
+[Alicja Raszkowska](https://twitter.com/mamrotynka),
 [Erty Seidohl](https://twitter.com/ertyseidohl),
 [Julia Evans](https://twitter.com/b0rk),
-[Alicja Raszkowska](https://twitter.com/mamrotynka),
+[Em Lazer-Walker](https://twitter.com/lazerwalker)
 [Sarah Withee](https://twitter.com/geekygirlsarah),
-[Dev Purandare](https://twitter.com/Dev14e), and
-[Lindsey Kuper](http://composition.al/).  If you'd like, you can [send us
+and [Joshua Wise](https://joshuawise.com/).
+
+If you'd like, you can [send us
 some mail](mailto:2022-organizers@exclamation.foundation)!
 
 Organizers emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://twitter.com/NabilHassein),
 [Maggie Zhou](https://twitter.com/zmagg), [Alex Clemmer](https://twitter.com/hausdorff_space),
 [Emily Xie](https://twitter.com/emilyxxie), [Danielle Sucher](https://twitter.com/DanielleSucher), 
-[Kiran Bhattaram](https://twitter.com/kiranb), and [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng)
+[Kiran Bhattaram](https://twitter.com/kiranb), [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
+[Lindsey Kuper](http://composition.al/), and [Dev Purandare](https://twitter.com/Dev14e).
 
 Logo design by
 [Lea Albaugh](http://twitter.com/doridoidea).
