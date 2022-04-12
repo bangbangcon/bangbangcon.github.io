@@ -1,6 +1,6 @@
 ---
-layout: default-2021
-title: Code of Conduct - !!Con 2021
+layout: default-2022
+title: Code of Conduct - !!Con 2022
 ---
 
 # Code of Conduct
@@ -170,7 +170,7 @@ conference organizers, or to the [Exclamation Foundation
 board](mailto:board@exclamation.foundation).
 
 You can use the below form to contact us, with or without your
-name. You can also send e-mail to [2021-organizers@exclamation.foundation](mailto:2021-organizers@exclamation.foundation),
+name. You can also send e-mail to [2022-organizers@exclamation.foundation](mailto:2022-organizers@exclamation.foundation),
 or message any individual organizer on Discord.  We want you to feel safe during
 the conference, and we’ll do what we can to make that happen -- you matter
 to us!

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:400,700,900" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>
+      {% if page.title %}
+      {{ page.title }}
+      {% else %}
+      !!Con
+      {% endif %}
+    </title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="header">
+        <div class="header-inner">
+          <a href="index.html"><img src="images/logo_light.png" alt="!!Con logo"/></a>
+          <h1><a href="index.html"><span style="white-space: nowrap; display: inline-block;"><span style="letter-spacing:-8px; display: inline-block; padding-right:4px;">!!</span>Con</span> 2022</a></h1>
+          <h2>July 30-31, 2022</h2>
+          <p><span>The joy, excitement, and</span> <span>surprise of computing<span></p>
+        </div>
+      </div>
+      <div class="inner">
+
+        <section id="main_content">
+
+        {{content}}
+
+        </section>
+
+      </div>
+      <footer>
+        <p>Hosted on Netlify. Website source code on <a href="https://github.com/bangbangcon/bangbangcon.github.io"
+        target="_source">GitHub</a>.<br>
+        Previously:
+        !!Con <a href="/2021/">2021</a>, <a href="/2020/">2020</a>, <a href="/2019/">2019</a>,
+        <a href="/2018/">2018</a>, <a href="/2017/">2017</a>, <a href="/2016/">2016</a>, <a href="/2015/">2015</a>,
+        <a href="/2014/">2014</a>.
+        !!Con West <a href="/west/">2020</a>, <a href="/west/2019">2019</a>.<br>
+        The background of this page features our <strong>211</strong>
+        past speakers!</p>
+      </footer>
+    </div>
+  </body>
+</html>
