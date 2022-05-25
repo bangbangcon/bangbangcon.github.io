@@ -25,7 +25,9 @@ details as we finish adapting some changes.
 
 For updates on !!Con, follow
 [@bangbangcon](https://twitter.com/bangbangcon) on Twitter, or sign up
-for our mailing list below.  We send about four or five emails per year for important announcements about our venue, submission deadlines, registration, and that sort of thing.  No spam, we promise, and it's easy to unsubscribe at any time.
+for our mailing list below.  We send about four or five emails per year for important announcements about our venue, 
+submission deadlines, registration, and that sort of thing.  No spam, we promise, and it's easy to unsubscribe at any 
+time.
 
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
@@ -69,55 +71,34 @@ Here's what some of our past speakers and attendees said about us:
 > events for me**.  [...]"
 > -- [@lazerwalker](https://twitter.com/lazerwalker/status/1259238259328237568)
 
-[//]: # (<a name="organizers"></a>)
+<a name="organizers"></a>
 
-[//]: # ()
-[//]: # (## Who's organizing all this?)
+## Who's organizing all this?
 
-[//]: # ()
-[//]: # (The !!Con 2022 organizing team:)
+The !!Con 2022 organizing team:
+[Alicja Raszkowska](https://twitter.com/mamrotynka),
+[Erty Seidohl](https://twitter.com/ertyseidohl),
+[Julia Evans](https://twitter.com/b0rk),
+[Em Lazer-Walker](https://twitter.com/lazerwalker)
+[Sarah Withee](https://twitter.com/geekygirlsarah),
+and [Joshua Wise](https://joshuawise.com/).
 
-[//]: # ([Alicja Raszkowska]&#40;https://twitter.com/mamrotynka&#41;,)
+If you'd like, you can [send us some mail](mailto:2022-organizers@exclamation.foundation)!
 
-[//]: # ([Erty Seidohl]&#40;https://twitter.com/ertyseidohl&#41;,)
+Organizers emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://twitter.com/NabilHassein),
+[Maggie Zhou](https://twitter.com/zmagg), [Alex Clemmer](https://twitter.com/hausdorff_space),
+[Emily Xie](https://twitter.com/emilyxxie), [Danielle Sucher](https://twitter.com/DanielleSucher), 
+[Kiran Bhattaram](https://twitter.com/kiranb), [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
+[Lindsey Kuper](http://composition.al/), and [Dev Purandare](https://twitter.com/Dev14e).
 
-[//]: # ([Julia Evans]&#40;https://twitter.com/b0rk&#41;,)
-
-[//]: # ([Em Lazer-Walker]&#40;https://twitter.com/lazerwalker&#41;)
-
-[//]: # ([Sarah Withee]&#40;https://twitter.com/geekygirlsarah&#41;,)
-
-[//]: # (and [Joshua Wise]&#40;https://joshuawise.com/&#41;.)
-
-[//]: # ()
-[//]: # (If you'd like, you can [send us)
-
-[//]: # (some mail]&#40;mailto:2022-organizers@exclamation.foundation&#41;!)
-
-[//]: # ()
-[//]: # (Organizers emeriti: [Leo Franchi]&#40;https://twitter.com/lfranchi&#41;, [Nabil Hassein]&#40;https://twitter.com/NabilHassein&#41;,)
-
-[//]: # ([Maggie Zhou]&#40;https://twitter.com/zmagg&#41;, [Alex Clemmer]&#40;https://twitter.com/hausdorff_space&#41;,)
-
-[//]: # ([Emily Xie]&#40;https://twitter.com/emilyxxie&#41;, [Danielle Sucher]&#40;https://twitter.com/DanielleSucher&#41;, )
-
-[//]: # ([Kiran Bhattaram]&#40;https://twitter.com/kiranb&#41;, [Ahmed Abdalla]&#40;https://twitter.com/simplyahmaz1ng&#41;,)
-
-[//]: # ([Lindsey Kuper]&#40;http://composition.al/&#41;, and [Dev Purandare]&#40;https://twitter.com/Dev14e&#41;.)
-
-[//]: # ()
-[//]: # (Logo design by)
-
-[//]: # ([Lea Albaugh]&#40;http://twitter.com/doridoidea&#41;.)
-
-[//]: # ()
-[//]: # (!!Con 2022 is a project of the [Exclamation)
-
-[//]: # (Foundation]&#40;http://exclamation.foundation&#41;.)
+Logo design by
+[Lea Albaugh](http://twitter.com/doridoidea).
 
 
-If you'd like, you can [send us
-some mail](mailto:2022-organizers@exclamation.foundation)!
+!!Con 2022 is a project of the [Exclamation Foundation](http://exclamation.foundation).
+
+
+If you'd like, you can [send us some mail](mailto:2022-organizers@exclamation.foundation)!
 
 
 ## Code of Conduct
