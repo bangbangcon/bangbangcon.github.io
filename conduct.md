@@ -200,8 +200,8 @@ respect the space that we're in.
 !!Con's Code of Conduct committees have compiled transparency reports for
 reported incidents in previous years, which you can find below:
 
-* [!!Con West 2020](http://bangbangcon.com/west/conduct-transparency/)
-* [!!Con West 2019](http://bangbangcon.com/west/2019/conduct-transparency/)
+* [!!Con West 2020](https://bangbangcon.com/west/conduct-transparency/)
+* [!!Con West 2019](https://bangbangcon.com/west/2019/conduct-transparency/)
 
 ## Thanks
 
@@ -225,6 +225,6 @@ https://modelviewculture.com/pieces/a-code-of-conduct-is-not-enough
 ## License
 
 The !!Con Code of Conduct is under a [Creative Commons
-Zero](http://creativecommons.org/about/cc0) license.
+Zero](https://creativecommons.org/about/cc0) license.
 
 -->

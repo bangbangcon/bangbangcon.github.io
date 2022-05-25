@@ -92,10 +92,10 @@ Organizers emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein]
 [Lindsey Kuper](http://composition.al/), and [Dev Purandare](https://twitter.com/Dev14e).
 
 Logo design by
-[Lea Albaugh](http://twitter.com/doridoidea).
+[Lea Albaugh](https://twitter.com/doridoidea).
 
 
-!!Con 2022 is a project of the [Exclamation Foundation](http://exclamation.foundation).
+!!Con 2022 is a project of the [Exclamation Foundation](https://exclamation.foundation).
 
 
 If you'd like, you can [send us some mail](mailto:2022-organizers@exclamation.foundation)!
