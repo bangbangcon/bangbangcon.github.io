@@ -18,7 +18,7 @@ joyous, exciting, and surprising moments in computing.
 
 ## Save the Dates!
 
-!!Con 2022 will be held on the weekend of July 30-31! We'll release more 
+!!Con 2022 will be held on the weekend of November 12-13! We'll release more 
 details as we finish adapting some changes.
 
 ## How do I get updates?
