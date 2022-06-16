@@ -3,6 +3,18 @@ layout: default-2022
 title: Links
 ---
 # LINKS
+
+## Past years' talk recordings
+
+* [2021](/2021/recordings.html)
+* [2020](/2020/recordings.html)
+* [2019](/2019/recordings.html)
+* [2018](/2018/recordings.html)
+* [2017](/2017/recordings.html)
+* [2016](/2016/recordings.html)
+* [2015](/2015/recordings.html)
+* [2014](/2014/recordings.html)
+
 ## Writing about !!Con
 * ["BTS Fans Confused by Bang Bang Con Tech Conference"](https://www.businessinsider.com/bts-fans-butter-tech-conference-same-name-bang-bang-con-2021-5) in Business Insider, 2021 (paywalled)
 * [!!Con and the Shabbat Spice"](https://joshua0.dreamwidth.org/70110.html), Joshua Wise, 2019
@@ -20,3 +32,5 @@ title: Links
 * [StarCon](https://starcon.io/)
 * [PromptConf](https://web.archive.org/web/20190611205928/http://promptconf.com/)
 * HelloCon
+
+## Conferences inspired by !!Con
