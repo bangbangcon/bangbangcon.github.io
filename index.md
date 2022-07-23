@@ -6,15 +6,26 @@ title: The joy, excitement, and surprise of computing - !!Con 2022
 <p style="text-align: center;">
   **Quick Links:**
   &middot;
-  [Sponsorship](sponsors.html)
+  [Speakers](/speakers.html)
   &middot;
-  [Conduct](conduct.html)
+  [Sponsorship](/sponsors.html)
+  &middot;
+  [Conduct](/conduct.html)
 </p>
 
 <p id="blurb">**!!Con** (pronounced "bang bang con") **2022** is **two days of
 ten-minute talks** (with lots of breaks, of course!) to celebrate the
 joyous, exciting, and surprising moments in computing.
 </p>
+
+<div class="speaker-pics" markdown="0">
+  <div><a href="./speakers.html#aki-van-ness"><img height="100" width="100" src="/images/speakers/thumbnail/aki-van-ness.png" alt="Aki Van Ness" /></a></div>
+  <div><a href="./speakers.html#anjana-vakil"><img height="100" width="100" src="/images/speakers/thumbnail/anjana-vakil.png" alt="Anjana Vakil" /></a></div>
+  <div><a href="./speakers.html#marlene-mhangami"><img height="100" width="100" src="/images/speakers/thumbnail/marlene-mhangami.png" alt="Marlene Mhangami" /></a></div>
+  <div><a href="./speakers.html#nicole-he"><img height="100" width="100" src="/images/speakers/thumbnail/nicole-he.png" alt="Nicole He" /></a></div>
+</div>
+
+We'll be adding more speakers as they accept our invitations!
 
 ## Save the Dates!
 
