@@ -90,7 +90,7 @@ The !!Con 2022 organizing team:
 [Alicja Raszkowska](https://twitter.com/mamrotynka),
 [Erty Seidohl](https://twitter.com/ertyseidohl),
 [Julia Evans](https://twitter.com/b0rk),
-[Em Lazer-Walker](https://twitter.com/lazerwalker)
+[Em Lazer-Walker](https://twitter.com/lazerwalker),
 [Sarah Withee](https://twitter.com/geekygirlsarah),
 and [Joshua Wise](https://joshuawise.com/).
 
