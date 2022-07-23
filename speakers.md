@@ -5,6 +5,7 @@ title: Speakers - !!Con 2022
 
 # Speakers
 
+We will continue to add speakers as we hear back from them.
 
 ### Aki Van Ness
  
@@ -22,6 +23,26 @@ title: Speakers - !!Con 2022
 <img src="/images/speakers/thumbnail/anjana-vakil.png" alt="Anjana Vakil" class="speaker-img" />
 
 **Anjana** suffers from a chronic case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As an engineer & educator, these days she mostly codes & teaches from her home base in San Francisco, when not traveling (in a mask) to events around the world to speak about the joy of programming and advocate for a more equitable & ethical tech industry. Nerd out with her about functional programming & JavaScript, ask her about the Recurse Center & Outreachy, and definitely invite her to your karaoke party!
+
+---
+
+### Anuoluwapo Karounwi
+
+[//]: # (<a name="anuoluwapo-karounwi" id="anuoluwapo-karounwi"></a>)
+[//]: # (<img src="/images/speakers/thumbnail/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" class="speaker-img" />)
+
+**Anuoluwapo** has 5 years of experience building applications serving over a million users across various industries. As an engineer he is driven by impact and he cares deeply about how his work affects users. When he is not hanging around his computer keyboard, he enjoys spending some time on his piano keyboard. He loves keyboards in any form.
+
+---
+
+### Fen Slattery
+
+[//]: # (<a name="fen-slattery" id="fen-slattery"></a>)
+[//]: # (<img src="/images/speakers/thumbnail/fen-slattery.png" alt="Fen Slattery" class="speaker-img" />)
+
+**Fen Slattery** is an accessibility expert who builds beautiful things and works towards a more inclusive digital world. As a web engineer, Fen seamlessly translates the needs of users into digital experiences that minimize barriers to access. As part of their advocacy work, they have spoken across the US to audiences of all skill levels, been featured on many panels about inclusion in the tech industry, and have spread their passion for accessibility in mentorship of web professionals.
+
+They come to the world of development from a psychology and physics background at the Illinois Institute of Technology. In their spare time, Fen can be found creating glitch art, surfing the web, and cutting up comic books for collage.
 
 ---
 
