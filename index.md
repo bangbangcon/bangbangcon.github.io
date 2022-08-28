@@ -24,10 +24,11 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="./speakers.html#aniyia-williams"><img height="100" width="100" src="/images/speakers/thumbnail/aniyia-williams.png" alt="Aniyia Williams" /></a></div>
   <div><a href="./speakers.html#anjana-vakil"><img height="100" width="100" src="/images/speakers/thumbnail/anjana-vakil.png" alt="Anjana Vakil" /></a></div>
   <div><a href="./speakers.html#anuoluwapo-karounwi"><img height="100" width="100" src="/images/speakers/thumbnail/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" /></a></div>
-  <br />  
   <div><a href="./speakers.html#ashlee-boyer"><img height="100" width="100" src="/images/speakers/thumbnail/ashlee-boyer.png" alt="Ashlee Boyer" /></a></div>
+  <br />  
   <div><a href="./speakers.html#marlene-mhangami"><img height="100" width="100" src="/images/speakers/thumbnail/marlene-mhangami.png" alt="Marlene Mhangami" /></a></div>
   <div><a href="./speakers.html#nicole-he"><img height="100" width="100" src="/images/speakers/thumbnail/nicole-he.png" alt="Nicole He" /></a></div>
+  <div><a href="./speakers.html#omar-rizwan"><img height="100" width="100" src="/images/speakers/thumbnail/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
   <div><a href="./speakers.html#thea-flowers"><img height="100" width="100" src="/images/speakers/thumbnail/thea-flowers.png" alt="Thea Flowers" /></a></div>
   <div><a href="./speakers.html#wenting-zhang"><img height="100" width="100" src="/images/speakers/thumbnail/wenting-zhang.png" alt="Wenting Zhang" /></a></div>
 </div>
