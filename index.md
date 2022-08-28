@@ -20,9 +20,16 @@ joyous, exciting, and surprising moments in computing.
 
 <div class="speaker-pics" markdown="0">
   <div><a href="./speakers.html#aki-van-ness"><img height="100" width="100" src="/images/speakers/thumbnail/aki-van-ness.png" alt="Aki Van Ness" /></a></div>
+  <div><a href="./speakers.html#amy-wibowo"><img height="100" width="100" src="/images/speakers/thumbnail/amy-wibowo.png" alt="Amy Wibowo" /></a></div>
+  <div><a href="./speakers.html#aniyia-williams"><img height="100" width="100" src="/images/speakers/thumbnail/aniyia-williams.png" alt="Aniyia Williams" /></a></div>
   <div><a href="./speakers.html#anjana-vakil"><img height="100" width="100" src="/images/speakers/thumbnail/anjana-vakil.png" alt="Anjana Vakil" /></a></div>
+  <div><a href="./speakers.html#anuoluwapo-karounwi"><img height="100" width="100" src="/images/speakers/thumbnail/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" /></a></div>
+  <br />  
+  <div><a href="./speakers.html#ashlee-boyer"><img height="100" width="100" src="/images/speakers/thumbnail/ashlee-boyer.png" alt="Ashlee Boyer" /></a></div>
   <div><a href="./speakers.html#marlene-mhangami"><img height="100" width="100" src="/images/speakers/thumbnail/marlene-mhangami.png" alt="Marlene Mhangami" /></a></div>
   <div><a href="./speakers.html#nicole-he"><img height="100" width="100" src="/images/speakers/thumbnail/nicole-he.png" alt="Nicole He" /></a></div>
+  <div><a href="./speakers.html#thea-flowers"><img height="100" width="100" src="/images/speakers/thumbnail/thea-flowers.png" alt="Thea Flowers" /></a></div>
+  <div><a href="./speakers.html#wenting-zhang"><img height="100" width="100" src="/images/speakers/thumbnail/wenting-zhang.png" alt="Wenting Zhang" /></a></div>
 </div>
 
 We'll be adding more speakers as they accept our invitations!

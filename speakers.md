@@ -45,8 +45,8 @@ We will continue to add speakers as we hear back from them.
 
 ### Anuoluwapo Karounwi
 
-[//]: # (<a name="anuoluwapo-karounwi" id="anuoluwapo-karounwi"></a>)
-[//]: # (<img src="/images/speakers/thumbnail/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" class="speaker-img" />)
+<a name="anuoluwapo-karounwi" id="anuoluwapo-karounwi"></a>
+<img src="/images/speakers/thumbnail/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" class="speaker-img" />
 
 I am an android engineer with 5 years of experience building applications serving over a million users across various industries. As an engineer I am driven by impact and I care deeply about how my work affects users. When I'm not hanging around my computer keyboard, I enjoy spending some time on my piano keyboard. I love keyboards in any form.
 
