@@ -13,8 +13,7 @@ title: The joy, excitement, and surprise of computing - !!Con 2022
   [Conduct](/conduct.html)
 </p>
 
-<p id="blurb">**!!Con** (pronounced "bang bang con") **2022** is **two days of
-ten-minute talks** (with lots of breaks, of course!) to celebrate the
+<p id="blurb">**!!Con** (pronounced "bang bang con") **2022** is **one day of talks** and **one day of workshops** to celebrate the
 joyous, exciting, and surprising moments in computing.
 </p>
 
@@ -37,8 +36,13 @@ We'll be adding more speakers as they accept our invitations!
 
 ## Save the Dates!
 
-!!Con 2022 will be held on the weekend of November 12-13! We'll release more 
-details as we finish adapting some changes.
+!!Con 2022 will be held on the weekend of November 12-13!
+
+November 12th will be a day of delightful lightning talks by our amazing speakers. We'll also have a comedy set and musical number. It'll be a great time.
+
+November 13th will be a day of fun and educational workshops that will surprise and delight you.
+
+More information, including a schedule, will be announced Soon&trade;.
 
 ## How do I get updates?
 
@@ -95,7 +99,6 @@ Here's what some of our past speakers and attendees said about us:
 ## Who's organizing all this?
 
 The !!Con 2022 organizing team:
-[Alicja Raszkowska](https://twitter.com/mamrotynka),
 [Erty Seidohl](https://twitter.com/ertyseidohl),
 [Julia Evans](https://twitter.com/b0rk),
 [Em Lazer-Walker](https://twitter.com/lazerwalker),
@@ -105,7 +108,7 @@ and [Joshua Wise](https://joshuawise.com/).
 
 If you'd like, you can [send us some mail](mailto:2022-organizers@exclamation.foundation)!
 
-Organizers emeriti: [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://twitter.com/NabilHassein),
+Organizers emeriti: [Alicja Raszkowska](https://twitter.com/mamrotynka), [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://twitter.com/NabilHassein),
 [Alex Clemmer](https://twitter.com/hausdorff_space),
 [Emily Xie](https://twitter.com/emilyxxie), [Danielle Sucher](https://twitter.com/DanielleSucher), 
 [Kiran Bhattaram](https://twitter.com/kiranb), [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
