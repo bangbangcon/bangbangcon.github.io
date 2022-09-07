@@ -25,6 +25,7 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="./speakers.html#anuoluwapo-karounwi"><img height="100" width="100" src="/images/speakers/thumbnail/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" /></a></div>
   <div><a href="./speakers.html#ashlee-boyer"><img height="100" width="100" src="/images/speakers/thumbnail/ashlee-boyer.png" alt="Ashlee Boyer" /></a></div>
   <br />  
+  <div><a href="./speakers.html#char-stiles"><img height="100" width="100" src="/images/speakers/thumbnail/char-stiles.png" alt="Char Stiles" /></a></div>
   <div><a href="./speakers.html#marlene-mhangami"><img height="100" width="100" src="/images/speakers/thumbnail/marlene-mhangami.png" alt="Marlene Mhangami" /></a></div>
   <div><a href="./speakers.html#nicole-he"><img height="100" width="100" src="/images/speakers/thumbnail/nicole-he.png" alt="Nicole He" /></a></div>
   <div><a href="./speakers.html#omar-rizwan"><img height="100" width="100" src="/images/speakers/thumbnail/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
