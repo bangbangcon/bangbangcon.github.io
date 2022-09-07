@@ -73,6 +73,17 @@ I am an android engineer with 5 years of experience building applications servin
 
 ---
 
+### Char Stiles
+
+[//]: # (<a name="char-stiles" id="char-stiles"></a>)
+[//]: # (<img src="/images/speakers/char-stiles.png" alt="Char Stiles" class="speaker-img" />)
+
+**Char Stiles** is an artist, educator and programmer based in Brooklyn, NY. Char works and collaborates across mediums such as interactive installation, video, performance and web. She is a part of the Livecode.nyc collective, where she organizes shows, and livecodes music and visuals. She also is a founder of Hex House, an artist studio &amp; event space for unconventional computing, pleasure studies, and cerebral play.
+
+<br />
+
+---
+
 ### Fen Slattery
 
 [//]: # (<a name="fen-slattery" id="fen-slattery"></a>)
