@@ -3,9 +3,9 @@ layout: default-2022
 title: Speakers - !!Con 2022
 ---
 
-# Speakers
+# Speakers and Workshop Leaders
 
-We will continue to add speakers as we hear back from them.
+We will continue to add speakers and workshop leaders as we hear back from them.
 
 ### Aki Van Ness
  
@@ -73,7 +73,7 @@ I am an android engineer with 5 years of experience building applications servin
 
 ---
 
-### Char Stiles
+### Char Stiles (Workshop Leader)
 
 [//]: # (<a name="char-stiles" id="char-stiles"></a>)
 [//]: # (<img src="/images/speakers/char-stiles.png" alt="Char Stiles" class="speaker-img" />)
