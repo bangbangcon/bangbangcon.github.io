@@ -86,8 +86,8 @@ I am an android engineer with 5 years of experience building applications servin
 
 ### Fen Slattery
 
-[//]: # (<a name="fen-slattery" id="fen-slattery"></a>)
-[//]: # (<img src="/images/speakers/fen-slattery.png" alt="Fen Slattery" class="speaker-img" />)
+<a name="fen-slattery" id="fen-slattery"></a>
+<img src="/images/speakers/fen-slattery.png" alt="Fen Slattery" class="speaker-img" />
 
 **Fen Slattery** is an accessibility expert who builds beautiful things and works towards a more inclusive digital world. As a web engineer, Fen seamlessly translates the needs of users into digital experiences that minimize barriers to access. As part of their advocacy work, they have spoken across the US to audiences of all skill levels, been featured on many panels about inclusion in the tech industry, and have spread their passion for accessibility in mentorship of web professionals.
 
