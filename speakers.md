@@ -49,6 +49,10 @@ One catgirls venture from a neat idea down the rabbit hole of a not-so legacy pr
 <a name="anjana-vakil" id="anjana-vakil"></a>
 <img src="/images/speakers/anjana-vakil.png" alt="Anjana Vakil" class="speaker-img" />
 
+**La-La-Lambda Calculus: A Functional Musical Journey!**
+
+The lambda calculus is a logical formalism that lets us represent programs - all their logic and data - as nothing but pure, anonymous, single-parameter functions.  Numbers, operators, booleans, control flow, data structures… any way you want it, lambda functions can do it! In this musical talk we’ll sing the praises of the lambda as we take a quirky, nerdy journey toward a deeper understanding & admiration of the computational power of this elegant, powerful abstraction at the heart of functional programming.
+
 **Anjana** suffers from a chronic case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As an engineer & educator, these days she mostly codes & teaches from her home base in San Francisco, when not traveling (in a mask) to events around the world to speak about the joy of programming and advocate for a more equitable & ethical tech industry. Nerd out with her about functional programming & JavaScript, ask her about the Recurse Center & Outreachy, and definitely invite her to your karaoke party!
 
 <br />
