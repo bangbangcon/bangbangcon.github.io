@@ -27,6 +27,10 @@ One catgirls venture from a neat idea down the rabbit hole of a not-so legacy pr
 <a name="amy-wibowo" id="amy-wibowo"></a>
 <img src="/images/speakers/amy-wibowo.png" alt="Amy Wibowo" class="speaker-img" />
 
+**Writing a simple operating system!**
+
+This talk will be a brief overview of writing your own simple operating system in arm assembly for raspberry pi! To make it more fun/interesting, we'll make it frog themed and give our raspi a frog-shaped computer case! We'll start off with code that makes an LED on the raspi blink and and end with a simple operating system with a terminal interface. We only have 10 minutes to cover this whole process, so let's hop to it!
+
 **Amy Wibowo** is a software engineer, electrical engineer, and creative technologist whose work ranges from sweaters made on a hacked knitting machine to RFID jewelry. She is also the author and illustrator of Bubblesort Zines, a zine series making computer science topics more accessible to a wider audience. Previously, she worked as a Human Computer Interaction researcher at the University of Tokyo's Igarashi Lab and a robotics researcher on ASIMO at Honda Research Institute in Wako-shi, Japan.
 
 <br />
