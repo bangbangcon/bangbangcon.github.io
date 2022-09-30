@@ -64,6 +64,10 @@ The lambda calculus is a logical formalism that lets us represent programs - all
 <a name="anuoluwapo-karounwi" id="anuoluwapo-karounwi"></a>
 <img src="/images/speakers/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" class="speaker-img" />
 
+**Let’s code in our mother tongue!**
+
+The story behind the design and implementation of an African native language-based programming language.
+
 I am an android engineer with 5 years of experience building applications serving over a million users across various industries. As an engineer I am driven by impact and I care deeply about how my work affects users. When I'm not hanging around my computer keyboard, I enjoy spending some time on my piano keyboard. I love keyboards in any form.
 
 <br />
