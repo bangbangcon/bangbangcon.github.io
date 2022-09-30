@@ -12,6 +12,10 @@ We will continue to add speakers and workshop leaders as we hear back from them.
 <a name="aki-van-ness" id="aki-van-ness"></a>
 <img src="/images/speakers/aki-van-ness.png" alt="Aki Van Ness" class="speaker-img" />
 
+**Taperipper or, Oops! All SCSI!**
+
+One catgirls venture from a neat idea down the rabbit hole of a not-so legacy protocol, learning more than she bargained for, all in the quest for a joke.
+
 **Aki** is a low-level developer with a primary focus on C++ but she is interested in the whole stack, from software to silicon and does hardware design and electrical engineering in her free time.
 
 <br />
@@ -75,11 +79,11 @@ I am an android engineer with 5 years of experience building applications servin
 
 ### Char Stiles (Workshop Leader)
 
-[//]: # (<a name="char-stiles" id="char-stiles"></a>)
-[//]: # (<img src="/images/speakers/char-stiles.png" alt="Char Stiles" class="speaker-img" />)
+<a name="char-stiles" id="char-stiles"></a>
+<img src="/images/speakers/char-stiles.png" alt="Char Stiles" class="speaker-img" />
 
 **Char Stiles** is an artist, educator and programmer based in Brooklyn, NY. Char works and collaborates across mediums such as interactive installation, video, performance and web. She is a part of the Livecode.nyc collective, where she organizes shows, and livecodes music and visuals. She also is a founder of Hex House, an artist studio &amp; event space for unconventional computing, pleasure studies, and cerebral play.
-
+ 
 <br />
 
 ---
