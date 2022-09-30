@@ -130,6 +130,17 @@ They come to the world of development from a psychology and physics background a
 
 ---
 
+### Sumana Harihareswara
+
+<a name="sumana-harihareswara" id="sumana-harihareswara"></a>
+<img src="/images/speakers/sumana-harihareswara.png" alt="Sumana Harihareswara" class="speaker-img" />
+
+**Sumana Harihareswara** is an open source contributor and leader who has contributed to pip, GNOME, MediaWiki, Dreamwidth, GNU Mailman, and other open source projects -- and is working on a book to teach what she's learned along the way. She has keynoted LibrePlanet and other open source conventions, spoken at PyCon and OSCON, performed standup comedy and theater at several tech conferences, and manages and maintains open source projects as Changeset Consulting.  Her work has earned her an Open Source Citizen Award and a Google Open Source Peer Bonus. She lives in New York City and microblogs in the Fediverse and on Twitter.
+
+<br />
+
+---
+
 ### Thea Flowers
 
 <a name="thea-flowers" id="thea-flowers"></a>
