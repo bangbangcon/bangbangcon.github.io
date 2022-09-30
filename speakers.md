@@ -140,6 +140,14 @@ This is a talk about talking - to your computer, out loud, with your mouth, and 
 <a name="omar-rizwan" id="omar-rizwan"></a>
 <img src="/images/speakers/omar-rizwan.png" alt="Omar Rizwan" class="speaker-img" />
 
+**How to look for one image inside another image, fast!**
+
+You know about regular expressions and string matching? Well, what about image matching? How would you look for images inside other images? One way that you might do it is to loop through each position in image A and at each of those positions, check how much the area around it looks like image B, so you can build a 'heat map' of which regions of image A look like image B. But that's really slow if image B is more than a few pixels big, since you need to do (number of pixels in A) * (number of pixels in B) iterations...
+
+I was trying to do this for a new project/interface experiment -- a daemon that continuously watches your screen for image patterns that you tell it to look for -- and I found out that this task is called *template matching*, and you can do it way faster. The OpenCV library can do this all in tens of milliseconds, as opposed to the several seconds that the nested-loop approach took for me. So I wanted to know how OpenCV does it, and how I could get rid of the dependency and do it myself!
+
+We'll talk about Apple's Accelerate library, convolution, the Fourier transform, summed-area tables, and why you need to use doubles sometimes instead of floats, among other things. In the end, I got to make the same jump, from seconds down to milliseconds (arguably, I'm even faster than OpenCV now, at least for what i want to do!) -- and the whole thing is basically one self-contained C file.
+
 **Omar** is interested in new ways to interact with (and program) computers. He previously worked as a researcher at Dynamicland; he's also the creator of TabFS, Screenotate, Breakout-in-a-PDF, and a variety of other strange computer projects.
 
 <br />
