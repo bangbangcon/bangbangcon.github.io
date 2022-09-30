@@ -75,6 +75,10 @@ I am an android engineer with 5 years of experience building applications servin
 <a name="ashlee-boyer" id="ashlee-boyer"></a>
 <img src="/images/speakers/ashlee-boyer.png" alt="Ashlee Boyer" class="speaker-img" />
 
+**Code readability isn’t just about personal preference!**
+
+Accessibility for developers isn’t often mentioned when we talk about writing code. Code style is one accessibility topic that is unfortunately mischaracterized as personal preference most of the time. Let’s prove that wrong and talk about the accessibility accommodations nearly all developers use every time they code.
+
 **Ashlee** is a Disabled and Neurodivergent software engineer and web accessibility expert. She loves to knit, read, write, and spend time with her family of 2 rescued pitbulls (Trooper and Tango) and life partner (Zach). She has worked with React for several years, and currently works with Next.js as a Web Engineer at HashiCorp. Since October of 2021, she has been a member of the team building HashiCorp Developer. Her primary focus is building accessible and performant user interfaces. At a team level, she also works to establish and maintain accessible experiences for engineers. As a firm believer of "progress over perfection", she strives to make learning about accessibility easier for everyone.
 
 <br />
@@ -120,6 +124,10 @@ They come to the world of development from a psychology and physics background a
 
 <a name="nicole-he" id="nicole-he"></a>
 <img src="/images/speakers/nicole-he.png" alt="Nicole He" class="speaker-img" />
+
+**You Kiss Your Computer With That Mouth?!**
+
+This is a talk about talking - to your computer, out loud, with your mouth, and why a game in this format feels emotionally like an old school exploration RPG.
 
 **Nicole He** is a game developer and creative technologist based in Brooklyn, making unconventional voice technology projects and videogames. She previously worked as a creative technologist at Google Creative Lab and an outreach lead at Kickstarter, and currently teaches at NYU ITP.
 
