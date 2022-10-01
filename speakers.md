@@ -173,17 +173,6 @@ We'll talk about Apple's Accelerate library, convolution, the Fourier transform,
 
 ---
 
-### Thea Flowers
-
-<a name="thea-flowers" id="thea-flowers"></a>
-<img src="/images/speakers/thea-flowers.png" alt="Thea Flowers" class="speaker-img" />
-
-**Thea** is a music technologist and open source advocate and she's currently creating beautiful, open source synthesizers. She writes interactive articles about how synthesizers work, bare metal firmware development, and Python.
-
-<br />
-
----
-
 ### Wenting Zhang
 
 <a name="wenting-zhang" id="wenting-zhang"></a>
