@@ -11,6 +11,8 @@ title: The joy, excitement, and surprise of computing - !!Con 2022
   [Sponsorship](/sponsors.html)
   &middot;
   [Conduct](/conduct.html)
+  &middot;
+  [Schedule](/program.html)
 </p>
 
 <p id="blurb">**!!Con** (pronounced "bang bang con") **2022** is **one day of talks** and **one day of workshops** to celebrate the
