@@ -5,8 +5,8 @@ title: Tickets - !!Con 2022
 
 # !!Con 2022 Tickets
 
-Ticket sales are currently closed, but you will be able to purchase tickets to
-!!Con 2022 at [https://ti.to/exclamation-foundation/bang-bang-con-2022](https://ti.to/exclamation-foundation/bang-bang-con-2022).
+Ticket sales are open now! You can purchase your !!Con 2022 ticket at
+[https://ti.to/exclamation-foundation/bang-bang-con-2022](https://ti.to/exclamation-foundation/bang-bang-con-2022).
 
 ## THIS IS <u>NOT</u> A BTS CONCERT TICKET PAGE.
 
