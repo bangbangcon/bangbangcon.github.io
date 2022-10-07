@@ -5,7 +5,7 @@ title: Speakers - !!Con 2022
 
 # Speakers and Workshop Leaders
 
-We will continue to add speakers and workshop leaders as we hear back from them.
+We will continue to update details as we hear back from our presenters.
 
 ### Aki Van Ness
  

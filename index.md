@@ -36,11 +36,9 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="./speakers.html#wenting-zhang"><img height="100" width="100" src="/images/speakers/thumbnail/wenting-zhang.png" alt="Wenting Zhang" /></a></div>
 </div>
 
-We'll be adding more speakers as they accept our invitations!
-
 ## Save the Dates!
 
-!!Con 2022 will be held on the weekend of November 12-13!
+!!Con 2022 will be held **virtually** on the weekend of November 12-13!
 
 November 12th will be a day of delightful lightning talks by our amazing speakers. We'll also have a comedy set and musical number. It'll be a great time.
 
