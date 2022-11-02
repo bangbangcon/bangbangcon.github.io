@@ -83,8 +83,40 @@ Accessibility for developers isn’t often mentioned when we talk about writing 
 <a name="char-stiles" id="char-stiles"></a>
 <img src="/images/speakers/char-stiles.png" alt="Char Stiles" class="speaker-img" />
 
+**Char's Shader Workshop**
+
+In this workshop, you will learn how to livecode shaders by creating a visual composition with GPU code and a little bit of math. Livecoding is where changes to the code are realized immediately and rendered in real-time. This is an ideal way to create music visualizers, or any interactive abstract graphics of the sort. We will briefly go over how to use the shaders we create in a variety of other real-time engines like Unity, p5.js & touch designer.
+
+You will learn about where the shader exists in the graphics pipeline, the basics of how the language works, and how to quickly iterate on writing your shader using livecoding tools. You will also be given a plethora of tools to build upon what you learn, so you can keep learning and practicing beyond this workshop. Programming experience required to attend. We suggest you set up two screens so you can code along while watching/participating in the workshop.
+
+
 **Char Stiles** is an artist, educator and programmer based in Brooklyn, NY. Char works and collaborates across mediums such as interactive installation, video, performance and web. She is a part of the Livecode.nyc collective, where she organizes shows, and livecodes music and visuals. She also is a founder of Hex House, an artist studio &amp; event space for unconventional computing, pleasure studies, and cerebral play.
  
+<br />
+
+
+---
+
+### Chipzel (Workshop Leader)
+
+<a name="chipzel" id="chipzel"></a>
+
+**Chipzel** is a musician from Northern Ireland!  She is best known for making chiptune music, particularly with a Game Boy. She is also a video game music composer, and is known for the soundtracks of games such as Super Hexagon, Interstellaria, and Dicey Dungeons. Her music is also featured in other games such as Just Shapes and Beats and Spectra.
+
+---
+
+### Denise Yu (Workshop Leader)
+
+<a name="denise-yu" id="denise-yu"></a>
+
+
+**PLIBMTTBHGATY**
+
+PLIBMTTBHGATY (Programming Languages I’ve Been Meaning To Try But Haven’t Gotten Around To Yet) is a lightly-structured party where people get together and work on a project in a new programming language, either with or just near each other. It was invented by Star Simpson, who has kindly given us permission to run one at !!Con this year!
+
+This all started with the realization that plenty of people have a side-project in mind to work on, that it's more fun to work together, and that many of us are just waiting for a good excuse to get started.
+
+
 <br />
 
 ---
@@ -106,6 +138,10 @@ They come to the world of development from a psychology and physics background a
 
 <a name="marlene-mhangami" id="marlene-mhangami"></a>
 <img src="/images/speakers/marlene-mhangami.png" alt="Marlene Mhangami" class="speaker-img" />
+
+**Shhh, Meet Me at Midnight!!! (Audio Steganography in Python)**
+
+The term 'Audio Steganography' is derived from the Greek words steganos, meaning “covered,” and graphein, meaning “to write”. It refers to the art of enabling secret communication that uses interesting methods to hide information in plain sight. In this talk we'll walk through how to send secret messages in music or audio recordings using Python! We'll understand how computers store things as bytes and how knowing this can lead you to possibly win over the love of your life. 
 
 **Marlene** is a Zimbabwean software engineer, explorer, and speaker based in the city of Harare. She is a director and vice-chair for the Python Software Foundation and is currently working as a Developer Advocate at Voltron Data. In 2017, she co-founded ZimboPy, a non-profit organization that gives Zimbabwean young women access to resources in the field of technology. She is also the previous chair of PyCon Africa and is an advocate for women in tech on the continent.
 
@@ -162,6 +198,10 @@ We'll talk about Apple's Accelerate library, convolution, the Fourier transform,
 
 <a name="wenting-zhang" id="wenting-zhang"></a>
 <img src="/images/speakers/wenting-zhang.png" alt="Wenting Zhang" class="speaker-img" />
+
+**Customizable Icons With Font Technologies!**
+
+With the latest development in variable fonts, typography is getting enriched, and so is iconography! In this talk, Wenting, co-founder of typogram.co, will share new ways to utilize variable font technology for icons — to make icons customizable! The variable font axes can be used as customization sliders. With that, icons as font glyphs can go through a series of transformations based on parameter inputs, therefore editable or customizable.
 
 **Wenting Zhang** is co-founder and CEO of typogram.co — a design software startup. Previously she worked at Adobe, and her projects there include Adobe XD, Illustrator on iPad, and Fonts. Wenting teaches Interaction Design at the School of Visual Arts. Wenting has given speeches at conferences in Paris, New York, Guangzhou, and Shanghai. She journals about her entrepreneurship journey in her weekly newsletter.
 
