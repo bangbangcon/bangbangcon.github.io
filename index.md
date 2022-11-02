@@ -23,7 +23,6 @@ joyous, exciting, and surprising moments in computing.
 
 <div class="speaker-pics" markdown="0">
   <div><a href="./speakers.html#aki-van-ness"><img height="100" width="100" src="/images/speakers/thumbnail/aki-van-ness.png" alt="Aki Van Ness" /></a></div>
-  <div><a href="./speakers.html#amy-wibowo"><img height="100" width="100" src="/images/speakers/thumbnail/amy-wibowo.png" alt="Amy Wibowo" /></a></div>
   <div><a href="./speakers.html#aniyia-williams"><img height="100" width="100" src="/images/speakers/thumbnail/aniyia-williams.png" alt="Aniyia Williams" /></a></div>
   <div><a href="./speakers.html#anjana-vakil"><img height="100" width="100" src="/images/speakers/thumbnail/anjana-vakil.png" alt="Anjana Vakil" /></a></div>
   <div><a href="./speakers.html#anuoluwapo-karounwi"><img height="100" width="100" src="/images/speakers/thumbnail/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" /></a></div>
