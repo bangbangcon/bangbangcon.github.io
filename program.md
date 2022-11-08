@@ -21,7 +21,7 @@ Talks day! All talks will be streamed live on YouTube
 | Time            | Event
 |-----------------|-------------------------------------------------------------------------
 | 12:00pm         | Stream Begins
-| 12:30pm         | **Session the First:** <br /> &bull; *Taperipper or, Oops! All SCSI!* ([Aki Van Ness](speakers.html#aki-van-ness))<br /> &bull; *TBA* ([Aniyia Williams](speakers.html#aniyia-williams))<br /> &bull; *La-La-Lambda Calculus: A Functional Musical Journey!* ([Anjana Vakil](speakers.html#anjana-vakil))<br /> &bull; *Let’s code in our mother tongue!* ([Anuoluwapo Karounwi](speakers.html#anuoluwapo-karounwi))
+| 12:30pm         | **Session the First:** <br /> &bull; *Taperipper or, Oops! All SCSI!* ([Aki Van Ness](speakers.html#aki-van-ness))<br /> &bull; *Building A Better Tech Future!!* ([Aniyia Williams](speakers.html#aniyia-williams))<br /> &bull; *La-La-Lambda Calculus: A Functional Musical Journey!* ([Anjana Vakil](speakers.html#anjana-vakil))<br /> &bull; *Let’s code in our mother tongue!* ([Anuoluwapo Karounwi](speakers.html#anuoluwapo-karounwi))
 | 1:30pm         | Break!
 | 1:45pm          | **Session the Second:** <br /> &bull; *Code readability isn’t just about personal preference!* ([Ashlee Boyer](speakers.html#ashlee-boyer))<br />  &bull; *Shhh, Meet Me at Midnight!!! (Audio Steganography in Python)* ([Marlene Mhangami](speakers.html#marlene-mhangami))<br /> &bull; *You Kiss Your Computer With That Mouth?!* ([Nicole He](speakers.html#nicole-he))
 | 2:30pm          | Break!

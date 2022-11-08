@@ -27,6 +27,16 @@ One catgirls venture from a neat idea down the rabbit hole of a not-so legacy pr
 <a name="aniyia-williams" id="aniyia-williams"></a>
 <img src="/images/speakers/aniyia-williams.png" alt="Aniyia Williams" class="speaker-img" />
 
+
+**Building A Better Tech Future!!**
+
+Today's dominant tech companies were built on values of equality and
+empowerment that don't ring true anymore. There is a new technology
+ecosystem trying to emerge, fueled by the fault lines exposed in the mainstream
+industry, and it needs active nurturing to reach its full potential. In this
+talk, Aniyia shares 5 rules for building the future along with some questions
+to consider as we shape new ecosystems and economies.
+
 **Aniyia Williams** is a systempreneur, creator, inventor, tech changemaker, and investor. She is a principal on the Responsible Technology team at Omidyar Network, empowering people to help the tech world live up to its promise of changing lives for the better. Aniyia is also co-founder of Zebras Unite, founder and board chair of Black & Brown Founders, co-convener of the Black Innovation Alliance, and previously founded the fashion tech company Tinsel.
 
 <br />
