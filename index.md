@@ -128,6 +128,22 @@ Logo design by
 
 If you'd like, you can [send us some mail](mailto:2022-organizers@exclamation.foundation)!
 
+<div class="sponsor-list" markdown="0">
+
+  <h3 style="margin: 1.5em 0;">AWESOME! Sponsors</h3>
+
+  <div class="sponsor"><a href="https://www.twosigma.com/careers/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="360"
+    alt="Two Sigma" src="images/sponsors/twosigma.png" /></div></a></div>
+    
+  <div class="sponsor"><a href="https://accelerated.tech/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="200"
+    alt="Accelerated Tech" src="images/sponsors/accelerated-tech.png" /></div></a></div>
+
+
+</div>
+
+
 
 ## Code of Conduct
 
