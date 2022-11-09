@@ -12,6 +12,8 @@ title: The joy, excitement, and surprise of computing - !!Con 2022
   &middot;
   [Conduct](/conduct.html)
   &middot;
+  [Livestream](/livestream.html)
+  &middot;
   [Schedule](/program.html)
   &middot;
   [Tickets](/tickets.html)
