@@ -175,7 +175,7 @@ or message any individual organizer on Discord.  We want you to feel safe during
 the conference, and we’ll do what we can to make that happen -- you matter
 to us!
 
-<iframe src="https://ansr.me/i9RyU" width="100%" height="600px"> </iframe>
+<iframe src="https://ansr.me/PZ0LW" width="100%" height="600px"> </iframe>
 
 If the iframe above doesn't work for you, [here's a link to the form to report CoC issues](https://ansr.me/i9RyU).
 
