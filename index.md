@@ -129,6 +129,12 @@ If you'd like, you can [send us some mail](mailto:2022-organizers@exclamation.fo
 
 <div class="sponsor-list" markdown="0">
 
+  <h3 style="margin: 1.5em 0;">EXCELLENT!! Sponsors</h3>
+  
+  <div class="sponsor"><a href="https://mozilla.org" target="_blank"><span
+    class="magic">.</span><div class="logo"  style="background-color: black"><img width="400"
+    alt="Mozilla" src="images/sponsors/mozilla.png" /></div></a></div>
+    
   <h3 style="margin: 1.5em 0;">AWESOME! Sponsors</h3>
 
   <div class="sponsor"><a href="https://www.twosigma.com/careers/" target="_blank"><span
