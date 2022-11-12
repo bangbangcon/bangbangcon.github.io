@@ -26,9 +26,7 @@ Stream starts at noon Eastern time, talks start at 12:30 Eastern time.
 </iframe></div>
 </div>
 
-<h3> live captioning of talks </h3>
-
-Live sessions will be captioned in the box below. Syncwatch sessions have captions integrated in to the video. Click the CC button on the video to enable them.
+<h3> Live Captions </h3>
 
 <div align="center">
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.streamtext.net/player?event=bangbangcon' frameborder='0' allowfullscreen></iframe></div>
