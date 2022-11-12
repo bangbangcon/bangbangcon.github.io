@@ -11,6 +11,8 @@ title: Livestream - !!Con 2022
   [Program](program.html)
   &middot;
   [Conduct](conduct.html)
+  &middot;
+  [Sponsorship](/sponsors.html)
 </p>
 
 # Livestream 
