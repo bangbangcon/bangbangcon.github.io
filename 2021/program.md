@@ -324,7 +324,7 @@ We have a lot of different events this year, so add us to your calendar to make 
 |-----------------|-------------------------------------------------------------------------
 | <time datetime="11:00">11:00</time>        | Syncwatch: Rebroadcast of Session 4
 | <time datetime="12:00">12:00</time>        | Hallway Track
-| <time datetime="17:00">17:00</time>        | **Session 5:** <br />  &bull; *Numeric Data Types in the Wild; or: Things I Learned From Last Night’s Dinner Receipt!* ([Michael Woods](speakers.html#michael-woods)) <br>&bull; *Nifty Weaving Tools: A Different Kind of Color Picker!* ([Rebecca Ravenoak](speakers.html#rebecca-ravenoak)) <br>&bull; *It's my party and I'll build my own virtual social platform if I want to!* ([Sara Farquharson](speakers.html#sara-farquharson)) <br>&bull; *The Musical Password Manifesto: You Have Nothing to Lose But Your FRdqwcK7y23CYPq!!* ([Amara Jaeger](speakers.html#amara-jaeger))
+| <time datetime="17:00">17:00</time>        | **Session 5:** <br />  &bull; *Numeric Data Types in the Wild; or: Things I Learned From Last Night’s Dinner Receipt!* ([Michael Woods](speakers.html#michael-woods)) <br>&bull; *Nifty Weaving Tools: A Different Kind of Color Picker!* ([Rebecca Ravenoak](speakers.html#rebecca-ravenoak)) <br>&bull; *It's my party and I'll build my own virtual social platform if I want to!* ([Sara Farquharson](speakers.html#sara-farquharson)) <br>&bull; *[Removed by request of speaker]]*
 | <time datetime="18:00">18:00</time>        | Hallway Track
 
 </div>
