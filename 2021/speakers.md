@@ -76,19 +76,6 @@ This is a story about the adventures of the Brave Little Database, who tirelessl
 
 ---
 
-### Amara Jaeger
-
-<a name="amara-jaeger" id="amara-jaeger"></a>
-<img src="images/speakers/thumbnail/amara-jaeger.png" alt="Amara Jaeger" class="speaker-img" />
-
-**The musical password manifesto: you have nothing to lose but your FRcK7y23ckdqwCYPq!**
-
-You’ve probably typed at least one plain text password today, but have you stopped to question why it had to be this way?? Who decided we should hide our most intimate data behind a secret phrase of characters– the more random and meaningless the better??  Seems pretty arbitrary, and really not that fun. Want to know what’s equally arbitrary and way more fun?? Musical passwords!!! In this talk, I’ll extol the virtues and mostly the fun of musical passwords, and explain a simple scheme for encoding them.  By the end of this talk, you’ll hopefully have an understanding of how to easily map password data to some fun variables.  This will leave you with no good excuse not to implement fun authentication in your future password-protected projects!
-
-**Amara** lives in Brooklyn and can often be found rollerblading through local grocery stores.  A recent Recurse Center alum, she likes to pet dogs, make beats, and ride her bike.
-
----
-
 ### Andrew Sillers
 
 <a name="andrew-sillers" id="andrew-sillers"></a>

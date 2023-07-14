@@ -24,7 +24,6 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="./speakers.html#aaron-reed"><img height="100" width="100" src="images/speakers/thumbnail/aaron-reed.png" alt="Aaron A. Reed" /></a></div>
   <div><a href="./speakers.html#alex-pounds"><img height="100" width="100" src="images/speakers/thumbnail/alex-pounds.png" alt="Alex Pounds" /></a></div>
   <div><a href="./speakers.html#alicja-raszkowska"><img height="100" width="100" src="images/speakers/thumbnail/alicja-raszkowska.png" alt="Alicja Raszkowska" /></a></div>
-  <div><a href="./speakers.html#amara-jaeger"><img height="100" width="100" src="images/speakers/thumbnail/amara-jaeger.png" alt="Amara Jaeger" /></a></div>
   <div><a href="./speakers.html#andrew-sillers"><img height="100" width="100" src="images/speakers/thumbnail/andrew-sillers.png" alt="Andrew Sillers" /></a></div>
   <div><a href="./speakers.html#angie-jones"><img height="100" width="100" src="images/speakers/thumbnail/angie-jones.png" alt="Angie Jones" /></a></div>
   <div><a href="./speakers.html#anjana-vakil"><img height="100" width="100" src="images/speakers/thumbnail/anjana-vakil.png" alt="Anjana Vakil" /></a></div>
