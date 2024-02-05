@@ -6,15 +6,15 @@ title: The joy, excitement, and surprise of computing - !!Con 2022
 <p style="text-align: center;">
   **Quick Links:**
   &middot;
-  [Speakers](/speakers.html)
+  [Speakers](speakers.html)
   &middot;
-  [Sponsorship](/sponsors.html)
+  [Sponsorship](sponsors.html)
   &middot;
-  [Conduct](/conduct.html)
+  [Conduct](conduct.html)
   &middot;
-  [Livestream](/livestream.html)
+  [Livestream](livestream.html)
   &middot;
-  [Schedule](/program.html)
+  [Schedule](program.html)
 </p>
 
 <p id="blurb">**!!Con** (pronounced "bang bang con") **2022** is **one day of talks** and **one day of workshops** to celebrate the
@@ -22,18 +22,18 @@ joyous, exciting, and surprising moments in computing.
 </p>
 
 <div class="speaker-pics" markdown="0">
-  <div><a href="./speakers.html#aki-van-ness"><img height="100" width="100" src="/images/speakers/thumbnail/aki-van-ness.png" alt="Aki Van Ness" /></a></div>
-  <div><a href="./speakers.html#aniyia-williams"><img height="100" width="100" src="/images/speakers/thumbnail/aniyia-williams.png" alt="Aniyia Williams" /></a></div>
-  <div><a href="./speakers.html#anjana-vakil"><img height="100" width="100" src="/images/speakers/thumbnail/anjana-vakil.png" alt="Anjana Vakil" /></a></div>
-  <div><a href="./speakers.html#anuoluwapo-karounwi"><img height="100" width="100" src="/images/speakers/thumbnail/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" /></a></div>
-  <div><a href="./speakers.html#ashlee-boyer"><img height="100" width="100" src="/images/speakers/thumbnail/ashlee-boyer.png" alt="Ashlee Boyer" /></a></div>
-  <div><a href="./speakers.html#char-stiles"><img height="100" width="100" src="/images/speakers/thumbnail/char-stiles.png" alt="Char Stiles" /></a></div>
+  <div><a href="speakers.html#aki-van-ness"><img height="100" width="100" src="images/speakers/thumbnail/aki-van-ness.png" alt="Aki Van Ness" /></a></div>
+  <div><a href="speakers.html#aniyia-williams"><img height="100" width="100" src="images/speakers/thumbnail/aniyia-williams.png" alt="Aniyia Williams" /></a></div>
+  <div><a href="speakers.html#anjana-vakil"><img height="100" width="100" src="images/speakers/thumbnail/anjana-vakil.png" alt="Anjana Vakil" /></a></div>
+  <div><a href="speakers.html#anuoluwapo-karounwi"><img height="100" width="100" src="images/speakers/thumbnail/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" /></a></div>
+  <div><a href="speakers.html#ashlee-boyer"><img height="100" width="100" src="images/speakers/thumbnail/ashlee-boyer.png" alt="Ashlee Boyer" /></a></div>
+  <div><a href="speakers.html#char-stiles"><img height="100" width="100" src="images/speakers/thumbnail/char-stiles.png" alt="Char Stiles" /></a></div>
   <br />  
-  <div><a href="./speakers.html#marlene-mhangami"><img height="100" width="100" src="/images/speakers/thumbnail/marlene-mhangami.png" alt="Marlene Mhangami" /></a></div>
-  <div><a href="./speakers.html#nicole-he"><img height="100" width="100" src="/images/speakers/thumbnail/nicole-he.png" alt="Nicole He" /></a></div>
-  <div><a href="./speakers.html#omar-rizwan"><img height="100" width="100" src="/images/speakers/thumbnail/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
-  <div><a href="./speakers.html#sumana-harihareswara"><img height="100" width="100" src="/images/speakers/thumbnail/sumana-harihareswara.png" alt="Sumana Harihareswara" /></a></div>
-  <div><a href="./speakers.html#wenting-zhang"><img height="100" width="100" src="/images/speakers/thumbnail/wenting-zhang.png" alt="Wenting Zhang" /></a></div>
+  <div><a href="speakers.html#marlene-mhangami"><img height="100" width="100" src="images/speakers/thumbnail/marlene-mhangami.png" alt="Marlene Mhangami" /></a></div>
+  <div><a href="speakers.html#nicole-he"><img height="100" width="100" src="images/speakers/thumbnail/nicole-he.png" alt="Nicole He" /></a></div>
+  <div><a href="speakers.html#omar-rizwan"><img height="100" width="100" src="images/speakers/thumbnail/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
+  <div><a href="speakers.html#sumana-harihareswara"><img height="100" width="100" src="images/speakers/thumbnail/sumana-harihareswara.png" alt="Sumana Harihareswara" /></a></div>
+  <div><a href="speakers.html#wenting-zhang"><img height="100" width="100" src="images/speakers/thumbnail/wenting-zhang.png" alt="Wenting Zhang" /></a></div>
 </div>
 
 ## Save the Dates!

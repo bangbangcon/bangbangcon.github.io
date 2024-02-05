@@ -10,7 +10,7 @@ We will continue to update details as we hear back from our presenters.
 ### Aki Van Ness
  
 <a name="aki-van-ness" id="aki-van-ness"></a>
-<img src="/images/speakers/aki-van-ness.png" alt="Aki Van Ness" class="speaker-img" />
+<img src="images/speakers/aki-van-ness.png" alt="Aki Van Ness" class="speaker-img" />
 
 **Taperipper or, Oops! All SCSI!**
 
@@ -25,7 +25,7 @@ One catgirls venture from a neat idea down the rabbit hole of a not-so legacy pr
 ### Aniyia Williams
 
 <a name="aniyia-williams" id="aniyia-williams"></a>
-<img src="/images/speakers/aniyia-williams.png" alt="Aniyia Williams" class="speaker-img" />
+<img src="images/speakers/aniyia-williams.png" alt="Aniyia Williams" class="speaker-img" />
 
 
 **Building A Better Tech Future!!**
@@ -46,7 +46,7 @@ to consider as we shape new ecosystems and economies.
 ### Anjana Vakil
 
 <a name="anjana-vakil" id="anjana-vakil"></a>
-<img src="/images/speakers/anjana-vakil.png" alt="Anjana Vakil" class="speaker-img" />
+<img src="images/speakers/anjana-vakil.png" alt="Anjana Vakil" class="speaker-img" />
 
 **La-La-Lambda Calculus: A Functional Musical Journey!**
 
@@ -61,7 +61,7 @@ The lambda calculus is a logical formalism that lets us represent programs - all
 ### Anuoluwapo Karounwi
 
 <a name="anuoluwapo-karounwi" id="anuoluwapo-karounwi"></a>
-<img src="/images/speakers/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" class="speaker-img" />
+<img src="images/speakers/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" class="speaker-img" />
 
 **Let’s code in our mother tongue!**
 
@@ -76,7 +76,7 @@ I am an android engineer with 5 years of experience building applications servin
 ### Ashlee Boyer
 
 <a name="ashlee-boyer" id="ashlee-boyer"></a>
-<img src="/images/speakers/ashlee-boyer.png" alt="Ashlee Boyer" class="speaker-img" />
+<img src="images/speakers/ashlee-boyer.png" alt="Ashlee Boyer" class="speaker-img" />
 
 **Code readability isn’t just about personal preference!**
 
@@ -91,7 +91,7 @@ Accessibility for developers isn’t often mentioned when we talk about writing 
 ### Char Stiles (Workshop Leader)
 
 <a name="char-stiles" id="char-stiles"></a>
-<img src="/images/speakers/char-stiles.png" alt="Char Stiles" class="speaker-img" />
+<img src="images/speakers/char-stiles.png" alt="Char Stiles" class="speaker-img" />
 
 **Char's Shader Workshop**
 
@@ -134,7 +134,7 @@ This all started with the realization that plenty of people have a side-project 
 ### Marlene Mhangami
 
 <a name="marlene-mhangami" id="marlene-mhangami"></a>
-<img src="/images/speakers/marlene-mhangami.png" alt="Marlene Mhangami" class="speaker-img" />
+<img src="images/speakers/marlene-mhangami.png" alt="Marlene Mhangami" class="speaker-img" />
 
 **Shhh, Meet Me at Midnight!!! (Audio Steganography in Python)**
 
@@ -149,7 +149,7 @@ The term 'Audio Steganography' is derived from the Greek words steganos, meaning
 ### Nicole He
 
 <a name="nicole-he" id="nicole-he"></a>
-<img src="/images/speakers/nicole-he.png" alt="Nicole He" class="speaker-img" />
+<img src="images/speakers/nicole-he.png" alt="Nicole He" class="speaker-img" />
 
 **You Kiss Your Computer With That Mouth?!**
 
@@ -164,7 +164,7 @@ This is a talk about talking - to your computer, out loud, with your mouth, and 
 ### Omar Rizwan
 
 <a name="omar-rizwan" id="omar-rizwan"></a>
-<img src="/images/speakers/omar-rizwan.png" alt="Omar Rizwan" class="speaker-img" />
+<img src="images/speakers/omar-rizwan.png" alt="Omar Rizwan" class="speaker-img" />
 
 **How to look for one image inside another image, fast!**
 
@@ -183,7 +183,7 @@ We'll talk about Apple's Accelerate library, convolution, the Fourier transform,
 ### Sumana Harihareswara
 
 <a name="sumana-harihareswara" id="sumana-harihareswara"></a>
-<img src="/images/speakers/sumana-harihareswara.png" alt="Sumana Harihareswara" class="speaker-img" />
+<img src="images/speakers/sumana-harihareswara.png" alt="Sumana Harihareswara" class="speaker-img" />
 
 **Sumana Harihareswara** is an open source contributor and leader who has contributed to pip, GNOME, MediaWiki, Dreamwidth, GNU Mailman, and other open source projects -- and is working on a book to teach what she's learned along the way. She has keynoted LibrePlanet and other open source conventions, spoken at PyCon and OSCON, performed standup comedy and theater at several tech conferences, and manages and maintains open source projects as Changeset Consulting.  Her work has earned her an Open Source Citizen Award and a Google Open Source Peer Bonus. She lives in New York City and microblogs in the Fediverse and on Twitter.
 
@@ -194,7 +194,7 @@ We'll talk about Apple's Accelerate library, convolution, the Fourier transform,
 ### Wenting Zhang
 
 <a name="wenting-zhang" id="wenting-zhang"></a>
-<img src="/images/speakers/wenting-zhang.png" alt="Wenting Zhang" class="speaker-img" />
+<img src="images/speakers/wenting-zhang.png" alt="Wenting Zhang" class="speaker-img" />
 
 **Customizable Icons With Font Technologies!**
 

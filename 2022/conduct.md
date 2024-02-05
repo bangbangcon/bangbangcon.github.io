@@ -210,7 +210,7 @@ The Exclamation Foundation Code of Conduct was illustrated by [Annie Ruygt](http
 <!-- ## Transparency reports
 
 !!Con's Code of Conduct committee has compiled a [transparency
-report](/2019/conduct-transparency) for reported incidents in 2019. -->
+report](2019/conduct-transparency) for reported incidents in 2019. -->
 
 <!-- TODO
 ## Report a violation (with or without your name)
