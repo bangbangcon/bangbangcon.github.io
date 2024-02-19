@@ -81,7 +81,7 @@ Here's what some of our past speakers and attendees said about us:
 The !!Con 2024 organizing team:
 Jeena Lee, 
 [Sarah Withee](https://geekygirlsarah.com/links),
-[Erty Seidohl](https://twitter.com/ertyseidohl),
+[Erty Seidohl](https://erty.me),
 Lee Pepper, 
 [Lindsey Kuper](http://composition.al/),
 and [Joshua Wise](https://joshuawise.com/).
