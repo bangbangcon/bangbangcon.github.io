@@ -25,7 +25,7 @@ More information, including the call for speakers, will be announced soon.
 ## How do I get updates?
 
 For updates on !!Con, follow
-[@bangbangcon@mastodon.social]((https://mastodon.social/@bangbangcon), or sign up
+[@bangbangcon@mastodon.social](https://mastodon.social/@bangbangcon), or sign up
 for our mailing list below.  We send about four or five emails per year for important announcements about our venue, 
 submission deadlines, registration, and that sort of thing.  No spam, we promise, and it's easy to unsubscribe at any 
 time.
