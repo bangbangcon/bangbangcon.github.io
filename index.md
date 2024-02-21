@@ -88,7 +88,7 @@ and [Joshua Wise](https://joshuawise.com/).
 
 If you'd like, you can [send us some mail](mailto:2024-organizers@exclamation.foundation)!
 
-Organizers emeriti: [Julia Evans](https://twitter.com/b0rk),
+Organizers emeriti: [Julia Evans](https://jvns.ca),
 [Em Lazer-Walker](https://twitter.com/lazerwalker),
 [Maggie Zhou](https://twitter.com/zmagg), 
 [Alicja Raszkowska](https://twitter.com/mamrotynka), 
