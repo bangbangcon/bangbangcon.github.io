@@ -92,17 +92,17 @@ Organizers emeriti: [Julia Evans](https://jvns.ca),
 [Em Lazer-Walker](https://twitter.com/lazerwalker),
 [Maggie Zhou](https://twitter.com/zmagg), 
 [Alicja Raszkowska](https://twitter.com/mamrotynka), 
-[Leo Franchi](https://twitter.com/lfranchi), 
+[Leo Franchi](https://www.instagram.com/lfranchi), 
 [Nabil Hassein](https://twitter.com/NabilHassein),
 [Alex Clemmer](https://twitter.com/hausdorff_space),
 [Emily Xie](https://twitter.com/emilyxxie), 
-[Danielle Sucher](https://twitter.com/DanielleSucher), 
+[Danielle Sucher](https://www.daniellesucher.com/), 
 [Kiran Bhattaram](https://twitter.com/kiranb), 
 [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
 and [Dev Purandare](https://twitter.com/Dev14e).
 
 Logo design by
-[Lea Albaugh](https://twitter.com/doridoidea).
+[Lea Albaugh](http://lea.zone/).
 
 
 !!Con 2024 is a project of the [Exclamation Foundation](https://exclamation.foundation).
