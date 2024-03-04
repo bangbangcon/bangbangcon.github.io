@@ -112,11 +112,6 @@ Logo design by
 
 !!Con 2024 is a project of the [Exclamation Foundation](https://exclamation.foundation).
 
-
-If you'd like, you can [send us some mail](mailto:2024-organizers@exclamation.foundation)!
-
-
-
 ## Code of Conduct
 
 We have a [code of conduct](conduct.html) that all !!Con participants are required to observe.
