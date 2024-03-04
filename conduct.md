@@ -1,6 +1,6 @@
 ---
-layout: default-2022
-title: Code of Conduct - !!Con 2022
+layout: default-2024
+title: Code of Conduct - !!Con 2024
 ---
 
 # Code of Conduct
@@ -170,7 +170,7 @@ conference organizers, or to the [Exclamation Foundation
 board](mailto:board@exclamation.foundation).
 
 You can use the below form to contact us, with or without your
-name. You can also send e-mail to [2022-organizers@exclamation.foundation](mailto:2022-organizers@exclamation.foundation),
+name. You can also send e-mail to [2024-organizers@exclamation.foundation](mailto:2024-organizers@exclamation.foundation),
 or message any individual organizer on Discord.  We want you to feel safe during
 the conference, and we’ll do what we can to make that happen -- you matter
 to us!
@@ -210,7 +210,7 @@ The Exclamation Foundation Code of Conduct was illustrated by [Annie Ruygt](http
 <!-- ## Transparency reports
 
 !!Con's Code of Conduct committee has compiled a [transparency
-report](/2019/conduct-transparency) for reported incidents in 2019. -->
+report](2019/conduct-transparency) for reported incidents in 2019. -->
 
 <!-- TODO
 ## Report a violation (with or without your name)

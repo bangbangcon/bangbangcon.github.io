@@ -1,55 +1,35 @@
 ---
-layout: default-2022
-title: The joy, excitement, and surprise of computing - !!Con 2022
+layout: default-2024
+title: The joy, excitement, and surprise of computing - !!Con 2024
 ---
 
-<p style="text-align: center;">
+<!--
+haha look at you reading the source
+you found me
+what will you do now???? ?? ? ? ? ??
+-->
+
+<!-- <p style="text-align: center;">
   **Quick Links:**
   &middot;
-  [Speakers](/speakers.html)
-  &middot;
-  [Sponsorship](/sponsors.html)
-  &middot;
-  [Conduct](/conduct.html)
-  &middot;
-  [Livestream](/livestream.html)
-  &middot;
-  [Schedule](/program.html)
-</p>
+  [Conduct](conduct.html)
+</p> -->
 
-<p id="blurb">**!!Con** (pronounced "bang bang con") **2022** is **one day of talks** and **one day of workshops** to celebrate the
+<p id="blurb">**!!Con** (pronounced "bang bang con") **2024** is our _final_ event featuring **two days of talks** to celebrate the
 joyous, exciting, and surprising moments in computing.
 </p>
 
-<div class="speaker-pics" markdown="0">
-  <div><a href="./speakers.html#aki-van-ness"><img height="100" width="100" src="/images/speakers/thumbnail/aki-van-ness.png" alt="Aki Van Ness" /></a></div>
-  <div><a href="./speakers.html#aniyia-williams"><img height="100" width="100" src="/images/speakers/thumbnail/aniyia-williams.png" alt="Aniyia Williams" /></a></div>
-  <div><a href="./speakers.html#anjana-vakil"><img height="100" width="100" src="/images/speakers/thumbnail/anjana-vakil.png" alt="Anjana Vakil" /></a></div>
-  <div><a href="./speakers.html#anuoluwapo-karounwi"><img height="100" width="100" src="/images/speakers/thumbnail/anuoluwapo-karounwi.png" alt="Anuoluwapo Karounwi" /></a></div>
-  <div><a href="./speakers.html#ashlee-boyer"><img height="100" width="100" src="/images/speakers/thumbnail/ashlee-boyer.png" alt="Ashlee Boyer" /></a></div>
-  <div><a href="./speakers.html#char-stiles"><img height="100" width="100" src="/images/speakers/thumbnail/char-stiles.png" alt="Char Stiles" /></a></div>
-  <br />  
-  <div><a href="./speakers.html#marlene-mhangami"><img height="100" width="100" src="/images/speakers/thumbnail/marlene-mhangami.png" alt="Marlene Mhangami" /></a></div>
-  <div><a href="./speakers.html#nicole-he"><img height="100" width="100" src="/images/speakers/thumbnail/nicole-he.png" alt="Nicole He" /></a></div>
-  <div><a href="./speakers.html#omar-rizwan"><img height="100" width="100" src="/images/speakers/thumbnail/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
-  <div><a href="./speakers.html#sumana-harihareswara"><img height="100" width="100" src="/images/speakers/thumbnail/sumana-harihareswara.png" alt="Sumana Harihareswara" /></a></div>
-  <div><a href="./speakers.html#wenting-zhang"><img height="100" width="100" src="/images/speakers/thumbnail/wenting-zhang.png" alt="Wenting Zhang" /></a></div>
-</div>
 
 ## Save the Dates!
 
-!!Con 2022 will be held **virtually** on the weekend of November 12-13!
+!!Con 2024 will be held on the weekend of August 24-25 in Santa Cruz, California, United States!
 
-November 12th will be a day of delightful lightning talks by our amazing speakers. We'll also have a comedy set and musical number. It'll be a great time.
-
-November 13th will be a day of fun and educational workshops that will surprise and delight you.
-
-More information, including a schedule, will be announced Soon&trade;.
+More information, including the call for speakers, will be announced soon.
 
 ## How do I get updates?
 
 For updates on !!Con, follow
-[@bangbangcon](https://twitter.com/bangbangcon) on Twitter, or sign up
+[@bangbangcon@mastodon.social](https://mastodon.social/@bangbangcon), or sign up
 for our mailing list below.  We send about four or five emails per year for important announcements about our venue, 
 submission deadlines, registration, and that sort of thing.  No spam, we promise, and it's easy to unsubscribe at any 
 time.
@@ -102,53 +82,35 @@ Here's what some of our past speakers and attendees said about us:
 
 ## Who's organizing all this?
 
-The !!Con 2022 organizing team:
-[Erty Seidohl](https://twitter.com/ertyseidohl),
-[Julia Evans](https://twitter.com/b0rk),
-[Em Lazer-Walker](https://twitter.com/lazerwalker),
-[Sarah Withee](https://twitter.com/geekygirlsarah),
-[Maggie Zhou](https://twitter.com/zmagg),
+The !!Con 2024 organizing team:
+Jeena Lee, 
+[Sarah Withee](https://geekygirlsarah.com/links),
+[Erty Seidohl](https://erty.me),
+[Lindsey Kuper](http://composition.al/),
 and [Joshua Wise](https://joshuawise.com/).
 
-If you'd like, you can [send us some mail](mailto:2022-organizers@exclamation.foundation)!
+Special thanks to [Lee Pepper](https://sheerspite.ca/), who has been invaluable in providing administrative help!
 
-Organizers emeriti: [Alicja Raszkowska](https://twitter.com/mamrotynka), [Leo Franchi](https://twitter.com/lfranchi), [Nabil Hassein](https://twitter.com/NabilHassein),
+If you'd like, you can [send us some mail](mailto:2024-organizers@exclamation.foundation)!
+
+Organizers emeriti: [Julia Evans](https://jvns.ca),
+[Em Lazer-Walker](https://twitter.com/lazerwalker),
+[Maggie Zhou](https://twitter.com/zmagg), 
+[Alicja Raszkowska](https://twitter.com/mamrotynka), 
+[Leo Franchi](https://www.instagram.com/lfranchi), 
+[Nabil Hassein](https://nabilhassein.github.io),
 [Alex Clemmer](https://twitter.com/hausdorff_space),
-[Emily Xie](https://twitter.com/emilyxxie), [Danielle Sucher](https://twitter.com/DanielleSucher), 
-[Kiran Bhattaram](https://twitter.com/kiranb), [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
-[Lindsey Kuper](http://composition.al/), and [Dev Purandare](https://twitter.com/Dev14e).
+[Emily Xie](https://twitter.com/emilyxxie), 
+[Danielle Sucher](https://www.daniellesucher.com/), 
+[Kiran Bhattaram](https://twitter.com/kiranb), 
+[Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
+and [Dev Purandare](https://twitter.com/Dev14e).
 
 Logo design by
-[Lea Albaugh](https://twitter.com/doridoidea).
+[Lea Albaugh](http://lea.zone/).
 
 
-!!Con 2022 is a project of the [Exclamation Foundation](https://exclamation.foundation).
-
-
-If you'd like, you can [send us some mail](mailto:2022-organizers@exclamation.foundation)!
-
-<div class="sponsor-list" markdown="0">
-
-  <h3 style="margin: 1.5em 0;">EXCELLENT!! Sponsors</h3>
-  
-  <div class="sponsor"><a href="https://mozilla.org" target="_blank"><span
-    class="magic">.</span><div class="logo"  style="background-color: black"><img width="400"
-    alt="Mozilla" src="images/sponsors/mozilla.png" /></div></a></div>
-    
-  <h3 style="margin: 1.5em 0;">AWESOME! Sponsors</h3>
-
-  <div class="sponsor"><a href="https://www.twosigma.com/careers/" target="_blank"><span
-    class="magic">.</span><div class="logo"><img width="360"
-    alt="Two Sigma" src="images/sponsors/twosigma.png" /></div></a></div>
-    
-  <div class="sponsor"><a href="https://accelerated.tech/" target="_blank"><span
-    class="magic">.</span><div class="logo"><img width="200"
-    alt="Accelerated Tech" src="images/sponsors/accelerated-tech.png" /></div></a></div>
-
-
-</div>
-
-
+!!Con 2024 is a project of the [Exclamation Foundation](https://exclamation.foundation).
 
 ## Code of Conduct
 

@@ -1,27 +1,27 @@
 ---
-layout: default-2022
-title: Sponsorship - !!Con 2022
+layout: default-2024
+title: Sponsorship - !!Con 2024
 ---
 
 # Sponsoring !!Con
 
-Thank you for your interest in sponsoring !!Con 2022!  💜 We're an online
-event this year, but we still have bills to pay -- we're committed to
-compensating our speakers for the hard work that they put in on creating
-amazing talks, and our famous accessibility (including real-time captioning)
-costs money, too.
+Thank you for your interest in sponsoring !!Con 2024!  💜
 
 We are committed to keeping !!Con a pay-what-you-want event, and have
 been called "radically inclusive" by past speakers and attendees. We
-need your help to keep !!Con open and available to all!  In exchange, we'd
+need your help to keep !!Con open and available to all! In exchange, we'd
 love to help put your company in front of our hundreds of smart, creative,
 thoughtful participants.
+
+We're committed to compensating our speakers for the hard work that they put
+in on creating amazing talks, and our famous accessibility (including
+real-time captioning) costs money, too.
 
 Below are some sponsorship tiers that we've put together as starting points,
 but we're happy to customize a package to meet the needs of your
 organization!  If you're interested in sponsoring, or if you have any
 questions, please [send us some
-mail](mailto:2022-organizers@exclamation.foundation).
+mail](mailto:2024-organizers@exclamation.foundation).
 
 ## Sponsorship Levels
 
@@ -64,7 +64,7 @@ enthusiasts.
 
 Attendees really remember the names of sponsors of the elements that makes
 !!Con special, so these are a great way to stand out!  If these interest you,
-[get in touch](mailto:2022-organizers@exclamation.foundation) and we can talk
+[get in touch](mailto:2024-organizers@exclamation.foundation) and we can talk
 about including them in your sponsorship package.
 
 * **Live streaming and recording.** All of !!Con's talks are broadcast
@@ -84,5 +84,12 @@ about including them in your sponsorship package.
   alongside the caption feed all day long, and we'd love to offer that to
   you!
 
+* **Sponsor a meal.** Lunch and snack breaks have been some of the most
+  exciting parts of !!Cons, when attendees come together and "unconference"
+  -- not to mention getting the joy of getting to fill your stomach after a
+  morning of invigorating talks!  Our experience at conferences is that
+  everybody remembers who fed them, and sponsor-associated food has been a
+  big hit in the past.
+
 If you have other ideas, we'd love to hear about them and work with you -- feel
-free to [contact us](mailto:2022-organizers@exclamation.foundation)!
+free to [contact us](mailto:2024-organizers@exclamation.foundation)!
