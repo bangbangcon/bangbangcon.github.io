@@ -82,9 +82,10 @@ The !!Con 2024 organizing team:
 Jeena Lee, 
 [Sarah Withee](https://geekygirlsarah.com/links),
 [Erty Seidohl](https://erty.me),
-Lee Pepper, 
 [Lindsey Kuper](http://composition.al/),
 and [Joshua Wise](https://joshuawise.com/).
+
+Special thanks to [Lee Pepper](https://sheerspite.ca/), who has been invaluable in providing administrative help!
 
 If you'd like, you can [send us some mail](mailto:2024-organizers@exclamation.foundation)!
 
