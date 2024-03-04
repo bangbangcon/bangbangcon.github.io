@@ -5,7 +5,7 @@ title: Sponsorship - !!Con 2024
 
 # Sponsoring !!Con
 
-Thank you for your interest in sponsoring !!Con 2020!  💜
+Thank you for your interest in sponsoring !!Con 2024!  💜
 
 We are committed to keeping !!Con a pay-what-you-want event, and have
 been called "radically inclusive" by past speakers and attendees. We

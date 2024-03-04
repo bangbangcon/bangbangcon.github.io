@@ -3,13 +3,17 @@ layout: default-2024
 title: The joy, excitement, and surprise of computing - !!Con 2024
 ---
 
-<p style="text-align: center;">
+<!--
+haha look at you reading the source
+you found me
+what will you do now???? ?? ? ? ? ??
+-->
+
+<!-- <p style="text-align: center;">
   **Quick Links:**
   &middot;
-  [Sponsorship](sponsors.html)
-  &middot;
   [Conduct](conduct.html)
-</p>
+</p> -->
 
 <p id="blurb">**!!Con** (pronounced "bang bang con") **2024** is our _final_ event featuring **two days of talks** to celebrate the
 joyous, exciting, and surprising moments in computing.
