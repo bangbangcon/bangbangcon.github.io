@@ -86,7 +86,7 @@ The !!Con 2024 organizing team:
 Jeena Lee, 
 [Sarah Withee](https://geekygirlsarah.com/links),
 [Erty Seidohl](https://erty.me),
-[Lindsey Kuper](http://composition.al/),
+[Lindsey Kuper](http://decomposition.al/),
 and [Joshua Wise](https://joshuawise.com/).
 
 Special thanks to [Lee Pepper](https://sheerspite.ca/), who has been invaluable in providing administrative help!
@@ -104,7 +104,7 @@ Organizers emeriti: [Julia Evans](https://jvns.ca),
 [Danielle Sucher](https://www.daniellesucher.com/), 
 [Kiran Bhattaram](https://twitter.com/kiranb), 
 [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
-and [Dev Purandare](https://twitter.com/Dev14e).
+and [Dev Purandare](https://sincerely.dev).
 
 Logo design by
 [Lea Albaugh](http://lea.zone/).
