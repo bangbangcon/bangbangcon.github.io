@@ -5,9 +5,11 @@ title: Call for Talk Proposals! - !!Con 2024
 
 # Call for talk proposals
 
-Hi! !!Con is back for our **twelfth and final celebration** of the joy, excitement, and surprise of computing, and we want **you** to submit a talk* proposal. The **submission deadline** is **Tuesday, May 28th**. You can submit more than one proposal.
+Hi! !!Con is back for our **twelfth and final celebration** of the joy, excitement, and surprise of computing, and we want **you** to [submit a talk* proposal](https://docs.google.com/forms/d/e/1FAIpQLSfyfoOhoqUYAecDT1F-wGwGlGvPgnCBHfo8tJkdUPsJkwdKZg/viewform?usp=sf_link). The **submission deadline** is **Tuesday, May 28th**. You can submit more than one proposal.
 
-This will be the last !!Con, so if you have a talk you've always wanted to give, now's the time!
+This will be the last !!Con, so if you have a talk you've always wanted to give, now's the time!  If you already know the drill for !!Con talk*s, get to it, and [send us your !!Coniest ideas](https://docs.google.com/forms/d/e/1FAIpQLSfyfoOhoqUYAecDT1F-wGwGlGvPgnCBHfo8tJkdUPsJkwdKZg/viewform?usp=sf_link) -- and if you don't, read on!
+
+<p style="text-align: center;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfyfoOhoqUYAecDT1F-wGwGlGvPgnCBHfo8tJkdUPsJkwdKZg/viewform?usp=sf_link"><img src="images/submit-a-talk-today.png" alt="Submit a !!Con talk* proposal now!  In a goofy WordArt text layout."></a></p>
 
 Since its launch in 2014, !!Con talks have featured everything from [glowing
 mushrooms](https://www.youtube.com/watch?v=T75FvUDirNM) to [game
@@ -30,7 +32,7 @@ The only requirements are that your talk*:
 What do we mean by talk* with an asterisk? We [have an expansive definition of what
 we consider](https://organicdonut.com/2019/01/expanding-the-con-aesthetic/) a "talk"
 for !!Con’s 10-minute slots!  Send us plays about the joy of computing,
-musical numbers about a bug you found, magic shows using strace.  Whatever
+musical numbers about a bug you found, magic shows using `strace`.  Whatever
 you want to do with a ten-minute slot, we’d love to hear about it.  Of
 course, we’re looking forward to seeing good old-fashioned talk proposals as
 well.
@@ -101,4 +103,8 @@ assistance in presenting at !!Con, please don’t hesitate to [let us
 know](index.html#organizers) what we can do to make your speaking
 arrangement comfortable.
 
-You can submit your talk* by [using this form](https://docs.google.com/forms/d/e/1FAIpQLSfyfoOhoqUYAecDT1F-wGwGlGvPgnCBHfo8tJkdUPsJkwdKZg/viewform?usp=sf_link). Thanks for submitting to !!Con!
+## Do it!
+
+<p style="text-align: center;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfyfoOhoqUYAecDT1F-wGwGlGvPgnCBHfo8tJkdUPsJkwdKZg/viewform?usp=sf_link"><img src="images/submit-a-talk-today.png" alt="Submit a !!Con talk* proposal now!  In a goofy WordArt text layout."></a></p>
+
+You can submit your talk* by [using this form](https://docs.google.com/forms/d/e/1FAIpQLSfyfoOhoqUYAecDT1F-wGwGlGvPgnCBHfo8tJkdUPsJkwdKZg/viewform?usp=sf_link). Thanks for submitting to !!Con!  We're so excited to read your idea(s)!!!
