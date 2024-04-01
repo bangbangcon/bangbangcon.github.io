@@ -5,8 +5,6 @@ title: Call for Talk Proposals! - !!Con 2024
 
 # Call for talk proposals
 
-Hi!
-
 Hi! !!Con is back for our **twelfth and final celebration** of the joy, excitement, and surprise of computing, and we want **you** to submit a talk* proposal. The **submission deadline** is **Tuesday, May 28th**. You can submit more than one proposal.
 
 This will be the last !!Con, so if you have a talk you've always wanted to give, now's the time!
@@ -29,7 +27,7 @@ The only requirements are that your talk*:
   * be about something you think is interesting and cool!
   * **have at least one exclamation mark in the title!**
 
-What do we mean by talk* with an asterisk? We [have an expansive definiton of what
+What do we mean by talk* with an asterisk? We [have an expansive definition of what
 we consider](https://organicdonut.com/2019/01/expanding-the-con-aesthetic/) a "talk"
 for !!Con’s 10-minute slots!  Send us plays about the joy of computing,
 musical numbers about a bug you found, magic shows using strace.  Whatever
