@@ -32,7 +32,7 @@ The only requirements are that your talk*:
 What do we mean by talk* with an asterisk? We [have an expansive definiton of what
 we consider](https://organicdonut.com/2019/01/expanding-the-con-aesthetic/) a "talk"
 for !!Con’s 10-minute slots!  Send us plays about the joy of computing,
-musical numbers about a bug you found, a magic show using strace.  Whatever
+musical numbers about a bug you found, magic shows using strace.  Whatever
 you want to do with a ten-minute slot, we’d love to hear about it.  Of
 course, we’re looking forward to seeing good old-fashioned talk proposals as
 well.
@@ -43,7 +43,7 @@ We would **especially** like to hear from you if:
   * you’ve never spoken at a tech conference. Some of our favorite !!Con talks have been from first-time speakers.
   * you find that people like you are underrepresented at programming conferences. We're committed to doing work to make !!Con a good experience for you. See our [code of conduct](conduct.html).
 
-**All talks* will be ten minutes long.** Ten minutes isn’t much time, so
+**All talks will be ten minutes long.** Ten minutes isn’t much time, so
 think carefully about the scope of your talk* and be clear in the
 [timeline](http://decomposition.al/blog/2017/06/30/how-to-write-a-timeline-for-a-bangbangcon-talk-proposal/)
 about how you plan to spend the time.  A single, focused idea is best – go
