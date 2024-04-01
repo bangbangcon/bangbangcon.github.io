@@ -9,11 +9,12 @@ you found me
 what will you do now???? ?? ? ? ? ??
 -->
 
-<!-- <p style="text-align: center;">
+<p style="text-align: center;">
   **Quick Links:**
+  [Give a Talk](give-a-talk.html)
   &middot;
   [Conduct](conduct.html)
-</p> -->
+</p>
 
 <p id="blurb">**!!Con** (pronounced "bang bang con") **2024** is our _final_ event featuring **two days of talks** to celebrate the
 joyous, exciting, and surprising moments in computing.
@@ -24,7 +25,7 @@ joyous, exciting, and surprising moments in computing.
 
 !!Con 2024 will be held on the weekend of August 24-25 in Santa Cruz, California, United States!
 
-More information, including the call for speakers, will be announced soon.
+Want to give a talk? [Learn more and send us your ideas](give-a-talk.html)! 
 
 ## How do I get updates?
 
@@ -83,7 +84,6 @@ Here's what some of our past speakers and attendees said about us:
 ## Who's organizing all this?
 
 The !!Con 2024 organizing team:
-Jeena Lee, 
 [Sarah Withee](https://geekygirlsarah.com/links),
 [Erty Seidohl](https://erty.me),
 [Lindsey Kuper](http://decomposition.al/),
@@ -104,7 +104,8 @@ Organizers emeriti: [Julia Evans](https://jvns.ca),
 [Danielle Sucher](https://www.daniellesucher.com/), 
 [Kiran Bhattaram](https://twitter.com/kiranb), 
 [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
-and [Dev Purandare](https://sincerely.dev).
+[Dev Purandare](https://sincerely.dev), and
+Jeena Lee.
 
 Logo design by
 [Lea Albaugh](http://lea.zone/).
