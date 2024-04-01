@@ -84,7 +84,6 @@ Here's what some of our past speakers and attendees said about us:
 ## Who's organizing all this?
 
 The !!Con 2024 organizing team:
-Jeena Lee, 
 [Sarah Withee](https://geekygirlsarah.com/links),
 [Erty Seidohl](https://erty.me),
 [Lindsey Kuper](http://decomposition.al/),
@@ -105,7 +104,8 @@ Organizers emeriti: [Julia Evans](https://jvns.ca),
 [Danielle Sucher](https://www.daniellesucher.com/), 
 [Kiran Bhattaram](https://twitter.com/kiranb), 
 [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
-and [Dev Purandare](https://sincerely.dev).
+[Dev Purandare](https://sincerely.dev), and
+Jeena Lee.
 
 Logo design by
 [Lea Albaugh](http://lea.zone/).
