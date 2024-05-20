@@ -13,6 +13,8 @@ what will you do now???? ?? ? ? ? ??
   **Quick Links:**
   [Give a Talk](give-a-talk.html)
   &middot;
+  [Speakers](speakers.html)
+  &middot;
   [Conduct](conduct.html)
 </p>
 
@@ -20,6 +22,10 @@ what will you do now???? ?? ? ? ? ??
 joyous, exciting, and surprising moments in computing.
 </p>
 
+<div class="speaker-pics" markdown="0">
+  <div><a href="speakers.html#bruce-waggoner"><img height="100" width="100" src="images/speakers/thumbnail/bruce-waggoner.png" alt="Bruce Waggoner" /></a></div>
+  <div><a href="speakers.html#dawn-walker"><img height="100" width="100" src="images/speakers/thumbnail/dawn-walker.png" alt="Dawn Walker" /></a></div>
+</div>
 
 ## Save the Dates!
 
