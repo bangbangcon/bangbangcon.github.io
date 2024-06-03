@@ -5,6 +5,12 @@ title: Call for Talk Proposals! - !!Con 2024
 
 # Call for talk proposals
 
+The call for talk proposals is now closed.  Thank you all for your
+submissions!  For posterity, we've left the original call for talk proposals
+below.
+
+--
+
 Hi! !!Con is back for our **twelfth and final celebration** of the joy, excitement, and surprise of computing, and we want **you** to [submit a talk* proposal](https://docs.google.com/forms/d/e/1FAIpQLSfyfoOhoqUYAecDT1F-wGwGlGvPgnCBHfo8tJkdUPsJkwdKZg/viewform?usp=sf_link). The **submission deadline** is **Tuesday, May 28th**. You can submit more than one proposal.
 
 This will be the last !!Con, so if you have a talk you've always wanted to give, now's the time!  If you already know the drill for !!Con talk*s, get to it, and [send us your !!Coniest ideas](https://docs.google.com/forms/d/e/1FAIpQLSfyfoOhoqUYAecDT1F-wGwGlGvPgnCBHfo8tJkdUPsJkwdKZg/viewform?usp=sf_link) -- and if you don't, read on!
