@@ -27,25 +27,29 @@ mail](mailto:2024-organizers@exclamation.foundation).
 
 ### PHENOMENAL Sponsor!!! (**$12,000**)
 
+* A staffable booth with space for swag, company information
 * 5 reserved tickets for employees[*](#note-on-tickets)
-* Discord perks for employees: sponsor highlight, and dedicated channel
-  for your organization
-* Logo on welcome slide
+* Roll-up poster or other signage
 * Verbal thanks during conference
+* Logo on welcome slide
 * Logo on website
 * Our undying gratitude!
 
 ### EXCELLENT Sponsor!! (**$7,000**)
 
-  * 2 reserved tickets for employees[*](#note-on-tickets)
-  * Logo on welcome slide
-  * Verbal thanks during conference
-  * Logo on website
-  * Our undying gratitude!
+* Space on a shared table for freebies/swag
+* 2 reserved tickets for employees[*](#note-on-tickets)
+* Roll-up poster or other signage
+* Verbal thanks during conference
+* Logo on welcome slide
+* Logo on website
+* Our undying gratitude!
 
 ### AWESOME Sponsor! (**$3,000**)
 
+* Space on a shared table for freebies/swag
 * Verbal thanks during conference
+* Logo on welcome slide
 * Logo on website
 * Our undying gratitude!
 
