@@ -25,7 +25,7 @@ mail](mailto:2024-organizers@exclamation.foundation).
 
 ## Sponsorship Levels
 
-### PHENOMENAL Sponsor!!!
+### PHENOMENAL Sponsor!!! (**$12,000**)
 
 * 5 reserved tickets for employees[*](#note-on-tickets)
 * Discord perks for employees: sponsor highlight, and dedicated channel
@@ -35,14 +35,15 @@ mail](mailto:2024-organizers@exclamation.foundation).
 * Logo on website
 * Our undying gratitude!
 
-### EXCELLENT Sponsor!!
-* 2 reserved tickets for employees[*](#note-on-tickets)
-* Logo on welcome slide
-* Verbal thanks during conference
-* Logo on website
-* Our undying gratitude!
+### EXCELLENT Sponsor!! (**$7,000**)
 
-### AWESOME Sponsor!
+  * 2 reserved tickets for employees[*](#note-on-tickets)
+  * Logo on welcome slide
+  * Verbal thanks during conference
+  * Logo on website
+  * Our undying gratitude!
+
+### AWESOME Sponsor! (**$3,000**)
 
 * Verbal thanks during conference
 * Logo on website

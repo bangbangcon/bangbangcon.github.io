@@ -15,6 +15,8 @@ what will you do now???? ?? ? ? ? ??
   &middot;
   [Speakers](speakers.html)
   &middot;
+  [Sponsorship](sponsors.html)
+  &middot;
   [Conduct](conduct.html)
 </p>
 
