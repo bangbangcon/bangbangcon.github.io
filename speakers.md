@@ -31,7 +31,39 @@ I am the Mission Assurance Manager at NASA Jet Propulsion Lab/Caltech. I graduat
 
 ## Lightning Talks
 
-This could be YOU! Check out our [Give A Talk page](/give-a-talk) to learn more about our Call for Talks, the submission process, and how you can send us your joyful, surprising, or exciting computing talk idea!
+<!-- For easy copy/paste action
+<a name="first-last" id="first-last"></a>
+<img src="images/speakers/thumbnail/first-last.png" alt="First Last" class="speaker-img" />
+-->
+
+### Devon Tao
+
+<a name="devon-tao" id="devon-tao"></a>
+<img src="images/speakers/devon-tao.png" alt="Devon Tao" class="speaker-img" />
+
+**It's alive.... IT'S ALIVE!!! Braitenberg Vehicles! (Have you ever seen an AI like this??!!)**
+
+"AI has been getting more and more complex. Surrounded by chess robots, self-driving cars, and now Large Language Models, we begin to ask ourselves: what does it take for a machine to behave like a human? Does it take millions of parameters? Mountains of training data?
+
+None of the above! Introducing... Braitenberg Vehicles! These are simple, human-like robots that are made only of a couple of sensors and motors. In this talk, I will convince you that these simple components are enough to show human-like behavior, and we will get to see some Braitenberg Vehicles in action using a Braitenberg Vehicles Simulator I made!"
+
+**Devon** is a student at Harvey Mudd College studying computer science and mathematics. Outside of computer science, they also like to write musical theater!
+
+---
+### Julian Squires
+
+<a name="julian-squires" id="julian-squires"></a>
+<img src="images/speakers/julian-squires.png" alt="Julian Squires" class="speaker-img" />
+
+**Backtraces in the Mirror: Stealing the Secrets of Elves and Dwarves to Perform Mad Science!!**
+
+While writing an unobtrusive memory profiler, I discovered I needed to reconstruct a running program's stack the wrong way around! I thought this was impossible, and it turns out I was wrong! So join me to learn about how stack unwinding works (and when it doesn't!), how to use ELF and DWARF information all wrong(!), working with uncertain information (and why!), and the value of doing things that "can't possibly work"!!
+
+**Julian Squires** is a lifelong programmer and eccentric layabout. He previously spoke at !!Con 2017 about "the Emoji that Killed Chrome" (!!).
+
+---
+
+More speakers will be posted soon when they confirm their talks!
 
 ---
 

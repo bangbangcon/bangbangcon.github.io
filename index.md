@@ -27,6 +27,8 @@ joyous, exciting, and surprising moments in computing.
 <div class="speaker-pics" markdown="0">
   <div><a href="speakers.html#bruce-waggoner"><img height="100" width="100" src="images/speakers/thumbnail/bruce-waggoner.png" alt="Bruce Waggoner" /></a></div>
   <div><a href="speakers.html#dawn-walker"><img height="100" width="100" src="images/speakers/thumbnail/dawn-walker.png" alt="Dawn Walker" /></a></div>
+  <div><a href="speakers.html#devon-tao"><img height="100" width="100" src="images/speakers/thumbnail/devon-tao.png" alt="Devon Tao" /></a></div>
+  <div><a href="speakers.html#julian-squires"><img height="100" width="100" src="images/speakers/thumbnail/julian-squires.png" alt="Julian Squires" /></a></div>
 </div>
 
 ## Save the Dates!
