@@ -56,12 +56,3 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 | 5:00            | The End!
 
 </div>
-
-
-
-
-
-
-
-
-
