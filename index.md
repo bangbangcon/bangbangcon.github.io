@@ -11,7 +11,7 @@ what will you do now???? ?? ? ? ? ??
 
 <p style="text-align: center;">
   **Quick Links:**
-  [Give a Talk](give-a-talk.html)
+  [Program](program.html)
   &middot;
   [Speakers](speakers.html)
   &middot;
@@ -35,7 +35,9 @@ joyous, exciting, and surprising moments in computing.
 
 !!Con 2024 will be held on the weekend of August 24-25 in Santa Cruz, California, United States!
 
-Want to give a talk? [Learn more and send us your ideas](give-a-talk.html)! 
+It will also be livestreamed!
+
+Check out our [program](program.html)!
 
 ## How do I get updates?
 
