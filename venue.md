@@ -15,9 +15,9 @@ It will be hot! Bring water, shade, etc.
 
 Here are some pictures. Imagine the stage set up against the building on the right, against the bike racks.
 
-![Image of the courtyard. It's sunny. To the right are bike racks.](images/2024-venue-photos/PXL_20240702_182906624.PANO-small.jpg)
+![Image of the courtyard. It's sunny. To the right are bike racks.](images/2024-venue-photos/PXL_20240702_182906624.PANO.jpg)
 
-![Image of the courtyard from the balcony. The balcony has chairs and half sun cover.](images/2024-venue-photos/PXL_20240702_183057816.PANO-small.jpg)
+![Image of the courtyard from the balcony. The balcony has chairs and half sun cover.](images/2024-venue-photos/PXL_20240702_183057816.PANO.jpg)
 
 ## Flights
 
