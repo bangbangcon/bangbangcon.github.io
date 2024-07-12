@@ -11,6 +11,8 @@ what will you do now???? ?? ? ? ? ??
 
 <p style="text-align: center;">
   **Quick Links:**
+  [Venue](venue.html)
+  &middot;  
   [Give a Talk](give-a-talk.html)
   &middot;
   [Speakers](speakers.html)
@@ -33,7 +35,7 @@ joyous, exciting, and surprising moments in computing.
 
 ## Save the Dates!
 
-!!Con 2024 will be held on the weekend of August 24-25 in Santa Cruz, California, United States!
+!!Con 2024 will be held on the weekend of August 24-25, [in the courtyard of the Baskin School of Engineering at UC Santa Cruz](venue.html), in Santa Cruz, California, United States! 
 
 Want to give a talk? [Learn more and send us your ideas](give-a-talk.html)! 
 
