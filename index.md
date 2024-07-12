@@ -12,7 +12,7 @@ what will you do now???? ?? ? ? ? ??
 <p style="text-align: center;">
   **Quick Links:**
   [Venue](venue.html)
-  &middot;  
+  &middot;
   [Give a Talk](give-a-talk.html)
   &middot;
   [Speakers](speakers.html)
