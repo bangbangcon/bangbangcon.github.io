@@ -15,9 +15,9 @@ The courtyard itself will be sunny.  If you need to take a break from the heat, 
 
 Here are some pictures of the courtyard. Imagine the stage (from which speakers will present) set up against the building on the right, against the bike racks, and lots of chairs in the middle.
 
-![Image of the courtyard. It's sunny. To the right are bike racks.](images/2024-venue-photos/PXL_20240702_182906624.PANO.jpg)
+![Image of the courtyard. It's sunny. To the right are bike racks.](images/2024-venue-photos/PXL_20240702_182906624.PANO-small.jpg)
 
-![Image of the courtyard from the balcony. The balcony has chairs and half sun cover.](images/2024-venue-photos/PXL_20240702_183057816.PANO.jpg)
+![Image of the courtyard from the balcony. The balcony has chairs and half sun cover.](images/2024-venue-photos/PXL_20240702_183057816.PANO-small.jpg)
 
 ## Getting to Santa Cruz
 
