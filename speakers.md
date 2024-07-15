@@ -33,7 +33,7 @@ I am the Mission Assurance Manager at NASA Jet Propulsion Lab/Caltech. I graduat
 
 <!-- For easy copy/paste action
 <a name="first-last" id="first-last"></a>
-<img src="images/speakers/thumbnail/first-last.png" alt="First Last" class="speaker-img" />
+<img src="images/speakers/first-last.png" alt="First Last" class="speaker-img" />
 -->
 
 ### Devon Tao
@@ -60,6 +60,16 @@ None of the above! Introducing... Braitenberg Vehicles! These are simple, human-
 While writing an unobtrusive memory profiler, I discovered I needed to reconstruct a running program's stack the wrong way around! I thought this was impossible, and it turns out I was wrong! So join me to learn about how stack unwinding works (and when it doesn't!), how to use ELF and DWARF information all wrong(!), working with uncertain information (and why!), and the value of doing things that "can't possibly work"!!
 
 **Julian Squires** is a lifelong programmer and eccentric layabout. He previously spoke at !!Con 2017 about "the Emoji that Killed Chrome" (!!).
+
+---
+### Nicole Tietz-Sokolskaya
+
+<a name="nicole-tietz-sokolskaya" id="nicole-tietz-sokolskaya"></a>
+<img src="images/speakers/nicole-tietz-sokolskaya.png" alt="Nicole Tietz-Sokolskaya" class="speaker-img" />
+
+We're used to programming with a lot of control flow constructs, but some languages (👀 Python...) use exceptions for control flow. What if that was *all* we had? Nicole made the poor decision to find out, and created Hurl! She will discuss what programming looks like when we eschew normal control flow, how to implement normal-feeling control flow, and some of the limitations of the existing Hurl implementation.
+
+**Nicole** is a Principal Software Engineer at Remesh, where she focuses on software architecture, performance, scalability, and security. Outside of work, she plays with her kids, spends too much time on computers, hangs out at the Recurse Center, and drinks tons of decaf coffee.
 
 ---
 
