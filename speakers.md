@@ -90,6 +90,20 @@ While writing an unobtrusive memory profiler, I discovered I needed to reconstru
 
 ---
 
+### Matías Lang
+
+<a name="matías-lang" id="matías-lang"></a>
+<img src="images/speakers/matias-lang.png" alt="Matías Lang" class="speaker-img" />
+
+**It wasn’t me, it was the cosmic rays! Blaming physics for our evil actions!**
+
+As we know from Murphy, everything that can go wrong will go wrong. Sometimes, a single particle close to your computer's memory will turn a 0 into 1 or vice-versa. There exist lots of examples of real-life bugs caused by this effect. Since bit-flips do occur in our devices, this means nobody can blame us if suddenly a single bit from an executable file changes! It could've been a random cosmic ray that caused the damage! In this talk, we can see how this plausible deniability comes handy to attackers: they might create sophisticated supply-chain attacks or gain persistent access to systems, just with a single bit-flip that can be explained by a physical phenomenon!
+
+**Matías** is an Argentinian security researcher and developer. He believes someday engineers will have the right tools and knowledge to build truly secure software. Since that hasn't occurred yet, he refuses to use many applications until their security holes get fixed.
+
+
+---
+
 ### Nicole Tietz-Sokolskaya
 
 <a name="nicole-tietz-sokolskaya" id="nicole-tietz-sokolskaya"></a>
