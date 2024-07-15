@@ -89,6 +89,26 @@ We're used to programming with a lot of control flow constructs, but some langua
 
 ---
 
+### Nolen Royalty
+
+<a name="nolen-royalty" id="nolen-royalty"></a>
+<img src="images/speakers/nolen-royalty.png" alt="Nolen Royalty" class="speaker-img" />
+
+**88 Files a Second - Running Flappy Bird inside MacOS Finder!**
+
+MacOS's Finder is designed for browsing files - but it's powerful enough to run Flappy Bird. Kind of. In this talk I'll cover how to get Flappy Bird running at 4 frames (and 88 files) a second in Finder - complete with a full game loop, high score tracking, and marquee banner ads. I'll start with a barely sub-1-frame-a-second prototype and walk you through the hacks I needed to productionize the game, such as: 
+
+* Simulating a "button" inside the filesystem via a Finder-specific "last opened" timestamp 
+* Symlinking 44 files to their parent directories 
+* Stuffing emojis into filenames 
+* Implementing double buffering inside a Finder window via bizarre AppleScript incantations 
+
+You'll hopefully leave with a newfound appreciation for the power of Finder and AppleScript and a better understanding of why double buffering is important for a smooth gaming experience.
+
+**Nolen Royalty** loves embedding games in surprising places and building experiences that connect strangers over the internet - you can find his work at https://eieio.games.
+
+---
+
 ### Quinn Dombrowski
 
 **Huggable Data! Making the Ephemeral Last Longer with Textile Dataviz!**
