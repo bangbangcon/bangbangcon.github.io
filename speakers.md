@@ -50,6 +50,20 @@ None of the above! Introducing... Braitenberg Vehicles! These are simple, human-
 **Devon** is a student at Harvey Mudd College studying computer science and mathematics. Outside of computer science, they also like to write musical theater!
 
 ---
+
+### Ivan Zhao
+
+<a name="Ivan Zhao" id="ivan-zhao"></a>
+<img src="images/speakers/ivan-zhao.png" alt="Ivan Zhao" class="speaker-img" />
+
+**Making Chinese Typefaces! with Components!!??!!**
+
+Are you stuck finding a great chinese typeface for you to use? Scared to find something that might get twitter in a fight over? This talk will teach you the basics of Chinese type systems, how to use them, and why computing and component based architecture can dramatically reduce the amount of time it takes for you to make an 8,000 character font.
+
+**Ivan Zhao** (he/him) is a poet, game & type designer, and web artist interested in nonlinear narratives, forms, and mechanics that reckon with digital, diasporic, and queer identity. His work interrogates individual and viewer agency.
+
+---
+
 ### Julian Squires
 
 <a name="julian-squires" id="julian-squires"></a>
