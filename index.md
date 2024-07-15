@@ -36,6 +36,7 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="speakers.html#julian-squires"><img height="100" width="100" src="images/speakers/thumbnail/julian-squires.png" alt="Julian Squires" /></a></div>
   <div><a href="speakers.html#nicole-tietz-sokolskaya"><img height="100" width="100" src="images/speakers/thumbnail/nicole-tietz-sokolskaya.png" alt="Nicole Tietz-Sokolskaya" /></a></div>
   <div><a href="speakers.html#quinn-dombrowski"><img height="100" width="100" src="images/speakers/thumbnail/quinn-dombrowski.png" alt="Quinn Dombrowski" /></a></div>
+  <div><a href="speakers.html#taylor-troesh"><img height="100" width="100" src="images/speakers/thumbnail/taylor-troesh.png" alt="Taylor Troesh" /></a></div>
   <div><a href="speakers.html#vaibhav-sagar"><img height="100" width="100" src="images/speakers/thumbnail/vaibhav-sagar.png" alt="Vaibhav Sagar" /></a></div>
 </div>
 

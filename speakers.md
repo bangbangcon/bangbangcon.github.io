@@ -102,6 +102,19 @@ Computers and data are closely intertwined: we use computers to capture and crea
 
 ---
 
+### Taylor Troesh
+
+**bang! bang! he murdered math! {the musical!}**
+
+<a name="taylor-troesh" id="taylor-troesh"></a>
+<img src="images/speakers/taylor-troesh.png" alt="Taylor Troesh" class="speaker-img" />
+
+In 1931, a lone man murdered math with two shots from a recursive revolver. The two incompleteness theorems punctured permanent holes in our once-pristine mathematical paradise. To this day, landmines lie lurking in the logical landscape. Who will protect our precious computers from inconsistency itself? A $1,000,000 bounty awaits the hero who thwarts the ghost of gunslingin' Gödel! Join us by the computational campfire for a bluegrass ballad!
+
+**Taylor** is mayor of taylor.town and certified connoisseur of crap. He tinkers with writing, learning, time, design, software, ideas, and humor.
+
+---
+
 ### Vaibhav Sagar
 
 <a name="vaibhav-sagar" id="vaibhav-sagar"></a>
