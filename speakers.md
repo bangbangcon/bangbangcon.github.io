@@ -67,6 +67,8 @@ While writing an unobtrusive memory profiler, I discovered I needed to reconstru
 <a name="nicole-tietz-sokolskaya" id="nicole-tietz-sokolskaya"></a>
 <img src="images/speakers/nicole-tietz-sokolskaya.png" alt="Nicole Tietz-Sokolskaya" class="speaker-img" />
 
+**Programming with only exceptions!**
+
 We're used to programming with a lot of control flow constructs, but some languages (👀 Python...) use exceptions for control flow. What if that was *all* we had? Nicole made the poor decision to find out, and created Hurl! She will discuss what programming looks like when we eschew normal control flow, how to implement normal-feeling control flow, and some of the limitations of the existing Hurl implementation.
 
 **Nicole** is a Principal Software Engineer at Remesh, where she focuses on software architecture, performance, scalability, and security. Outside of work, she plays with her kids, spends too much time on computers, hangs out at the Recurse Center, and drinks tons of decaf coffee.
