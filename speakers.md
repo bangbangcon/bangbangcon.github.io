@@ -75,6 +75,19 @@ We're used to programming with a lot of control flow constructs, but some langua
 
 ---
 
+### Vaibhav Sagar
+
+<a name="vaibhav-sagar" id="vaibhav-sagar"></a>
+<img src="images/speakers/vaibhav-sagar.png" alt="Vaibhav Sagar" class="speaker-img" />
+
+**SATisfying Answers to Difficult Questions!**
+
+SAT solvers have been used to find solutions to a wide variety of problems in domains such as code generation, formal verification, and scheduling. But what even are they, and how do they work?? In this talk I'll provide a brief overview of what a SAT solver is and some different approaches they use to solve problems! I hope to demystify these very useful tools and give you some insight into why and when you might want to use them.
+
+**Vaibhav** used to write web applications for a living. He still does, but he used to, too. When he's not doing that you can find him at the gym making sure the weight trees have equal numbers of plates on them or engaging in some ill-advised revenge bedtime procrastination.
+
+---
+
 More speakers will be posted soon when they confirm their talks!
 
 ---
