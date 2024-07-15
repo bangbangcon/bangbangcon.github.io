@@ -64,6 +64,19 @@ Are you stuck finding a great chinese typeface for you to use? Scared to find so
 
 ---
 
+### Jes Wolfe
+
+<a name="jes-wolfe" id="jes-wolfe"></a>
+<img src="images/speakers/jes-wolfe.png" alt="Jes Wolfe" class="speaker-img" />
+
+**The Astrolabe! Using modern digital computing to recreate ancient analog computers**
+
+For fifteen hundred years, the astrolabe was the most widely-used computing device on earth, sometimes called “the original smartphone”. They were traditionally made by hand, but I had to find out: how hard would it be to design and make one using only digital design and computer-controlled fabrication methods?
+
+**Jes Wolfe** is a software developer and payments engineer in Portland Oregon, whose code has almost certainly handled some of your money at some point. They spend their free time misusing technology, doing space math for astrologers, and helping their six-year-old invent new integer sequences.
+
+---
+
 ### Julian Squires
 
 <a name="julian-squires" id="julian-squires"></a>
@@ -76,6 +89,7 @@ While writing an unobtrusive memory profiler, I discovered I needed to reconstru
 **Julian Squires** is a lifelong programmer and eccentric layabout. He previously spoke at !!Con 2017 about "the Emoji that Killed Chrome" (!!).
 
 ---
+
 ### Nicole Tietz-Sokolskaya
 
 <a name="nicole-tietz-sokolskaya" id="nicole-tietz-sokolskaya"></a>
