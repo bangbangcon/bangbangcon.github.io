@@ -150,6 +150,19 @@ Computers and data are closely intertwined: we use computers to capture and crea
 
 ---
 
+### Rebecca Ravenoak
+
+**Algorithmically Generated Flower Beds!! (inspired by Ancient & Modern Polychrome Textiles)**
+
+<a name="rebecca-ravenoak" id="rebecca-ravenoak"></a>
+<img src="images/speakers/rebecca-ravenoak.png" alt="Rebecca Ravenoak" class="speaker-img" />
+
+Polychrome textiles are created by overlapping and interlacing two or more colors of thread in a way that creates areas of solid and blended colors. This talk is about using that same technique (digitally) to create flowerbed textures based on a fabric structure called Crackle or Jämtlandsdräll, but this is not a technical weaving talk. It’s about creating colorful patterns that can be used in pixel art based on algorithmically generated tiles and patterns..
+
+**Rebecca** is a computer programmer and artist who works with digital and physical textiles. They weave, code, bake, and garden just south of Oakland in a wacky old house full of cats and as many weird little succulents as they can grow.
+
+---
+
 ### Taylor Troesh
 
 **bang! bang! he murdered math! {the musical!}**
