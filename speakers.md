@@ -137,6 +137,19 @@ You'll hopefully leave with a newfound appreciation for the power of Finder and 
 
 ---
 
+### Omar Rizwan
+
+**How to make your own microchip!!!**
+
+<a name="omar-rizwan" id="omar-rizwan"></a>
+<img src="images/speakers/omar-rizwan.png" alt="Omar Rizwan" class="speaker-img" />
+
+Have you ever looked at your phone or laptop and wondered how it's made? The answer is that almost all of the 'technology' in it -- CPU, GPU, screen, camera, power electronics, motion sensor, radio -- is microchips that have been either drawn or coded up in the language Verilog, then manufactured in chip fabs. A few years ago, I took a class where I designed my own chip and got it fabricated (the resulting chips are sitting on my desk here). I'll talk about that process, how you write code to produce a chip, and how that chip actually looks up close, including how it physically looks in my hand, the 2D planar view, and a 3D view that we can fly around!
+
+**Omar** works on new ways to program and interact with computers. He made TabFS, a browser extension that turns your browser tabs into virtual files; Screenotate, an augmented screenshot app; and he's worked on physical computing systems at Dynamicland and Folk Computer.
+
+---
+
 ### Quinn Dombrowski
 
 **Huggable Data! Making the Ephemeral Last Longer with Textile Dataviz!**
