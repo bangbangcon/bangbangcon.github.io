@@ -56,7 +56,7 @@ What does it mean for a poem to go on … forever? How does it never run out of 
 
 **Let's run a tiny chess neural network by hand!**
 
-A few years ago an "ultralearner" tried to learn chess _in a month_ and then play world champion Magnus Carlsen. He had the wild idea of hand running a neural network on a piece of paper during the game! This probably isn't physically possible (...he didn't win), but what's the closest we could get? This made me curious: what's the smallest neural network you could make that could be helpful for a human?  What if you only had pen and paper (and maybe a lot of time), or if you had a calculator? We’ll go over the smallest possible neural nets for chess. In the era of mega NNs these will be refreshingly tiny!
+A few years ago someone tried to learn chess _in a month_ and then play world champion Magnus Carlsen. He had the wild idea of hand running a neural network on a piece of paper during the game! This probably isn't physically possible (...he didn't win), but what's the closest we could get? This made me curious: what's the smallest neural network you could make that could be helpful for a human?  What if you only had pen and paper (and maybe a lot of time), or if you had a calculator? We’ll go over the smallest possible neural nets for chess. In the era of mega NNs these will be refreshingly tiny!
 
 **Amédée** is a full stack software engineer from Montréal (now moving to Amsterdam!). They like growing culinary mushrooms, playing chess, and techno music.
 
