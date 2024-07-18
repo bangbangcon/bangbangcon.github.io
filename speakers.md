@@ -77,6 +77,19 @@ For fifteen hundred years, the astrolabe was the most widely-used computing devi
 
 ---
 
+### Juan Pablo Sarmiento
+
+<a name="juan-pablo-sarmiento" id="juan-pablo-sarmiento"></a>
+<img src="images/speakers/juan-pablo-sarmiento.png" alt="Juan Pablo Sarmiento" class="speaker-img" />
+
+**Calculating the Ideal "Sex and the City" Polycule!**
+
+Sex and the City, the iconic early 2000s show, depicted social life, sex, and relationships through a lens rarely seen at that time that shook society to its core. But this cultural phenomenon had one fatal flaw: it was based on the assumption that each protagonist could only end up with *one* person. I couldn't help but wonder... what if each person could be in an ethically and consenting relationship with more than one person at a time? What would the ideal polycule be? How do we even calculate that? What would the math look like? These are the questions society needs to be asking! These are the real problems VCs should be investing in! Dare I say, if we put a man on the moon we can settle once and for all who Carrie *actually* should have ended up with. It's time to disrupt polyamory.
+
+**Pablo** is a full stack engineer, specializing in building software for humanitarian emergencies. In his spare time he enjoys contemplating hypothetical endings to TV shows and working out the answers to questions that should have never been asked.
+
+---
+
 ### Julian Squires
 
 <a name="julian-squires" id="julian-squires"></a>
@@ -87,6 +100,20 @@ For fifteen hundred years, the astrolabe was the most widely-used computing devi
 While writing an unobtrusive memory profiler, I discovered I needed to reconstruct a running program's stack the wrong way around! I thought this was impossible, and it turns out I was wrong! So join me to learn about how stack unwinding works (and when it doesn't!), how to use ELF and DWARF information all wrong(!), working with uncertain information (and why!), and the value of doing things that "can't possibly work"!!
 
 **Julian Squires** is a lifelong programmer and eccentric layabout. He previously spoke at !!Con 2017 about "the Emoji that Killed Chrome" (!!).
+
+---
+
+### Maryanne Wachter
+
+<a name="maryanne-wachter" id="maryanne-wachter"></a>
+<img src="images/speakers/maryanne-wachter.png" alt="Maryanne Wachter" class="speaker-img" />
+
+**Riveting Insights! Bridge.watch and the State of America's Infrastructure**
+
+There are over 600,000 bridges in the U.S. with nearly 4 billion daily crossings. While the (fortunately rare) bridge collapse will make national news, what other publicly available information is there that we can dig into the state of U.S. infrastructure? This talk will go over the development of an open source application, [project name], for processing, cleaning, and visualizing bridge infrastructure data from the FHWA and what insights can be gained through simple queries and generating different visuals on the fly.
+
+**Maryanne Wachter** is a software developer and professional engineer. As a structural engineer, she's worked on landmark transit projects, long-span bridges, and various educational/cultural centers in the U.S. and Europe. She currently works as a senior software engineer at Ready.net specializing in geospatial data visualization.
+
 
 ---
 
@@ -199,6 +226,19 @@ In 1931, a lone man murdered math with two shots from a recursive revolver. The 
 SAT solvers have been used to find solutions to a wide variety of problems in domains such as code generation, formal verification, and scheduling. But what even are they, and how do they work?? In this talk I'll provide a brief overview of what a SAT solver is and some different approaches they use to solve problems! I hope to demystify these very useful tools and give you some insight into why and when you might want to use them.
 
 **Vaibhav** used to write web applications for a living. He still does, but he used to, too. When he's not doing that you can find him at the gym making sure the weight trees have equal numbers of plates on them or engaging in some ill-advised revenge bedtime procrastination.
+
+---
+
+### Yufeng Zhao
+
+<a name="yufeng-zhao" id="yufeng-zhao"></a>
+<img src="images/speakers/yufeng-zhao.png" alt="Yufeng Zhao" class="speaker-img" />
+
+**Let’s find random things on the street with full-text search!**
+
+Imagine being able to find every “best pizza” shop sign, every "No Parking" notice, or every piece of street art in Brooklyn - without leaving your chair. In this talk, Yufeng will unveil "all texts in Brooklyn" (https://brooklyn.textual.city/), a project that turns Google Street View into a searchable text database. Yufeng will walk through the process of building this full-text search engine, demonstrate interesting search results, and showcase data visualizations that reveal hidden patterns in Brooklyn's urban typography.
+
+**Yufeng Zhao** is an artist, technologist and designer based in Brooklyn. His work addresses data, imagery/language processing, and experience design. Through a blend of web-based projects, video works, and tangible installations, his practice explores unexpected connections embedded in our techno-cultural landscape and the interactions between humans and machines. He is a part of the Switcheristic Telecommunications (swtch.tel), an artist collective focusing on assembling and presenting atypical data.
 
 ---
 

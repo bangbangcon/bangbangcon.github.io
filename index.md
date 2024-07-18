@@ -34,7 +34,9 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="speakers.html#devon-tao"><img height="100" width="100" src="images/speakers/thumbnail/devon-tao.png" alt="Devon Tao" /></a></div>
   <div><a href="speakers.html#ivan-zhao"><img height="100" width="100" src="images/speakers/thumbnail/ivan-zhao.png" alt="Ivan Zhao" /></a></div>
   <div><a href="speakers.html#jes-wolfe"><img height="100" width="100" src="images/speakers/thumbnail/jes-wolfe.png" alt="Jes Wolfe" /></a></div>
+  <div><a href="speakers.html#juan-pablo-sarmiento"><img height="100" width="100" src="images/speakers/thumbnail/juan-pablo-sarmiento.png" alt="Juan Pablo Sarmiento" /></a></div>
   <div><a href="speakers.html#julian-squires"><img height="100" width="100" src="images/speakers/thumbnail/julian-squires.png" alt="Julian Squires" /></a></div>
+  <div><a href="speakers.html#maryanne-wachter"><img height="100" width="100" src="images/speakers/thumbnail/maryanne-wachter.png" alt="Maryanne Wachter" /></a></div>
   <div><a href="speakers.html#matías-lang"><img height="100" width="100" src="images/speakers/thumbnail/matias-lang.png" alt="Matías Lang" /></a></div>
   <div><a href="speakers.html#nicole-tietz-sokolskaya"><img height="100" width="100" src="images/speakers/thumbnail/nicole-tietz-sokolskaya.png" alt="Nicole Tietz-Sokolskaya" /></a></div>
   <div><a href="speakers.html#nolen-royalty"><img height="100" width="100" src="images/speakers/thumbnail/nolen-royalty.png" alt="Nolen Royalty" /></a></div>
@@ -43,6 +45,7 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="speakers.html#rebecca-ravenoak"><img height="100" width="100" src="images/speakers/thumbnail/rebecca-ravenoak.png" alt="Rebecca Ravenoak" /></a></div>
   <div><a href="speakers.html#taylor-troesh"><img height="100" width="100" src="images/speakers/thumbnail/taylor-troesh.png" alt="Taylor Troesh" /></a></div>
   <div><a href="speakers.html#vaibhav-sagar"><img height="100" width="100" src="images/speakers/thumbnail/vaibhav-sagar.png" alt="Vaibhav Sagar" /></a></div>
+  <div><a href="speakers.html#yufeng-zhao"><img height="100" width="100" src="images/speakers/thumbnail/yufeng-zhao.png" alt="Yufeng Zhao" /></a></div>
 </div>
 
 ## Save the Dates!
