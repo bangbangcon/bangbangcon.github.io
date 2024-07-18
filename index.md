@@ -43,8 +43,10 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="speakers.html#nolen-royalty"><img height="100" width="100" src="images/speakers/thumbnail/nolen-royalty.png" alt="Nolen Royalty" /></a></div>
   <div><a href="speakers.html#omar-rizwan"><img height="100" width="100" src="images/speakers/thumbnail/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
   <div><a href="speakers.html#peter-sobot"><img height="100" width="100" src="images/speakers/thumbnail/peter-sobot.png" alt="Peter Sobot" /></a></div>
+  <div><a href="speakers.html#phil-warren"><img height="100" width="100" src="images/speakers/thumbnail/phil-warren.png" alt="Phil Warren" /></a></div>
   <div><a href="speakers.html#quinn-dombrowski"><img height="100" width="100" src="images/speakers/thumbnail/quinn-dombrowski.png" alt="Quinn Dombrowski" /></a></div>
   <div><a href="speakers.html#rebecca-ravenoak"><img height="100" width="100" src="images/speakers/thumbnail/rebecca-ravenoak.png" alt="Rebecca Ravenoak" /></a></div>
+  <div><a href="speakers.html#richard-lewei-huang-yufeng-zhao"><img height="100" width="100" src="images/speakers/thumbnail/richard-lewei-huang-yufeng-zhao.png" alt="Richard Lewei Huang and Yufeng Zhao" /></a></div>
   <div><a href="speakers.html#santiago-gepigon"><img height="100" width="100" src="images/speakers/thumbnail/santiago-gepigon.png" alt="Santiago Gepigon III" /></a></div>
   <div><a href="speakers.html#taylor-troesh"><img height="100" width="100" src="images/speakers/thumbnail/taylor-troesh.png" alt="Taylor Troesh" /></a></div>
   <div><a href="speakers.html#vaibhav-sagar"><img height="100" width="100" src="images/speakers/thumbnail/vaibhav-sagar.png" alt="Vaibhav Sagar" /></a></div>

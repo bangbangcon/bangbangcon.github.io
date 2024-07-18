@@ -203,6 +203,19 @@ Video games are the source of precious memories for a lot of people - and an ent
 
 ---
 
+### Phil Warren
+
+**Images from a 1970s Typewriter!!!**
+
+<a name="phil-warren" id="phil-warren"></a>
+<img src="images/speakers/phil-warren.png" alt="Phil Warren" class="speaker-img" />
+
+Let's explore the invention-in-progress of an amazing "printing machine", which re-imagines the use of a vintage typewriter, using 3d-printed custom glyphs, to type full-color(ish) images using only red and green ink- this process uses a stop-gap hack Technicolor came up with in 1921 to trick us into thinking we're using full color, as well as a hack the KGB used in the American embassy around 1981 to turn a typewriter into a rudimentary teletype machine. Now we can feed it a cypher, and a well-rendered image will spit out! The steps to get here were weirder than one would imagine- with some robotics, some elder runes, and some film history appreciation along the way!
+
+**Phil Warren** works in R&D in image technology, and enjoys adventures, eating things, and meeting people. Once, as a child, he swallowed a bunch of nickels, which gave him the memories and powers of those nickels. Unfortunately the nickels knew very little of the natural world, so it afforded little benefit. They weren't dimes.
+
+---
+
 ### Quinn Dombrowski
 
 **Huggable Data! Making the Ephemeral Last Longer with Textile Dataviz!**
@@ -226,6 +239,19 @@ Computers and data are closely intertwined: we use computers to capture and crea
 Polychrome textiles are created by overlapping and interlacing two or more colors of thread in a way that creates areas of solid and blended colors. This talk is about using that same technique (digitally) to create flowerbed textures based on a fabric structure called Crackle or Jämtlandsdräll, but this is not a technical weaving talk. It’s about creating colorful patterns that can be used in pixel art based on algorithmically generated tiles and patterns..
 
 **Rebecca** is a computer programmer and artist who works with digital and physical textiles. They weave, code, bake, and garden just south of Oakland in a wacky old house full of cats and as many weird little succulents as they can grow.
+
+---
+
+### Richard Lewei Huang and Yufeng Zhao
+
+**How to stop worrying and collect early web banner ads! (and make art along the way!)**
+
+<a name="richard-lewei-huang-yufeng-zhao" id="richard-lewei-huang-yufeng-zhao"></a>
+<img src="images/speakers/richard-lewei-huang-yufeng-zhao.png" alt="Richard Lewei Huang and Yufeng Zhao" class="speaker-img" />
+
+Banner ads were an important early form of advertising on the web. In 2023, we built Banner Depot 2000, an interactive archive of 22,915 Chinese- and English-language banner ads from the late 1990s and early 2000s. We believe it is the largest publicly-accessible archive of early web banner ads on the Internet! We collected the ads by scraping the Wayback Machine using a dataset of historical URLs compiled from print "Internet directory" books from that era. On Banner Depot 2000, visitors can browse, search, and view metadata about each banner ad in the archive. Additionally, they can compose "banner ad poetry" using individual frames from the banner ads in our collection. The archive provides invaluable insights into the visual and commercial culture of the early web, as well as the evolution of online advertising. In the presentation, we will talk about how the project came about, how we built the archive, how the archive can support different kinds of research, and our future plans with the archive.
+
+**Richard Lewei Huang** is a PhD student and critical technologist at the University of Washington studying web archiving and internet history. **Yufeng Zhao** is an artist, technologist and designer whose work addresses data, imagery/language processing, and experience design. Both Yufeng and Richard are alumni of the Interactive Media Arts program at NYU Shanghai. They formed Switcheristic Telecommunications, an artist collective focusing on assembling and presenting atypical data.
 
 ---
 
