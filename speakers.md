@@ -177,6 +177,19 @@ Have you ever looked at your phone or laptop and wondered how it's made? The ans
 
 ---
 
+### Peter Sobot
+
+**Reverse-engineering a 30-year old synthesizer to perfectly recreate video game music!**
+
+<a name="peter-sobot" id="peter-sobot"></a>
+<img src="images/speakers/peter-sobot.png" alt="Peter Sobot" class="speaker-img" />
+
+Video games are the source of precious memories for a lot of people - and an entire community has sprung up to capture those memories by painstakingly recreating and preserving video game music. To do this accurately, people have gone to extreme lengths by emulating entire synthesizers just to get the same sound that was used for a game. Come see how I meticulously reverse engineered one such music-making machine from the 80s and created a near-perfect emulator for it in code.
+
+**Peter** is an engineer and musician from Toronto, currently living in Brooklyn. He once had business cards that said “House Drummer at Spotify” on them but now he maintains open-source audio processing libraries and works on machine learning systems.
+
+---
+
 ### Quinn Dombrowski
 
 **Huggable Data! Making the Ephemeral Last Longer with Textile Dataviz!**
@@ -200,6 +213,19 @@ Computers and data are closely intertwined: we use computers to capture and crea
 Polychrome textiles are created by overlapping and interlacing two or more colors of thread in a way that creates areas of solid and blended colors. This talk is about using that same technique (digitally) to create flowerbed textures based on a fabric structure called Crackle or Jämtlandsdräll, but this is not a technical weaving talk. It’s about creating colorful patterns that can be used in pixel art based on algorithmically generated tiles and patterns..
 
 **Rebecca** is a computer programmer and artist who works with digital and physical textiles. They weave, code, bake, and garden just south of Oakland in a wacky old house full of cats and as many weird little succulents as they can grow.
+
+---
+
+### Santiago Gepigon III
+
+**It's skeuomorphin' time!! The enduring physicality of braille!**
+
+<a name="santiago-gepigon" id="santiago-gepigon"></a>
+<img src="images/speakers/santiago-gepigon.png" alt="Santiago Gepigon III" class="speaker-img" />
+
+I'm bothered by how "flat" computing has become for me: staring at a flat screen, typing on a flat keyboard, tapping on a flat "touch" screen—where's the physicality? Is a clicky keyboard peripheral my only saving grace? In this talk, I'll explore how braille—a tactile writing system originally designed for the visually impaired—has enriched my relationship with computing. In three stories, across three centuries, I'll show you how apparently vestigial features have been, time and time again, leveraged to give braille new life.
+
+**Santiago Gepigon III** claims he cares about backwards compatibility and yet he's nothing like Santiago Gepigon Sr. or Jr. Some breaking changes include: a love for k-pop, an affinity for Lisp structure editing, and a fascination with domain-specific keyboard shortcuts.
 
 ---
 
