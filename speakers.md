@@ -12,7 +12,9 @@ title: Speakers - !!Con 2024
 <a name="bruce-waggoner" id="bruce-waggoner"></a>
 <img src="images/speakers/bruce-waggoner.png" alt="Bruce Waggoner" class="speaker-img" />
 
-### Bruce Waggoner - Saving Voyager 1!
+### Bruce Waggoner
+
+**Saving Voyager 1!**
 
 Both of the 47 year old Voyager spacecraft are currently in interstellar space and returning their most important data set; in-situ measurements of the magnetic field, plasma and dust beyond the Heliopause.   In late 2023, Voyager 1 lost all downlink telemetry and the flight team had essentially no visibility into the state of the spacecraft which is over 15 billion miles from the Earth.   This talk will detail how the flight team diagnosed the problem, and formulated a recovery plan to patch the Flight Data System flight software.
 
