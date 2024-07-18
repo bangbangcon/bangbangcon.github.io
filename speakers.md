@@ -25,6 +25,10 @@ I am the Mission Assurance Manager at NASA Jet Propulsion Lab/Caltech. I graduat
 
 ### Dawn Walker
 
+**Let’s make local and accountable tech!**
+
+Over the past decade I have tried lots of things to build and own computing and networks with others! I have written collective speculative fiction about a future web, made a kit to talk to your neighbours to share your internet, stewarded distributed public data, and more. Some of those projects have succeeded and some have failed. My trick is to act like the future of computing that I want already exists in the world and I get to hang out there. I will talk about why that future should be more local, how I bring it into the present, and ways to build tech together!
+
 **Dawn Walker** is a researcher and designer interested in how computing intersects with just transitions. She has started a tech worker co-op, participated in community-led archiving of environmental and climate data, and schemed about mesh networking (to name a few things) in her attempts to create alternatives to existing ways of building and stewarding technology. Since 2017 she has co-organized Our Networks, a conference about the past, present, and future of building our own network infrastructures hosted in Toronto and Vancouver.
 
 ---
