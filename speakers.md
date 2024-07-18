@@ -36,6 +36,19 @@ I am the Mission Assurance Manager at NASA Jet Propulsion Lab/Caltech. I graduat
 <img src="images/speakers/first-last.png" alt="First Last" class="speaker-img" />
 -->
 
+### Alicia Guo
+
+<a name="alicia-guo" id="alicia-guo"></a>
+<img src="images/speakers/alicia-guo.png" alt="Alicia Guo" class="speaker-img" />
+
+**This is the poem that doesn’t end!! or, the poetics of RNG!**
+
+What does it mean for a poem to go on … forever? How does it never run out of possibilities? We’ll be exploring writing through context-free grammars and other random processes asking ourselves, what is randomness anyway? We’ll look at pre-computing forms of random generation to pseudo and true random generation to bananas, expanding our understanding of randomness as a function to something more poetic.
+
+**Alicia Guo is** a computational artist and poet based in Seattle, currently pursuing a PhD working on creativity support tools. Her work plays with blending the physical and digital into love letters on the internet, transforming text into interactive experiences. Her computational poems have appeared in Taper, The HTML Review, and Crawlspace.
+
+---
+
 ### Devon Tao
 
 <a name="devon-tao" id="devon-tao"></a>
