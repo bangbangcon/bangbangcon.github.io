@@ -122,6 +122,19 @@ For fifteen hundred years, the astrolabe was the most widely-used computing devi
 
 ---
 
+### Jesse Chen
+
+<a name="jesse-chen" id="jesse-chen"></a>
+<img src="images/speakers/jesse-chen.png" alt="Jesse Chen" class="speaker-img" />
+
+**A brief history of keyboards!**
+
+I love looking at early designs for inventions before a standard design emerged. You can find wild, surprising ideas in the initial explorations of a concept, like with early typewriters! While browsing those out-there designs, I was gobsmacked to find a perfectly recognizable QWERTY keyboard, and had to know more. Why? How?? Let’s walk through what I learned, and how that design survived the intervening 150 years despite inventions like electricity, computers, and Dvorak!
+
+**Jesse** loves learning about the world and its surprising amount of detail, how it all somehow manages to work, and how it used to work. I mean, just imagine NYC humming along in 1924 with 6 million people, 600,000 telephones that could all interconnect, and 0 electronic computers.
+
+---
+
 ### Juan Pablo Sarmiento
 
 <a name="juan-pablo-sarmiento" id="juan-pablo-sarmiento"></a>
