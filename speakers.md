@@ -135,6 +135,19 @@ While writing an unobtrusive memory profiler, I discovered I needed to reconstru
 
 ---
 
+### Liz Frost
+
+<a name="liz-frost" id="liz-frost"></a>
+<img src="images/speakers/liz-frost.png" alt="Liz Frost" class="speaker-img" />
+
+**Keyboarding Ain’t Easy?? What Not To Do When Building a Keyboard!!**
+
+I set out to build myself a custom keyboard from the ground up. So far, I have failed. But I’ve failed in some very interesting and informative ways, and I want to share them with you! Join me for a discussion of embedded programming, how hard soldering is, and my own naïveté on entering the world of hardware.
+
+**Liz Frost** is a computer toucher, cable organiser, and colourful equine. She lives in Vancouver, BC and works for the company that wakes you up in the middle of the night. Find her online at cohost.org/stillinbeta and ask to see pictures of her pets.
+
+---
+
 ### Maryanne Wachter
 
 <a name="maryanne-wachter" id="maryanne-wachter"></a>

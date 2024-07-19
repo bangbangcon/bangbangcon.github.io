@@ -38,6 +38,7 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="speakers.html#jes-wolfe"><img height="100" width="100" src="images/speakers/thumbnail/jes-wolfe.png" alt="Jes Wolfe" /></a></div>
   <div><a href="speakers.html#juan-pablo-sarmiento"><img height="100" width="100" src="images/speakers/thumbnail/juan-pablo-sarmiento.png" alt="Juan Pablo Sarmiento" /></a></div>
   <div><a href="speakers.html#julian-squires"><img height="100" width="100" src="images/speakers/thumbnail/julian-squires.png" alt="Julian Squires" /></a></div>
+  <div><a href="speakers.html#liz-frost"><img height="100" width="100" src="images/speakers/thumbnail/liz-frost.png" alt="Liz Frost" /></a></div>
   <div><a href="speakers.html#maryanne-wachter"><img height="100" width="100" src="images/speakers/thumbnail/maryanne-wachter.png" alt="Maryanne Wachter" /></a></div>
   <div><a href="speakers.html#matías-lang"><img height="100" width="100" src="images/speakers/thumbnail/matias-lang.png" alt="Matías Lang" /></a></div>
   <div><a href="speakers.html#nicole-tietz-sokolskaya"><img height="100" width="100" src="images/speakers/thumbnail/nicole-tietz-sokolskaya.png" alt="Nicole Tietz-Sokolskaya" /></a></div>
