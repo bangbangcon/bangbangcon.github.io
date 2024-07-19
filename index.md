@@ -98,22 +98,29 @@ time.
 
 Here's what some of our past speakers and attendees said about us:
 
-> "@bangbangcon managed to pack **more useful info into one day than most other conferences do in 3**. And it was **10x more fun.**"
-> -- [@johnwittrock](https://twitter.com/johnwittrock/status/861206986448404481)
+> "Going to !!Con **rekindled my love of computing and changed my entire career trajectory**. Most fun I've ever had at a tech event!"
+> -- [Geoffrey Litt](https://www.geoffreylitt.com/)
 >
-> "Virtual @bangbangcon's reminding me **how much fun it is to hear people
-> talk about what they're passionate about**"
-> -- [@trudake](https://twitter.com/trudake/status/1259231865212481537)
+> "[@bangbangcon managed to pack **more useful info into one day than most other conferences do in 3**. And it was **10x more fun.**"](https://twitter.com/johnwittrock/status/861206986448404481)
+> -- John Wittrock
 >
-> "It's refreshing to **learn 30+ new things about programming in a single weekend** at @bangbangcon, even though I've been programming for so long"
-> -- [@pixelyunicorn](https://twitter.com/pixelyunicorn/status/861690031370645504)
+> ["It's refreshing to **learn 30+ new things about programming in a single weekend** at @bangbangcon, even though I've been programming for so long"](https://twitter.com/pixelyunicorn/status/861690031370645504)
+> -- [Melody Starling](https://melody.dev/)
 >
-> "@bangbangcon was awesome!  Learned a lot, met very friendly people, and **left inspired**."
-> -- [@bxmani](https://twitter.com/bxmani/status/861400448107937792)
->
-> "It's only halfway over, but **@bangbangcon is setting the bar for virtual
-> events for me**.  [...]"
-> -- [@lazerwalker](https://twitter.com/lazerwalker/status/1259238259328237568)
+> ["@bangbangcon was awesome!  Learned a lot, met very friendly people, and **left inspired**."](https://twitter.com/bxmani/status/861400448107937792)
+> -- [Bomani McClendon](https://bomani.rip/)
+
+<a name="tickets" id="tickets"></a>
+
+## How do I attend?
+
+You can attend !!Con 2024 either [in-person](https://bangbangcon.com/venue.html) or online!
+
+To join us in person, you'll need to have a ticket -- [go get one](https://bangbangcon2024.ticketspice.com/tickets)!  As always for !!Con, tickets are pay-what-you-want. This year, we've set a suggested ticket price of $256 -- it turns out that running an [outdoor conference](https://bangbangcon.com/venue.html) gets really expensive really quickly. If you can, please consider paying $256 for your ticket (or, if you can afford it, more, so that folks who haven't got the means can come and we can still run the event!). But *we want you at the conference regardless*, so if you can't afford $256, please register anyway and pay what you can afford!
+
+We're also offering [online-only tickets](https://bangbangcon2024.ticketspice.com/tickets), with a suggested donation of $8. Buying an online-only ticket will get you access to our 2024 Discord server.  Discord was a popular feature of the online-only !!Cons in [2022](/2022/), [2021](/2021/), and [2020](/2020). (In-person attendees will get access to the Discord too.)
+
+And, as always, our live stream will be public and free for everyone, no ticket required.  Watch this space for details about the live stream!
 
 <a name="organizers"></a>
 
