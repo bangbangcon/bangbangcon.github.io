@@ -42,6 +42,19 @@ Over the past decade I have tried lots of things to build and own computing and 
 <img src="images/speakers/first-last.png" alt="First Last" class="speaker-img" />
 -->
 
+### Adam Solove
+
+<a name="adam-solove" id="adam-solove"></a>
+<img src="images/speakers/adam-solove.png" alt="Adam Solove" class="speaker-img" />
+
+**Recreating Sketchpad, the first GUI!**
+
+Sketchpad was the first computer program with a graphical user interface, allowing a human and a computer to build a drawing together using a monitor and pointer. It was also a surprisingly deep program, allowing the user to create reusable templates, copy/paste, and specify constraints for the computer to enforce. Even though it’s a hugely influential program, for several decades, it’s only been visible in grainy old videos. So I made a recreation of Sketchpad that runs in the browser and anyone can play with. Along the way, I learned a lot about reading old papers, how IO worked on early computers, and the history of Sketchpad’s influence on later programming environments and UIs. Come learn about Sketchpad, see it in action live, and learn how it can help us make better UIs today.
+
+**Adam** has been building UIs for twenty-five years. He likes explaining things with pictures.
+
+---
+
 ### Alicia Guo
 
 <a name="alicia-guo" id="alicia-guo"></a>
