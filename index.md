@@ -97,22 +97,17 @@ time.
 
 Here's what some of our past speakers and attendees said about us:
 
-> "@bangbangcon managed to pack **more useful info into one day than most other conferences do in 3**. And it was **10x more fun.**"
-> -- [@johnwittrock](https://twitter.com/johnwittrock/status/861206986448404481)
+> "Going to !!Con **rekindled my love of computing and changed my entire career trajectory**. Most fun I've ever had at a tech event!"
+> -- [Geoffrey Litt](https://www.geoffreylitt.com/)
 >
-> "Virtual @bangbangcon's reminding me **how much fun it is to hear people
-> talk about what they're passionate about**"
-> -- [@trudake](https://twitter.com/trudake/status/1259231865212481537)
+> "@bangbangcon managed to pack **more useful info into one day than most other conferences do in 3**. And it was **10x more fun.**"]((https://twitter.com/johnwittrock/status/861206986448404481))
+> -- John Wittrock
 >
-> "It's refreshing to **learn 30+ new things about programming in a single weekend** at @bangbangcon, even though I've been programming for so long"
-> -- [@pixelyunicorn](https://twitter.com/pixelyunicorn/status/861690031370645504)
+> ["It's refreshing to **learn 30+ new things about programming in a single weekend** at @bangbangcon, even though I've been programming for so long"](https://twitter.com/pixelyunicorn/status/861690031370645504))
+> -- [Melody Starling](https://melody.dev/)
 >
-> "@bangbangcon was awesome!  Learned a lot, met very friendly people, and **left inspired**."
-> -- [@bxmani](https://twitter.com/bxmani/status/861400448107937792)
->
-> "It's only halfway over, but **@bangbangcon is setting the bar for virtual
-> events for me**.  [...]"
-> -- [@lazerwalker](https://twitter.com/lazerwalker/status/1259238259328237568)
+> ["@bangbangcon was awesome!  Learned a lot, met very friendly people, and **left inspired**."](https://twitter.com/bxmani/status/861400448107937792)
+> -- [Bomani McClendon](https://bomani.rip/)
 
 <a name="organizers"></a>
 
