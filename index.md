@@ -44,6 +44,7 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="speakers.html#liz-frost"><img height="100" width="100" src="images/speakers/thumbnail/liz-frost.png" alt="Liz Frost" /></a></div>
   <div><a href="speakers.html#maryanne-wachter"><img height="100" width="100" src="images/speakers/thumbnail/maryanne-wachter.png" alt="Maryanne Wachter" /></a></div>
   <div><a href="speakers.html#matías-lang"><img height="100" width="100" src="images/speakers/thumbnail/matias-lang.png" alt="Matías Lang" /></a></div>
+  <div><a href="speakers.html#max-kreminski"><img height="100" width="100" src="images/speakers/thumbnail/max-kreminski.png" alt="Max Kreminski" /></a></div>
   <div><a href="speakers.html#nicole-tietz-sokolskaya"><img height="100" width="100" src="images/speakers/thumbnail/nicole-tietz-sokolskaya.png" alt="Nicole Tietz-Sokolskaya" /></a></div>
   <div><a href="speakers.html#nolen-royalty"><img height="100" width="100" src="images/speakers/thumbnail/nolen-royalty.png" alt="Nolen Royalty" /></a></div>
   <div><a href="speakers.html#omar-rizwan"><img height="100" width="100" src="images/speakers/thumbnail/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
@@ -52,6 +53,7 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="speakers.html#quinn-dombrowski"><img height="100" width="100" src="images/speakers/thumbnail/quinn-dombrowski.png" alt="Quinn Dombrowski" /></a></div>
   <div><a href="speakers.html#rebecca-ravenoak"><img height="100" width="100" src="images/speakers/thumbnail/rebecca-ravenoak.png" alt="Rebecca Ravenoak" /></a></div>
   <div><a href="speakers.html#richard-lewei-huang-yufeng-zhao"><img height="100" width="100" src="images/speakers/thumbnail/richard-lewei-huang-yufeng-zhao.png" alt="Richard Lewei Huang and Yufeng Zhao" /></a></div>
+  <div><a href="speakers.html#ryan-mast"><img height="100" width="100" src="images/speakers/thumbnail/ryan-mast.png" alt="Ryan Mast" /></a></div>
   <div><a href="speakers.html#santiago-gepigon"><img height="100" width="100" src="images/speakers/thumbnail/santiago-gepigon.png" alt="Santiago Gepigon III" /></a></div>
   <div><a href="speakers.html#taylor-troesh"><img height="100" width="100" src="images/speakers/thumbnail/taylor-troesh.png" alt="Taylor Troesh" /></a></div>
   <div><a href="speakers.html#vaibhav-sagar"><img height="100" width="100" src="images/speakers/thumbnail/vaibhav-sagar.png" alt="Vaibhav Sagar" /></a></div>

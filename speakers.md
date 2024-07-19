@@ -94,6 +94,34 @@ There's an invisible world around us: The electromagnetic spectrum! It's how rad
 
 ---
 
+### Daniel Temkin
+
+<!-- <a name="devon-tao" id="devon-tao"></a>
+<img src="images/speakers/devon-tao.png" alt="Devon Tao" class="speaker-img" /> -->
+
+**Lord Zeus, defender of travelers and of those far from home, please create a function called printBeerInsideLoop with parameter n!**
+
+In the ELIZA effect, we temporarily read a natural language system as sentient. Usually this sentient being is subservient to us and we are in control. The Olympus programming language flips this power dynamic. Our code succeeds through the will of the gods!
+
+**Daniel** makes esolangs -- programming languages as experiments or self-expression -- including FatFinger, Folders, and Entropy. His blog on the subject, esoteric.codes, won the 2014 ArtsWriters.org grant from Creative Capital and was exhibited at ZKM. He has spoken on esolangs at the New Museum, SIGGRAPH, SXSW, and Media Art Histories and written for Hyperallergic and Outland. He published an aesthetic theory of the medium for Digital Humanities Quarterly in 2023.
+
+---
+
+### Danielle Marshall
+
+<!-- <a name="devon-tao" id="devon-tao"></a>
+<img src="images/speakers/devon-tao.png" alt="Devon Tao" class="speaker-img" /> -->
+
+**Grading your Types? From Bangs to Boxes and Beyond!**
+
+Most programmers think of types as a tool to describe different kinds of value that might exist in our programs: integers, floating point numbers, and so on. These days, though, types help us to not only describe *what* our programs compute, but also *how* they compute: what side effects might a computation have? What resources does it use? Is it being accessed by someone who has the right permissions?
+
+In this talk, we'll explore how modern programming languages are using types in this exciting new way. We'll start with the idea of ""linear types"", which have been around for a long time but are only recently starting to be adopted for practical programming, and from there we'll move on to ""graded types"", a much newer idea; these go beyond linearity and let us express all kinds of interesting properties about our programs. We'll discuss these ideas both from the perspective of the Granule research language and also looking at how they are slowly making their way into the wider world of programming.
+
+**Danielle** is currently a research associate at the University of Glasgow, where she works on mailbox types for reliable and scalable communication. She recently submitted her PhD thesis at the University of Kent, which involved extending Granule's graded type system to capture global properties such as memory and communication safety.
+
+---
+
 ### Devon Tao
 
 <a name="devon-tao" id="devon-tao"></a>
@@ -212,6 +240,18 @@ As we know from Murphy, everything that can go wrong will go wrong. Sometimes, a
 
 **Matías** is an Argentinian security researcher and developer. He believes someday engineers will have the right tools and knowledge to build truly secure software. Since that hasn't occurred yet, he refuses to use many applications until their security holes get fixed.
 
+---
+
+### Max Kreminski
+
+<a name="max-kreminski" id="max-kreminski"></a>
+<img src="images/speakers/max-kreminski.png" alt="Max Kreminski" class="speaker-img" />
+
+**Mutating Text Toward Better Nonsense?!**
+
+Recently, we’ve made a lot of progress in getting computational processes to generate text that makes sense. But creative processes (like storytelling and poetry-writing) often benefit more from injections of *good nonsense*. In this talk, I first briefly characterize what makes nonsense “good”, then discuss a series of three projects that take different computational approaches to the generation of high-quality nonsense: Blabrecs, a game that uses a statistical classifier to condition the generation of nonsense words by human players; Blabwreckage, a poetry machine that adapts the Blabrecs classifier to progressively mutate arbitrary source texts (either human-supplied or derived from random noise) into pronounceable nonsense poems; and Savelost, a poetry machine that aims to progressively compress a source text into a shorter and shorter micropoem while retaining as much of the original text’s meaning as possible. I conclude with a brief discussion of the architectural similarities and differences between these projects, and of what the similarities might imply about the relationship between computation, creativity, and nonsense.
+
+**Max Kreminski** is a researcher in artificial intelligence, human-computer interaction, and creativity, with a particular focus on the design, development, and evaluation of AI-based creativity support tools for storytelling, poetry, and game design. Currently they direct the storytelling lab at Midjourney; before that they were an assistant professor of computer science at Santa Clara University.
 
 ---
 
@@ -323,6 +363,19 @@ Polychrome textiles are created by overlapping and interlacing two or more color
 Banner ads were an important early form of advertising on the web. In 2023, we built Banner Depot 2000, an interactive archive of 22,915 Chinese- and English-language banner ads from the late 1990s and early 2000s. We believe it is the largest publicly-accessible archive of early web banner ads on the Internet! We collected the ads by scraping the Wayback Machine using a dataset of historical URLs compiled from print "Internet directory" books from that era. On Banner Depot 2000, visitors can browse, search, and view metadata about each banner ad in the archive. Additionally, they can compose "banner ad poetry" using individual frames from the banner ads in our collection. The archive provides invaluable insights into the visual and commercial culture of the early web, as well as the evolution of online advertising. In the presentation, we will talk about how the project came about, how we built the archive, how the archive can support different kinds of research, and our future plans with the archive.
 
 **Richard Lewei Huang** is a PhD student and critical technologist at the University of Washington studying web archiving and internet history. **Yufeng Zhao** is an artist, technologist and designer whose work addresses data, imagery/language processing, and experience design. Both Yufeng and Richard are alumni of the Interactive Media Arts program at NYU Shanghai. They formed Switcheristic Telecommunications, an artist collective focusing on assembling and presenting atypical data.
+
+---
+
+### Ryan Mast
+
+**The Perfect Blend!! Reverse engineering a bluetooth protocol for better smoothies!**
+
+<a name="ryan-mast" id="ryan-mast"></a>
+<img src="images/speakers/ryan-mast.png" alt="Ryan Mast" class="speaker-img" />
+
+Have you ever gone to make a smoothie, only to have the blades spin fruitlessly while the fruit sticks just out of reach on the walls of the cup? I’ve wrestled with a “smart” blender over this and other issues on many occasions, often resorting to tossing the single serving cup to dislodge stubborn pieces of fruit. In this talk, I’ll share how I learned to reverse engineer BLE devices in order to control the exact settings used by the blender, including initial failures and how I overcame them. And in the end, we’ll create a custom blending profile for the perfect blend!
+
+**Ryan** is a software engineer working on open source projects to make the electric grid more reliable. His interests include software security, niche video games, and reverse engineering audio/video hardware used in live productions.
 
 ---
 
