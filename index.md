@@ -34,6 +34,7 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="speakers.html#adam-solove"><img height="100" width="100" src="images/speakers/thumbnail/adam-solove.png" alt="Adam Solove" /></a></div>
   <div><a href="speakers.html#alicia-guo"><img height="100" width="100" src="images/speakers/thumbnail/alicia-guo.png" alt="Alicia Guo" /></a></div>
   <div><a href="speakers.html#amedee-daboville"><img height="100" width="100" src="images/speakers/thumbnail/amedee-daboville.png" alt="Amédée d'Aboville" /></a></div>
+  <div><a href="speakers.html#blinry"><img height="100" width="100" src="images/speakers/thumbnail/blinry.png" alt="blinry" /></a></div>
   <div><a href="speakers.html#devon-tao"><img height="100" width="100" src="images/speakers/thumbnail/devon-tao.png" alt="Devon Tao" /></a></div>
   <div><a href="speakers.html#ivan-zhao"><img height="100" width="100" src="images/speakers/thumbnail/ivan-zhao.png" alt="Ivan Zhao" /></a></div>
   <div><a href="speakers.html#jes-wolfe"><img height="100" width="100" src="images/speakers/thumbnail/jes-wolfe.png" alt="Jes Wolfe" /></a></div>

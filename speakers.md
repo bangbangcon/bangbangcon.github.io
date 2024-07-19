@@ -81,6 +81,19 @@ A few years ago someone tried to learn chess _in a month_ and then play world ch
 
 ---
 
+### blinry
+
+<a name="blinry" id="blinry"></a>
+<img src="images/speakers/blinry.png" alt="blinry" class="speaker-img" />
+
+**Exploring the Invisible: Adventures in the Electromagnetic Spectrum!!**
+
+There's an invisible world around us: The electromagnetic spectrum! It's how radio, TV and Wi-Fi work. And plenty of other things, too –  I wanted to learn more about it! So, in a free week in March,  inspired by Vi Hart's "Make 50 of something" technique, I decided to  try to find 50 things to do with a modern Software Defined Radio – a "universal" radio receiver in the form of a $30 USB dongle. Let me to take you on three adventures that happened to me that week!
+
+**blinry** grew up in libraries, which convinced them that it's possible to learn and understand basically everything! Their other childhood influences include a scientific German TV show with an orange cartoon mouse. Nowadays, they spend most of their time creating collaborative and educational open-source tools, or taking trains to random places. They are part of the Chaos Community, the Recurse Center, and Jugend Hackt.
+
+---
+
 ### Devon Tao
 
 <a name="devon-tao" id="devon-tao"></a>
