@@ -129,11 +129,11 @@ In this talk, we'll explore how modern programming languages are using types in 
 
 **It's alive.... IT'S ALIVE!!! Braitenberg Vehicles! (Have you ever seen an AI like this??!!)**
 
-"AI has been getting more and more complex. Surrounded by chess robots, self-driving cars, and now Large Language Models, we begin to ask ourselves: what does it take for a machine to behave like a human? Does it take millions of parameters? Mountains of training data?
+AI has been getting more and more complex. Surrounded by chess robots, self-driving cars, and now Large Language Models, we begin to ask ourselves: what does it take for a machine to behave like a human? Does it take millions of parameters? Mountains of training data?
 
-None of the above! Introducing... Braitenberg Vehicles! These are simple, human-like robots that are made only of a couple of sensors and motors. In this talk, I will convince you that these simple components are enough to show human-like behavior, and we will get to see some Braitenberg Vehicles in action using a Braitenberg Vehicles Simulator I made!"
+None of the above! Introducing... Braitenberg Vehicles! These are simple, human-like robots that are made only of a couple of sensors and motors. In this talk, I will convince you that these simple components are enough to show human-like behavior, and we will get to see some Braitenberg Vehicles in action using a Braitenberg Vehicles Simulator I made!
 
-**Devon** is a student at Harvey Mudd College studying computer science and mathematics. Outside of computer science, they also like to write musical theater!
+**Devon** is a student at Harvey Mudd College studying computer science and mathematics. Outside of computer science, they also like to write musical theater and make educational videos on their YouTube channel, [CS Professor of Fun](https://www.youtube.com/@CSProfessorofFun/videos)!
 
 ---
 
