@@ -100,7 +100,7 @@ Here's what some of our past speakers and attendees said about us:
 > "Going to !!Con **rekindled my love of computing and changed my entire career trajectory**. Most fun I've ever had at a tech event!"
 > -- [Geoffrey Litt](https://www.geoffreylitt.com/)
 >
-> "@bangbangcon managed to pack **more useful info into one day than most other conferences do in 3**. And it was **10x more fun.**"](https://twitter.com/johnwittrock/status/861206986448404481)
+> "[@bangbangcon managed to pack **more useful info into one day than most other conferences do in 3**. And it was **10x more fun.**"](https://twitter.com/johnwittrock/status/861206986448404481)
 > -- John Wittrock
 >
 > ["It's refreshing to **learn 30+ new things about programming in a single weekend** at @bangbangcon, even though I've been programming for so long"](https://twitter.com/pixelyunicorn/status/861690031370645504)
