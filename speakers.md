@@ -133,7 +133,7 @@ AI has been getting more and more complex. Surrounded by chess robots, self-driv
 
 None of the above! Introducing... Braitenberg Vehicles! These are simple, human-like robots that are made only of a couple of sensors and motors. In this talk, I will convince you that these simple components are enough to show human-like behavior, and we will get to see some Braitenberg Vehicles in action using a Braitenberg Vehicles Simulator I made!
 
-**Devon** is a student at Harvey Mudd College studying computer science and mathematics. Outside of computer science, they also like to write musical theater and make educational videos on their YouTube channel, [CS Professor of Fun](https://www.youtube.com/@CSProfessorofFun/videos)!
+**Devon** is a student at Harvey Mudd College studying computer science and mathematics. Outside of computer science, they also like to write musical theater and make educational videos on their YouTube channel, [CS Professor of Fun](https://www.youtube.com/@CSProfessorofFun)!
 
 ---
 
