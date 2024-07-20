@@ -222,7 +222,7 @@ I set out to build myself a custom keyboard from the ground up. So far, I have f
 
 **Riveting Insights! Bridge.watch and the State of America's Infrastructure**
 
-There are over 600,000 bridges in the U.S. with nearly 4 billion daily crossings. While the (fortunately rare) bridge collapse will make national news, what other publicly available information is there that we can dig into the state of U.S. infrastructure? This talk will go over the development of an open source application, [project name], for processing, cleaning, and visualizing bridge infrastructure data from the FHWA and what insights can be gained through simple queries and generating different visuals on the fly.
+There are over 600,000 bridges in the U.S. with millions of daily crossings. While the (fortunately rare) bridge collapse will make national news, what other publicly available information is there that we can dig into the state of U.S. infrastructure? This talk will go over the development of an open source application, Bridge.Watch, for processing, cleaning, and visualizing bridge infrastructure data from the FHWA and what insights can be gained through simple queries and generating different visuals on the fly.
 
 **Maryanne Wachter** is a software developer and professional engineer. As a structural engineer, she's worked on landmark transit projects, long-span bridges, and various educational/cultural centers in the U.S. and Europe. She currently works as a senior software engineer at Ready.net specializing in geospatial data visualization.
 
