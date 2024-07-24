@@ -24,6 +24,8 @@ what will you do now???? ?? ? ? ? ??
   [Conduct](conduct.html)
 </p>
 
+<p style="text-align: center;">**Tickets are available for the last-ever !!Con!  Get yours [here](https://bangbangcon2024.ticketspice.com/tickets) before they're all gone!**</p>
+
 <p id="blurb">**!!Con** (pronounced "bang bang con") **2024** is our _final_ event featuring **two days of talks** to celebrate the
 joyous, exciting, and surprising moments in computing.
 </p>
