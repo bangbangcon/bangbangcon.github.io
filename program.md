@@ -19,7 +19,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 9:00am          | Space opens (please don't arrive before nine!)
 | 9:00-10:25am    | Registration; refreshments; mingling
-| 10:25-11:10am   | &bull; Opening remarks <br /> &bull; *Keynote talk* ([Dawn Walker](speakers.html#dawn-walker))
+| 10:25-11:10am   | &bull; Opening remarks <br /> &bull; **Keynote talk:** *Let’s make local and accountable tech!* ([Dawn Walker](speakers.html#dawn-walker))
 | 11:10-11:20am   | Break!
 | 11:20am-12:05pm | **Session the First:** <br /> &bull; *Reverse-engineering a 30-year old synthesizer to perfectly recreate video game music!* ([Peter Sobot](speakers.html#peter-sobot))<br />&bull; *Programming with only exceptions!* ([Nicole Tietz-Sokolskaya](speakers.html#nicole-tietz-sokolskaya))<br />&bull; *Mitos! Handweaving My Ancestral DNA!!!* ([Sally Kong](speakers.html#sally-kong))<br />&bull; *Let's run a tiny chess neural network by hand!* ([Amédée d'Aboville](speakers.html#amedee-d-aboville))<br />
 | 12:05-1:45pm    | Break for lunch
@@ -51,7 +51,7 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 | 2:30-2:40pm     | Break!
 | 2:40-3:15pm     | **Session the Eighth:** <br /> &bull; *Domain names! Where do they come from???* ([Wesley Aptekar-Cassels](speakers.html#wesley-aptekar-cassels))<br />&bull; *Mutating Text Toward Better Nonsense?!* ([Max Kreminski](speakers.html#max-kreminski))<br />&bull; *It's skeuomorphin' time!! The enduring physicality of braille!* ([Santiago Gepigon III](speakers.html#santiago-gepigon-iii))<br />
 | 3:15-4:05pm     | Unconferencing!
-| 4:05-4:45pm     | Keynote ([Bruce Waggoner](speakers.html#bruce-waggoner))
+| 4:05-4:45pm     | **Keynote talk:** *Saving Voyager 1!* ([Bruce Waggoner](speakers.html#bruce-waggoner))
 | 4:45-5:00pm     | Thanks and closing remarks
 | 5:00            | The End!
 
