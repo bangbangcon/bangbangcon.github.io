@@ -46,7 +46,7 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="speakers.html#julian-squires"><img height="100" width="100" src="images/speakers/thumbnail/julian-squires.png" alt="Julian Squires" /></a></div>
   <div><a href="speakers.html#liz-frost"><img height="100" width="100" src="images/speakers/thumbnail/liz-frost.png" alt="Liz Frost" /></a></div>
   <div><a href="speakers.html#maryanne-wachter"><img height="100" width="100" src="images/speakers/thumbnail/maryanne-wachter.png" alt="Maryanne Wachter" /></a></div>
-  <div><a href="speakers.html#matías-lang"><img height="100" width="100" src="images/speakers/thumbnail/matias-lang.png" alt="Matías Lang" /></a></div>
+  <div><a href="speakers.html#matias-lang"><img height="100" width="100" src="images/speakers/thumbnail/matias-lang.png" alt="Matías Lang" /></a></div>
   <div><a href="speakers.html#max-kreminski"><img height="100" width="100" src="images/speakers/thumbnail/max-kreminski.png" alt="Max Kreminski" /></a></div>
   <div><a href="speakers.html#nicole-tietz-sokolskaya"><img height="100" width="100" src="images/speakers/thumbnail/nicole-tietz-sokolskaya.png" alt="Nicole Tietz-Sokolskaya" /></a></div>
   <div><a href="speakers.html#nolen-royalty"><img height="100" width="100" src="images/speakers/thumbnail/nolen-royalty.png" alt="Nolen Royalty" /></a></div>
