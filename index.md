@@ -34,6 +34,7 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="speakers.html#bruce-waggoner"><img height="100" width="100" src="images/speakers/thumbnail/bruce-waggoner.png" alt="Bruce Waggoner" /></a></div>
   <div><a href="speakers.html#dawn-walker"><img height="100" width="100" src="images/speakers/thumbnail/dawn-walker.png" alt="Dawn Walker" /></a></div>
   <div><a href="speakers.html#adam-solove"><img height="100" width="100" src="images/speakers/thumbnail/adam-solove.png" alt="Adam Solove" /></a></div>
+  <div><a href="speakers.html#aldis-elfarsdottir"><img height="100" width="100" src="images/speakers/thumbnail/aldis-elfarsdottir.png" alt="Aldís Elfarsdóttir" /></a></div>
   <div><a href="speakers.html#alicia-guo"><img height="100" width="100" src="images/speakers/thumbnail/alicia-guo.png" alt="Alicia Guo" /></a></div>
   <div><a href="speakers.html#amedee-daboville"><img height="100" width="100" src="images/speakers/thumbnail/amedee-daboville.png" alt="Amédée d'Aboville" /></a></div>
   <div><a href="speakers.html#blinry"><img height="100" width="100" src="images/speakers/thumbnail/blinry.png" alt="blinry" /></a></div>
@@ -52,7 +53,6 @@ joyous, exciting, and surprising moments in computing.
   <div><a href="speakers.html#omar-rizwan"><img height="100" width="100" src="images/speakers/thumbnail/omar-rizwan.png" alt="Omar Rizwan" /></a></div>
   <div><a href="speakers.html#peter-sobot"><img height="100" width="100" src="images/speakers/thumbnail/peter-sobot.png" alt="Peter Sobot" /></a></div>
   <div><a href="speakers.html#phil-warren"><img height="100" width="100" src="images/speakers/thumbnail/phil-warren.png" alt="Phil Warren" /></a></div>
-  <div><a href="speakers.html#aldis-elfarsdottir"><img height="100" width="100" src="images/speakers/thumbnail/aldis-elfarsdottir.png" alt="Aldís Elfarsdóttir" /></a></div>
   <div><a href="speakers.html#rebecca-ravenoak"><img height="100" width="100" src="images/speakers/thumbnail/rebecca-ravenoak.png" alt="Rebecca Ravenoak" /></a></div>
   <div><a href="speakers.html#richard-lewei-huang-yufeng-zhao"><img height="100" width="100" src="images/speakers/thumbnail/richard-lewei-huang-yufeng-zhao.png" alt="Richard Lewei Huang and Yufeng Zhao" /></a></div>
   <div><a href="speakers.html#ryan-mast"><img height="100" width="100" src="images/speakers/thumbnail/ryan-mast.png" alt="Ryan Mast" /></a></div>
