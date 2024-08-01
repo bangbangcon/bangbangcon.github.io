@@ -1,6 +1,6 @@
 ---
 layout: default-2024
-title: Sponsorship - !!Con 2024
+title: Venue - !!Con 2024
 ---
 
 # Venue
