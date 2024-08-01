@@ -327,16 +327,16 @@ Let's explore the invention-in-progress of an amazing "printing machine", which 
 
 ---
 
-### Quinn Dombrowski
+### Aldís Elfarsdóttir
 
 **Huggable Data! Making the Ephemeral Last Longer with Textile Dataviz!**
 
-<a name="quinn-dombrowski" id="quinn-dombrowski"></a>
-<img src="images/speakers/quinn-dombrowski.png" alt="Quinn Dombrowski" class="speaker-img" />
+<a name="aldis-elfarsdottir" id="aldis-elfarsdottir"></a>
+<img src="images/speakers/aldis-elfarsdottir.png" alt="Aldís Elfarsdóttir" class="speaker-img" />
 
 Computers and data are closely intertwined: we use computers to capture and create and analyze data, and often to generate visualizations of that data. The things we enjoy -- and hate -- doing on computers are backed by data files. It's difficult to imagine computers without data, and data without the context of the modern computer. Yet, humans have been keeping track of data (or at least, information that could be transformed into data) for millennia prior to the invention of the computer. As fragile as these historical materials can be, they are in most cases easier to preserve than our computer-generated data. Maintaining digital data takes a great deal of time, attention, care, and resources -- and most of us aren't doing it for the data we care about. For some kinds of textual data (e.g. favorite pieces of fanfic, important emails) printing it out is a reasonable approach, but printing out large tabular data sets can maintain the fidelity of individual values, but this is unwieldy to the point of unusability. It renders inaccessible, in many cases, what makes a data set interesting. Enter textile data visualization: transforming data into a medium with a longer probable lifespan than bits. Moreover, a textile can be hung on a wall, it can be worn (to pieces), it can be cuddled with, it can be passed down across generations. Building on the earlier !!Con talk on machine knitting, this talk will draw together examples of textile data visualization -- with different kinds of data (biology, sci-fi novels, insomnia, dating app chat logs), and different textile media (digital knitting machines, weaving, embroidery, and sewing). Some visually reproduce the kinds of visualizations that computers create; others translate the data into the affordances (e.g. stitch / stitch length, warp and weft) of the textile medium. This talk will celebrate the intersection of computing, data, and textile craft, and argue that the data dearest to us deserves to live as more than bits.
 
-**Quinn Dombrowski** founded and runs the Textile Makerspace at Stanford University. In addition to textiles, Quinn supports humanities scholars using technology for their research, with projects including the Data-Sitters Club.
+**Aldís Elfarsdóttir** (she/her) is a PhD student in Management Science and Engineering at Stanford. She studies how to manage the clean energy transition among global firms, and the challenges with self-reported data, carbon accounting, and ESG ratings. She recently had the pleasure of taking Quinn Dombrowski’s class on Data Visualization with Textiles and made a PhD dress to visualize her three data sources in dress form.
 
 ---
 
