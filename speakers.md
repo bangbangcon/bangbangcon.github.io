@@ -18,7 +18,7 @@ title: Speakers - !!Con 2024
 
 Both of the 47 year old Voyager spacecraft are currently in interstellar space and returning their most important data set; in-situ measurements of the magnetic field, plasma and dust beyond the Heliopause.   In late 2023, Voyager 1 lost all downlink telemetry and the flight team had essentially no visibility into the state of the spacecraft which is over 15 billion miles from the Earth.   This talk will detail how the flight team diagnosed the problem, and formulated a recovery plan to patch the Flight Data System flight software.
 
-I am the Mission Assurance Manager at NASA Jet Propulsion Lab/Caltech. I graduated from the University of Nebraska with a BS in Physics and Astronomy.  I have worked at JPL for 39 years supporting dozens of Earth orbiting and deep space missions.  I also volunteer as a gymnastics coach and assist teaching girls engineering and science at a local high school.
+**Bruce Waggoner** is the Mission Assurance Manager at NASA Jet Propulsion Lab/Caltech. He graduated from the University of Nebraska with a BS in Physics and Astronomy.  He has worked at JPL for 39 years supporting dozens of Earth orbiting and deep space missions.  He also volunteers as a gymnastics coach and assists teaching girls engineering and science at a local high school.
 
 ---
 
@@ -116,7 +116,7 @@ In the ELIZA effect, we temporarily read a natural language system as sentient. 
 
 Most programmers think of types as a tool to describe different kinds of value that might exist in our programs: integers, floating point numbers, and so on. These days, though, types help us to not only describe *what* our programs compute, but also *how* they compute: what side effects might a computation have? What resources does it use? Is it being accessed by someone who has the right permissions?
 
-In this talk, we'll explore how modern programming languages are using types in this exciting new way. We'll start with the idea of ""linear types"", which have been around for a long time but are only recently starting to be adopted for practical programming, and from there we'll move on to ""graded types"", a much newer idea; these go beyond linearity and let us express all kinds of interesting properties about our programs. We'll discuss these ideas both from the perspective of the Granule research language and also looking at how they are slowly making their way into the wider world of programming.
+In this talk, we'll explore how modern programming languages are using types in this exciting new way. We'll start with the idea of "linear types", which have been around for a long time but are only recently starting to be adopted for practical programming, and from there we'll move on to "graded types", a much newer idea; these go beyond linearity and let us express all kinds of interesting properties about our programs. We'll discuss these ideas both from the perspective of the Granule research language and also looking at how they are slowly making their way into the wider world of programming.
 
 **Danielle** is currently a research associate at the University of Glasgow, where she works on mailbox types for reliable and scalable communication. She recently submitted her PhD thesis at the University of Kent, which involved extending Granule's graded type system to capture global properties such as memory and communication safety.
 
@@ -129,11 +129,11 @@ In this talk, we'll explore how modern programming languages are using types in 
 
 **It's alive.... IT'S ALIVE!!! Braitenberg Vehicles! (Have you ever seen an AI like this??!!)**
 
-"AI has been getting more and more complex. Surrounded by chess robots, self-driving cars, and now Large Language Models, we begin to ask ourselves: what does it take for a machine to behave like a human? Does it take millions of parameters? Mountains of training data?
+AI has been getting more and more complex. Surrounded by chess robots, self-driving cars, and now Large Language Models, we begin to ask ourselves: what does it take for a machine to behave like a human? Does it take millions of parameters? Mountains of training data?
 
-None of the above! Introducing... Braitenberg Vehicles! These are simple, human-like robots that are made only of a couple of sensors and motors. In this talk, I will convince you that these simple components are enough to show human-like behavior, and we will get to see some Braitenberg Vehicles in action using a Braitenberg Vehicles Simulator I made!"
+None of the above! Introducing... Braitenberg Vehicles! These are simple, human-like robots that are made only of a couple of sensors and motors. In this talk, I will convince you that these simple components are enough to show human-like behavior, and we will get to see some Braitenberg Vehicles in action using a Braitenberg Vehicles Simulator I made!
 
-**Devon** is a student at Harvey Mudd College studying computer science and mathematics. Outside of computer science, they also like to write musical theater!
+**Devon** is a student at Harvey Mudd College studying computer science and mathematics. Outside of computer science, they also like to write musical theater and make educational videos on their YouTube channel, [CS Professor of Fun](https://www.youtube.com/@CSProfessorofFun)!
 
 ---
 
@@ -222,7 +222,7 @@ I set out to build myself a custom keyboard from the ground up. So far, I have f
 
 **Riveting Insights! Bridge.watch and the State of America's Infrastructure**
 
-There are over 600,000 bridges in the U.S. with nearly 4 billion daily crossings. While the (fortunately rare) bridge collapse will make national news, what other publicly available information is there that we can dig into the state of U.S. infrastructure? This talk will go over the development of an open source application, [project name], for processing, cleaning, and visualizing bridge infrastructure data from the FHWA and what insights can be gained through simple queries and generating different visuals on the fly.
+There are over 600,000 bridges in the U.S. with millions of daily crossings. While the (fortunately rare) bridge collapse will make national news, what other publicly available information is there that we can dig into the state of U.S. infrastructure? This talk will go over the development of an open source application, Bridge.Watch, for processing, cleaning, and visualizing bridge infrastructure data from the FHWA and what insights can be gained through simple queries and generating different visuals on the fly.
 
 **Maryanne Wachter** is a software developer and professional engineer. As a structural engineer, she's worked on landmark transit projects, long-span bridges, and various educational/cultural centers in the U.S. and Europe. She currently works as a senior software engineer at Ready.net specializing in geospatial data visualization.
 
@@ -284,7 +284,7 @@ MacOS's Finder is designed for browsing files - but it's powerful enough to run 
 
 You'll hopefully leave with a newfound appreciation for the power of Finder and AppleScript and a better understanding of why double buffering is important for a smooth gaming experience.
 
-**Nolen Royalty** loves embedding games in surprising places and building experiences that connect strangers over the internet - you can find his work at https://eieio.games.
+**Nolen Royalty** loves embedding games in surprising places and building experiences that connect strangers over the internet - you can find his work at <https://eieio.games>.
 
 ---
 
@@ -401,7 +401,7 @@ I'm bothered by how "flat" computing has become for me: staring at a flat screen
 
 In 1931, a lone man murdered math with two shots from a recursive revolver. The two incompleteness theorems punctured permanent holes in our once-pristine mathematical paradise. To this day, landmines lie lurking in the logical landscape. Who will protect our precious computers from inconsistency itself? A $1,000,000 bounty awaits the hero who thwarts the ghost of gunslingin' Gödel! Join us by the computational campfire for a bluegrass ballad!
 
-**Taylor** is mayor of taylor.town and certified connoisseur of crap. He tinkers with writing, learning, time, design, software, ideas, and humor.
+**Taylor** is mayor of [taylor.town](https://taylor.town) and certified connoisseur of crap. He tinkers with writing, learning, time, design, software, ideas, and humor.
 
 ---
 
@@ -425,13 +425,9 @@ SAT solvers have been used to find solutions to a wide variety of problems in do
 
 **Let’s find random things on the street with full-text search!**
 
-Imagine being able to find every “best pizza” shop sign, every "No Parking" notice, or every piece of street art in Brooklyn - without leaving your chair. In this talk, Yufeng will unveil "all texts in Brooklyn" (https://brooklyn.textual.city/), a project that turns Google Street View into a searchable text database. Yufeng will walk through the process of building this full-text search engine, demonstrate interesting search results, and showcase data visualizations that reveal hidden patterns in Brooklyn's urban typography.
+Imagine being able to find every “best pizza” shop sign, every "No Parking" notice, or every piece of street art in Brooklyn - without leaving your chair. In this talk, Yufeng will unveil "all texts in Brooklyn" (<https://brooklyn.textual.city/>), a project that turns Google Street View into a searchable text database. Yufeng will walk through the process of building this full-text search engine, demonstrate interesting search results, and showcase data visualizations that reveal hidden patterns in Brooklyn's urban typography.
 
-**Yufeng Zhao** is an artist, technologist and designer based in Brooklyn. His work addresses data, imagery/language processing, and experience design. Through a blend of web-based projects, video works, and tangible installations, his practice explores unexpected connections embedded in our techno-cultural landscape and the interactions between humans and machines. He is a part of the Switcheristic Telecommunications (swtch.tel), an artist collective focusing on assembling and presenting atypical data.
-
----
-
-More speakers will be posted soon when they confirm their talks!
+**Yufeng Zhao** is an artist, technologist and designer based in Brooklyn. His work addresses data, imagery/language processing, and experience design. Through a blend of web-based projects, video works, and tangible installations, his practice explores unexpected connections embedded in our techno-cultural landscape and the interactions between humans and machines. He is a part of the Switcheristic Telecommunications (<swtch.tel>), an artist collective focusing on assembling and presenting atypical data.
 
 ---
 

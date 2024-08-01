@@ -24,6 +24,8 @@ what will you do now???? ?? ? ? ? ??
   [Conduct](conduct.html)
 </p>
 
+<p style="text-align: center;">**Tickets are available for the last-ever !!Con!  Get yours [here](https://bangbangcon2024.ticketspice.com/tickets) before they're all gone!**</p>
+
 <p id="blurb">**!!Con** (pronounced "bang bang con") **2024** is our _final_ event featuring **two days of talks** to celebrate the
 joyous, exciting, and surprising moments in computing.
 </p>
@@ -126,6 +128,14 @@ To join us in person, you'll need to have a ticket -- [go get one](https://bangb
 We're also offering [online-only tickets](https://bangbangcon2024.ticketspice.com/tickets), with a suggested donation of $8. Buying an online-only ticket will get you access to our 2024 Discord server.  Discord was a popular feature of the online-only !!Cons in [2022](/2022/), [2021](/2021/), and [2020](/2020). (In-person attendees will get access to the Discord too.)
 
 And, as always, our live stream will be public and free for everyone, no ticket required.  Watch this space for details about the live stream!
+
+<a name="sponsors"></a>
+
+## Who's sponsoring?
+
+[Nicole Tietz-Sokolskaya](https://ntietz.com/) is the generous sponsor of our afternoon coffee breaks! ☕ Thank you, Nicole! ❤️
+
+Want to sponsor !!Con as an organization or individual?  We're trying to set the standard for a COVID-safe and inclusive conference, and that costs money.  If you can help out, check out our [sponsorship page](sponsors.html) and [get in touch](mailto:2024-organizers@exclamation.foundation)!
 
 <a name="organizers"></a>
 
