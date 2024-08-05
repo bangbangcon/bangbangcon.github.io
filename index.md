@@ -133,6 +133,8 @@ And, as always, our live stream will be public and free for everyone, no ticket 
 
 ## Who's sponsoring?
 
+[Stanton Ventures](https://stantonventures.com/) is the amazing sponsor of our famous live captioning this year!!!
+
 [Nicole Tietz-Sokolskaya](https://ntietz.com/) is the generous sponsor of our afternoon coffee breaks! ☕ Thank you, Nicole! ❤️
 
 Want to sponsor !!Con as an organization or individual?  We're trying to set the standard for a COVID-safe and inclusive conference, and that costs money.  If you can help out, check out our [sponsorship page](sponsors.html) and [get in touch](mailto:2024-organizers@exclamation.foundation)!
