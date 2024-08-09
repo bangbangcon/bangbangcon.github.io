@@ -133,11 +133,37 @@ And, as always, our live stream will be public and free for everyone, no ticket 
 
 ## Who's sponsoring?
 
-[Stanton Ventures](https://stantonventures.com/) is the amazing sponsor of our famous live captioning this year!!! ❤️
+  <h3 style="margin: 1.5em 0;">AWESOME! Sponsors!</h3>
 
-[Nicole Tietz-Sokolskaya](https://ntietz.com/) is the generous sponsor of our afternoon coffee breaks! ☕ Thank you, Nicole! ❤️
-
-The folks at [Magic Button Club](https://magicbutton.club/) are generously providing buttons as swag for our attendees!  Thanks, Magic Button Club! ❤️
+  <!-- <div class="sponsor"><a href="https://buttondown.com/" target="_blank"><span -->
+  <!--   class="magic">.</span><div class="logo"><img width="360" -->
+  <!--   alt="Buttondown" src="images/sponsors/buttondown.png" /></div></a></div>  -->
+    
+  <div class="sponsor"><a href="https://accelerated.tech/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="200"
+    alt="Accelerated Tech" src="images/sponsors/accelerated-tech.png" /></div></a></div>
+	
+  <h3 style="margin: 1.5em 0;">Live Captioning Sponsor!</h3>	
+  
+  <!-- <div class="sponsor"><a href="https://stantonventures.com" target="_blank"><span -->
+  <!--   class="magic">.</span><div class="logo"><img width="200" -->
+  <!--   alt="Stanton Ventures" src="images/sponsors/stanton-ventures.png" /></div></a></div> -->
+	
+  <h3 style="margin: 1.5em 0;">Coffee Sponsor!</h3>	
+  
+  [Nicole Tietz-Sokolskaya](https://ntietz.com/) is the generous sponsor of our afternoon coffee breaks! ☕ Thank you, Nicole! ❤️
+	
+  <h3 style="margin: 1.5em 0;">Swag Sponsor!</h3>	
+  
+  <div class="sponsor"><span
+    class="magic">.</span><div class="logo"><img width="200"
+    alt="Meyer for Hire Consulting" src="images/sponsors/meyer-for-hire-consulting.png" /></div></div>		
+	
+  <h3 style="margin: 1.5em 0;">Button Sponsor!</h3>	
+  
+  <div class="sponsor"><a href="https://magicbutton.club" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="200"
+    alt="Magic Button Club" src="images/sponsors/magic-button-club.svg" /></div></a></div>	
 
 Want to sponsor !!Con as an organization or individual?  We're trying to set the standard for a COVID-safe and inclusive conference, and that costs money.  If you can help out, check out our [sponsorship page](sponsors.html) and [get in touch](mailto:2024-organizers@exclamation.foundation)!
 
