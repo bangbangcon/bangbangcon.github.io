@@ -145,7 +145,7 @@ And, as always, our live stream will be public and free for everyone, no ticket 
     class="magic">.</span><div class="logo"><img width="200"
     alt="Accelerated Tech" src="images/sponsors/accelerated-tech.png" /></div></a></div>
 	
-  <h3 style="margin: 1.5em 0;">Live Captioning Sponsor!</h3>	
+  <!-- <h3 style="margin: 1.5em 0;">Live Captioning Sponsor!</h3>  -->
   
   <!-- <div class="sponsor"><a href="https://stantonventures.com" target="_blank"><span -->
   <!--   class="magic">.</span><div class="logo"><img width="200" -->
