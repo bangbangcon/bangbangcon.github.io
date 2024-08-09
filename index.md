@@ -170,6 +170,12 @@ And, as always, our live stream will be public and free for everyone, no ticket 
 	of our afternoon coffee breaks! ☕<br />
 	Thank you, Nicole! ❤️</div></div>
 
+  <h3 style="margin: 1.5em 0;">Venue Sponsor!</h3>	
+  
+  <div class="sponsor"><a href="https://engineering.ucsc.edu/" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="400"
+    alt="UC Santa Cruz Baskin Engineering" src="images/sponsors/baskin-engineering.png" /></div></a></div>
+
 </div>
 
 Special thanks to [John Feminella](http://jxf.me/) for underwriting !!Con 2024! ❤️
