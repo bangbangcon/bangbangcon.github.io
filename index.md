@@ -133,6 +133,8 @@ And, as always, our live stream will be public and free for everyone, no ticket 
 
 ## Who's sponsoring?
 
+<div class="sponsor-list" markdown="0">
+
   <h3 style="margin: 1.5em 0;">AWESOME! Sponsors!</h3>
 
   <!-- <div class="sponsor"><a href="https://buttondown.com/" target="_blank"><span -->
@@ -164,6 +166,8 @@ And, as always, our live stream will be public and free for everyone, no ticket 
   <div class="sponsor"><a href="https://magicbutton.club" target="_blank"><span
     class="magic">.</span><div class="logo"><img width="200"
     alt="Magic Button Club" src="images/sponsors/magic-button-club.svg" /></div></a></div>	
+	
+</div>
 
 Want to sponsor !!Con as an organization or individual?  We're trying to set the standard for a COVID-safe and inclusive conference, and that costs money.  If you can help out, check out our [sponsorship page](sponsors.html) and [get in touch](mailto:2024-organizers@exclamation.foundation)!
 
