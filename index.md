@@ -145,27 +145,25 @@ And, as always, our live stream will be public and free for everyone, no ticket 
     class="magic">.</span><div class="logo"><img width="200"
     alt="Accelerated Tech" src="images/sponsors/accelerated-tech.png" /></div></a></div>
 	
-  <!-- <h3 style="margin: 1.5em 0;">Live Captioning Sponsor!</h3>  -->
-  
-  <!-- <div class="sponsor"><a href="https://stantonventures.com" target="_blank"><span -->
-  <!--   class="magic">.</span><div class="logo"><img width="200" -->
-  <!--   alt="Stanton Ventures" src="images/sponsors/stanton-ventures.png" /></div></a></div> -->
-	
-  <h3 style="margin: 1.5em 0;">Coffee Sponsor!</h3>	
-  
-  <a href="https://ntietz.com/" target="_blank">Nicole Tietz-Sokolskaya</a> is the generous sponsor of our afternoon coffee breaks! ☕ Thank you, Nicole! ❤️
-	
-  <h3 style="margin: 1.5em 0;">Swag Sponsor!</h3>	
+  <h3 style="margin: 1.5em 0;">Swag Sponsors!</h3>	
   
   <div class="sponsor"><span
     class="magic">.</span><div class="logo"><img width="120"
     alt="Meyer for Hire Consulting" src="images/sponsors/meyer-for-hire-consulting.png" /></div></div>		
 	
-  <h3 style="margin: 1.5em 0;">Button Sponsor!</h3>	
-  
   <div class="sponsor"><a href="https://magicbutton.club" target="_blank"><span
     class="magic">.</span><div class="logo"><img width="120"
     alt="Magic Button Club" src="images/sponsors/magic-button-club.svg" /></div></a></div>	
+	
+  <!-- <h3 style="margin: 1.5em 0;">Live Captioning Sponsor!</h3>  -->
+  
+  <!-- <div class="sponsor"><a href="https://stantonventures.com" target="_blank"><span -->
+  <!--   class="magic">.</span><div class="logo"><img width="200" -->
+  <!--   alt="Stanton Ventures" src="images/sponsors/stanton-ventures.png" /></div></a></div> -->
+
+  <h3 style="margin: 1.5em 0;">Coffee Sponsor!</h3>	
+  
+  <a href="https://ntietz.com/" target="_blank">Nicole Tietz-Sokolskaya</a> is the generous sponsor of our afternoon coffee breaks! ☕ Thank you, Nicole! ❤️
 	
 </div>
 
