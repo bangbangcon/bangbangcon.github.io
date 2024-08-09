@@ -167,7 +167,9 @@ And, as always, our live stream will be public and free for everyone, no ticket 
 	
 </div>
 
-Want to sponsor !!Con as an organization or individual?  We're trying to set the standard for a COVID-safe and inclusive conference, and that costs money.  If you can help out, check out our [sponsorship page](sponsors.html) and [get in touch](mailto:2024-organizers@exclamation.foundation)!
+Special thanks to [John Feminella](http://jxf.me/) for underwriting !!Con 2024! ❤️
+
+Want to sponsor !!Con as an organization or individual?  We're trying to set the standard for a COVID-safe and inclusive conference.  If you can help out, check out our [sponsorship page](sponsors.html) and [get in touch](mailto:2024-organizers@exclamation.foundation)!
 
 <a name="organizers"></a>
 
