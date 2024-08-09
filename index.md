@@ -153,7 +153,7 @@ And, as always, our live stream will be public and free for everyone, no ticket 
 	
   <h3 style="margin: 1.5em 0;">Coffee Sponsor!</h3>	
   
-  <a href="https://ntietz.com/" target="_blank">Nicole Tietz-Sokolskaya</a> is the generous sponsor of our afternoon coffee breaks! ☕ Thank you, Nicole! ❤️</a>
+  <a href="https://ntietz.com/" target="_blank">Nicole Tietz-Sokolskaya</a> is the generous sponsor of our afternoon coffee breaks! ☕ Thank you, Nicole! ❤️
 	
   <h3 style="margin: 1.5em 0;">Swag Sponsor!</h3>	
   
