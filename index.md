@@ -138,7 +138,7 @@ And, as always, our live stream will be public and free for everyone, no ticket 
   <h3 style="margin: 1.5em 0;">AWESOME! Sponsors!</h3>
 
   <div class="sponsor"><a href="https://buttondown.com/" target="_blank"><span
-    class="magic">.</span><div class="logo"><img width="150"
+    class="magic">.</span><div class="logo"><img width="120"
     alt="Buttondown" src="images/sponsors/buttondown-color.svg" /></div></a></div>
     
   <div class="sponsor"><a href="https://accelerated.tech/" target="_blank"><span
