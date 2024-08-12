@@ -314,19 +314,6 @@ Have you ever looked at your phone or laptop and wondered how it's made? The ans
 
 ---
 
-### Peter Sobot
-
-**Reverse-engineering a 30-year old synthesizer to perfectly recreate video game music!**
-
-<a name="peter-sobot" id="peter-sobot"></a>
-<img src="images/speakers/peter-sobot.png" alt="Peter Sobot" class="speaker-img" />
-
-Video games are the source of precious memories for a lot of people - and an entire community has sprung up to capture those memories by painstakingly recreating and preserving video game music. To do this accurately, people have gone to extreme lengths by emulating entire synthesizers just to get the same sound that was used for a game. Come see how I meticulously reverse engineered one such music-making machine from the 80s and created a near-perfect emulator for it in code.
-
-**Peter** is an engineer and musician from Toronto, currently living in Brooklyn. He once had business cards that said “House Drummer at Spotify” on them but now he maintains open-source audio processing libraries and works on machine learning systems.
-
----
-
 ### Phil Warren
 
 **Images from a 1970s Typewriter!!!**
