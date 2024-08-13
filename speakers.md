@@ -120,21 +120,6 @@ In the ELIZA effect, we temporarily read a natural language system as sentient. 
 
 ---
 
-### Danielle Marshall
-
-<!-- <a name="devon-tao" id="devon-tao"></a>
-<img src="images/speakers/devon-tao.png" alt="Devon Tao" class="speaker-img" /> -->
-
-**Grading your Types? From Bangs to Boxes and Beyond!**
-
-Most programmers think of types as a tool to describe different kinds of value that might exist in our programs: integers, floating point numbers, and so on. These days, though, types help us to not only describe *what* our programs compute, but also *how* they compute: what side effects might a computation have? What resources does it use? Is it being accessed by someone who has the right permissions?
-
-In this talk, we'll explore how modern programming languages are using types in this exciting new way. We'll start with the idea of "linear types", which have been around for a long time but are only recently starting to be adopted for practical programming, and from there we'll move on to "graded types", a much newer idea; these go beyond linearity and let us express all kinds of interesting properties about our programs. We'll discuss these ideas both from the perspective of the Granule research language and also looking at how they are slowly making their way into the wider world of programming.
-
-**Danielle** is currently a research associate at the University of Glasgow, where she works on mailbox types for reliable and scalable communication. She recently submitted her PhD thesis at the University of Kent, which involved extending Granule's graded type system to capture global properties such as memory and communication safety.
-
----
-
 ### Devon Tao
 
 <a name="devon-tao" id="devon-tao"></a>
