@@ -154,11 +154,11 @@ And, as always, our live stream will be public and free for everyone, no ticket 
     class="magic">.</span><div class="logo"><img width="120"
     alt="Magic Button Club" src="images/sponsors/magic-button-club.svg" /></div></a></div>	
 	
-  <!-- <h3 style="margin: 1.5em 0;">Live Captioning Sponsor!</h3>  -->
+  <h3 style="margin: 1.5em 0;">Live Captioning Sponsor!</h3>
   
-  <!-- <div class="sponsor"><a href="https://stantonventures.com" target="_blank"><span -->
-  <!--   class="magic">.</span><div class="logo"><img width="200" -->
-  <!--   alt="Stanton Ventures" src="images/sponsors/stanton-ventures.png" /></div></a></div> -->
+  <div class="sponsor"><a href="https://stantonventures.com" target="_blank"><span
+    class="magic">.</span><div class="logo"><img width="200"
+    alt="Stanton Ventures" src="images/sponsors/stanton-ventures.png" /></div></a></div>
 
   <h3 style="margin: 1.5em 0;">Coffee Sponsor!</h3>	
   
