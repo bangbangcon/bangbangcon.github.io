@@ -26,8 +26,8 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 | 1:45-2:30pm     | **Session the Second:** <br /> &bull; *The Astrolabe! Using modern digital computing to recreate ancient analog computers* ([Jes Wolfe](speakers.html#jes-wolfe))<br />&bull; *A brief history of keyboards!* ([Jesse Chen](speakers.html#jesse-chen))<br />&bull; *Recreating Sketchpad, the first GUI!* ([Adam Solove](speakers.html#adam-solove))<br />&bull; *Images from a 1970s Typewriter!!* ([Phil Warren](speakers.html#phil-warren))<br />
 | 2:30-2:40pm     | Break!
 | 2:40-3:25pm     | **Session the Third:** <br /> &bull; *bang! bang! he murdered math! {the musical!}* ([Taylor Troesh](speakers.html#taylor-troesh))<br />&bull; *Huggable Data! Making the Ephemeral Last Longer with Textile Dataviz!* ([Aldís Elfarsdóttir](speakers.html#aldis-elfarsdottir))<br />&bull; *Keyboarding Ain&rsquo;t Easy?? What Not To Do When Building a Keyboard!!* ([Liz Frost](speakers.html#liz-frost))<br />&bull; *The Perfect Blend!! Reverse engineering a bluetooth protocol for better smoothies!* ([Ryan Mast](speakers.html#ryan-mast))<br />
-| 3:25-4:15pm     | Unconferencing!
-| 4:15-5:00pm     | **Session the Fourth:** <br /> &bull; *How to make your own microchip!!!* ([Omar Rizwan](speakers.html#omar-rizwan))<br />&bull; *Grading your Types? From Bangs to Boxes and Beyond!* ([Danielle Marshall](speakers.html#danielle-marshall))<br />&bull; *Let&rsquo;s find random things on the street, with full-text search!* ([Yufeng Zhao](speakers.html#yufeng-zhao))<br />&bull; *It wasn&rsquo;t me, it was the cosmic rays! Blaming physics for our evil actions!* ([Matías Lang](speakers.html#matias-lang))<br />
+| 3:25-4:25pm     | Unconferencing!
+| 4:25-5:00pm     | **Session the Fourth:** <br /> &bull; *How to make your own microchip!!!* ([Omar Rizwan](speakers.html#omar-rizwan))<br />&bull; *Let&rsquo;s find random things on the street, with full-text search!* ([Yufeng Zhao](speakers.html#yufeng-zhao))<br />&bull; *It wasn&rsquo;t me, it was the cosmic rays! Blaming physics for our evil actions!* ([Matías Lang](speakers.html#matias-lang))<br />
 | 5:00pm          | Wrap for the day
 
 </div>
