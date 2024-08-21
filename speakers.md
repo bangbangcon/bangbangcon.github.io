@@ -109,8 +109,8 @@ There's an invisible world around us: The electromagnetic spectrum! It's how rad
 
 ### Daniel Temkin
 
-<!-- <a name="devon-tao" id="devon-tao"></a>
-<img src="images/speakers/devon-tao.png" alt="Devon Tao" class="speaker-img" /> -->
+<a name="daniel-temkin" id="daniel-temkin"></a>
+<img src="images/speakers/daniel-temkin.png" alt="Daniel Temkin" class="speaker-img" />
 
 **Lord Zeus, defender of travelers and of those far from home, please create a function called printBeerInsideLoop with parameter n!**
 
