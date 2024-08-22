@@ -13,8 +13,6 @@ what will you do now???? ?? ? ? ? ??
   **Quick Links:**
   [Venue](venue.html)
   &middot;
-  [Give a Talk](give-a-talk.html)
-  &middot;
   [Program](program.html)
   &middot;
   [Speakers](speakers.html)
@@ -147,9 +145,9 @@ And, as always, our live stream will be public and free for everyone, no ticket 
 	
   <h3 style="margin: 1.5em 0;">Swag Sponsors!</h3>	
   
-  <div class="sponsor"><span
+  <div class="sponsor"><a href="https://www.meyer4hire.com/"><span
     class="magic">.</span><div class="logo"><img width="120"
-    alt="Meyer for Hire Consulting" src="images/sponsors/meyer-for-hire-consulting.png" /></div></div>		
+    alt="Meyer for Hire Consulting" src="images/sponsors/meyer-for-hire-consulting.png" /></div></a></div>		
 	
   <div class="sponsor"><a href="https://magicbutton.club" target="_blank"><span
     class="magic">.</span><div class="logo"><img width="120"
