@@ -3,6 +3,23 @@ layout: default-2024
 title: Venue - !!Con 2024
 ---
 
+<p style="text-align: center;">
+  **Quick Links:**
+  [Livestream](livestream.html)
+  &middot;
+  [Venue](venue.html)
+  &middot;
+  [Give a Talk](give-a-talk.html)
+  &middot;
+  [Program](program.html)
+  &middot;
+  [Speakers](speakers.html)
+  &middot;
+  [Sponsorship](sponsors.html)
+  &middot;
+  [Conduct](conduct.html)
+</p>
+
 # Venue
 
 !!Con 2024 will be held *outdoors* (!!), on August 24th and 25th, in the courtyard of the [Baskin School of Engineering](https://engineering.ucsc.edu/), on the campus of [UC Santa Cruz](https://www.ucsc.edu/), in sunny and scenic Santa Cruz, California, USA.  Santa Cruz is a joy of coastal California redwoods, about an hour&rsquo;s drive from the bustle of Silicon Valley.

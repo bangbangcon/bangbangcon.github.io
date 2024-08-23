@@ -3,6 +3,23 @@ layout: default-2024
 title: Sponsorship - !!Con 2024
 ---
 
+<p style="text-align: center;">
+  **Quick Links:**
+  [Livestream](livestream.html)
+  &middot;
+  [Venue](venue.html)
+  &middot;
+  [Give a Talk](give-a-talk.html)
+  &middot;
+  [Program](program.html)
+  &middot;
+  [Speakers](speakers.html)
+  &middot;
+  [Sponsorship](sponsors.html)
+  &middot;
+  [Conduct](conduct.html)
+</p>
+
 # Sponsoring !!Con
 
 Thank you for your interest in sponsoring !!Con 2024!  💜

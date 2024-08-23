@@ -3,6 +3,23 @@ layout: default-2024
 title: Speakers - !!Con 2024
 ---
 
+<p style="text-align: center;">
+  **Quick Links:**
+  [Livestream](livestream.html)
+  &middot;
+  [Venue](venue.html)
+  &middot;
+  [Give a Talk](give-a-talk.html)
+  &middot;
+  [Program](program.html)
+  &middot;
+  [Speakers](speakers.html)
+  &middot;
+  [Sponsorship](sponsors.html)
+  &middot;
+  [Conduct](conduct.html)
+</p>
+
 # Speakers
 
 <a name="keynotes" id="keynotes"></a>
