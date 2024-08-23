@@ -22,7 +22,7 @@ title: Livestream - !!Con 2024
 
 # Livestream 
 
-Talks begin at 10:25am PT on Saturday, August 24.  The live stream will begin shortly before that, at 10:00am PT.
+Talks begin at 10:25am PT on Saturday, August 24.  The livestream will begin shortly before that, at 10:00am PT.
 
 <div align="center">
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'>
