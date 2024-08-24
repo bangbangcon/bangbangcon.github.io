@@ -11,6 +11,8 @@ what will you do now???? ?? ? ? ? ??
 
 <p style="text-align: center;">
   **Quick Links:**
+  [Livestream](livestream.html)
+  &middot;
   [Venue](venue.html)
   &middot;
   [Program](program.html)

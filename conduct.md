@@ -3,6 +3,23 @@ layout: default-2024
 title: Code of Conduct - !!Con 2024
 ---
 
+<p style="text-align: center;">
+  **Quick Links:**
+  [Livestream](livestream.html)
+  &middot;
+  [Venue](venue.html)
+  &middot;
+  [Give a Talk](give-a-talk.html)
+  &middot;
+  [Program](program.html)
+  &middot;
+  [Speakers](speakers.html)
+  &middot;
+  [Sponsorship](sponsors.html)
+  &middot;
+  [Conduct](conduct.html)
+</p>
+
 # Code of Conduct
 
 Below, you’ll find the Code of Conduct for Exclamation Foundation events --
