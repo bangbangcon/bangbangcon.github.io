@@ -36,8 +36,8 @@ Jump directly to the [Saturday](#saturday) or [Sunday](#sunday) program!
 |-----------------|-------------------------------------------------------------------------
 | 9:00am          | Space opens (please don't arrive before nine!)
 | 9:00-10:25am    | Registration; refreshments; mingling
-| 10:25-11:10am   | &bull; Opening remarks <br /> &bull; **Keynote talk:** *Let’s make local and accountable tech!* ([Dawn Walker](speakers.html#dawn-walker))
-| 11:10-11:30am   | Break!
+| 10:25-11:20am   | &bull; Opening remarks <br /> &bull; **Keynote talk:** *Let’s make local and accountable tech!* ([Dawn Walker](speakers.html#dawn-walker))
+| 11:20-11:30am   | Break!
 | 11:30am-12:05pm | **Session the First:** <br /> &bull; *Programming with only exceptions!* ([Nicole Tietz-Sokolskaya](speakers.html#nicole-tietz-sokolskaya))<br />&bull; *Let's run a tiny chess neural network by hand!* ([Amédée d'Aboville](speakers.html#amedee-d-aboville))<br /> &bull; *The Astrolabe! Using modern digital computing to recreate ancient analog computers* ([Jes Wolfe](speakers.html#jes-wolfe))<br />
 | 12:05-1:55pm    | Break for lunch
 | 1:55-2:30pm     | **Session the Second:** <br /> &bull; *A brief history of keyboards!* ([Jesse Chen](speakers.html#jesse-chen))<br />&bull; *Recreating Sketchpad, the first GUI!* ([Adam Solove](speakers.html#adam-solove))<br />&bull; *Images from a 1970s Typewriter!!* ([Phil Warren](speakers.html#phil-warren))<br />
