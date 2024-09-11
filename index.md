@@ -5,15 +5,13 @@ title: The joy, excitement, and surprise of computing - !!Con Archive
 
 <p style="text-align: center;">
   **Quick Links:**
-  [Livestream](livestream.html)
-  &middot;
-  [Venue](venue.html)
-  &middot;
-  [Program](program.html)
-  &middot;
   [Speakers](speakers.html)
   &middot;
-  [Sponsorship](sponsors.html)
+  [Talks*](talks.html)
+  &middot;
+  [Events](events.html)
+  &middot;
+  [Past Sponsorships](sponsors.html)
   &middot;
   [Conduct](conduct.html)
 </p>
