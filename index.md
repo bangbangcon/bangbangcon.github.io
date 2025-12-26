@@ -71,7 +71,7 @@ time.
 
 ## Who organized all this?
 
-The !!Con organizing team consisted of a variety of individuals over the 10 year run including:
+The !!Con organizing team consisted of a variety of individuals over the 10-year run including:
 
 [Sarah Withee](https://geekygirlsarah.com/links),
 [Erty Seidohl](https://erty.me),
@@ -91,7 +91,7 @@ The !!Con organizing team consisted of a variety of individuals over the 10 year
 [Dev Purandare](https://sincerely.dev),
 Jeena Lee,
 
-Special thanks to [Lee Pepper](https://sheerspite.ca/), who has been invaluable in providing administrative help!
+Special thanks to [Lee Pepper](https://sheerspite.ca/), who has been invaluable in providing administrative help towards the end!
 
 Logo design by
 [Lea Albaugh](http://lea.zone/).
@@ -101,5 +101,5 @@ Logo design by
 
 ## Code of Conduct
 
-We have a [code of conduct](conduct.html) that all !!Con participants are required to observe. We'd be delighted if you wish to 
+We have a [code of conduct](conduct.html) that all !!Con participants were required to observe. We'd be delighted if you wish to 
 use any portion of it for your own events!

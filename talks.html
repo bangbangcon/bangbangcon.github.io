@@ -1,0 +1,271 @@
+---
+layout: default-end
+title: Talk Archive - !!Con
+---
+
+<style>
+  #talk-count {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #301934;
+    margin-bottom: 15px;
+  }
+  .filter-controls {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    background: #fdfdfd;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+  .filter-controls input[type="text"], .filter-controls select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    flex-grow: 1;
+    min-width: 200px;
+  }
+  .filter-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1em;
+    padding: 5px 10px;
+    background: #eee;
+    border-radius: 8px;
+  }
+  .talk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .talk-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .talk-header {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  .speaker-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 2px solid #301934;
+  }
+  .talk-card h3 {
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 1.2;
+  }
+  .talk-card .author {
+    font-weight: bold;
+    color: #555;
+    margin: 5px 0 0 0;
+  }
+  .talk-card .year {
+    font-size: 0.9em;
+    color: #888;
+    margin: 0;
+  }
+  .talk-card .description {
+    font-size: 0.9em;
+    color: #444;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0;
+    line-height: 1.4;
+  }
+  .talk-card .description:hover {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+  }
+  .talk-card .links {
+    margin-top: auto;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .talk-card .links a {
+    text-decoration: none;
+    font-size: 0.9em;
+    background: #301934;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .talk-card .links a:hover {
+    background: #000064;
+  }
+  .hidden {
+    display: none;
+  }
+</style>
+
+<h1>Talk Archive</h1>
+
+<p id="talk-count">Total talks: {{ site.data.all_talks | size }}</p>
+
+<div class="filter-controls" markdown="0">
+  <input type="text" id="search-input" placeholder="Search title or author...">
+  <select id="year-filter">
+    <option value="">All Years</option>
+    {% assign years = "2024,2022,2021,2020,2019,2018,2017,2016,2015,2014" | split: "," %}
+    {% for year in years %}<option value="{{ year }}">{{ year }}</option>{% endfor %}
+  </select>
+  <select id="sort-order">
+    <option value="year-desc">Year (Newest first)</option>
+    <option value="year-asc">Year (Oldest first)</option>
+    <option value="author">Speaker Name</option>
+    <option value="title">Talk Title</option>
+  </select>
+  <div class="filter-group">
+    <input type="checkbox" id="video-filter">
+    <label for="video-filter">Has Video</label>
+  </div>
+  <div class="filter-group">
+    <input type="checkbox" id="transcript-filter">
+    <label for="transcript-filter">Has Transcript</label>
+  </div>
+</div>
+
+<div class="talk-grid" id="talk-grid" markdown="0">
+{% assign all_talks = site.data.all_talks %}
+{% for talk in all_talks %}
+  {% if talk.youtube_link != "" and talk.youtube_link != false %}
+    {% assign has_video = "true" %}
+  {% else %}
+    {% assign has_video = "false" %}
+  {% endif %}
+  {% if talk.transcript != "" and talk.transcript != false %}
+    {% assign has_transcript = "true" %}
+  {% else %}
+    {% assign has_transcript = "false" %}
+  {% endif %}
+  <div class="talk-card" 
+       data-year="{{ talk.year }}" 
+       data-author="{{ talk.author | downcase | escape }}" 
+       data-title="{{ talk.title | downcase | escape }}" 
+       data-order="{{ talk.order }}"
+       data-has-video="{{ has_video }}" 
+       data-has-transcript="{{ has_transcript }}">
+    <div class="talk-header">
+      {% if talk.speaker_photo %}
+      <img src="images/speakers/{{ talk.speaker_photo }}" alt="{{ talk.author | escape }}" class="speaker-photo">
+      {% else %}
+      <img src="images/logo.png" alt="{{ talk.author | escape }}" class="speaker-photo">
+      {% endif %}
+      <div>
+        <h3>{{ talk.title }}</h3>
+        <p class="author">By {{ talk.author }}</p>
+        <p class="year">{{ talk.year }}</p>
+      </div>
+    </div>
+    {% if talk.description %}
+    <p class="description">{{ talk.description | strip_html | truncate: 200 }}</p>
+    {% endif %}
+    <div class="links">
+      {% if has_video == "true" %}
+      <a href="https://www.youtube.com/watch?v={{ talk.youtube_link }}" target="_blank">Video</a>
+      {% endif %}
+      {% if has_transcript == "true" %}
+        {% if talk.transcript contains "http" %}
+        <a href="{{ talk.transcript }}" target="_blank">Transcript</a>
+        {% else %}
+        <a href="/{{ talk.year }}-transcripts/{{ talk.transcript }}.txt" target="_blank">Transcript</a>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+<script>
+  const searchInput = document.getElementById('search-input');
+  const yearFilter = document.getElementById('year-filter');
+  const sortOrder = document.getElementById('sort-order');
+  const videoFilter = document.getElementById('video-filter');
+  const transcriptFilter = document.getElementById('transcript-filter');
+  const talkGrid = document.getElementById('talk-grid');
+  const talkCards = Array.from(document.querySelectorAll('.talk-card'));
+  const talkCountDisplay = document.getElementById('talk-count');
+  const totalTalks = talkCards.length;
+
+  function sortTalks() {
+    const order = sortOrder.value;
+    const sortedCards = [...talkCards].sort((a, b) => {
+      if (order === 'year-desc' || order === 'year-asc') {
+        const yearA = parseInt(a.getAttribute('data-year'));
+        const yearB = parseInt(b.getAttribute('data-year'));
+        if (yearA !== yearB) {
+          return order === 'year-desc' ? yearB - yearA : yearA - yearB;
+        }
+        const orderA = parseInt(a.getAttribute('data-order') || 0);
+        const orderB = parseInt(b.getAttribute('data-order') || 0);
+        return orderA - orderB;
+      } else if (order === 'author') {
+        return a.getAttribute('data-author').localeCompare(b.getAttribute('data-author'));
+      } else if (order === 'title') {
+        return a.getAttribute('data-title').localeCompare(b.getAttribute('data-title'));
+      }
+      return 0;
+    });
+
+    sortedCards.forEach(card => talkGrid.appendChild(card));
+  }
+
+  function filterTalks() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const selectedYear = yearFilter.value;
+    const showOnlyVideo = videoFilter.checked;
+    const showOnlyTranscript = transcriptFilter.checked;
+
+    const cards = document.querySelectorAll('.talk-card');
+    let visibleCount = 0;
+    cards.forEach(card => {
+      const title = card.getAttribute('data-title');
+      const author = card.getAttribute('data-author');
+      const year = card.getAttribute('data-year');
+      const hasVideo = card.getAttribute('data-has-video') === 'true';
+      const hasTranscript = card.getAttribute('data-has-transcript') === 'true';
+
+      const matchesSearch = title.includes(searchTerm) || author.includes(searchTerm);
+      const matchesYear = selectedYear === "" || year === selectedYear;
+      const matchesVideo = !showOnlyVideo || hasVideo;
+      const matchesTranscript = !showOnlyTranscript || hasTranscript;
+
+      if (matchesSearch && matchesYear && matchesVideo && matchesTranscript) {
+        card.classList.remove('hidden');
+        visibleCount++;
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+
+    if (visibleCount === totalTalks) {
+      talkCountDisplay.textContent = `Total talks: ${totalTalks}`;
+    } else {
+      talkCountDisplay.textContent = `Showing ${visibleCount} of ${totalTalks} talks`;
+    }
+  }
+
+  searchInput.addEventListener('input', filterTalks);
+  yearFilter.addEventListener('change', filterTalks);
+  sortOrder.addEventListener('change', sortTalks);
+  videoFilter.addEventListener('change', filterTalks);
+  transcriptFilter.addEventListener('change', filterTalks);
+</script>
