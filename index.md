@@ -20,6 +20,10 @@ title: The joy, excitement, and surprise of computing - !!Con Archive
 joyous, exciting, and surprising moments in computing.
 </p>
 
+<p id="blurb">Check out our [Talk Archive](talks.html) for a selection of talks from past !!Cons. And check out our [Speaker Bios](speakers.html) to learn more about our amazing speakers.
+</p>
+
+
 ## What was so great about !!Con?
 
 Here's what some of our past speakers and attendees said about us:

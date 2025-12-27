@@ -111,6 +111,14 @@ title: Talk Archive - !!Con
   .talk-card .links a:hover {
     background: #000064;
   }
+  .keynote-label {
+    background: #ffcc00;
+    color: #301934;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
   .hidden {
     display: none;
   }
@@ -179,6 +187,9 @@ title: Talk Archive - !!Con
     <p class="description">{{ talk.description | strip_html | truncate: 200 }}</p>
     {% endif %}
     <div class="links">
+      {% if talk.keynote %}
+      <span class="keynote-label">Keynote</span>
+      {% endif %}
       {% if has_video == "true" %}
       <a href="https://www.youtube.com/watch?v={{ talk.youtube_link }}" target="_blank">Video</a>
       {% endif %}

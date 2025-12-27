@@ -25,7 +25,7 @@
         <div class="header-inner">
           <a href="index.html"><img src="images/logo_light.png" alt="!!Con logo"/></a>
           <h1><a href="index.html"><span style="white-space: nowrap; display: inline-block;"><span style="letter-spacing:-8px; display: inline-block; padding-right:4px;">!!</span>Con</span></a></h1>
-          <p><span>The joy, excitement, and</span> <span>surprise of computing!<span></p>
+          <p><span>The joy, excitement, and</span> <span>surprise of computing!</span></p>
         </div>
       </div>
       <div class="inner">
@@ -49,5 +49,16 @@
         past speakers who gave 344 talks*!</p>
       </footer>
     </div>
+    <script>
+      (function() {
+        var container = document.querySelector('#container::before');
+        // We can't directly access pseudo-elements in JS style, 
+        // so we'll set a CSS variable on the parent or just use a style tag.
+        var randomDelay = Math.floor(Math.random() * -60);
+        var style = document.createElement('style');
+        style.innerHTML = '#container::before { animation-delay: ' + randomDelay + 's; }';
+        document.head.appendChild(style);
+      })();
+    </script>
   </body>
 </html>
