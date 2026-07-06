@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# A script to generate the montage background image used in our 2019
+# A script to generate the montage background image used in our 2019-2020-west
 # website.  Depends on ImageMagick and coreutils (shuf).
 
 # Create temporary directory for images

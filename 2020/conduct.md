@@ -151,7 +151,7 @@ attendance.
 <!-- ## Transparency reports
 
 !!Con's Code of Conduct committee has compiled a [transparency
-report](/2019/conduct-transparency) for reported incidents in 2019. -->
+report](/2019-2020-west/conduct-transparency) for reported incidents in 2019-2020-west. -->
 
 <!-- TODO
 ## Report a violation (with or without your name)

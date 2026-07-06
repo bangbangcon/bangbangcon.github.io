@@ -88,7 +88,7 @@ May 11-12, 2019.  [Learn more about our venue!](venue-accessibility.html)
 
 Here's what some of our past speakers and attendees said about us:
 
-<!-- Need to update these for 2019 -->
+<!-- Need to update these for 2019-2020-west -->
 
 > "We aren't even at lunch yet and already this is **the coolest conference I've ever been to!**"
 > -- [@mahtab_sabet](https://twitter.com/mahtab_sabet/status/860876124141780992)
