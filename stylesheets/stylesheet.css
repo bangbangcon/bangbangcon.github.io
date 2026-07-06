@@ -39,15 +39,50 @@ hr {
 }
 
 #container {
-    background:
-    /* top, transparent dark purple, faked with gradient */
-    linear-gradient(
-      rgba(68, 172, 201, 0.8),
-      rgba(68, 172, 201, 0.8)
-    ),
-    /* bottom, image */
-    url("../images/montage.jpg");
+    background: url("../images/montage.jpg");
     background-repeat: repeat;
+    position: relative;
+}
+
+#container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 105, 180, 0.8);
+    animation: rainbow-cycle 60s infinite linear;
+    z-index: 0;
+}
+
+#container > * {
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes rainbow-cycle {
+    0% {
+        background-color: rgba(255, 0, 0, 0.8);
+    }
+    16.6% {
+        background-color: rgba(255, 255, 0, 0.8);
+    }
+    33.3% {
+        background-color: rgba(0, 255, 0, 0.8);
+    }
+    50% {
+        background-color: rgba(0, 255, 255, 0.8);
+    }
+    66.6% {
+        background-color: rgba(0, 0, 255, 0.8);
+    }
+    83.3% {
+        background-color: rgba(255, 0, 255, 0.8);
+    }
+    100% {
+        background-color: rgba(255, 0, 0, 0.8);
+    }
 }
 
 .header h1 {
