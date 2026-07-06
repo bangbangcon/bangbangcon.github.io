@@ -44,7 +44,7 @@ We don't intend to produce any more events, but _just in case..._
 
 For updates on !!Con, follow
 [@bangbangcon@mastodon.social](https://mastodon.social/@bangbangcon), or sign up
-for our mailing list below.  We send about four or five emails per year for important announcements about our venue, 
+for our mailing list below.  We used to send about four or five emails per year for important announcements about our venue, 
 submission deadlines, registration, and that sort of thing.  No spam, we promise, and it's easy to unsubscribe at any 
 time.
 
@@ -73,35 +73,43 @@ time.
 
 ## Who organized all this?
 
-The !!Con organizing team consisted of a variety of individuals over the 10-year run including:
+The !!Con organizing team consisted of a variety of individuals over the 10-year run including (in order of their name's SHA3-256 hash):
 
-[Sarah Withee](https://geekygirlsarah.com/links),
-[Erty Seidohl](https://erty.me),
-[Lindsey Kuper](http://decomposition.al/),
-[Joshua Wise](https://joshuawise.com/),
-[Julia Evans](https://jvns.ca),
-[Em Lazer-Walker](https://twitter.com/lazerwalker),
-[Maggie Zhou](https://twitter.com/zmagg),
-[Alicja Raszkowska](https://twitter.com/mamrotynka),
-[Leo Franchi](https://www.instagram.com/lfranchi),
-[Nabil Hassein](https://nabilhassein.github.io),
-[Alex Clemmer](https://twitter.com/hausdorff_space),
-[Emily Xie](https://twitter.com/emilyxxie),
-[Danielle Sucher](https://www.daniellesucher.com/),
-[Kiran Bhattaram](https://twitter.com/kiranb),
-[Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
-[Dev Purandare](https://sincerely.dev),
-Jeena Lee,
+* [Dev Purandare](https://sincerely.dev),
+* [Varun Gandhi](https://twitter.com/cutculus)
+* [Danielle Sucher](https://www.daniellesucher.com/),
+* [Ahmed Abdalla](https://twitter.com/simplyahmaz1ng),
+* [Sarah Withee](https://geekygirlsarah.com/links),
+* [Julia Evans](https://jvns.ca),
+* [Jessica Rudder](https://twitter.com/jessrudder),
+* [Janice Shiu](https://twitter.com/contrepoint21),
+* [Gargi Sharma](https://twitter.com/gawwrgi),
+* [Dema Abu Adas](https://twitter.com/human_dema),
+* [Erty Seidohl](https://erty.me),
+* [Taylor Hodge](https://twitter.com/jtaylorhodge),
+* [Emily Xie](https://twitter.com/emilyxxie),
+* [Kiran Bhattaram](https://twitter.com/kiranb),
+* [Alex Clemmer](https://twitter.com/hausdorff_space),
+* [Lea Albaugh](https://lea.zone/).
+* [Leo Franchi](https://www.instagram.com/lfranchi),
+* [Jeena Lee](https://twitter.com/thejeenalee),
+* [Sara Chicazul](https://twitter.com/chicazul),
+* [Nabil Hassein](https://nabilhassein.github.io),
+* [Joshua Wise](https://joshuawise.com/),
+* [Em Lazer-Walker](https://twitter.com/lazerwalker),
+* [Lindsey Kuper](https://decomposition.al/),
+* [Maggie Zhou](https://twitter.com/zmagg),
+* [Alicja Raszkowska](https://twitter.com/mamrotynka),
 
-Special thanks to [Lee Pepper](https://sheerspite.ca/), who has been invaluable in providing administrative help towards the end!
 
-Logo design by
-[Lea Albaugh](http://lea.zone/).
+Special thanks to [Lee Pepper](https://sheerspite.ca/), who has been invaluable in providing administrative help in 2024!
+
+Logo design by [Lea Albaugh](https://lea.zone//).
 
 
 !!Con was a project of the [Exclamation Foundation](https://exclamation.foundation).
 
 ## Code of Conduct
 
-We have a [code of conduct](conduct.html) that all !!Con participants were required to observe. We'd be delighted if you wish to 
+We have a [Code of Conduct](conduct.html) that all !!Con participants were required to observe. We'd be delighted if you wish to 
 use any portion of it for your own events!
