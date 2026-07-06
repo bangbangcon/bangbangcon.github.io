@@ -3,6 +3,18 @@ layout: default-end
 title: Talk Archive - !!Con
 ---
 
+<p style="text-align: center;">
+  **Quick Links:**
+  [Speakers](speakers.html)
+  &middot;
+  [Talks*](talks.html)
+  &middot;
+  [Past Sponsorships](sponsors.html)
+  &middot;
+  [Conduct](conduct.html)
+</p>
+
+
 <style>
   #talk-count {
     font-size: 1.2em;
@@ -132,7 +144,7 @@ title: Talk Archive - !!Con
   <input type="text" id="search-input" placeholder="Search title or author...">
   <select id="year-filter">
     <option value="">All Years</option>
-    {% assign years = "2024,2022,2021,2020,2019,2018,2017,2016,2015,2014" | split: "," %}
+    {% assign years = "2024,2022,2021,2020,2020-west,2019,2019-west,2018,2017,2016,2015,2014" | split: "," %}
     {% for year in years %}<option value="{{ year }}">{{ year }}</option>{% endfor %}
   </select>
   <select id="sort-order">

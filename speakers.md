@@ -5,20 +5,15 @@ title: Speaker Archive - !!Con
 
 <p style="text-align: center;">
   **Quick Links:**
-  [Livestream](livestream.html)
-  &middot;
-  [Venue](venue.html)
-  &middot;
-  [Give a Talk](give-a-talk.html)
-  &middot;
-  [Program](program.html)
-  &middot;
   [Speakers](speakers.html)
   &middot;
-  [Sponsorship](sponsors.html)
+  [Talks*](talks.html)
+  &middot;
+  [Past Sponsorships](sponsors.html)
   &middot;
   [Conduct](conduct.html)
 </p>
+
 
 <style>
   #speaker-count {

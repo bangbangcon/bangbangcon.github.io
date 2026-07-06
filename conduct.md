@@ -5,20 +5,15 @@ title: Code of Conduct - !!Con 2024
 
 <p style="text-align: center;">
   **Quick Links:**
-  [Livestream](livestream.html)
-  &middot;
-  [Venue](venue.html)
-  &middot;
-  [Give a Talk](give-a-talk.html)
-  &middot;
-  [Program](program.html)
-  &middot;
   [Speakers](speakers.html)
   &middot;
-  [Sponsorship](sponsors.html)
+  [Talks*](talks.html)
+  &middot;
+  [Past Sponsorships](sponsors.html)
   &middot;
   [Conduct](conduct.html)
 </p>
+
 
 # Code of Conduct
 
@@ -227,7 +222,7 @@ The Exclamation Foundation Code of Conduct was illustrated by [Annie Ruygt](http
 <!-- ## Transparency reports
 
 !!Con's Code of Conduct committee has compiled a [transparency
-report](2019/conduct-transparency) for reported incidents in 2019. -->
+report](2019-2020-west/conduct-transparency) for reported incidents in 2019-2020-west. -->
 
 <!-- TODO
 ## Report a violation (with or without your name)

@@ -9,8 +9,6 @@ title: The joy, excitement, and surprise of computing - !!Con Archive
   &middot;
   [Talks*](talks.html)
   &middot;
-  [Events](events.html)
-  &middot;
   [Past Sponsorships](sponsors.html)
   &middot;
   [Conduct](conduct.html)
